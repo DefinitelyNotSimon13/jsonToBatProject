@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.26)  26 FEB 2024 15:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.26)  26 FEB 2024 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -730,7 +730,32 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count342
 \l__pdf_internal_box=\box122
-) (./refman.aux)
+) (./refman.aux
+
+LaTeX Warning: Label `classJson_1_1Value_ab113315e14a4f2579f32f2d30b0eda21' mul
+tiply defined.
+
+
+LaTeX Warning: Label `classJson_1_1Value_ab113315e14a4f2579f32f2d30b0eda21' mul
+tiply defined.
+
+
+LaTeX Warning: Label `classJson_1_1Value_ab113315e14a4f2579f32f2d30b0eda21' mul
+tiply defined.
+
+
+LaTeX Warning: Label `classJson_1_1Value_ab113315e14a4f2579f32f2d30b0eda21' mul
+tiply defined.
+
+
+LaTeX Warning: Label `classJson_1_1Value_ab113315e14a4f2579f32f2d30b0eda21' mul
+tiply defined.
+
+
+LaTeX Warning: Label `classJson_1_1Value_ab113315e14a4f2579f32f2d30b0eda21' mul
+tiply defined.
+
+)
 \openout1 = `refman.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
@@ -751,7 +776,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 183.
 LaTeX Font Info:    ... okay on input line 183.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 183.
 LaTeX Font Info:    ... okay on input line 183.
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count343
 \scratchdimen=\dimen268
@@ -867,9 +892,13 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 20
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
-[21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
+[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
+[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48
+
+]
 Package hyperref Info: Option `pageanchor' set `true' on input line 209.
- (./md_README.tex
+
+(./md_README.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
@@ -892,13 +921,17 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.99994pt on input line 31.
-) (./todo.tex [1
+) (./deprecated.tex [1
 
-
-] [2
+]
+[2
 
 ]
 Chapter 2.
+) (./todo.tex [3] [4
+
+]
+Chapter 3.
 
 Overfull \hbox (27.0pt too wide) in paragraph at lines 9--10
 []
@@ -909,26 +942,26 @@ Overfull \hbox (27.0pt too wide) in paragraph at lines 19--20
 []
  []
 
-) [3] [4
-
-]
-Chapter 3.
-(./namespaces.tex) [5] [6
+) [5] [6
 
 ]
 Chapter 4.
-(./hierarchy.tex [7]) [8]
-Chapter 5.
-(./annotated.tex [9
+(./namespaces.tex) [7] [8
 
-] [10]) [11] [12
+]
+Chapter 5.
+(./hierarchy.tex [9] [10]) [11] [12
 
 ]
 Chapter 6.
-(./files.tex) [13] [14
+(./annotated.tex [13] [14]) [15] [16
 
 ]
 Chapter 7.
+(./files.tex) [17] [18
+
+]
+Chapter 8.
 (./namespaceel.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
@@ -942,7 +975,7 @@ LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <9> not available
 (Font)              Font shape `TS1/phv/m/sl' tried instead on input line 53.
 LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 53.
- [15]
+ [19]
 Underfull \hbox (badness 824) in paragraph at lines 98--119
 [] \T1/phv/m/n/10 = 1 , [] = 2 , [] = 4 ,
  []
@@ -952,7 +985,7 @@ Overfull \hbox (21.97504pt too wide) in paragraph at lines 98--119
 [] \T1/phv/m/n/10 = 256 , [] = 512 , []
  []
 
-[16] [17] [18]) (./namespaceel_1_1base.tex [19] [20]
+[20] [21] [22]) (./namespaceel_1_1base.tex [23] [24]
 Overfull \hbox (17.7145pt too wide) in paragraph at lines 138--139
 \T1/pcr/m/n/8 typedef std[]::unordered[]_[]map$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 
 std[]::string, []$\OML/cmm/m/it/8 >$ [] \T1/pcr/m/n/8 [private] 
@@ -963,22 +996,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--149
 \T1/pcr/m/n/8 typedef std[]::shared[]_[]ptr$\OML/cmm/m/it/8 <$[]$>$ []
  []
 
-[21] [22]
+[25] [26]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 322.
-) (./namespaceel_1_1base_1_1consts.tex [23] [24]
+) (./namespaceel_1_1base_1_1consts.tex [27] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 191--192
 \T1/pcr/m/n/8 const []$\OMS/cmsy/m/n/8 ^^C$ \T1/pcr/m/n/8 el[]::base[]::consts[
 ]::k[]App[]Name[]Format[]Specifier = []("%app")
  []
 
-[25] [26]
+[29] [30]
 Underfull \hbox (badness 10000) in paragraph at lines 324--325
 \T1/pcr/m/n/8 const char$\OMS/cmsy/m/n/8 ^^C$ \T1/pcr/m/n/8 el[]::base[]::const
 s[]::k[]Days[]Abbrev[]7[] = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri",
  []
 
-[27] [28]
+[31] [32]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 4
 64.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1pcr.fd
@@ -989,7 +1022,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--515
 ]::k[]Log[]File[]Format[]Specifier = []("%file")
  []
 
-[29]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 534--535
 \T1/pcr/m/n/8 const []$\OMS/cmsy/m/n/8 ^^C$ \T1/pcr/m/n/8 el[]::base[]::consts[
 ]::k[]Logger[]Id[]Format[]Specifier = []("%logger")
@@ -1007,7 +1040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 554--555
 ]::k[]Log[]Location[]Format[]Specifier = []("%loc")
  []
 
-[30]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 594--595
 \T1/pcr/m/n/8 const []$\OMS/cmsy/m/n/8 ^^C$ \T1/pcr/m/n/8 el[]::base[]::consts[
 ]::k[]Message[]Format[]Specifier = []("%msg")
@@ -1019,7 +1052,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 621--622
 s[]::k[]Months[]Abbrev[]12[] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun",
  []
 
-[31]
+[35]
 Overfull \hbox (53.00627pt too wide) in paragraph at lines 671--672
 \T1/pcr/m/n/8 const []$\OMS/cmsy/m/n/8 ^^C$ \T1/pcr/m/n/8 el[]::base[]::consts[
 ]::k[]Severity[]Level[]Short[]Format[]Specifier = []("%levshort")
@@ -1037,7 +1070,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 729--730
 f([]) / sizeof([][]0[])
  []
 
-[32] [33]
+[36] [37]
 Underfull \hbox (badness 10000) in paragraph at lines 821--822
 \T1/pcr/m/n/8 const []$\OMS/cmsy/m/n/8 ^^C$ \T1/pcr/m/n/8 el[]::base[]::consts[
 ]::k[]Verbose[]Level[]Short[]Log[]Value = []("V")
@@ -1055,155 +1088,248 @@ Underfull \hbox (badness 10000) in paragraph at lines 841--842
 ]::k[]Warning[]Level[]Short[]Log[]Value = []("W")
  []
 
-[34]) (./namespaceel_1_1base_1_1debug.tex)
+[38]) (./namespaceel_1_1base_1_1debug.tex)
 (./namespaceel_1_1base_1_1threading.tex
 Overfull \hbox (42.77861pt too wide) in paragraph at lines 42--43
 \T1/pcr/m/n/8 typedef []$\OML/cmm/m/it/8 <$[]$>$ []
  []
 
-[35]) (./namespaceel_1_1base_1_1threading_1_1internal.tex)
-(./namespaceel_1_1base_1_1type.tex [36] [37]
+[39]) (./namespaceel_1_1base_1_1threading_1_1internal.tex)
+(./namespaceel_1_1base_1_1type.tex [40] [41]
 Overfull \hbox (23.5786pt too wide) in paragraph at lines 127--128
 \T1/pcr/m/n/8 typedef std[]::shared[]_[]ptr$\OML/cmm/m/it/8 <$[]$>$ [] 
  []
 
-) (./namespaceel_1_1base_1_1utils.tex [38] [39] [40]
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
-[] \T1/pcr/m/n/8 std[]::enable[]_[]if$\OML/cmm/m/it/8 <$ \T1/pcr/m/n/8 std[]::i
-s[]_[]pointer$\OML/cmm/m/it/8 <$ [] $\OMS/cmsy/m/n/8 ^^C$ $\OML/cmm/m/it/8 >$[]
-\T1/pcr/m/n/8 ::value, [] $\OML/cmm/m/it/8 >$[]\T1/pcr/m/n/8 ::type el[]::base[
-]::utils[]::safe[]
+) (./namespaceel_1_1base_1_1utils.tex [42] [43] [44]
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+\T1/pcr/m/n/8 static std[]::enable[]_[]if$\OML/cmm/m/it/8 <$ \T1/pcr/m/n/8 std[
+]::is[]_[]pointer$\OML/cmm/m/it/8 <$ \T1/pcr/m/n/8 T $\OMS/cmsy/m/n/8 ^^C$ $\OM
+L/cmm/m/it/8 >$[]\T1/pcr/m/n/8 ::value, void $\OML/cmm/m/it/8 >$[]\T1/pcr/m/n/8
+ ::type el[]::base[]::utils[]::safe[]
  []
 
-) (./namespaceel_1_1base_1_1utils_1_1bitwise.tex [41]) (./namespacestd.tex)
-(./namespaceWIP.tex [42]) [43] [44
+) (./namespaceel_1_1base_1_1utils_1_1bitwise.tex [45]) (./namespaceJson.tex
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 18.
+
+[46]
+Underfull \hbox (badness 3792) in paragraph at lines 97--103
+[]\T1/phv/m/n/10 enum [] { [] = 0 , [] , [] ,
+ []
+
+[47]
+Underfull \hbox (badness 4416) in paragraph at lines 134--136
+[][] [] [] \T1/phv/m/n/10 (dou-ble value, un-signed int precision=[],
+ []
+
+
+Overfull \hbox (58.98982pt too wide) in paragraph at lines 152--154
+\T1/pcr/m/n/8 using [] = typedef typename std[]::conditional$\OML/cmm/m/it/8 <$
+[]\T1/pcr/m/n/8 , []$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 T$\OML/cmm/m/it/8 >$\T1/pc
+r/m/n/8 ,
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\T1/pcr/m/n/8 using [] = typedef std[]::basic[]_[]istringstream$\OML/cmm/m/it/8
+ <$\T1/pcr/m/n/8 String[]::value[]_[]type, String[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+\T1/pcr/m/n/8 using [] = typedef std[]::basic[]_[]ostringstream$\OML/cmm/m/it/8
+ <$\T1/pcr/m/n/8 String[]::value[]_[]type, String[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+\T1/pcr/m/n/8 using [] = typedef std[]::basic[]_[]string$\OML/cmm/m/it/8 <$\T1/
+pcr/m/n/8 char, std[]::char[]_[]traits$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 char$\OM
+L/cmm/m/it/8 >$\T1/pcr/m/n/8 , []$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 char$\OML/cmm
+/m/it/8 >$
+ []
+
+[49] [50]
+Underfull \hbox (badness 10000) detected at line 406
+[][][]
+ []
+
+[51]
+Underfull \hbox (badness 10000) detected at line 452
+[][][]
+ []
+
+[52]
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 7.19995pt on input line 512.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 519.
+ [53]) (./namespacestd.tex) (./namespaceWIP.tex [54]) [55] [56
 
 ]
-Chapter 8.
+Chapter 9.
 (./classel_1_1base_1_1utils_1_1AbstractRegistry.tex <./classel_1_1base_1_1utils
 _1_1AbstractRegistry.pdf>
-<classel_1_1base_1_1utils_1_1AbstractRegistry.pdf, id=7955, 501.875pt x 42.4385
-5pt>
+<classel_1_1base_1_1utils_1_1AbstractRegistry.pdf, id=12069, 501.875pt x 42.438
+55pt>
 File: classel_1_1base_1_1utils_1_1AbstractRegistry.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1utils_1_1AbstractRegistry.pdf>
 Package pdftex.def Info: classel_1_1base_1_1utils_1_1AbstractRegistry.pdf  used
  on input line 11.
 (pdftex.def)             Requested size: 398.37608pt x 33.68605pt.
- [45]
+ [57]
 Underfull \hbox (badness 10000) in paragraph at lines 100--102
-[] \T1/pcr/m/n/8 Container[]::const[]_[]iterator []$\OML/cmm/m/it/8 <$ []\T1/pc
-r/m/n/8 , [] $\OML/cmm/m/it/8 >$[]
+\T1/pcr/m/n/8 typedef Container[]::const[]_[]iterator []$\OML/cmm/m/it/8 <$ \T1
+/pcr/m/n/8 T[]_[][]Ptr, Container $\OML/cmm/m/it/8 >$[]
  []
 
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 124.
-[46]
-Underfull \hbox (badness 10000) detected at line 176
+[58]
+Underfull \hbox (badness 10000) detected at line 172
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 194
+Underfull \hbox (badness 10000) detected at line 186
 [][][]
  []
 
-[47]
-Underfull \hbox (badness 10000) detected at line 212
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 241
+[59]
+Underfull \hbox (badness 10000) detected at line 200
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 259
+Underfull \hbox (badness 10000) detected at line 225
 [][][]
  []
 
-[48]
-Overfull \hbox (91.43184pt too wide) in paragraph at lines 313--314
+
+Underfull \hbox (badness 10000) detected at line 239
+[][][]
+ []
+
+[60]
+Overfull \hbox (91.43184pt too wide) in paragraph at lines 289--290
 []\T1/phv/m/n/10 References [], and []. 
  []
 
 
-Overfull \hbox (91.43184pt too wide) in paragraph at lines 347--348
+Overfull \hbox (91.43184pt too wide) in paragraph at lines 319--320
 []\T1/phv/m/n/10 References [], and []. 
  []
 
-[49]
-Underfull \hbox (badness 10000) detected at line 367
+[61]
+Underfull \hbox (badness 10000) detected at line 339
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
 []\T1/phv/m/n/10 Implemented in [], [],
  []
 
 
-Overfull \hbox (76.70769pt too wide) in paragraph at lines 391--392
+Overfull \hbox (76.70769pt too wide) in paragraph at lines 359--360
 []\T1/phv/m/n/10 , [],
  []
 
 ) (./classel_1_1Callback.tex <./classel_1_1Callback.pdf>
-<classel_1_1Callback.pdf, id=8410, 501.875pt x 206.96321pt>
+<classel_1_1Callback.pdf, id=12283, 501.875pt x 206.96321pt>
 File: classel_1_1Callback.pdf Graphic file (type pdf)
 <use classel_1_1Callback.pdf>
 Package pdftex.def Info: classel_1_1Callback.pdf  used on input line 10.
 (pdftex.def)             Requested size: 137.98924pt x 56.9055pt.
- [50] [51]
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 89.
-)
-(./classel_1_1base_1_1utils_1_1CommandLineArgs.tex [52] [53]
+ [62] [63])
+(./classJson_1_1CharReader.tex [64]
+Overfull \vbox (21.19644pt too high) has occurred while \output is active []
+
+
+[65]
+Underfull \hbox (badness 10000) detected at line 59
+[][][]
+ []
+
+) (./classJson_1_1CharReaderBuilder.tex <./classJson_1_1CharReaderBuilder.pdf>
+<classJson_1_1CharReaderBuilder.pdf, id=12386, 501.875pt x 233.4321pt>
+File: classJson_1_1CharReaderBuilder.pdf Graphic file (type pdf)
+<use classJson_1_1CharReaderBuilder.pdf>
+Package pdftex.def Info: classJson_1_1CharReaderBuilder.pdf  used on input line
+ 15.
+(pdftex.def)             Requested size: 122.34398pt x 56.9055pt.
+
+[66] [67]
+Underfull \hbox (badness 10000) detected at line 116
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 119
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 132
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 135
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 148
+[][][]
+ []
+
+[68]
+Underfull \hbox (badness 10000) detected at line 213
+[][][]
+ []
+
+) (./classel_1_1base_1_1utils_1_1CommandLineArgs.tex [69] [70]
 Underfull \hbox (badness 10000) detected at line 130
 [][][]
  []
 
-[54] [55]
+[71] [72]
 Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \T1/pcr/m/n/8 std[]::unordered[]_[]map$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 std[]::s
 tring, std[]::string$\OML/cmm/m/it/8 >$ \T1/pcr/m/n/8 el[]::base[]::utils[]::[]
 Command[]Line[]Args[]::m[]_[]params[]With[]
  []
 
-) (./classel_1_1Configuration.tex <./classel_1_1Configuration.pdf>
-<classel_1_1Configuration.pdf, id=8698, 501.875pt x 358.4793pt>
+) (./classJson_1_1Value_1_1Comments.tex [73] [74])
+(./classel_1_1Configuration.tex <./classel_1_1Configuration.pdf>
+<classel_1_1Configuration.pdf, id=12665, 501.875pt x 358.4793pt>
 File: classel_1_1Configuration.pdf Graphic file (type pdf)
 <use classel_1_1Configuration.pdf>
 Package pdftex.def Info: classel_1_1Configuration.pdf  used on input line 15.
 (pdftex.def)             Requested size: 79.66602pt x 56.9055pt.
- [56]
-[57] [58]
+ [75] [76]
+[77]
 Underfull \hbox (badness 1365) in paragraph at lines 158--159
 []\T1/phv/m/n/10 References [], [], [],
  []
 
-[59]) (./classel_1_1Configurations.tex <./classel_1_1Configurations.pdf>
-<classel_1_1Configurations.pdf, id=8844, 501.875pt x 171.21968pt>
+[78]) (./classel_1_1Configurations.tex <./classel_1_1Configurations.pdf>
+<classel_1_1Configurations.pdf, id=12813, 501.875pt x 171.21968pt>
 File: classel_1_1Configurations.pdf Graphic file (type pdf)
 <use classel_1_1Configurations.pdf>
 Package pdftex.def Info: classel_1_1Configurations.pdf  used on input line 15.
 (pdftex.def)             Requested size: 333.59717pt x 113.81102pt.
 
-[60] [61] [62] [63]
+[79] [80] [81] [82]
 Underfull \hbox (badness 10000) detected at line 217
 [][][]
  []
 
-[64]
+[83]
 Overfull \hbox (42.16374pt too wide) in paragraph at lines 302--303
 []\T1/phv/m/n/10 References [], [], [], and []. 
  []
 
-[65]
-Overfull \hbox (153.50893pt too wide) in paragraph at lines 327--328
-[]\T1/phv/m/n/10 References [], and []. 
- []
-
-
+[84]
 Underfull \hbox (badness 10000) detected at line 346
 [][][]
  []
@@ -1213,7 +1339,7 @@ Underfull \hbox (badness 10000) detected at line 372
 [][][]
  []
 
-[66]
+[85]
 Underfull \hbox (badness 10000) detected at line 393
 [][][]
  []
@@ -1223,12 +1349,7 @@ Underfull \hbox (badness 10000) detected at line 423
 [][][]
  []
 
-
-Overfull \hbox (179.13303pt too wide) in paragraph at lines 436--437
-[]\T1/phv/m/n/10 References [], [], [],
- []
-
-[67]
+[86] [87]
 Underfull \hbox (badness 10000) in paragraph at lines 459--460
 []\T1/phv/m/n/10 References [], [],
  []
@@ -1243,19 +1364,14 @@ Underfull \hbox (badness 10000) detected at line 495
 [][][]
  []
 
-[68]
+[88]
 Overfull \hbox (30.64114pt too wide) in paragraph at lines 522--523
 []\T1/phv/m/n/10 References [], [], [], [], [], [], [], [],
  []
 
 
-Overfull \hbox (270.0603pt too wide) in paragraph at lines 522--523
+Underfull \hbox (badness 3895) in paragraph at lines 522--523
 []\T1/phv/m/n/10 , [], [], [],
- []
-
-
-Overfull \hbox (31.99342pt too wide) in paragraph at lines 558--559
-[]\T1/phv/m/n/10 , and []. 
  []
 
 
@@ -1263,16 +1379,16 @@ Underfull \hbox (badness 10000) detected at line 570
 [][][]
  []
 
-[69]) (./structel_1_1ConfigurationStringToTypeItem.tex [70])
+[89]) (./structel_1_1ConfigurationStringToTypeItem.tex [90])
 (./classel_1_1ConfigurationTypeHelper.tex <./classel_1_1ConfigurationTypeHelper
 .pdf>
-<classel_1_1ConfigurationTypeHelper.pdf, id=9478, 501.875pt x 225.5627pt>
+<classel_1_1ConfigurationTypeHelper.pdf, id=13280, 501.875pt x 225.5627pt>
 File: classel_1_1ConfigurationTypeHelper.pdf Graphic file (type pdf)
 <use classel_1_1ConfigurationTypeHelper.pdf>
 Package pdftex.def Info: classel_1_1ConfigurationTypeHelper.pdf  used on input 
 line 15.
 (pdftex.def)             Requested size: 126.60947pt x 56.9055pt.
- [71]
+ [91]
 Overfull \hbox (17.45662pt too wide) in paragraph at lines 34--35
 []\T1/phv/m/n/10 static const [] [] = static[]_[]cast$\OML/cmm/m/it/10 <$[]$>$\
 T1/phv/m/n/10 ([]) 
@@ -1284,7 +1400,7 @@ Overfull \hbox (50.99928pt too wide) in paragraph at lines 36--37
 T1/phv/m/n/10 ([]) 
  []
 
-[72]
+[92]
 Overfull \hbox (32.54073pt too wide) in paragraph at lines 97--98
 []\T1/phv/m/n/10 References [], [], [],
  []
@@ -1294,7 +1410,7 @@ Underfull \hbox (badness 10000) detected at line 109
 [][][]
  []
 
-[73]
+[93]
 Overfull \hbox (201.17871pt too wide) in paragraph at lines 152--153
 \T1/pcr/m/n/8 const [] el[]::[]Configuration[]Type[]Helper[]::k[]Max[]Valid = s
 tatic[]_[]cast$\OML/cmm/m/it/8 <$[]$>$\T1/pcr/m/n/8 ([])
@@ -1307,25 +1423,26 @@ tatic[]_[]cast$\OML/cmm/m/it/8 <$[]$>$\T1/pcr/m/n/8 ([])
  []
 
 ) (./classel_1_1base_1_1debug_1_1CrashHandler.tex)
-(./classel_1_1CustomFormatSpecifier.tex [74]
+(./classel_1_1CustomFormatSpecifier.tex [94]
 Underfull \hbox (badness 10000) detected at line 35
 [][][]
  []
 
-[75]) (./classel_1_1base_1_1utils_1_1DateTime.tex <./classel_1_1base_1_1utils_1
-_1DateTime.pdf>
-<classel_1_1base_1_1utils_1_1DateTime.pdf, id=9653, 501.875pt x 269.46672pt>
+[95]) (./classJson_1_1Value_1_1CZString.tex [96] [97] [98] [99])
+(./classel_1_1base_1_1utils_1_1DateTime.tex <./classel_1_1base_1_1utils_1_1Date
+Time.pdf>
+<classel_1_1base_1_1utils_1_1DateTime.pdf, id=13574, 501.875pt x 269.46672pt>
 File: classel_1_1base_1_1utils_1_1DateTime.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1utils_1_1DateTime.pdf>
 Package pdftex.def Info: classel_1_1base_1_1utils_1_1DateTime.pdf  used on inpu
 t line 11.
 (pdftex.def)             Requested size: 105.97887pt x 56.9055pt.
- [76] [77]
+ [100] [101]
 Underfull \hbox (badness 10000) detected at line 93
 [][][]
  []
 
-[78]
+
 Underfull \hbox (badness 6978) in paragraph at lines 157--158
 []\T1/phv/m/n/10 References [], [], [],
  []
@@ -1335,15 +1452,20 @@ Overfull \hbox (30.07703pt too wide) in paragraph at lines 157--158
 []\T1/phv/m/n/10 , [], [], [],
  []
 
-) (./classel_1_1base_1_1DefaultLogBuilder.tex <./classel_1_1base_1_1DefaultLogB
-uilder.pdf>
-<classel_1_1base_1_1DefaultLogBuilder.pdf, id=9855, 501.875pt x 354.26353pt>
+
+Overfull \hbox (60.35207pt too wide) in paragraph at lines 157--158
+[]\T1/phv/m/n/10 , [], [], and []. 
+ []
+
+[102]) (./classel_1_1base_1_1DefaultLogBuilder.tex <./classel_1_1base_1_1Defaul
+tLogBuilder.pdf>
+<classel_1_1base_1_1DefaultLogBuilder.pdf, id=13689, 501.875pt x 354.26353pt>
 File: classel_1_1base_1_1DefaultLogBuilder.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1DefaultLogBuilder.pdf>
 Package pdftex.def Info: classel_1_1base_1_1DefaultLogBuilder.pdf  used on inpu
 t line 6.
 (pdftex.def)             Requested size: 120.91959pt x 85.35826pt.
- [79]
+
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 []\T1/phv/m/n/10 References [], [], [],
  []
@@ -1373,17 +1495,17 @@ Overfull \hbox (40.35583pt too wide) in paragraph at lines 49--50
 []\T1/phv/m/n/10 , [], [], [], [],
  []
 
-) (./classel_1_1base_1_1DefaultLogDispatchCallback.tex <./classel_1_1base_1_1De
-faultLogDispatchCallback.pdf>
-<classel_1_1base_1_1DefaultLogDispatchCallback.pdf, id=9937, 501.875pt x 352.19
-58pt>
+[103]) (./classel_1_1base_1_1DefaultLogDispatchCallback.tex <./classel_1_1base_
+1_1DefaultLogDispatchCallback.pdf>
+<classel_1_1base_1_1DefaultLogDispatchCallback.pdf, id=13775, 501.875pt x 352.1
+958pt>
 File: classel_1_1base_1_1DefaultLogDispatchCallback.pdf Graphic file (type pdf)
 
 <use classel_1_1base_1_1DefaultLogDispatchCallback.pdf>
 Package pdftex.def Info: classel_1_1base_1_1DefaultLogDispatchCallback.pdf  use
 d on input line 6.
 (pdftex.def)             Requested size: 162.18082pt x 113.81102pt.
- [80] [81]
+ [104]
 Overfull \hbox (23.69083pt too wide) in paragraph at lines 76--77
 []\T1/phv/m/n/10 , [], [], [], [], [],
  []
@@ -1418,77 +1540,108 @@ Overfull \hbox (26.33249pt too wide) in paragraph at lines 94--95
 []\T1/phv/m/n/10 , [], [], [],
  []
 
-) (./classel_1_1base_1_1utils_1_1File.tex <./classel_1_1base_1_1utils_1_1File.p
-df>
-<classel_1_1base_1_1utils_1_1File.pdf, id=10069, 501.875pt x 306.48502pt>
+[105]) (./classJson_1_1Reader_1_1ErrorInfo.tex) (./classJson_1_1Exception.tex
+[106] <./classJson_1_1Exception.pdf>
+<classJson_1_1Exception.pdf, id=13951, 501.875pt x 237.10582pt>
+File: classJson_1_1Exception.pdf Graphic file (type pdf)
+<use classJson_1_1Exception.pdf>
+Package pdftex.def Info: classJson_1_1Exception.pdf  used on input line 10.
+(pdftex.def)             Requested size: 180.67485pt x 85.35826pt.
+ [107])
+(./classJson_1_1CharReader_1_1Factory.tex <./classJson_1_1CharReader_1_1Factory
+.pdf>
+<classJson_1_1CharReader_1_1Factory.pdf, id=13986, 501.875pt x 233.4321pt>
+File: classJson_1_1CharReader_1_1Factory.pdf Graphic file (type pdf)
+<use classJson_1_1CharReader_1_1Factory.pdf>
+Package pdftex.def Info: classJson_1_1CharReader_1_1Factory.pdf  used on input 
+line 10.
+(pdftex.def)             Requested size: 122.34398pt x 56.9055pt.
+ [108]) (./classJson_1_1StreamWriter_1_1Factory.tex <./classJson_1_1StreamWrite
+r_1_1Factory.pdf>
+<classJson_1_1StreamWriter_1_1Factory.pdf, id=14009, 501.875pt x 228.12227pt>
+File: classJson_1_1StreamWriter_1_1Factory.pdf Graphic file (type pdf)
+<use classJson_1_1StreamWriter_1_1Factory.pdf>
+Package pdftex.def Info: classJson_1_1StreamWriter_1_1Factory.pdf  used on inpu
+t line 15.
+(pdftex.def)             Requested size: 125.19275pt x 56.9055pt.
+ [109]) (./classJson_1_1FastWriter.tex <./classJson_1_1FastWriter.pdf>
+<classJson_1_1FastWriter.pdf, id=14037, 501.875pt x 361.71133pt>
+File: classJson_1_1FastWriter.pdf Graphic file (type pdf)
+<use classJson_1_1FastWriter.pdf>
+Package pdftex.def Info: classJson_1_1FastWriter.pdf  used on input line 15.
+(pdftex.def)             Requested size: 78.95383pt x 56.9055pt.
+ [110]
+Underfull \hbox (badness 10000) detected at line 59
+[][][]
+ []
+
+[111] [112]) (./classJson_1_1Features.tex [113] [114])
+(./classel_1_1base_1_1utils_1_1File.tex <./classel_1_1base_1_1utils_1_1File.pdf
+>
+<classel_1_1base_1_1utils_1_1File.pdf, id=14172, 501.875pt x 306.48502pt>
 File: classel_1_1base_1_1utils_1_1File.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1utils_1_1File.pdf>
 Package pdftex.def Info: classel_1_1base_1_1utils_1_1File.pdf  used on input li
 ne 6.
 (pdftex.def)             Requested size: 93.18236pt x 56.9055pt.
- [82]
+
 Overfull \hbox (71.80908pt too wide) in paragraph at lines 20--21
-[][] \T1/phv/m/n/10 std[]::string [] ([] std[]::string &[], [] [] $\OMS/cmsy/m/
-n/10 ^^C$[]\T1/phv/m/n/10 =[]) 
+[]\T1/phv/m/n/10 static std[]::string [] (const std[]::string &full[]Path, cons
+t char $\OMS/cmsy/m/n/10 ^^C$\T1/phv/m/n/10 separator=[]) 
  []
 
 
 Overfull \hbox (73.53201pt too wide) in paragraph at lines 22--23
-[][] [] [] \T1/phv/m/n/10 ([] [] $\OMS/cmsy/m/n/10 ^^C$\T1/phv/m/n/10 filename,
- [] [][]$ $[], std[]::size[]_[]t []=[]) 
+[]\T1/phv/m/n/10 static void [] (const char $\OMS/cmsy/m/n/10 ^^C$\T1/phv/m/n/1
+0 filename, char buff[]$ $[], std[]::size[]_[]t limit=[]) 
  []
 
 
 Overfull \hbox (78.32346pt too wide) in paragraph at lines 24--25
-[][] [] [] \T1/phv/m/n/10 ([] std[]::string &[], [] [][]$ $[], std[]::size[]_[]
-t []=[],
+[]\T1/phv/m/n/10 static void [] (const std[]::string &full[]Path, char buff[]$ 
+$[], std[]::size[]_[]t limit=[],
  []
 
-[83]
-Overfull \hbox (25.183pt too wide) in paragraph at lines 93--94
-[]\T1/phv/m/n/10 References [], [], [],
- []
-
-[84]
+[115] [116]
 Underfull \hbox (badness 10000) detected at line 133
 [][][]
  []
 
-) (./structstd_1_1hash_3_01el_1_1Level_01_4.tex) (./classel_1_1Helpers.tex
-[85] <./classel_1_1Helpers.pdf>
-<classel_1_1Helpers.pdf, id=10252, 501.875pt x 306.48502pt>
+) (./structstd_1_1hash_3_01el_1_1Level_01_4.tex [117])
+(./classel_1_1Helpers.tex <./classel_1_1Helpers.pdf>
+<classel_1_1Helpers.pdf, id=14267, 501.875pt x 306.48502pt>
 File: classel_1_1Helpers.pdf Graphic file (type pdf)
 <use classel_1_1Helpers.pdf>
 Package pdftex.def Info: classel_1_1Helpers.pdf  used on input line 15.
 (pdftex.def)             Requested size: 93.18236pt x 56.9055pt.
- [86]
+ [118] [119]
 Overfull \hbox (25.08168pt too wide) in paragraph at lines 102--103
 []\T1/phv/m/n/10 References [], [], [], [],
  []
 
-[87] [88]
+[120]
 Underfull \hbox (badness 10000) detected at line 212
 [][][]
  []
 
-[89]
+[121]
 Underfull \hbox (badness 10000) detected at line 301
 [][][]
  []
 
-[90]) (./classel_1_1base_1_1HitCounter.tex [91] [92] [93])
+[122]) (./classel_1_1base_1_1HitCounter.tex [123] [124] [125] [126])
 (./classel_1_1LevelHelper.tex <./classel_1_1LevelHelper.pdf>
-<classel_1_1LevelHelper.pdf, id=10530, 501.875pt x 306.48502pt>
+<classel_1_1LevelHelper.pdf, id=14559, 501.875pt x 306.48502pt>
 File: classel_1_1LevelHelper.pdf Graphic file (type pdf)
 <use classel_1_1LevelHelper.pdf>
 Package pdftex.def Info: classel_1_1LevelHelper.pdf  used on input line 15.
 (pdftex.def)             Requested size: 93.18236pt x 56.9055pt.
- [94] [95]
+ [127]
 Underfull \hbox (badness 10000) detected at line 109
 [][][]
  []
 
-[96]
+[128]
 Overfull \hbox (37.9786pt too wide) in paragraph at lines 152--153
 \T1/pcr/m/n/8 const [] el[]::[]Level[]Helper[]::k[]Max[]Valid = static[]_[]cast
 $\OML/cmm/m/it/8 <$[]$>$\T1/pcr/m/n/8 ([])
@@ -1501,25 +1654,21 @@ $\OML/cmm/m/it/8 <$[]$>$\T1/pcr/m/n/8 ([])
  []
 
 ) (./classel_1_1LogBuilder.tex <./classel_1_1LogBuilder.pdf>
-<classel_1_1LogBuilder.pdf, id=10636, 501.875pt x 354.26353pt>
+<classel_1_1LogBuilder.pdf, id=14653, 501.875pt x 354.26353pt>
 File: classel_1_1LogBuilder.pdf Graphic file (type pdf)
 <use classel_1_1LogBuilder.pdf>
 Package pdftex.def Info: classel_1_1LogBuilder.pdf  used on input line 10.
 (pdftex.def)             Requested size: 120.91959pt x 85.35826pt.
- [97]
-Overfull \hbox (195.26591pt too wide) in paragraph at lines 99--100
-[]\T1/phv/m/n/10 References [], [], [], [], [], [],
- []
-
-[98]) (./classel_1_1LogDispatchCallback.tex <./classel_1_1LogDispatchCallback.p
-df>
-<classel_1_1LogDispatchCallback.pdf, id=10705, 501.875pt x 352.1958pt>
+ [129] [130])
+(./classel_1_1LogDispatchCallback.tex <./classel_1_1LogDispatchCallback.pdf>
+<classel_1_1LogDispatchCallback.pdf, id=14721, 501.875pt x 352.1958pt>
 File: classel_1_1LogDispatchCallback.pdf Graphic file (type pdf)
 <use classel_1_1LogDispatchCallback.pdf>
 Package pdftex.def Info: classel_1_1LogDispatchCallback.pdf  used on input line
  10.
 (pdftex.def)             Requested size: 162.18082pt x 113.81102pt.
- [99] [100]
+
+[131] [132]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 []\T1/phv/m/n/10 References [], [], [],
  []
@@ -1531,16 +1680,16 @@ tring, std[]::unique[]_[]ptr$\OML/cmm/m/it/8 <$[]$>$ $>$ \T1/pcr/m/n/8 el[]::[]
 Log[]Dispatch[]
  []
 
-) (./classel_1_1LogDispatchData.tex [101] [102])
+) (./classel_1_1LogDispatchData.tex [133] [134])
 (./classel_1_1base_1_1LogDispatcher.tex <./classel_1_1base_1_1LogDispatcher.pdf
 >
-<classel_1_1base_1_1LogDispatcher.pdf, id=10853, 501.875pt x 265.89337pt>
+<classel_1_1base_1_1LogDispatcher.pdf, id=14870, 501.875pt x 265.89337pt>
 File: classel_1_1base_1_1LogDispatcher.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1LogDispatcher.pdf>
 Package pdftex.def Info: classel_1_1base_1_1LogDispatcher.pdf  used on input li
 ne 11.
 (pdftex.def)             Requested size: 107.40324pt x 56.9055pt.
- [103] [104]
+ [135] [136]
 Underfull \hbox (badness 4024) in paragraph at lines 71--72
 []\T1/phv/m/n/10 References [], [], [], [],
  []
@@ -1556,14 +1705,14 @@ Overfull \hbox (43.34239pt too wide) in paragraph at lines 71--72
  []
 
 ) (./classel_1_1base_1_1LogFormat.tex <./classel_1_1base_1_1LogFormat.pdf>
-<classel_1_1base_1_1LogFormat.pdf, id=10927, 501.875pt x 311.24278pt>
+<classel_1_1base_1_1LogFormat.pdf, id=14943, 501.875pt x 311.24278pt>
 File: classel_1_1base_1_1LogFormat.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1LogFormat.pdf>
 Package pdftex.def Info: classel_1_1base_1_1LogFormat.pdf  used on input line 1
 1.
 (pdftex.def)             Requested size: 91.75798pt x 56.9055pt.
 
-[105] [106] [107] [108]
+[137] [138] [139] [140]
 Overfull \hbox (70.33159pt too wide) in paragraph at lines 277--278
 []\T1/phv/m/n/10 , [], [],
  []
@@ -1598,7 +1747,7 @@ Underfull \hbox (badness 1688) in paragraph at lines 277--278
 []\T1/phv/m/n/10 , [], [], [], [], [], and
  []
 
-[109]
+[141]
 Underfull \hbox (badness 10000) in paragraph at lines 302--303
 []\T1/phv/m/n/10 References [], [], [], [],
  []
@@ -1643,20 +1792,20 @@ Underfull \hbox (badness 5417) in paragraph at lines 320--321
 []\T1/phv/m/n/10 , [], [], [], [], [],
  []
 
-[110]) (./classel_1_1Loggable.tex [111] <./classel_1_1Loggable.pdf>
-<classel_1_1Loggable.pdf, id=11257, 501.875pt x 103.7476pt>
+[142]) (./classel_1_1Loggable.tex [143] <./classel_1_1Loggable.pdf>
+<classel_1_1Loggable.pdf, id=15275, 501.875pt x 103.7476pt>
 File: classel_1_1Loggable.pdf Graphic file (type pdf)
 <use classel_1_1Loggable.pdf>
 Package pdftex.def Info: classel_1_1Loggable.pdf  used on input line 15.
 (pdftex.def)             Requested size: 275.27396pt x 56.9055pt.
- [112])
+ [144])
 (./classel_1_1Logger.tex <./classel_1_1Logger.pdf>
-<classel_1_1Logger.pdf, id=11295, 501.875pt x 103.47658pt>
+<classel_1_1Logger.pdf, id=15312, 501.875pt x 103.47658pt>
 File: classel_1_1Logger.pdf Graphic file (type pdf)
 <use classel_1_1Logger.pdf>
 Package pdftex.def Info: classel_1_1Logger.pdf  used on input line 15.
 (pdftex.def)             Requested size: 276.00146pt x 56.9055pt.
- [113] [114] [115]
+ [145] [146] [147]
 Underfull \hbox (badness 3118) in paragraph at lines 195--196
 []\T1/phv/m/n/10 References [], [], [], [], [],
  []
@@ -1671,7 +1820,7 @@ Overfull \hbox (38.1248pt too wide) in paragraph at lines 242--243
 []\T1/phv/m/n/10 , [], [], [], [],
  []
 
-[116]
+[148]
 Overfull \hbox (97.7558pt too wide) in paragraph at lines 266--267
 []\T1/phv/m/n/10 References [], [], [], [],
  []
@@ -1686,67 +1835,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 308--309
 []\T1/phv/m/n/10 References [], [], [], and
  []
 
-[117]
+[149]
 Underfull \hbox (badness 3118) in paragraph at lines 370--371
 []\T1/phv/m/n/10 References [], [], [], [], [],
  []
 
-[118]
+[150]
 Underfull \hbox (badness 6493) in paragraph at lines 412--413
 []\T1/phv/m/n/10 , [], [], [],
  []
 
-[119] [120] [121]) (./classel_1_1LoggerRegistrationCallback.tex <./classel_1_1L
+[151] [152] [153]) (./classel_1_1LoggerRegistrationCallback.tex <./classel_1_1L
 oggerRegistrationCallback.pdf>
-<classel_1_1LoggerRegistrationCallback.pdf, id=11711, 501.875pt x 310.4398pt>
+<classel_1_1LoggerRegistrationCallback.pdf, id=15727, 501.875pt x 310.4398pt>
 File: classel_1_1LoggerRegistrationCallback.pdf Graphic file (type pdf)
 <use classel_1_1LoggerRegistrationCallback.pdf>
 Package pdftex.def Info: classel_1_1LoggerRegistrationCallback.pdf  used on inp
 ut line 10.
 (pdftex.def)             Requested size: 137.98924pt x 85.35826pt.
- [122]) (./classel_1_1Loggers.tex [123] <./classel_1_1Loggers.pdf>
-<classel_1_1Loggers.pdf, id=11759, 501.875pt x 306.48502pt>
+ [154]) (./classel_1_1Loggers.tex [155] <./classel_1_1Loggers.pdf>
+<classel_1_1Loggers.pdf, id=15777, 501.875pt x 306.48502pt>
 File: classel_1_1Loggers.pdf Graphic file (type pdf)
 <use classel_1_1Loggers.pdf>
 Package pdftex.def Info: classel_1_1Loggers.pdf  used on input line 15.
 (pdftex.def)             Requested size: 93.18236pt x 56.9055pt.
- [124]
+ [156]
 Underfull \hbox (badness 1721) in paragraph at lines 54--55
 []\T1/phv/m/n/10 static void [] (const [] &con-fig-u-ra-tions, bool reconfigure
 []Existing[]
  []
 
-[125]
+[157]
 Underfull \hbox (badness 10000) detected at line 142
 [][][]
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 169--170
-[]\T1/phv/m/n/10 References [], [], [], [], [],
+Overfull \hbox (78.9748pt too wide) in paragraph at lines 169--170
+[]\T1/phv/m/n/10 References [], [], [], [], and []. 
  []
 
+[158] [159] [160] [161] [162] [163]) (./classJson_1_1LogicError.tex <./classJso
+n_1_1LogicError.pdf>
+<classJson_1_1LogicError.pdf, id=16055, 501.875pt x 528.2937pt>
+File: classJson_1_1LogicError.pdf Graphic file (type pdf)
+<use classJson_1_1LogicError.pdf>
+Package pdftex.def Info: classJson_1_1LogicError.pdf  used on input line 10.
+(pdftex.def)             Requested size: 81.08275pt x 85.35826pt.
 
-Overfull \hbox (55.49031pt too wide) in paragraph at lines 169--170
-[]\T1/phv/m/n/10 , [], [],
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
  []
 
-[126] [127] [128] [129] [130] [131]) (./classel_1_1LogMessage.tex [132]
-[133] [134]) (./classel_1_1base_1_1MessageBuilder.tex [135] [136]
+[164]) (./classel_1_1LogMessage.tex [165] [166] [167])
+(./classel_1_1base_1_1MessageBuilder.tex [168]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 []\T1/phv/m/n/10 References [], [], [], [], [], and
  []
 
-[137]) (./classel_1_1base_1_1NoCopy.tex <./classel_1_1base_1_1NoCopy.pdf>
-<classel_1_1base_1_1NoCopy.pdf, id=12274, 501.875pt x 282.30469pt>
+[169]) (./classel_1_1base_1_1NoCopy.tex <./classel_1_1base_1_1NoCopy.pdf>
+<classel_1_1base_1_1NoCopy.pdf, id=16300, 501.875pt x 282.30469pt>
 File: classel_1_1base_1_1NoCopy.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1NoCopy.pdf>
 Package pdftex.def Info: classel_1_1base_1_1NoCopy.pdf  used on input line 15.
 (pdftex.def)             Requested size: 398.34544pt x 224.06544pt.
 
-[138]) (./classel_1_1base_1_1threading_1_1internal_1_1NoMutex.tex <./classel_1_
+[170]) (./classel_1_1base_1_1threading_1_1internal_1_1NoMutex.tex <./classel_1_
 1base_1_1threading_1_1internal_1_1NoMutex.pdf>
-<classel_1_1base_1_1threading_1_1internal_1_1NoMutex.pdf, id=12301, 501.875pt x
+<classel_1_1base_1_1threading_1_1internal_1_1NoMutex.pdf, id=16326, 501.875pt x
  177.65372pt>
 File: classel_1_1base_1_1threading_1_1internal_1_1NoMutex.pdf Graphic file (typ
 e pdf)
@@ -1754,10 +1910,10 @@ e pdf)
 Package pdftex.def Info: classel_1_1base_1_1threading_1_1internal_1_1NoMutex.pd
 f  used on input line 11.
 (pdftex.def)             Requested size: 160.75644pt x 56.9055pt.
- [139])
-(./classel_1_1base_1_1threading_1_1internal_1_1NoScopedLock.tex [140] <./classe
-l_1_1base_1_1threading_1_1internal_1_1NoScopedLock.pdf>
-<classel_1_1base_1_1threading_1_1internal_1_1NoScopedLock.pdf, id=12349, 501.87
+ [171] [172])
+(./classel_1_1base_1_1threading_1_1internal_1_1NoScopedLock.tex <./classel_1_1b
+ase_1_1threading_1_1internal_1_1NoScopedLock.pdf>
+<classel_1_1base_1_1threading_1_1internal_1_1NoScopedLock.pdf, id=16375, 501.87
 5pt x 125.46875pt>
 File: classel_1_1base_1_1threading_1_1internal_1_1NoScopedLock.pdf Graphic file
  (type pdf)
@@ -1765,114 +1921,141 @@ File: classel_1_1base_1_1threading_1_1internal_1_1NoScopedLock.pdf Graphic file
 Package pdftex.def Info: classel_1_1base_1_1threading_1_1internal_1_1NoScopedLo
 ck.pdf  used on input line 11.
 (pdftex.def)             Requested size: 227.62596pt x 56.9055pt.
- [141])
+ [173])
 (./classel_1_1base_1_1NullWriter.tex <./classel_1_1base_1_1NullWriter.pdf>
-<classel_1_1base_1_1NullWriter.pdf, id=12394, 501.875pt x 321.2pt>
+<classel_1_1base_1_1NullWriter.pdf, id=16420, 501.875pt x 321.2pt>
 File: classel_1_1base_1_1NullWriter.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1NullWriter.pdf>
 Package pdftex.def Info: classel_1_1base_1_1NullWriter.pdf  used on input line 
 11.
 (pdftex.def)             Requested size: 88.90921pt x 56.9055pt.
 
-[142]) (./classel_1_1base_1_1utils_1_1OS.tex <./classel_1_1base_1_1utils_1_1OS.
+[174]) (./classel_1_1base_1_1utils_1_1OS.tex <./classel_1_1base_1_1utils_1_1OS.
 pdf>
-<classel_1_1base_1_1utils_1_1OS.pdf, id=12434, 501.875pt x 306.48502pt>
+<classel_1_1base_1_1utils_1_1OS.pdf, id=16457, 501.875pt x 306.48502pt>
 File: classel_1_1base_1_1utils_1_1OS.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1utils_1_1OS.pdf>
 Package pdftex.def Info: classel_1_1base_1_1utils_1_1OS.pdf  used on input line
  11.
 (pdftex.def)             Requested size: 93.18236pt x 56.9055pt.
- [143] [144]
+ [175] [176]
 Underfull \hbox (badness 10000) detected at line 88
 [][][]
  []
 
-[145]) (./classel_1_1Configurations_1_1Parser.tex <./classel_1_1Configurations_
+[177]) (./classel_1_1Configurations_1_1Parser.tex <./classel_1_1Configurations_
 1_1Parser.pdf>
-<classel_1_1Configurations_1_1Parser.pdf, id=12545, 501.875pt x 247.83592pt>
+<classel_1_1Configurations_1_1Parser.pdf, id=16532, 501.875pt x 247.83592pt>
 File: classel_1_1Configurations_1_1Parser.pdf Graphic file (type pdf)
 <use classel_1_1Configurations_1_1Parser.pdf>
 Package pdftex.def Info: classel_1_1Configurations_1_1Parser.pdf  used on input
  line 15.
 (pdftex.def)             Requested size: 115.2297pt x 56.9055pt.
 
-Underfull \hbox (badness 820) in paragraph at lines 21--22
-[][] [] [] \T1/phv/m/n/10 ([] std[]::string &[], [] $\OMS/cmsy/m/n/10 ^^C$[]\T1
-/phv/m/n/10 , []
+Underfull \hbox (badness 866) in paragraph at lines 21--22
+[]\T1/phv/m/n/10 static bool [] (const std[]::string &[], [] $\OMS/cmsy/m/n/10 
+^^C$\T1/phv/m/n/10 sender, []
  []
 
-[146]
-Overfull \hbox (165.36201pt too wide) in paragraph at lines 67--68
-[]\T1/phv/m/n/10 References [], and []. 
- []
-
-[147]
-Underfull \hbox (badness 10000) detected at line 130
+[178] [179]
+Underfull \hbox (badness 10000) detected at line 126
 [][][]
  []
 
-
-Overfull \hbox (249.163pt too wide) in paragraph at lines 139--140
-[]\T1/phv/m/n/10 References [], [], [], [],
- []
-
-
-Underfull \hbox (badness 10000) detected at line 160
+[180]
+Underfull \hbox (badness 10000) detected at line 156
 [][][]
  []
 
-
-Overfull \hbox (47.7254pt too wide) in paragraph at lines 169--170
-[]\T1/phv/m/n/10 References [], [],
- []
-
-[148]
-Overfull \hbox (48.35454pt too wide) in paragraph at lines 183--184
-[]\T1/phv/m/n/10 , [],
- []
-
-) (./classel_1_1PerformanceTrackingCallback.tex <./classel_1_1PerformanceTracki
-ngCallback.pdf>
-<classel_1_1PerformanceTrackingCallback.pdf, id=12707, 501.875pt x 234.33548pt>
+) (./classJson_1_1Path.tex [181] [182] [183]) (./classJson_1_1PathArgument.tex
+[184] [185]) (./classel_1_1PerformanceTrackingCallback.tex <./classel_1_1Perfor
+manceTrackingCallback.pdf>
+<classel_1_1PerformanceTrackingCallback.pdf, id=16829, 501.875pt x 234.33548pt>
 
 File: classel_1_1PerformanceTrackingCallback.pdf Graphic file (type pdf)
 <use classel_1_1PerformanceTrackingCallback.pdf>
 Package pdftex.def Info: classel_1_1PerformanceTrackingCallback.pdf  used on in
 put line 10.
 (pdftex.def)             Requested size: 182.81143pt x 85.35826pt.
- [149]) (./classel_1_1base_1_1PErrorWriter.tex <./classel_1_1base_1_1PErrorWrit
+ [186]) (./classel_1_1base_1_1PErrorWriter.tex <./classel_1_1base_1_1PErrorWrit
 er.pdf>
-<classel_1_1base_1_1PErrorWriter.pdf, id=12745, 501.875pt x 427.12573pt>
+<classel_1_1base_1_1PErrorWriter.pdf, id=16867, 501.875pt x 427.12573pt>
 File: classel_1_1base_1_1PErrorWriter.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1PErrorWriter.pdf>
 Package pdftex.def Info: classel_1_1base_1_1PErrorWriter.pdf  used on input lin
 e 6.
 (pdftex.def)             Requested size: 100.29663pt x 85.35826pt.
- [150] [151])
-(./classel_1_1base_1_1HitCounter_1_1Predicate.tex [152])
-(./classel_1_1Configuration_1_1Predicate.tex [153])
-(./classel_1_1base_1_1RegisteredHitCounters.tex [154] <./classel_1_1base_1_1Reg
-isteredHitCounters.pdf>
-<classel_1_1base_1_1RegisteredHitCounters.pdf, id=12960, 501.875pt x 159.64644p
+ [187] [188])
+(./classel_1_1base_1_1HitCounter_1_1Predicate.tex [189])
+(./classel_1_1Configuration_1_1Predicate.tex [190]) (./classJson_1_1Reader.tex
+[191] [192] [193] [194] [195] [196]
+Underfull \hbox (badness 10000) detected at line 416
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 431
+[][][]
+ []
+
+[197]
+Underfull \hbox (badness 10000) detected at line 462
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 475
+[][][]
+ []
+
+[198]
+Underfull \hbox (badness 10000) detected at line 511
+[][][]
+ []
+
+[199]
+Underfull \hbox (badness 10000) detected at line 533
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 546
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 566
+[][][]
+ []
+
+[200]
+Underfull \hbox (badness 10000) detected at line 588
+[][][]
+ []
+
+[201] [202]) (./structJson_1_1SecureAllocator_1_1rebind.tex [203])
+(./classel_1_1base_1_1RegisteredHitCounters.tex <./classel_1_1base_1_1Registere
+dHitCounters.pdf>
+<classel_1_1base_1_1RegisteredHitCounters.pdf, id=17539, 501.875pt x 159.64644p
 t>
 File: classel_1_1base_1_1RegisteredHitCounters.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1RegisteredHitCounters.pdf>
 Package pdftex.def Info: classel_1_1base_1_1RegisteredHitCounters.pdf  used on 
 input line 11.
 (pdftex.def)             Requested size: 357.78876pt x 113.81102pt.
- [155] [156]
+ [204] [205] [206]
 Underfull \hbox (badness 10000) detected at line 150
 [][][]
  []
 
 
-Overfull \hbox (106.55647pt too wide) in paragraph at lines 159--160
+Overfull \hbox (82.48189pt too wide) in paragraph at lines 159--160
 []\T1/phv/m/n/10 References [], [],
  []
 
 
-Overfull \hbox (370.78561pt too wide) in paragraph at lines 159--160
-[]\T1/phv/m/n/10 , and []. 
+Overfull \hbox (245.70425pt too wide) in paragraph at lines 159--160
+[]\T1/phv/m/n/10 , [], and []. 
  []
 
 
@@ -1881,39 +2064,39 @@ Underfull \hbox (badness 10000) detected at line 171
  []
 
 
-Overfull \hbox (106.55647pt too wide) in paragraph at lines 180--181
+Overfull \hbox (82.48189pt too wide) in paragraph at lines 180--181
 []\T1/phv/m/n/10 References [], [],
  []
 
 
-Overfull \hbox (370.78561pt too wide) in paragraph at lines 180--181
-[]\T1/phv/m/n/10 , and []. 
+Overfull \hbox (94.21771pt too wide) in paragraph at lines 180--181
+[]\T1/phv/m/n/10 , [],
  []
 
-[157]
+
 Underfull \hbox (badness 10000) detected at line 192
 [][][]
  []
 
 
-Overfull \hbox (106.55647pt too wide) in paragraph at lines 201--202
+Overfull \hbox (82.48189pt too wide) in paragraph at lines 201--202
 []\T1/phv/m/n/10 References [], [],
  []
 
 
-Overfull \hbox (370.78561pt too wide) in paragraph at lines 201--202
-[]\T1/phv/m/n/10 , and []. 
+Overfull \hbox (245.70425pt too wide) in paragraph at lines 201--202
+[]\T1/phv/m/n/10 , [], and []. 
  []
 
 ) (./classel_1_1base_1_1RegisteredLoggers.tex <./classel_1_1base_1_1RegisteredL
 oggers.pdf>
-<classel_1_1base_1_1RegisteredLoggers.pdf, id=13222, 501.875pt x 156.83594pt>
+<classel_1_1base_1_1RegisteredLoggers.pdf, id=17701, 501.875pt x 156.83594pt>
 File: classel_1_1base_1_1RegisteredLoggers.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1RegisteredLoggers.pdf>
 Package pdftex.def Info: classel_1_1base_1_1RegisteredLoggers.pdf  used on inpu
 t line 11.
 (pdftex.def)             Requested size: 364.20615pt x 113.81102pt.
- [158] [159] [160]
+ [207] [208] [209] [210]
 Underfull \hbox (badness 10000) in paragraph at lines 226--227
 []\T1/phv/m/n/10 References [], [], [],
  []
@@ -1923,95 +2106,108 @@ Underfull \hbox (badness 1152) in paragraph at lines 226--227
 []\T1/phv/m/n/10 , [], [], [], and
  []
 
-[161] [162] [163]
+[211] [212]
 Underfull \hbox (badness 10000) in paragraph at lines 393--394
 [] \T1/pcr/m/n/8 el[]::base[]::[]Registered[]Loggers[]::m[]_[]log[]Streams[]Ref
 erence = nullptr
  []
 
-) (./classel_1_1base_1_1utils_1_1Registry.tex <./classel_1_1base_1_1utils_1_1Re
-gistry.pdf>
-<classel_1_1base_1_1utils_1_1Registry.pdf, id=13582, 501.875pt x 117.62947pt>
+) (./classel_1_1base_1_1utils_1_1Registry.tex [213] <./classel_1_1base_1_1utils
+_1_1Registry.pdf>
+<classel_1_1base_1_1utils_1_1Registry.pdf, id=17993, 501.875pt x 117.62947pt>
 File: classel_1_1base_1_1utils_1_1Registry.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1utils_1_1Registry.pdf>
 Package pdftex.def Info: classel_1_1base_1_1utils_1_1Registry.pdf  used on inpu
 t line 11.
 (pdftex.def)             Requested size: 364.19849pt x 85.35826pt.
- [164] [165]
+ [214] [215]
 Underfull \hbox (badness 10000) in paragraph at lines 127--129
-[] []$\OML/cmm/m/it/8 <$[]\T1/pcr/m/n/8 ,[]$\OML/cmm/m/it/8 >$[]\T1/pcr/m/n/8 :
-:const[]_[]iterator []$\OML/cmm/m/it/8 <$ []\T1/pcr/m/n/8 , [] $\OML/cmm/m/it/8
- >$[]
+\T1/pcr/m/n/8 typedef []$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 T[]_[][]Ptr,T[]_[][]Ke
+y$\OML/cmm/m/it/8 >$[]\T1/pcr/m/n/8 ::const[]_[]iterator []$\OML/cmm/m/it/8 <$ 
+\T1/pcr/m/n/8 T[]_[][]Ptr, T[]_[][]Key $\OML/cmm/m/it/8 >$[]
  []
 
-[166]
+[216]
 Underfull \hbox (badness 10000) in paragraph at lines 192--194
-|  [] []$\OML/cmm/m/it/8 <$ []\T1/pcr/m/n/8 , std[]::unordered[]_[]map$\OML/cmm
-/m/it/8 <$ []\T1/pcr/m/n/8 , [] $\OMS/cmsy/m/n/8 ^^C$ $\OML/cmm/m/it/8 >$ $>$ \
-T1/pcr/m/n/8 & \T1/pcr/m/sl/8 sr \T1/pcr/m/n/8 )
+|  \T1/pcr/m/n/8 const []$\OML/cmm/m/it/8 <$ \T1/pcr/m/n/8 T[]_[][]Ptr, std[]::
+unordered[]_[]map$\OML/cmm/m/it/8 <$ \T1/pcr/m/n/8 T[]_[][]Key, T[]_[][]Ptr $\O
+MS/cmsy/m/n/8 ^^C$ $\OML/cmm/m/it/8 >$ $>$ \T1/pcr/m/n/8 & \T1/pcr/m/sl/8 sr \T
+1/pcr/m/n/8 )
  []
 
 
-Overfull \hbox (104.08548pt too wide) in paragraph at lines 201--202
-[]\T1/phv/m/n/10 References [], and []. 
- []
-
-[167]
-Underfull \hbox (badness 10000) detected at line 233
+Underfull \hbox (badness 10000) detected at line 225
 [][][]
  []
 
-[168]) (./classel_1_1base_1_1utils_1_1RegistryWithPred.tex <./classel_1_1base_1
+[217]) (./classel_1_1base_1_1utils_1_1RegistryWithPred.tex <./classel_1_1base_1
 _1utils_1_1RegistryWithPred.pdf>
-<classel_1_1base_1_1utils_1_1RegistryWithPred.pdf, id=13947, 501.875pt x 159.74
+<classel_1_1base_1_1utils_1_1RegistryWithPred.pdf, id=18155, 501.875pt x 159.74
 681pt>
 File: classel_1_1base_1_1utils_1_1RegistryWithPred.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1utils_1_1RegistryWithPred.pdf>
 Package pdftex.def Info: classel_1_1base_1_1utils_1_1RegistryWithPred.pdf  used
  on input line 11.
 (pdftex.def)             Requested size: 268.175pt x 85.35826pt.
- [169] [170]
+ [218] [219]
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+\T1/pcr/m/n/8 typedef []$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 T[]_[][]Ptr,Pred$\OML/
+cmm/m/it/8 >$[]\T1/pcr/m/n/8 ::const[]_[]iterator []$\OML/cmm/m/it/8 <$ \T1/pcr
+/m/n/8 T[]_[][]
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 141--143
-[] []$\OML/cmm/m/it/8 <$[]\T1/pcr/m/n/8 ,[]$\OML/cmm/m/it/8 >$[]\T1/pcr/m/n/8 :
-:iterator []$\OML/cmm/m/it/8 <$ []\T1/pcr/m/n/8 , []
+\T1/pcr/m/n/8 typedef []$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 T[]_[][]Ptr,Pred$\OML/
+cmm/m/it/8 >$[]\T1/pcr/m/n/8 ::iterator []$\OML/cmm/m/it/8 <$ \T1/pcr/m/n/8 T[]
+_[][]Ptr, Pred
  []
 
-[171]
+[220]
 Overfull \hbox (15.29242pt too wide) in paragraph at lines 195--197
-|  [] []$\OML/cmm/m/it/8 <$ []\T1/pcr/m/n/8 , std[]::vector$\OML/cmm/m/it/8 <$ 
-[] $\OMS/cmsy/m/n/8 ^^C$ $\OML/cmm/m/it/8 >$ $>$ \T1/pcr/m/n/8 & \T1/pcr/m/sl/8
- sr \T1/pcr/m/n/8 ) [inline], [private],
+|  \T1/pcr/m/n/8 const []$\OML/cmm/m/it/8 <$ \T1/pcr/m/n/8 T[]_[][]Ptr, std[]::
+vector$\OML/cmm/m/it/8 <$ \T1/pcr/m/n/8 T[]_[][]Ptr $\OMS/cmsy/m/n/8 ^^C$ $\OML
+/cmm/m/it/8 >$ $>$ \T1/pcr/m/n/8 & \T1/pcr/m/sl/8 sr \T1/pcr/m/n/8 ) [inline], 
+[private],
  []
 
-
-Overfull \hbox (78.16585pt too wide) in paragraph at lines 208--209
-[]\T1/phv/m/n/10 References [], [],
- []
-
-[172]
-Underfull \hbox (badness 10000) detected at line 237
+[221]
+Underfull \hbox (badness 10000) detected at line 233
 [][][]
  []
 
-[173]) (./classel_1_1Loggers_1_1ScopedAddFlag.tex [174])
-(./classel_1_1Loggers_1_1ScopedRemoveFlag.tex [175])
+[222]) (./classJson_1_1RuntimeError.tex <./classJson_1_1RuntimeError.pdf>
+<classJson_1_1RuntimeError.pdf, id=18333, 501.875pt x 474.21165pt>
+File: classJson_1_1RuntimeError.pdf Graphic file (type pdf)
+<use classJson_1_1RuntimeError.pdf>
+Package pdftex.def Info: classJson_1_1RuntimeError.pdf  used on input line 10.
+(pdftex.def)             Requested size: 90.33359pt x 85.35826pt.
+
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
+
+[223]) (./classel_1_1Loggers_1_1ScopedAddFlag.tex [224])
+(./classel_1_1Loggers_1_1ScopedRemoveFlag.tex [225])
+(./classJson_1_1SecureAllocator.tex [226] [227] [228] [229])
 (./classel_1_1base_1_1StaticClass.tex <./classel_1_1base_1_1StaticClass.pdf>
-<classel_1_1base_1_1StaticClass.pdf, id=14395, 501.875pt x 620.29741pt>
+<classel_1_1base_1_1StaticClass.pdf, id=18569, 501.875pt x 620.29741pt>
 File: classel_1_1base_1_1StaticClass.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1StaticClass.pdf>
 Package pdftex.def Info: classel_1_1base_1_1StaticClass.pdf  used on input line
  15.
 (pdftex.def)             Requested size: 253.23427pt x 312.9803pt.
 
-[176]) (./classel_1_1base_1_1Storage.tex <./classel_1_1base_1_1Storage.pdf>
-<classel_1_1base_1_1Storage.pdf, id=14420, 501.875pt x 103.47658pt>
+[230] [231]) (./classJson_1_1StaticString.tex [232])
+(./classel_1_1base_1_1Storage.tex <./classel_1_1base_1_1Storage.pdf>
+<classel_1_1base_1_1Storage.pdf, id=18637, 501.875pt x 103.47658pt>
 File: classel_1_1base_1_1Storage.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1Storage.pdf>
 Package pdftex.def Info: classel_1_1base_1_1Storage.pdf  used on input line 11.
 
 (pdftex.def)             Requested size: 276.00146pt x 56.9055pt.
-
-[177] [178]
+ [233]
+[234]
 Overfull \hbox (26.73734pt too wide) in paragraph at lines 111--113
 []\T1/phv/m/n/10 std[]::unordered[]_[]map$\OML/cmm/m/it/10 <$ \T1/phv/m/n/10 st
 d[]::string, [] $\OML/cmm/m/it/10 >$ [] 
@@ -2027,12 +2223,12 @@ Underfull \hbox (badness 7379) in paragraph at lines 184--185
 []\T1/phv/m/n/10 References [], [], [], [], and
  []
 
-[179] [180]
+[235] [236]
 Overfull \hbox (18.68227pt too wide) in paragraph at lines 295--296
 []\T1/phv/m/n/10 References [], [], [],
  []
 
-[181]
+[237]
 Overfull \hbox (68.9671pt too wide) in paragraph at lines 361--362
 []\T1/phv/m/n/10 References [], [], [],
  []
@@ -2052,91 +2248,136 @@ Overfull \hbox (91.99333pt too wide) in paragraph at lines 361--362
 []\T1/phv/m/n/10 , [], [],
  []
 
-[182] [183] [184] [185]
+[238] [239] [240] [241]
 Underfull \hbox (badness 10000) in paragraph at lines 612--613
 \T1/pcr/m/n/8 std[]::unordered[]_[]map$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 std[]::s
 tring, []$\OML/cmm/m/it/8 >$ \T1/pcr/m/n/8 el[]::base[]::[]Storage[]::m[]_[]log
 []
  []
 
-[186]) (./classel_1_1base_1_1utils_1_1Str.tex <./classel_1_1base_1_1utils_1_1St
+[242]) (./classel_1_1base_1_1utils_1_1Str.tex <./classel_1_1base_1_1utils_1_1St
 r.pdf>
-<classel_1_1base_1_1utils_1_1Str.pdf, id=14859, 501.875pt x 306.48502pt>
+<classel_1_1base_1_1utils_1_1Str.pdf, id=19074, 501.875pt x 306.48502pt>
 File: classel_1_1base_1_1utils_1_1Str.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1utils_1_1Str.pdf>
 Package pdftex.def Info: classel_1_1base_1_1utils_1_1Str.pdf  used on input lin
 e 11.
 (pdftex.def)             Requested size: 93.18236pt x 56.9055pt.
- [187]
-Underfull \hbox (badness 2951) in paragraph at lines 45--47
-[][] [] $\OMS/cmsy/m/n/10 ^^C$ [] \T1/phv/m/n/10 (std[]::size[]_[]t [], [] [], 
-[] $\OMS/cmsy/m/n/10 ^^C$[]\T1/phv/m/n/10 , [] [] $\OMS/cmsy/m/n/10 ^^C$[]\T1/p
-hv/m/n/10 , []
- []
-
-[188] [189]
+ [243] [244] [245]
 Underfull \hbox (badness 10000) detected at line 160
 [][][]
  []
 
 
-Overfull \hbox (95.08554pt too wide) in paragraph at lines 193--194
-[]\T1/phv/m/n/10 References [], and []. 
+Underfull \hbox (badness 10000) detected at line 210
+[][][]
  []
 
+[246]
+Underfull \hbox (badness 10000) detected at line 236
+[][][]
+ []
 
-Underfull \hbox (badness 10000) detected at line 214
+[247]
+Underfull \hbox (badness 10000) detected at line 284
 [][][]
  []
 
 
-Overfull \hbox (95.08554pt too wide) in paragraph at lines 223--224
-[]\T1/phv/m/n/10 References [], and []. 
- []
-
-[190]
-Underfull \hbox (badness 10000) detected at line 244
+Underfull \hbox (badness 10000) detected at line 306
 [][][]
  []
 
-[191]
-Underfull \hbox (badness 10000) detected at line 296
+[248]) (./classJson_1_1StreamWriter.tex [249]
+Underfull \hbox (badness 10000) detected at line 67
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 318
+Underfull \hbox (badness 10000) detected at line 70
+[][][]
+ []
+
+) (./classJson_1_1StreamWriterBuilder.tex [250] <./classJson_1_1StreamWriterBui
+lder.pdf>
+<classJson_1_1StreamWriterBuilder.pdf, id=19255, 501.875pt x 228.12227pt>
+File: classJson_1_1StreamWriterBuilder.pdf Graphic file (type pdf)
+<use classJson_1_1StreamWriterBuilder.pdf>
+Package pdftex.def Info: classJson_1_1StreamWriterBuilder.pdf  used on input li
+ne 15.
+(pdftex.def)             Requested size: 125.19275pt x 56.9055pt.
+ [251]
+Underfull \hbox (badness 10000) detected at line 113
 [][][]
  []
 
 
-Overfull \hbox (95.08554pt too wide) in paragraph at lines 327--328
-[]\T1/phv/m/n/10 References [], and []. 
+Underfull \hbox (badness 10000) detected at line 116
+[][][]
  []
 
-[192]) (./structel_1_1StringToLevelItem.tex)
-(./classel_1_1base_1_1SubsecondPrecision.tex [193] [194])
-(./classel_1_1SysLogInitializer.tex [195])
+
+Underfull \hbox (badness 10000) detected at line 129
+[][][]
+ []
+
+[252]
+Underfull \hbox (badness 10000) detected at line 160
+[][][]
+ []
+
+) (./structJson_1_1Value_1_1CZString_1_1StringStorage.tex [253])
+(./structel_1_1StringToLevelItem.tex)
+(./structJson_1_1Reader_1_1StructuredError.tex [254])
+(./classJson_1_1StyledStreamWriter.tex [255] [256]
+Underfull \hbox (badness 10000) detected at line 95
+[][][]
+ []
+
+[257] [258]
+Underfull \hbox (badness 10000) detected at line 193
+[][][]
+ []
+
+[259]) (./classJson_1_1StyledWriter.tex <./classJson_1_1StyledWriter.pdf>
+<classJson_1_1StyledWriter.pdf, id=19538, 501.875pt x 329.0995pt>
+File: classJson_1_1StyledWriter.pdf Graphic file (type pdf)
+<use classJson_1_1StyledWriter.pdf>
+Package pdftex.def Info: classJson_1_1StyledWriter.pdf  used on input line 15.
+(pdftex.def)             Requested size: 86.78029pt x 56.9055pt.
+
+[260] [261]
+Underfull \hbox (badness 10000) detected at line 104
+[][][]
+ []
+
+[262] [263]
+Underfull \hbox (badness 10000) detected at line 195
+[][][]
+ []
+
+[264]) (./classel_1_1base_1_1SubsecondPrecision.tex [265] [266])
+(./classel_1_1SysLogInitializer.tex [267])
 (./classel_1_1base_1_1threading_1_1ThreadSafe.tex <./classel_1_1base_1_1threadi
 ng_1_1ThreadSafe.pdf>
-<classel_1_1base_1_1threading_1_1ThreadSafe.pdf, id=15253, 501.875pt x 294.0686
+<classel_1_1base_1_1threading_1_1ThreadSafe.pdf, id=19774, 501.875pt x 294.0686
 3pt>
 File: classel_1_1base_1_1threading_1_1ThreadSafe.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1threading_1_1ThreadSafe.pdf>
 Package pdftex.def Info: classel_1_1base_1_1threading_1_1ThreadSafe.pdf  used o
 n input line 11.
 (pdftex.def)             Requested size: 398.33778pt x 233.4015pt.
- [196] [197])
+ [268] [269]) (./classJson_1_1Reader_1_1Token.tex [270])
 (./classel_1_1base_1_1TypedConfigurations.tex <./classel_1_1base_1_1TypedConfig
 urations.pdf>
-<classel_1_1base_1_1TypedConfigurations.pdf, id=15309, 501.875pt x 206.96321pt>
+<classel_1_1base_1_1TypedConfigurations.pdf, id=19858, 501.875pt x 206.96321pt>
 
 File: classel_1_1base_1_1TypedConfigurations.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1TypedConfigurations.pdf>
 Package pdftex.def Info: classel_1_1base_1_1TypedConfigurations.pdf  used on in
 put line 11.
 (pdftex.def)             Requested size: 137.98924pt x 56.9055pt.
- [198] [199] [200] [201]
+ [271] [272] [273]
 Overfull \hbox (55.55692pt too wide) in paragraph at lines 207--208
 []\T1/phv/m/n/10 References [], [], [],
  []
@@ -2161,12 +2402,12 @@ Overfull \hbox (16.55287pt too wide) in paragraph at lines 207--208
 []\T1/phv/m/n/10 , [], [], [], [], [],
  []
 
-[202] [203]
+[274]
 Underfull \hbox (badness 10000) in paragraph at lines 309--310
 []\T1/phv/m/n/10 References [], [], [],
  []
 
-[204]
+[275]
 Overfull \hbox (27.7623pt too wide) in paragraph at lines 393--394
 []\T1/phv/m/n/10 References [], [], [],
  []
@@ -2176,7 +2417,7 @@ Overfull \hbox (60.02611pt too wide) in paragraph at lines 393--394
 []\T1/phv/m/n/10 , [], and []. 
  []
 
-[205]
+[276] [277]
 Underfull \hbox (badness 10000) in paragraph at lines 490--491
 []\T1/phv/m/n/10 References [], [], [],
  []
@@ -2186,14 +2427,14 @@ Underfull \hbox (badness 862) in paragraph at lines 490--491
 []\T1/phv/m/n/10 , [], [], [], [], and
  []
 
-[206]
+[278]
 Underfull \hbox (badness 10000) in paragraph at lines 592--593
 \T1/pcr/m/n/8 std[]::unordered[]_[]map$\OML/cmm/m/it/8 <$[]\T1/pcr/m/n/8 , []$\
 OML/cmm/m/it/8 >$ \T1/pcr/m/n/8 el[]::base[]::[]Typed[]Configurations[]::m[]_[]
 file[]Stream[]Map
  []
 
-[207]
+
 Underfull \hbox (badness 10000) in paragraph at lines 602--603
 \T1/pcr/m/n/8 std[]::unordered[]_[]map$\OML/cmm/m/it/8 <$[]\T1/pcr/m/n/8 , std[
 ]::size[]_[]t$\OML/cmm/m/it/8 >$ \T1/pcr/m/n/8 el[]::base[]::[]Typed[]Configura
@@ -2207,7 +2448,7 @@ OML/cmm/m/it/8 >$ \T1/pcr/m/n/8 el[]::base[]::[]Typed[]Configurations[]::m[]_[]
 log[]Format[]Map
  []
 
-
+[279]
 Overfull \hbox (18.89209pt too wide) in paragraph at lines 622--623
 [] \T1/pcr/m/n/8 el[]::base[]::[]Typed[]Configurations[]::m[]_[]log[]Streams[]R
 eference = nullptr [private] 
@@ -2227,32 +2468,235 @@ $\OML/cmm/m/it/8 >$ \T1/pcr/m/n/8 el[]::base[]::[]Typed[]Configurations[]::m[]_
 []performance[]Tracking[]Map [private] 
  []
 
-[208]) (./classel_1_1base_1_1utils_1_1Utils.tex
-Overfull \hbox (69.66096pt too wide) in paragraph at lines 35--36
-[]\T1/phv/m/n/10 References [], and []. 
+[280]) (./classel_1_1base_1_1utils_1_1Utils.tex [281])
+(./classJson_1_1Value.tex [282] [283] [284] [285] [286]
+Underfull \hbox (badness 10000) detected at line 413
+[][][]
  []
 
-[209]) (./classel_1_1VersionInfo.tex <./classel_1_1VersionInfo.pdf>
-<classel_1_1VersionInfo.pdf, id=15882, 501.875pt x 306.48502pt>
+[287] [288] [289]
+Underfull \hbox (badness 10000) detected at line 627
+[][][]
+ []
+
+[290] [291] [292] [293] [294]
+Underfull \hbox (badness 10000) detected at line 921
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 924
+[][][]
+ []
+
+[295]
+Underfull \hbox (badness 10000) detected at line 959
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 962
+[][][]
+ []
+
+[296]
+Underfull \hbox (badness 10000) detected at line 1005
+[][][]
+ []
+
+[297]
+Underfull \hbox (badness 10000) detected at line 1048
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1059
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1068
+[][][]
+ []
+
+
+Overfull \vbox (6.49251pt too high) has occurred while \output is active []
+
+
+[298]
+Underfull \hbox (badness 10000) detected at line 1096
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1099
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1120
+[][][]
+ []
+
+[299] [300
+pdfTeX warning (ext4): destination with the same identifier (name{classJson_1_1
+Value_ab113315e14a4f2579f32f2d30b0eda21}) has been already used, duplicate igno
+red
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1215 D
+        efinition at line \mbox{\hyperlink{value_8h_source_l00722}{722}} of ...
+
+pdfTeX warning (ext4): destination with the same identifier (name{classJson_1_1
+Value_ab113315e14a4f2579f32f2d30b0eda21}) has been already used, duplicate igno
+red
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1215 D
+        efinition at line \mbox{\hyperlink{value_8h_source_l00722}{722}} of ...
+
+pdfTeX warning (ext4): destination with the same identifier (name{classJson_1_1
+Value_ab113315e14a4f2579f32f2d30b0eda21}) has been already used, duplicate igno
+red
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1215 D
+        efinition at line \mbox{\hyperlink{value_8h_source_l00722}{722}} of ...
+
+pdfTeX warning (ext4): destination with the same identifier (name{classJson_1_1
+Value_ab113315e14a4f2579f32f2d30b0eda21}) has been already used, duplicate igno
+red
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1215 D
+        efinition at line \mbox{\hyperlink{value_8h_source_l00722}{722}} of ...
+]
+pdfTeX warning (ext4): destination with the same identifier (name{classJson_1_1
+Value_ab113315e14a4f2579f32f2d30b0eda21}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.1217 ...Value_ab113315e14a4f2579f32f2d30b0eda21}
+                                                  \label{classJson_1_1Value_...
+[301
+pdfTeX warning (ext4): destination with the same identifier (name{classJson_1_1
+Value_ab113315e14a4f2579f32f2d30b0eda21}) has been already used, duplicate igno
+red
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1290 \doxysubsubsection
+                         {\texorpdfstring{isMember()}{isMember()}\hspace{0.1...
+]
+Underfull \hbox (badness 10000) detected at line 1303
+[][][]
+ []
+
+
+Overfull \vbox (1.54941pt too high) has occurred while \output is active []
+
+
+[302] [303]
+Underfull \hbox (badness 10000) detected at line 1407
+[][][]
+ []
+
+[304]
+Underfull \hbox (badness 10000) detected at line 1452
+[][][]
+ []
+
+[305]
+Underfull \hbox (badness 10000) detected at line 1528
+[][][]
+ []
+
+[306]
+Underfull \hbox (badness 10000) detected at line 1551
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1554
+[][][]
+ []
+
+[307]
+Underfull \hbox (badness 10000) detected at line 1589
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1598
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1601
+[][][]
+ []
+
+[308] [309] [310]
+Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
+\T1/pcr/m/n/8 constexpr [] Json[]::[]Value[]::max[]Largest[]Int = []([](-1) / 2
+) [static],
+ []
+
+[311] [312]) (./classJson_1_1ValueConstIterator.tex <./classJson_1_1ValueConstI
+terator.pdf>
+<classJson_1_1ValueConstIterator.pdf, id=21433, 501.875pt x 254.10936pt>
+File: classJson_1_1ValueConstIterator.pdf Graphic file (type pdf)
+<use classJson_1_1ValueConstIterator.pdf>
+Package pdftex.def Info: classJson_1_1ValueConstIterator.pdf  used on input lin
+e 15.
+(pdftex.def)             Requested size: 112.3886pt x 56.9055pt.
+ [313] [314] [315] [316]) (./unionJson_1_1Value_1_1ValueHolder.tex
+[317]) (./classJson_1_1ValueIterator.tex <./classJson_1_1ValueIterator.pdf>
+<classJson_1_1ValueIterator.pdf, id=21666, 501.875pt x 260.71402pt>
+File: classJson_1_1ValueIterator.pdf Graphic file (type pdf)
+<use classJson_1_1ValueIterator.pdf>
+Package pdftex.def Info: classJson_1_1ValueIterator.pdf  used on input line 15.
+
+(pdftex.def)             Requested size: 109.53983pt x 56.9055pt.
+
+[318] [319] [320] [321]) (./classJson_1_1ValueIteratorBase.tex <./classJson_1_1
+ValueIteratorBase.pdf>
+<classJson_1_1ValueIteratorBase.pdf, id=21853, 501.875pt x 127.05467pt>
+File: classJson_1_1ValueIteratorBase.pdf Graphic file (type pdf)
+<use classJson_1_1ValueIteratorBase.pdf>
+Package pdftex.def Info: classJson_1_1ValueIteratorBase.pdf  used on input line
+ 15.
+(pdftex.def)             Requested size: 224.78485pt x 56.9055pt.
+ [322] [323] [324] [325]
+Underfull \hbox (badness 10000) detected at line 212
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 221
+[][][]
+ []
+
+[326]) (./classel_1_1VersionInfo.tex <./classel_1_1VersionInfo.pdf>
+<classel_1_1VersionInfo.pdf, id=21986, 501.875pt x 306.48502pt>
 File: classel_1_1VersionInfo.pdf Graphic file (type pdf)
 <use classel_1_1VersionInfo.pdf>
 Package pdftex.def Info: classel_1_1VersionInfo.pdf  used on input line 10.
 (pdftex.def)             Requested size: 93.18236pt x 56.9055pt.
- [210])
+ [327])
 (./classel_1_1base_1_1VRegistry.tex <./classel_1_1base_1_1VRegistry.pdf>
-<classel_1_1base_1_1VRegistry.pdf, id=15906, 501.875pt x 103.47658pt>
+<classel_1_1base_1_1VRegistry.pdf, id=22015, 501.875pt x 103.47658pt>
 File: classel_1_1base_1_1VRegistry.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1VRegistry.pdf>
 Package pdftex.def Info: classel_1_1base_1_1VRegistry.pdf  used on input line 1
 1.
 (pdftex.def)             Requested size: 276.00146pt x 56.9055pt.
 
-[211] [212]
+[328]
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 []\T1/phv/m/n/10 , [], [], [],
  []
 
-
+[329]
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 \T1/pcr/m/n/8 const std[]::unordered[]_[]map$\OML/cmm/m/it/8 <$ \T1/pcr/m/n/8 s
 td[]::string, [] $\OML/cmm/m/it/8 >$ \T1/pcr/m/n/8 & el[]::base[]::[]VRegistry[
@@ -2269,31 +2713,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 []\T1/phv/m/n/10 , [], [],
  []
 
-[213]
+
 Underfull \hbox (badness 5231) in paragraph at lines 177--178
 []\T1/phv/m/n/10 References [], [], [], [],
  []
 
-
+[330]
 Underfull \hbox (badness 10000) in paragraph at lines 210--211
 \T1/pcr/m/n/8 std[]::unordered[]_[]map$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 std[]::s
 tring, []$\OML/cmm/m/it/8 >$ \T1/pcr/m/n/8 el[]::base[]::[]VRegistry[]::m[]_[]m
 odules
  []
 
-[214]) (./classel_1_1base_1_1Writer.tex <./classel_1_1base_1_1Writer.pdf>
-<classel_1_1base_1_1Writer.pdf, id=16071, 501.875pt x 427.12573pt>
+) (./classel_1_1base_1_1Writer.tex <./classel_1_1base_1_1Writer.pdf>
+<classel_1_1base_1_1Writer.pdf, id=22172, 501.875pt x 427.12573pt>
 File: classel_1_1base_1_1Writer.pdf Graphic file (type pdf)
 <use classel_1_1base_1_1Writer.pdf>
 Package pdftex.def Info: classel_1_1base_1_1Writer.pdf  used on input line 11.
 (pdftex.def)             Requested size: 100.29663pt x 85.35826pt.
-
-[215] [216]
+ [331]
+[332] [333]
 Overfull \hbox (63.00679pt too wide) in paragraph at lines 165--166
 []\T1/phv/m/n/10 References [], [], [], [],
  []
 
-[217]
+
 Overfull \hbox (28.87904pt too wide) in paragraph at lines 224--225
 []\T1/phv/m/n/10 References [], [], [], [],
  []
@@ -2303,35 +2747,23 @@ Underfull \hbox (badness 7133) in paragraph at lines 224--225
 []\T1/phv/m/n/10 , [], [], [], [], [],
  []
 
-[218] [219]) [220]
-Chapter 9.
-(./easylogging_09_09_8cc.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-[221
+[334] [335]) (./classJson_1_1Writer.tex <./classJson_1_1Writer.pdf>
+<classJson_1_1Writer.pdf, id=22407, 501.875pt x 164.54472pt>
+File: classJson_1_1Writer.pdf Graphic file (type pdf)
+<use classJson_1_1Writer.pdf>
+Package pdftex.def Info: classJson_1_1Writer.pdf  used on input line 15.
+(pdftex.def)             Requested size: 173.56058pt x 56.9055pt.
+ [336])
+[337] [338
 
 ]
-Overfull \hbox (32.55905pt too wide) in paragraph at lines 77--79
-[]\T1/phv/m/n/10 static const [] $\OMS/cmsy/m/n/10 ^^C$ [] \T1/phv/m/n/10 = [](
-"%levshort") 
- []
-
-[222]) (./easylogging_09_09_8cc_source.tex [223] [224] [225] [226] [227]
-[228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238] [239]
-[240] [241] [242] [243] [244] [245] [246] [247] [248]
-Overfull \hbox (27.75554pt too wide) in paragraph at lines 2186--2186
-[]\T1/pcr/m/n/7 .find(data->[]()->[]()->[]()->[](data->[]()->[]()));  
- []
-
-[249] [250] [251] [252] [253] [254] [255] [256] [257] [258] [259])
+Chapter 10.
 (./easylogging_09_09_8h.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--23
 
  []
 
-[260] [261] [262] [263]
+[339] [340] [341] [342]
 Underfull \hbox (badness 5460) in paragraph at lines 294--296
 []\T1/phv/m/n/10 #define [](writer, level, dispatch[]Action, ...) writer(level,
  []_[][]_[][]FILE[]_[][]_[], []_[][]_[][]LINE[]_[][]_[]
@@ -2349,7 +2781,7 @@ Underfull \hbox (badness 1968) in paragraph at lines 344--346
 riter, (condition[]_[]
  []
 
-[264]
+[343]
 Underfull \hbox (badness 1303) in paragraph at lines 352--354
 []\T1/phv/m/n/10 #define [](writer, condition[]_[], dispatch[]Action, ...) [](w
 riter, (condition[]_[]
@@ -2427,7 +2859,7 @@ Underfull \hbox (badness 3884) in paragraph at lines 398--400
 , []-
  []
 
-[265]
+[344]
 Overfull \hbox (52.6103pt too wide) in paragraph at lines 404--406
 []\T1/phv/m/n/10 #define [](condition, LEVEL, ...) C##LEVEL##[]_[][]IF([], con-
 di-tion, [],
@@ -2483,7 +2915,7 @@ Overfull \hbox (72.25351pt too wide) in paragraph at lines 448--450
 []\T1/phv/m/n/10 #define [](LEVEL, ...) if ([]) C##LEVEL([], [],
  []
 
-[266] [267]
+[345] [346]
 Overfull \hbox (15.32037pt too wide) in paragraph at lines 576--578
 []\T1/phv/m/n/10 #define [](val, min, max) [](val, min, max, []) 
  []
@@ -2508,7 +2940,7 @@ Overfull \hbox (36.71161pt too wide) in paragraph at lines 660--662
 []\T1/phv/m/n/10 #define [] [](new []([](new
  []
 
-[268]
+[347]
 Underfull \hbox (badness 2512) in paragraph at lines 732--747
 [] \T1/phv/m/n/10 = 16 , [] = 32 , [] = Subsecond[]Precision ,
  []
@@ -2528,20 +2960,20 @@ Underfull \hbox (badness 2334) in paragraph at lines 748--769
 [] \T1/phv/m/n/10 = 4096 , [] = 8192 , [] = 16384 ,
  []
 
-[269] [270]
+[348] [349]
 Overfull \hbox (21.70647pt too wide) in paragraph at lines 883--884
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](!(condition), FATAL, []_[][]_[][]VA[]
 _[][]ARGS[]_[][]_[]) $\OML/cmm/m/it/8 <$$<$ \T1/pcr/m/n/8 "Check failed[]: []" 
 $\OML/cmm/m/it/8 <$$<$ \T1/pcr/m/n/8 #condition
  []
 
-[271] [272]
+[350] [351]
 Underfull \hbox (badness 10000) in paragraph at lines 1047--1048
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](writer, n, [], dispatch[]Action, []_[
 ][]_[][]VA[]
  []
 
-[273]
+[352]
 Underfull \hbox (badness 10000) in paragraph at lines 1057--1058
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](writer, occasion, [], dispatch[]
  []
@@ -2558,7 +2990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
 ][]_[][]VA[]
  []
 
-[274]
+[353]
 Underfull \hbox (badness 10000) in paragraph at lines 1097--1098
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](writer, n, [], dispatch[]Action, []_[
 ][]_[][]VA[]
@@ -2581,7 +3013,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1127--1128
 ][]_[][]VA[]
  []
 
-[275]
+[354]
 Underfull \hbox (badness 10000) in paragraph at lines 1147--1148
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](writer, n, [], dispatch[]Action, []_[
 ][]_[][]VA[]
@@ -2604,7 +3036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
 ][]_[][]VA[]
  []
 
-[276] [277] [278]
+[355] [356] [357]
 Underfull \hbox (badness 10000) in paragraph at lines 1327--1328
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](writer, n, [], dispatch[]Action, []_[
 ][]_[][]VA[]_[][]
@@ -2633,7 +3065,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1367--1368
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) C##LEVEL([], [], []_[][]_[][]VA[]_[][]
  []
 
-[279]
+[358]
 Overfull \hbox (24.06166pt too wide) in paragraph at lines 1397--1398
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) C##LEVEL##[]_[][]IF([], condition, [],
  []
@@ -2645,7 +3077,7 @@ _[][]ARGS[]_[][]_[]) $\OML/cmm/m/it/8 <$$<$ \T1/pcr/m/n/8 "Check failed[]: []"
 $\OML/cmm/m/it/8 <$$<$
  []
 
-[280]
+[359]
 Underfull \hbox (badness 10000) in paragraph at lines 1427--1428
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) C##LEVEL([], [], []_[][]_[][]
  []
@@ -2655,7 +3087,7 @@ Overfull \hbox (52.86168pt too wide) in paragraph at lines 1437--1438
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) C##LEVEL##[]_[][]IF([], condition, [],
  []
 
-[281]
+[360]
 Underfull \hbox (badness 10000) in paragraph at lines 1507--1508
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](writer, n, [], dispatch[]Action, []_[
 ][]_[][]VA[]
@@ -2666,7 +3098,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1517--1518
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](writer, occasion, [], dispatch[]
  []
 
-[282]
+[361]
 Underfull \hbox (badness 10000) in paragraph at lines 1527--1528
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](writer, (condition[]_[]), [], dispatc
 h[]Action,
@@ -2685,7 +3117,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1563--1564
 _[][]_[], n),
  []
 
-[283]
+[362]
 Underfull \hbox (badness 10000) in paragraph at lines 1573--1574
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](writer, []-$\OML/cmm/m/it/8 >$\T1/pcr
 /m/n/8 validate[]Every[]NCounter([]_[][]_[][]FILE[]_[][]_[], []_[][]_[][]LINE[]
@@ -2709,7 +3141,7 @@ Overfull \hbox (38.46167pt too wide) in paragraph at lines 1619--1620
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) []([], n, vlevel, [],
  []
 
-[284]
+[363]
 Overfull \hbox (38.46167pt too wide) in paragraph at lines 1629--1630
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) []([], n, vlevel, [],
  []
@@ -2730,7 +3162,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1669--1670
 ][]_[][]
  []
 
-[285]
+[364]
 Underfull \hbox (badness 10000) in paragraph at lines 1679--1680
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) [](writer, occasion, [], dispatch[]
  []
@@ -2747,7 +3179,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1699--1700
 ][]_[][]
  []
 
-[286] [287] [288] [289] [290] [291]
+[365] [366] [367] [368] [369] [370]
 Overfull \hbox (72.06169pt too wide) in paragraph at lines 2039--2040
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) if ([]) C##LEVEL([], [],
  []
@@ -2758,100 +3190,184 @@ Underfull \hbox (badness 10000) in paragraph at lines 2049--2050
 on),
  []
 
-[292] [293] [294] [295] [296] [297] [298] [299] [300]
+[371] [372] [373] [374] [375] [376] [377] [378] [379]
 Underfull \hbox (badness 10000) in paragraph at lines 2667--2668
 \T1/pcr/m/n/8 #define ELPP[]_[][]INTERNAL[]_[][]DEBUGGING[]_[][]WRITE[]_[][]PER
 ROR [] $\OML/cmm/m/it/8 <$$<$ \T1/pcr/m/n/8 "[]: " $\OML/cmm/m/it/8 <$$<$
  []
 
-[301] [302] [303] [304] [305]
+[380] [381] [382] [383] [384]
 Overfull \hbox (43.80078pt too wide) in paragraph at lines 3038--3039
 \T1/pcr/m/n/8 #define ELPP[]_[][]VARIADIC[]_[][]TEMPLATES[]_[][]SUPPORTED ([] $
 \OMS/cmsy/m/n/8 j$$j$ [] $j$$j$ []
  []
 
-[306]
+[385]
 Overfull \hbox (66.64319pt too wide) in paragraph at lines 3068--3069
 |   \T1/pcr/m/sl/8 ... \T1/pcr/m/n/8 ) writer(level, []_[][]_[][]FILE[]_[][]_[]
 , []_[][]_[][]LINE[]_[][]_[], [], dispatch[]Action).construct([]([]
  []
 
-[307] [308]
+[386] [387]
 Overfull \hbox (24.7562pt too wide) in paragraph at lines 3202--3203
 \T1/pcr/m/n/8 #define INITIALIZE[]_[][]EASYLOGGINGPP [](new []([](new
  []
 
-[309] [310]
+[388] [389]
 Overfull \hbox (32.48407pt too wide) in paragraph at lines 3326--3327
 |   \T1/pcr/m/sl/8 Output[]Stream[]Instance \T1/pcr/m/n/8 ) []& operator$\OML/c
 mm/m/it/8 <$$<$\T1/pcr/m/n/8 ([]&
  []
 
-[311] [312] [313]
+[390] [391] [392]
 Underfull \hbox (badness 10000) detected at line 3538
 [][][]
  []
 
-[314]
+[393]
 Underfull \hbox (badness 10000) detected at line 3573
 [][][]
  []
 
-[315]) (./easylogging_09_09_8h_source.tex [316] [317] [318] [319] [320]
-[321] [322] [323] [324] [325] [326] [327] [328] [329] [330] [331] [332]
-[333] [334] [335] [336] [337] [338] [339] [340] [341] [342] [343] [344]
-[345] [346] [347] [348] [349] [350] [351] [352] [353] [354] [355] [356]
-[357] [358] [359] [360] [361] [362] [363] [364]) (./README_8md.tex)
-(./main_8cpp.tex
+[394]) (./easylogging_09_09_8h_source.tex [395] [396] [397] [398] [399]
+[400] [401] [402] [403] [404] [405] [406] [407] [408] [409] [410] [411]
+[412] [413] [414] [415] [416] [417] [418] [419] [420] [421] [422] [423]
+[424] [425] [426] [427] [428] [429] [430] [431] [432] [433] [434] [435]
+[436] [437] [438] [439] [440] [441] [442] [443]) (./allocator_8h.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-) (./main_8cpp_source.tex [365]) [366] (./refman.ind
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 1.
- [367
+) (./allocator_8h_source.tex [444]) (./assertions_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
+ []
 
+[445]) (./assertions_8h_source.tex [446]) (./config_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
 
-] [368] [369] [370]
-[371] [372]
-Underfull \hbox (badness 10000) in paragraph at lines 707--708
-[]| \T1/phv/m/n/10 ELPP_INTERNAL_DEBUGGING_OUT_ERROR,
+ []
+
+[447]
+Underfull \hbox (badness 2261) in paragraph at lines 54--56
+[]\T1/phv/m/n/10 using [] = std[]::basic[]_[]istringstream$\OML/cmm/m/it/10 <$ 
+\T1/phv/m/n/10 String[]::value[]_[]type, String[]::traits[]_[]type, String[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 747--748
+Underfull \hbox (badness 870) in paragraph at lines 56--58
+[]\T1/phv/m/n/10 using [] = std[]::basic[]_[]ostringstream$\OML/cmm/m/it/10 <$ 
+\T1/phv/m/n/10 String[]::value[]_[]type, String[]::traits[]_[]type, String[]
+ []
+
+[448] [449]) (./config_8h_source.tex [450] [451]) (./forwards_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+) (./forwards_8h_source.tex [452]) (./json_8h.tex) (./json_8h_source.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+) (./json__features_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+) (./json__features_8h_source.tex [453]) (./reader_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--10
+
+ []
+
+[454]) (./reader_8h_source.tex [455] [456]) (./value_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--10
+
+ []
+
+[457]
+Underfull \hbox (badness 4608) in paragraph at lines 68--74
+[]\T1/phv/m/n/10 enum [] { [] = 0 , [] ,
+ []
+
+[458]) (./value_8h_source.tex [459] [460] [461] [462] [463] [464] [465]
+[466]) (./version_8h.tex [467]) (./version_8h_source.tex [468])
+(./writer_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
+
+ []
+
+[469]) (./writer_8h_source.tex [470] [471]) (./easylogging_09_09_8cc.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+[472]
+Overfull \hbox (32.55905pt too wide) in paragraph at lines 77--79
+[]\T1/phv/m/n/10 static const [] $\OMS/cmsy/m/n/10 ^^C$ [] \T1/phv/m/n/10 = [](
+"%levshort") 
+ []
+
+[473]) (./easylogging_09_09_8cc_source.tex [474] [475] [476] [477] [478]
+[479] [480] [481] [482] [483] [484] [485] [486] [487] [488] [489] [490]
+[491] [492] [493] [494] [495] [496] [497] [498] [499]
+Overfull \hbox (27.75554pt too wide) in paragraph at lines 2186--2186
+[]\T1/pcr/m/n/7 .find(data->[]()->[]()->[]()->[](data->[]()->[]()));  
+ []
+
+[500] [501] [502] [503] [504] [505] [506] [507] [508] [509] [510])
+(./README_8md.tex) (./main_8cpp.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+[511]) (./main_8cpp_source.tex) [512] (./refman.ind
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 22.39185pt on input line 1.
+ [513
+
+
+
+] [514] [515] [516]
+[517] [518] [519]
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
+[]| \T1/phv/m/n/10 ELPP_INTERNAL_DEBUGGING_OUT_ERROR,
+ []
+
+[520]
+Underfull \hbox (badness 10000) in paragraph at lines 970--971
 []| \T1/phv/m/n/10 ELPP_VARIADIC_TEMPLATES_SUPPORTED,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 806--808
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1031
 []| \T1/phv/m/n/10 Dis-ablePer-for-mance-Track-ingCheck-point-Com-par-i-
  []
 
-[373] [374] [375] [376]
-Underfull \hbox (badness 945) in paragraph at lines 1216--1218
+[521] [522] [523] [524]
+Underfull \hbox (badness 945) in paragraph at lines 1439--1441
 []\T1/phv/m/n/10 el::base::utils::AbstractRegistry$\OML/cmm/m/it/10 <$ \T1/phv/
 m/n/10 T_Ptr, Con-tainer $\OML/cmm/m/it/10 >$\T1/phv/m/n/10 ,
  []
 
-[377] [378] [379] [380] [381] [382] [383] [384] [385] [386] [387] [388]
-[389] [390] [391
+[525] [526] [527] [528] [529] [530] [531] [532] [533] [534] [535] [536]
+[537] [538] [539] [540] [541] [542] [543] [544] [545] [546] [547] [548])
+(./refman.aux)
 
-]) (./refman.aux)
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 1744E5D14786FCA94CE2707F9F116253;263326.
+(rerunfilecheck)             Checksum: 53FD06AE85FC1712EBC041911D76559B;411690.
 
  ) 
 Here is how much of TeX's memory you used:
- 31246 strings out of 476025
- 751003 string characters out of 5796497
+ 36116 strings out of 476025
+ 899881 string characters out of 5796497
  1940388 words of memory out of 5000000
- 40955 multiletter control sequences out of 15000+600000
- 577750 words of font info for 129 fonts, out of 8000000 for 9000
+ 42530 multiletter control sequences out of 15000+600000
+ 578487 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,16n,117p,5389b,1301s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,16n,117p,5389b,2000s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -2865,10 +3381,10 @@ xmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-dist/fonts/type1
 /urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a
 c.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (423 pages, 1941569 bytes).
+Output written on refman.pdf (598 pages, 2502291 bytes).
 PDF statistics:
- 35446 PDF objects out of 38293 (max. 8388607)
- 34537 compressed objects within 346 object streams
- 10236 named destinations out of 10688 (max. 500000)
- 10084 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 45414 PDF objects out of 45951 (max. 8388607)
+ 44183 compressed objects within 442 object streams
+ 13420 named destinations out of 15390 (max. 500000)
+ 15741 words of extra memory for PDF output out of 17280 (max. 10000000)
 

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['versioninfo_0',['VersionInfo',['../classel_1_1VersionInfo.html',1,'el']]],
-  ['vregistry_1',['VRegistry',['../classel_1_1base_1_1VRegistry.html',1,'el::base']]]
+  ['utils_0',['Utils',['../classel_1_1base_1_1utils_1_1Utils.html',1,'el::base::utils']]]
 ];

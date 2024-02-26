@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['second_0',['Second',['../namespaceel_1_1base.html#a1b886858c6409097395b24b1bdf03c39ac22cf8376b1893dcfcef0649fe1a7d87',1,'el::base']]],
-  ['strictlogfilesizecheck_1',['StrictLogFileSizeCheck',['../namespaceel.html#a2784aacd04cb7816ac1c0b20fcbf83cba8496303f20ab09751ff3ec8802b187f5',1,'el']]],
-  ['subsecondprecision_2',['SubsecondPrecision',['../namespaceel.html#a281f5db6d6163678bc68a8b23b59e124a945b6ef21f66457079a6ab7b6c3459f9',1,'el']]],
-  ['syslog_3',['SysLog',['../namespaceel_1_1base.html#a3aa2563d38e47388ba242a1694fc2839aa0861ec9150978a150dcefab74fad51b',1,'el::base']]]
+  ['newlineforcontainer_0',['NewLineForContainer',['../namespaceel.html#a2784aacd04cb7816ac1c0b20fcbf83cba8246f93d9afd63f87632d2d718cabca8',1,'el']]],
+  ['noduplication_1',['noDuplication',['../classJson_1_1Value_1_1CZString.html#a2805c46fb4a72bbaed55de6d75941b6da08d540450fa6c4af57eaacf063eedd20',1,'Json::Value::CZString']]],
+  ['none_2',['None',['../namespaceel_1_1base.html#a3aa2563d38e47388ba242a1694fc2839a6adf97f83acf6453d4a6a4b1070f3754',1,'el::base']]],
+  ['normallog_3',['NormalLog',['../namespaceel_1_1base.html#a3aa2563d38e47388ba242a1694fc2839a44d8ee68145a7d9849eeaa634c443602',1,'el::base']]],
+  ['nullvalue_4',['nullValue',['../namespaceJson.html#a7d654b75c16a57007925868e38212b4ea7d9899633b4409bd3fc107e6737f8391',1,'Json']]],
+  ['numberofcommentplacement_5',['numberOfCommentPlacement',['../namespaceJson.html#a4fc417c23905b2ae9e2c47d197a45351abcbd3eb00417335e094e4a03379659b5',1,'Json']]]
 ];

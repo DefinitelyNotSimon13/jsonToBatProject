@@ -14,15 +14,15 @@ Inheritance diagram for el\+::base\+::utils\+::OS\+:\begin{figure}[H]
 \doxysubsubsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1OS_a58c32a7c4c30342b6cdf2ee04d540d0f}{get\+Bash\+Output}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{command}})
+static const std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1OS_a58c32a7c4c30342b6cdf2ee04d540d0f}{get\+Bash\+Output}} (const char \texorpdfstring{$\ast$}{*}command)
 \begin{DoxyCompactList}\small\item\em Runs command on terminal and returns the output. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1OS_a34bf91e851eed1d4264cd594bb621b78}{get\+Environment\+Variable}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{variable\+Name}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{default\+Val}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{alternative\+Bash\+Command}}=\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{nullptr}})
+static std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1OS_a34bf91e851eed1d4264cd594bb621b78}{get\+Environment\+Variable}} (const char \texorpdfstring{$\ast$}{*}variable\+Name, const char \texorpdfstring{$\ast$}{*}default\+Val, const char \texorpdfstring{$\ast$}{*}alternative\+Bash\+Command=nullptr)
 \begin{DoxyCompactList}\small\item\em Gets environment variable. This is cross-\/platform and CRT safe (for VC++) \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1OS_a85801f331f58c0cd186c8f6a05dfb7dd}{current\+User}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}})
+static std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1OS_a85801f331f58c0cd186c8f6a05dfb7dd}{current\+User}} (void)
 \begin{DoxyCompactList}\small\item\em Gets current username. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1OS_a18f3550076801780816d659339ec1eef}{current\+Host}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}})
+static std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1OS_a18f3550076801780816d659339ec1eef}{current\+Host}} (void)
 \begin{DoxyCompactList}\small\item\em Gets current host name or computer name. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1OS_accd095c4a86d2c2c4aebe57122fdca16}{term\+Supports\+Color}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}})
+static bool \mbox{\hyperlink{classel_1_1base_1_1utils_1_1OS_accd095c4a86d2c2c4aebe57122fdca16}{term\+Supports\+Color}} (void)
 \begin{DoxyCompactList}\small\item\em Whether or not terminal supports colors. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -38,7 +38,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8h_source_l01137}{1137}} o
 \index{el::base::utils::OS@{el::base::utils::OS}!currentHost@{currentHost}}
 \index{currentHost@{currentHost}!el::base::utils::OS@{el::base::utils::OS}}
 \doxysubsubsection{\texorpdfstring{currentHost()}{currentHost()}}
-{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+OS\+::current\+Host (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+OS\+::current\+Host (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -56,7 +56,7 @@ References \mbox{\hyperlink{easylogging_09_09_8h_source_l00223}{ELPP\+\_\+\+UNUS
 \index{el::base::utils::OS@{el::base::utils::OS}!currentUser@{currentUser}}
 \index{currentUser@{currentUser}!el::base::utils::OS@{el::base::utils::OS}}
 \doxysubsubsection{\texorpdfstring{currentUser()}{currentUser()}}
-{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+OS\+::current\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+OS\+::current\+User (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -74,7 +74,7 @@ References \mbox{\hyperlink{easylogging_09_09_8h_source_l00223}{ELPP\+\_\+\+UNUS
 \index{el::base::utils::OS@{el::base::utils::OS}!getBashOutput@{getBashOutput}}
 \index{getBashOutput@{getBashOutput}!el::base::utils::OS@{el::base::utils::OS}}
 \doxysubsubsection{\texorpdfstring{getBashOutput()}{getBashOutput()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string el\+::base\+::utils\+::\+OS\+::get\+Bash\+Output (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily const std\+::string el\+::base\+::utils\+::\+OS\+::get\+Bash\+Output (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -100,7 +100,7 @@ References \mbox{\hyperlink{easylogging_09_09_8h_source_l00192}{ELPP\+\_\+\+INTE
 \index{el::base::utils::OS@{el::base::utils::OS}!getEnvironmentVariable@{getEnvironmentVariable}}
 \index{getEnvironmentVariable@{getEnvironmentVariable}!el::base::utils::OS@{el::base::utils::OS}}
 \doxysubsubsection{\texorpdfstring{getEnvironmentVariable()}{getEnvironmentVariable()}}
-{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+OS\+::get\+Environment\+Variable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{variable\+Name,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{default\+Val,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{alternative\+Bash\+Command = {\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{nullptr}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+OS\+::get\+Environment\+Variable (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{variable\+Name,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{default\+Val,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{alternative\+Bash\+Command = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -121,13 +121,13 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l01091}{1091}} 
 
 
 
-References \mbox{\hyperlink{easylogging_09_09_8h_source_l00223}{ELPP\+\_\+\+UNUSED}}, \mbox{\hyperlink{easylogging_09_09_8h_source_l01331}{el\+::base\+::utils\+::\+Abstract\+Registry$<$ T\+\_\+\+Ptr, Container $>$\+::empty()}}, and \mbox{\hyperlink{easylogging_09_09_8cc_source_l01063}{get\+Bash\+Output()}}.
+References \mbox{\hyperlink{easylogging_09_09_8h_source_l00223}{ELPP\+\_\+\+UNUSED}}, and \mbox{\hyperlink{easylogging_09_09_8cc_source_l01063}{get\+Bash\+Output()}}.
 
 \Hypertarget{classel_1_1base_1_1utils_1_1OS_accd095c4a86d2c2c4aebe57122fdca16}\label{classel_1_1base_1_1utils_1_1OS_accd095c4a86d2c2c4aebe57122fdca16} 
 \index{el::base::utils::OS@{el::base::utils::OS}!termSupportsColor@{termSupportsColor}}
 \index{termSupportsColor@{termSupportsColor}!el::base::utils::OS@{el::base::utils::OS}}
 \doxysubsubsection{\texorpdfstring{termSupportsColor()}{termSupportsColor()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::\+OS\+::term\+Supports\+Color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily bool el\+::base\+::utils\+::\+OS\+::term\+Supports\+Color (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -145,5 +145,5 @@ References \mbox{\hyperlink{easylogging_09_09_8cc_source_l01091}{get\+Environmen
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-lib/\mbox{\hyperlink{easylogging_09_09_8h}{easylogging++.\+h}}\item 
+include/\mbox{\hyperlink{easylogging_09_09_8h}{easylogging++.\+h}}\item 
 lib/\mbox{\hyperlink{easylogging_09_09_8cc}{easylogging++.\+cc}}\end{DoxyCompactItemize}

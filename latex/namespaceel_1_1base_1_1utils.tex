@@ -34,17 +34,17 @@ class \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Utils}{Utils}}
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} \mbox{\hyperlink{namespaceel_1_1base_1_1utils_a8428f6e3f88dd08153bd99ed77f40084}{abort}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{int}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{status}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{reason}})
-\begin{DoxyCompactList}\small\item\em Aborts application due with user-\/defined status. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{namespaceel_1_1base_1_1type_a74ea109bf34d1c44926837fb0830f445}{base\+::type\+::ostream\+\_\+t}} \& \mbox{\hyperlink{namespaceel_1_1base_1_1utils_a45c820d11000722f7c1cbcdf7c4b3d04}{operator$<$$<$}} (\mbox{\hyperlink{namespaceel_1_1base_1_1type_a74ea109bf34d1c44926837fb0830f445}{base\+::type\+::ostream\+\_\+t}} \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{os}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1CommandLineArgs}{Command\+Line\+Args}} \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{c}})
-\item 
-{\footnotesize template$<$\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{typename}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{T}} $>$ }\\\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::enable\+\_\+if$<$ std\+::is\+\_\+pointer$<$ \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{T}} \texorpdfstring{$\ast$}{*} $>$\+::value, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} $>$\+::type \mbox{\hyperlink{namespaceel_1_1base_1_1utils_ae36e4687609aaf5539f46f3f399112ca}{safe\+Delete}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{T}} \texorpdfstring{$\ast$}{*}\&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{pointer}})
+{\footnotesize template$<$typename T $>$ }\\static std\+::enable\+\_\+if$<$ std\+::is\+\_\+pointer$<$ T \texorpdfstring{$\ast$}{*} $>$\+::value, void $>$\+::type \mbox{\hyperlink{namespaceel_1_1base_1_1utils_ae36e4687609aaf5539f46f3f399112ca}{safe\+Delete}} (T \texorpdfstring{$\ast$}{*}\&pointer)
 \begin{DoxyCompactList}\small\item\em Deletes memory safely and points to null. \end{DoxyCompactList}\item 
-{\footnotesize template$<$\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{typename}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}} $>$ }\\\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} \mbox{\hyperlink{namespaceel_1_1base_1_1utils_ac6bb2e40dbcb0751dc9fa4a8d9d1df9d}{add\+Flag}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{e}}, \mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{flag}})
+{\footnotesize template$<$typename Enum $>$ }\\static void \mbox{\hyperlink{namespaceel_1_1base_1_1utils_ac6bb2e40dbcb0751dc9fa4a8d9d1df9d}{add\+Flag}} (Enum e, \mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}} \texorpdfstring{$\ast$}{*}flag)
 \item 
-{\footnotesize template$<$\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{typename}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}} $>$ }\\\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} \mbox{\hyperlink{namespaceel_1_1base_1_1utils_a902fbd0c3db2047f1ac37958ea11b058}{remove\+Flag}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{e}}, \mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{flag}})
+{\footnotesize template$<$typename Enum $>$ }\\static void \mbox{\hyperlink{namespaceel_1_1base_1_1utils_a902fbd0c3db2047f1ac37958ea11b058}{remove\+Flag}} (Enum e, \mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}} \texorpdfstring{$\ast$}{*}flag)
 \item 
-{\footnotesize template$<$\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{typename}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}} $>$ }\\\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{namespaceel_1_1base_1_1utils_a51e93c9ba0ac509b2b7a933147349891}{has\+Flag}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{e}}, \mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{flag}})
+{\footnotesize template$<$typename Enum $>$ }\\static bool \mbox{\hyperlink{namespaceel_1_1base_1_1utils_a51e93c9ba0ac509b2b7a933147349891}{has\+Flag}} (Enum e, \mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}} flag)
+\item 
+static void \mbox{\hyperlink{namespaceel_1_1base_1_1utils_a8428f6e3f88dd08153bd99ed77f40084}{abort}} (int status, const std\+::string \&reason)
+\begin{DoxyCompactList}\small\item\em Aborts application due with user-\/defined status. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespaceel_1_1base_1_1type_a74ea109bf34d1c44926837fb0830f445}{base\+::type\+::ostream\+\_\+t}} \& \mbox{\hyperlink{namespaceel_1_1base_1_1utils_a45c820d11000722f7c1cbcdf7c4b3d04}{operator$<$$<$}} (\mbox{\hyperlink{namespaceel_1_1base_1_1type_a74ea109bf34d1c44926837fb0830f445}{base\+::type\+::ostream\+\_\+t}} \&os, const \mbox{\hyperlink{classel_1_1base_1_1utils_1_1CommandLineArgs}{Command\+Line\+Args}} \&c)
 \end{DoxyCompactItemize}
 
 
@@ -56,7 +56,7 @@ Namespace containing utility functions/static classes used internally.
 \index{el::base::utils@{el::base::utils}!abort@{abort}}
 \index{abort@{abort}!el::base::utils@{el::base::utils}}
 \doxysubsubsection{\texorpdfstring{abort()}{abort()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} el\+::base\+::utils\+::abort (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{int}}}]{status,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{reason }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily static void el\+::base\+::utils\+::abort (\begin{DoxyParamCaption}\item[{int}]{status,  }\item[{const std\+::string \&}]{reason }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -74,29 +74,37 @@ References \mbox{\hyperlink{easylogging_09_09_8cc_source_l00113}{abort()}}, and 
 \index{el::base::utils@{el::base::utils}!addFlag@{addFlag}}
 \index{addFlag@{addFlag}!el::base::utils@{el::base::utils}}
 \doxysubsubsection{\texorpdfstring{addFlag()}{addFlag()}}
-{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{typename}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}} $>$ \\
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} el\+::base\+::utils\+::add\+Flag (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}}}]{e,  }\item[{\mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}} \texorpdfstring{$\ast$}{*}}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+{\footnotesize\ttfamily template$<$typename Enum $>$ \\
+static void el\+::base\+::utils\+::add\+Flag (\begin{DoxyParamCaption}\item[{Enum}]{e,  }\item[{\mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}} \texorpdfstring{$\ast$}{*}}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
 
 
 
 Definition at line \mbox{\hyperlink{easylogging_09_09_8h_source_l00881}{881}} of file \mbox{\hyperlink{easylogging_09_09_8h_source}{easylogging++.\+h}}.
 
+
+
+References \mbox{\hyperlink{easylogging_09_09_8h_source_l00876}{el\+::base\+::utils\+::bitwise\+::\+Or()}}.
+
 \Hypertarget{namespaceel_1_1base_1_1utils_a51e93c9ba0ac509b2b7a933147349891}\label{namespaceel_1_1base_1_1utils_a51e93c9ba0ac509b2b7a933147349891} 
 \index{el::base::utils@{el::base::utils}!hasFlag@{hasFlag}}
 \index{hasFlag@{hasFlag}!el::base::utils@{el::base::utils}}
 \doxysubsubsection{\texorpdfstring{hasFlag()}{hasFlag()}}
-{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{typename}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}} $>$ \\
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::has\+Flag (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}}}]{e,  }\item[{\mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}}}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+{\footnotesize\ttfamily template$<$typename Enum $>$ \\
+static bool el\+::base\+::utils\+::has\+Flag (\begin{DoxyParamCaption}\item[{Enum}]{e,  }\item[{\mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}}}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
 
 
 
 Definition at line \mbox{\hyperlink{easylogging_09_09_8h_source_l00889}{889}} of file \mbox{\hyperlink{easylogging_09_09_8h_source}{easylogging++.\+h}}.
 
+
+
+References \mbox{\hyperlink{easylogging_09_09_8h_source_l00876}{el\+::base\+::utils\+::bitwise\+::\+Or()}}.
+
 \Hypertarget{namespaceel_1_1base_1_1utils_a45c820d11000722f7c1cbcdf7c4b3d04}\label{namespaceel_1_1base_1_1utils_a45c820d11000722f7c1cbcdf7c4b3d04} 
 \index{el::base::utils@{el::base::utils}!operator$<$$<$@{operator$<$$<$}}
 \index{operator$<$$<$@{operator$<$$<$}!el::base::utils@{el::base::utils}}
 \doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1type_a74ea109bf34d1c44926837fb0830f445}{base\+::type\+::ostream\+\_\+t}} \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{el\+::base\+::utils\+::operator}}$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceel_1_1base_1_1type_a74ea109bf34d1c44926837fb0830f445}{base\+::type\+::ostream\+\_\+t}} \&}]{os,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1CommandLineArgs}{Command\+Line\+Args}} \&}]{c }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1type_a74ea109bf34d1c44926837fb0830f445}{base\+::type\+::ostream\+\_\+t}} \& el\+::base\+::utils\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceel_1_1base_1_1type_a74ea109bf34d1c44926837fb0830f445}{base\+::type\+::ostream\+\_\+t}} \&}]{os,  }\item[{const \mbox{\hyperlink{classel_1_1base_1_1utils_1_1CommandLineArgs}{Command\+Line\+Args}} \&}]{c }\end{DoxyParamCaption})}
 
 
 
@@ -106,19 +114,23 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l01368}{1368}} 
 \index{el::base::utils@{el::base::utils}!removeFlag@{removeFlag}}
 \index{removeFlag@{removeFlag}!el::base::utils@{el::base::utils}}
 \doxysubsubsection{\texorpdfstring{removeFlag()}{removeFlag()}}
-{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{typename}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}} $>$ \\
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} el\+::base\+::utils\+::remove\+Flag (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{Enum}}}]{e,  }\item[{\mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}} \texorpdfstring{$\ast$}{*}}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+{\footnotesize\ttfamily template$<$typename Enum $>$ \\
+static void el\+::base\+::utils\+::remove\+Flag (\begin{DoxyParamCaption}\item[{Enum}]{e,  }\item[{\mbox{\hyperlink{namespaceel_1_1base_1_1type_aa7dbdfaaff779b8e3d338e1b31707098}{base\+::type\+::\+Enum\+Type}} \texorpdfstring{$\ast$}{*}}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
 
 
 
 Definition at line \mbox{\hyperlink{easylogging_09_09_8h_source_l00885}{885}} of file \mbox{\hyperlink{easylogging_09_09_8h_source}{easylogging++.\+h}}.
 
+
+
+References \mbox{\hyperlink{easylogging_09_09_8h_source_l00876}{el\+::base\+::utils\+::bitwise\+::\+Or()}}.
+
 \Hypertarget{namespaceel_1_1base_1_1utils_ae36e4687609aaf5539f46f3f399112ca}\label{namespaceel_1_1base_1_1utils_ae36e4687609aaf5539f46f3f399112ca} 
 \index{el::base::utils@{el::base::utils}!safeDelete@{safeDelete}}
 \index{safeDelete@{safeDelete}!el::base::utils@{el::base::utils}}
 \doxysubsubsection{\texorpdfstring{safeDelete()}{safeDelete()}}
-{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{typename}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{T}} $>$ \\
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::enable\+\_\+if$<$ std\+::is\+\_\+pointer$<$ \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{T}} \texorpdfstring{$\ast$}{*} $>$\+::value, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} $>$\+::type el\+::base\+::utils\+::safe\+Delete (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{T}} \texorpdfstring{$\ast$}{*}\&}]{pointer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+static std\+::enable\+\_\+if$<$ std\+::is\+\_\+pointer$<$ T \texorpdfstring{$\ast$}{*} $>$\+::value, void $>$\+::type el\+::base\+::utils\+::safe\+Delete (\begin{DoxyParamCaption}\item[{T \texorpdfstring{$\ast$}{*}\&}]{pointer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
 
 
 

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['filestreamptr_0',['FileStreamPtr',['../namespaceel_1_1base.html#a8b10bcfd674533f8340cd8c39fbf5233',1,'el::base']]],
-  ['formatspecifiervalueresolver_1',['FormatSpecifierValueResolver',['../namespaceel.html#a7127f2de2769e2a199a3665f42028a16',1,'el']]],
-  ['fstream_5ft_2',['fstream_t',['../namespaceel_1_1base_1_1type.html#a620c830ead75d26b45c060c211ee2685',1,'el::base::type']]]
+  ['difference_5ftype_0',['difference_type',['../classJson_1_1SecureAllocator.html#a404f41a8e340a8af1b54138920a6ef33',1,'Json::SecureAllocator::difference_type'],['../classJson_1_1ValueIteratorBase.html#afea6c61bcdf1ad448a5d64f2eede6f40',1,'Json::ValueIteratorBase::difference_type'],['../classJson_1_1ValueIterator.html#a6b1402fc664f1c4442ce3267e3d7f14f',1,'Json::ValueIterator::difference_type']]]
 ];

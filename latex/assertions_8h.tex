@@ -1,0 +1,75 @@
+\doxysection{include/jsoncpp/assertions.h File Reference}
+\hypertarget{assertions_8h}{}\label{assertions_8h}\index{include/jsoncpp/assertions.h@{include/jsoncpp/assertions.h}}
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include "{}config.\+h"{}}\newline
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{assertions_8h_a188941dcc789ccb6539c3d6f41405582}{JSON\+\_\+\+ASSERT}}(condition)
+\item 
+\#define \mbox{\hyperlink{assertions_8h_a67007439f94bc6afc465923f56147ba1}{JSON\+\_\+\+FAIL\+\_\+\+MESSAGE}}(message)
+\item 
+\#define \mbox{\hyperlink{assertions_8h_ad7facdeeca0f495765e3b204c265eadb}{JSON\+\_\+\+ASSERT\+\_\+\+MESSAGE}}(condition,  message)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{assertions_8h_a188941dcc789ccb6539c3d6f41405582}\label{assertions_8h_a188941dcc789ccb6539c3d6f41405582} 
+\index{assertions.h@{assertions.h}!JSON\_ASSERT@{JSON\_ASSERT}}
+\index{JSON\_ASSERT@{JSON\_ASSERT}!assertions.h@{assertions.h}}
+\doxysubsubsection{\texorpdfstring{JSON\_ASSERT}{JSON\_ASSERT}}
+{\footnotesize\ttfamily \#define JSON\+\_\+\+ASSERT(\begin{DoxyParamCaption}\item[{}]{condition }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ \ \textcolor{keywordflow}{do}\ \{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ if\ (!(condition))\ \{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ \ \ Json::throwLogicError(\textcolor{stringliteral}{"{}assert\ json\ failed"{}});\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ \}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \}\ \textcolor{keywordflow}{while}\ (0)}
+
+\end{DoxyCode}
+It should not be possible for a maliciously designed file to cause an abort() or seg-\/fault, so these macros are used only for pre-\/condition violations and internal logic errors. 
+
+Definition at line \mbox{\hyperlink{assertions_8h_source_l00023}{23}} of file \mbox{\hyperlink{assertions_8h_source}{assertions.\+h}}.
+
+\Hypertarget{assertions_8h_ad7facdeeca0f495765e3b204c265eadb}\label{assertions_8h_ad7facdeeca0f495765e3b204c265eadb} 
+\index{assertions.h@{assertions.h}!JSON\_ASSERT\_MESSAGE@{JSON\_ASSERT\_MESSAGE}}
+\index{JSON\_ASSERT\_MESSAGE@{JSON\_ASSERT\_MESSAGE}!assertions.h@{assertions.h}}
+\doxysubsubsection{\texorpdfstring{JSON\_ASSERT\_MESSAGE}{JSON\_ASSERT\_MESSAGE}}
+{\footnotesize\ttfamily \#define JSON\+\_\+\+ASSERT\+\_\+\+MESSAGE(\begin{DoxyParamCaption}\item[{}]{condition,  }\item[{}]{message }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ \ \textcolor{keywordflow}{do}\ \{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ if\ (!(condition))\ \{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ \ \ JSON\_FAIL\_MESSAGE(message);\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ \}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \}\ \textcolor{keywordflow}{while}\ (0)}
+
+\end{DoxyCode}
+
+
+Definition at line \mbox{\hyperlink{assertions_8h_source_l00054}{54}} of file \mbox{\hyperlink{assertions_8h_source}{assertions.\+h}}.
+
+\Hypertarget{assertions_8h_a67007439f94bc6afc465923f56147ba1}\label{assertions_8h_a67007439f94bc6afc465923f56147ba1} 
+\index{assertions.h@{assertions.h}!JSON\_FAIL\_MESSAGE@{JSON\_FAIL\_MESSAGE}}
+\index{JSON\_FAIL\_MESSAGE@{JSON\_FAIL\_MESSAGE}!assertions.h@{assertions.h}}
+\doxysubsubsection{\texorpdfstring{JSON\_FAIL\_MESSAGE}{JSON\_FAIL\_MESSAGE}}
+{\footnotesize\ttfamily \#define JSON\+\_\+\+FAIL\+\_\+\+MESSAGE(\begin{DoxyParamCaption}\item[{}]{message }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ \ \textcolor{keywordflow}{do}\ \{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ OStringStream\ oss;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ oss\ <<\ message;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ Json::throwLogicError(oss.str());\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ abort();\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \}\ \textcolor{keywordflow}{while}\ (0)}
+
+\end{DoxyCode}
+
+
+Definition at line \mbox{\hyperlink{assertions_8h_source_l00030}{30}} of file \mbox{\hyperlink{assertions_8h_source}{assertions.\+h}}.
+

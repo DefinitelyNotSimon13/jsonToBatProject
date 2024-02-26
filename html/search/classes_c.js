@@ -1,5 +1,19 @@
 var searchData=
 [
-  ['threadsafe_0',['ThreadSafe',['../classel_1_1base_1_1threading_1_1ThreadSafe.html',1,'el::base::threading']]],
-  ['typedconfigurations_1',['TypedConfigurations',['../classel_1_1base_1_1TypedConfigurations.html',1,'el::base']]]
+  ['scopedaddflag_0',['ScopedAddFlag',['../classel_1_1Loggers_1_1ScopedAddFlag.html',1,'el::Loggers']]],
+  ['scopedremoveflag_1',['ScopedRemoveFlag',['../classel_1_1Loggers_1_1ScopedRemoveFlag.html',1,'el::Loggers']]],
+  ['secureallocator_2',['SecureAllocator',['../classJson_1_1SecureAllocator.html',1,'Json']]],
+  ['staticclass_3',['StaticClass',['../classel_1_1base_1_1StaticClass.html',1,'el::base']]],
+  ['staticstring_4',['StaticString',['../classJson_1_1StaticString.html',1,'Json']]],
+  ['storage_5',['Storage',['../classel_1_1base_1_1Storage.html',1,'el::base']]],
+  ['str_6',['Str',['../classel_1_1base_1_1utils_1_1Str.html',1,'el::base::utils']]],
+  ['streamwriter_7',['StreamWriter',['../classJson_1_1StreamWriter.html',1,'Json']]],
+  ['streamwriterbuilder_8',['StreamWriterBuilder',['../classJson_1_1StreamWriterBuilder.html',1,'Json']]],
+  ['stringstorage_9',['StringStorage',['../structJson_1_1Value_1_1CZString_1_1StringStorage.html',1,'Json::Value::CZString']]],
+  ['stringtolevelitem_10',['StringToLevelItem',['../structel_1_1StringToLevelItem.html',1,'el']]],
+  ['structurederror_11',['StructuredError',['../structJson_1_1Reader_1_1StructuredError.html',1,'Json::Reader']]],
+  ['styledstreamwriter_12',['StyledStreamWriter',['../classJson_1_1StyledStreamWriter.html',1,'Json']]],
+  ['styledwriter_13',['StyledWriter',['../classJson_1_1StyledWriter.html',1,'Json']]],
+  ['subsecondprecision_14',['SubsecondPrecision',['../classel_1_1base_1_1SubsecondPrecision.html',1,'el::base']]],
+  ['sysloginitializer_15',['SysLogInitializer',['../classel_1_1SysLogInitializer.html',1,'el']]]
 ];

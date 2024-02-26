@@ -14,41 +14,41 @@ Inheritance diagram for el\+::base\+::utils\+::Str\+:\begin{figure}[H]
 \doxysubsubsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a4caae91dfe0310d9f182bd9b7e99103c}{is\+Digit}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{c}})
+static bool \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a4caae91dfe0310d9f182bd9b7e99103c}{is\+Digit}} (char c)
 \begin{DoxyCompactList}\small\item\em Checks if character is digit. Dont use libc implementation of it to prevent locale issues. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a0f96b488eca9772e204f8b5feddd9a90}{wild\+Card\+Match}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{pattern}})
+static bool \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a0f96b488eca9772e204f8b5feddd9a90}{wild\+Card\+Match}} (const char \texorpdfstring{$\ast$}{*}str, const char \texorpdfstring{$\ast$}{*}pattern)
 \begin{DoxyCompactList}\small\item\em Matches wildcards, \textquotesingle{}\texorpdfstring{$\ast$}{*}\textquotesingle{} and \textquotesingle{}?\textquotesingle{} only supported. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_adf34c645138317e324701a2f409d7c93}{ltrim}} (std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}})
+static std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_adf34c645138317e324701a2f409d7c93}{ltrim}} (std\+::string \&str)
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a2192df38f98b1d9547ff0e339e33f486}{rtrim}} (std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}})
+static std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a2192df38f98b1d9547ff0e339e33f486}{rtrim}} (std\+::string \&str)
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a2f1d427fb0893861961dee5c79d05e10}{trim}} (std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}})
+static std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a2f1d427fb0893861961dee5c79d05e10}{trim}} (std\+::string \&str)
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a87b8a192300657c907b0678a8d715da2}{starts\+With}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{start}})
+static bool \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a87b8a192300657c907b0678a8d715da2}{starts\+With}} (const std\+::string \&str, const std\+::string \&start)
 \begin{DoxyCompactList}\small\item\em Determines whether or not str starts with specified string. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a8116fdf0f0308f78a42989da9df52377}{ends\+With}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&end)
+static bool \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a8116fdf0f0308f78a42989da9df52377}{ends\+With}} (const std\+::string \&str, const std\+::string \&end)
 \begin{DoxyCompactList}\small\item\em Determines whether or not str ends with specified string. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_ab24bb11d2b5eb8ede4296d70b510f726}{replace\+All}} (std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{replace\+What}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{replace\+With}})
+static std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_ab24bb11d2b5eb8ede4296d70b510f726}{replace\+All}} (std\+::string \&str, char replace\+What, char replace\+With)
 \begin{DoxyCompactList}\small\item\em Replaces all instances of replace\+What with \textquotesingle{}replace\+With\textquotesingle{}. Original variable is changed for performance. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a5f424d54390059c0a6a6f81a74ee846b}{replace\+All}} (std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{replace\+What}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{replace\+With}})
+static std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a5f424d54390059c0a6a6f81a74ee846b}{replace\+All}} (std\+::string \&str, const std\+::string \&replace\+What, const std\+::string \&replace\+With)
 \begin{DoxyCompactList}\small\item\em Replaces all instances of \textquotesingle{}replace\+What\textquotesingle{} with \textquotesingle{}replace\+With\textquotesingle{}. (String version) Replaces in place. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a0f271d7da2bb3c1f2fa062219c0e0ba2}{replace\+First\+With\+Escape}} (\mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{replace\+What}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{replace\+With}})
+static void \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a0f271d7da2bb3c1f2fa062219c0e0ba2}{replace\+First\+With\+Escape}} (\mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&str, const \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&replace\+What, const \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&replace\+With)
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_ae2a0878bab54634c297414677b526f28}{to\+Upper}} (std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}})
+static std\+::string \& \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_ae2a0878bab54634c297414677b526f28}{to\+Upper}} (std\+::string \&str)
 \begin{DoxyCompactList}\small\item\em Converts string to uppercase. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a0e0bfe8f8e35d54f7009bc0891b0b262}{c\+String\+Eq}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{s1}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{s2}})
+static bool \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a0e0bfe8f8e35d54f7009bc0891b0b262}{c\+String\+Eq}} (const char \texorpdfstring{$\ast$}{*}s1, const char \texorpdfstring{$\ast$}{*}s2)
 \begin{DoxyCompactList}\small\item\em Compares cstring equality -\/ uses strcmp. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a7e47930ab4ebdcb0b50aa34fe992793f}{c\+String\+Case\+Eq}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{s1}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{s2}})
+static bool \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a7e47930ab4ebdcb0b50aa34fe992793f}{c\+String\+Case\+Eq}} (const char \texorpdfstring{$\ast$}{*}s1, const char \texorpdfstring{$\ast$}{*}s2)
 \begin{DoxyCompactList}\small\item\em Compares cstring equality (case-\/insensitive) -\/ uses toupper(char) Dont use strcasecmp because of CRT (VC++) \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a1b4b61f9018c964cdf581e641c464947}{contains}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{c}})
+static bool \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a1b4b61f9018c964cdf581e641c464947}{contains}} (const char \texorpdfstring{$\ast$}{*}str, char c)
 \begin{DoxyCompactList}\small\item\em Returns true if c exist in str. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a42c64659443d9e4144d5382007315896}{convert\+And\+Add\+To\+Buff}} (std\+::size\+\_\+t \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{n}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{int}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{len}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{buf}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{buf\+Lim}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{zero\+Padded}}=\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{true}})
+static char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a42c64659443d9e4144d5382007315896}{convert\+And\+Add\+To\+Buff}} (std\+::size\+\_\+t n, int len, char \texorpdfstring{$\ast$}{*}buf, const char \texorpdfstring{$\ast$}{*}buf\+Lim, bool zero\+Padded=true)
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_aa327f63f50daa9058b9c26b949725044}{add\+To\+Buff}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{str}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{buf}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{buf\+Lim}})
+static char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_aa327f63f50daa9058b9c26b949725044}{add\+To\+Buff}} (const char \texorpdfstring{$\ast$}{*}str, char \texorpdfstring{$\ast$}{*}buf, const char \texorpdfstring{$\ast$}{*}buf\+Lim)
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_ae86543e5648f991b8d47d4ea0840402e}{clear\+Buff}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{buff}}\mbox{[}$\,$\mbox{]}, std\+::size\+\_\+t \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{lim}})
+static char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_ae86543e5648f991b8d47d4ea0840402e}{clear\+Buff}} (char buff\mbox{[}$\,$\mbox{]}, std\+::size\+\_\+t lim)
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a6672f1ba9c6fbb54240d1981b87c064f}{wchar\+Ptr\+To\+Char\+Ptr}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{wchar\+\_\+t}} \texorpdfstring{$\ast$}{*}line)
+static char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1Str_a6672f1ba9c6fbb54240d1981b87c064f}{wchar\+Ptr\+To\+Char\+Ptr}} (const wchar\+\_\+t \texorpdfstring{$\ast$}{*}line)
 \begin{DoxyCompactList}\small\item\em Converts wchar\texorpdfstring{$\ast$}{*} to char\texorpdfstring{$\ast$}{*} NOTE\+: Need to free return value after use! \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -64,7 +64,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8h_source_l01066}{1066}} o
 \index{el::base::utils::Str@{el::base::utils::Str}!addToBuff@{addToBuff}}
 \index{addToBuff@{addToBuff}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{addToBuff()}{addToBuff()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Str\+::add\+To\+Buff (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{str,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{buf,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{buf\+Lim }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily char \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Str\+::add\+To\+Buff (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{str,  }\item[{char \texorpdfstring{$\ast$}{*}}]{buf,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{buf\+Lim }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -74,7 +74,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l01000}{1000}} 
 \index{el::base::utils::Str@{el::base::utils::Str}!clearBuff@{clearBuff}}
 \index{clearBuff@{clearBuff}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{clearBuff()}{clearBuff()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Str\+::clear\+Buff (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}}}]{buff\mbox{[}$\,$\mbox{]},  }\item[{std\+::size\+\_\+t}]{lim }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily char \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Str\+::clear\+Buff (\begin{DoxyParamCaption}\item[{char}]{buff\mbox{[}$\,$\mbox{]},  }\item[{std\+::size\+\_\+t}]{lim }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -88,7 +88,7 @@ References \mbox{\hyperlink{easylogging_09_09_8h_source_l00223}{ELPP\+\_\+\+UNUS
 \index{el::base::utils::Str@{el::base::utils::Str}!contains@{contains}}
 \index{contains@{contains}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{contains()}{contains()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::\+Str\+::contains (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{str,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily bool el\+::base\+::utils\+::\+Str\+::contains (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{str,  }\item[{char}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -102,7 +102,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00977}{977}} o
 \index{el::base::utils::Str@{el::base::utils::Str}!convertAndAddToBuff@{convertAndAddToBuff}}
 \index{convertAndAddToBuff@{convertAndAddToBuff}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{convertAndAddToBuff()}{convertAndAddToBuff()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Str\+::convert\+And\+Add\+To\+Buff (\begin{DoxyParamCaption}\item[{std\+::size\+\_\+t}]{n,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{int}}}]{len,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{buf,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{buf\+Lim,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}}}]{zero\+Padded = {\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{true}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily char \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Str\+::convert\+And\+Add\+To\+Buff (\begin{DoxyParamCaption}\item[{std\+::size\+\_\+t}]{n,  }\item[{int}]{len,  }\item[{char \texorpdfstring{$\ast$}{*}}]{buf,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{buf\+Lim,  }\item[{bool}]{zero\+Padded = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -116,7 +116,7 @@ References \mbox{\hyperlink{easylogging_09_09_8cc_source_l01000}{add\+To\+Buff()
 \index{el::base::utils::Str@{el::base::utils::Str}!cStringCaseEq@{cStringCaseEq}}
 \index{cStringCaseEq@{cStringCaseEq}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{cStringCaseEq()}{cStringCaseEq()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::\+Str\+::c\+String\+Case\+Eq (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{s1,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily bool el\+::base\+::utils\+::\+Str\+::c\+String\+Case\+Eq (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{s1,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -130,7 +130,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00958}{958}} o
 \index{el::base::utils::Str@{el::base::utils::Str}!cStringEq@{cStringEq}}
 \index{cStringEq@{cStringEq}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{cStringEq()}{cStringEq()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::\+Str\+::c\+String\+Eq (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{s1,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily bool el\+::base\+::utils\+::\+Str\+::c\+String\+Eq (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{s1,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -144,7 +144,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00952}{952}} o
 \index{el::base::utils::Str@{el::base::utils::Str}!endsWith@{endsWith}}
 \index{endsWith@{endsWith}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{endsWith()}{endsWith()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::\+Str\+::ends\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{str,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{end }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily bool el\+::base\+::utils\+::\+Str\+::ends\+With (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{str,  }\item[{const std\+::string \&}]{end }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -168,7 +168,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00904}{904}} o
 \index{el::base::utils::Str@{el::base::utils::Str}!isDigit@{isDigit}}
 \index{isDigit@{isDigit}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{isDigit()}{isDigit()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::\+Str\+::is\+Digit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+{\footnotesize\ttfamily static bool el\+::base\+::utils\+::\+Str\+::is\+Digit (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 
 
@@ -188,15 +188,11 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8h_source_l01069}{1069}} o
 
 Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00882}{882}} of file \mbox{\hyperlink{easylogging_09_09_8cc_source}{easylogging++.\+cc}}.
 
-
-
-References \mbox{\hyperlink{easylogging_09_09_8h_source_l01310}{el\+::base\+::utils\+::\+Abstract\+Registry$<$ T\+\_\+\+Ptr, Container $>$\+::begin()}}, and \mbox{\hyperlink{easylogging_09_09_8h_source_l01315}{el\+::base\+::utils\+::\+Abstract\+Registry$<$ T\+\_\+\+Ptr, Container $>$\+::end()}}.
-
 \Hypertarget{classel_1_1base_1_1utils_1_1Str_ab24bb11d2b5eb8ede4296d70b510f726}\label{classel_1_1base_1_1utils_1_1Str_ab24bb11d2b5eb8ede4296d70b510f726} 
 \index{el::base::utils::Str@{el::base::utils::Str}!replaceAll@{replaceAll}}
 \index{replaceAll@{replaceAll}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{replaceAll()}{replaceAll()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
-{\footnotesize\ttfamily std\+::string \& el\+::base\+::utils\+::\+Str\+::replace\+All (\begin{DoxyParamCaption}\item[{std\+::string \&}]{str,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}}}]{replace\+What,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}}}]{replace\+With }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily std\+::string \& el\+::base\+::utils\+::\+Str\+::replace\+All (\begin{DoxyParamCaption}\item[{std\+::string \&}]{str,  }\item[{char}]{replace\+What,  }\item[{char}]{replace\+With }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -218,15 +214,11 @@ Modified version of str
 
 Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00908}{908}} of file \mbox{\hyperlink{easylogging_09_09_8cc_source}{easylogging++.\+cc}}.
 
-
-
-References \mbox{\hyperlink{easylogging_09_09_8h_source_l01310}{el\+::base\+::utils\+::\+Abstract\+Registry$<$ T\+\_\+\+Ptr, Container $>$\+::begin()}}, and \mbox{\hyperlink{easylogging_09_09_8h_source_l01315}{el\+::base\+::utils\+::\+Abstract\+Registry$<$ T\+\_\+\+Ptr, Container $>$\+::end()}}.
-
 \Hypertarget{classel_1_1base_1_1utils_1_1Str_a5f424d54390059c0a6a6f81a74ee846b}\label{classel_1_1base_1_1utils_1_1Str_a5f424d54390059c0a6a6f81a74ee846b} 
 \index{el::base::utils::Str@{el::base::utils::Str}!replaceAll@{replaceAll}}
 \index{replaceAll@{replaceAll}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{replaceAll()}{replaceAll()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily std\+::string \& el\+::base\+::utils\+::\+Str\+::replace\+All (\begin{DoxyParamCaption}\item[{std\+::string \&}]{str,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{replace\+What,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{replace\+With }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily std\+::string \& el\+::base\+::utils\+::\+Str\+::replace\+All (\begin{DoxyParamCaption}\item[{std\+::string \&}]{str,  }\item[{const std\+::string \&}]{replace\+What,  }\item[{const std\+::string \&}]{replace\+With }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -252,7 +244,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00913}{913}} o
 \index{el::base::utils::Str@{el::base::utils::Str}!replaceFirstWithEscape@{replaceFirstWithEscape}}
 \index{replaceFirstWithEscape@{replaceFirstWithEscape}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{replaceFirstWithEscape()}{replaceFirstWithEscape()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} el\+::base\+::utils\+::\+Str\+::replace\+First\+With\+Escape (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&}]{str,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&}]{replace\+What,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&}]{replace\+With }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily void el\+::base\+::utils\+::\+Str\+::replace\+First\+With\+Escape (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&}]{str,  }\item[{const \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&}]{replace\+What,  }\item[{const \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \&}]{replace\+With }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -272,15 +264,11 @@ References \mbox{\hyperlink{easylogging_09_09_8h_source_l00733}{el\+::base\+::co
 
 Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00889}{889}} of file \mbox{\hyperlink{easylogging_09_09_8cc_source}{easylogging++.\+cc}}.
 
-
-
-References \mbox{\hyperlink{easylogging_09_09_8h_source_l01315}{el\+::base\+::utils\+::\+Abstract\+Registry$<$ T\+\_\+\+Ptr, Container $>$\+::end()}}.
-
 \Hypertarget{classel_1_1base_1_1utils_1_1Str_a87b8a192300657c907b0678a8d715da2}\label{classel_1_1base_1_1utils_1_1Str_a87b8a192300657c907b0678a8d715da2} 
 \index{el::base::utils::Str@{el::base::utils::Str}!startsWith@{startsWith}}
 \index{startsWith@{startsWith}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{startsWith()}{startsWith()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::\+Str\+::starts\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{str,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{start }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily bool el\+::base\+::utils\+::\+Str\+::starts\+With (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{str,  }\item[{const std\+::string \&}]{start }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -322,10 +310,6 @@ Uppercase string
 
 Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00944}{944}} of file \mbox{\hyperlink{easylogging_09_09_8cc_source}{easylogging++.\+cc}}.
 
-
-
-References \mbox{\hyperlink{easylogging_09_09_8h_source_l01310}{el\+::base\+::utils\+::\+Abstract\+Registry$<$ T\+\_\+\+Ptr, Container $>$\+::begin()}}, and \mbox{\hyperlink{easylogging_09_09_8h_source_l01315}{el\+::base\+::utils\+::\+Abstract\+Registry$<$ T\+\_\+\+Ptr, Container $>$\+::end()}}.
-
 \Hypertarget{classel_1_1base_1_1utils_1_1Str_a2f1d427fb0893861961dee5c79d05e10}\label{classel_1_1base_1_1utils_1_1Str_a2f1d427fb0893861961dee5c79d05e10} 
 \index{el::base::utils::Str@{el::base::utils::Str}!trim@{trim}}
 \index{trim@{trim}!el::base::utils::Str@{el::base::utils::Str}}
@@ -344,7 +328,7 @@ References \mbox{\hyperlink{easylogging_09_09_8cc_source_l00882}{ltrim()}}, and 
 \index{el::base::utils::Str@{el::base::utils::Str}!wcharPtrToCharPtr@{wcharPtrToCharPtr}}
 \index{wcharPtrToCharPtr@{wcharPtrToCharPtr}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{wcharPtrToCharPtr()}{wcharPtrToCharPtr()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Str\+::wchar\+Ptr\+To\+Char\+Ptr (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{wchar\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{line }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily char \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Str\+::wchar\+Ptr\+To\+Char\+Ptr (\begin{DoxyParamCaption}\item[{const wchar\+\_\+t \texorpdfstring{$\ast$}{*}}]{line }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -358,7 +342,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l01014}{1014}} 
 \index{el::base::utils::Str@{el::base::utils::Str}!wildCardMatch@{wildCardMatch}}
 \index{wildCardMatch@{wildCardMatch}!el::base::utils::Str@{el::base::utils::Str}}
 \doxysubsubsection{\texorpdfstring{wildCardMatch()}{wildCardMatch()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::\+Str\+::wild\+Card\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{str,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily bool el\+::base\+::utils\+::\+Str\+::wild\+Card\+Match (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{str,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -376,5 +360,5 @@ References \mbox{\hyperlink{easylogging_09_09_8cc_source_l00858}{wild\+Card\+Mat
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-lib/\mbox{\hyperlink{easylogging_09_09_8h}{easylogging++.\+h}}\item 
+include/\mbox{\hyperlink{easylogging_09_09_8h}{easylogging++.\+h}}\item 
 lib/\mbox{\hyperlink{easylogging_09_09_8cc}{easylogging++.\+cc}}\end{DoxyCompactItemize}

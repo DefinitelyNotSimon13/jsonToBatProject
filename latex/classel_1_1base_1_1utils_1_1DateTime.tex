@@ -14,22 +14,22 @@ Inheritance diagram for el\+::base\+::utils\+::Date\+Time\+:\begin{figure}[H]
 \doxysubsubsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_a7197976eff45378efdca75ae070492e7}{gettimeofday}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timeval}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{tv}})
+static void \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_a7197976eff45378efdca75ae070492e7}{gettimeofday}} (struct timeval \texorpdfstring{$\ast$}{*}tv)
 \begin{DoxyCompactList}\small\item\em Cross platform gettimeofday for Windows and unix platform. This can be used to determine current microsecond. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_acc31fad280188b0b0e8f04dec0e21310}{get\+Date\+Time}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}format, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{ss\+Prec}})
+static std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_acc31fad280188b0b0e8f04dec0e21310}{get\+Date\+Time}} (const char \texorpdfstring{$\ast$}{*}format, const \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}ss\+Prec)
 \begin{DoxyCompactList}\small\item\em Gets current date and time with a subsecond part. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_a535546a91e5fa6cd30d2ac2a980d442a}{timeval\+To\+String}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timeval}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{tval}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}format, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{el\+::base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{ss\+Prec}})
+static std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_a535546a91e5fa6cd30d2ac2a980d442a}{timeval\+To\+String}} (struct timeval tval, const char \texorpdfstring{$\ast$}{*}format, const \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{el\+::base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}ss\+Prec)
 \begin{DoxyCompactList}\small\item\em Converts timeval (struct from ctime) to string using specified format and subsecond precision. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_a9f19da20362c685d32be922a06faf586}{format\+Time}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{unsigned}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{long}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{long}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{time}}, \mbox{\hyperlink{namespaceel_1_1base_a1b886858c6409097395b24b1bdf03c39}{base\+::\+Timestamp\+Unit}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timestamp\+Unit}})
+static \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_a9f19da20362c685d32be922a06faf586}{format\+Time}} (unsigned long long time, \mbox{\hyperlink{namespaceel_1_1base_a1b886858c6409097395b24b1bdf03c39}{base\+::\+Timestamp\+Unit}} timestamp\+Unit)
 \begin{DoxyCompactList}\small\item\em Formats time to get unit accordingly, units like second if \texorpdfstring{$>$}{>} 1000 or minutes if \texorpdfstring{$>$}{>} 60000 etc. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{unsigned}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{long}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{long}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_a6635a2a31d6f3d79d47012ea3ccf9d31}{get\+Time\+Difference}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timeval}} \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{end\+Time}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timeval}} \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{start\+Time}}, \mbox{\hyperlink{namespaceel_1_1base_a1b886858c6409097395b24b1bdf03c39}{base\+::\+Timestamp\+Unit}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timestamp\+Unit}})
+static unsigned long long \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_a6635a2a31d6f3d79d47012ea3ccf9d31}{get\+Time\+Difference}} (const struct timeval \&end\+Time, const struct timeval \&start\+Time, \mbox{\hyperlink{namespaceel_1_1base_a1b886858c6409097395b24b1bdf03c39}{base\+::\+Timestamp\+Unit}} timestamp\+Unit)
 \begin{DoxyCompactList}\small\item\em Gets time difference in milli/micro second depending on timestamp\+Unit. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} struct\+::tm \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_ad0b327f1a8512fbccaee6788f942e717}{build\+Time\+Info}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timeval}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{curr\+Time}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \+::tm \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{time\+Info}})
+static struct\+::tm \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_ad0b327f1a8512fbccaee6788f942e717}{build\+Time\+Info}} (struct timeval \texorpdfstring{$\ast$}{*}curr\+Time, struct \+::tm \texorpdfstring{$\ast$}{*}time\+Info)
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Static Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_ae9e46f004059acb5447885e1103c3ea8}{parse\+Format}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{buf}}, std\+::size\+\_\+t \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{buf\+Sz}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}format, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{tm}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{t\+Info}}, std\+::size\+\_\+t \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{msec}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{ss\+Prec}})
+static char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1DateTime_ae9e46f004059acb5447885e1103c3ea8}{parse\+Format}} (char \texorpdfstring{$\ast$}{*}buf, std\+::size\+\_\+t buf\+Sz, const char \texorpdfstring{$\ast$}{*}format, const struct tm \texorpdfstring{$\ast$}{*}t\+Info, std\+::size\+\_\+t msec, const \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}ss\+Prec)
 \end{DoxyCompactItemize}
 
 
@@ -45,7 +45,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8h_source_l01179}{1179}} o
 \index{el::base::utils::DateTime@{el::base::utils::DateTime}!buildTimeInfo@{buildTimeInfo}}
 \index{buildTimeInfo@{buildTimeInfo}!el::base::utils::DateTime@{el::base::utils::DateTime}}
 \doxysubsubsection{\texorpdfstring{buildTimeInfo()}{buildTimeInfo()}}
-{\footnotesize\ttfamily struct\+::tm \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Date\+Time\+::build\+Time\+Info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timeval}} \texorpdfstring{$\ast$}{*}}]{curr\+Time,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \+::tm \texorpdfstring{$\ast$}{*}}]{time\+Info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily struct\+::tm \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Date\+Time\+::build\+Time\+Info (\begin{DoxyParamCaption}\item[{struct timeval \texorpdfstring{$\ast$}{*}}]{curr\+Time,  }\item[{struct \+::tm \texorpdfstring{$\ast$}{*}}]{time\+Info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -59,7 +59,7 @@ References \mbox{\hyperlink{easylogging_09_09_8h_source_l00223}{ELPP\+\_\+\+UNUS
 \index{el::base::utils::DateTime@{el::base::utils::DateTime}!formatTime@{formatTime}}
 \index{formatTime@{formatTime}!el::base::utils::DateTime@{el::base::utils::DateTime}}
 \doxysubsubsection{\texorpdfstring{formatTime()}{formatTime()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} el\+::base\+::utils\+::\+Date\+Time\+::format\+Time (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{unsigned}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{long}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{long}}}]{time,  }\item[{\mbox{\hyperlink{namespaceel_1_1base_a1b886858c6409097395b24b1bdf03c39}{base\+::\+Timestamp\+Unit}}}]{timestamp\+Unit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1type_a67e406cd213c231f1d135b5a4eda64b5}{base\+::type\+::string\+\_\+t}} el\+::base\+::utils\+::\+Date\+Time\+::format\+Time (\begin{DoxyParamCaption}\item[{unsigned long long}]{time,  }\item[{\mbox{\hyperlink{namespaceel_1_1base_a1b886858c6409097395b24b1bdf03c39}{base\+::\+Timestamp\+Unit}}}]{timestamp\+Unit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -77,7 +77,7 @@ References \mbox{\hyperlink{namespaceel_1_1base_1_1consts_ac49c750c702270a2adeff
 \index{el::base::utils::DateTime@{el::base::utils::DateTime}!getDateTime@{getDateTime}}
 \index{getDateTime@{getDateTime}!el::base::utils::DateTime@{el::base::utils::DateTime}}
 \doxysubsubsection{\texorpdfstring{getDateTime()}{getDateTime()}}
-{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+Date\+Time\+::get\+Date\+Time (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{format,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}}]{ss\+Prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+Date\+Time\+::get\+Date\+Time (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{format,  }\item[{const \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}}]{ss\+Prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -105,7 +105,7 @@ References \mbox{\hyperlink{easylogging_09_09_8cc_source_l01150}{gettimeofday()}
 \index{el::base::utils::DateTime@{el::base::utils::DateTime}!getTimeDifference@{getTimeDifference}}
 \index{getTimeDifference@{getTimeDifference}!el::base::utils::DateTime@{el::base::utils::DateTime}}
 \doxysubsubsection{\texorpdfstring{getTimeDifference()}{getTimeDifference()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{unsigned}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{long}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{long}} el\+::base\+::utils\+::\+Date\+Time\+::get\+Time\+Difference (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timeval}} \&}]{end\+Time,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timeval}} \&}]{start\+Time,  }\item[{\mbox{\hyperlink{namespaceel_1_1base_a1b886858c6409097395b24b1bdf03c39}{base\+::\+Timestamp\+Unit}}}]{timestamp\+Unit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily unsigned long long el\+::base\+::utils\+::\+Date\+Time\+::get\+Time\+Difference (\begin{DoxyParamCaption}\item[{const struct timeval \&}]{end\+Time,  }\item[{const struct timeval \&}]{start\+Time,  }\item[{\mbox{\hyperlink{namespaceel_1_1base_a1b886858c6409097395b24b1bdf03c39}{base\+::\+Timestamp\+Unit}}}]{timestamp\+Unit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -123,7 +123,7 @@ References \mbox{\hyperlink{namespaceel_1_1base_a1b886858c6409097395b24b1bdf03c3
 \index{el::base::utils::DateTime@{el::base::utils::DateTime}!gettimeofday@{gettimeofday}}
 \index{gettimeofday@{gettimeofday}!el::base::utils::DateTime@{el::base::utils::DateTime}}
 \doxysubsubsection{\texorpdfstring{gettimeofday()}{gettimeofday()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} el\+::base\+::utils\+::\+Date\+Time\+::gettimeofday (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timeval}} \texorpdfstring{$\ast$}{*}}]{tv }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily void el\+::base\+::utils\+::\+Date\+Time\+::gettimeofday (\begin{DoxyParamCaption}\item[{struct timeval \texorpdfstring{$\ast$}{*}}]{tv }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -146,7 +146,7 @@ References \mbox{\hyperlink{easylogging_09_09_8cc_source_l01150}{gettimeofday()}
 \index{el::base::utils::DateTime@{el::base::utils::DateTime}!parseFormat@{parseFormat}}
 \index{parseFormat@{parseFormat}!el::base::utils::DateTime@{el::base::utils::DateTime}}
 \doxysubsubsection{\texorpdfstring{parseFormat()}{parseFormat()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Date\+Time\+::parse\+Format (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{buf,  }\item[{std\+::size\+\_\+t}]{buf\+Sz,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{format,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{tm}} \texorpdfstring{$\ast$}{*}}]{t\+Info,  }\item[{std\+::size\+\_\+t}]{msec,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}}]{ss\+Prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+{\footnotesize\ttfamily char \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+Date\+Time\+::parse\+Format (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{buf,  }\item[{std\+::size\+\_\+t}]{buf\+Sz,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{format,  }\item[{const struct tm \texorpdfstring{$\ast$}{*}}]{t\+Info,  }\item[{std\+::size\+\_\+t}]{msec,  }\item[{const \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}}]{ss\+Prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
 
 
 
@@ -154,13 +154,13 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l01251}{1251}} 
 
 
 
-References \mbox{\hyperlink{easylogging_09_09_8cc_source_l01000}{el\+::base\+::utils\+::\+Str\+::add\+To\+Buff()}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00985}{el\+::base\+::utils\+::\+Str\+::convert\+And\+Add\+To\+Buff()}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00070}{el\+::base\+::consts\+::k\+Am}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00061}{el\+::base\+::consts\+::k\+Days}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00062}{el\+::base\+::consts\+::k\+Days\+Abbrev}}, \mbox{\hyperlink{easylogging_09_09_8h_source_l00733}{el\+::base\+::consts\+::k\+Format\+Specifier\+Char}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00063}{el\+::base\+::consts\+::k\+Months}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00066}{el\+::base\+::consts\+::k\+Months\+Abbrev}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00071}{el\+::base\+::consts\+::k\+Pm}}, and \mbox{\hyperlink{easylogging_09_09_8cc_source_l00069}{el\+::base\+::consts\+::k\+Year\+Base}}.
+References \mbox{\hyperlink{easylogging_09_09_8cc_source_l01000}{el\+::base\+::utils\+::\+Str\+::add\+To\+Buff()}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00985}{el\+::base\+::utils\+::\+Str\+::convert\+And\+Add\+To\+Buff()}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00070}{el\+::base\+::consts\+::k\+Am}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00061}{el\+::base\+::consts\+::k\+Days}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00062}{el\+::base\+::consts\+::k\+Days\+Abbrev}}, \mbox{\hyperlink{easylogging_09_09_8h_source_l00733}{el\+::base\+::consts\+::k\+Format\+Specifier\+Char}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00063}{el\+::base\+::consts\+::k\+Months}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00066}{el\+::base\+::consts\+::k\+Months\+Abbrev}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00071}{el\+::base\+::consts\+::k\+Pm}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00069}{el\+::base\+::consts\+::k\+Year\+Base}}, and \mbox{\hyperlink{easylogging_09_09_8h_source_l00845}{el\+::base\+::\+Subsecond\+Precision\+::m\+\_\+width}}.
 
 \Hypertarget{classel_1_1base_1_1utils_1_1DateTime_a535546a91e5fa6cd30d2ac2a980d442a}\label{classel_1_1base_1_1utils_1_1DateTime_a535546a91e5fa6cd30d2ac2a980d442a} 
 \index{el::base::utils::DateTime@{el::base::utils::DateTime}!timevalToString@{timevalToString}}
 \index{timevalToString@{timevalToString}!el::base::utils::DateTime@{el::base::utils::DateTime}}
 \doxysubsubsection{\texorpdfstring{timevalToString()}{timevalToString()}}
-{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+Date\+Time\+::timeval\+To\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{struct}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{timeval}}}]{tval,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{format,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{el\+::base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}}]{ss\+Prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+Date\+Time\+::timeval\+To\+String (\begin{DoxyParamCaption}\item[{struct timeval}]{tval,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{format,  }\item[{const \mbox{\hyperlink{classel_1_1base_1_1SubsecondPrecision}{el\+::base\+::\+Subsecond\+Precision}} \texorpdfstring{$\ast$}{*}}]{ss\+Prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -172,11 +172,11 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l01183}{1183}} 
 
 
 
-References \mbox{\hyperlink{easylogging_09_09_8cc_source_l01225}{build\+Time\+Info()}}, and \mbox{\hyperlink{easylogging_09_09_8cc_source_l01251}{parse\+Format()}}.
+References \mbox{\hyperlink{easylogging_09_09_8cc_source_l01225}{build\+Time\+Info()}}, \mbox{\hyperlink{easylogging_09_09_8h_source_l00846}{el\+::base\+::\+Subsecond\+Precision\+::m\+\_\+offset}}, and \mbox{\hyperlink{easylogging_09_09_8cc_source_l01251}{parse\+Format()}}.
 
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-lib/\mbox{\hyperlink{easylogging_09_09_8h}{easylogging++.\+h}}\item 
+include/\mbox{\hyperlink{easylogging_09_09_8h}{easylogging++.\+h}}\item 
 lib/\mbox{\hyperlink{easylogging_09_09_8cc}{easylogging++.\+cc}}\end{DoxyCompactItemize}

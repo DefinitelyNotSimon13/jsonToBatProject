@@ -1,0 +1,153 @@
+\doxysection{config.\+h}
+\hypertarget{config_8h_source}{}\label{config_8h_source}\index{include/jsoncpp/config.h@{include/jsoncpp/config.h}}
+\mbox{\hyperlink{config_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00001}00001\ \textcolor{comment}{//\ Copyright\ 2007-\/2010\ Baptiste\ Lepilleur\ and\ The\ JsonCpp\ Authors}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00002}00002\ \textcolor{comment}{//\ Distributed\ under\ MIT\ license,\ or\ public\ domain\ if\ desired\ and}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00003}00003\ \textcolor{comment}{//\ recognized\ in\ your\ jurisdiction.}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00004}00004\ \textcolor{comment}{//\ See\ file\ LICENSE\ for\ detail\ or\ copy\ at\ http://jsoncpp.sourceforge.net/LICENSE}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00005}00005\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00006}00006\ \textcolor{preprocessor}{\#ifndef\ JSON\_CONFIG\_H\_INCLUDED}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00007}00007\ \textcolor{preprocessor}{\#define\ JSON\_CONFIG\_H\_INCLUDED}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00008}00008\ \textcolor{preprocessor}{\#include\ <cstddef>}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00009}00009\ \textcolor{preprocessor}{\#include\ <cstdint>}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00010}00010\ \textcolor{preprocessor}{\#include\ <istream>}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00011}00011\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00012}00012\ \textcolor{preprocessor}{\#include\ <ostream>}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00013}00013\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00014}00014\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00015}00015\ \textcolor{preprocessor}{\#include\ <type\_traits>}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00017}00017\ \textcolor{comment}{//\ If\ non-\/zero,\ the\ library\ uses\ exceptions\ to\ report\ bad\ input\ instead\ of\ C}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00018}00018\ \textcolor{comment}{//\ assertion\ macros.\ The\ default\ is\ to\ use\ exceptions.}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00019}00019\ \textcolor{preprocessor}{\#ifndef\ JSON\_USE\_EXCEPTION}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00020}\mbox{\hyperlink{config_8h_a51968e67b1462ac893f87a0fc8b791cd}{00020}}\ \textcolor{preprocessor}{\#define\ JSON\_USE\_EXCEPTION\ 1}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00021}00021\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00023}00023\ \textcolor{comment}{//\ Temporary,\ tracked\ for\ removal\ with\ issue\ \#982.}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00024}00024\ \textcolor{preprocessor}{\#ifndef\ JSON\_USE\_NULLREF}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00025}\mbox{\hyperlink{config_8h_ad3fa34174c9067dca4ff88e75fe6f5c0}{00025}}\ \textcolor{preprocessor}{\#define\ JSON\_USE\_NULLREF\ 1}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00026}00026\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00031}00031\ \textcolor{comment}{//\ \#define\ JSON\_IS\_AMALGAMATION}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00032}00032\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00033}00033\ \textcolor{comment}{//\ Export\ macros\ for\ DLL\ visibility}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00034}00034\ \textcolor{preprocessor}{\#if\ defined(JSON\_DLL\_BUILD)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00035}00035\ \textcolor{preprocessor}{\#if\ defined(\_MSC\_VER)\ ||\ defined(\_\_MINGW32\_\_)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00036}00036\ \textcolor{preprocessor}{\#define\ JSON\_API\ \_\_declspec(dllexport)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00037}00037\ \textcolor{preprocessor}{\#define\ JSONCPP\_DISABLE\_DLL\_INTERFACE\_WARNING}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00038}00038\ \textcolor{preprocessor}{\#elif\ defined(\_\_GNUC\_\_)\ ||\ defined(\_\_clang\_\_)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00039}00039\ \textcolor{preprocessor}{\#define\ JSON\_API\ \_\_attribute\_\_((visibility("{}default"{})))}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00040}00040\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ if\ defined(\_MSC\_VER)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00041}00041\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00042}00042\ \textcolor{preprocessor}{\#elif\ defined(JSON\_DLL)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00043}00043\ \textcolor{preprocessor}{\#if\ defined(\_MSC\_VER)\ ||\ defined(\_\_MINGW32\_\_)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00044}00044\ \textcolor{preprocessor}{\#define\ JSON\_API\ \_\_declspec(dllimport)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00045}00045\ \textcolor{preprocessor}{\#define\ JSONCPP\_DISABLE\_DLL\_INTERFACE\_WARNING}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00046}00046\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ if\ defined(\_MSC\_VER)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00047}00047\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ ifdef\ JSON\_DLL\_BUILD}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00048}00048\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00049}00049\ \textcolor{preprocessor}{\#if\ !defined(JSON\_API)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00050}\mbox{\hyperlink{config_8h_a1d61ffde86ce1a18fd83194ff0d9a206}{00050}}\ \textcolor{preprocessor}{\#define\ JSON\_API}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00051}00051\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00052}00052\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00053}00053\ \textcolor{preprocessor}{\#if\ defined(\_MSC\_VER)\ \&\&\ \_MSC\_VER\ <\ 1800}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00054}00054\ \textcolor{preprocessor}{\#error\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00055}00055\ \textcolor{preprocessor}{"{}ERROR:\ \ Visual\ Studio\ 12\ (2013)\ with\ \_MSC\_VER=1800\ is\ the\ oldest\ supported\ compiler\ with\ sufficient\ C++11\ capabilities"{}}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00056}00056\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00057}00057\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00058}00058\ \textcolor{preprocessor}{\#if\ defined(\_MSC\_VER)\ \&\&\ \_MSC\_VER\ <\ 1900}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00059}00059\ \textcolor{comment}{//\ As\ recommended\ at}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00060}00060\ \textcolor{comment}{//\ https://stackoverflow.com/questions/2915672/snprintf-\/and-\/visual-\/studio-\/2010}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00061}00061\ \textcolor{keyword}{extern}\ \mbox{\hyperlink{config_8h_a1d61ffde86ce1a18fd83194ff0d9a206}{JSON\_API}}\ \textcolor{keywordtype}{int}\ msvc\_pre1900\_c99\_snprintf(\textcolor{keywordtype}{char}*\ outBuf,\ \textcolor{keywordtype}{size\_t}\ size,}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00062}00062\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ format,\ ...);}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00063}00063\ \textcolor{preprocessor}{\#define\ jsoncpp\_snprintf\ msvc\_pre1900\_c99\_snprintf}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00064}00064\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00065}\mbox{\hyperlink{config_8h_a70aadb03056df6baa94058d2fb33046a}{00065}}\ \textcolor{preprocessor}{\#define\ jsoncpp\_snprintf\ std::snprintf}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00066}00066\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00067}00067\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00068}00068\ \textcolor{comment}{//\ If\ JSON\_NO\_INT64\ is\ defined,\ then\ Json\ only\ support\ C++\ "{}int"{}\ type\ for}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00069}00069\ \textcolor{comment}{//\ integer}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00070}00070\ \textcolor{comment}{//\ Storages,\ and\ 64\ bits\ integer\ support\ is\ disabled.}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00071}00071\ \textcolor{comment}{//\ \#define\ JSON\_NO\_INT64\ 1}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00072}00072\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00073}00073\ \textcolor{comment}{//\ JSONCPP\_OVERRIDE\ is\ maintained\ for\ backwards\ compatibility\ of\ external\ tools.}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00074}00074\ \textcolor{comment}{//\ C++11\ should\ be\ used\ directly\ in\ JSONCPP.}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00075}\mbox{\hyperlink{config_8h_a824d6199c91488107e443226fa6022c5}{00075}}\ \textcolor{preprocessor}{\#define\ JSONCPP\_OVERRIDE\ override}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00076}00076\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00077}00077\ \textcolor{preprocessor}{\#ifdef\ \_\_clang\_\_}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00078}00078\ \textcolor{preprocessor}{\#if\ \_\_has\_extension(attribute\_deprecated\_with\_message)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00079}00079\ \textcolor{preprocessor}{\#define\ JSONCPP\_DEPRECATED(message)\ \_\_attribute\_\_((deprecated(message)))}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00080}00080\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00081}00081\ \textcolor{preprocessor}{\#elif\ defined(\_\_GNUC\_\_)\ }\textcolor{comment}{//\ not\ clang\ (gcc\ comes\ later\ since\ clang\ emulates\ gcc)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00082}00082\ \textcolor{preprocessor}{\#if\ (\_\_GNUC\_\_\ >\ 4\ ||\ (\_\_GNUC\_\_\ ==\ 4\ \&\&\ \_\_GNUC\_MINOR\_\_\ >=\ 5))}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00083}00083\ \textcolor{preprocessor}{\#define\ JSONCPP\_DEPRECATED(message)\ \_\_attribute\_\_((deprecated(message)))}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00084}00084\ \textcolor{preprocessor}{\#elif\ (\_\_GNUC\_\_\ >\ 3\ ||\ (\_\_GNUC\_\_\ ==\ 3\ \&\&\ \_\_GNUC\_MINOR\_\_\ >=\ 1))}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00085}00085\ \textcolor{preprocessor}{\#define\ JSONCPP\_DEPRECATED(message)\ \_\_attribute\_\_((\_\_deprecated\_\_))}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00086}00086\ \textcolor{preprocessor}{\#endif\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\textcolor{comment}{//\ GNUC\ version}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00087}00087\ \textcolor{preprocessor}{\#elif\ defined(\_MSC\_VER)\ }\textcolor{comment}{//\ MSVC\ (after\ clang\ because\ clang\ on\ Windows\ emulates}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00088}00088\ \textcolor{comment}{//\ MSVC)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00089}00089\ \textcolor{preprocessor}{\#define\ JSONCPP\_DEPRECATED(message)\ \_\_declspec(deprecated(message))}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00090}00090\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ \_\_clang\_\_\ ||\ \_\_GNUC\_\_\ ||\ \_MSC\_VER}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00091}00091\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00092}00092\ \textcolor{preprocessor}{\#if\ !defined(JSONCPP\_DEPRECATED)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00093}\mbox{\hyperlink{config_8h_a6933a4321aa03c8a29016669073f1af6}{00093}}\ \textcolor{preprocessor}{\#define\ JSONCPP\_DEPRECATED(message)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00094}00094\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ if\ !defined(JSONCPP\_DEPRECATED)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00095}00095\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00096}00096\ \textcolor{preprocessor}{\#if\ defined(\_\_clang\_\_)\ ||\ (defined(\_\_GNUC\_\_)\ \&\&\ (\_\_GNUC\_\_\ >=\ 6))}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00097}00097\ \textcolor{preprocessor}{\#define\ JSON\_USE\_INT64\_DOUBLE\_CONVERSION\ 1}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00098}00098\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00099}00099\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00100}00100\ \textcolor{preprocessor}{\#if\ !defined(JSON\_IS\_AMALGAMATION)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00101}00101\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00102}00102\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{allocator_8h}{allocator.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00103}00103\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{version_8h}{version.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00104}00104\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00105}00105\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ if\ !defined(JSON\_IS\_AMALGAMATION)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00106}00106\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00107}00107\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceJson}{Json}}\ \{}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00108}\mbox{\hyperlink{namespaceJson_a91fe494468d6262cf119456ba139de34}{00108}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a91fe494468d6262cf119456ba139de34}{Int}}\ =\ int;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00109}\mbox{\hyperlink{namespaceJson_ab1488c31a37eea2d37f36a0961372572}{00109}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_ab1488c31a37eea2d37f36a0961372572}{UInt}}\ =\ \textcolor{keywordtype}{unsigned}\ int;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00110}00110\ \textcolor{preprocessor}{\#if\ defined(JSON\_NO\_INT64)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00111}00111\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a606606d405814493f8fab9a7acc0ad64}{LargestInt}}\ =\ int;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00112}00112\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a9eaa8c57e1648add5c50b4ba713bc2c1}{LargestUInt}}\ =\ \textcolor{keywordtype}{unsigned}\ int;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00113}00113\ \textcolor{preprocessor}{\#undef\ JSON\_HAS\_INT64}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00114}00114\ \textcolor{preprocessor}{\#else\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\textcolor{comment}{//\ if\ defined(JSON\_NO\_INT64)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00115}00115\ \textcolor{comment}{//\ For\ Microsoft\ Visual\ use\ specific\ types\ as\ long\ long\ is\ not\ supported}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00116}00116\ \textcolor{preprocessor}{\#if\ defined(\_MSC\_VER)\ }\textcolor{comment}{//\ Microsoft\ Visual\ Studio}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00117}00117\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_adb415814c51222bba71d5e700a15f11d}{Int64}}\ =\ \_\_int64;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00118}00118\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a7923a0515117b6b1e66268b4edd9afeb}{UInt64}}\ =\ \textcolor{keywordtype}{unsigned}\ \_\_int64;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00119}00119\ \textcolor{preprocessor}{\#else\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\textcolor{comment}{//\ if\ defined(\_MSC\_VER)\ //\ Other\ platforms,\ use\ long\ long}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00120}\mbox{\hyperlink{namespaceJson_adb415814c51222bba71d5e700a15f11d}{00120}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_adb415814c51222bba71d5e700a15f11d}{Int64}}\ =\ int64\_t;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00121}\mbox{\hyperlink{namespaceJson_a7923a0515117b6b1e66268b4edd9afeb}{00121}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a7923a0515117b6b1e66268b4edd9afeb}{UInt64}}\ =\ uint64\_t;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00122}00122\ \textcolor{preprocessor}{\#endif\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\textcolor{comment}{//\ if\ defined(\_MSC\_VER)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00123}\mbox{\hyperlink{namespaceJson_a606606d405814493f8fab9a7acc0ad64}{00123}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a606606d405814493f8fab9a7acc0ad64}{LargestInt}}\ =\ \mbox{\hyperlink{namespaceJson_adb415814c51222bba71d5e700a15f11d}{Int64}};}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00124}\mbox{\hyperlink{namespaceJson_a9eaa8c57e1648add5c50b4ba713bc2c1}{00124}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a9eaa8c57e1648add5c50b4ba713bc2c1}{LargestUInt}}\ =\ \mbox{\hyperlink{namespaceJson_a7923a0515117b6b1e66268b4edd9afeb}{UInt64}};}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00125}\mbox{\hyperlink{config_8h_a210f7d060accd6a881cd070dc7a333a4}{00125}}\ \textcolor{preprocessor}{\#define\ JSON\_HAS\_INT64}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00126}00126\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ if\ defined(JSON\_NO\_INT64)}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00127}00127\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00128}00128\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00129}\mbox{\hyperlink{namespaceJson_ad0129778dba1202a72ed85df1bd914c4}{00129}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_ad0129778dba1202a72ed85df1bd914c4}{Allocator}}\ =}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00130}00130\ \ \ \ \ \textcolor{keyword}{typename}\ std::conditional<JSONCPP\_USING\_SECURE\_MEMORY,\ SecureAllocator<T>,}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00131}00131\ \ \ \ \ std::allocator<T>>::type;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00132}\mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{00132}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{String}}\ =\ std::basic\_string<char,\ std::char\_traits<char>,\ \mbox{\hyperlink{namespaceJson_ad0129778dba1202a72ed85df1bd914c4}{Allocator<char>}}>;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00133}\mbox{\hyperlink{namespaceJson_a0c7484a44f092fab674b0e827b63f984}{00133}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a0c7484a44f092fab674b0e827b63f984}{IStringStream}}\ =}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00134}00134\ \ \ \ \ std::basic\_istringstream<String::value\_type,\ String::traits\_type,}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00135}00135\ \ \ \ \ String::allocator\_type>;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00136}\mbox{\hyperlink{namespaceJson_a0caa4198eb85df45470f8f5bb411f5f0}{00136}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a0caa4198eb85df45470f8f5bb411f5f0}{OStringStream}}\ =}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00137}00137\ \ \ \ \ std::basic\_ostringstream<String::value\_type,\ String::traits\_type,}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00138}00138\ \ \ \ \ String::allocator\_type>;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00139}\mbox{\hyperlink{namespaceJson_ae99130ccde936d6ebb09171e53a0e06e}{00139}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_ae99130ccde936d6ebb09171e53a0e06e}{IStream}}\ =\ std::istream;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00140}\mbox{\hyperlink{namespaceJson_a047a86512bee991d39b6f85d826b5b2a}{00140}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespaceJson_a047a86512bee991d39b6f85d826b5b2a}{OStream}}\ =\ std::ostream;}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00141}00141\ \}\ \textcolor{comment}{//\ namespace\ Json}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00142}00142\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00143}00143\ \textcolor{comment}{//\ Legacy\ names\ (formerly\ macros).}}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00144}\mbox{\hyperlink{config_8h_ab6e95760e8118fde575ebf7227d7428a}{00144}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{config_8h_ab6e95760e8118fde575ebf7227d7428a}{JSONCPP\_STRING}}\ =\ \mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{Json::String}};}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00145}\mbox{\hyperlink{config_8h_a9fbaa2afa16c2335e4f8dbe5e269ce0b}{00145}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{config_8h_a9fbaa2afa16c2335e4f8dbe5e269ce0b}{JSONCPP\_ISTRINGSTREAM}}\ =\ \mbox{\hyperlink{namespaceJson_a0c7484a44f092fab674b0e827b63f984}{Json::IStringStream}};}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00146}\mbox{\hyperlink{config_8h_a37956168d339f2cc6ed9b9a29ad16ebe}{00146}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{config_8h_a37956168d339f2cc6ed9b9a29ad16ebe}{JSONCPP\_OSTRINGSTREAM}}\ =\ \mbox{\hyperlink{namespaceJson_a0caa4198eb85df45470f8f5bb411f5f0}{Json::OStringStream}};}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00147}\mbox{\hyperlink{config_8h_ac2972f7be5297e918438b401cd2b9059}{00147}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{config_8h_ac2972f7be5297e918438b401cd2b9059}{JSONCPP\_ISTREAM}}\ =\ \mbox{\hyperlink{namespaceJson_ae99130ccde936d6ebb09171e53a0e06e}{Json::IStream}};}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00148}\mbox{\hyperlink{config_8h_a6b0cafb1bcec31bf31513ed4754b71b5}{00148}}\ \textcolor{keyword}{using\ }\mbox{\hyperlink{config_8h_a6b0cafb1bcec31bf31513ed4754b71b5}{JSONCPP\_OSTREAM}}\ =\ \mbox{\hyperlink{namespaceJson_a047a86512bee991d39b6f85d826b5b2a}{Json::OStream}};}
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00149}00149\ }
+\DoxyCodeLine{\Hypertarget{config_8h_source_l00150}00150\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ JSON\_CONFIG\_H\_INCLUDED}}
+
+\end{DoxyCode}

@@ -1,0 +1,123 @@
+\doxysection{Json\+::Value\+::Comments Class Reference}
+\hypertarget{classJson_1_1Value_1_1Comments}{}\label{classJson_1_1Value_1_1Comments}\index{Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJson_1_1Value_1_1Comments_a3a85ad9ffb3f5c308dbaa4e17e5043fa}{Comments}} ()=default
+\item 
+\mbox{\hyperlink{classJson_1_1Value_1_1Comments_a93c119f71b022940fc9576cf1e688576}{Comments}} (const \mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \&that)
+\item 
+\mbox{\hyperlink{classJson_1_1Value_1_1Comments_a98573ee604b56b7a55b3c36398f0d5f7}{Comments}} (\mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \&\&that) noexcept
+\item 
+\mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \& \mbox{\hyperlink{classJson_1_1Value_1_1Comments_a3735053b002059a0f6753147161f379d}{operator=}} (const \mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \&that)
+\item 
+\mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \& \mbox{\hyperlink{classJson_1_1Value_1_1Comments_ac4ddd6c2bb01f46ebe81ee3761046598}{operator=}} (\mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \&\&that) noexcept
+\item 
+bool \mbox{\hyperlink{classJson_1_1Value_1_1Comments_a9472048fbb3d4c9f5c2c5567a43528a0}{has}} (\mbox{\hyperlink{namespaceJson_a4fc417c23905b2ae9e2c47d197a45351}{Comment\+Placement}} slot) const
+\item 
+\mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{String}} \mbox{\hyperlink{classJson_1_1Value_1_1Comments_a34b67abb6e65785cc9a71cbdd1aa441d}{get}} (\mbox{\hyperlink{namespaceJson_a4fc417c23905b2ae9e2c47d197a45351}{Comment\+Placement}} slot) const
+\item 
+void \mbox{\hyperlink{classJson_1_1Value_1_1Comments_a14c896a3c305fd964b0bcad4ec31ec19}{set}} (\mbox{\hyperlink{namespaceJson_a4fc417c23905b2ae9e2c47d197a45351}{Comment\+Placement}} slot, \mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{String}} comment)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{classJson_1_1Value_1_1Comments_aa69891b207184e09a1c0ba43d5cde4c9}{Array}} = std\+::array$<$ \mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{String}}, \mbox{\hyperlink{namespaceJson_a4fc417c23905b2ae9e2c47d197a45351abcbd3eb00417335e094e4a03379659b5}{number\+Of\+Comment\+Placement}} $>$
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classJson_1_1Value_1_1Comments_aa69891b207184e09a1c0ba43d5cde4c9}{Array}} $>$ \mbox{\hyperlink{classJson_1_1Value_1_1Comments_ad12fe68bda5fef0d094a559bbe9dba0b}{ptr\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{value_8h_source_l00659}{659}} of file \mbox{\hyperlink{value_8h_source}{value.\+h}}.
+
+
+
+\doxysubsection{Member Typedef Documentation}
+\Hypertarget{classJson_1_1Value_1_1Comments_aa69891b207184e09a1c0ba43d5cde4c9}\label{classJson_1_1Value_1_1Comments_aa69891b207184e09a1c0ba43d5cde4c9} 
+\index{Json::Value::Comments@{Json::Value::Comments}!Array@{Array}}
+\index{Array@{Array}!Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection{\texorpdfstring{Array}{Array}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{classJson_1_1Value_1_1Comments_aa69891b207184e09a1c0ba43d5cde4c9}{Json\+::\+Value\+::\+Comments\+::\+Array}} =  std\+::array$<$\mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{String}}, \mbox{\hyperlink{namespaceJson_a4fc417c23905b2ae9e2c47d197a45351abcbd3eb00417335e094e4a03379659b5}{number\+Of\+Comment\+Placement}}$>$\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{value_8h_source_l00671}{671}} of file \mbox{\hyperlink{value_8h_source}{value.\+h}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classJson_1_1Value_1_1Comments_a3a85ad9ffb3f5c308dbaa4e17e5043fa}\label{classJson_1_1Value_1_1Comments_a3a85ad9ffb3f5c308dbaa4e17e5043fa} 
+\index{Json::Value::Comments@{Json::Value::Comments}!Comments@{Comments}}
+\index{Comments@{Comments}!Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection{\texorpdfstring{Comments()}{Comments()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Json\+::\+Value\+::\+Comments\+::\+Comments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\Hypertarget{classJson_1_1Value_1_1Comments_a93c119f71b022940fc9576cf1e688576}\label{classJson_1_1Value_1_1Comments_a93c119f71b022940fc9576cf1e688576} 
+\index{Json::Value::Comments@{Json::Value::Comments}!Comments@{Comments}}
+\index{Comments@{Comments}!Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection{\texorpdfstring{Comments()}{Comments()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Json\+::\+Value\+::\+Comments\+::\+Comments (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \&}]{that }\end{DoxyParamCaption})}
+
+\Hypertarget{classJson_1_1Value_1_1Comments_a98573ee604b56b7a55b3c36398f0d5f7}\label{classJson_1_1Value_1_1Comments_a98573ee604b56b7a55b3c36398f0d5f7} 
+\index{Json::Value::Comments@{Json::Value::Comments}!Comments@{Comments}}
+\index{Comments@{Comments}!Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection{\texorpdfstring{Comments()}{Comments()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Json\+::\+Value\+::\+Comments\+::\+Comments (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \&\&}]{that }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classJson_1_1Value_1_1Comments_a34b67abb6e65785cc9a71cbdd1aa441d}\label{classJson_1_1Value_1_1Comments_a34b67abb6e65785cc9a71cbdd1aa441d} 
+\index{Json::Value::Comments@{Json::Value::Comments}!get@{get}}
+\index{get@{get}!Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{String}} Json\+::\+Value\+::\+Comments\+::get (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceJson_a4fc417c23905b2ae9e2c47d197a45351}{Comment\+Placement}}}]{slot }\end{DoxyParamCaption}) const}
+
+\Hypertarget{classJson_1_1Value_1_1Comments_a9472048fbb3d4c9f5c2c5567a43528a0}\label{classJson_1_1Value_1_1Comments_a9472048fbb3d4c9f5c2c5567a43528a0} 
+\index{Json::Value::Comments@{Json::Value::Comments}!has@{has}}
+\index{has@{has}!Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection{\texorpdfstring{has()}{has()}}
+{\footnotesize\ttfamily bool Json\+::\+Value\+::\+Comments\+::has (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceJson_a4fc417c23905b2ae9e2c47d197a45351}{Comment\+Placement}}}]{slot }\end{DoxyParamCaption}) const}
+
+\Hypertarget{classJson_1_1Value_1_1Comments_ac4ddd6c2bb01f46ebe81ee3761046598}\label{classJson_1_1Value_1_1Comments_ac4ddd6c2bb01f46ebe81ee3761046598} 
+\index{Json::Value::Comments@{Json::Value::Comments}!operator=@{operator=}}
+\index{operator=@{operator=}!Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \& Json\+::\+Value\+::\+Comments\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \&\&}]{that }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classJson_1_1Value_1_1Comments_a3735053b002059a0f6753147161f379d}\label{classJson_1_1Value_1_1Comments_a3735053b002059a0f6753147161f379d} 
+\index{Json::Value::Comments@{Json::Value::Comments}!operator=@{operator=}}
+\index{operator=@{operator=}!Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \& Json\+::\+Value\+::\+Comments\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classJson_1_1Value_1_1Comments}{Comments}} \&}]{that }\end{DoxyParamCaption})}
+
+\Hypertarget{classJson_1_1Value_1_1Comments_a14c896a3c305fd964b0bcad4ec31ec19}\label{classJson_1_1Value_1_1Comments_a14c896a3c305fd964b0bcad4ec31ec19} 
+\index{Json::Value::Comments@{Json::Value::Comments}!set@{set}}
+\index{set@{set}!Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection{\texorpdfstring{set()}{set()}}
+{\footnotesize\ttfamily void Json\+::\+Value\+::\+Comments\+::set (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceJson_a4fc417c23905b2ae9e2c47d197a45351}{Comment\+Placement}}}]{slot,  }\item[{\mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{String}}}]{comment }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{classJson_1_1Value_1_1Comments_ad12fe68bda5fef0d094a559bbe9dba0b}\label{classJson_1_1Value_1_1Comments_ad12fe68bda5fef0d094a559bbe9dba0b} 
+\index{Json::Value::Comments@{Json::Value::Comments}!ptr\_@{ptr\_}}
+\index{ptr\_@{ptr\_}!Json::Value::Comments@{Json::Value::Comments}}
+\doxysubsubsection{\texorpdfstring{ptr\_}{ptr\_}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classJson_1_1Value_1_1Comments_aa69891b207184e09a1c0ba43d5cde4c9}{Array}}$>$ Json\+::\+Value\+::\+Comments\+::ptr\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{value_8h_source_l00672}{672}} of file \mbox{\hyperlink{value_8h_source}{value.\+h}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/jsoncpp/\mbox{\hyperlink{value_8h}{value.\+h}}\end{DoxyCompactItemize}

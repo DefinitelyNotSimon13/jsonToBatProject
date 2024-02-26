@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['hierarchicallogging_0',['HierarchicalLogging',['../namespaceel.html#a2784aacd04cb7816ac1c0b20fcbf83cba477de0500d7a5b64a4500d82811fc058',1,'el']]],
-  ['host_1',['Host',['../namespaceel_1_1base.html#a28939c5a884e67fcf12259f4b8848e00ac2ca16d048ec66e04bca283eab048ec2',1,'el::base']]],
-  ['hour_2',['Hour',['../namespaceel_1_1base.html#a1b886858c6409097395b24b1bdf03c39ab55e509c697e4cca0e1d160a7806698f',1,'el::base']]]
+  ['global_0',['Global',['../namespaceel.html#ab0ac6091262344c52dd2d3ad099e8e36a4cc6684df7b4a92b1dec6fce3264fac8',1,'el']]]
 ];

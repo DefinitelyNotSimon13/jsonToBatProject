@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['level_0',['Level',['../namespaceel.html#ab0ac6091262344c52dd2d3ad099e8e36',1,'el']]],
-  ['loggingflag_1',['LoggingFlag',['../namespaceel.html#a2784aacd04cb7816ac1c0b20fcbf83cb',1,'el']]]
+  ['kind_0',['Kind',['../classJson_1_1PathArgument.html#a2420bbad778573c147e578701b84d9b9',1,'Json::PathArgument']]]
 ];

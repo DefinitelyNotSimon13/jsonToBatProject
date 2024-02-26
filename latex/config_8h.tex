@@ -1,0 +1,197 @@
+\doxysection{include/jsoncpp/config.h File Reference}
+\hypertarget{config_8h}{}\label{config_8h}\index{include/jsoncpp/config.h@{include/jsoncpp/config.h}}
+{\ttfamily \#include $<$cstddef$>$}\newline
+{\ttfamily \#include $<$cstdint$>$}\newline
+{\ttfamily \#include $<$istream$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$ostream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$type\+\_\+traits$>$}\newline
+{\ttfamily \#include "{}allocator.\+h"{}}\newline
+{\ttfamily \#include "{}version.\+h"{}}\newline
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespaceJson}{Json}}
+\begin{DoxyCompactList}\small\item\em JSON (Java\+Script Object Notation). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{config_8h_a51968e67b1462ac893f87a0fc8b791cd}{JSON\+\_\+\+USE\+\_\+\+EXCEPTION}}~1
+\item 
+\#define \mbox{\hyperlink{config_8h_ad3fa34174c9067dca4ff88e75fe6f5c0}{JSON\+\_\+\+USE\+\_\+\+NULLREF}}~1
+\item 
+\#define \mbox{\hyperlink{config_8h_a1d61ffde86ce1a18fd83194ff0d9a206}{JSON\+\_\+\+API}}
+\item 
+\#define \mbox{\hyperlink{config_8h_a70aadb03056df6baa94058d2fb33046a}{jsoncpp\+\_\+snprintf}}~std\+::snprintf
+\item 
+\#define \mbox{\hyperlink{config_8h_a824d6199c91488107e443226fa6022c5}{JSONCPP\+\_\+\+OVERRIDE}}~override
+\item 
+\#define \mbox{\hyperlink{config_8h_a6933a4321aa03c8a29016669073f1af6}{JSONCPP\+\_\+\+DEPRECATED}}(message)
+\item 
+\#define \mbox{\hyperlink{config_8h_a210f7d060accd6a881cd070dc7a333a4}{JSON\+\_\+\+HAS\+\_\+\+INT64}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{namespaceJson_a91fe494468d6262cf119456ba139de34}{Json\+::\+Int}} = int
+\item 
+using \mbox{\hyperlink{namespaceJson_ab1488c31a37eea2d37f36a0961372572}{Json\+::\+UInt}} = unsigned int
+\item 
+using \mbox{\hyperlink{namespaceJson_adb415814c51222bba71d5e700a15f11d}{Json\+::\+Int64}} = int64\+\_\+t
+\item 
+using \mbox{\hyperlink{namespaceJson_a7923a0515117b6b1e66268b4edd9afeb}{Json\+::\+UInt64}} = uint64\+\_\+t
+\item 
+using \mbox{\hyperlink{namespaceJson_a606606d405814493f8fab9a7acc0ad64}{Json\+::\+Largest\+Int}} = \mbox{\hyperlink{namespaceJson_adb415814c51222bba71d5e700a15f11d}{Int64}}
+\item 
+using \mbox{\hyperlink{namespaceJson_a9eaa8c57e1648add5c50b4ba713bc2c1}{Json\+::\+Largest\+UInt}} = \mbox{\hyperlink{namespaceJson_a7923a0515117b6b1e66268b4edd9afeb}{UInt64}}
+\item 
+{\footnotesize template$<$typename T $>$ }\\using \mbox{\hyperlink{namespaceJson_ad0129778dba1202a72ed85df1bd914c4}{Json\+::\+Allocator}} = typename std\+::conditional$<$ \mbox{\hyperlink{version_8h_a7f997716fd76fdf4433a231df400fc84}{JSONCPP\+\_\+\+USING\+\_\+\+SECURE\+\_\+\+MEMORY}}, \mbox{\hyperlink{classJson_1_1SecureAllocator}{Secure\+Allocator}}$<$ T $>$, std\+::allocator$<$ T $>$ $>$\+::type
+\item 
+using \mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{Json\+::\+String}} = std\+::basic\+\_\+string$<$ char, std\+::char\+\_\+traits$<$ char $>$, \mbox{\hyperlink{namespaceJson_ad0129778dba1202a72ed85df1bd914c4}{Allocator}}$<$ char $>$ $>$
+\item 
+using \mbox{\hyperlink{namespaceJson_a0c7484a44f092fab674b0e827b63f984}{Json\+::\+IString\+Stream}} = std\+::basic\+\_\+istringstream$<$ String\+::value\+\_\+type, String\+::traits\+\_\+type, String\+::allocator\+\_\+type $>$
+\item 
+using \mbox{\hyperlink{namespaceJson_a0caa4198eb85df45470f8f5bb411f5f0}{Json\+::\+OString\+Stream}} = std\+::basic\+\_\+ostringstream$<$ String\+::value\+\_\+type, String\+::traits\+\_\+type, String\+::allocator\+\_\+type $>$
+\item 
+using \mbox{\hyperlink{namespaceJson_ae99130ccde936d6ebb09171e53a0e06e}{Json\+::\+IStream}} = std\+::istream
+\item 
+using \mbox{\hyperlink{namespaceJson_a047a86512bee991d39b6f85d826b5b2a}{Json\+::\+OStream}} = std\+::ostream
+\item 
+using \mbox{\hyperlink{config_8h_ab6e95760e8118fde575ebf7227d7428a}{JSONCPP\+\_\+\+STRING}} = \mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{Json\+::\+String}}
+\item 
+using \mbox{\hyperlink{config_8h_a9fbaa2afa16c2335e4f8dbe5e269ce0b}{JSONCPP\+\_\+\+ISTRINGSTREAM}} = \mbox{\hyperlink{namespaceJson_a0c7484a44f092fab674b0e827b63f984}{Json\+::\+IString\+Stream}}
+\item 
+using \mbox{\hyperlink{config_8h_a37956168d339f2cc6ed9b9a29ad16ebe}{JSONCPP\+\_\+\+OSTRINGSTREAM}} = \mbox{\hyperlink{namespaceJson_a0caa4198eb85df45470f8f5bb411f5f0}{Json\+::\+OString\+Stream}}
+\item 
+using \mbox{\hyperlink{config_8h_ac2972f7be5297e918438b401cd2b9059}{JSONCPP\+\_\+\+ISTREAM}} = \mbox{\hyperlink{namespaceJson_ae99130ccde936d6ebb09171e53a0e06e}{Json\+::\+IStream}}
+\item 
+using \mbox{\hyperlink{config_8h_a6b0cafb1bcec31bf31513ed4754b71b5}{JSONCPP\+\_\+\+OSTREAM}} = \mbox{\hyperlink{namespaceJson_a047a86512bee991d39b6f85d826b5b2a}{Json\+::\+OStream}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{config_8h_a1d61ffde86ce1a18fd83194ff0d9a206}\label{config_8h_a1d61ffde86ce1a18fd83194ff0d9a206} 
+\index{config.h@{config.h}!JSON\_API@{JSON\_API}}
+\index{JSON\_API@{JSON\_API}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSON\_API}{JSON\_API}}
+{\footnotesize\ttfamily \#define JSON\+\_\+\+API}
+
+If defined, indicates that the source file is amalgamated to prevent private header inclusion. Remarks\+: it is automatically defined in the generated amalgamated header. 
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00050}{50}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+\Hypertarget{config_8h_a210f7d060accd6a881cd070dc7a333a4}\label{config_8h_a210f7d060accd6a881cd070dc7a333a4} 
+\index{config.h@{config.h}!JSON\_HAS\_INT64@{JSON\_HAS\_INT64}}
+\index{JSON\_HAS\_INT64@{JSON\_HAS\_INT64}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSON\_HAS\_INT64}{JSON\_HAS\_INT64}}
+{\footnotesize\ttfamily \#define JSON\+\_\+\+HAS\+\_\+\+INT64}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00125}{125}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+\Hypertarget{config_8h_a51968e67b1462ac893f87a0fc8b791cd}\label{config_8h_a51968e67b1462ac893f87a0fc8b791cd} 
+\index{config.h@{config.h}!JSON\_USE\_EXCEPTION@{JSON\_USE\_EXCEPTION}}
+\index{JSON\_USE\_EXCEPTION@{JSON\_USE\_EXCEPTION}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSON\_USE\_EXCEPTION}{JSON\_USE\_EXCEPTION}}
+{\footnotesize\ttfamily \#define JSON\+\_\+\+USE\+\_\+\+EXCEPTION~1}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00020}{20}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+\Hypertarget{config_8h_ad3fa34174c9067dca4ff88e75fe6f5c0}\label{config_8h_ad3fa34174c9067dca4ff88e75fe6f5c0} 
+\index{config.h@{config.h}!JSON\_USE\_NULLREF@{JSON\_USE\_NULLREF}}
+\index{JSON\_USE\_NULLREF@{JSON\_USE\_NULLREF}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSON\_USE\_NULLREF}{JSON\_USE\_NULLREF}}
+{\footnotesize\ttfamily \#define JSON\+\_\+\+USE\+\_\+\+NULLREF~1}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00025}{25}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+\Hypertarget{config_8h_a6933a4321aa03c8a29016669073f1af6}\label{config_8h_a6933a4321aa03c8a29016669073f1af6} 
+\index{config.h@{config.h}!JSONCPP\_DEPRECATED@{JSONCPP\_DEPRECATED}}
+\index{JSONCPP\_DEPRECATED@{JSONCPP\_DEPRECATED}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSONCPP\_DEPRECATED}{JSONCPP\_DEPRECATED}}
+{\footnotesize\ttfamily \#define JSONCPP\+\_\+\+DEPRECATED(\begin{DoxyParamCaption}\item[{}]{message }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00093}{93}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+\Hypertarget{config_8h_a824d6199c91488107e443226fa6022c5}\label{config_8h_a824d6199c91488107e443226fa6022c5} 
+\index{config.h@{config.h}!JSONCPP\_OVERRIDE@{JSONCPP\_OVERRIDE}}
+\index{JSONCPP\_OVERRIDE@{JSONCPP\_OVERRIDE}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSONCPP\_OVERRIDE}{JSONCPP\_OVERRIDE}}
+{\footnotesize\ttfamily \#define JSONCPP\+\_\+\+OVERRIDE~override}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00075}{75}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+\Hypertarget{config_8h_a70aadb03056df6baa94058d2fb33046a}\label{config_8h_a70aadb03056df6baa94058d2fb33046a} 
+\index{config.h@{config.h}!jsoncpp\_snprintf@{jsoncpp\_snprintf}}
+\index{jsoncpp\_snprintf@{jsoncpp\_snprintf}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{jsoncpp\_snprintf}{jsoncpp\_snprintf}}
+{\footnotesize\ttfamily \#define jsoncpp\+\_\+snprintf~std\+::snprintf}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00065}{65}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+
+
+\doxysubsection{Typedef Documentation}
+\Hypertarget{config_8h_ac2972f7be5297e918438b401cd2b9059}\label{config_8h_ac2972f7be5297e918438b401cd2b9059} 
+\index{config.h@{config.h}!JSONCPP\_ISTREAM@{JSONCPP\_ISTREAM}}
+\index{JSONCPP\_ISTREAM@{JSONCPP\_ISTREAM}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSONCPP\_ISTREAM}{JSONCPP\_ISTREAM}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{config_8h_ac2972f7be5297e918438b401cd2b9059}{JSONCPP\+\_\+\+ISTREAM}} =  \mbox{\hyperlink{namespaceJson_ae99130ccde936d6ebb09171e53a0e06e}{Json\+::\+IStream}}}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00147}{147}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+\Hypertarget{config_8h_a9fbaa2afa16c2335e4f8dbe5e269ce0b}\label{config_8h_a9fbaa2afa16c2335e4f8dbe5e269ce0b} 
+\index{config.h@{config.h}!JSONCPP\_ISTRINGSTREAM@{JSONCPP\_ISTRINGSTREAM}}
+\index{JSONCPP\_ISTRINGSTREAM@{JSONCPP\_ISTRINGSTREAM}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSONCPP\_ISTRINGSTREAM}{JSONCPP\_ISTRINGSTREAM}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{config_8h_a9fbaa2afa16c2335e4f8dbe5e269ce0b}{JSONCPP\+\_\+\+ISTRINGSTREAM}} =  \mbox{\hyperlink{namespaceJson_a0c7484a44f092fab674b0e827b63f984}{Json\+::\+IString\+Stream}}}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00145}{145}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+\Hypertarget{config_8h_a6b0cafb1bcec31bf31513ed4754b71b5}\label{config_8h_a6b0cafb1bcec31bf31513ed4754b71b5} 
+\index{config.h@{config.h}!JSONCPP\_OSTREAM@{JSONCPP\_OSTREAM}}
+\index{JSONCPP\_OSTREAM@{JSONCPP\_OSTREAM}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSONCPP\_OSTREAM}{JSONCPP\_OSTREAM}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{config_8h_a6b0cafb1bcec31bf31513ed4754b71b5}{JSONCPP\+\_\+\+OSTREAM}} =  \mbox{\hyperlink{namespaceJson_a047a86512bee991d39b6f85d826b5b2a}{Json\+::\+OStream}}}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00148}{148}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+\Hypertarget{config_8h_a37956168d339f2cc6ed9b9a29ad16ebe}\label{config_8h_a37956168d339f2cc6ed9b9a29ad16ebe} 
+\index{config.h@{config.h}!JSONCPP\_OSTRINGSTREAM@{JSONCPP\_OSTRINGSTREAM}}
+\index{JSONCPP\_OSTRINGSTREAM@{JSONCPP\_OSTRINGSTREAM}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSONCPP\_OSTRINGSTREAM}{JSONCPP\_OSTRINGSTREAM}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{config_8h_a37956168d339f2cc6ed9b9a29ad16ebe}{JSONCPP\+\_\+\+OSTRINGSTREAM}} =  \mbox{\hyperlink{namespaceJson_a0caa4198eb85df45470f8f5bb411f5f0}{Json\+::\+OString\+Stream}}}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00146}{146}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+
+\Hypertarget{config_8h_ab6e95760e8118fde575ebf7227d7428a}\label{config_8h_ab6e95760e8118fde575ebf7227d7428a} 
+\index{config.h@{config.h}!JSONCPP\_STRING@{JSONCPP\_STRING}}
+\index{JSONCPP\_STRING@{JSONCPP\_STRING}!config.h@{config.h}}
+\doxysubsubsection{\texorpdfstring{JSONCPP\_STRING}{JSONCPP\_STRING}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{config_8h_ab6e95760e8118fde575ebf7227d7428a}{JSONCPP\+\_\+\+STRING}} =  \mbox{\hyperlink{namespaceJson_a279e78539f3df538c6e3bd36b81d5f3c}{Json\+::\+String}}}
+
+
+
+Definition at line \mbox{\hyperlink{config_8h_source_l00144}{144}} of file \mbox{\hyperlink{config_8h_source}{config.\+h}}.
+

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['level_0',['level',['../structel_1_1StringToLevelItem.html#a2cadc50a1341be8b41a849411ef25ef1',1,'el::StringToLevelItem']]],
-  ['levelstring_1',['levelString',['../structel_1_1StringToLevelItem.html#a15dade558836706ee90a287d6197534a',1,'el::StringToLevelItem']]]
+  ['features_5f_0',['features_',['../classJson_1_1Reader.html#aa9984ff8f519b5541346157b7aebf97b',1,'Json::Reader']]]
 ];

@@ -9,19 +9,19 @@ Inheritance diagram for el\+::base\+::utils\+::File\+:\begin{figure}[H]
 \doxysubsubsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{namespaceel_1_1base_1_1type_a620c830ead75d26b45c060c211ee2685}{base\+::type\+::fstream\+\_\+t}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a0fabd4453ec4df237bbc9cca63bf6f13}{new\+File\+Stream}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&filename)
+static \mbox{\hyperlink{namespaceel_1_1base_1_1type_a620c830ead75d26b45c060c211ee2685}{base\+::type\+::fstream\+\_\+t}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a0fabd4453ec4df237bbc9cca63bf6f13}{new\+File\+Stream}} (const std\+::string \&filename)
 \begin{DoxyCompactList}\small\item\em Creates new out file stream for specified filename. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::size\+\_\+t \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a9d6a7a5203667fffcbba62fc9ddd40c4}{get\+Size\+Of\+File}} (\mbox{\hyperlink{namespaceel_1_1base_1_1type_a620c830ead75d26b45c060c211ee2685}{base\+::type\+::fstream\+\_\+t}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{fs}})
+static std\+::size\+\_\+t \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a9d6a7a5203667fffcbba62fc9ddd40c4}{get\+Size\+Of\+File}} (\mbox{\hyperlink{namespaceel_1_1base_1_1type_a620c830ead75d26b45c060c211ee2685}{base\+::type\+::fstream\+\_\+t}} \texorpdfstring{$\ast$}{*}fs)
 \begin{DoxyCompactList}\small\item\em Gets size of file provided in stream. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a43ffda98fdd01d23af20459fa1a65cac}{path\+Exists}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{path}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{consider\+File}}=\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{false}})
+static bool \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a43ffda98fdd01d23af20459fa1a65cac}{path\+Exists}} (const char \texorpdfstring{$\ast$}{*}path, bool consider\+File=false)
 \begin{DoxyCompactList}\small\item\em Determines whether or not provided path exist in current file system. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a9a8445ed13931bbdeedc9bcee6b1370e}{create\+Path}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{path}})
+static bool \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a9a8445ed13931bbdeedc9bcee6b1370e}{create\+Path}} (const std\+::string \&path)
 \begin{DoxyCompactList}\small\item\em Creates specified path on file system. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a3fc5b574bfa3d6c30165fd0e52958d69}{extract\+Path\+From\+Filename}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{full\+Path}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{separator}}=\mbox{\hyperlink{namespaceel_1_1base_1_1consts_a82ab80dd91a0b4e7ece79e3433268438}{base\+::consts\+::k\+File\+Path\+Separator}})
+static std\+::string \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a3fc5b574bfa3d6c30165fd0e52958d69}{extract\+Path\+From\+Filename}} (const std\+::string \&full\+Path, const char \texorpdfstring{$\ast$}{*}separator=\mbox{\hyperlink{namespaceel_1_1base_1_1consts_a82ab80dd91a0b4e7ece79e3433268438}{base\+::consts\+::k\+File\+Path\+Separator}})
 \begin{DoxyCompactList}\small\item\em Extracts path of filename with leading slash. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a294f6e18eb32d1c3e9c6a654ae970b5d}{build\+Stripped\+Filename}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}filename, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{buff}}\mbox{[}$\,$\mbox{]}, std\+::size\+\_\+t \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{limit}}=\mbox{\hyperlink{namespaceel_1_1base_1_1consts_a9e90c3d81c8d16d599865e32aed19152}{base\+::consts\+::k\+Source\+Filename\+Max\+Length}})
+static void \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a294f6e18eb32d1c3e9c6a654ae970b5d}{build\+Stripped\+Filename}} (const char \texorpdfstring{$\ast$}{*}filename, char buff\mbox{[}$\,$\mbox{]}, std\+::size\+\_\+t limit=\mbox{\hyperlink{namespaceel_1_1base_1_1consts_a9e90c3d81c8d16d599865e32aed19152}{base\+::consts\+::k\+Source\+Filename\+Max\+Length}})
 \begin{DoxyCompactList}\small\item\em builds stripped filename and puts it in buff \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{static}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a7961c056782c9260ef5371ff59fe48e0}{build\+Base\+Filename}} (\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{full\+Path}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{buff}}\mbox{[}$\,$\mbox{]}, std\+::size\+\_\+t \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{limit}}=\mbox{\hyperlink{namespaceel_1_1base_1_1consts_a9e90c3d81c8d16d599865e32aed19152}{base\+::consts\+::k\+Source\+Filename\+Max\+Length}}, \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{separator}}=\mbox{\hyperlink{namespaceel_1_1base_1_1consts_a82ab80dd91a0b4e7ece79e3433268438}{base\+::consts\+::k\+File\+Path\+Separator}})
+static void \mbox{\hyperlink{classel_1_1base_1_1utils_1_1File_a7961c056782c9260ef5371ff59fe48e0}{build\+Base\+Filename}} (const std\+::string \&full\+Path, char buff\mbox{[}$\,$\mbox{]}, std\+::size\+\_\+t limit=\mbox{\hyperlink{namespaceel_1_1base_1_1consts_a9e90c3d81c8d16d599865e32aed19152}{base\+::consts\+::k\+Source\+Filename\+Max\+Length}}, const char \texorpdfstring{$\ast$}{*}separator=\mbox{\hyperlink{namespaceel_1_1base_1_1consts_a82ab80dd91a0b4e7ece79e3433268438}{base\+::consts\+::k\+File\+Path\+Separator}})
 \begin{DoxyCompactList}\small\item\em builds base filename and puts it in buff \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -37,7 +37,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8h_source_l01039}{1039}} o
 \index{el::base::utils::File@{el::base::utils::File}!buildBaseFilename@{buildBaseFilename}}
 \index{buildBaseFilename@{buildBaseFilename}!el::base::utils::File@{el::base::utils::File}}
 \doxysubsubsection{\texorpdfstring{buildBaseFilename()}{buildBaseFilename()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} el\+::base\+::utils\+::\+File\+::build\+Base\+Filename (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{full\+Path,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}}}]{buff\mbox{[}$\,$\mbox{]},  }\item[{std\+::size\+\_\+t}]{limit = {\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1consts_a9e90c3d81c8d16d599865e32aed19152}{base\+::consts\+::k\+Source\+Filename\+Max\+Length}}},  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{separator = {\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1consts_a82ab80dd91a0b4e7ece79e3433268438}{base\+::consts\+::k\+File\+Path\+Separator}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily void el\+::base\+::utils\+::\+File\+::build\+Base\+Filename (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{full\+Path,  }\item[{char}]{buff\mbox{[}$\,$\mbox{]},  }\item[{std\+::size\+\_\+t}]{limit = {\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1consts_a9e90c3d81c8d16d599865e32aed19152}{base\+::consts\+::k\+Source\+Filename\+Max\+Length}}},  }\item[{const char \texorpdfstring{$\ast$}{*}}]{separator = {\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1consts_a82ab80dd91a0b4e7ece79e3433268438}{base\+::consts\+::k\+File\+Path\+Separator}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -55,7 +55,7 @@ References \mbox{\hyperlink{easylogging_09_09_8h_source_l00250}{STRCAT}}.
 \index{el::base::utils::File@{el::base::utils::File}!buildStrippedFilename@{buildStrippedFilename}}
 \index{buildStrippedFilename@{buildStrippedFilename}!el::base::utils::File@{el::base::utils::File}}
 \doxysubsubsection{\texorpdfstring{buildStrippedFilename()}{buildStrippedFilename()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{void}} el\+::base\+::utils\+::\+File\+::build\+Stripped\+Filename (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{filename,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}}}]{buff\mbox{[}$\,$\mbox{]},  }\item[{std\+::size\+\_\+t}]{limit = {\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1consts_a9e90c3d81c8d16d599865e32aed19152}{base\+::consts\+::k\+Source\+Filename\+Max\+Length}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily void el\+::base\+::utils\+::\+File\+::build\+Stripped\+Filename (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{filename,  }\item[{char}]{buff\mbox{[}$\,$\mbox{]},  }\item[{std\+::size\+\_\+t}]{limit = {\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1consts_a9e90c3d81c8d16d599865e32aed19152}{base\+::consts\+::k\+Source\+Filename\+Max\+Length}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -73,7 +73,7 @@ References \mbox{\hyperlink{easylogging_09_09_8h_source_l00250}{STRCAT}}.
 \index{el::base::utils::File@{el::base::utils::File}!createPath@{createPath}}
 \index{createPath@{createPath}!el::base::utils::File@{el::base::utils::File}}
 \doxysubsubsection{\texorpdfstring{createPath()}{createPath()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::\+File\+::create\+Path (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily bool el\+::base\+::utils\+::\+File\+::create\+Path (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -90,13 +90,13 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00778}{778}} o
 
 
 
-References \mbox{\hyperlink{easylogging_09_09_8h_source_l00192}{ELPP\+\_\+\+INTERNAL\+\_\+\+ERROR}}, \mbox{\hyperlink{easylogging_09_09_8h_source_l00223}{ELPP\+\_\+\+UNUSED}}, \mbox{\hyperlink{easylogging_09_09_8h_source_l01331}{el\+::base\+::utils\+::\+Abstract\+Registry$<$ T\+\_\+\+Ptr, Container $>$\+::empty()}}, \mbox{\hyperlink{easylogging_09_09_8h_source_l00759}{el\+::base\+::consts\+::k\+File\+Path\+Separator}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00761}{path\+Exists()}}, and \mbox{\hyperlink{easylogging_09_09_8h_source_l00248}{STRTOK}}.
+References \mbox{\hyperlink{easylogging_09_09_8h_source_l00192}{ELPP\+\_\+\+INTERNAL\+\_\+\+ERROR}}, \mbox{\hyperlink{easylogging_09_09_8h_source_l00223}{ELPP\+\_\+\+UNUSED}}, \mbox{\hyperlink{easylogging_09_09_8h_source_l00759}{el\+::base\+::consts\+::k\+File\+Path\+Separator}}, \mbox{\hyperlink{easylogging_09_09_8cc_source_l00761}{path\+Exists()}}, and \mbox{\hyperlink{easylogging_09_09_8h_source_l00248}{STRTOK}}.
 
 \Hypertarget{classel_1_1base_1_1utils_1_1File_a3fc5b574bfa3d6c30165fd0e52958d69}\label{classel_1_1base_1_1utils_1_1File_a3fc5b574bfa3d6c30165fd0e52958d69} 
 \index{el::base::utils::File@{el::base::utils::File}!extractPathFromFilename@{extractPathFromFilename}}
 \index{extractPathFromFilename@{extractPathFromFilename}!el::base::utils::File@{el::base::utils::File}}
 \doxysubsubsection{\texorpdfstring{extractPathFromFilename()}{extractPathFromFilename()}}
-{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+File\+::extract\+Path\+From\+Filename (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{full\+Path,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{separator = {\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1consts_a82ab80dd91a0b4e7ece79e3433268438}{base\+::consts\+::k\+File\+Path\+Separator}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily std\+::string el\+::base\+::utils\+::\+File\+::extract\+Path\+From\+Filename (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{full\+Path,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{separator = {\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1consts_a82ab80dd91a0b4e7ece79e3433268438}{base\+::consts\+::k\+File\+Path\+Separator}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -124,7 +124,7 @@ Definition at line \mbox{\hyperlink{easylogging_09_09_8cc_source_l00751}{751}} o
 \index{el::base::utils::File@{el::base::utils::File}!newFileStream@{newFileStream}}
 \index{newFileStream@{newFileStream}!el::base::utils::File@{el::base::utils::File}}
 \doxysubsubsection{\texorpdfstring{newFileStream()}{newFileStream()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1type_a620c830ead75d26b45c060c211ee2685}{base\+::type\+::fstream\+\_\+t}} \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+File\+::new\+File\+Stream (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceel_1_1base_1_1type_a620c830ead75d26b45c060c211ee2685}{base\+::type\+::fstream\+\_\+t}} \texorpdfstring{$\ast$}{*} el\+::base\+::utils\+::\+File\+::new\+File\+Stream (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -145,7 +145,7 @@ References \mbox{\hyperlink{easylogging_09_09_8h_source_l00192}{ELPP\+\_\+\+INTE
 \index{el::base::utils::File@{el::base::utils::File}!pathExists@{pathExists}}
 \index{pathExists@{pathExists}!el::base::utils::File@{el::base::utils::File}}
 \doxysubsubsection{\texorpdfstring{pathExists()}{pathExists()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}} el\+::base\+::utils\+::\+File\+::path\+Exists (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{const}} \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{char}} \texorpdfstring{$\ast$}{*}}]{path,  }\item[{\mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{bool}}}]{consider\+File = {\ttfamily \mbox{\hyperlink{classel_1_1base_1_1utils_1_1RegistryWithPred}{false}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+{\footnotesize\ttfamily bool el\+::base\+::utils\+::\+File\+::path\+Exists (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{path,  }\item[{bool}]{consider\+File = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 
 
@@ -163,5 +163,5 @@ References \mbox{\hyperlink{easylogging_09_09_8h_source_l00223}{ELPP\+\_\+\+UNUS
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-lib/\mbox{\hyperlink{easylogging_09_09_8h}{easylogging++.\+h}}\item 
+include/\mbox{\hyperlink{easylogging_09_09_8h}{easylogging++.\+h}}\item 
 lib/\mbox{\hyperlink{easylogging_09_09_8cc}{easylogging++.\+cc}}\end{DoxyCompactItemize}

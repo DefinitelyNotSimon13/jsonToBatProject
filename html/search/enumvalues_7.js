@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ignoresigint_0',['IgnoreSigInt',['../namespaceel.html#a2784aacd04cb7816ac1c0b20fcbf83cbabff7a37f020193c055a5e32b294d408f',1,'el']]],
-  ['immediateflush_1',['ImmediateFlush',['../namespaceel.html#a2784aacd04cb7816ac1c0b20fcbf83cba7817e369fa619155822043e76ef88c7c',1,'el']]],
-  ['info_2',['Info',['../namespaceel.html#ab0ac6091262344c52dd2d3ad099e8e36a4059b0251f66a18cb56f544728796875',1,'el']]]
+  ['hierarchicallogging_0',['HierarchicalLogging',['../namespaceel.html#a2784aacd04cb7816ac1c0b20fcbf83cba477de0500d7a5b64a4500d82811fc058',1,'el']]],
+  ['host_1',['Host',['../namespaceel_1_1base.html#a28939c5a884e67fcf12259f4b8848e00ac2ca16d048ec66e04bca283eab048ec2',1,'el::base']]],
+  ['hour_2',['Hour',['../namespaceel_1_1base.html#a1b886858c6409097395b24b1bdf03c39ab55e509c697e4cca0e1d160a7806698f',1,'el::base']]]
 ];

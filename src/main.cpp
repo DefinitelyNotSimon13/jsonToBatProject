@@ -1,13 +1,16 @@
 #include <iostream>
 
-/**
- * @brief Main function
- * @details
- * TODO:
+/** \todo 
  * - Github
  * - "Dev-Ops"
  * - Doxygen settings
+ * 
+ **/
+
+/**
+ * \brief Main function
  *
+ * \details
  * Codeconvention:
  * - Formatter: astyle
  **/

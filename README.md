@@ -1,5 +1,6 @@
-#[![Doxygen Action](https://github.com/DefinitelyNotSimon13/jsonToBatProject/actions/workflows/oxygenPages.yml/badge.svg)](https://github.com/DefinitelyNotSimon13/jsonToBatProject/actions/workflows/oxygenPages.yml) 
-README
+[![Doxygen Action](https://github.com/DefinitelyNotSimon13/jsonToBatProject/actions/workflows/oxygenPages.yml/badge.svg)](https://github.com/DefinitelyNotSimon13/jsonToBatProject/actions/workflows/oxygenPages.yml) 
+
+#README
 
 Current workflows:
 - build

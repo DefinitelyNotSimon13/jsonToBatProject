@@ -18,3 +18,10 @@ Current workflows:
 - SonarCloud
     - Static code analysis
 _For Scanning Alerts -> Security_
+
+Regarding coding style (?):
+- no classes in global namespace
+- no "using NAMESPACE"
+- 4 space indenting
+- ?
+_setup astyle options?_

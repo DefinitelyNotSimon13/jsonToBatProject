@@ -1,14 +1,6 @@
 #include <easylogging++.h>
 #include <iostream>
 
-/** \todo
- * - Github
- * - "Dev-Ops"
- * - Doxygen settings
- * - Template-Comment
- * - Template-Header-Comment
- *
- **/
 
 INITIALIZE_EASYLOGGINGPP
 
@@ -22,6 +14,13 @@ void exampleEasyLogging();
  * \details
  * Codeconvention:
  * - Formatter: astyle
+ *
+ * \todo
+ * - Github
+ * - "Dev-Ops"
+ * - Doxygen settings
+ * - Template-Comment
+ * - Template-Header-Comment
  **/
 int main(int argc, char *argv[]) {
   WIP::exampleEasyLogging();

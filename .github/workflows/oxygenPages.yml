@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: test Doxygen Action
+name: Doxygen Action
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -27,10 +27,7 @@ jobs:
     - name: Doxygen Action
       uses: mattnotmitt/doxygen-action@v1.1.0
       with:
-        # Path to Doxyfile
-        doxyfile-path: "./Doxyfile" # default is ./Doxyfile
-        # Working directory
-        working-directory: "." # default is .
+        enable-latex: true
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3

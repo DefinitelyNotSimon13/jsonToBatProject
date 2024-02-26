@@ -5,12 +5,1233 @@
 \contentsline {subsection}{\numberline {1.1.2}Regarding coding style (?)\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{1}{subsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.1.3}Git (?)\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{1}{subsection.1.1.3}%
 \contentsline {chapter}{\numberline {2}Todo List}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}%
-\contentsline {chapter}{\numberline {4}File Documentation}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}README.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}src/main.cpp File Reference}{7}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Function Documentation}{7}{subsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.1}main()}{7}{subsubsection.4.2.1.1}%
-\contentsline {section}{\numberline {4.3}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{8}{section.4.3}%
-\contentsline {chapter}{Index}{9}{section*.2}%
+\contentsline {chapter}{\numberline {3}Namespace Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Namespace List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Hierarchical Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Class Hierarchy}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Data Structure Index}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Data Structures}{9}{section.5.1}%
+\contentsline {chapter}{\numberline {6}File Index}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}File List}{13}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Namespace Documentation}{15}{chapter.7}%
+\contentsline {section}{\numberline {7.1}el Namespace Reference}{15}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Detailed Description}{16}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Typedef Documentation}{17}{subsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.2.1}FormatSpecifierValueResolver}{17}{subsubsection.7.1.2.1}%
+\contentsline {subsubsection}{\numberline {7.1.2.2}LogBuilderPtr}{17}{subsubsection.7.1.2.2}%
+\contentsline {subsubsection}{\numberline {7.1.2.3}PreRollOutCallback}{17}{subsubsection.7.1.2.3}%
+\contentsline {subsection}{\numberline {7.1.3}Enumeration Type Documentation}{17}{subsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.3.1}ConfigurationType}{17}{subsubsection.7.1.3.1}%
+\contentsline {subsubsection}{\numberline {7.1.3.2}Level}{18}{subsubsection.7.1.3.2}%
+\contentsline {subsubsection}{\numberline {7.1.3.3}LoggingFlag}{18}{subsubsection.7.1.3.3}%
+\contentsline {subsection}{\numberline {7.1.4}Variable Documentation}{19}{subsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.4.1}configStringToTypeMap}{19}{subsubsection.7.1.4.1}%
+\contentsline {subsubsection}{\numberline {7.1.4.2}elCrashHandler}{19}{subsubsection.7.1.4.2}%
+\contentsline {subsubsection}{\numberline {7.1.4.3}stringToLevelMap}{19}{subsubsection.7.1.4.3}%
+\contentsline {section}{\numberline {7.2}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base Namespace Reference}{20}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Detailed Description}{21}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Typedef Documentation}{21}{subsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.2.1}FileStreamPtr}{21}{subsubsection.7.2.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2.2}LogStreamsReferenceMap}{21}{subsubsection.7.2.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.2.3}LogStreamsReferenceMapPtr}{22}{subsubsection.7.2.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.2.4}MillisecondsWidth}{22}{subsubsection.7.2.2.4}%
+\contentsline {subsection}{\numberline {7.2.3}Enumeration Type Documentation}{22}{subsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.3.1}DispatchAction}{22}{subsubsection.7.2.3.1}%
+\contentsline {subsubsection}{\numberline {7.2.3.2}FormatFlags}{22}{subsubsection.7.2.3.2}%
+\contentsline {subsubsection}{\numberline {7.2.3.3}TimestampUnit}{23}{subsubsection.7.2.3.3}%
+\contentsline {subsection}{\numberline {7.2.4}Function Documentation}{23}{subsection.7.2.4}%
+\contentsline {subsubsection}{\numberline {7.2.4.1}defaultPreRollOutCallback()}{23}{subsubsection.7.2.4.1}%
+\contentsline {subsection}{\numberline {7.2.5}Variable Documentation}{23}{subsection.7.2.5}%
+\contentsline {subsubsection}{\numberline {7.2.5.1}elStorage}{23}{subsubsection.7.2.5.1}%
+\contentsline {section}{\numberline {7.3}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::consts Namespace Reference}{23}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Detailed Description}{25}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Variable Documentation}{25}{subsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.2.1}brief}{25}{subsubsection.7.3.2.1}%
+\contentsline {subsubsection}{\numberline {7.3.2.2}detail}{25}{subsubsection.7.3.2.2}%
+\contentsline {subsubsection}{\numberline {7.3.2.3}kAm}{25}{subsubsection.7.3.2.3}%
+\contentsline {subsubsection}{\numberline {7.3.2.4}kAppNameFormatSpecifier}{26}{subsubsection.7.3.2.4}%
+\contentsline {subsubsection}{\numberline {7.3.2.5}kConfigurationComment}{26}{subsubsection.7.3.2.5}%
+\contentsline {subsubsection}{\numberline {7.3.2.6}kConfigurationLevel}{26}{subsubsection.7.3.2.6}%
+\contentsline {subsubsection}{\numberline {7.3.2.7}kConfigurationLoggerId}{26}{subsubsection.7.3.2.7}%
+\contentsline {subsubsection}{\numberline {7.3.2.8}[struct]}{26}{subsubsection.7.3.2.8}%
+\contentsline {subsubsection}{\numberline {7.3.2.9}kCrashSignalsCount}{27}{subsubsection.7.3.2.9}%
+\contentsline {subsubsection}{\numberline {7.3.2.10}kCurrentHostFormatSpecifier}{27}{subsubsection.7.3.2.10}%
+\contentsline {subsubsection}{\numberline {7.3.2.11}kCurrentUserFormatSpecifier}{27}{subsubsection.7.3.2.11}%
+\contentsline {subsubsection}{\numberline {7.3.2.12}kDateTimeFormatSpecifier}{27}{subsubsection.7.3.2.12}%
+\contentsline {subsubsection}{\numberline {7.3.2.13}kDateTimeFormatSpecifierForFilename}{27}{subsubsection.7.3.2.13}%
+\contentsline {subsubsection}{\numberline {7.3.2.14}kDays}{27}{subsubsection.7.3.2.14}%
+\contentsline {subsubsection}{\numberline {7.3.2.15}kDaysAbbrev}{27}{subsubsection.7.3.2.15}%
+\contentsline {subsubsection}{\numberline {7.3.2.16}kDebugLevelLogValue}{28}{subsubsection.7.3.2.16}%
+\contentsline {subsubsection}{\numberline {7.3.2.17}kDebugLevelShortLogValue}{28}{subsubsection.7.3.2.17}%
+\contentsline {subsubsection}{\numberline {7.3.2.18}kDefaultDateTimeFormat}{28}{subsubsection.7.3.2.18}%
+\contentsline {subsubsection}{\numberline {7.3.2.19}kDefaultDateTimeFormatInFilename}{28}{subsubsection.7.3.2.19}%
+\contentsline {subsubsection}{\numberline {7.3.2.20}kDefaultLogFile}{28}{subsubsection.7.3.2.20}%
+\contentsline {subsubsection}{\numberline {7.3.2.21}kDefaultLogFileParam}{28}{subsubsection.7.3.2.21}%
+\contentsline {subsubsection}{\numberline {7.3.2.22}kDefaultLoggerId}{28}{subsubsection.7.3.2.22}%
+\contentsline {subsubsection}{\numberline {7.3.2.23}kDefaultSubsecondPrecision}{28}{subsubsection.7.3.2.23}%
+\contentsline {subsubsection}{\numberline {7.3.2.24}kErrorLevelLogValue}{29}{subsubsection.7.3.2.24}%
+\contentsline {subsubsection}{\numberline {7.3.2.25}kErrorLevelShortLogValue}{29}{subsubsection.7.3.2.25}%
+\contentsline {subsubsection}{\numberline {7.3.2.26}kFatalLevelLogValue}{29}{subsubsection.7.3.2.26}%
+\contentsline {subsubsection}{\numberline {7.3.2.27}kFatalLevelShortLogValue}{29}{subsubsection.7.3.2.27}%
+\contentsline {subsubsection}{\numberline {7.3.2.28}kFilePathSeparator}{29}{subsubsection.7.3.2.28}%
+\contentsline {subsubsection}{\numberline {7.3.2.29}kFormatSpecifierChar}{29}{subsubsection.7.3.2.29}%
+\contentsline {subsubsection}{\numberline {7.3.2.30}kFormatSpecifierCharValue}{29}{subsubsection.7.3.2.30}%
+\contentsline {subsubsection}{\numberline {7.3.2.31}kInfoLevelLogValue}{29}{subsubsection.7.3.2.31}%
+\contentsline {subsubsection}{\numberline {7.3.2.32}kInfoLevelShortLogValue}{30}{subsubsection.7.3.2.32}%
+\contentsline {subsubsection}{\numberline {7.3.2.33}kLogFileBaseFormatSpecifier}{30}{subsubsection.7.3.2.33}%
+\contentsline {subsubsection}{\numberline {7.3.2.34}kLogFileFormatSpecifier}{30}{subsubsection.7.3.2.34}%
+\contentsline {subsubsection}{\numberline {7.3.2.35}kLogFunctionFormatSpecifier}{30}{subsubsection.7.3.2.35}%
+\contentsline {subsubsection}{\numberline {7.3.2.36}kLoggerIdFormatSpecifier}{30}{subsubsection.7.3.2.36}%
+\contentsline {subsubsection}{\numberline {7.3.2.37}kLogLineFormatSpecifier}{30}{subsubsection.7.3.2.37}%
+\contentsline {subsubsection}{\numberline {7.3.2.38}kLogLocationFormatSpecifier}{30}{subsubsection.7.3.2.38}%
+\contentsline {subsubsection}{\numberline {7.3.2.39}kMaxLogPerContainer}{31}{subsubsection.7.3.2.39}%
+\contentsline {subsubsection}{\numberline {7.3.2.40}kMaxLogPerCounter}{31}{subsubsection.7.3.2.40}%
+\contentsline {subsubsection}{\numberline {7.3.2.41}kMaxVerboseLevel}{31}{subsubsection.7.3.2.41}%
+\contentsline {subsubsection}{\numberline {7.3.2.42}kMessageFormatSpecifier}{31}{subsubsection.7.3.2.42}%
+\contentsline {subsubsection}{\numberline {7.3.2.43}kMonths}{31}{subsubsection.7.3.2.43}%
+\contentsline {subsubsection}{\numberline {7.3.2.44}kMonthsAbbrev}{31}{subsubsection.7.3.2.44}%
+\contentsline {subsubsection}{\numberline {7.3.2.45}kNullPointer}{31}{subsubsection.7.3.2.45}%
+\contentsline {subsubsection}{\numberline {7.3.2.46}kPerformanceTrackerDefaultLevel}{32}{subsubsection.7.3.2.46}%
+\contentsline {subsubsection}{\numberline {7.3.2.47}kPm}{32}{subsubsection.7.3.2.47}%
+\contentsline {subsubsection}{\numberline {7.3.2.48}kSeverityLevelFormatSpecifier}{32}{subsubsection.7.3.2.48}%
+\contentsline {subsubsection}{\numberline {7.3.2.49}kSeverityLevelShortFormatSpecifier}{32}{subsubsection.7.3.2.49}%
+\contentsline {subsubsection}{\numberline {7.3.2.50}kSourceFilenameMaxLength}{32}{subsubsection.7.3.2.50}%
+\contentsline {subsubsection}{\numberline {7.3.2.51}kSourceLineMaxLength}{32}{subsubsection.7.3.2.51}%
+\contentsline {subsubsection}{\numberline {7.3.2.52}kThreadIdFormatSpecifier}{32}{subsubsection.7.3.2.52}%
+\contentsline {subsubsection}{\numberline {7.3.2.53}[struct]}{33}{subsubsection.7.3.2.53}%
+\contentsline {subsubsection}{\numberline {7.3.2.54}kTimeFormatsCount}{33}{subsubsection.7.3.2.54}%
+\contentsline {subsubsection}{\numberline {7.3.2.55}kTraceLevelLogValue}{33}{subsubsection.7.3.2.55}%
+\contentsline {subsubsection}{\numberline {7.3.2.56}kTraceLevelShortLogValue}{33}{subsubsection.7.3.2.56}%
+\contentsline {subsubsection}{\numberline {7.3.2.57}kUnknownHost}{33}{subsubsection.7.3.2.57}%
+\contentsline {subsubsection}{\numberline {7.3.2.58}kUnknownUser}{33}{subsubsection.7.3.2.58}%
+\contentsline {subsubsection}{\numberline {7.3.2.59}kValidLoggerIdSymbols}{33}{subsubsection.7.3.2.59}%
+\contentsline {subsubsection}{\numberline {7.3.2.60}kVerboseLevelFormatSpecifier}{34}{subsubsection.7.3.2.60}%
+\contentsline {subsubsection}{\numberline {7.3.2.61}kVerboseLevelLogValue}{34}{subsubsection.7.3.2.61}%
+\contentsline {subsubsection}{\numberline {7.3.2.62}kVerboseLevelShortLogValue}{34}{subsubsection.7.3.2.62}%
+\contentsline {subsubsection}{\numberline {7.3.2.63}kWarningLevelLogValue}{34}{subsubsection.7.3.2.63}%
+\contentsline {subsubsection}{\numberline {7.3.2.64}kWarningLevelShortLogValue}{34}{subsubsection.7.3.2.64}%
+\contentsline {subsubsection}{\numberline {7.3.2.65}kYearBase}{34}{subsubsection.7.3.2.65}%
+\contentsline {subsubsection}{\numberline {7.3.2.66}name}{34}{subsubsection.7.3.2.66}%
+\contentsline {subsubsection}{\numberline {7.3.2.67}numb}{35}{subsubsection.7.3.2.67}%
+\contentsline {subsubsection}{\numberline {7.3.2.68}unit}{35}{subsubsection.7.3.2.68}%
+\contentsline {subsubsection}{\numberline {7.3.2.69}value}{35}{subsubsection.7.3.2.69}%
+\contentsline {section}{\numberline {7.4}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::debug Namespace Reference}{35}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Detailed Description}{35}{subsection.7.4.1}%
+\contentsline {section}{\numberline {7.5}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::threading Namespace Reference}{35}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Typedef Documentation}{36}{subsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.5.1.1}Mutex}{36}{subsubsection.7.5.1.1}%
+\contentsline {subsubsection}{\numberline {7.5.1.2}ScopedLock}{36}{subsubsection.7.5.1.2}%
+\contentsline {subsection}{\numberline {7.5.2}Function Documentation}{36}{subsection.7.5.2}%
+\contentsline {subsubsection}{\numberline {7.5.2.1}getCurrentThreadId()}{36}{subsubsection.7.5.2.1}%
+\contentsline {section}{\numberline {7.6}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::threading\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::internal Namespace Reference}{36}{section.7.6}%
+\contentsline {section}{\numberline {7.7}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::type Namespace Reference}{37}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Detailed Description}{37}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}Typedef Documentation}{37}{subsection.7.7.2}%
+\contentsline {subsubsection}{\numberline {7.7.2.1}char\_t}{37}{subsubsection.7.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.7.2.2}EnumType}{37}{subsubsection.7.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.7.2.3}fstream\_t}{37}{subsubsection.7.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.7.2.4}LineNumber}{38}{subsubsection.7.7.2.4}%
+\contentsline {subsubsection}{\numberline {7.7.2.5}LogDispatchCallbackPtr}{38}{subsubsection.7.7.2.5}%
+\contentsline {subsubsection}{\numberline {7.7.2.6}LoggerRegistrationCallbackPtr}{38}{subsubsection.7.7.2.6}%
+\contentsline {subsubsection}{\numberline {7.7.2.7}ostream\_t}{38}{subsubsection.7.7.2.7}%
+\contentsline {subsubsection}{\numberline {7.7.2.8}PerformanceTrackerPtr}{38}{subsubsection.7.7.2.8}%
+\contentsline {subsubsection}{\numberline {7.7.2.9}PerformanceTrackingCallbackPtr}{38}{subsubsection.7.7.2.9}%
+\contentsline {subsubsection}{\numberline {7.7.2.10}StoragePointer}{38}{subsubsection.7.7.2.10}%
+\contentsline {subsubsection}{\numberline {7.7.2.11}string\_t}{38}{subsubsection.7.7.2.11}%
+\contentsline {subsubsection}{\numberline {7.7.2.12}stringstream\_t}{39}{subsubsection.7.7.2.12}%
+\contentsline {subsubsection}{\numberline {7.7.2.13}VerboseLevel}{39}{subsubsection.7.7.2.13}%
+\contentsline {section}{\numberline {7.8}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils Namespace Reference}{39}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Detailed Description}{40}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}Function Documentation}{40}{subsection.7.8.2}%
+\contentsline {subsubsection}{\numberline {7.8.2.1}abort()}{40}{subsubsection.7.8.2.1}%
+\contentsline {subsubsection}{\numberline {7.8.2.2}addFlag()}{40}{subsubsection.7.8.2.2}%
+\contentsline {subsubsection}{\numberline {7.8.2.3}hasFlag()}{40}{subsubsection.7.8.2.3}%
+\contentsline {subsubsection}{\numberline {7.8.2.4}operator$<$$<$()}{41}{subsubsection.7.8.2.4}%
+\contentsline {subsubsection}{\numberline {7.8.2.5}removeFlag()}{41}{subsubsection.7.8.2.5}%
+\contentsline {subsubsection}{\numberline {7.8.2.6}safeDelete()}{41}{subsubsection.7.8.2.6}%
+\contentsline {section}{\numberline {7.9}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::bitwise Namespace Reference}{41}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}Detailed Description}{41}{subsection.7.9.1}%
+\contentsline {subsection}{\numberline {7.9.2}Function Documentation}{42}{subsection.7.9.2}%
+\contentsline {subsubsection}{\numberline {7.9.2.1}And()}{42}{subsubsection.7.9.2.1}%
+\contentsline {subsubsection}{\numberline {7.9.2.2}Not()}{42}{subsubsection.7.9.2.2}%
+\contentsline {subsubsection}{\numberline {7.9.2.3}Or()}{42}{subsubsection.7.9.2.3}%
+\contentsline {section}{\numberline {7.10}std Namespace Reference}{42}{section.7.10}%
+\contentsline {section}{\numberline {7.11}WIP Namespace Reference}{42}{section.7.11}%
+\contentsline {subsection}{\numberline {7.11.1}Detailed Description}{43}{subsection.7.11.1}%
+\contentsline {subsection}{\numberline {7.11.2}Function Documentation}{43}{subsection.7.11.2}%
+\contentsline {subsubsection}{\numberline {7.11.2.1}exampleEasyLogging()}{43}{subsubsection.7.11.2.1}%
+\contentsline {chapter}{\numberline {8}Data Structure Documentation}{45}{chapter.8}%
+\contentsline {section}{\numberline {8.1}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Abstract\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registry$<$ T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ptr, Container $>$ Class Template Reference}{45}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Detailed Description}{46}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Member Typedef Documentation}{46}{subsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.2.1}const\_iterator}{46}{subsubsection.8.1.2.1}%
+\contentsline {subsubsection}{\numberline {8.1.2.2}iterator}{46}{subsubsection.8.1.2.2}%
+\contentsline {subsection}{\numberline {8.1.3}Constructor \& Destructor Documentation}{47}{subsection.8.1.3}%
+\contentsline {subsubsection}{\numberline {8.1.3.1}AbstractRegistry()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{47}{subsubsection.8.1.3.1}%
+\contentsline {subsubsection}{\numberline {8.1.3.2}AbstractRegistry()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{47}{subsubsection.8.1.3.2}%
+\contentsline {subsubsection}{\numberline {8.1.3.3}$\sim $AbstractRegistry()}{47}{subsubsection.8.1.3.3}%
+\contentsline {subsection}{\numberline {8.1.4}Member Function Documentation}{47}{subsection.8.1.4}%
+\contentsline {subsubsection}{\numberline {8.1.4.1}begin()}{47}{subsubsection.8.1.4.1}%
+\contentsline {subsubsection}{\numberline {8.1.4.2}cbegin()}{48}{subsubsection.8.1.4.2}%
+\contentsline {subsubsection}{\numberline {8.1.4.3}cend()}{48}{subsubsection.8.1.4.3}%
+\contentsline {subsubsection}{\numberline {8.1.4.4}deepCopy()}{48}{subsubsection.8.1.4.4}%
+\contentsline {subsubsection}{\numberline {8.1.4.5}empty()}{48}{subsubsection.8.1.4.5}%
+\contentsline {subsubsection}{\numberline {8.1.4.6}end()}{49}{subsubsection.8.1.4.6}%
+\contentsline {subsubsection}{\numberline {8.1.4.7}list()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{49}{subsubsection.8.1.4.7}%
+\contentsline {subsubsection}{\numberline {8.1.4.8}list()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{49}{subsubsection.8.1.4.8}%
+\contentsline {subsubsection}{\numberline {8.1.4.9}operator"!=()}{49}{subsubsection.8.1.4.9}%
+\contentsline {subsubsection}{\numberline {8.1.4.10}operator=()}{49}{subsubsection.8.1.4.10}%
+\contentsline {subsubsection}{\numberline {8.1.4.11}operator==()}{50}{subsubsection.8.1.4.11}%
+\contentsline {subsubsection}{\numberline {8.1.4.12}reinitDeepCopy()}{50}{subsubsection.8.1.4.12}%
+\contentsline {subsubsection}{\numberline {8.1.4.13}size()}{50}{subsubsection.8.1.4.13}%
+\contentsline {subsubsection}{\numberline {8.1.4.14}unregisterAll()}{50}{subsubsection.8.1.4.14}%
+\contentsline {subsection}{\numberline {8.1.5}Field Documentation}{50}{subsection.8.1.5}%
+\contentsline {subsubsection}{\numberline {8.1.5.1}m\_list}{50}{subsubsection.8.1.5.1}%
+\contentsline {section}{\numberline {8.2}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Callback$<$ T $>$ Class Template Reference}{51}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Detailed Description}{51}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Constructor \& Destructor Documentation}{52}{subsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.2.1}Callback()}{52}{subsubsection.8.2.2.1}%
+\contentsline {subsection}{\numberline {8.2.3}Member Function Documentation}{52}{subsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.3.1}enabled()}{52}{subsubsection.8.2.3.1}%
+\contentsline {subsubsection}{\numberline {8.2.3.2}handle()}{52}{subsubsection.8.2.3.2}%
+\contentsline {subsubsection}{\numberline {8.2.3.3}setEnabled()}{52}{subsubsection.8.2.3.3}%
+\contentsline {subsection}{\numberline {8.2.4}Field Documentation}{52}{subsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.4.1}m\_enabled}{52}{subsubsection.8.2.4.1}%
+\contentsline {section}{\numberline {8.3}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Command\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Line\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Args Class Reference}{53}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Detailed Description}{53}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Constructor \& Destructor Documentation}{53}{subsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.2.1}CommandLineArgs()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{53}{subsubsection.8.3.2.1}%
+\contentsline {subsubsection}{\numberline {8.3.2.2}CommandLineArgs()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{54}{subsubsection.8.3.2.2}%
+\contentsline {subsubsection}{\numberline {8.3.2.3}CommandLineArgs()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{54}{subsubsection.8.3.2.3}%
+\contentsline {subsubsection}{\numberline {8.3.2.4}$\sim $CommandLineArgs()}{54}{subsubsection.8.3.2.4}%
+\contentsline {subsection}{\numberline {8.3.3}Member Function Documentation}{54}{subsection.8.3.3}%
+\contentsline {subsubsection}{\numberline {8.3.3.1}empty()}{54}{subsubsection.8.3.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.3.2}getParamValue()}{54}{subsubsection.8.3.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3.3}hasParam()}{55}{subsubsection.8.3.3.3}%
+\contentsline {subsubsection}{\numberline {8.3.3.4}hasParamWithValue()}{55}{subsubsection.8.3.3.4}%
+\contentsline {subsubsection}{\numberline {8.3.3.5}setArgs()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{55}{subsubsection.8.3.3.5}%
+\contentsline {subsubsection}{\numberline {8.3.3.6}setArgs()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{55}{subsubsection.8.3.3.6}%
+\contentsline {subsubsection}{\numberline {8.3.3.7}size()}{55}{subsubsection.8.3.3.7}%
+\contentsline {subsection}{\numberline {8.3.4}Friends And Related Symbol Documentation}{56}{subsection.8.3.4}%
+\contentsline {subsubsection}{\numberline {8.3.4.1}operator$<$$<$}{56}{subsubsection.8.3.4.1}%
+\contentsline {subsection}{\numberline {8.3.5}Field Documentation}{56}{subsection.8.3.5}%
+\contentsline {subsubsection}{\numberline {8.3.5.1}m\_argc}{56}{subsubsection.8.3.5.1}%
+\contentsline {subsubsection}{\numberline {8.3.5.2}m\_argv}{56}{subsubsection.8.3.5.2}%
+\contentsline {subsubsection}{\numberline {8.3.5.3}m\_params}{56}{subsubsection.8.3.5.3}%
+\contentsline {subsubsection}{\numberline {8.3.5.4}m\_paramsWithValue}{56}{subsubsection.8.3.5.4}%
+\contentsline {section}{\numberline {8.4}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Configuration Class Reference}{57}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Detailed Description}{58}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Constructor \& Destructor Documentation}{58}{subsection.8.4.2}%
+\contentsline {subsubsection}{\numberline {8.4.2.1}Configuration()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{58}{subsubsection.8.4.2.1}%
+\contentsline {subsubsection}{\numberline {8.4.2.2}$\sim $Configuration()}{58}{subsubsection.8.4.2.2}%
+\contentsline {subsubsection}{\numberline {8.4.2.3}Configuration()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{58}{subsubsection.8.4.2.3}%
+\contentsline {subsection}{\numberline {8.4.3}Member Function Documentation}{58}{subsection.8.4.3}%
+\contentsline {subsubsection}{\numberline {8.4.3.1}configurationType()}{58}{subsubsection.8.4.3.1}%
+\contentsline {subsubsection}{\numberline {8.4.3.2}level()}{59}{subsubsection.8.4.3.2}%
+\contentsline {subsubsection}{\numberline {8.4.3.3}log()}{59}{subsubsection.8.4.3.3}%
+\contentsline {subsubsection}{\numberline {8.4.3.4}operator=()}{59}{subsubsection.8.4.3.4}%
+\contentsline {subsubsection}{\numberline {8.4.3.5}setValue()}{59}{subsubsection.8.4.3.5}%
+\contentsline {subsubsection}{\numberline {8.4.3.6}value()}{59}{subsubsection.8.4.3.6}%
+\contentsline {subsection}{\numberline {8.4.4}Field Documentation}{60}{subsection.8.4.4}%
+\contentsline {subsubsection}{\numberline {8.4.4.1}m\_configurationType}{60}{subsubsection.8.4.4.1}%
+\contentsline {subsubsection}{\numberline {8.4.4.2}m\_level}{60}{subsubsection.8.4.4.2}%
+\contentsline {subsubsection}{\numberline {8.4.4.3}m\_value}{60}{subsubsection.8.4.4.3}%
+\contentsline {section}{\numberline {8.5}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Configurations Class Reference}{60}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Detailed Description}{63}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Constructor \& Destructor Documentation}{64}{subsection.8.5.2}%
+\contentsline {subsubsection}{\numberline {8.5.2.1}Configurations()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{64}{subsubsection.8.5.2.1}%
+\contentsline {subsubsection}{\numberline {8.5.2.2}Configurations()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{64}{subsubsection.8.5.2.2}%
+\contentsline {subsubsection}{\numberline {8.5.2.3}$\sim $Configurations()}{64}{subsubsection.8.5.2.3}%
+\contentsline {subsection}{\numberline {8.5.3}Member Function Documentation}{64}{subsection.8.5.3}%
+\contentsline {subsubsection}{\numberline {8.5.3.1}clear()}{64}{subsubsection.8.5.3.1}%
+\contentsline {subsubsection}{\numberline {8.5.3.2}configurationFile()}{65}{subsubsection.8.5.3.2}%
+\contentsline {subsubsection}{\numberline {8.5.3.3}get()}{65}{subsubsection.8.5.3.3}%
+\contentsline {subsubsection}{\numberline {8.5.3.4}hasConfiguration()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{65}{subsubsection.8.5.3.4}%
+\contentsline {subsubsection}{\numberline {8.5.3.5}hasConfiguration()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{65}{subsubsection.8.5.3.5}%
+\contentsline {subsubsection}{\numberline {8.5.3.6}parseFromFile()}{66}{subsubsection.8.5.3.6}%
+\contentsline {subsubsection}{\numberline {8.5.3.7}parseFromText()}{66}{subsubsection.8.5.3.7}%
+\contentsline {subsubsection}{\numberline {8.5.3.8}set()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{67}{subsubsection.8.5.3.8}%
+\contentsline {subsubsection}{\numberline {8.5.3.9}set()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{67}{subsubsection.8.5.3.9}%
+\contentsline {subsubsection}{\numberline {8.5.3.10}setFromBase()}{68}{subsubsection.8.5.3.10}%
+\contentsline {subsubsection}{\numberline {8.5.3.11}setGlobally()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{68}{subsubsection.8.5.3.11}%
+\contentsline {subsubsection}{\numberline {8.5.3.12}setGlobally()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{68}{subsubsection.8.5.3.12}%
+\contentsline {subsubsection}{\numberline {8.5.3.13}setRemainingToDefault()}{69}{subsubsection.8.5.3.13}%
+\contentsline {subsubsection}{\numberline {8.5.3.14}setToDefault()}{69}{subsubsection.8.5.3.14}%
+\contentsline {subsubsection}{\numberline {8.5.3.15}unsafeSet()}{69}{subsubsection.8.5.3.15}%
+\contentsline {subsubsection}{\numberline {8.5.3.16}unsafeSetGlobally()}{70}{subsubsection.8.5.3.16}%
+\contentsline {subsubsection}{\numberline {8.5.3.17}unsafeSetIfNotExist()}{70}{subsubsection.8.5.3.17}%
+\contentsline {subsection}{\numberline {8.5.4}Friends And Related Symbol Documentation}{70}{subsection.8.5.4}%
+\contentsline {subsubsection}{\numberline {8.5.4.1}el::Loggers}{70}{subsubsection.8.5.4.1}%
+\contentsline {subsection}{\numberline {8.5.5}Field Documentation}{70}{subsection.8.5.5}%
+\contentsline {subsubsection}{\numberline {8.5.5.1}m\_configurationFile}{70}{subsubsection.8.5.5.1}%
+\contentsline {subsubsection}{\numberline {8.5.5.2}m\_isFromFile}{71}{subsubsection.8.5.5.2}%
+\contentsline {section}{\numberline {8.6}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Configuration\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}String\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}To\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Type\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Struct Reference}{71}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Detailed Description}{71}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Field Documentation}{71}{subsection.8.6.2}%
+\contentsline {subsubsection}{\numberline {8.6.2.1}configString}{71}{subsubsection.8.6.2.1}%
+\contentsline {subsubsection}{\numberline {8.6.2.2}configType}{71}{subsubsection.8.6.2.2}%
+\contentsline {section}{\numberline {8.7}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Configuration\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Type\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Helper Class Reference}{72}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}Detailed Description}{72}{subsection.8.7.1}%
+\contentsline {subsection}{\numberline {8.7.2}Member Function Documentation}{72}{subsection.8.7.2}%
+\contentsline {subsubsection}{\numberline {8.7.2.1}castFromInt()}{72}{subsubsection.8.7.2.1}%
+\contentsline {subsubsection}{\numberline {8.7.2.2}castToInt()}{73}{subsubsection.8.7.2.2}%
+\contentsline {subsubsection}{\numberline {8.7.2.3}convertFromString()}{73}{subsubsection.8.7.2.3}%
+\contentsline {subsubsection}{\numberline {8.7.2.4}convertToString()}{73}{subsubsection.8.7.2.4}%
+\contentsline {subsubsection}{\numberline {8.7.2.5}forEachConfigType()}{73}{subsubsection.8.7.2.5}%
+\contentsline {subsection}{\numberline {8.7.3}Field Documentation}{74}{subsection.8.7.3}%
+\contentsline {subsubsection}{\numberline {8.7.3.1}kMaxValid}{74}{subsubsection.8.7.3.1}%
+\contentsline {subsubsection}{\numberline {8.7.3.2}kMinValid}{74}{subsubsection.8.7.3.2}%
+\contentsline {section}{\numberline {8.8}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::debug\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Crash\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{74}{section.8.8}%
+\contentsline {subsection}{\numberline {8.8.1}Detailed Description}{74}{subsection.8.8.1}%
+\contentsline {subsection}{\numberline {8.8.2}Constructor \& Destructor Documentation}{75}{subsection.8.8.2}%
+\contentsline {subsubsection}{\numberline {8.8.2.1}CrashHandler()}{75}{subsubsection.8.8.2.1}%
+\contentsline {section}{\numberline {8.9}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Custom\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Format\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specifier Class Reference}{75}{section.8.9}%
+\contentsline {subsection}{\numberline {8.9.1}Detailed Description}{75}{subsection.8.9.1}%
+\contentsline {subsection}{\numberline {8.9.2}Constructor \& Destructor Documentation}{76}{subsection.8.9.2}%
+\contentsline {subsubsection}{\numberline {8.9.2.1}CustomFormatSpecifier()}{76}{subsubsection.8.9.2.1}%
+\contentsline {subsection}{\numberline {8.9.3}Member Function Documentation}{76}{subsection.8.9.3}%
+\contentsline {subsubsection}{\numberline {8.9.3.1}formatSpecifier()}{76}{subsubsection.8.9.3.1}%
+\contentsline {subsubsection}{\numberline {8.9.3.2}operator==()}{76}{subsubsection.8.9.3.2}%
+\contentsline {subsubsection}{\numberline {8.9.3.3}resolver()}{76}{subsubsection.8.9.3.3}%
+\contentsline {subsection}{\numberline {8.9.4}Field Documentation}{76}{subsection.8.9.4}%
+\contentsline {subsubsection}{\numberline {8.9.4.1}m\_formatSpecifier}{76}{subsubsection.8.9.4.1}%
+\contentsline {subsubsection}{\numberline {8.9.4.2}m\_resolver}{76}{subsubsection.8.9.4.2}%
+\contentsline {section}{\numberline {8.10}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Date\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Time Class Reference}{77}{section.8.10}%
+\contentsline {subsection}{\numberline {8.10.1}Detailed Description}{77}{subsection.8.10.1}%
+\contentsline {subsection}{\numberline {8.10.2}Member Function Documentation}{77}{subsection.8.10.2}%
+\contentsline {subsubsection}{\numberline {8.10.2.1}buildTimeInfo()}{77}{subsubsection.8.10.2.1}%
+\contentsline {subsubsection}{\numberline {8.10.2.2}formatTime()}{78}{subsubsection.8.10.2.2}%
+\contentsline {subsubsection}{\numberline {8.10.2.3}getDateTime()}{78}{subsubsection.8.10.2.3}%
+\contentsline {subsubsection}{\numberline {8.10.2.4}getTimeDifference()}{78}{subsubsection.8.10.2.4}%
+\contentsline {subsubsection}{\numberline {8.10.2.5}gettimeofday()}{78}{subsubsection.8.10.2.5}%
+\contentsline {subsubsection}{\numberline {8.10.2.6}parseFormat()}{79}{subsubsection.8.10.2.6}%
+\contentsline {subsubsection}{\numberline {8.10.2.7}timevalToString()}{79}{subsubsection.8.10.2.7}%
+\contentsline {section}{\numberline {8.11}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Default\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{79}{section.8.11}%
+\contentsline {subsection}{\numberline {8.11.1}Detailed Description}{80}{subsection.8.11.1}%
+\contentsline {subsection}{\numberline {8.11.2}Member Function Documentation}{80}{subsection.8.11.2}%
+\contentsline {subsubsection}{\numberline {8.11.2.1}build()}{80}{subsubsection.8.11.2.1}%
+\contentsline {section}{\numberline {8.12}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Default\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dispatch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Callback Class Reference}{81}{section.8.12}%
+\contentsline {subsection}{\numberline {8.12.1}Detailed Description}{82}{subsection.8.12.1}%
+\contentsline {subsection}{\numberline {8.12.2}Member Function Documentation}{82}{subsection.8.12.2}%
+\contentsline {subsubsection}{\numberline {8.12.2.1}dispatch()}{82}{subsubsection.8.12.2.1}%
+\contentsline {subsubsection}{\numberline {8.12.2.2}handle()}{82}{subsubsection.8.12.2.2}%
+\contentsline {subsection}{\numberline {8.12.3}Field Documentation}{82}{subsection.8.12.3}%
+\contentsline {subsubsection}{\numberline {8.12.3.1}m\_data}{82}{subsubsection.8.12.3.1}%
+\contentsline {section}{\numberline {8.13}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::File Class Reference}{83}{section.8.13}%
+\contentsline {subsection}{\numberline {8.13.1}Detailed Description}{83}{subsection.8.13.1}%
+\contentsline {subsection}{\numberline {8.13.2}Member Function Documentation}{83}{subsection.8.13.2}%
+\contentsline {subsubsection}{\numberline {8.13.2.1}buildBaseFilename()}{83}{subsubsection.8.13.2.1}%
+\contentsline {subsubsection}{\numberline {8.13.2.2}buildStrippedFilename()}{84}{subsubsection.8.13.2.2}%
+\contentsline {subsubsection}{\numberline {8.13.2.3}createPath()}{84}{subsubsection.8.13.2.3}%
+\contentsline {subsubsection}{\numberline {8.13.2.4}extractPathFromFilename()}{84}{subsubsection.8.13.2.4}%
+\contentsline {subsubsection}{\numberline {8.13.2.5}getSizeOfFile()}{84}{subsubsection.8.13.2.5}%
+\contentsline {subsubsection}{\numberline {8.13.2.6}newFileStream()}{85}{subsubsection.8.13.2.6}%
+\contentsline {subsubsection}{\numberline {8.13.2.7}pathExists()}{85}{subsubsection.8.13.2.7}%
+\contentsline {section}{\numberline {8.14}std\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::hash$<$ el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Level $>$ Struct Reference}{85}{section.8.14}%
+\contentsline {subsection}{\numberline {8.14.1}Detailed Description}{85}{subsection.8.14.1}%
+\contentsline {subsection}{\numberline {8.14.2}Member Function Documentation}{86}{subsection.8.14.2}%
+\contentsline {subsubsection}{\numberline {8.14.2.1}operator()()}{86}{subsubsection.8.14.2.1}%
+\contentsline {section}{\numberline {8.15}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Helpers Class Reference}{86}{section.8.15}%
+\contentsline {subsection}{\numberline {8.15.1}Detailed Description}{87}{subsection.8.15.1}%
+\contentsline {subsection}{\numberline {8.15.2}Member Function Documentation}{87}{subsection.8.15.2}%
+\contentsline {subsubsection}{\numberline {8.15.2.1}commandLineArgs()}{87}{subsubsection.8.15.2.1}%
+\contentsline {subsubsection}{\numberline {8.15.2.2}convertTemplateToStdString()}{87}{subsubsection.8.15.2.2}%
+\contentsline {subsubsection}{\numberline {8.15.2.3}getThreadName()}{88}{subsubsection.8.15.2.3}%
+\contentsline {subsubsection}{\numberline {8.15.2.4}hasCustomFormatSpecifier()}{88}{subsubsection.8.15.2.4}%
+\contentsline {subsubsection}{\numberline {8.15.2.5}installCustomFormatSpecifier()}{88}{subsubsection.8.15.2.5}%
+\contentsline {subsubsection}{\numberline {8.15.2.6}installLogDispatchCallback()}{88}{subsubsection.8.15.2.6}%
+\contentsline {subsubsection}{\numberline {8.15.2.7}installPreRollOutCallback()}{88}{subsubsection.8.15.2.7}%
+\contentsline {subsubsection}{\numberline {8.15.2.8}logDispatchCallback()}{89}{subsubsection.8.15.2.8}%
+\contentsline {subsubsection}{\numberline {8.15.2.9}reserveCustomFormatSpecifiers()}{89}{subsubsection.8.15.2.9}%
+\contentsline {subsubsection}{\numberline {8.15.2.10}setArgs()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{89}{subsubsection.8.15.2.10}%
+\contentsline {subsubsection}{\numberline {8.15.2.11}setArgs()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{89}{subsubsection.8.15.2.11}%
+\contentsline {subsubsection}{\numberline {8.15.2.12}setStorage()}{90}{subsubsection.8.15.2.12}%
+\contentsline {subsubsection}{\numberline {8.15.2.13}setThreadName()}{90}{subsubsection.8.15.2.13}%
+\contentsline {subsubsection}{\numberline {8.15.2.14}storage()}{90}{subsubsection.8.15.2.14}%
+\contentsline {subsubsection}{\numberline {8.15.2.15}uninstallCustomFormatSpecifier()}{90}{subsubsection.8.15.2.15}%
+\contentsline {subsubsection}{\numberline {8.15.2.16}uninstallLogDispatchCallback()}{91}{subsubsection.8.15.2.16}%
+\contentsline {subsubsection}{\numberline {8.15.2.17}uninstallPreRollOutCallback()}{91}{subsubsection.8.15.2.17}%
+\contentsline {subsubsection}{\numberline {8.15.2.18}validateFileRolling()}{91}{subsubsection.8.15.2.18}%
+\contentsline {section}{\numberline {8.16}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Hit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Counter Class Reference}{91}{section.8.16}%
+\contentsline {subsection}{\numberline {8.16.1}Detailed Description}{92}{subsection.8.16.1}%
+\contentsline {subsection}{\numberline {8.16.2}Constructor \& Destructor Documentation}{92}{subsection.8.16.2}%
+\contentsline {subsubsection}{\numberline {8.16.2.1}HitCounter()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{92}{subsubsection.8.16.2.1}%
+\contentsline {subsubsection}{\numberline {8.16.2.2}HitCounter()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{92}{subsubsection.8.16.2.2}%
+\contentsline {subsubsection}{\numberline {8.16.2.3}HitCounter()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{93}{subsubsection.8.16.2.3}%
+\contentsline {subsubsection}{\numberline {8.16.2.4}$\sim $HitCounter()}{93}{subsubsection.8.16.2.4}%
+\contentsline {subsection}{\numberline {8.16.3}Member Function Documentation}{93}{subsection.8.16.3}%
+\contentsline {subsubsection}{\numberline {8.16.3.1}filename()}{93}{subsubsection.8.16.3.1}%
+\contentsline {subsubsection}{\numberline {8.16.3.2}hitCounts()}{93}{subsubsection.8.16.3.2}%
+\contentsline {subsubsection}{\numberline {8.16.3.3}increment()}{93}{subsubsection.8.16.3.3}%
+\contentsline {subsubsection}{\numberline {8.16.3.4}lineNumber()}{93}{subsubsection.8.16.3.4}%
+\contentsline {subsubsection}{\numberline {8.16.3.5}operator=()}{94}{subsubsection.8.16.3.5}%
+\contentsline {subsubsection}{\numberline {8.16.3.6}resetLocation()}{94}{subsubsection.8.16.3.6}%
+\contentsline {subsubsection}{\numberline {8.16.3.7}validateHitCounts()}{94}{subsubsection.8.16.3.7}%
+\contentsline {subsection}{\numberline {8.16.4}Field Documentation}{94}{subsection.8.16.4}%
+\contentsline {subsubsection}{\numberline {8.16.4.1}m\_filename}{94}{subsubsection.8.16.4.1}%
+\contentsline {subsubsection}{\numberline {8.16.4.2}m\_hitCounts}{94}{subsubsection.8.16.4.2}%
+\contentsline {subsubsection}{\numberline {8.16.4.3}m\_lineNumber}{94}{subsubsection.8.16.4.3}%
+\contentsline {section}{\numberline {8.17}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Helper Class Reference}{95}{section.8.17}%
+\contentsline {subsection}{\numberline {8.17.1}Detailed Description}{95}{subsection.8.17.1}%
+\contentsline {subsection}{\numberline {8.17.2}Member Function Documentation}{95}{subsection.8.17.2}%
+\contentsline {subsubsection}{\numberline {8.17.2.1}castFromInt()}{95}{subsubsection.8.17.2.1}%
+\contentsline {subsubsection}{\numberline {8.17.2.2}castToInt()}{96}{subsubsection.8.17.2.2}%
+\contentsline {subsubsection}{\numberline {8.17.2.3}convertFromString()}{96}{subsubsection.8.17.2.3}%
+\contentsline {subsubsection}{\numberline {8.17.2.4}convertToString()}{96}{subsubsection.8.17.2.4}%
+\contentsline {subsubsection}{\numberline {8.17.2.5}forEachLevel()}{96}{subsubsection.8.17.2.5}%
+\contentsline {subsection}{\numberline {8.17.3}Field Documentation}{97}{subsection.8.17.3}%
+\contentsline {subsubsection}{\numberline {8.17.3.1}kMaxValid}{97}{subsubsection.8.17.3.1}%
+\contentsline {subsubsection}{\numberline {8.17.3.2}kMinValid}{97}{subsubsection.8.17.3.2}%
+\contentsline {section}{\numberline {8.18}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{97}{section.8.18}%
+\contentsline {subsection}{\numberline {8.18.1}Detailed Description}{98}{subsection.8.18.1}%
+\contentsline {subsection}{\numberline {8.18.2}Constructor \& Destructor Documentation}{98}{subsection.8.18.2}%
+\contentsline {subsubsection}{\numberline {8.18.2.1}LogBuilder()}{98}{subsubsection.8.18.2.1}%
+\contentsline {subsubsection}{\numberline {8.18.2.2}$\sim $LogBuilder()}{98}{subsubsection.8.18.2.2}%
+\contentsline {subsection}{\numberline {8.18.3}Member Function Documentation}{99}{subsection.8.18.3}%
+\contentsline {subsubsection}{\numberline {8.18.3.1}build()}{99}{subsubsection.8.18.3.1}%
+\contentsline {subsubsection}{\numberline {8.18.3.2}convertToColoredOutput()}{99}{subsubsection.8.18.3.2}%
+\contentsline {subsection}{\numberline {8.18.4}Friends And Related Symbol Documentation}{99}{subsection.8.18.4}%
+\contentsline {subsubsection}{\numberline {8.18.4.1}el::base::DefaultLogDispatchCallback}{99}{subsubsection.8.18.4.1}%
+\contentsline {subsection}{\numberline {8.18.5}Field Documentation}{99}{subsection.8.18.5}%
+\contentsline {subsubsection}{\numberline {8.18.5.1}m\_termSupportsColor}{99}{subsubsection.8.18.5.1}%
+\contentsline {section}{\numberline {8.19}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dispatch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Callback Class Reference}{100}{section.8.19}%
+\contentsline {subsection}{\numberline {8.19.1}Detailed Description}{101}{subsection.8.19.1}%
+\contentsline {subsection}{\numberline {8.19.2}Member Function Documentation}{101}{subsection.8.19.2}%
+\contentsline {subsubsection}{\numberline {8.19.2.1}fileHandle()}{101}{subsubsection.8.19.2.1}%
+\contentsline {subsubsection}{\numberline {8.19.2.2}handle()}{101}{subsubsection.8.19.2.2}%
+\contentsline {subsection}{\numberline {8.19.3}Friends And Related Symbol Documentation}{101}{subsection.8.19.3}%
+\contentsline {subsubsection}{\numberline {8.19.3.1}base::LogDispatcher}{101}{subsubsection.8.19.3.1}%
+\contentsline {subsection}{\numberline {8.19.4}Field Documentation}{101}{subsection.8.19.4}%
+\contentsline {subsubsection}{\numberline {8.19.4.1}m\_fileLocks}{101}{subsubsection.8.19.4.1}%
+\contentsline {subsubsection}{\numberline {8.19.4.2}m\_fileLocksMapLock}{102}{subsubsection.8.19.4.2}%
+\contentsline {section}{\numberline {8.20}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dispatch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data Class Reference}{102}{section.8.20}%
+\contentsline {subsection}{\numberline {8.20.1}Detailed Description}{102}{subsection.8.20.1}%
+\contentsline {subsection}{\numberline {8.20.2}Constructor \& Destructor Documentation}{102}{subsection.8.20.2}%
+\contentsline {subsubsection}{\numberline {8.20.2.1}LogDispatchData()}{102}{subsubsection.8.20.2.1}%
+\contentsline {subsection}{\numberline {8.20.3}Member Function Documentation}{103}{subsection.8.20.3}%
+\contentsline {subsubsection}{\numberline {8.20.3.1}dispatchAction()}{103}{subsubsection.8.20.3.1}%
+\contentsline {subsubsection}{\numberline {8.20.3.2}logMessage()}{103}{subsubsection.8.20.3.2}%
+\contentsline {subsubsection}{\numberline {8.20.3.3}setDispatchAction()}{103}{subsubsection.8.20.3.3}%
+\contentsline {subsubsection}{\numberline {8.20.3.4}setLogMessage()}{103}{subsubsection.8.20.3.4}%
+\contentsline {subsection}{\numberline {8.20.4}Friends And Related Symbol Documentation}{103}{subsection.8.20.4}%
+\contentsline {subsubsection}{\numberline {8.20.4.1}base::LogDispatcher}{103}{subsubsection.8.20.4.1}%
+\contentsline {subsection}{\numberline {8.20.5}Field Documentation}{103}{subsection.8.20.5}%
+\contentsline {subsubsection}{\numberline {8.20.5.1}m\_dispatchAction}{103}{subsubsection.8.20.5.1}%
+\contentsline {subsubsection}{\numberline {8.20.5.2}m\_logMessage}{104}{subsubsection.8.20.5.2}%
+\contentsline {section}{\numberline {8.21}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dispatcher Class Reference}{104}{section.8.21}%
+\contentsline {subsection}{\numberline {8.21.1}Detailed Description}{104}{subsection.8.21.1}%
+\contentsline {subsection}{\numberline {8.21.2}Constructor \& Destructor Documentation}{105}{subsection.8.21.2}%
+\contentsline {subsubsection}{\numberline {8.21.2.1}LogDispatcher()}{105}{subsubsection.8.21.2.1}%
+\contentsline {subsection}{\numberline {8.21.3}Member Function Documentation}{105}{subsection.8.21.3}%
+\contentsline {subsubsection}{\numberline {8.21.3.1}dispatch()}{105}{subsubsection.8.21.3.1}%
+\contentsline {subsection}{\numberline {8.21.4}Field Documentation}{105}{subsection.8.21.4}%
+\contentsline {subsubsection}{\numberline {8.21.4.1}m\_dispatchAction}{105}{subsubsection.8.21.4.1}%
+\contentsline {subsubsection}{\numberline {8.21.4.2}m\_logMessage}{105}{subsubsection.8.21.4.2}%
+\contentsline {subsubsection}{\numberline {8.21.4.3}m\_proceed}{105}{subsubsection.8.21.4.3}%
+\contentsline {section}{\numberline {8.22}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Format Class Reference}{106}{section.8.22}%
+\contentsline {subsection}{\numberline {8.22.1}Detailed Description}{107}{subsection.8.22.1}%
+\contentsline {subsection}{\numberline {8.22.2}Constructor \& Destructor Documentation}{107}{subsection.8.22.2}%
+\contentsline {subsubsection}{\numberline {8.22.2.1}LogFormat()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{107}{subsubsection.8.22.2.1}%
+\contentsline {subsubsection}{\numberline {8.22.2.2}LogFormat()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{107}{subsubsection.8.22.2.2}%
+\contentsline {subsubsection}{\numberline {8.22.2.3}LogFormat()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{107}{subsubsection.8.22.2.3}%
+\contentsline {subsubsection}{\numberline {8.22.2.4}LogFormat()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{107}{subsubsection.8.22.2.4}%
+\contentsline {subsubsection}{\numberline {8.22.2.5}$\sim $LogFormat()}{108}{subsubsection.8.22.2.5}%
+\contentsline {subsection}{\numberline {8.22.3}Member Function Documentation}{108}{subsection.8.22.3}%
+\contentsline {subsubsection}{\numberline {8.22.3.1}addFlag()}{108}{subsubsection.8.22.3.1}%
+\contentsline {subsubsection}{\numberline {8.22.3.2}dateTimeFormat()}{108}{subsubsection.8.22.3.2}%
+\contentsline {subsubsection}{\numberline {8.22.3.3}flags()}{108}{subsubsection.8.22.3.3}%
+\contentsline {subsubsection}{\numberline {8.22.3.4}format()}{108}{subsubsection.8.22.3.4}%
+\contentsline {subsubsection}{\numberline {8.22.3.5}hasFlag()}{108}{subsubsection.8.22.3.5}%
+\contentsline {subsubsection}{\numberline {8.22.3.6}level()}{109}{subsubsection.8.22.3.6}%
+\contentsline {subsubsection}{\numberline {8.22.3.7}log()}{109}{subsubsection.8.22.3.7}%
+\contentsline {subsubsection}{\numberline {8.22.3.8}operator=()}{109}{subsubsection.8.22.3.8}%
+\contentsline {subsubsection}{\numberline {8.22.3.9}operator==()}{109}{subsubsection.8.22.3.9}%
+\contentsline {subsubsection}{\numberline {8.22.3.10}parseFromFormat()}{109}{subsubsection.8.22.3.10}%
+\contentsline {subsubsection}{\numberline {8.22.3.11}updateDateFormat()}{110}{subsubsection.8.22.3.11}%
+\contentsline {subsubsection}{\numberline {8.22.3.12}updateFormatSpec()}{110}{subsubsection.8.22.3.12}%
+\contentsline {subsubsection}{\numberline {8.22.3.13}userFormat()}{110}{subsubsection.8.22.3.13}%
+\contentsline {subsection}{\numberline {8.22.4}Friends And Related Symbol Documentation}{111}{subsection.8.22.4}%
+\contentsline {subsubsection}{\numberline {8.22.4.1}el::Logger}{111}{subsubsection.8.22.4.1}%
+\contentsline {subsection}{\numberline {8.22.5}Field Documentation}{111}{subsection.8.22.5}%
+\contentsline {subsubsection}{\numberline {8.22.5.1}m\_currentHost}{111}{subsubsection.8.22.5.1}%
+\contentsline {subsubsection}{\numberline {8.22.5.2}m\_currentUser}{111}{subsubsection.8.22.5.2}%
+\contentsline {subsubsection}{\numberline {8.22.5.3}m\_dateTimeFormat}{111}{subsubsection.8.22.5.3}%
+\contentsline {subsubsection}{\numberline {8.22.5.4}m\_flags}{111}{subsubsection.8.22.5.4}%
+\contentsline {subsubsection}{\numberline {8.22.5.5}m\_format}{111}{subsubsection.8.22.5.5}%
+\contentsline {subsubsection}{\numberline {8.22.5.6}m\_level}{111}{subsubsection.8.22.5.6}%
+\contentsline {subsubsection}{\numberline {8.22.5.7}m\_userFormat}{112}{subsubsection.8.22.5.7}%
+\contentsline {section}{\numberline {8.23}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Loggable Class Reference}{112}{section.8.23}%
+\contentsline {subsection}{\numberline {8.23.1}Detailed Description}{112}{subsection.8.23.1}%
+\contentsline {subsection}{\numberline {8.23.2}Constructor \& Destructor Documentation}{112}{subsection.8.23.2}%
+\contentsline {subsubsection}{\numberline {8.23.2.1}$\sim $Loggable()}{112}{subsubsection.8.23.2.1}%
+\contentsline {subsection}{\numberline {8.23.3}Member Function Documentation}{113}{subsection.8.23.3}%
+\contentsline {subsubsection}{\numberline {8.23.3.1}log()}{113}{subsubsection.8.23.3.1}%
+\contentsline {subsection}{\numberline {8.23.4}Friends And Related Symbol Documentation}{113}{subsection.8.23.4}%
+\contentsline {subsubsection}{\numberline {8.23.4.1}operator$<$$<$}{113}{subsubsection.8.23.4.1}%
+\contentsline {section}{\numberline {8.24}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Logger Class Reference}{113}{section.8.24}%
+\contentsline {subsection}{\numberline {8.24.1}Detailed Description}{115}{subsection.8.24.1}%
+\contentsline {subsection}{\numberline {8.24.2}Constructor \& Destructor Documentation}{115}{subsection.8.24.2}%
+\contentsline {subsubsection}{\numberline {8.24.2.1}Logger()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{115}{subsubsection.8.24.2.1}%
+\contentsline {subsubsection}{\numberline {8.24.2.2}Logger()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{116}{subsubsection.8.24.2.2}%
+\contentsline {subsubsection}{\numberline {8.24.2.3}Logger()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{116}{subsubsection.8.24.2.3}%
+\contentsline {subsubsection}{\numberline {8.24.2.4}$\sim $Logger()}{116}{subsubsection.8.24.2.4}%
+\contentsline {subsubsection}{\numberline {8.24.2.5}Logger()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{116}{subsubsection.8.24.2.5}%
+\contentsline {subsection}{\numberline {8.24.3}Member Function Documentation}{116}{subsection.8.24.3}%
+\contentsline {subsubsection}{\numberline {8.24.3.1}configurations()}{116}{subsubsection.8.24.3.1}%
+\contentsline {subsubsection}{\numberline {8.24.3.2}configure()}{116}{subsubsection.8.24.3.2}%
+\contentsline {subsubsection}{\numberline {8.24.3.3}enabled()}{117}{subsubsection.8.24.3.3}%
+\contentsline {subsubsection}{\numberline {8.24.3.4}flush()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{117}{subsubsection.8.24.3.4}%
+\contentsline {subsubsection}{\numberline {8.24.3.5}flush()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{117}{subsubsection.8.24.3.5}%
+\contentsline {subsubsection}{\numberline {8.24.3.6}id()}{117}{subsubsection.8.24.3.6}%
+\contentsline {subsubsection}{\numberline {8.24.3.7}initUnflushedCount()}{117}{subsubsection.8.24.3.7}%
+\contentsline {subsubsection}{\numberline {8.24.3.8}isFlushNeeded()}{118}{subsubsection.8.24.3.8}%
+\contentsline {subsubsection}{\numberline {8.24.3.9}isValidId()}{118}{subsubsection.8.24.3.9}%
+\contentsline {subsubsection}{\numberline {8.24.3.10}log()}{118}{subsubsection.8.24.3.10}%
+\contentsline {subsubsection}{\numberline {8.24.3.11}logBuilder()}{118}{subsubsection.8.24.3.11}%
+\contentsline {subsubsection}{\numberline {8.24.3.12}operator=()}{118}{subsubsection.8.24.3.12}%
+\contentsline {subsubsection}{\numberline {8.24.3.13}parentApplicationName()}{118}{subsubsection.8.24.3.13}%
+\contentsline {subsubsection}{\numberline {8.24.3.14}reconfigure()}{119}{subsubsection.8.24.3.14}%
+\contentsline {subsubsection}{\numberline {8.24.3.15}resolveLoggerFormatSpec()}{119}{subsubsection.8.24.3.15}%
+\contentsline {subsubsection}{\numberline {8.24.3.16}setLogBuilder()}{119}{subsubsection.8.24.3.16}%
+\contentsline {subsubsection}{\numberline {8.24.3.17}setParentApplicationName()}{119}{subsubsection.8.24.3.17}%
+\contentsline {subsubsection}{\numberline {8.24.3.18}stream()}{119}{subsubsection.8.24.3.18}%
+\contentsline {subsubsection}{\numberline {8.24.3.19}typedConfigurations()}{119}{subsubsection.8.24.3.19}%
+\contentsline {subsection}{\numberline {8.24.4}Friends And Related Symbol Documentation}{120}{subsection.8.24.4}%
+\contentsline {subsubsection}{\numberline {8.24.4.1}el::base::DefaultLogDispatchCallback}{120}{subsubsection.8.24.4.1}%
+\contentsline {subsubsection}{\numberline {8.24.4.2}el::base::LogDispatcher}{120}{subsubsection.8.24.4.2}%
+\contentsline {subsubsection}{\numberline {8.24.4.3}el::base::MessageBuilder}{120}{subsubsection.8.24.4.3}%
+\contentsline {subsubsection}{\numberline {8.24.4.4}el::base::PerformanceTracker}{120}{subsubsection.8.24.4.4}%
+\contentsline {subsubsection}{\numberline {8.24.4.5}el::base::PErrorWriter}{120}{subsubsection.8.24.4.5}%
+\contentsline {subsubsection}{\numberline {8.24.4.6}el::base::RegisteredLoggers}{120}{subsubsection.8.24.4.6}%
+\contentsline {subsubsection}{\numberline {8.24.4.7}el::base::Storage}{120}{subsubsection.8.24.4.7}%
+\contentsline {subsubsection}{\numberline {8.24.4.8}el::base::Writer}{121}{subsubsection.8.24.4.8}%
+\contentsline {subsubsection}{\numberline {8.24.4.9}el::Helpers}{121}{subsubsection.8.24.4.9}%
+\contentsline {subsubsection}{\numberline {8.24.4.10}el::Loggers}{121}{subsubsection.8.24.4.10}%
+\contentsline {subsubsection}{\numberline {8.24.4.11}el::LogMessage}{121}{subsubsection.8.24.4.11}%
+\contentsline {subsection}{\numberline {8.24.5}Field Documentation}{121}{subsection.8.24.5}%
+\contentsline {subsubsection}{\numberline {8.24.5.1}m\_configurations}{121}{subsubsection.8.24.5.1}%
+\contentsline {subsubsection}{\numberline {8.24.5.2}m\_id}{121}{subsubsection.8.24.5.2}%
+\contentsline {subsubsection}{\numberline {8.24.5.3}m\_isConfigured}{121}{subsubsection.8.24.5.3}%
+\contentsline {subsubsection}{\numberline {8.24.5.4}m\_logBuilder}{122}{subsubsection.8.24.5.4}%
+\contentsline {subsubsection}{\numberline {8.24.5.5}m\_logStreamsReference}{122}{subsubsection.8.24.5.5}%
+\contentsline {subsubsection}{\numberline {8.24.5.6}m\_parentApplicationName}{122}{subsubsection.8.24.5.6}%
+\contentsline {subsubsection}{\numberline {8.24.5.7}m\_stream}{122}{subsubsection.8.24.5.7}%
+\contentsline {subsubsection}{\numberline {8.24.5.8}m\_typedConfigurations}{122}{subsubsection.8.24.5.8}%
+\contentsline {subsubsection}{\numberline {8.24.5.9}m\_unflushedCount}{122}{subsubsection.8.24.5.9}%
+\contentsline {section}{\numberline {8.25}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Logger\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Registration\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Callback Class Reference}{123}{section.8.25}%
+\contentsline {subsection}{\numberline {8.25.1}Detailed Description}{123}{subsection.8.25.1}%
+\contentsline {subsection}{\numberline {8.25.2}Friends And Related Symbol Documentation}{124}{subsection.8.25.2}%
+\contentsline {subsubsection}{\numberline {8.25.2.1}base::RegisteredLoggers}{124}{subsubsection.8.25.2.1}%
+\contentsline {section}{\numberline {8.26}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Loggers Class Reference}{124}{section.8.26}%
+\contentsline {subsection}{\numberline {8.26.1}Detailed Description}{126}{subsection.8.26.1}%
+\contentsline {subsection}{\numberline {8.26.2}Member Function Documentation}{126}{subsection.8.26.2}%
+\contentsline {subsubsection}{\numberline {8.26.2.1}addFlag()}{126}{subsubsection.8.26.2.1}%
+\contentsline {subsubsection}{\numberline {8.26.2.2}clearVModules()}{126}{subsubsection.8.26.2.2}%
+\contentsline {subsubsection}{\numberline {8.26.2.3}configureFromArg()}{126}{subsubsection.8.26.2.3}%
+\contentsline {subsubsection}{\numberline {8.26.2.4}configureFromGlobal()}{127}{subsubsection.8.26.2.4}%
+\contentsline {subsubsection}{\numberline {8.26.2.5}defaultConfigurations()}{127}{subsubsection.8.26.2.5}%
+\contentsline {subsubsection}{\numberline {8.26.2.6}defaultTypedConfigurations()}{127}{subsubsection.8.26.2.6}%
+\contentsline {subsubsection}{\numberline {8.26.2.7}flushAll()}{127}{subsubsection.8.26.2.7}%
+\contentsline {subsubsection}{\numberline {8.26.2.8}getLogger()}{128}{subsubsection.8.26.2.8}%
+\contentsline {subsubsection}{\numberline {8.26.2.9}hasFlag()}{128}{subsubsection.8.26.2.9}%
+\contentsline {subsubsection}{\numberline {8.26.2.10}hasLogger()}{128}{subsubsection.8.26.2.10}%
+\contentsline {subsubsection}{\numberline {8.26.2.11}installLoggerRegistrationCallback()}{128}{subsubsection.8.26.2.11}%
+\contentsline {subsubsection}{\numberline {8.26.2.12}loggerRegistrationCallback()}{128}{subsubsection.8.26.2.12}%
+\contentsline {subsubsection}{\numberline {8.26.2.13}logStreamsReference()}{129}{subsubsection.8.26.2.13}%
+\contentsline {subsubsection}{\numberline {8.26.2.14}populateAllLoggerIds()}{129}{subsubsection.8.26.2.14}%
+\contentsline {subsubsection}{\numberline {8.26.2.15}reconfigureAllLoggers()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{129}{subsubsection.8.26.2.15}%
+\contentsline {subsubsection}{\numberline {8.26.2.16}reconfigureAllLoggers()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{129}{subsubsection.8.26.2.16}%
+\contentsline {subsubsection}{\numberline {8.26.2.17}reconfigureAllLoggers()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{130}{subsubsection.8.26.2.17}%
+\contentsline {subsubsection}{\numberline {8.26.2.18}reconfigureLogger()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{130}{subsubsection.8.26.2.18}%
+\contentsline {subsubsection}{\numberline {8.26.2.19}reconfigureLogger()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{130}{subsubsection.8.26.2.19}%
+\contentsline {subsubsection}{\numberline {8.26.2.20}reconfigureLogger()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{130}{subsubsection.8.26.2.20}%
+\contentsline {subsubsection}{\numberline {8.26.2.21}removeFlag()}{131}{subsubsection.8.26.2.21}%
+\contentsline {subsubsection}{\numberline {8.26.2.22}setDefaultConfigurations()}{131}{subsubsection.8.26.2.22}%
+\contentsline {subsubsection}{\numberline {8.26.2.23}setDefaultLogBuilder()}{131}{subsubsection.8.26.2.23}%
+\contentsline {subsubsection}{\numberline {8.26.2.24}setLoggingLevel()}{131}{subsubsection.8.26.2.24}%
+\contentsline {subsubsection}{\numberline {8.26.2.25}setVerboseLevel()}{131}{subsubsection.8.26.2.25}%
+\contentsline {subsubsection}{\numberline {8.26.2.26}setVModules()}{132}{subsubsection.8.26.2.26}%
+\contentsline {subsubsection}{\numberline {8.26.2.27}uninstallLoggerRegistrationCallback()}{132}{subsubsection.8.26.2.27}%
+\contentsline {subsubsection}{\numberline {8.26.2.28}unregisterLogger()}{132}{subsubsection.8.26.2.28}%
+\contentsline {subsubsection}{\numberline {8.26.2.29}verboseLevel()}{132}{subsubsection.8.26.2.29}%
+\contentsline {section}{\numberline {8.27}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Message Class Reference}{133}{section.8.27}%
+\contentsline {subsection}{\numberline {8.27.1}Detailed Description}{133}{subsection.8.27.1}%
+\contentsline {subsection}{\numberline {8.27.2}Constructor \& Destructor Documentation}{133}{subsection.8.27.2}%
+\contentsline {subsubsection}{\numberline {8.27.2.1}LogMessage()}{133}{subsubsection.8.27.2.1}%
+\contentsline {subsection}{\numberline {8.27.3}Member Function Documentation}{134}{subsection.8.27.3}%
+\contentsline {subsubsection}{\numberline {8.27.3.1}file()}{134}{subsubsection.8.27.3.1}%
+\contentsline {subsubsection}{\numberline {8.27.3.2}func()}{134}{subsubsection.8.27.3.2}%
+\contentsline {subsubsection}{\numberline {8.27.3.3}level()}{134}{subsubsection.8.27.3.3}%
+\contentsline {subsubsection}{\numberline {8.27.3.4}line()}{134}{subsubsection.8.27.3.4}%
+\contentsline {subsubsection}{\numberline {8.27.3.5}logger()}{134}{subsubsection.8.27.3.5}%
+\contentsline {subsubsection}{\numberline {8.27.3.6}message()}{134}{subsubsection.8.27.3.6}%
+\contentsline {subsubsection}{\numberline {8.27.3.7}verboseLevel()}{135}{subsubsection.8.27.3.7}%
+\contentsline {subsection}{\numberline {8.27.4}Field Documentation}{135}{subsection.8.27.4}%
+\contentsline {subsubsection}{\numberline {8.27.4.1}m\_file}{135}{subsubsection.8.27.4.1}%
+\contentsline {subsubsection}{\numberline {8.27.4.2}m\_func}{135}{subsubsection.8.27.4.2}%
+\contentsline {subsubsection}{\numberline {8.27.4.3}m\_level}{135}{subsubsection.8.27.4.3}%
+\contentsline {subsubsection}{\numberline {8.27.4.4}m\_line}{135}{subsubsection.8.27.4.4}%
+\contentsline {subsubsection}{\numberline {8.27.4.5}m\_logger}{135}{subsubsection.8.27.4.5}%
+\contentsline {subsubsection}{\numberline {8.27.4.6}m\_message}{135}{subsubsection.8.27.4.6}%
+\contentsline {subsubsection}{\numberline {8.27.4.7}m\_verboseLevel}{136}{subsubsection.8.27.4.7}%
+\contentsline {section}{\numberline {8.28}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Message\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{136}{section.8.28}%
+\contentsline {subsection}{\numberline {8.28.1}Detailed Description}{136}{subsection.8.28.1}%
+\contentsline {subsection}{\numberline {8.28.2}Constructor \& Destructor Documentation}{136}{subsection.8.28.2}%
+\contentsline {subsubsection}{\numberline {8.28.2.1}MessageBuilder()}{136}{subsubsection.8.28.2.1}%
+\contentsline {subsection}{\numberline {8.28.3}Member Function Documentation}{137}{subsection.8.28.3}%
+\contentsline {subsubsection}{\numberline {8.28.3.1}initialize()}{137}{subsubsection.8.28.3.1}%
+\contentsline {subsubsection}{\numberline {8.28.3.2}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{137}{subsubsection.8.28.3.2}%
+\contentsline {subsubsection}{\numberline {8.28.3.3}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{137}{subsubsection.8.28.3.3}%
+\contentsline {subsubsection}{\numberline {8.28.3.4}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{137}{subsubsection.8.28.3.4}%
+\contentsline {subsubsection}{\numberline {8.28.3.5}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{137}{subsubsection.8.28.3.5}%
+\contentsline {subsubsection}{\numberline {8.28.3.6}writeIterator()}{137}{subsubsection.8.28.3.6}%
+\contentsline {subsection}{\numberline {8.28.4}Field Documentation}{138}{subsection.8.28.4}%
+\contentsline {subsubsection}{\numberline {8.28.4.1}m\_containerLogSeparator}{138}{subsubsection.8.28.4.1}%
+\contentsline {subsubsection}{\numberline {8.28.4.2}m\_logger}{138}{subsubsection.8.28.4.2}%
+\contentsline {section}{\numberline {8.29}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::No\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Copy Class Reference}{138}{section.8.29}%
+\contentsline {subsection}{\numberline {8.29.1}Detailed Description}{139}{subsection.8.29.1}%
+\contentsline {subsection}{\numberline {8.29.2}Constructor \& Destructor Documentation}{139}{subsection.8.29.2}%
+\contentsline {subsubsection}{\numberline {8.29.2.1}NoCopy()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{139}{subsubsection.8.29.2.1}%
+\contentsline {subsubsection}{\numberline {8.29.2.2}NoCopy()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{139}{subsubsection.8.29.2.2}%
+\contentsline {subsection}{\numberline {8.29.3}Member Function Documentation}{139}{subsection.8.29.3}%
+\contentsline {subsubsection}{\numberline {8.29.3.1}operator=()}{139}{subsubsection.8.29.3.1}%
+\contentsline {section}{\numberline {8.30}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::threading\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::internal\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::No\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mutex Class Reference}{139}{section.8.30}%
+\contentsline {subsection}{\numberline {8.30.1}Detailed Description}{140}{subsection.8.30.1}%
+\contentsline {subsection}{\numberline {8.30.2}Constructor \& Destructor Documentation}{140}{subsection.8.30.2}%
+\contentsline {subsubsection}{\numberline {8.30.2.1}NoMutex()}{140}{subsubsection.8.30.2.1}%
+\contentsline {subsection}{\numberline {8.30.3}Member Function Documentation}{140}{subsection.8.30.3}%
+\contentsline {subsubsection}{\numberline {8.30.3.1}lock()}{140}{subsubsection.8.30.3.1}%
+\contentsline {subsubsection}{\numberline {8.30.3.2}try\_lock()}{140}{subsubsection.8.30.3.2}%
+\contentsline {subsubsection}{\numberline {8.30.3.3}unlock()}{141}{subsubsection.8.30.3.3}%
+\contentsline {section}{\numberline {8.31}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::threading\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::internal\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::No\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scoped\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lock$<$ Mutex $>$ Class Template Reference}{141}{section.8.31}%
+\contentsline {subsection}{\numberline {8.31.1}Detailed Description}{141}{subsection.8.31.1}%
+\contentsline {subsection}{\numberline {8.31.2}Constructor \& Destructor Documentation}{142}{subsection.8.31.2}%
+\contentsline {subsubsection}{\numberline {8.31.2.1}NoScopedLock()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{142}{subsubsection.8.31.2.1}%
+\contentsline {subsubsection}{\numberline {8.31.2.2}$\sim $NoScopedLock()}{142}{subsubsection.8.31.2.2}%
+\contentsline {subsubsection}{\numberline {8.31.2.3}NoScopedLock()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{142}{subsubsection.8.31.2.3}%
+\contentsline {section}{\numberline {8.32}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Null\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Writer Class Reference}{142}{section.8.32}%
+\contentsline {subsection}{\numberline {8.32.1}Detailed Description}{143}{subsection.8.32.1}%
+\contentsline {subsection}{\numberline {8.32.2}Constructor \& Destructor Documentation}{143}{subsection.8.32.2}%
+\contentsline {subsubsection}{\numberline {8.32.2.1}NullWriter()}{143}{subsubsection.8.32.2.1}%
+\contentsline {subsection}{\numberline {8.32.3}Member Function Documentation}{143}{subsection.8.32.3}%
+\contentsline {subsubsection}{\numberline {8.32.3.1}operator bool()}{143}{subsubsection.8.32.3.1}%
+\contentsline {subsubsection}{\numberline {8.32.3.2}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{143}{subsubsection.8.32.3.2}%
+\contentsline {subsubsection}{\numberline {8.32.3.3}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{143}{subsubsection.8.32.3.3}%
+\contentsline {section}{\numberline {8.33}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::OS Class Reference}{144}{section.8.33}%
+\contentsline {subsection}{\numberline {8.33.1}Detailed Description}{144}{subsection.8.33.1}%
+\contentsline {subsection}{\numberline {8.33.2}Member Function Documentation}{144}{subsection.8.33.2}%
+\contentsline {subsubsection}{\numberline {8.33.2.1}currentHost()}{144}{subsubsection.8.33.2.1}%
+\contentsline {subsubsection}{\numberline {8.33.2.2}currentUser()}{145}{subsubsection.8.33.2.2}%
+\contentsline {subsubsection}{\numberline {8.33.2.3}getBashOutput()}{145}{subsubsection.8.33.2.3}%
+\contentsline {subsubsection}{\numberline {8.33.2.4}getEnvironmentVariable()}{145}{subsubsection.8.33.2.4}%
+\contentsline {subsubsection}{\numberline {8.33.2.5}termSupportsColor()}{146}{subsubsection.8.33.2.5}%
+\contentsline {section}{\numberline {8.34}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Configurations\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Parser Class Reference}{146}{section.8.34}%
+\contentsline {subsection}{\numberline {8.34.1}Detailed Description}{147}{subsection.8.34.1}%
+\contentsline {subsection}{\numberline {8.34.2}Member Function Documentation}{147}{subsection.8.34.2}%
+\contentsline {subsubsection}{\numberline {8.34.2.1}ignoreComments()}{147}{subsubsection.8.34.2.1}%
+\contentsline {subsubsection}{\numberline {8.34.2.2}isComment()}{147}{subsubsection.8.34.2.2}%
+\contentsline {subsubsection}{\numberline {8.34.2.3}isConfig()}{147}{subsubsection.8.34.2.3}%
+\contentsline {subsubsection}{\numberline {8.34.2.4}isLevel()}{147}{subsubsection.8.34.2.4}%
+\contentsline {subsubsection}{\numberline {8.34.2.5}parseFromFile()}{147}{subsubsection.8.34.2.5}%
+\contentsline {subsubsection}{\numberline {8.34.2.6}parseFromText()}{148}{subsubsection.8.34.2.6}%
+\contentsline {subsubsection}{\numberline {8.34.2.7}parseLine()}{149}{subsubsection.8.34.2.7}%
+\contentsline {subsection}{\numberline {8.34.3}Friends And Related Symbol Documentation}{149}{subsection.8.34.3}%
+\contentsline {subsubsection}{\numberline {8.34.3.1}el::Loggers}{149}{subsubsection.8.34.3.1}%
+\contentsline {section}{\numberline {8.35}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Performance\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tracking\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Callback Class Reference}{149}{section.8.35}%
+\contentsline {subsection}{\numberline {8.35.1}Detailed Description}{150}{subsection.8.35.1}%
+\contentsline {subsection}{\numberline {8.35.2}Friends And Related Symbol Documentation}{150}{subsection.8.35.2}%
+\contentsline {subsubsection}{\numberline {8.35.2.1}base::PerformanceTracker}{150}{subsubsection.8.35.2.1}%
+\contentsline {section}{\numberline {8.36}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::PError\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Writer Class Reference}{150}{section.8.36}%
+\contentsline {subsection}{\numberline {8.36.1}Detailed Description}{151}{subsection.8.36.1}%
+\contentsline {subsection}{\numberline {8.36.2}Constructor \& Destructor Documentation}{152}{subsection.8.36.2}%
+\contentsline {subsubsection}{\numberline {8.36.2.1}PErrorWriter()}{152}{subsubsection.8.36.2.1}%
+\contentsline {subsubsection}{\numberline {8.36.2.2}$\sim $PErrorWriter()}{152}{subsubsection.8.36.2.2}%
+\contentsline {section}{\numberline {8.37}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Hit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Counter\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Predicate Class Reference}{152}{section.8.37}%
+\contentsline {subsection}{\numberline {8.37.1}Detailed Description}{152}{subsection.8.37.1}%
+\contentsline {subsection}{\numberline {8.37.2}Constructor \& Destructor Documentation}{153}{subsection.8.37.2}%
+\contentsline {subsubsection}{\numberline {8.37.2.1}Predicate()}{153}{subsubsection.8.37.2.1}%
+\contentsline {subsection}{\numberline {8.37.3}Member Function Documentation}{153}{subsection.8.37.3}%
+\contentsline {subsubsection}{\numberline {8.37.3.1}operator()()}{153}{subsubsection.8.37.3.1}%
+\contentsline {subsection}{\numberline {8.37.4}Field Documentation}{153}{subsection.8.37.4}%
+\contentsline {subsubsection}{\numberline {8.37.4.1}m\_filename}{153}{subsubsection.8.37.4.1}%
+\contentsline {subsubsection}{\numberline {8.37.4.2}m\_lineNumber}{153}{subsubsection.8.37.4.2}%
+\contentsline {section}{\numberline {8.38}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Configuration\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Predicate Class Reference}{153}{section.8.38}%
+\contentsline {subsection}{\numberline {8.38.1}Detailed Description}{154}{subsection.8.38.1}%
+\contentsline {subsection}{\numberline {8.38.2}Constructor \& Destructor Documentation}{154}{subsection.8.38.2}%
+\contentsline {subsubsection}{\numberline {8.38.2.1}Predicate()}{154}{subsubsection.8.38.2.1}%
+\contentsline {subsection}{\numberline {8.38.3}Member Function Documentation}{154}{subsection.8.38.3}%
+\contentsline {subsubsection}{\numberline {8.38.3.1}operator()()}{154}{subsubsection.8.38.3.1}%
+\contentsline {subsection}{\numberline {8.38.4}Field Documentation}{154}{subsection.8.38.4}%
+\contentsline {subsubsection}{\numberline {8.38.4.1}m\_configurationType}{154}{subsubsection.8.38.4.1}%
+\contentsline {subsubsection}{\numberline {8.38.4.2}m\_level}{155}{subsubsection.8.38.4.2}%
+\contentsline {section}{\numberline {8.39}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Registered\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Counters Class Reference}{155}{section.8.39}%
+\contentsline {subsection}{\numberline {8.39.1}Detailed Description}{157}{subsection.8.39.1}%
+\contentsline {subsection}{\numberline {8.39.2}Member Function Documentation}{157}{subsection.8.39.2}%
+\contentsline {subsubsection}{\numberline {8.39.2.1}getCounter()}{157}{subsubsection.8.39.2.1}%
+\contentsline {subsubsection}{\numberline {8.39.2.2}validateAfterN()}{157}{subsubsection.8.39.2.2}%
+\contentsline {subsubsection}{\numberline {8.39.2.3}validateEveryN()}{158}{subsubsection.8.39.2.3}%
+\contentsline {subsubsection}{\numberline {8.39.2.4}validateNTimes()}{158}{subsubsection.8.39.2.4}%
+\contentsline {section}{\numberline {8.40}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Registered\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Loggers Class Reference}{158}{section.8.40}%
+\contentsline {subsection}{\numberline {8.40.1}Detailed Description}{161}{subsection.8.40.1}%
+\contentsline {subsection}{\numberline {8.40.2}Constructor \& Destructor Documentation}{161}{subsection.8.40.2}%
+\contentsline {subsubsection}{\numberline {8.40.2.1}RegisteredLoggers()}{161}{subsubsection.8.40.2.1}%
+\contentsline {subsubsection}{\numberline {8.40.2.2}$\sim $RegisteredLoggers()}{161}{subsubsection.8.40.2.2}%
+\contentsline {subsection}{\numberline {8.40.3}Member Function Documentation}{161}{subsection.8.40.3}%
+\contentsline {subsubsection}{\numberline {8.40.3.1}defaultConfigurations()}{161}{subsubsection.8.40.3.1}%
+\contentsline {subsubsection}{\numberline {8.40.3.2}flushAll()}{162}{subsubsection.8.40.3.2}%
+\contentsline {subsubsection}{\numberline {8.40.3.3}get()}{162}{subsubsection.8.40.3.3}%
+\contentsline {subsubsection}{\numberline {8.40.3.4}has()}{162}{subsubsection.8.40.3.4}%
+\contentsline {subsubsection}{\numberline {8.40.3.5}installLoggerRegistrationCallback()}{162}{subsubsection.8.40.3.5}%
+\contentsline {subsubsection}{\numberline {8.40.3.6}loggerRegistrationCallback()}{162}{subsubsection.8.40.3.6}%
+\contentsline {subsubsection}{\numberline {8.40.3.7}logStreamsReference()}{162}{subsubsection.8.40.3.7}%
+\contentsline {subsubsection}{\numberline {8.40.3.8}remove()}{163}{subsubsection.8.40.3.8}%
+\contentsline {subsubsection}{\numberline {8.40.3.9}setDefaultConfigurations()}{163}{subsubsection.8.40.3.9}%
+\contentsline {subsubsection}{\numberline {8.40.3.10}setDefaultLogBuilder()}{163}{subsubsection.8.40.3.10}%
+\contentsline {subsubsection}{\numberline {8.40.3.11}uninstallLoggerRegistrationCallback()}{163}{subsubsection.8.40.3.11}%
+\contentsline {subsubsection}{\numberline {8.40.3.12}unregister()}{163}{subsubsection.8.40.3.12}%
+\contentsline {subsubsection}{\numberline {8.40.3.13}unsafeFlushAll()}{163}{subsubsection.8.40.3.13}%
+\contentsline {subsection}{\numberline {8.40.4}Friends And Related Symbol Documentation}{164}{subsection.8.40.4}%
+\contentsline {subsubsection}{\numberline {8.40.4.1}el::base::Storage}{164}{subsubsection.8.40.4.1}%
+\contentsline {subsection}{\numberline {8.40.5}Field Documentation}{164}{subsection.8.40.5}%
+\contentsline {subsubsection}{\numberline {8.40.5.1}m\_defaultConfigurations}{164}{subsubsection.8.40.5.1}%
+\contentsline {subsubsection}{\numberline {8.40.5.2}m\_defaultLogBuilder}{164}{subsubsection.8.40.5.2}%
+\contentsline {subsubsection}{\numberline {8.40.5.3}m\_loggerRegistrationCallbacks}{164}{subsubsection.8.40.5.3}%
+\contentsline {subsubsection}{\numberline {8.40.5.4}m\_logStreamsReference}{164}{subsubsection.8.40.5.4}%
+\contentsline {section}{\numberline {8.41}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Registry$<$ T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ptr, T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Key $>$ Class Template Reference}{165}{section.8.41}%
+\contentsline {subsection}{\numberline {8.41.1}Detailed Description}{166}{subsection.8.41.1}%
+\contentsline {subsection}{\numberline {8.41.2}Member Typedef Documentation}{167}{subsection.8.41.2}%
+\contentsline {subsubsection}{\numberline {8.41.2.1}const\_iterator}{167}{subsubsection.8.41.2.1}%
+\contentsline {subsubsection}{\numberline {8.41.2.2}iterator}{167}{subsubsection.8.41.2.2}%
+\contentsline {subsection}{\numberline {8.41.3}Constructor \& Destructor Documentation}{167}{subsection.8.41.3}%
+\contentsline {subsubsection}{\numberline {8.41.3.1}Registry()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{167}{subsubsection.8.41.3.1}%
+\contentsline {subsubsection}{\numberline {8.41.3.2}Registry()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{167}{subsubsection.8.41.3.2}%
+\contentsline {subsubsection}{\numberline {8.41.3.3}$\sim $Registry()}{167}{subsubsection.8.41.3.3}%
+\contentsline {subsection}{\numberline {8.41.4}Member Function Documentation}{168}{subsection.8.41.4}%
+\contentsline {subsubsection}{\numberline {8.41.4.1}deepCopy()}{168}{subsubsection.8.41.4.1}%
+\contentsline {subsubsection}{\numberline {8.41.4.2}get()}{168}{subsubsection.8.41.4.2}%
+\contentsline {subsubsection}{\numberline {8.41.4.3}operator=()}{168}{subsubsection.8.41.4.3}%
+\contentsline {subsubsection}{\numberline {8.41.4.4}registerNew()}{168}{subsubsection.8.41.4.4}%
+\contentsline {subsubsection}{\numberline {8.41.4.5}unregister()}{169}{subsubsection.8.41.4.5}%
+\contentsline {subsubsection}{\numberline {8.41.4.6}unregisterAll()}{169}{subsubsection.8.41.4.6}%
+\contentsline {section}{\numberline {8.42}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Registry\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}With\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pred$<$ T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ptr, Pred $>$ Class Template Reference}{169}{section.8.42}%
+\contentsline {subsection}{\numberline {8.42.1}Detailed Description}{171}{subsection.8.42.1}%
+\contentsline {subsection}{\numberline {8.42.2}Member Typedef Documentation}{171}{subsection.8.42.2}%
+\contentsline {subsubsection}{\numberline {8.42.2.1}const\_iterator}{171}{subsubsection.8.42.2.1}%
+\contentsline {subsubsection}{\numberline {8.42.2.2}iterator}{171}{subsubsection.8.42.2.2}%
+\contentsline {subsection}{\numberline {8.42.3}Constructor \& Destructor Documentation}{172}{subsection.8.42.3}%
+\contentsline {subsubsection}{\numberline {8.42.3.1}RegistryWithPred()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{172}{subsubsection.8.42.3.1}%
+\contentsline {subsubsection}{\numberline {8.42.3.2}$\sim $RegistryWithPred()}{172}{subsubsection.8.42.3.2}%
+\contentsline {subsubsection}{\numberline {8.42.3.3}RegistryWithPred()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{172}{subsubsection.8.42.3.3}%
+\contentsline {subsection}{\numberline {8.42.4}Member Function Documentation}{172}{subsection.8.42.4}%
+\contentsline {subsubsection}{\numberline {8.42.4.1}deepCopy()}{172}{subsubsection.8.42.4.1}%
+\contentsline {subsubsection}{\numberline {8.42.4.2}get()}{173}{subsubsection.8.42.4.2}%
+\contentsline {subsubsection}{\numberline {8.42.4.3}operator=()}{173}{subsubsection.8.42.4.3}%
+\contentsline {subsubsection}{\numberline {8.42.4.4}registerNew()}{173}{subsubsection.8.42.4.4}%
+\contentsline {subsubsection}{\numberline {8.42.4.5}unregister()}{173}{subsubsection.8.42.4.5}%
+\contentsline {subsubsection}{\numberline {8.42.4.6}unregisterAll()}{173}{subsubsection.8.42.4.6}%
+\contentsline {subsection}{\numberline {8.42.5}Friends And Related Symbol Documentation}{174}{subsection.8.42.5}%
+\contentsline {subsubsection}{\numberline {8.42.5.1}operator$<$$<$}{174}{subsubsection.8.42.5.1}%
+\contentsline {section}{\numberline {8.43}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Loggers\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Scoped\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Add\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Flag Class Reference}{174}{section.8.43}%
+\contentsline {subsection}{\numberline {8.43.1}Detailed Description}{174}{subsection.8.43.1}%
+\contentsline {subsection}{\numberline {8.43.2}Constructor \& Destructor Documentation}{174}{subsection.8.43.2}%
+\contentsline {subsubsection}{\numberline {8.43.2.1}ScopedAddFlag()}{174}{subsubsection.8.43.2.1}%
+\contentsline {subsubsection}{\numberline {8.43.2.2}$\sim $ScopedAddFlag()}{175}{subsubsection.8.43.2.2}%
+\contentsline {subsection}{\numberline {8.43.3}Field Documentation}{175}{subsection.8.43.3}%
+\contentsline {subsubsection}{\numberline {8.43.3.1}m\_flag}{175}{subsubsection.8.43.3.1}%
+\contentsline {section}{\numberline {8.44}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Loggers\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Scoped\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Remove\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Flag Class Reference}{175}{section.8.44}%
+\contentsline {subsection}{\numberline {8.44.1}Detailed Description}{175}{subsection.8.44.1}%
+\contentsline {subsection}{\numberline {8.44.2}Constructor \& Destructor Documentation}{175}{subsection.8.44.2}%
+\contentsline {subsubsection}{\numberline {8.44.2.1}ScopedRemoveFlag()}{175}{subsubsection.8.44.2.1}%
+\contentsline {subsubsection}{\numberline {8.44.2.2}$\sim $ScopedRemoveFlag()}{176}{subsubsection.8.44.2.2}%
+\contentsline {subsection}{\numberline {8.44.3}Field Documentation}{176}{subsection.8.44.3}%
+\contentsline {subsubsection}{\numberline {8.44.3.1}m\_flag}{176}{subsubsection.8.44.3.1}%
+\contentsline {section}{\numberline {8.45}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Static\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Class Class Reference}{176}{section.8.45}%
+\contentsline {subsection}{\numberline {8.45.1}Detailed Description}{177}{subsection.8.45.1}%
+\contentsline {subsection}{\numberline {8.45.2}Constructor \& Destructor Documentation}{177}{subsection.8.45.2}%
+\contentsline {subsubsection}{\numberline {8.45.2.1}StaticClass()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{177}{subsubsection.8.45.2.1}%
+\contentsline {subsubsection}{\numberline {8.45.2.2}StaticClass()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{177}{subsubsection.8.45.2.2}%
+\contentsline {subsection}{\numberline {8.45.3}Member Function Documentation}{177}{subsection.8.45.3}%
+\contentsline {subsubsection}{\numberline {8.45.3.1}operator=()}{177}{subsubsection.8.45.3.1}%
+\contentsline {section}{\numberline {8.46}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Storage Class Reference}{177}{section.8.46}%
+\contentsline {subsection}{\numberline {8.46.1}Detailed Description}{179}{subsection.8.46.1}%
+\contentsline {subsection}{\numberline {8.46.2}Constructor \& Destructor Documentation}{179}{subsection.8.46.2}%
+\contentsline {subsubsection}{\numberline {8.46.2.1}Storage()}{179}{subsubsection.8.46.2.1}%
+\contentsline {subsubsection}{\numberline {8.46.2.2}$\sim $Storage()}{180}{subsubsection.8.46.2.2}%
+\contentsline {subsection}{\numberline {8.46.3}Member Function Documentation}{180}{subsection.8.46.3}%
+\contentsline {subsubsection}{\numberline {8.46.3.1}addFlag()}{180}{subsubsection.8.46.3.1}%
+\contentsline {subsubsection}{\numberline {8.46.3.2}commandLineArgs()}{180}{subsubsection.8.46.3.2}%
+\contentsline {subsubsection}{\numberline {8.46.3.3}customFormatSpecifiers()}{180}{subsubsection.8.46.3.3}%
+\contentsline {subsubsection}{\numberline {8.46.3.4}customFormatSpecifiersLock()}{180}{subsubsection.8.46.3.4}%
+\contentsline {subsubsection}{\numberline {8.46.3.5}flags()}{180}{subsubsection.8.46.3.5}%
+\contentsline {subsubsection}{\numberline {8.46.3.6}getThreadName()}{181}{subsubsection.8.46.3.6}%
+\contentsline {subsubsection}{\numberline {8.46.3.7}hasCustomFormatSpecifier()}{181}{subsubsection.8.46.3.7}%
+\contentsline {subsubsection}{\numberline {8.46.3.8}hasFlag()}{181}{subsubsection.8.46.3.8}%
+\contentsline {subsubsection}{\numberline {8.46.3.9}hitCounters()}{181}{subsubsection.8.46.3.9}%
+\contentsline {subsubsection}{\numberline {8.46.3.10}installCustomFormatSpecifier()}{181}{subsubsection.8.46.3.10}%
+\contentsline {subsubsection}{\numberline {8.46.3.11}installLogDispatchCallback()}{181}{subsubsection.8.46.3.11}%
+\contentsline {subsubsection}{\numberline {8.46.3.12}logDispatchCallback()}{182}{subsubsection.8.46.3.12}%
+\contentsline {subsubsection}{\numberline {8.46.3.13}preRollOutCallback()}{182}{subsubsection.8.46.3.13}%
+\contentsline {subsubsection}{\numberline {8.46.3.14}registeredLoggers()}{182}{subsubsection.8.46.3.14}%
+\contentsline {subsubsection}{\numberline {8.46.3.15}removeFlag()}{182}{subsubsection.8.46.3.15}%
+\contentsline {subsubsection}{\numberline {8.46.3.16}setApplicationArguments()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{182}{subsubsection.8.46.3.16}%
+\contentsline {subsubsection}{\numberline {8.46.3.17}setApplicationArguments()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{182}{subsubsection.8.46.3.17}%
+\contentsline {subsubsection}{\numberline {8.46.3.18}setFlags()}{183}{subsubsection.8.46.3.18}%
+\contentsline {subsubsection}{\numberline {8.46.3.19}setLoggingLevel()}{183}{subsubsection.8.46.3.19}%
+\contentsline {subsubsection}{\numberline {8.46.3.20}setPreRollOutCallback()}{183}{subsubsection.8.46.3.20}%
+\contentsline {subsubsection}{\numberline {8.46.3.21}setThreadName()}{183}{subsubsection.8.46.3.21}%
+\contentsline {subsubsection}{\numberline {8.46.3.22}uninstallCustomFormatSpecifier()}{183}{subsubsection.8.46.3.22}%
+\contentsline {subsubsection}{\numberline {8.46.3.23}uninstallLogDispatchCallback()}{183}{subsubsection.8.46.3.23}%
+\contentsline {subsubsection}{\numberline {8.46.3.24}unsetPreRollOutCallback()}{184}{subsubsection.8.46.3.24}%
+\contentsline {subsubsection}{\numberline {8.46.3.25}validateAfterNCounter()}{184}{subsubsection.8.46.3.25}%
+\contentsline {subsubsection}{\numberline {8.46.3.26}validateEveryNCounter()}{184}{subsubsection.8.46.3.26}%
+\contentsline {subsubsection}{\numberline {8.46.3.27}validateNTimesCounter()}{184}{subsubsection.8.46.3.27}%
+\contentsline {subsubsection}{\numberline {8.46.3.28}vRegistry()}{184}{subsubsection.8.46.3.28}%
+\contentsline {subsection}{\numberline {8.46.4}Friends And Related Symbol Documentation}{184}{subsection.8.46.4}%
+\contentsline {subsubsection}{\numberline {8.46.4.1}el::base::DefaultLogDispatchCallback}{184}{subsubsection.8.46.4.1}%
+\contentsline {subsubsection}{\numberline {8.46.4.2}el::base::LogDispatcher}{185}{subsubsection.8.46.4.2}%
+\contentsline {subsubsection}{\numberline {8.46.4.3}el::base::MessageBuilder}{185}{subsubsection.8.46.4.3}%
+\contentsline {subsubsection}{\numberline {8.46.4.4}el::base::PerformanceTracker}{185}{subsubsection.8.46.4.4}%
+\contentsline {subsubsection}{\numberline {8.46.4.5}el::base::Writer}{185}{subsubsection.8.46.4.5}%
+\contentsline {subsubsection}{\numberline {8.46.4.6}el::Helpers}{185}{subsubsection.8.46.4.6}%
+\contentsline {subsubsection}{\numberline {8.46.4.7}el::LogBuilder}{185}{subsubsection.8.46.4.7}%
+\contentsline {subsection}{\numberline {8.46.5}Field Documentation}{185}{subsection.8.46.5}%
+\contentsline {subsubsection}{\numberline {8.46.5.1}m\_commandLineArgs}{185}{subsubsection.8.46.5.1}%
+\contentsline {subsubsection}{\numberline {8.46.5.2}m\_customFormatSpecifiers}{186}{subsubsection.8.46.5.2}%
+\contentsline {subsubsection}{\numberline {8.46.5.3}m\_customFormatSpecifiersLock}{186}{subsubsection.8.46.5.3}%
+\contentsline {subsubsection}{\numberline {8.46.5.4}m\_flags}{186}{subsubsection.8.46.5.4}%
+\contentsline {subsubsection}{\numberline {8.46.5.5}m\_logDispatchCallbacks}{186}{subsubsection.8.46.5.5}%
+\contentsline {subsubsection}{\numberline {8.46.5.6}m\_loggingLevel}{186}{subsubsection.8.46.5.6}%
+\contentsline {subsubsection}{\numberline {8.46.5.7}m\_performanceTrackingCallbacks}{186}{subsubsection.8.46.5.7}%
+\contentsline {subsubsection}{\numberline {8.46.5.8}m\_preRollOutCallback}{186}{subsubsection.8.46.5.8}%
+\contentsline {subsubsection}{\numberline {8.46.5.9}m\_registeredHitCounters}{187}{subsubsection.8.46.5.9}%
+\contentsline {subsubsection}{\numberline {8.46.5.10}m\_registeredLoggers}{187}{subsubsection.8.46.5.10}%
+\contentsline {subsubsection}{\numberline {8.46.5.11}m\_threadNames}{187}{subsubsection.8.46.5.11}%
+\contentsline {subsubsection}{\numberline {8.46.5.12}m\_threadNamesLock}{187}{subsubsection.8.46.5.12}%
+\contentsline {subsubsection}{\numberline {8.46.5.13}m\_vRegistry}{187}{subsubsection.8.46.5.13}%
+\contentsline {section}{\numberline {8.47}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Str Class Reference}{187}{section.8.47}%
+\contentsline {subsection}{\numberline {8.47.1}Detailed Description}{188}{subsection.8.47.1}%
+\contentsline {subsection}{\numberline {8.47.2}Member Function Documentation}{188}{subsection.8.47.2}%
+\contentsline {subsubsection}{\numberline {8.47.2.1}addToBuff()}{188}{subsubsection.8.47.2.1}%
+\contentsline {subsubsection}{\numberline {8.47.2.2}clearBuff()}{189}{subsubsection.8.47.2.2}%
+\contentsline {subsubsection}{\numberline {8.47.2.3}contains()}{189}{subsubsection.8.47.2.3}%
+\contentsline {subsubsection}{\numberline {8.47.2.4}convertAndAddToBuff()}{189}{subsubsection.8.47.2.4}%
+\contentsline {subsubsection}{\numberline {8.47.2.5}cStringCaseEq()}{189}{subsubsection.8.47.2.5}%
+\contentsline {subsubsection}{\numberline {8.47.2.6}cStringEq()}{189}{subsubsection.8.47.2.6}%
+\contentsline {subsubsection}{\numberline {8.47.2.7}endsWith()}{189}{subsubsection.8.47.2.7}%
+\contentsline {subsubsection}{\numberline {8.47.2.8}isDigit()}{190}{subsubsection.8.47.2.8}%
+\contentsline {subsubsection}{\numberline {8.47.2.9}ltrim()}{190}{subsubsection.8.47.2.9}%
+\contentsline {subsubsection}{\numberline {8.47.2.10}replaceAll()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{190}{subsubsection.8.47.2.10}%
+\contentsline {subsubsection}{\numberline {8.47.2.11}replaceAll()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{191}{subsubsection.8.47.2.11}%
+\contentsline {subsubsection}{\numberline {8.47.2.12}replaceFirstWithEscape()}{191}{subsubsection.8.47.2.12}%
+\contentsline {subsubsection}{\numberline {8.47.2.13}rtrim()}{191}{subsubsection.8.47.2.13}%
+\contentsline {subsubsection}{\numberline {8.47.2.14}startsWith()}{191}{subsubsection.8.47.2.14}%
+\contentsline {subsubsection}{\numberline {8.47.2.15}toUpper()}{192}{subsubsection.8.47.2.15}%
+\contentsline {subsubsection}{\numberline {8.47.2.16}trim()}{192}{subsubsection.8.47.2.16}%
+\contentsline {subsubsection}{\numberline {8.47.2.17}wcharPtrToCharPtr()}{192}{subsubsection.8.47.2.17}%
+\contentsline {subsubsection}{\numberline {8.47.2.18}wildCardMatch()}{193}{subsubsection.8.47.2.18}%
+\contentsline {section}{\numberline {8.48}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::String\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}To\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Struct Reference}{193}{section.8.48}%
+\contentsline {subsection}{\numberline {8.48.1}Detailed Description}{193}{subsection.8.48.1}%
+\contentsline {subsection}{\numberline {8.48.2}Field Documentation}{193}{subsection.8.48.2}%
+\contentsline {subsubsection}{\numberline {8.48.2.1}level}{193}{subsubsection.8.48.2.1}%
+\contentsline {subsubsection}{\numberline {8.48.2.2}levelString}{193}{subsubsection.8.48.2.2}%
+\contentsline {section}{\numberline {8.49}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Subsecond\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Precision Class Reference}{194}{section.8.49}%
+\contentsline {subsection}{\numberline {8.49.1}Detailed Description}{194}{subsection.8.49.1}%
+\contentsline {subsection}{\numberline {8.49.2}Constructor \& Destructor Documentation}{194}{subsection.8.49.2}%
+\contentsline {subsubsection}{\numberline {8.49.2.1}SubsecondPrecision()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{194}{subsubsection.8.49.2.1}%
+\contentsline {subsubsection}{\numberline {8.49.2.2}SubsecondPrecision()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{194}{subsubsection.8.49.2.2}%
+\contentsline {subsection}{\numberline {8.49.3}Member Function Documentation}{195}{subsection.8.49.3}%
+\contentsline {subsubsection}{\numberline {8.49.3.1}init()}{195}{subsubsection.8.49.3.1}%
+\contentsline {subsubsection}{\numberline {8.49.3.2}operator==()}{195}{subsubsection.8.49.3.2}%
+\contentsline {subsection}{\numberline {8.49.4}Field Documentation}{195}{subsection.8.49.4}%
+\contentsline {subsubsection}{\numberline {8.49.4.1}m\_offset}{195}{subsubsection.8.49.4.1}%
+\contentsline {subsubsection}{\numberline {8.49.4.2}m\_width}{195}{subsubsection.8.49.4.2}%
+\contentsline {section}{\numberline {8.50}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Sys\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Initializer Class Reference}{195}{section.8.50}%
+\contentsline {subsection}{\numberline {8.50.1}Detailed Description}{196}{subsection.8.50.1}%
+\contentsline {subsection}{\numberline {8.50.2}Constructor \& Destructor Documentation}{196}{subsection.8.50.2}%
+\contentsline {subsubsection}{\numberline {8.50.2.1}SysLogInitializer()}{196}{subsubsection.8.50.2.1}%
+\contentsline {subsubsection}{\numberline {8.50.2.2}$\sim $SysLogInitializer()}{196}{subsubsection.8.50.2.2}%
+\contentsline {section}{\numberline {8.51}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::threading\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Thread\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Safe Class Reference}{197}{section.8.51}%
+\contentsline {subsection}{\numberline {8.51.1}Detailed Description}{197}{subsection.8.51.1}%
+\contentsline {subsection}{\numberline {8.51.2}Constructor \& Destructor Documentation}{198}{subsection.8.51.2}%
+\contentsline {subsubsection}{\numberline {8.51.2.1}ThreadSafe()}{198}{subsubsection.8.51.2.1}%
+\contentsline {subsubsection}{\numberline {8.51.2.2}$\sim $ThreadSafe()}{198}{subsubsection.8.51.2.2}%
+\contentsline {subsection}{\numberline {8.51.3}Member Function Documentation}{198}{subsection.8.51.3}%
+\contentsline {subsubsection}{\numberline {8.51.3.1}acquireLock()}{198}{subsubsection.8.51.3.1}%
+\contentsline {subsubsection}{\numberline {8.51.3.2}lock()}{198}{subsubsection.8.51.3.2}%
+\contentsline {subsubsection}{\numberline {8.51.3.3}releaseLock()}{198}{subsubsection.8.51.3.3}%
+\contentsline {subsection}{\numberline {8.51.4}Field Documentation}{198}{subsection.8.51.4}%
+\contentsline {subsubsection}{\numberline {8.51.4.1}m\_mutex}{198}{subsubsection.8.51.4.1}%
+\contentsline {section}{\numberline {8.52}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Typed\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Configurations Class Reference}{199}{section.8.52}%
+\contentsline {subsection}{\numberline {8.52.1}Detailed Description}{200}{subsection.8.52.1}%
+\contentsline {subsection}{\numberline {8.52.2}Constructor \& Destructor Documentation}{201}{subsection.8.52.2}%
+\contentsline {subsubsection}{\numberline {8.52.2.1}TypedConfigurations()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{201}{subsubsection.8.52.2.1}%
+\contentsline {subsubsection}{\numberline {8.52.2.2}TypedConfigurations()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{202}{subsubsection.8.52.2.2}%
+\contentsline {subsubsection}{\numberline {8.52.2.3}$\sim $TypedConfigurations()}{202}{subsubsection.8.52.2.3}%
+\contentsline {subsection}{\numberline {8.52.3}Member Function Documentation}{202}{subsection.8.52.3}%
+\contentsline {subsubsection}{\numberline {8.52.3.1}build()}{202}{subsubsection.8.52.3.1}%
+\contentsline {subsubsection}{\numberline {8.52.3.2}configurations()}{202}{subsubsection.8.52.3.2}%
+\contentsline {subsubsection}{\numberline {8.52.3.3}enabled()}{203}{subsubsection.8.52.3.3}%
+\contentsline {subsubsection}{\numberline {8.52.3.4}filename()}{203}{subsubsection.8.52.3.4}%
+\contentsline {subsubsection}{\numberline {8.52.3.5}fileStream()}{203}{subsubsection.8.52.3.5}%
+\contentsline {subsubsection}{\numberline {8.52.3.6}getConfigByRef()}{203}{subsubsection.8.52.3.6}%
+\contentsline {subsubsection}{\numberline {8.52.3.7}getConfigByVal()}{203}{subsubsection.8.52.3.7}%
+\contentsline {subsubsection}{\numberline {8.52.3.8}getULong()}{204}{subsubsection.8.52.3.8}%
+\contentsline {subsubsection}{\numberline {8.52.3.9}insertFile()}{204}{subsubsection.8.52.3.9}%
+\contentsline {subsubsection}{\numberline {8.52.3.10}logFlushThreshold()}{204}{subsubsection.8.52.3.10}%
+\contentsline {subsubsection}{\numberline {8.52.3.11}logFormat()}{204}{subsubsection.8.52.3.11}%
+\contentsline {subsubsection}{\numberline {8.52.3.12}maxLogFileSize()}{204}{subsubsection.8.52.3.12}%
+\contentsline {subsubsection}{\numberline {8.52.3.13}millisecondsWidth()}{205}{subsubsection.8.52.3.13}%
+\contentsline {subsubsection}{\numberline {8.52.3.14}performanceTracking()}{205}{subsubsection.8.52.3.14}%
+\contentsline {subsubsection}{\numberline {8.52.3.15}resolveFilename()}{205}{subsubsection.8.52.3.15}%
+\contentsline {subsubsection}{\numberline {8.52.3.16}setValue()}{205}{subsubsection.8.52.3.16}%
+\contentsline {subsubsection}{\numberline {8.52.3.17}subsecondPrecision()}{205}{subsubsection.8.52.3.17}%
+\contentsline {subsubsection}{\numberline {8.52.3.18}toFile()}{206}{subsubsection.8.52.3.18}%
+\contentsline {subsubsection}{\numberline {8.52.3.19}toStandardOutput()}{206}{subsubsection.8.52.3.19}%
+\contentsline {subsubsection}{\numberline {8.52.3.20}unsafeGetConfigByRef()}{206}{subsubsection.8.52.3.20}%
+\contentsline {subsubsection}{\numberline {8.52.3.21}unsafeGetConfigByVal()}{206}{subsubsection.8.52.3.21}%
+\contentsline {subsubsection}{\numberline {8.52.3.22}unsafeValidateFileRolling()}{206}{subsubsection.8.52.3.22}%
+\contentsline {subsubsection}{\numberline {8.52.3.23}validateFileRolling()}{207}{subsubsection.8.52.3.23}%
+\contentsline {subsection}{\numberline {8.52.4}Friends And Related Symbol Documentation}{207}{subsection.8.52.4}%
+\contentsline {subsubsection}{\numberline {8.52.4.1}el::base::DefaultLogDispatchCallback}{207}{subsubsection.8.52.4.1}%
+\contentsline {subsubsection}{\numberline {8.52.4.2}el::base::LogDispatcher}{207}{subsubsection.8.52.4.2}%
+\contentsline {subsubsection}{\numberline {8.52.4.3}el::base::MessageBuilder}{207}{subsubsection.8.52.4.3}%
+\contentsline {subsubsection}{\numberline {8.52.4.4}el::base::Writer}{207}{subsubsection.8.52.4.4}%
+\contentsline {subsubsection}{\numberline {8.52.4.5}el::Helpers}{207}{subsubsection.8.52.4.5}%
+\contentsline {subsection}{\numberline {8.52.5}Field Documentation}{207}{subsection.8.52.5}%
+\contentsline {subsubsection}{\numberline {8.52.5.1}m\_configurations}{207}{subsubsection.8.52.5.1}%
+\contentsline {subsubsection}{\numberline {8.52.5.2}m\_enabledMap}{208}{subsubsection.8.52.5.2}%
+\contentsline {subsubsection}{\numberline {8.52.5.3}m\_filenameMap}{208}{subsubsection.8.52.5.3}%
+\contentsline {subsubsection}{\numberline {8.52.5.4}m\_fileStreamMap}{208}{subsubsection.8.52.5.4}%
+\contentsline {subsubsection}{\numberline {8.52.5.5}m\_logFlushThresholdMap}{208}{subsubsection.8.52.5.5}%
+\contentsline {subsubsection}{\numberline {8.52.5.6}m\_logFormatMap}{208}{subsubsection.8.52.5.6}%
+\contentsline {subsubsection}{\numberline {8.52.5.7}m\_logStreamsReference}{208}{subsubsection.8.52.5.7}%
+\contentsline {subsubsection}{\numberline {8.52.5.8}m\_maxLogFileSizeMap}{208}{subsubsection.8.52.5.8}%
+\contentsline {subsubsection}{\numberline {8.52.5.9}m\_performanceTrackingMap}{209}{subsubsection.8.52.5.9}%
+\contentsline {subsubsection}{\numberline {8.52.5.10}m\_subsecondPrecisionMap}{209}{subsubsection.8.52.5.10}%
+\contentsline {subsubsection}{\numberline {8.52.5.11}m\_toFileMap}{209}{subsubsection.8.52.5.11}%
+\contentsline {subsubsection}{\numberline {8.52.5.12}m\_toStandardOutputMap}{209}{subsubsection.8.52.5.12}%
+\contentsline {section}{\numberline {8.53}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::utils\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Utils Class Reference}{209}{section.8.53}%
+\contentsline {subsection}{\numberline {8.53.1}Detailed Description}{209}{subsection.8.53.1}%
+\contentsline {subsection}{\numberline {8.53.2}Member Function Documentation}{210}{subsection.8.53.2}%
+\contentsline {subsubsection}{\numberline {8.53.2.1}callback()}{210}{subsubsection.8.53.2.1}%
+\contentsline {subsubsection}{\numberline {8.53.2.2}installCallback()}{210}{subsubsection.8.53.2.2}%
+\contentsline {subsubsection}{\numberline {8.53.2.3}uninstallCallback()}{210}{subsubsection.8.53.2.3}%
+\contentsline {section}{\numberline {8.54}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Version\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info Class Reference}{210}{section.8.54}%
+\contentsline {subsection}{\numberline {8.54.1}Detailed Description}{211}{subsection.8.54.1}%
+\contentsline {subsection}{\numberline {8.54.2}Member Function Documentation}{211}{subsection.8.54.2}%
+\contentsline {subsubsection}{\numberline {8.54.2.1}releaseDate()}{211}{subsubsection.8.54.2.1}%
+\contentsline {subsubsection}{\numberline {8.54.2.2}version()}{211}{subsubsection.8.54.2.2}%
+\contentsline {section}{\numberline {8.55}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::VRegistry Class Reference}{211}{section.8.55}%
+\contentsline {subsection}{\numberline {8.55.1}Detailed Description}{212}{subsection.8.55.1}%
+\contentsline {subsection}{\numberline {8.55.2}Constructor \& Destructor Documentation}{213}{subsection.8.55.2}%
+\contentsline {subsubsection}{\numberline {8.55.2.1}VRegistry()}{213}{subsubsection.8.55.2.1}%
+\contentsline {subsection}{\numberline {8.55.3}Member Function Documentation}{213}{subsection.8.55.3}%
+\contentsline {subsubsection}{\numberline {8.55.3.1}allowed()}{213}{subsubsection.8.55.3.1}%
+\contentsline {subsubsection}{\numberline {8.55.3.2}clearModules()}{213}{subsubsection.8.55.3.2}%
+\contentsline {subsubsection}{\numberline {8.55.3.3}level()}{213}{subsubsection.8.55.3.3}%
+\contentsline {subsubsection}{\numberline {8.55.3.4}modules()}{213}{subsubsection.8.55.3.4}%
+\contentsline {subsubsection}{\numberline {8.55.3.5}setFromArgs()}{214}{subsubsection.8.55.3.5}%
+\contentsline {subsubsection}{\numberline {8.55.3.6}setLevel()}{214}{subsubsection.8.55.3.6}%
+\contentsline {subsubsection}{\numberline {8.55.3.7}setModules()}{214}{subsubsection.8.55.3.7}%
+\contentsline {subsubsection}{\numberline {8.55.3.8}vModulesEnabled()}{214}{subsubsection.8.55.3.8}%
+\contentsline {subsection}{\numberline {8.55.4}Field Documentation}{214}{subsection.8.55.4}%
+\contentsline {subsubsection}{\numberline {8.55.4.1}m\_level}{214}{subsubsection.8.55.4.1}%
+\contentsline {subsubsection}{\numberline {8.55.4.2}m\_modules}{215}{subsubsection.8.55.4.2}%
+\contentsline {subsubsection}{\numberline {8.55.4.3}m\_pFlags}{215}{subsubsection.8.55.4.3}%
+\contentsline {section}{\numberline {8.56}el\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::base\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Writer Class Reference}{215}{section.8.56}%
+\contentsline {subsection}{\numberline {8.56.1}Detailed Description}{216}{subsection.8.56.1}%
+\contentsline {subsection}{\numberline {8.56.2}Constructor \& Destructor Documentation}{216}{subsection.8.56.2}%
+\contentsline {subsubsection}{\numberline {8.56.2.1}Writer()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{216}{subsubsection.8.56.2.1}%
+\contentsline {subsubsection}{\numberline {8.56.2.2}Writer()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{216}{subsubsection.8.56.2.2}%
+\contentsline {subsubsection}{\numberline {8.56.2.3}$\sim $Writer()}{217}{subsubsection.8.56.2.3}%
+\contentsline {subsection}{\numberline {8.56.3}Member Function Documentation}{217}{subsection.8.56.3}%
+\contentsline {subsubsection}{\numberline {8.56.3.1}construct()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{217}{subsubsection.8.56.3.1}%
+\contentsline {subsubsection}{\numberline {8.56.3.2}construct()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{217}{subsubsection.8.56.3.2}%
+\contentsline {subsubsection}{\numberline {8.56.3.3}initializeLogger()}{217}{subsubsection.8.56.3.3}%
+\contentsline {subsubsection}{\numberline {8.56.3.4}operator bool()}{217}{subsubsection.8.56.3.4}%
+\contentsline {subsubsection}{\numberline {8.56.3.5}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{218}{subsubsection.8.56.3.5}%
+\contentsline {subsubsection}{\numberline {8.56.3.6}operator$<$$<$()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{218}{subsubsection.8.56.3.6}%
+\contentsline {subsubsection}{\numberline {8.56.3.7}processDispatch()}{218}{subsubsection.8.56.3.7}%
+\contentsline {subsubsection}{\numberline {8.56.3.8}triggerDispatch()}{218}{subsubsection.8.56.3.8}%
+\contentsline {subsection}{\numberline {8.56.4}Friends And Related Symbol Documentation}{218}{subsection.8.56.4}%
+\contentsline {subsubsection}{\numberline {8.56.4.1}el::Helpers}{218}{subsubsection.8.56.4.1}%
+\contentsline {subsection}{\numberline {8.56.5}Field Documentation}{218}{subsection.8.56.5}%
+\contentsline {subsubsection}{\numberline {8.56.5.1}m\_dispatchAction}{218}{subsubsection.8.56.5.1}%
+\contentsline {subsubsection}{\numberline {8.56.5.2}m\_file}{219}{subsubsection.8.56.5.2}%
+\contentsline {subsubsection}{\numberline {8.56.5.3}m\_func}{219}{subsubsection.8.56.5.3}%
+\contentsline {subsubsection}{\numberline {8.56.5.4}m\_level}{219}{subsubsection.8.56.5.4}%
+\contentsline {subsubsection}{\numberline {8.56.5.5}m\_line}{219}{subsubsection.8.56.5.5}%
+\contentsline {subsubsection}{\numberline {8.56.5.6}m\_logger}{219}{subsubsection.8.56.5.6}%
+\contentsline {subsubsection}{\numberline {8.56.5.7}m\_loggerIds}{219}{subsubsection.8.56.5.7}%
+\contentsline {subsubsection}{\numberline {8.56.5.8}m\_messageBuilder}{219}{subsubsection.8.56.5.8}%
+\contentsline {subsubsection}{\numberline {8.56.5.9}m\_msg}{219}{subsubsection.8.56.5.9}%
+\contentsline {subsubsection}{\numberline {8.56.5.10}m\_proceed}{220}{subsubsection.8.56.5.10}%
+\contentsline {subsubsection}{\numberline {8.56.5.11}m\_verboseLevel}{220}{subsubsection.8.56.5.11}%
+\contentsline {chapter}{\numberline {9}File Documentation}{221}{chapter.9}%
+\contentsline {section}{\numberline {9.1}lib/easylogging++.cc File Reference}{221}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Macro Definition Documentation}{223}{subsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.1.1}ELPP\_DEFAULT\_LOGGING\_FLAGS}{223}{subsubsection.9.1.1.1}%
+\contentsline {section}{\numberline {9.2}easylogging++.cc}{223}{section.9.2}%
+\contentsline {section}{\numberline {9.3}lib/easylogging++.h File Reference}{260}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Macro Definition Documentation}{271}{subsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.1.1}CCHECK}{271}{subsubsection.9.3.1.1}%
+\contentsline {subsubsection}{\numberline {9.3.1.2}CCHECK\_BOUNDS}{271}{subsubsection.9.3.1.2}%
+\contentsline {subsubsection}{\numberline {9.3.1.3}CCHECK\_EQ}{271}{subsubsection.9.3.1.3}%
+\contentsline {subsubsection}{\numberline {9.3.1.4}CCHECK\_GE}{271}{subsubsection.9.3.1.4}%
+\contentsline {subsubsection}{\numberline {9.3.1.5}CCHECK\_GT}{272}{subsubsection.9.3.1.5}%
+\contentsline {subsubsection}{\numberline {9.3.1.6}CCHECK\_LE}{272}{subsubsection.9.3.1.6}%
+\contentsline {subsubsection}{\numberline {9.3.1.7}CCHECK\_LT}{272}{subsubsection.9.3.1.7}%
+\contentsline {subsubsection}{\numberline {9.3.1.8}CCHECK\_NE}{272}{subsubsection.9.3.1.8}%
+\contentsline {subsubsection}{\numberline {9.3.1.9}CCHECK\_NOTNULL}{272}{subsubsection.9.3.1.9}%
+\contentsline {subsubsection}{\numberline {9.3.1.10}CCHECK\_STRCASEEQ}{273}{subsubsection.9.3.1.10}%
+\contentsline {subsubsection}{\numberline {9.3.1.11}CCHECK\_STRCASENE}{273}{subsubsection.9.3.1.11}%
+\contentsline {subsubsection}{\numberline {9.3.1.12}CCHECK\_STREQ}{273}{subsubsection.9.3.1.12}%
+\contentsline {subsubsection}{\numberline {9.3.1.13}CCHECK\_STRNE}{273}{subsubsection.9.3.1.13}%
+\contentsline {subsubsection}{\numberline {9.3.1.14}CDEBUG}{274}{subsubsection.9.3.1.14}%
+\contentsline {subsubsection}{\numberline {9.3.1.15}CDEBUG\_AFTER\_N}{274}{subsubsection.9.3.1.15}%
+\contentsline {subsubsection}{\numberline {9.3.1.16}CDEBUG\_EVERY\_N}{274}{subsubsection.9.3.1.16}%
+\contentsline {subsubsection}{\numberline {9.3.1.17}CDEBUG\_IF}{274}{subsubsection.9.3.1.17}%
+\contentsline {subsubsection}{\numberline {9.3.1.18}CDEBUG\_N\_TIMES}{274}{subsubsection.9.3.1.18}%
+\contentsline {subsubsection}{\numberline {9.3.1.19}CERROR}{275}{subsubsection.9.3.1.19}%
+\contentsline {subsubsection}{\numberline {9.3.1.20}CERROR\_AFTER\_N}{275}{subsubsection.9.3.1.20}%
+\contentsline {subsubsection}{\numberline {9.3.1.21}CERROR\_EVERY\_N}{275}{subsubsection.9.3.1.21}%
+\contentsline {subsubsection}{\numberline {9.3.1.22}CERROR\_IF}{275}{subsubsection.9.3.1.22}%
+\contentsline {subsubsection}{\numberline {9.3.1.23}CERROR\_N\_TIMES}{275}{subsubsection.9.3.1.23}%
+\contentsline {subsubsection}{\numberline {9.3.1.24}CFATAL}{276}{subsubsection.9.3.1.24}%
+\contentsline {subsubsection}{\numberline {9.3.1.25}CFATAL\_AFTER\_N}{276}{subsubsection.9.3.1.25}%
+\contentsline {subsubsection}{\numberline {9.3.1.26}CFATAL\_EVERY\_N}{276}{subsubsection.9.3.1.26}%
+\contentsline {subsubsection}{\numberline {9.3.1.27}CFATAL\_IF}{276}{subsubsection.9.3.1.27}%
+\contentsline {subsubsection}{\numberline {9.3.1.28}CFATAL\_N\_TIMES}{276}{subsubsection.9.3.1.28}%
+\contentsline {subsubsection}{\numberline {9.3.1.29}CHECK}{277}{subsubsection.9.3.1.29}%
+\contentsline {subsubsection}{\numberline {9.3.1.30}CHECK\_BOUNDS}{277}{subsubsection.9.3.1.30}%
+\contentsline {subsubsection}{\numberline {9.3.1.31}CHECK\_EQ}{277}{subsubsection.9.3.1.31}%
+\contentsline {subsubsection}{\numberline {9.3.1.32}CHECK\_GE}{277}{subsubsection.9.3.1.32}%
+\contentsline {subsubsection}{\numberline {9.3.1.33}CHECK\_GT}{277}{subsubsection.9.3.1.33}%
+\contentsline {subsubsection}{\numberline {9.3.1.34}CHECK\_LE}{277}{subsubsection.9.3.1.34}%
+\contentsline {subsubsection}{\numberline {9.3.1.35}CHECK\_LT}{278}{subsubsection.9.3.1.35}%
+\contentsline {subsubsection}{\numberline {9.3.1.36}CHECK\_NE}{278}{subsubsection.9.3.1.36}%
+\contentsline {subsubsection}{\numberline {9.3.1.37}CHECK\_NOTNULL}{278}{subsubsection.9.3.1.37}%
+\contentsline {subsubsection}{\numberline {9.3.1.38}CHECK\_STRCASEEQ}{278}{subsubsection.9.3.1.38}%
+\contentsline {subsubsection}{\numberline {9.3.1.39}CHECK\_STRCASENE}{278}{subsubsection.9.3.1.39}%
+\contentsline {subsubsection}{\numberline {9.3.1.40}CHECK\_STREQ}{278}{subsubsection.9.3.1.40}%
+\contentsline {subsubsection}{\numberline {9.3.1.41}CHECK\_STRNE}{279}{subsubsection.9.3.1.41}%
+\contentsline {subsubsection}{\numberline {9.3.1.42}CINFO}{279}{subsubsection.9.3.1.42}%
+\contentsline {subsubsection}{\numberline {9.3.1.43}CINFO\_AFTER\_N}{279}{subsubsection.9.3.1.43}%
+\contentsline {subsubsection}{\numberline {9.3.1.44}CINFO\_EVERY\_N}{279}{subsubsection.9.3.1.44}%
+\contentsline {subsubsection}{\numberline {9.3.1.45}CINFO\_IF}{279}{subsubsection.9.3.1.45}%
+\contentsline {subsubsection}{\numberline {9.3.1.46}CINFO\_N\_TIMES}{280}{subsubsection.9.3.1.46}%
+\contentsline {subsubsection}{\numberline {9.3.1.47}CLOG}{280}{subsubsection.9.3.1.47}%
+\contentsline {subsubsection}{\numberline {9.3.1.48}CLOG\_AFTER\_N}{280}{subsubsection.9.3.1.48}%
+\contentsline {subsubsection}{\numberline {9.3.1.49}CLOG\_EVERY\_N}{280}{subsubsection.9.3.1.49}%
+\contentsline {subsubsection}{\numberline {9.3.1.50}CLOG\_IF}{280}{subsubsection.9.3.1.50}%
+\contentsline {subsubsection}{\numberline {9.3.1.51}CLOG\_N\_TIMES}{281}{subsubsection.9.3.1.51}%
+\contentsline {subsubsection}{\numberline {9.3.1.52}CPCHECK}{281}{subsubsection.9.3.1.52}%
+\contentsline {subsubsection}{\numberline {9.3.1.53}CPLOG}{281}{subsubsection.9.3.1.53}%
+\contentsline {subsubsection}{\numberline {9.3.1.54}CPLOG\_IF}{281}{subsubsection.9.3.1.54}%
+\contentsline {subsubsection}{\numberline {9.3.1.55}CSYSLOG}{281}{subsubsection.9.3.1.55}%
+\contentsline {subsubsection}{\numberline {9.3.1.56}CSYSLOG\_AFTER\_N}{282}{subsubsection.9.3.1.56}%
+\contentsline {subsubsection}{\numberline {9.3.1.57}CSYSLOG\_EVERY\_N}{282}{subsubsection.9.3.1.57}%
+\contentsline {subsubsection}{\numberline {9.3.1.58}CSYSLOG\_IF}{282}{subsubsection.9.3.1.58}%
+\contentsline {subsubsection}{\numberline {9.3.1.59}CSYSLOG\_N\_TIMES}{282}{subsubsection.9.3.1.59}%
+\contentsline {subsubsection}{\numberline {9.3.1.60}CTRACE}{282}{subsubsection.9.3.1.60}%
+\contentsline {subsubsection}{\numberline {9.3.1.61}CTRACE\_AFTER\_N}{283}{subsubsection.9.3.1.61}%
+\contentsline {subsubsection}{\numberline {9.3.1.62}CTRACE\_EVERY\_N}{283}{subsubsection.9.3.1.62}%
+\contentsline {subsubsection}{\numberline {9.3.1.63}CTRACE\_IF}{283}{subsubsection.9.3.1.63}%
+\contentsline {subsubsection}{\numberline {9.3.1.64}CTRACE\_N\_TIMES}{283}{subsubsection.9.3.1.64}%
+\contentsline {subsubsection}{\numberline {9.3.1.65}CVERBOSE}{283}{subsubsection.9.3.1.65}%
+\contentsline {subsubsection}{\numberline {9.3.1.66}CVERBOSE\_AFTER\_N}{284}{subsubsection.9.3.1.66}%
+\contentsline {subsubsection}{\numberline {9.3.1.67}CVERBOSE\_EVERY\_N}{284}{subsubsection.9.3.1.67}%
+\contentsline {subsubsection}{\numberline {9.3.1.68}CVERBOSE\_IF}{284}{subsubsection.9.3.1.68}%
+\contentsline {subsubsection}{\numberline {9.3.1.69}CVERBOSE\_N\_TIMES}{284}{subsubsection.9.3.1.69}%
+\contentsline {subsubsection}{\numberline {9.3.1.70}CVLOG}{285}{subsubsection.9.3.1.70}%
+\contentsline {subsubsection}{\numberline {9.3.1.71}CVLOG\_AFTER\_N}{285}{subsubsection.9.3.1.71}%
+\contentsline {subsubsection}{\numberline {9.3.1.72}CVLOG\_EVERY\_N}{285}{subsubsection.9.3.1.72}%
+\contentsline {subsubsection}{\numberline {9.3.1.73}CVLOG\_IF}{285}{subsubsection.9.3.1.73}%
+\contentsline {subsubsection}{\numberline {9.3.1.74}CVLOG\_N\_TIMES}{285}{subsubsection.9.3.1.74}%
+\contentsline {subsubsection}{\numberline {9.3.1.75}CWARNING}{286}{subsubsection.9.3.1.75}%
+\contentsline {subsubsection}{\numberline {9.3.1.76}CWARNING\_AFTER\_N}{286}{subsubsection.9.3.1.76}%
+\contentsline {subsubsection}{\numberline {9.3.1.77}CWARNING\_EVERY\_N}{286}{subsubsection.9.3.1.77}%
+\contentsline {subsubsection}{\numberline {9.3.1.78}CWARNING\_IF}{286}{subsubsection.9.3.1.78}%
+\contentsline {subsubsection}{\numberline {9.3.1.79}CWARNING\_N\_TIMES}{286}{subsubsection.9.3.1.79}%
+\contentsline {subsubsection}{\numberline {9.3.1.80}DCCHECK}{287}{subsubsection.9.3.1.80}%
+\contentsline {subsubsection}{\numberline {9.3.1.81}DCCHECK\_BOUNDS}{287}{subsubsection.9.3.1.81}%
+\contentsline {subsubsection}{\numberline {9.3.1.82}DCCHECK\_EQ}{287}{subsubsection.9.3.1.82}%
+\contentsline {subsubsection}{\numberline {9.3.1.83}DCCHECK\_GE}{287}{subsubsection.9.3.1.83}%
+\contentsline {subsubsection}{\numberline {9.3.1.84}DCCHECK\_GT}{287}{subsubsection.9.3.1.84}%
+\contentsline {subsubsection}{\numberline {9.3.1.85}DCCHECK\_LE}{287}{subsubsection.9.3.1.85}%
+\contentsline {subsubsection}{\numberline {9.3.1.86}DCCHECK\_LT}{288}{subsubsection.9.3.1.86}%
+\contentsline {subsubsection}{\numberline {9.3.1.87}DCCHECK\_NE}{288}{subsubsection.9.3.1.87}%
+\contentsline {subsubsection}{\numberline {9.3.1.88}DCCHECK\_NOTNULL}{288}{subsubsection.9.3.1.88}%
+\contentsline {subsubsection}{\numberline {9.3.1.89}DCCHECK\_STRCASEEQ}{288}{subsubsection.9.3.1.89}%
+\contentsline {subsubsection}{\numberline {9.3.1.90}DCCHECK\_STRCASENE}{288}{subsubsection.9.3.1.90}%
+\contentsline {subsubsection}{\numberline {9.3.1.91}DCCHECK\_STREQ}{288}{subsubsection.9.3.1.91}%
+\contentsline {subsubsection}{\numberline {9.3.1.92}DCCHECK\_STRNE}{289}{subsubsection.9.3.1.92}%
+\contentsline {subsubsection}{\numberline {9.3.1.93}DCHECK}{289}{subsubsection.9.3.1.93}%
+\contentsline {subsubsection}{\numberline {9.3.1.94}DCHECK\_BOUNDS}{289}{subsubsection.9.3.1.94}%
+\contentsline {subsubsection}{\numberline {9.3.1.95}DCHECK\_EQ}{289}{subsubsection.9.3.1.95}%
+\contentsline {subsubsection}{\numberline {9.3.1.96}DCHECK\_GE}{289}{subsubsection.9.3.1.96}%
+\contentsline {subsubsection}{\numberline {9.3.1.97}DCHECK\_GT}{289}{subsubsection.9.3.1.97}%
+\contentsline {subsubsection}{\numberline {9.3.1.98}DCHECK\_LE}{290}{subsubsection.9.3.1.98}%
+\contentsline {subsubsection}{\numberline {9.3.1.99}DCHECK\_LT}{290}{subsubsection.9.3.1.99}%
+\contentsline {subsubsection}{\numberline {9.3.1.100}DCHECK\_NE}{290}{subsubsection.9.3.1.100}%
+\contentsline {subsubsection}{\numberline {9.3.1.101}DCHECK\_NOTNULL}{290}{subsubsection.9.3.1.101}%
+\contentsline {subsubsection}{\numberline {9.3.1.102}DCHECK\_STRCASEEQ}{290}{subsubsection.9.3.1.102}%
+\contentsline {subsubsection}{\numberline {9.3.1.103}DCHECK\_STRCASENE}{290}{subsubsection.9.3.1.103}%
+\contentsline {subsubsection}{\numberline {9.3.1.104}DCHECK\_STREQ}{291}{subsubsection.9.3.1.104}%
+\contentsline {subsubsection}{\numberline {9.3.1.105}DCHECK\_STRNE}{291}{subsubsection.9.3.1.105}%
+\contentsline {subsubsection}{\numberline {9.3.1.106}DCLOG}{291}{subsubsection.9.3.1.106}%
+\contentsline {subsubsection}{\numberline {9.3.1.107}DCLOG\_AFTER\_N}{291}{subsubsection.9.3.1.107}%
+\contentsline {subsubsection}{\numberline {9.3.1.108}DCLOG\_EVERY\_N}{291}{subsubsection.9.3.1.108}%
+\contentsline {subsubsection}{\numberline {9.3.1.109}DCLOG\_IF}{291}{subsubsection.9.3.1.109}%
+\contentsline {subsubsection}{\numberline {9.3.1.110}DCLOG\_N\_TIMES}{292}{subsubsection.9.3.1.110}%
+\contentsline {subsubsection}{\numberline {9.3.1.111}DCLOG\_VERBOSE}{292}{subsubsection.9.3.1.111}%
+\contentsline {subsubsection}{\numberline {9.3.1.112}DCPCHECK}{292}{subsubsection.9.3.1.112}%
+\contentsline {subsubsection}{\numberline {9.3.1.113}DCPLOG}{292}{subsubsection.9.3.1.113}%
+\contentsline {subsubsection}{\numberline {9.3.1.114}DCPLOG\_IF}{292}{subsubsection.9.3.1.114}%
+\contentsline {subsubsection}{\numberline {9.3.1.115}DCSYSLOG}{292}{subsubsection.9.3.1.115}%
+\contentsline {subsubsection}{\numberline {9.3.1.116}DCSYSLOG\_AFTER\_N}{293}{subsubsection.9.3.1.116}%
+\contentsline {subsubsection}{\numberline {9.3.1.117}DCSYSLOG\_EVERY\_N}{293}{subsubsection.9.3.1.117}%
+\contentsline {subsubsection}{\numberline {9.3.1.118}DCSYSLOG\_IF}{293}{subsubsection.9.3.1.118}%
+\contentsline {subsubsection}{\numberline {9.3.1.119}DCSYSLOG\_N\_TIMES}{293}{subsubsection.9.3.1.119}%
+\contentsline {subsubsection}{\numberline {9.3.1.120}DCVLOG}{293}{subsubsection.9.3.1.120}%
+\contentsline {subsubsection}{\numberline {9.3.1.121}DCVLOG\_AFTER\_N}{293}{subsubsection.9.3.1.121}%
+\contentsline {subsubsection}{\numberline {9.3.1.122}DCVLOG\_EVERY\_N}{294}{subsubsection.9.3.1.122}%
+\contentsline {subsubsection}{\numberline {9.3.1.123}DCVLOG\_IF}{294}{subsubsection.9.3.1.123}%
+\contentsline {subsubsection}{\numberline {9.3.1.124}DCVLOG\_N\_TIMES}{294}{subsubsection.9.3.1.124}%
+\contentsline {subsubsection}{\numberline {9.3.1.125}DLOG}{294}{subsubsection.9.3.1.125}%
+\contentsline {subsubsection}{\numberline {9.3.1.126}DLOG\_AFTER\_N}{294}{subsubsection.9.3.1.126}%
+\contentsline {subsubsection}{\numberline {9.3.1.127}DLOG\_EVERY\_N}{294}{subsubsection.9.3.1.127}%
+\contentsline {subsubsection}{\numberline {9.3.1.128}DLOG\_IF}{295}{subsubsection.9.3.1.128}%
+\contentsline {subsubsection}{\numberline {9.3.1.129}DLOG\_N\_TIMES}{295}{subsubsection.9.3.1.129}%
+\contentsline {subsubsection}{\numberline {9.3.1.130}DPCHECK}{295}{subsubsection.9.3.1.130}%
+\contentsline {subsubsection}{\numberline {9.3.1.131}DPLOG}{295}{subsubsection.9.3.1.131}%
+\contentsline {subsubsection}{\numberline {9.3.1.132}DPLOG\_IF}{295}{subsubsection.9.3.1.132}%
+\contentsline {subsubsection}{\numberline {9.3.1.133}DSYSLOG}{295}{subsubsection.9.3.1.133}%
+\contentsline {subsubsection}{\numberline {9.3.1.134}DSYSLOG\_AFTER\_N}{296}{subsubsection.9.3.1.134}%
+\contentsline {subsubsection}{\numberline {9.3.1.135}DSYSLOG\_EVERY\_N}{296}{subsubsection.9.3.1.135}%
+\contentsline {subsubsection}{\numberline {9.3.1.136}DSYSLOG\_IF}{296}{subsubsection.9.3.1.136}%
+\contentsline {subsubsection}{\numberline {9.3.1.137}DSYSLOG\_N\_TIMES}{296}{subsubsection.9.3.1.137}%
+\contentsline {subsubsection}{\numberline {9.3.1.138}DVLOG}{296}{subsubsection.9.3.1.138}%
+\contentsline {subsubsection}{\numberline {9.3.1.139}DVLOG\_AFTER\_N}{296}{subsubsection.9.3.1.139}%
+\contentsline {subsubsection}{\numberline {9.3.1.140}DVLOG\_EVERY\_N}{297}{subsubsection.9.3.1.140}%
+\contentsline {subsubsection}{\numberline {9.3.1.141}DVLOG\_IF}{297}{subsubsection.9.3.1.141}%
+\contentsline {subsubsection}{\numberline {9.3.1.142}DVLOG\_N\_TIMES}{297}{subsubsection.9.3.1.142}%
+\contentsline {subsubsection}{\numberline {9.3.1.143}el\_getVALength}{297}{subsubsection.9.3.1.143}%
+\contentsline {subsubsection}{\numberline {9.3.1.144}el\_resolveVALength}{297}{subsubsection.9.3.1.144}%
+\contentsline {subsubsection}{\numberline {9.3.1.145}ELPP}{298}{subsubsection.9.3.1.145}%
+\contentsline {subsubsection}{\numberline {9.3.1.146}ELPP\_ASSERT}{298}{subsubsection.9.3.1.146}%
+\contentsline {subsubsection}{\numberline {9.3.1.147}ELPP\_ASYNC\_LOGGING}{298}{subsubsection.9.3.1.147}%
+\contentsline {subsubsection}{\numberline {9.3.1.148}ELPP\_COMPILER\_CLANG}{298}{subsubsection.9.3.1.148}%
+\contentsline {subsubsection}{\numberline {9.3.1.149}ELPP\_COMPILER\_GCC}{298}{subsubsection.9.3.1.149}%
+\contentsline {subsubsection}{\numberline {9.3.1.150}ELPP\_COMPILER\_INTEL}{298}{subsubsection.9.3.1.150}%
+\contentsline {subsubsection}{\numberline {9.3.1.151}ELPP\_COMPILER\_MSVC}{299}{subsubsection.9.3.1.151}%
+\contentsline {subsubsection}{\numberline {9.3.1.152}ELPP\_COUNTER}{299}{subsubsection.9.3.1.152}%
+\contentsline {subsubsection}{\numberline {9.3.1.153}ELPP\_COUNTER\_POS}{299}{subsubsection.9.3.1.153}%
+\contentsline {subsubsection}{\numberline {9.3.1.154}ELPP\_COUT}{299}{subsubsection.9.3.1.154}%
+\contentsline {subsubsection}{\numberline {9.3.1.155}ELPP\_COUT\_LINE}{299}{subsubsection.9.3.1.155}%
+\contentsline {subsubsection}{\numberline {9.3.1.156}ELPP\_CRASH\_HANDLER\_INIT}{299}{subsubsection.9.3.1.156}%
+\contentsline {subsubsection}{\numberline {9.3.1.157}ELPP\_CRT\_DBG\_WARNINGS}{299}{subsubsection.9.3.1.157}%
+\contentsline {subsubsection}{\numberline {9.3.1.158}ELPP\_CURR\_FILE\_LOGGER\_ID}{300}{subsubsection.9.3.1.158}%
+\contentsline {subsubsection}{\numberline {9.3.1.159}ELPP\_CYGWIN}{300}{subsubsection.9.3.1.159}%
+\contentsline {subsubsection}{\numberline {9.3.1.160}ELPP\_DEBUG\_LOG}{300}{subsubsection.9.3.1.160}%
+\contentsline {subsubsection}{\numberline {9.3.1.161}ELPP\_ERROR\_LOG}{300}{subsubsection.9.3.1.161}%
+\contentsline {subsubsection}{\numberline {9.3.1.162}ELPP\_EXPORT}{300}{subsubsection.9.3.1.162}%
+\contentsline {subsubsection}{\numberline {9.3.1.163}ELPP\_FATAL\_LOG}{300}{subsubsection.9.3.1.163}%
+\contentsline {subsubsection}{\numberline {9.3.1.164}ELPP\_FINAL}{300}{subsubsection.9.3.1.164}%
+\contentsline {subsubsection}{\numberline {9.3.1.165}ELPP\_FUNC}{300}{subsubsection.9.3.1.165}%
+\contentsline {subsubsection}{\numberline {9.3.1.166}ELPP\_INFO\_LOG}{301}{subsubsection.9.3.1.166}%
+\contentsline {subsubsection}{\numberline {9.3.1.167}ELPP\_INIT\_EASYLOGGINGPP}{301}{subsubsection.9.3.1.167}%
+\contentsline {subsubsection}{\numberline {9.3.1.168}ELPP\_INITIALIZE\_SYSLOG}{301}{subsubsection.9.3.1.168}%
+\contentsline {subsubsection}{\numberline {9.3.1.169}ELPP\_INTERNAL\_DEBUGGING\_ENDL}{301}{subsubsection.9.3.1.169}%
+\contentsline {subsubsection}{\numberline {9.3.1.170}ELPP\_INTERNAL\_DEBUGGING\_MSG}{301}{subsubsection.9.3.1.170}%
+\contentsline {subsubsection}{\numberline {9.3.1.171}ELPP\_INTERNAL\_DEBUGGING\_OUT\_ERROR}{301}{subsubsection.9.3.1.171}%
+\contentsline {subsubsection}{\numberline {9.3.1.172}ELPP\_INTERNAL\_DEBUGGING\_OUT\_INFO}{302}{subsubsection.9.3.1.172}%
+\contentsline {subsubsection}{\numberline {9.3.1.173}ELPP\_INTERNAL\_DEBUGGING\_WRITE\_PERROR}{302}{subsubsection.9.3.1.173}%
+\contentsline {subsubsection}{\numberline {9.3.1.174}ELPP\_INTERNAL\_ERROR}{302}{subsubsection.9.3.1.174}%
+\contentsline {subsubsection}{\numberline {9.3.1.175}ELPP\_INTERNAL\_INFO}{302}{subsubsection.9.3.1.175}%
+\contentsline {subsubsection}{\numberline {9.3.1.176}ELPP\_ITERATOR\_CONTAINER\_LOG\_FIVE\_ARG}{302}{subsubsection.9.3.1.176}%
+\contentsline {subsubsection}{\numberline {9.3.1.177}ELPP\_ITERATOR\_CONTAINER\_LOG\_FOUR\_ARG}{302}{subsubsection.9.3.1.177}%
+\contentsline {subsubsection}{\numberline {9.3.1.178}ELPP\_ITERATOR\_CONTAINER\_LOG\_ONE\_ARG}{303}{subsubsection.9.3.1.178}%
+\contentsline {subsubsection}{\numberline {9.3.1.179}ELPP\_ITERATOR\_CONTAINER\_LOG\_THREE\_ARG}{303}{subsubsection.9.3.1.179}%
+\contentsline {subsubsection}{\numberline {9.3.1.180}ELPP\_ITERATOR\_CONTAINER\_LOG\_TWO\_ARG}{303}{subsubsection.9.3.1.180}%
+\contentsline {subsubsection}{\numberline {9.3.1.181}ELPP\_LITERAL}{303}{subsubsection.9.3.1.181}%
+\contentsline {subsubsection}{\numberline {9.3.1.182}ELPP\_LOGGING\_ENABLED}{303}{subsubsection.9.3.1.182}%
+\contentsline {subsubsection}{\numberline {9.3.1.183}ELPP\_MIN\_UNIT}{304}{subsubsection.9.3.1.183}%
+\contentsline {subsubsection}{\numberline {9.3.1.184}ELPP\_MINGW}{304}{subsubsection.9.3.1.184}%
+\contentsline {subsubsection}{\numberline {9.3.1.185}ELPP\_OS\_AIX}{304}{subsubsection.9.3.1.185}%
+\contentsline {subsubsection}{\numberline {9.3.1.186}ELPP\_OS\_ANDROID}{304}{subsubsection.9.3.1.186}%
+\contentsline {subsubsection}{\numberline {9.3.1.187}ELPP\_OS\_EMSCRIPTEN}{304}{subsubsection.9.3.1.187}%
+\contentsline {subsubsection}{\numberline {9.3.1.188}ELPP\_OS\_FREEBSD}{304}{subsubsection.9.3.1.188}%
+\contentsline {subsubsection}{\numberline {9.3.1.189}ELPP\_OS\_LINUX}{304}{subsubsection.9.3.1.189}%
+\contentsline {subsubsection}{\numberline {9.3.1.190}ELPP\_OS\_MAC}{304}{subsubsection.9.3.1.190}%
+\contentsline {subsubsection}{\numberline {9.3.1.191}ELPP\_OS\_NETBSD}{305}{subsubsection.9.3.1.191}%
+\contentsline {subsubsection}{\numberline {9.3.1.192}ELPP\_OS\_QNX}{305}{subsubsection.9.3.1.192}%
+\contentsline {subsubsection}{\numberline {9.3.1.193}ELPP\_OS\_SOLARIS}{305}{subsubsection.9.3.1.193}%
+\contentsline {subsubsection}{\numberline {9.3.1.194}ELPP\_OS\_UNIX}{305}{subsubsection.9.3.1.194}%
+\contentsline {subsubsection}{\numberline {9.3.1.195}ELPP\_OS\_WINDOWS}{305}{subsubsection.9.3.1.195}%
+\contentsline {subsubsection}{\numberline {9.3.1.196}ELPP\_SIMPLE\_LOG}{305}{subsubsection.9.3.1.196}%
+\contentsline {subsubsection}{\numberline {9.3.1.197}ELPP\_STACKTRACE}{305}{subsubsection.9.3.1.197}%
+\contentsline {subsubsection}{\numberline {9.3.1.198}ELPP\_STRLEN}{306}{subsubsection.9.3.1.198}%
+\contentsline {subsubsection}{\numberline {9.3.1.199}ELPP\_THREADING\_ENABLED}{306}{subsubsection.9.3.1.199}%
+\contentsline {subsubsection}{\numberline {9.3.1.200}ELPP\_TRACE}{306}{subsubsection.9.3.1.200}%
+\contentsline {subsubsection}{\numberline {9.3.1.201}ELPP\_TRACE\_LOG}{306}{subsubsection.9.3.1.201}%
+\contentsline {subsubsection}{\numberline {9.3.1.202}ELPP\_UNUSED}{306}{subsubsection.9.3.1.202}%
+\contentsline {subsubsection}{\numberline {9.3.1.203}ELPP\_USE\_DEF\_CRASH\_HANDLER}{306}{subsubsection.9.3.1.203}%
+\contentsline {subsubsection}{\numberline {9.3.1.204}ELPP\_USE\_STD\_THREADING}{306}{subsubsection.9.3.1.204}%
+\contentsline {subsubsection}{\numberline {9.3.1.205}ELPP\_VARIADIC\_TEMPLATES\_SUPPORTED}{307}{subsubsection.9.3.1.205}%
+\contentsline {subsubsection}{\numberline {9.3.1.206}ELPP\_VERBOSE\_LOG}{307}{subsubsection.9.3.1.206}%
+\contentsline {subsubsection}{\numberline {9.3.1.207}ELPP\_WARNING\_LOG}{307}{subsubsection.9.3.1.207}%
+\contentsline {subsubsection}{\numberline {9.3.1.208}ELPP\_WRITE\_LOG}{307}{subsubsection.9.3.1.208}%
+\contentsline {subsubsection}{\numberline {9.3.1.209}ELPP\_WRITE\_LOG\_AFTER\_N}{307}{subsubsection.9.3.1.209}%
+\contentsline {subsubsection}{\numberline {9.3.1.210}ELPP\_WRITE\_LOG\_EVERY\_N}{308}{subsubsection.9.3.1.210}%
+\contentsline {subsubsection}{\numberline {9.3.1.211}ELPP\_WRITE\_LOG\_IF}{308}{subsubsection.9.3.1.211}%
+\contentsline {subsubsection}{\numberline {9.3.1.212}ELPP\_WRITE\_LOG\_N\_TIMES}{308}{subsubsection.9.3.1.212}%
+\contentsline {subsubsection}{\numberline {9.3.1.213}ELPP\_WX\_ENABLED}{308}{subsubsection.9.3.1.213}%
+\contentsline {subsubsection}{\numberline {9.3.1.214}ELPP\_WX\_HASH\_MAP\_ENABLED}{309}{subsubsection.9.3.1.214}%
+\contentsline {subsubsection}{\numberline {9.3.1.215}ELPP\_WX\_PTR\_ENABLED}{309}{subsubsection.9.3.1.215}%
+\contentsline {subsubsection}{\numberline {9.3.1.216}elpptime}{309}{subsubsection.9.3.1.216}%
+\contentsline {subsubsection}{\numberline {9.3.1.217}elpptime\_r}{309}{subsubsection.9.3.1.217}%
+\contentsline {subsubsection}{\numberline {9.3.1.218}elpptime\_s}{309}{subsubsection.9.3.1.218}%
+\contentsline {subsubsection}{\numberline {9.3.1.219}INITIALIZE\_EASYLOGGINGPP}{309}{subsubsection.9.3.1.219}%
+\contentsline {subsubsection}{\numberline {9.3.1.220}INITIALIZE\_NULL\_EASYLOGGINGPP}{309}{subsubsection.9.3.1.220}%
+\contentsline {subsubsection}{\numberline {9.3.1.221}LOG}{310}{subsubsection.9.3.1.221}%
+\contentsline {subsubsection}{\numberline {9.3.1.222}LOG\_AFTER\_N}{310}{subsubsection.9.3.1.222}%
+\contentsline {subsubsection}{\numberline {9.3.1.223}LOG\_EVERY\_N}{310}{subsubsection.9.3.1.223}%
+\contentsline {subsubsection}{\numberline {9.3.1.224}LOG\_IF}{310}{subsubsection.9.3.1.224}%
+\contentsline {subsubsection}{\numberline {9.3.1.225}LOG\_N\_TIMES}{310}{subsubsection.9.3.1.225}%
+\contentsline {subsubsection}{\numberline {9.3.1.226}MAKE\_CONTAINERELPP\_FRIENDLY}{311}{subsubsection.9.3.1.226}%
+\contentsline {subsubsection}{\numberline {9.3.1.227}MAKE\_LOGGABLE}{311}{subsubsection.9.3.1.227}%
+\contentsline {subsubsection}{\numberline {9.3.1.228}PCHECK}{311}{subsubsection.9.3.1.228}%
+\contentsline {subsubsection}{\numberline {9.3.1.229}PERFORMANCE\_CHECKPOINT}{312}{subsubsection.9.3.1.229}%
+\contentsline {subsubsection}{\numberline {9.3.1.230}PERFORMANCE\_CHECKPOINT\_WITH\_ID}{312}{subsubsection.9.3.1.230}%
+\contentsline {subsubsection}{\numberline {9.3.1.231}PLOG}{312}{subsubsection.9.3.1.231}%
+\contentsline {subsubsection}{\numberline {9.3.1.232}PLOG\_IF}{312}{subsubsection.9.3.1.232}%
+\contentsline {subsubsection}{\numberline {9.3.1.233}SHARE\_EASYLOGGINGPP}{312}{subsubsection.9.3.1.233}%
+\contentsline {subsubsection}{\numberline {9.3.1.234}START\_EASYLOGGINGPP}{312}{subsubsection.9.3.1.234}%
+\contentsline {subsubsection}{\numberline {9.3.1.235}STRCAT}{313}{subsubsection.9.3.1.235}%
+\contentsline {subsubsection}{\numberline {9.3.1.236}STRCPY}{313}{subsubsection.9.3.1.236}%
+\contentsline {subsubsection}{\numberline {9.3.1.237}STRERROR}{313}{subsubsection.9.3.1.237}%
+\contentsline {subsubsection}{\numberline {9.3.1.238}STRTOK}{313}{subsubsection.9.3.1.238}%
+\contentsline {subsubsection}{\numberline {9.3.1.239}SYSLOG}{313}{subsubsection.9.3.1.239}%
+\contentsline {subsubsection}{\numberline {9.3.1.240}SYSLOG\_AFTER\_N}{313}{subsubsection.9.3.1.240}%
+\contentsline {subsubsection}{\numberline {9.3.1.241}SYSLOG\_EVERY\_N}{314}{subsubsection.9.3.1.241}%
+\contentsline {subsubsection}{\numberline {9.3.1.242}SYSLOG\_IF}{314}{subsubsection.9.3.1.242}%
+\contentsline {subsubsection}{\numberline {9.3.1.243}SYSLOG\_N\_TIMES}{314}{subsubsection.9.3.1.243}%
+\contentsline {subsubsection}{\numberline {9.3.1.244}TIMED\_BLOCK}{314}{subsubsection.9.3.1.244}%
+\contentsline {subsubsection}{\numberline {9.3.1.245}TIMED\_FUNC}{314}{subsubsection.9.3.1.245}%
+\contentsline {subsubsection}{\numberline {9.3.1.246}TIMED\_FUNC\_IF}{315}{subsubsection.9.3.1.246}%
+\contentsline {subsubsection}{\numberline {9.3.1.247}TIMED\_SCOPE}{315}{subsubsection.9.3.1.247}%
+\contentsline {subsubsection}{\numberline {9.3.1.248}TIMED\_SCOPE\_IF}{315}{subsubsection.9.3.1.248}%
+\contentsline {subsubsection}{\numberline {9.3.1.249}VLOG}{315}{subsubsection.9.3.1.249}%
+\contentsline {subsubsection}{\numberline {9.3.1.250}VLOG\_AFTER\_N}{316}{subsubsection.9.3.1.250}%
+\contentsline {subsubsection}{\numberline {9.3.1.251}VLOG\_EVERY\_N}{316}{subsubsection.9.3.1.251}%
+\contentsline {subsubsection}{\numberline {9.3.1.252}VLOG\_IF}{316}{subsubsection.9.3.1.252}%
+\contentsline {subsubsection}{\numberline {9.3.1.253}VLOG\_IS\_ON}{316}{subsubsection.9.3.1.253}%
+\contentsline {subsubsection}{\numberline {9.3.1.254}VLOG\_N\_TIMES}{316}{subsubsection.9.3.1.254}%
+\contentsline {section}{\numberline {9.4}easylogging++.h}{317}{section.9.4}%
+\contentsline {section}{\numberline {9.5}README.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{365}{section.9.5}%
+\contentsline {section}{\numberline {9.6}src/main.cpp File Reference}{365}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}Function Documentation}{365}{subsection.9.6.1}%
+\contentsline {subsubsection}{\numberline {9.6.1.1}main()}{365}{subsubsection.9.6.1.1}%
+\contentsline {section}{\numberline {9.7}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{366}{section.9.7}%
+\contentsline {chapter}{Index}{367}{section*.300}%

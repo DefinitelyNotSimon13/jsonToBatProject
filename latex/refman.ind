@@ -1,21 +1,2913 @@
 \begin{theindex}
 
+  \item {\texorpdfstring{$\sim$}{\string~}AbstractRegistry}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{47}
+  \item {\texorpdfstring{$\sim$}{\string~}CommandLineArgs}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{54}
+  \item {\texorpdfstring{$\sim$}{\string~}Configuration}
+    \subitem {el::Configuration}, \hyperpage{58}
+  \item {\texorpdfstring{$\sim$}{\string~}Configurations}
+    \subitem {el::Configurations}, \hyperpage{64}
+  \item {\texorpdfstring{$\sim$}{\string~}HitCounter}
+    \subitem {el::base::HitCounter}, \hyperpage{93}
+  \item {\texorpdfstring{$\sim$}{\string~}LogBuilder}
+    \subitem {el::LogBuilder}, \hyperpage{98}
+  \item {\texorpdfstring{$\sim$}{\string~}LogFormat}
+    \subitem {el::base::LogFormat}, \hyperpage{107}
+  \item {\texorpdfstring{$\sim$}{\string~}Loggable}
+    \subitem {el::Loggable}, \hyperpage{112}
+  \item {\texorpdfstring{$\sim$}{\string~}Logger}
+    \subitem {el::Logger}, \hyperpage{116}
+  \item {\texorpdfstring{$\sim$}{\string~}NoScopedLock}
+    \subitem {el::base::threading::internal::NoScopedLock$<$ Mutex $>$}, 
+		\hyperpage{142}
+  \item {\texorpdfstring{$\sim$}{\string~}PErrorWriter}
+    \subitem {el::base::PErrorWriter}, \hyperpage{152}
+  \item {\texorpdfstring{$\sim$}{\string~}RegisteredLoggers}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{161}
+  \item {\texorpdfstring{$\sim$}{\string~}Registry}
+    \subitem {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{167}
+  \item {\texorpdfstring{$\sim$}{\string~}RegistryWithPred}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{172}
+  \item {\texorpdfstring{$\sim$}{\string~}ScopedAddFlag}
+    \subitem {el::Loggers::ScopedAddFlag}, \hyperpage{174}
+  \item {\texorpdfstring{$\sim$}{\string~}ScopedRemoveFlag}
+    \subitem {el::Loggers::ScopedRemoveFlag}, \hyperpage{175}
+  \item {\texorpdfstring{$\sim$}{\string~}Storage}
+    \subitem {el::base::Storage}, \hyperpage{179}
+  \item {\texorpdfstring{$\sim$}{\string~}SysLogInitializer}
+    \subitem {el::SysLogInitializer}, \hyperpage{196}
+  \item {\texorpdfstring{$\sim$}{\string~}ThreadSafe}
+    \subitem {el::base::threading::ThreadSafe}, \hyperpage{198}
+  \item {\texorpdfstring{$\sim$}{\string~}TypedConfigurations}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{202}
+  \item {\texorpdfstring{$\sim$}{\string~}Writer}
+    \subitem {el::base::Writer}, \hyperpage{216}
+
+  \indexspace
+
+  \item {abort}
+    \subitem {el::base::utils}, \hyperpage{40}
+  \item {AbstractRegistry}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{47}
+  \item {acquireLock}
+    \subitem {el::base::threading::ThreadSafe}, \hyperpage{198}
+  \item {addFlag}
+    \subitem {el::base::LogFormat}, \hyperpage{108}
+    \subitem {el::base::Storage}, \hyperpage{180}
+    \subitem {el::base::utils}, \hyperpage{40}
+    \subitem {el::Loggers}, \hyperpage{126}
+  \item {addToBuff}
+    \subitem {el::base::utils::Str}, \hyperpage{188}
+  \item {allowed}
+    \subitem {el::base::VRegistry}, \hyperpage{213}
+  \item {AllowVerboseIfModuleNotSpecified}
+    \subitem {el}, \hyperpage{18}
+  \item {And}
+    \subitem {el::base::utils::bitwise}, \hyperpage{42}
+  \item {AppName}
+    \subitem {el::base}, \hyperpage{23}
+  \item {AutoSpacing}
+    \subitem {el}, \hyperpage{19}
+
+  \indexspace
+
+  \item {base::LogDispatcher}
+    \subitem {el::LogDispatchCallback}, \hyperpage{101}
+    \subitem {el::LogDispatchData}, \hyperpage{103}
+  \item {base::PerformanceTracker}
+    \subitem {el::PerformanceTrackingCallback}, \hyperpage{150}
+  \item {base::RegisteredLoggers}
+    \subitem {el::LoggerRegistrationCallback}, \hyperpage{124}
+  \item {begin}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{47}
+  \item {brief}
+    \subitem {el::base::consts}, \hyperpage{25}
+  \item {build}
+    \subitem {el::base::DefaultLogBuilder}, \hyperpage{80}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{202}
+    \subitem {el::LogBuilder}, \hyperpage{99}
+  \item {buildBaseFilename}
+    \subitem {el::base::utils::File}, \hyperpage{83}
+  \item {buildStrippedFilename}
+    \subitem {el::base::utils::File}, \hyperpage{83}
+  \item {buildTimeInfo}
+    \subitem {el::base::utils::DateTime}, \hyperpage{77}
+
+  \indexspace
+
+  \item {Callback}
+    \subitem {el::Callback$<$ T $>$}, \hyperpage{52}
+  \item {callback}
+    \subitem {el::base::utils::Utils}, \hyperpage{210}
+  \item {castFromInt}
+    \subitem {el::ConfigurationTypeHelper}, \hyperpage{72}
+    \subitem {el::LevelHelper}, \hyperpage{95}
+  \item {castToInt}
+    \subitem {el::ConfigurationTypeHelper}, \hyperpage{72}
+    \subitem {el::LevelHelper}, \hyperpage{95}
+  \item {cbegin}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{47}
+  \item {CCHECK}
+    \subitem {easylogging++.h}, \hyperpage{271}
+  \item {CCHECK\_BOUNDS}
+    \subitem {easylogging++.h}, \hyperpage{271}
+  \item {CCHECK\_EQ}
+    \subitem {easylogging++.h}, \hyperpage{271}
+  \item {CCHECK\_GE}
+    \subitem {easylogging++.h}, \hyperpage{271}
+  \item {CCHECK\_GT}
+    \subitem {easylogging++.h}, \hyperpage{271}
+  \item {CCHECK\_LE}
+    \subitem {easylogging++.h}, \hyperpage{272}
+  \item {CCHECK\_LT}
+    \subitem {easylogging++.h}, \hyperpage{272}
+  \item {CCHECK\_NE}
+    \subitem {easylogging++.h}, \hyperpage{272}
+  \item {CCHECK\_NOTNULL}
+    \subitem {easylogging++.h}, \hyperpage{272}
+  \item {CCHECK\_STRCASEEQ}
+    \subitem {easylogging++.h}, \hyperpage{272}
+  \item {CCHECK\_STRCASENE}
+    \subitem {easylogging++.h}, \hyperpage{273}
+  \item {CCHECK\_STREQ}
+    \subitem {easylogging++.h}, \hyperpage{273}
+  \item {CCHECK\_STRNE}
+    \subitem {easylogging++.h}, \hyperpage{273}
+  \item {CDEBUG}
+    \subitem {easylogging++.h}, \hyperpage{273}
+  \item {CDEBUG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{274}
+  \item {CDEBUG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{274}
+  \item {CDEBUG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{274}
+  \item {CDEBUG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{274}
+  \item {cend}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{48}
+  \item {CERROR}
+    \subitem {easylogging++.h}, \hyperpage{274}
+  \item {CERROR\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{275}
+  \item {CERROR\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{275}
+  \item {CERROR\_IF}
+    \subitem {easylogging++.h}, \hyperpage{275}
+  \item {CERROR\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{275}
+  \item {CFATAL}
+    \subitem {easylogging++.h}, \hyperpage{275}
+  \item {CFATAL\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{276}
+  \item {CFATAL\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{276}
+  \item {CFATAL\_IF}
+    \subitem {easylogging++.h}, \hyperpage{276}
+  \item {CFATAL\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{276}
+  \item {char\_t}
+    \subitem {el::base::type}, \hyperpage{37}
+  \item {CHECK}
+    \subitem {easylogging++.h}, \hyperpage{276}
+  \item {CHECK\_BOUNDS}
+    \subitem {easylogging++.h}, \hyperpage{277}
+  \item {CHECK\_EQ}
+    \subitem {easylogging++.h}, \hyperpage{277}
+  \item {CHECK\_GE}
+    \subitem {easylogging++.h}, \hyperpage{277}
+  \item {CHECK\_GT}
+    \subitem {easylogging++.h}, \hyperpage{277}
+  \item {CHECK\_LE}
+    \subitem {easylogging++.h}, \hyperpage{277}
+  \item {CHECK\_LT}
+    \subitem {easylogging++.h}, \hyperpage{277}
+  \item {CHECK\_NE}
+    \subitem {easylogging++.h}, \hyperpage{278}
+  \item {CHECK\_NOTNULL}
+    \subitem {easylogging++.h}, \hyperpage{278}
+  \item {CHECK\_STRCASEEQ}
+    \subitem {easylogging++.h}, \hyperpage{278}
+  \item {CHECK\_STRCASENE}
+    \subitem {easylogging++.h}, \hyperpage{278}
+  \item {CHECK\_STREQ}
+    \subitem {easylogging++.h}, \hyperpage{278}
+  \item {CHECK\_STRNE}
+    \subitem {easylogging++.h}, \hyperpage{278}
+  \item {CINFO}
+    \subitem {easylogging++.h}, \hyperpage{279}
+  \item {CINFO\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{279}
+  \item {CINFO\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{279}
+  \item {CINFO\_IF}
+    \subitem {easylogging++.h}, \hyperpage{279}
+  \item {CINFO\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{279}
+  \item {clear}
+    \subitem {el::Configurations}, \hyperpage{64}
+  \item {clearBuff}
+    \subitem {el::base::utils::Str}, \hyperpage{188}
+  \item {clearModules}
+    \subitem {el::base::VRegistry}, \hyperpage{213}
+  \item {clearVModules}
+    \subitem {el::Loggers}, \hyperpage{126}
+  \item {CLOG}
+    \subitem {easylogging++.h}, \hyperpage{280}
+  \item {CLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{280}
+  \item {CLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{280}
+  \item {CLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{280}
+  \item {CLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{280}
+  \item {ColoredTerminalOutput}
+    \subitem {el}, \hyperpage{18}
+  \item {CommandLineArgs}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{53, 54}
+  \item {commandLineArgs}
+    \subitem {el::base::Storage}, \hyperpage{180}
+    \subitem {el::Helpers}, \hyperpage{87}
+  \item {configString}
+    \subitem {el::ConfigurationStringToTypeItem}, \hyperpage{71}
+  \item {configStringToTypeMap}
+    \subitem {el}, \hyperpage{19}
+  \item {configType}
+    \subitem {el::ConfigurationStringToTypeItem}, \hyperpage{71}
+  \item {Configuration}
+    \subitem {el::Configuration}, \hyperpage{58}
+  \item {configurationFile}
+    \subitem {el::Configurations}, \hyperpage{64}
+  \item {Configurations}
+    \subitem {el::Configurations}, \hyperpage{64}
+  \item {configurations}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{202}
+    \subitem {el::Logger}, \hyperpage{116}
+  \item {ConfigurationType}
+    \subitem {el}, \hyperpage{17}
+  \item {configurationType}
+    \subitem {el::Configuration}, \hyperpage{58}
+  \item {configure}
+    \subitem {el::Logger}, \hyperpage{116}
+  \item {configureFromArg}
+    \subitem {el::Loggers}, \hyperpage{126}
+  \item {configureFromGlobal}
+    \subitem {el::Loggers}, \hyperpage{126}
+  \item {const\_iterator}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{46}
+    \subitem {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{167}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{171}
+  \item {construct}
+    \subitem {el::base::Writer}, \hyperpage{217}
+  \item {contains}
+    \subitem {el::base::utils::Str}, \hyperpage{189}
+  \item {convertAndAddToBuff}
+    \subitem {el::base::utils::Str}, \hyperpage{189}
+  \item {convertFromString}
+    \subitem {el::ConfigurationTypeHelper}, \hyperpage{73}
+    \subitem {el::LevelHelper}, \hyperpage{96}
+  \item {convertTemplateToStdString}
+    \subitem {el::Helpers}, \hyperpage{87}
+  \item {convertToColoredOutput}
+    \subitem {el::LogBuilder}, \hyperpage{99}
+  \item {convertToString}
+    \subitem {el::ConfigurationTypeHelper}, \hyperpage{73}
+    \subitem {el::LevelHelper}, \hyperpage{96}
+  \item {CPCHECK}
+    \subitem {easylogging++.h}, \hyperpage{281}
+  \item {CPLOG}
+    \subitem {easylogging++.h}, \hyperpage{281}
+  \item {CPLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{281}
+  \item {CrashHandler}
+    \subitem {el::base::debug::CrashHandler}, \hyperpage{75}
+  \item {CreateLoggerAutomatically}
+    \subitem {el}, \hyperpage{19}
+  \item {createPath}
+    \subitem {el::base::utils::File}, \hyperpage{84}
+  \item {cStringCaseEq}
+    \subitem {el::base::utils::Str}, \hyperpage{189}
+  \item {cStringEq}
+    \subitem {el::base::utils::Str}, \hyperpage{189}
+  \item {CSYSLOG}
+    \subitem {easylogging++.h}, \hyperpage{281}
+  \item {CSYSLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{281}
+  \item {CSYSLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{282}
+  \item {CSYSLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{282}
+  \item {CSYSLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{282}
+  \item {CTRACE}
+    \subitem {easylogging++.h}, \hyperpage{282}
+  \item {CTRACE\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{282}
+  \item {CTRACE\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{283}
+  \item {CTRACE\_IF}
+    \subitem {easylogging++.h}, \hyperpage{283}
+  \item {CTRACE\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{283}
+  \item {currentHost}
+    \subitem {el::base::utils::OS}, \hyperpage{144}
+  \item {currentUser}
+    \subitem {el::base::utils::OS}, \hyperpage{144}
+  \item {CustomFormatSpecifier}
+    \subitem {el::CustomFormatSpecifier}, \hyperpage{76}
+  \item {customFormatSpecifiers}
+    \subitem {el::base::Storage}, \hyperpage{180}
+  \item {customFormatSpecifiersLock}
+    \subitem {el::base::Storage}, \hyperpage{180}
+  \item {CVERBOSE}
+    \subitem {easylogging++.h}, \hyperpage{283}
+  \item {CVERBOSE\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{283}
+  \item {CVERBOSE\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{284}
+  \item {CVERBOSE\_IF}
+    \subitem {easylogging++.h}, \hyperpage{284}
+  \item {CVERBOSE\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{284}
+  \item {CVLOG}
+    \subitem {easylogging++.h}, \hyperpage{284}
+  \item {CVLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{285}
+  \item {CVLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{285}
+  \item {CVLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{285}
+  \item {CVLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{285}
+  \item {CWARNING}
+    \subitem {easylogging++.h}, \hyperpage{285}
+  \item {CWARNING\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{286}
+  \item {CWARNING\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{286}
+  \item {CWARNING\_IF}
+    \subitem {easylogging++.h}, \hyperpage{286}
+  \item {CWARNING\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{286}
+
+  \indexspace
+
+  \item {DateTime}
+    \subitem {el::base}, \hyperpage{22}
+  \item {dateTimeFormat}
+    \subitem {el::base::LogFormat}, \hyperpage{108}
+  \item {Day}
+    \subitem {el::base}, \hyperpage{23}
+  \item {DCCHECK}
+    \subitem {easylogging++.h}, \hyperpage{286}
+  \item {DCCHECK\_BOUNDS}
+    \subitem {easylogging++.h}, \hyperpage{287}
+  \item {DCCHECK\_EQ}
+    \subitem {easylogging++.h}, \hyperpage{287}
+  \item {DCCHECK\_GE}
+    \subitem {easylogging++.h}, \hyperpage{287}
+  \item {DCCHECK\_GT}
+    \subitem {easylogging++.h}, \hyperpage{287}
+  \item {DCCHECK\_LE}
+    \subitem {easylogging++.h}, \hyperpage{287}
+  \item {DCCHECK\_LT}
+    \subitem {easylogging++.h}, \hyperpage{287}
+  \item {DCCHECK\_NE}
+    \subitem {easylogging++.h}, \hyperpage{288}
+  \item {DCCHECK\_NOTNULL}
+    \subitem {easylogging++.h}, \hyperpage{288}
+  \item {DCCHECK\_STRCASEEQ}
+    \subitem {easylogging++.h}, \hyperpage{288}
+  \item {DCCHECK\_STRCASENE}
+    \subitem {easylogging++.h}, \hyperpage{288}
+  \item {DCCHECK\_STREQ}
+    \subitem {easylogging++.h}, \hyperpage{288}
+  \item {DCCHECK\_STRNE}
+    \subitem {easylogging++.h}, \hyperpage{288}
+  \item {DCHECK}
+    \subitem {easylogging++.h}, \hyperpage{289}
+  \item {DCHECK\_BOUNDS}
+    \subitem {easylogging++.h}, \hyperpage{289}
+  \item {DCHECK\_EQ}
+    \subitem {easylogging++.h}, \hyperpage{289}
+  \item {DCHECK\_GE}
+    \subitem {easylogging++.h}, \hyperpage{289}
+  \item {DCHECK\_GT}
+    \subitem {easylogging++.h}, \hyperpage{289}
+  \item {DCHECK\_LE}
+    \subitem {easylogging++.h}, \hyperpage{289}
+  \item {DCHECK\_LT}
+    \subitem {easylogging++.h}, \hyperpage{290}
+  \item {DCHECK\_NE}
+    \subitem {easylogging++.h}, \hyperpage{290}
+  \item {DCHECK\_NOTNULL}
+    \subitem {easylogging++.h}, \hyperpage{290}
+  \item {DCHECK\_STRCASEEQ}
+    \subitem {easylogging++.h}, \hyperpage{290}
+  \item {DCHECK\_STRCASENE}
+    \subitem {easylogging++.h}, \hyperpage{290}
+  \item {DCHECK\_STREQ}
+    \subitem {easylogging++.h}, \hyperpage{290}
+  \item {DCHECK\_STRNE}
+    \subitem {easylogging++.h}, \hyperpage{291}
+  \item {DCLOG}
+    \subitem {easylogging++.h}, \hyperpage{291}
+  \item {DCLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{291}
+  \item {DCLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{291}
+  \item {DCLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{291}
+  \item {DCLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{291}
+  \item {DCLOG\_VERBOSE}
+    \subitem {easylogging++.h}, \hyperpage{292}
+  \item {DCPCHECK}
+    \subitem {easylogging++.h}, \hyperpage{292}
+  \item {DCPLOG}
+    \subitem {easylogging++.h}, \hyperpage{292}
+  \item {DCPLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{292}
+  \item {DCSYSLOG}
+    \subitem {easylogging++.h}, \hyperpage{292}
+  \item {DCSYSLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{292}
+  \item {DCSYSLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{293}
+  \item {DCSYSLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{293}
+  \item {DCSYSLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{293}
+  \item {DCVLOG}
+    \subitem {easylogging++.h}, \hyperpage{293}
+  \item {DCVLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{293}
+  \item {DCVLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{293}
+  \item {DCVLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{294}
+  \item {DCVLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{294}
+  \item {Debug}
+    \subitem {el}, \hyperpage{18}
+  \item {deepCopy}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{48}
+    \subitem {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{168}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{172}
+  \item {defaultConfigurations}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{161}
+    \subitem {el::Loggers}, \hyperpage{127}
+  \item {defaultPreRollOutCallback}
+    \subitem {el::base}, \hyperpage{23}
+  \item {defaultTypedConfigurations}
+    \subitem {el::Loggers}, \hyperpage{127}
+  \item {detail}
+    \subitem {el::base::consts}, \hyperpage{25}
+  \item {DisableApplicationAbortOnFatalLog}
+    \subitem {el}, \hyperpage{18}
+  \item {DisablePerformanceTrackingCheckpointComparison}
+    \subitem {el}, \hyperpage{18}
+  \item {DisableVModules}
+    \subitem {el}, \hyperpage{19}
+  \item {DisableVModulesExtensions}
+    \subitem {el}, \hyperpage{19}
+  \item {dispatch}
+    \subitem {el::base::DefaultLogDispatchCallback}, \hyperpage{82}
+    \subitem {el::base::LogDispatcher}, \hyperpage{105}
+  \item {DispatchAction}
+    \subitem {el::base}, \hyperpage{22}
+  \item {dispatchAction}
+    \subitem {el::LogDispatchData}, \hyperpage{103}
+  \item {DLOG}
+    \subitem {easylogging++.h}, \hyperpage{294}
+  \item {DLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{294}
+  \item {DLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{294}
+  \item {DLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{294}
+  \item {DLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{295}
+  \item {DPCHECK}
+    \subitem {easylogging++.h}, \hyperpage{295}
+  \item {DPLOG}
+    \subitem {easylogging++.h}, \hyperpage{295}
+  \item {DPLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{295}
+  \item {DSYSLOG}
+    \subitem {easylogging++.h}, \hyperpage{295}
+  \item {DSYSLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{295}
+  \item {DSYSLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{296}
+  \item {DSYSLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{296}
+  \item {DSYSLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{296}
+  \item {DVLOG}
+    \subitem {easylogging++.h}, \hyperpage{296}
+  \item {DVLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{296}
+  \item {DVLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{296}
+  \item {DVLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{297}
+  \item {DVLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{297}
+
+  \indexspace
+
+  \item {easylogging++.cc}
+    \subitem {ELPP\_DEFAULT\_LOGGING\_FLAGS}, \hyperpage{223}
+  \item {easylogging++.h}
+    \subitem {CCHECK}, \hyperpage{271}
+    \subitem {CCHECK\_BOUNDS}, \hyperpage{271}
+    \subitem {CCHECK\_EQ}, \hyperpage{271}
+    \subitem {CCHECK\_GE}, \hyperpage{271}
+    \subitem {CCHECK\_GT}, \hyperpage{271}
+    \subitem {CCHECK\_LE}, \hyperpage{272}
+    \subitem {CCHECK\_LT}, \hyperpage{272}
+    \subitem {CCHECK\_NE}, \hyperpage{272}
+    \subitem {CCHECK\_NOTNULL}, \hyperpage{272}
+    \subitem {CCHECK\_STRCASEEQ}, \hyperpage{272}
+    \subitem {CCHECK\_STRCASENE}, \hyperpage{273}
+    \subitem {CCHECK\_STREQ}, \hyperpage{273}
+    \subitem {CCHECK\_STRNE}, \hyperpage{273}
+    \subitem {CDEBUG}, \hyperpage{273}
+    \subitem {CDEBUG\_AFTER\_N}, \hyperpage{274}
+    \subitem {CDEBUG\_EVERY\_N}, \hyperpage{274}
+    \subitem {CDEBUG\_IF}, \hyperpage{274}
+    \subitem {CDEBUG\_N\_TIMES}, \hyperpage{274}
+    \subitem {CERROR}, \hyperpage{274}
+    \subitem {CERROR\_AFTER\_N}, \hyperpage{275}
+    \subitem {CERROR\_EVERY\_N}, \hyperpage{275}
+    \subitem {CERROR\_IF}, \hyperpage{275}
+    \subitem {CERROR\_N\_TIMES}, \hyperpage{275}
+    \subitem {CFATAL}, \hyperpage{275}
+    \subitem {CFATAL\_AFTER\_N}, \hyperpage{276}
+    \subitem {CFATAL\_EVERY\_N}, \hyperpage{276}
+    \subitem {CFATAL\_IF}, \hyperpage{276}
+    \subitem {CFATAL\_N\_TIMES}, \hyperpage{276}
+    \subitem {CHECK}, \hyperpage{276}
+    \subitem {CHECK\_BOUNDS}, \hyperpage{277}
+    \subitem {CHECK\_EQ}, \hyperpage{277}
+    \subitem {CHECK\_GE}, \hyperpage{277}
+    \subitem {CHECK\_GT}, \hyperpage{277}
+    \subitem {CHECK\_LE}, \hyperpage{277}
+    \subitem {CHECK\_LT}, \hyperpage{277}
+    \subitem {CHECK\_NE}, \hyperpage{278}
+    \subitem {CHECK\_NOTNULL}, \hyperpage{278}
+    \subitem {CHECK\_STRCASEEQ}, \hyperpage{278}
+    \subitem {CHECK\_STRCASENE}, \hyperpage{278}
+    \subitem {CHECK\_STREQ}, \hyperpage{278}
+    \subitem {CHECK\_STRNE}, \hyperpage{278}
+    \subitem {CINFO}, \hyperpage{279}
+    \subitem {CINFO\_AFTER\_N}, \hyperpage{279}
+    \subitem {CINFO\_EVERY\_N}, \hyperpage{279}
+    \subitem {CINFO\_IF}, \hyperpage{279}
+    \subitem {CINFO\_N\_TIMES}, \hyperpage{279}
+    \subitem {CLOG}, \hyperpage{280}
+    \subitem {CLOG\_AFTER\_N}, \hyperpage{280}
+    \subitem {CLOG\_EVERY\_N}, \hyperpage{280}
+    \subitem {CLOG\_IF}, \hyperpage{280}
+    \subitem {CLOG\_N\_TIMES}, \hyperpage{280}
+    \subitem {CPCHECK}, \hyperpage{281}
+    \subitem {CPLOG}, \hyperpage{281}
+    \subitem {CPLOG\_IF}, \hyperpage{281}
+    \subitem {CSYSLOG}, \hyperpage{281}
+    \subitem {CSYSLOG\_AFTER\_N}, \hyperpage{281}
+    \subitem {CSYSLOG\_EVERY\_N}, \hyperpage{282}
+    \subitem {CSYSLOG\_IF}, \hyperpage{282}
+    \subitem {CSYSLOG\_N\_TIMES}, \hyperpage{282}
+    \subitem {CTRACE}, \hyperpage{282}
+    \subitem {CTRACE\_AFTER\_N}, \hyperpage{282}
+    \subitem {CTRACE\_EVERY\_N}, \hyperpage{283}
+    \subitem {CTRACE\_IF}, \hyperpage{283}
+    \subitem {CTRACE\_N\_TIMES}, \hyperpage{283}
+    \subitem {CVERBOSE}, \hyperpage{283}
+    \subitem {CVERBOSE\_AFTER\_N}, \hyperpage{283}
+    \subitem {CVERBOSE\_EVERY\_N}, \hyperpage{284}
+    \subitem {CVERBOSE\_IF}, \hyperpage{284}
+    \subitem {CVERBOSE\_N\_TIMES}, \hyperpage{284}
+    \subitem {CVLOG}, \hyperpage{284}
+    \subitem {CVLOG\_AFTER\_N}, \hyperpage{285}
+    \subitem {CVLOG\_EVERY\_N}, \hyperpage{285}
+    \subitem {CVLOG\_IF}, \hyperpage{285}
+    \subitem {CVLOG\_N\_TIMES}, \hyperpage{285}
+    \subitem {CWARNING}, \hyperpage{285}
+    \subitem {CWARNING\_AFTER\_N}, \hyperpage{286}
+    \subitem {CWARNING\_EVERY\_N}, \hyperpage{286}
+    \subitem {CWARNING\_IF}, \hyperpage{286}
+    \subitem {CWARNING\_N\_TIMES}, \hyperpage{286}
+    \subitem {DCCHECK}, \hyperpage{286}
+    \subitem {DCCHECK\_BOUNDS}, \hyperpage{287}
+    \subitem {DCCHECK\_EQ}, \hyperpage{287}
+    \subitem {DCCHECK\_GE}, \hyperpage{287}
+    \subitem {DCCHECK\_GT}, \hyperpage{287}
+    \subitem {DCCHECK\_LE}, \hyperpage{287}
+    \subitem {DCCHECK\_LT}, \hyperpage{287}
+    \subitem {DCCHECK\_NE}, \hyperpage{288}
+    \subitem {DCCHECK\_NOTNULL}, \hyperpage{288}
+    \subitem {DCCHECK\_STRCASEEQ}, \hyperpage{288}
+    \subitem {DCCHECK\_STRCASENE}, \hyperpage{288}
+    \subitem {DCCHECK\_STREQ}, \hyperpage{288}
+    \subitem {DCCHECK\_STRNE}, \hyperpage{288}
+    \subitem {DCHECK}, \hyperpage{289}
+    \subitem {DCHECK\_BOUNDS}, \hyperpage{289}
+    \subitem {DCHECK\_EQ}, \hyperpage{289}
+    \subitem {DCHECK\_GE}, \hyperpage{289}
+    \subitem {DCHECK\_GT}, \hyperpage{289}
+    \subitem {DCHECK\_LE}, \hyperpage{289}
+    \subitem {DCHECK\_LT}, \hyperpage{290}
+    \subitem {DCHECK\_NE}, \hyperpage{290}
+    \subitem {DCHECK\_NOTNULL}, \hyperpage{290}
+    \subitem {DCHECK\_STRCASEEQ}, \hyperpage{290}
+    \subitem {DCHECK\_STRCASENE}, \hyperpage{290}
+    \subitem {DCHECK\_STREQ}, \hyperpage{290}
+    \subitem {DCHECK\_STRNE}, \hyperpage{291}
+    \subitem {DCLOG}, \hyperpage{291}
+    \subitem {DCLOG\_AFTER\_N}, \hyperpage{291}
+    \subitem {DCLOG\_EVERY\_N}, \hyperpage{291}
+    \subitem {DCLOG\_IF}, \hyperpage{291}
+    \subitem {DCLOG\_N\_TIMES}, \hyperpage{291}
+    \subitem {DCLOG\_VERBOSE}, \hyperpage{292}
+    \subitem {DCPCHECK}, \hyperpage{292}
+    \subitem {DCPLOG}, \hyperpage{292}
+    \subitem {DCPLOG\_IF}, \hyperpage{292}
+    \subitem {DCSYSLOG}, \hyperpage{292}
+    \subitem {DCSYSLOG\_AFTER\_N}, \hyperpage{292}
+    \subitem {DCSYSLOG\_EVERY\_N}, \hyperpage{293}
+    \subitem {DCSYSLOG\_IF}, \hyperpage{293}
+    \subitem {DCSYSLOG\_N\_TIMES}, \hyperpage{293}
+    \subitem {DCVLOG}, \hyperpage{293}
+    \subitem {DCVLOG\_AFTER\_N}, \hyperpage{293}
+    \subitem {DCVLOG\_EVERY\_N}, \hyperpage{293}
+    \subitem {DCVLOG\_IF}, \hyperpage{294}
+    \subitem {DCVLOG\_N\_TIMES}, \hyperpage{294}
+    \subitem {DLOG}, \hyperpage{294}
+    \subitem {DLOG\_AFTER\_N}, \hyperpage{294}
+    \subitem {DLOG\_EVERY\_N}, \hyperpage{294}
+    \subitem {DLOG\_IF}, \hyperpage{294}
+    \subitem {DLOG\_N\_TIMES}, \hyperpage{295}
+    \subitem {DPCHECK}, \hyperpage{295}
+    \subitem {DPLOG}, \hyperpage{295}
+    \subitem {DPLOG\_IF}, \hyperpage{295}
+    \subitem {DSYSLOG}, \hyperpage{295}
+    \subitem {DSYSLOG\_AFTER\_N}, \hyperpage{295}
+    \subitem {DSYSLOG\_EVERY\_N}, \hyperpage{296}
+    \subitem {DSYSLOG\_IF}, \hyperpage{296}
+    \subitem {DSYSLOG\_N\_TIMES}, \hyperpage{296}
+    \subitem {DVLOG}, \hyperpage{296}
+    \subitem {DVLOG\_AFTER\_N}, \hyperpage{296}
+    \subitem {DVLOG\_EVERY\_N}, \hyperpage{296}
+    \subitem {DVLOG\_IF}, \hyperpage{297}
+    \subitem {DVLOG\_N\_TIMES}, \hyperpage{297}
+    \subitem {el\_getVALength}, \hyperpage{297}
+    \subitem {el\_resolveVALength}, \hyperpage{297}
+    \subitem {ELPP}, \hyperpage{297}
+    \subitem {ELPP\_ASSERT}, \hyperpage{298}
+    \subitem {ELPP\_ASYNC\_LOGGING}, \hyperpage{298}
+    \subitem {ELPP\_COMPILER\_CLANG}, \hyperpage{298}
+    \subitem {ELPP\_COMPILER\_GCC}, \hyperpage{298}
+    \subitem {ELPP\_COMPILER\_INTEL}, \hyperpage{298}
+    \subitem {ELPP\_COMPILER\_MSVC}, \hyperpage{298}
+    \subitem {ELPP\_COUNTER}, \hyperpage{299}
+    \subitem {ELPP\_COUNTER\_POS}, \hyperpage{299}
+    \subitem {ELPP\_COUT}, \hyperpage{299}
+    \subitem {ELPP\_COUT\_LINE}, \hyperpage{299}
+    \subitem {ELPP\_CRASH\_HANDLER\_INIT}, \hyperpage{299}
+    \subitem {ELPP\_CRT\_DBG\_WARNINGS}, \hyperpage{299}
+    \subitem {ELPP\_CURR\_FILE\_LOGGER\_ID}, \hyperpage{299}
+    \subitem {ELPP\_CYGWIN}, \hyperpage{300}
+    \subitem {ELPP\_DEBUG\_LOG}, \hyperpage{300}
+    \subitem {ELPP\_ERROR\_LOG}, \hyperpage{300}
+    \subitem {ELPP\_EXPORT}, \hyperpage{300}
+    \subitem {ELPP\_FATAL\_LOG}, \hyperpage{300}
+    \subitem {ELPP\_FINAL}, \hyperpage{300}
+    \subitem {ELPP\_FUNC}, \hyperpage{300}
+    \subitem {ELPP\_INFO\_LOG}, \hyperpage{300}
+    \subitem {ELPP\_INIT\_EASYLOGGINGPP}, \hyperpage{301}
+    \subitem {ELPP\_INITIALIZE\_SYSLOG}, \hyperpage{301}
+    \subitem {ELPP\_INTERNAL\_DEBUGGING\_ENDL}, \hyperpage{301}
+    \subitem {ELPP\_INTERNAL\_DEBUGGING\_MSG}, \hyperpage{301}
+    \subitem {ELPP\_INTERNAL\_DEBUGGING\_OUT\_ERROR}, \hyperpage{301}
+    \subitem {ELPP\_INTERNAL\_DEBUGGING\_OUT\_INFO}, \hyperpage{301}
+    \subitem {ELPP\_INTERNAL\_DEBUGGING\_WRITE\_PERROR}, 
+		\hyperpage{302}
+    \subitem {ELPP\_INTERNAL\_ERROR}, \hyperpage{302}
+    \subitem {ELPP\_INTERNAL\_INFO}, \hyperpage{302}
+    \subitem {ELPP\_ITERATOR\_CONTAINER\_LOG\_FIVE\_ARG}, 
+		\hyperpage{302}
+    \subitem {ELPP\_ITERATOR\_CONTAINER\_LOG\_FOUR\_ARG}, 
+		\hyperpage{302}
+    \subitem {ELPP\_ITERATOR\_CONTAINER\_LOG\_ONE\_ARG}, 
+		\hyperpage{302}
+    \subitem {ELPP\_ITERATOR\_CONTAINER\_LOG\_THREE\_ARG}, 
+		\hyperpage{303}
+    \subitem {ELPP\_ITERATOR\_CONTAINER\_LOG\_TWO\_ARG}, 
+		\hyperpage{303}
+    \subitem {ELPP\_LITERAL}, \hyperpage{303}
+    \subitem {ELPP\_LOGGING\_ENABLED}, \hyperpage{303}
+    \subitem {ELPP\_MIN\_UNIT}, \hyperpage{303}
+    \subitem {ELPP\_MINGW}, \hyperpage{304}
+    \subitem {ELPP\_OS\_AIX}, \hyperpage{304}
+    \subitem {ELPP\_OS\_ANDROID}, \hyperpage{304}
+    \subitem {ELPP\_OS\_EMSCRIPTEN}, \hyperpage{304}
+    \subitem {ELPP\_OS\_FREEBSD}, \hyperpage{304}
+    \subitem {ELPP\_OS\_LINUX}, \hyperpage{304}
+    \subitem {ELPP\_OS\_MAC}, \hyperpage{304}
+    \subitem {ELPP\_OS\_NETBSD}, \hyperpage{304}
+    \subitem {ELPP\_OS\_QNX}, \hyperpage{305}
+    \subitem {ELPP\_OS\_SOLARIS}, \hyperpage{305}
+    \subitem {ELPP\_OS\_UNIX}, \hyperpage{305}
+    \subitem {ELPP\_OS\_WINDOWS}, \hyperpage{305}
+    \subitem {ELPP\_SIMPLE\_LOG}, \hyperpage{305}
+    \subitem {ELPP\_STACKTRACE}, \hyperpage{305}
+    \subitem {ELPP\_STRLEN}, \hyperpage{305}
+    \subitem {ELPP\_THREADING\_ENABLED}, \hyperpage{306}
+    \subitem {ELPP\_TRACE}, \hyperpage{306}
+    \subitem {ELPP\_TRACE\_LOG}, \hyperpage{306}
+    \subitem {ELPP\_UNUSED}, \hyperpage{306}
+    \subitem {ELPP\_USE\_DEF\_CRASH\_HANDLER}, \hyperpage{306}
+    \subitem {ELPP\_USE\_STD\_THREADING}, \hyperpage{306}
+    \subitem {ELPP\_VARIADIC\_TEMPLATES\_SUPPORTED}, \hyperpage{306}
+    \subitem {ELPP\_VERBOSE\_LOG}, \hyperpage{307}
+    \subitem {ELPP\_WARNING\_LOG}, \hyperpage{307}
+    \subitem {ELPP\_WRITE\_LOG}, \hyperpage{307}
+    \subitem {ELPP\_WRITE\_LOG\_AFTER\_N}, \hyperpage{307}
+    \subitem {ELPP\_WRITE\_LOG\_EVERY\_N}, \hyperpage{307}
+    \subitem {ELPP\_WRITE\_LOG\_IF}, \hyperpage{308}
+    \subitem {ELPP\_WRITE\_LOG\_N\_TIMES}, \hyperpage{308}
+    \subitem {ELPP\_WX\_ENABLED}, \hyperpage{308}
+    \subitem {ELPP\_WX\_HASH\_MAP\_ENABLED}, \hyperpage{308}
+    \subitem {ELPP\_WX\_PTR\_ENABLED}, \hyperpage{309}
+    \subitem {elpptime}, \hyperpage{309}
+    \subitem {elpptime\_r}, \hyperpage{309}
+    \subitem {elpptime\_s}, \hyperpage{309}
+    \subitem {INITIALIZE\_EASYLOGGINGPP}, \hyperpage{309}
+    \subitem {INITIALIZE\_NULL\_EASYLOGGINGPP}, \hyperpage{309}
+    \subitem {LOG}, \hyperpage{309}
+    \subitem {LOG\_AFTER\_N}, \hyperpage{310}
+    \subitem {LOG\_EVERY\_N}, \hyperpage{310}
+    \subitem {LOG\_IF}, \hyperpage{310}
+    \subitem {LOG\_N\_TIMES}, \hyperpage{310}
+    \subitem {MAKE\_CONTAINERELPP\_FRIENDLY}, \hyperpage{310}
+    \subitem {MAKE\_LOGGABLE}, \hyperpage{311}
+    \subitem {PCHECK}, \hyperpage{311}
+    \subitem {PERFORMANCE\_CHECKPOINT}, \hyperpage{311}
+    \subitem {PERFORMANCE\_CHECKPOINT\_WITH\_ID}, \hyperpage{312}
+    \subitem {PLOG}, \hyperpage{312}
+    \subitem {PLOG\_IF}, \hyperpage{312}
+    \subitem {SHARE\_EASYLOGGINGPP}, \hyperpage{312}
+    \subitem {START\_EASYLOGGINGPP}, \hyperpage{312}
+    \subitem {STRCAT}, \hyperpage{312}
+    \subitem {STRCPY}, \hyperpage{313}
+    \subitem {STRERROR}, \hyperpage{313}
+    \subitem {STRTOK}, \hyperpage{313}
+    \subitem {SYSLOG}, \hyperpage{313}
+    \subitem {SYSLOG\_AFTER\_N}, \hyperpage{313}
+    \subitem {SYSLOG\_EVERY\_N}, \hyperpage{313}
+    \subitem {SYSLOG\_IF}, \hyperpage{314}
+    \subitem {SYSLOG\_N\_TIMES}, \hyperpage{314}
+    \subitem {TIMED\_BLOCK}, \hyperpage{314}
+    \subitem {TIMED\_FUNC}, \hyperpage{314}
+    \subitem {TIMED\_FUNC\_IF}, \hyperpage{314}
+    \subitem {TIMED\_SCOPE}, \hyperpage{315}
+    \subitem {TIMED\_SCOPE\_IF}, \hyperpage{315}
+    \subitem {VLOG}, \hyperpage{315}
+    \subitem {VLOG\_AFTER\_N}, \hyperpage{315}
+    \subitem {VLOG\_EVERY\_N}, \hyperpage{316}
+    \subitem {VLOG\_IF}, \hyperpage{316}
+    \subitem {VLOG\_IS\_ON}, \hyperpage{316}
+    \subitem {VLOG\_N\_TIMES}, \hyperpage{316}
+  \item {el}, \hyperpage{15}
+    \subitem {AllowVerboseIfModuleNotSpecified}, \hyperpage{18}
+    \subitem {AutoSpacing}, \hyperpage{19}
+    \subitem {ColoredTerminalOutput}, \hyperpage{18}
+    \subitem {configStringToTypeMap}, \hyperpage{19}
+    \subitem {ConfigurationType}, \hyperpage{17}
+    \subitem {CreateLoggerAutomatically}, \hyperpage{19}
+    \subitem {Debug}, \hyperpage{18}
+    \subitem {DisableApplicationAbortOnFatalLog}, \hyperpage{18}
+    \subitem {DisablePerformanceTrackingCheckpointComparison}, 
+		\hyperpage{18}
+    \subitem {DisableVModules}, \hyperpage{19}
+    \subitem {DisableVModulesExtensions}, \hyperpage{19}
+    \subitem {elCrashHandler}, \hyperpage{19}
+    \subitem {Enabled}, \hyperpage{17}
+    \subitem {Error}, \hyperpage{18}
+    \subitem {Fatal}, \hyperpage{18}
+    \subitem {Filename}, \hyperpage{17}
+    \subitem {FixedTimeFormat}, \hyperpage{19}
+    \subitem {Format}, \hyperpage{17}
+    \subitem {FormatSpecifierValueResolver}, \hyperpage{17}
+    \subitem {Global}, \hyperpage{18}
+    \subitem {HierarchicalLogging}, \hyperpage{19}
+    \subitem {IgnoreSigInt}, \hyperpage{19}
+    \subitem {ImmediateFlush}, \hyperpage{18}
+    \subitem {Info}, \hyperpage{18}
+    \subitem {Level}, \hyperpage{18}
+    \subitem {LogBuilderPtr}, \hyperpage{17}
+    \subitem {LogDetailedCrashReason}, \hyperpage{18}
+    \subitem {LogFlushThreshold}, \hyperpage{17}
+    \subitem {LoggingFlag}, \hyperpage{18}
+    \subitem {MaxLogFileSize}, \hyperpage{17}
+    \subitem {MillisecondsWidth}, \hyperpage{17}
+    \subitem {MultiLoggerSupport}, \hyperpage{18}
+    \subitem {NewLineForContainer}, \hyperpage{18}
+    \subitem {PerformanceTracking}, \hyperpage{17}
+    \subitem {PreRollOutCallback}, \hyperpage{17}
+    \subitem {StrictLogFileSizeCheck}, \hyperpage{18}
+    \subitem {stringToLevelMap}, \hyperpage{19}
+    \subitem {SubsecondPrecision}, \hyperpage{17}
+    \subitem {ToFile}, \hyperpage{17}
+    \subitem {ToStandardOutput}, \hyperpage{17}
+    \subitem {Trace}, \hyperpage{18}
+    \subitem {Unknown}, \hyperpage{17, 18}
+    \subitem {Verbose}, \hyperpage{18}
+    \subitem {Warning}, \hyperpage{18}
+  \item {el::base}, \hyperpage{20}
+    \subitem {AppName}, \hyperpage{23}
+    \subitem {DateTime}, \hyperpage{22}
+    \subitem {Day}, \hyperpage{23}
+    \subitem {defaultPreRollOutCallback}, \hyperpage{23}
+    \subitem {DispatchAction}, \hyperpage{22}
+    \subitem {elStorage}, \hyperpage{23}
+    \subitem {File}, \hyperpage{22}
+    \subitem {FileBase}, \hyperpage{23}
+    \subitem {FileStreamPtr}, \hyperpage{21}
+    \subitem {FormatFlags}, \hyperpage{22}
+    \subitem {Function}, \hyperpage{22}
+    \subitem {Host}, \hyperpage{22}
+    \subitem {Hour}, \hyperpage{23}
+    \subitem {Level}, \hyperpage{23}
+    \subitem {LevelShort}, \hyperpage{23}
+    \subitem {Line}, \hyperpage{22}
+    \subitem {Location}, \hyperpage{22}
+    \subitem {LoggerId}, \hyperpage{22}
+    \subitem {LogMessage}, \hyperpage{22}
+    \subitem {LogStreamsReferenceMap}, \hyperpage{21}
+    \subitem {LogStreamsReferenceMapPtr}, \hyperpage{21}
+    \subitem {Microsecond}, \hyperpage{23}
+    \subitem {Millisecond}, \hyperpage{23}
+    \subitem {MillisecondsWidth}, \hyperpage{22}
+    \subitem {Minute}, \hyperpage{23}
+    \subitem {None}, \hyperpage{22}
+    \subitem {NormalLog}, \hyperpage{22}
+    \subitem {Second}, \hyperpage{23}
+    \subitem {SysLog}, \hyperpage{22}
+    \subitem {ThreadId}, \hyperpage{23}
+    \subitem {TimestampUnit}, \hyperpage{23}
+    \subitem {User}, \hyperpage{22}
+    \subitem {VerboseLevel}, \hyperpage{23}
+  \item {el::base::consts}, \hyperpage{23}
+    \subitem {brief}, \hyperpage{25}
+    \subitem {detail}, \hyperpage{25}
+    \subitem {kAm}, \hyperpage{25}
+    \subitem {kAppNameFormatSpecifier}, \hyperpage{25}
+    \subitem {kConfigurationComment}, \hyperpage{26}
+    \subitem {kConfigurationLevel}, \hyperpage{26}
+    \subitem {kConfigurationLoggerId}, \hyperpage{26}
+    \subitem {kCrashSignals}, \hyperpage{26}
+    \subitem {kCrashSignalsCount}, \hyperpage{26}
+    \subitem {kCurrentHostFormatSpecifier}, \hyperpage{27}
+    \subitem {kCurrentUserFormatSpecifier}, \hyperpage{27}
+    \subitem {kDateTimeFormatSpecifier}, \hyperpage{27}
+    \subitem {kDateTimeFormatSpecifierForFilename}, \hyperpage{27}
+    \subitem {kDays}, \hyperpage{27}
+    \subitem {kDaysAbbrev}, \hyperpage{27}
+    \subitem {kDebugLevelLogValue}, \hyperpage{27}
+    \subitem {kDebugLevelShortLogValue}, \hyperpage{28}
+    \subitem {kDefaultDateTimeFormat}, \hyperpage{28}
+    \subitem {kDefaultDateTimeFormatInFilename}, \hyperpage{28}
+    \subitem {kDefaultLogFile}, \hyperpage{28}
+    \subitem {kDefaultLogFileParam}, \hyperpage{28}
+    \subitem {kDefaultLoggerId}, \hyperpage{28}
+    \subitem {kDefaultSubsecondPrecision}, \hyperpage{28}
+    \subitem {kErrorLevelLogValue}, \hyperpage{28}
+    \subitem {kErrorLevelShortLogValue}, \hyperpage{29}
+    \subitem {kFatalLevelLogValue}, \hyperpage{29}
+    \subitem {kFatalLevelShortLogValue}, \hyperpage{29}
+    \subitem {kFilePathSeparator}, \hyperpage{29}
+    \subitem {kFormatSpecifierChar}, \hyperpage{29}
+    \subitem {kFormatSpecifierCharValue}, \hyperpage{29}
+    \subitem {kInfoLevelLogValue}, \hyperpage{29}
+    \subitem {kInfoLevelShortLogValue}, \hyperpage{29}
+    \subitem {kLogFileBaseFormatSpecifier}, \hyperpage{30}
+    \subitem {kLogFileFormatSpecifier}, \hyperpage{30}
+    \subitem {kLogFunctionFormatSpecifier}, \hyperpage{30}
+    \subitem {kLoggerIdFormatSpecifier}, \hyperpage{30}
+    \subitem {kLogLineFormatSpecifier}, \hyperpage{30}
+    \subitem {kLogLocationFormatSpecifier}, \hyperpage{30}
+    \subitem {kMaxLogPerContainer}, \hyperpage{30}
+    \subitem {kMaxLogPerCounter}, \hyperpage{31}
+    \subitem {kMaxVerboseLevel}, \hyperpage{31}
+    \subitem {kMessageFormatSpecifier}, \hyperpage{31}
+    \subitem {kMonths}, \hyperpage{31}
+    \subitem {kMonthsAbbrev}, \hyperpage{31}
+    \subitem {kNullPointer}, \hyperpage{31}
+    \subitem {kPerformanceTrackerDefaultLevel}, \hyperpage{31}
+    \subitem {kPm}, \hyperpage{32}
+    \subitem {kSeverityLevelFormatSpecifier}, \hyperpage{32}
+    \subitem {kSeverityLevelShortFormatSpecifier}, \hyperpage{32}
+    \subitem {kSourceFilenameMaxLength}, \hyperpage{32}
+    \subitem {kSourceLineMaxLength}, \hyperpage{32}
+    \subitem {kThreadIdFormatSpecifier}, \hyperpage{32}
+    \subitem {kTimeFormats}, \hyperpage{32}
+    \subitem {kTimeFormatsCount}, \hyperpage{33}
+    \subitem {kTraceLevelLogValue}, \hyperpage{33}
+    \subitem {kTraceLevelShortLogValue}, \hyperpage{33}
+    \subitem {kUnknownHost}, \hyperpage{33}
+    \subitem {kUnknownUser}, \hyperpage{33}
+    \subitem {kValidLoggerIdSymbols}, \hyperpage{33}
+    \subitem {kVerboseLevelFormatSpecifier}, \hyperpage{33}
+    \subitem {kVerboseLevelLogValue}, \hyperpage{34}
+    \subitem {kVerboseLevelShortLogValue}, \hyperpage{34}
+    \subitem {kWarningLevelLogValue}, \hyperpage{34}
+    \subitem {kWarningLevelShortLogValue}, \hyperpage{34}
+    \subitem {kYearBase}, \hyperpage{34}
+    \subitem {name}, \hyperpage{34}
+    \subitem {numb}, \hyperpage{34}
+    \subitem {unit}, \hyperpage{35}
+    \subitem {value}, \hyperpage{35}
+  \item {el::base::debug}, \hyperpage{35}
+  \item {el::base::debug::CrashHandler}, \hyperpage{74}
+    \subitem {CrashHandler}, \hyperpage{75}
+  \item {el::base::DefaultLogBuilder}, \hyperpage{79}
+    \subitem {build}, \hyperpage{80}
+  \item {el::base::DefaultLogDispatchCallback}, \hyperpage{81}
+    \subitem {dispatch}, \hyperpage{82}
+    \subitem {el::base::Storage}, \hyperpage{184}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{207}
+    \subitem {el::LogBuilder}, \hyperpage{99}
+    \subitem {el::Logger}, \hyperpage{120}
+    \subitem {handle}, \hyperpage{82}
+    \subitem {m\_data}, \hyperpage{82}
+  \item {el::base::HitCounter}, \hyperpage{91}
+    \subitem {\texorpdfstring{$\sim$}{\string~}HitCounter}, 
+		\hyperpage{93}
+    \subitem {filename}, \hyperpage{93}
+    \subitem {HitCounter}, \hyperpage{92}
+    \subitem {hitCounts}, \hyperpage{93}
+    \subitem {increment}, \hyperpage{93}
+    \subitem {lineNumber}, \hyperpage{93}
+    \subitem {m\_filename}, \hyperpage{94}
+    \subitem {m\_hitCounts}, \hyperpage{94}
+    \subitem {m\_lineNumber}, \hyperpage{94}
+    \subitem {operator=}, \hyperpage{93}
+    \subitem {resetLocation}, \hyperpage{94}
+    \subitem {validateHitCounts}, \hyperpage{94}
+  \item {el::base::HitCounter::Predicate}, \hyperpage{152}
+    \subitem {m\_filename}, \hyperpage{153}
+    \subitem {m\_lineNumber}, \hyperpage{153}
+    \subitem {operator()}, \hyperpage{153}
+    \subitem {Predicate}, \hyperpage{153}
+  \item {el::base::LogDispatcher}, \hyperpage{104}
+    \subitem {dispatch}, \hyperpage{105}
+    \subitem {el::base::Storage}, \hyperpage{184}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{207}
+    \subitem {el::Logger}, \hyperpage{120}
+    \subitem {LogDispatcher}, \hyperpage{105}
+    \subitem {m\_dispatchAction}, \hyperpage{105}
+    \subitem {m\_logMessage}, \hyperpage{105}
+    \subitem {m\_proceed}, \hyperpage{105}
+  \item {el::base::LogFormat}, \hyperpage{106}
+    \subitem {\texorpdfstring{$\sim$}{\string~}LogFormat}, 
+		\hyperpage{107}
+    \subitem {addFlag}, \hyperpage{108}
+    \subitem {dateTimeFormat}, \hyperpage{108}
+    \subitem {el::Logger}, \hyperpage{111}
+    \subitem {flags}, \hyperpage{108}
+    \subitem {format}, \hyperpage{108}
+    \subitem {hasFlag}, \hyperpage{108}
+    \subitem {level}, \hyperpage{108}
+    \subitem {log}, \hyperpage{109}
+    \subitem {LogFormat}, \hyperpage{107}
+    \subitem {m\_currentHost}, \hyperpage{111}
+    \subitem {m\_currentUser}, \hyperpage{111}
+    \subitem {m\_dateTimeFormat}, \hyperpage{111}
+    \subitem {m\_flags}, \hyperpage{111}
+    \subitem {m\_format}, \hyperpage{111}
+    \subitem {m\_level}, \hyperpage{111}
+    \subitem {m\_userFormat}, \hyperpage{111}
+    \subitem {operator=}, \hyperpage{109}
+    \subitem {operator==}, \hyperpage{109}
+    \subitem {parseFromFormat}, \hyperpage{109}
+    \subitem {updateDateFormat}, \hyperpage{110}
+    \subitem {updateFormatSpec}, \hyperpage{110}
+    \subitem {userFormat}, \hyperpage{110}
+  \item {el::base::MessageBuilder}, \hyperpage{136}
+    \subitem {el::base::Storage}, \hyperpage{185}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{207}
+    \subitem {el::Logger}, \hyperpage{120}
+    \subitem {initialize}, \hyperpage{137}
+    \subitem {m\_containerLogSeparator}, \hyperpage{138}
+    \subitem {m\_logger}, \hyperpage{138}
+    \subitem {MessageBuilder}, \hyperpage{136}
+    \subitem {operator$<$$<$}, \hyperpage{137}
+    \subitem {writeIterator}, \hyperpage{137}
+  \item {el::base::NoCopy}, \hyperpage{138}
+    \subitem {NoCopy}, \hyperpage{139}
+    \subitem {operator=}, \hyperpage{139}
+  \item {el::base::NullWriter}, \hyperpage{142}
+    \subitem {NullWriter}, \hyperpage{143}
+    \subitem {operator bool}, \hyperpage{143}
+    \subitem {operator$<$$<$}, \hyperpage{143}
+  \item {el::base::PerformanceTracker}
+    \subitem {el::base::Storage}, \hyperpage{185}
+    \subitem {el::Logger}, \hyperpage{120}
+  \item {el::base::PErrorWriter}, \hyperpage{150}
+    \subitem {\texorpdfstring{$\sim$}{\string~}PErrorWriter}, 
+		\hyperpage{152}
+    \subitem {el::Logger}, \hyperpage{120}
+    \subitem {PErrorWriter}, \hyperpage{152}
+  \item {el::base::RegisteredHitCounters}, \hyperpage{155}
+    \subitem {getCounter}, \hyperpage{157}
+    \subitem {validateAfterN}, \hyperpage{157}
+    \subitem {validateEveryN}, \hyperpage{157}
+    \subitem {validateNTimes}, \hyperpage{158}
+  \item {el::base::RegisteredLoggers}, \hyperpage{158}
+    \subitem {\texorpdfstring{$\sim$}{\string~}RegisteredLoggers}, 
+		\hyperpage{161}
+    \subitem {defaultConfigurations}, \hyperpage{161}
+    \subitem {el::base::Storage}, \hyperpage{164}
+    \subitem {el::Logger}, \hyperpage{120}
+    \subitem {flushAll}, \hyperpage{161}
+    \subitem {get}, \hyperpage{162}
+    \subitem {has}, \hyperpage{162}
+    \subitem {installLoggerRegistrationCallback}, \hyperpage{162}
+    \subitem {loggerRegistrationCallback}, \hyperpage{162}
+    \subitem {logStreamsReference}, \hyperpage{162}
+    \subitem {m\_defaultConfigurations}, \hyperpage{164}
+    \subitem {m\_defaultLogBuilder}, \hyperpage{164}
+    \subitem {m\_loggerRegistrationCallbacks}, \hyperpage{164}
+    \subitem {m\_logStreamsReference}, \hyperpage{164}
+    \subitem {RegisteredLoggers}, \hyperpage{161}
+    \subitem {remove}, \hyperpage{162}
+    \subitem {setDefaultConfigurations}, \hyperpage{163}
+    \subitem {setDefaultLogBuilder}, \hyperpage{163}
+    \subitem {uninstallLoggerRegistrationCallback}, \hyperpage{163}
+    \subitem {unregister}, \hyperpage{163}
+    \subitem {unsafeFlushAll}, \hyperpage{163}
+  \item {el::base::StaticClass}, \hyperpage{176}
+    \subitem {operator=}, \hyperpage{177}
+    \subitem {StaticClass}, \hyperpage{177}
+  \item {el::base::Storage}, \hyperpage{177}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Storage}, 
+		\hyperpage{179}
+    \subitem {addFlag}, \hyperpage{180}
+    \subitem {commandLineArgs}, \hyperpage{180}
+    \subitem {customFormatSpecifiers}, \hyperpage{180}
+    \subitem {customFormatSpecifiersLock}, \hyperpage{180}
+    \subitem {el::base::DefaultLogDispatchCallback}, \hyperpage{184}
+    \subitem {el::base::LogDispatcher}, \hyperpage{184}
+    \subitem {el::base::MessageBuilder}, \hyperpage{185}
+    \subitem {el::base::PerformanceTracker}, \hyperpage{185}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{164}
+    \subitem {el::base::Writer}, \hyperpage{185}
+    \subitem {el::Helpers}, \hyperpage{185}
+    \subitem {el::LogBuilder}, \hyperpage{185}
+    \subitem {el::Logger}, \hyperpage{120}
+    \subitem {flags}, \hyperpage{180}
+    \subitem {getThreadName}, \hyperpage{180}
+    \subitem {hasCustomFormatSpecifier}, \hyperpage{181}
+    \subitem {hasFlag}, \hyperpage{181}
+    \subitem {hitCounters}, \hyperpage{181}
+    \subitem {installCustomFormatSpecifier}, \hyperpage{181}
+    \subitem {installLogDispatchCallback}, \hyperpage{181}
+    \subitem {logDispatchCallback}, \hyperpage{181}
+    \subitem {m\_commandLineArgs}, \hyperpage{185}
+    \subitem {m\_customFormatSpecifiers}, \hyperpage{185}
+    \subitem {m\_customFormatSpecifiersLock}, \hyperpage{186}
+    \subitem {m\_flags}, \hyperpage{186}
+    \subitem {m\_logDispatchCallbacks}, \hyperpage{186}
+    \subitem {m\_loggingLevel}, \hyperpage{186}
+    \subitem {m\_performanceTrackingCallbacks}, \hyperpage{186}
+    \subitem {m\_preRollOutCallback}, \hyperpage{186}
+    \subitem {m\_registeredHitCounters}, \hyperpage{186}
+    \subitem {m\_registeredLoggers}, \hyperpage{187}
+    \subitem {m\_threadNames}, \hyperpage{187}
+    \subitem {m\_threadNamesLock}, \hyperpage{187}
+    \subitem {m\_vRegistry}, \hyperpage{187}
+    \subitem {preRollOutCallback}, \hyperpage{182}
+    \subitem {registeredLoggers}, \hyperpage{182}
+    \subitem {removeFlag}, \hyperpage{182}
+    \subitem {setApplicationArguments}, \hyperpage{182}
+    \subitem {setFlags}, \hyperpage{182}
+    \subitem {setLoggingLevel}, \hyperpage{183}
+    \subitem {setPreRollOutCallback}, \hyperpage{183}
+    \subitem {setThreadName}, \hyperpage{183}
+    \subitem {Storage}, \hyperpage{179}
+    \subitem {uninstallCustomFormatSpecifier}, \hyperpage{183}
+    \subitem {uninstallLogDispatchCallback}, \hyperpage{183}
+    \subitem {unsetPreRollOutCallback}, \hyperpage{183}
+    \subitem {validateAfterNCounter}, \hyperpage{184}
+    \subitem {validateEveryNCounter}, \hyperpage{184}
+    \subitem {validateNTimesCounter}, \hyperpage{184}
+    \subitem {vRegistry}, \hyperpage{184}
+  \item {el::base::SubsecondPrecision}, \hyperpage{194}
+    \subitem {init}, \hyperpage{195}
+    \subitem {m\_offset}, \hyperpage{195}
+    \subitem {m\_width}, \hyperpage{195}
+    \subitem {operator==}, \hyperpage{195}
+    \subitem {SubsecondPrecision}, \hyperpage{194}
+  \item {el::base::threading}, \hyperpage{35}
+    \subitem {getCurrentThreadId}, \hyperpage{36}
+    \subitem {Mutex}, \hyperpage{36}
+    \subitem {ScopedLock}, \hyperpage{36}
+  \item {el::base::threading::internal}, \hyperpage{36}
+  \item {el::base::threading::internal::NoMutex}, \hyperpage{139}
+    \subitem {lock}, \hyperpage{140}
+    \subitem {NoMutex}, \hyperpage{140}
+    \subitem {try\_lock}, \hyperpage{140}
+    \subitem {unlock}, \hyperpage{140}
+  \item {el::base::threading::internal::NoScopedLock$<$ Mutex $>$}, 
+		\hyperpage{141}
+    \subitem {\texorpdfstring{$\sim$}{\string~}NoScopedLock}, 
+		\hyperpage{142}
+    \subitem {NoScopedLock}, \hyperpage{142}
+  \item {el::base::threading::ThreadSafe}, \hyperpage{197}
+    \subitem {\texorpdfstring{$\sim$}{\string~}ThreadSafe}, 
+		\hyperpage{198}
+    \subitem {acquireLock}, \hyperpage{198}
+    \subitem {lock}, \hyperpage{198}
+    \subitem {m\_mutex}, \hyperpage{198}
+    \subitem {releaseLock}, \hyperpage{198}
+    \subitem {ThreadSafe}, \hyperpage{198}
+  \item {el::base::type}, \hyperpage{37}
+    \subitem {char\_t}, \hyperpage{37}
+    \subitem {EnumType}, \hyperpage{37}
+    \subitem {fstream\_t}, \hyperpage{37}
+    \subitem {LineNumber}, \hyperpage{37}
+    \subitem {LogDispatchCallbackPtr}, \hyperpage{38}
+    \subitem {LoggerRegistrationCallbackPtr}, \hyperpage{38}
+    \subitem {ostream\_t}, \hyperpage{38}
+    \subitem {PerformanceTrackerPtr}, \hyperpage{38}
+    \subitem {PerformanceTrackingCallbackPtr}, \hyperpage{38}
+    \subitem {StoragePointer}, \hyperpage{38}
+    \subitem {string\_t}, \hyperpage{38}
+    \subitem {stringstream\_t}, \hyperpage{38}
+    \subitem {VerboseLevel}, \hyperpage{39}
+  \item {el::base::TypedConfigurations}, \hyperpage{199}
+    \subitem {\texorpdfstring{$\sim$}{\string~}TypedConfigurations}, 
+		\hyperpage{202}
+    \subitem {build}, \hyperpage{202}
+    \subitem {configurations}, \hyperpage{202}
+    \subitem {el::base::DefaultLogDispatchCallback}, \hyperpage{207}
+    \subitem {el::base::LogDispatcher}, \hyperpage{207}
+    \subitem {el::base::MessageBuilder}, \hyperpage{207}
+    \subitem {el::base::Writer}, \hyperpage{207}
+    \subitem {el::Helpers}, \hyperpage{207}
+    \subitem {enabled}, \hyperpage{202}
+    \subitem {filename}, \hyperpage{203}
+    \subitem {fileStream}, \hyperpage{203}
+    \subitem {getConfigByRef}, \hyperpage{203}
+    \subitem {getConfigByVal}, \hyperpage{203}
+    \subitem {getULong}, \hyperpage{203}
+    \subitem {insertFile}, \hyperpage{204}
+    \subitem {logFlushThreshold}, \hyperpage{204}
+    \subitem {logFormat}, \hyperpage{204}
+    \subitem {m\_configurations}, \hyperpage{207}
+    \subitem {m\_enabledMap}, \hyperpage{207}
+    \subitem {m\_filenameMap}, \hyperpage{208}
+    \subitem {m\_fileStreamMap}, \hyperpage{208}
+    \subitem {m\_logFlushThresholdMap}, \hyperpage{208}
+    \subitem {m\_logFormatMap}, \hyperpage{208}
+    \subitem {m\_logStreamsReference}, \hyperpage{208}
+    \subitem {m\_maxLogFileSizeMap}, \hyperpage{208}
+    \subitem {m\_performanceTrackingMap}, \hyperpage{208}
+    \subitem {m\_subsecondPrecisionMap}, \hyperpage{209}
+    \subitem {m\_toFileMap}, \hyperpage{209}
+    \subitem {m\_toStandardOutputMap}, \hyperpage{209}
+    \subitem {maxLogFileSize}, \hyperpage{204}
+    \subitem {millisecondsWidth}, \hyperpage{204}
+    \subitem {performanceTracking}, \hyperpage{205}
+    \subitem {resolveFilename}, \hyperpage{205}
+    \subitem {setValue}, \hyperpage{205}
+    \subitem {subsecondPrecision}, \hyperpage{205}
+    \subitem {toFile}, \hyperpage{205}
+    \subitem {toStandardOutput}, \hyperpage{206}
+    \subitem {TypedConfigurations}, \hyperpage{201, 202}
+    \subitem {unsafeGetConfigByRef}, \hyperpage{206}
+    \subitem {unsafeGetConfigByVal}, \hyperpage{206}
+    \subitem {unsafeValidateFileRolling}, \hyperpage{206}
+    \subitem {validateFileRolling}, \hyperpage{206}
+  \item {el::base::utils}, \hyperpage{39}
+    \subitem {abort}, \hyperpage{40}
+    \subitem {addFlag}, \hyperpage{40}
+    \subitem {hasFlag}, \hyperpage{40}
+    \subitem {operator$<$$<$}, \hyperpage{40}
+    \subitem {removeFlag}, \hyperpage{41}
+    \subitem {safeDelete}, \hyperpage{41}
+  \item {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{45}
+    \subitem {\texorpdfstring{$\sim$}{\string~}AbstractRegistry}, 
+		\hyperpage{47}
+    \subitem {AbstractRegistry}, \hyperpage{47}
+    \subitem {begin}, \hyperpage{47}
+    \subitem {cbegin}, \hyperpage{47}
+    \subitem {cend}, \hyperpage{48}
+    \subitem {const\_iterator}, \hyperpage{46}
+    \subitem {deepCopy}, \hyperpage{48}
+    \subitem {empty}, \hyperpage{48}
+    \subitem {end}, \hyperpage{48}
+    \subitem {iterator}, \hyperpage{46}
+    \subitem {list}, \hyperpage{49}
+    \subitem {m\_list}, \hyperpage{50}
+    \subitem {operator!=}, \hyperpage{49}
+    \subitem {operator=}, \hyperpage{49}
+    \subitem {operator==}, \hyperpage{49}
+    \subitem {reinitDeepCopy}, \hyperpage{50}
+    \subitem {size}, \hyperpage{50}
+    \subitem {unregisterAll}, \hyperpage{50}
+  \item {el::base::utils::bitwise}, \hyperpage{41}
+    \subitem {And}, \hyperpage{42}
+    \subitem {Not}, \hyperpage{42}
+    \subitem {Or}, \hyperpage{42}
+  \item {el::base::utils::CommandLineArgs}, \hyperpage{53}
+    \subitem {\texorpdfstring{$\sim$}{\string~}CommandLineArgs}, 
+		\hyperpage{54}
+    \subitem {CommandLineArgs}, \hyperpage{53, 54}
+    \subitem {empty}, \hyperpage{54}
+    \subitem {getParamValue}, \hyperpage{54}
+    \subitem {hasParam}, \hyperpage{54}
+    \subitem {hasParamWithValue}, \hyperpage{55}
+    \subitem {m\_argc}, \hyperpage{56}
+    \subitem {m\_argv}, \hyperpage{56}
+    \subitem {m\_params}, \hyperpage{56}
+    \subitem {m\_paramsWithValue}, \hyperpage{56}
+    \subitem {operator$<$$<$}, \hyperpage{56}
+    \subitem {setArgs}, \hyperpage{55}
+    \subitem {size}, \hyperpage{55}
+  \item {el::base::utils::DateTime}, \hyperpage{77}
+    \subitem {buildTimeInfo}, \hyperpage{77}
+    \subitem {formatTime}, \hyperpage{77}
+    \subitem {getDateTime}, \hyperpage{78}
+    \subitem {getTimeDifference}, \hyperpage{78}
+    \subitem {gettimeofday}, \hyperpage{78}
+    \subitem {parseFormat}, \hyperpage{79}
+    \subitem {timevalToString}, \hyperpage{79}
+  \item {el::base::utils::File}, \hyperpage{83}
+    \subitem {buildBaseFilename}, \hyperpage{83}
+    \subitem {buildStrippedFilename}, \hyperpage{83}
+    \subitem {createPath}, \hyperpage{84}
+    \subitem {extractPathFromFilename}, \hyperpage{84}
+    \subitem {getSizeOfFile}, \hyperpage{84}
+    \subitem {newFileStream}, \hyperpage{84}
+    \subitem {pathExists}, \hyperpage{85}
+  \item {el::base::utils::OS}, \hyperpage{144}
+    \subitem {currentHost}, \hyperpage{144}
+    \subitem {currentUser}, \hyperpage{144}
+    \subitem {getBashOutput}, \hyperpage{145}
+    \subitem {getEnvironmentVariable}, \hyperpage{145}
+    \subitem {termSupportsColor}, \hyperpage{146}
+  \item {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{165}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Registry}, 
+		\hyperpage{167}
+    \subitem {const\_iterator}, \hyperpage{167}
+    \subitem {deepCopy}, \hyperpage{168}
+    \subitem {get}, \hyperpage{168}
+    \subitem {iterator}, \hyperpage{167}
+    \subitem {operator=}, \hyperpage{168}
+    \subitem {registerNew}, \hyperpage{168}
+    \subitem {Registry}, \hyperpage{167}
+    \subitem {unregister}, \hyperpage{168}
+    \subitem {unregisterAll}, \hyperpage{169}
+  \item {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{169}
+    \subitem {\texorpdfstring{$\sim$}{\string~}RegistryWithPred}, 
+		\hyperpage{172}
+    \subitem {const\_iterator}, \hyperpage{171}
+    \subitem {deepCopy}, \hyperpage{172}
+    \subitem {get}, \hyperpage{172}
+    \subitem {iterator}, \hyperpage{171}
+    \subitem {operator$<$$<$}, \hyperpage{174}
+    \subitem {operator=}, \hyperpage{173}
+    \subitem {registerNew}, \hyperpage{173}
+    \subitem {RegistryWithPred}, \hyperpage{172}
+    \subitem {unregister}, \hyperpage{173}
+    \subitem {unregisterAll}, \hyperpage{173}
+  \item {el::base::utils::Str}, \hyperpage{187}
+    \subitem {addToBuff}, \hyperpage{188}
+    \subitem {clearBuff}, \hyperpage{188}
+    \subitem {contains}, \hyperpage{189}
+    \subitem {convertAndAddToBuff}, \hyperpage{189}
+    \subitem {cStringCaseEq}, \hyperpage{189}
+    \subitem {cStringEq}, \hyperpage{189}
+    \subitem {endsWith}, \hyperpage{189}
+    \subitem {isDigit}, \hyperpage{190}
+    \subitem {ltrim}, \hyperpage{190}
+    \subitem {replaceAll}, \hyperpage{190, 191}
+    \subitem {replaceFirstWithEscape}, \hyperpage{191}
+    \subitem {rtrim}, \hyperpage{191}
+    \subitem {startsWith}, \hyperpage{191}
+    \subitem {toUpper}, \hyperpage{192}
+    \subitem {trim}, \hyperpage{192}
+    \subitem {wcharPtrToCharPtr}, \hyperpage{192}
+    \subitem {wildCardMatch}, \hyperpage{192}
+  \item {el::base::utils::Utils}, \hyperpage{209}
+    \subitem {callback}, \hyperpage{210}
+    \subitem {installCallback}, \hyperpage{210}
+    \subitem {uninstallCallback}, \hyperpage{210}
+  \item {el::base::VRegistry}, \hyperpage{211}
+    \subitem {allowed}, \hyperpage{213}
+    \subitem {clearModules}, \hyperpage{213}
+    \subitem {level}, \hyperpage{213}
+    \subitem {m\_level}, \hyperpage{214}
+    \subitem {m\_modules}, \hyperpage{214}
+    \subitem {m\_pFlags}, \hyperpage{215}
+    \subitem {modules}, \hyperpage{213}
+    \subitem {setFromArgs}, \hyperpage{213}
+    \subitem {setLevel}, \hyperpage{214}
+    \subitem {setModules}, \hyperpage{214}
+    \subitem {vModulesEnabled}, \hyperpage{214}
+    \subitem {VRegistry}, \hyperpage{213}
+  \item {el::base::Writer}, \hyperpage{215}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Writer}, \hyperpage{216}
+    \subitem {construct}, \hyperpage{217}
+    \subitem {el::base::Storage}, \hyperpage{185}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{207}
+    \subitem {el::Helpers}, \hyperpage{218}
+    \subitem {el::Logger}, \hyperpage{120}
+    \subitem {initializeLogger}, \hyperpage{217}
+    \subitem {m\_dispatchAction}, \hyperpage{218}
+    \subitem {m\_file}, \hyperpage{218}
+    \subitem {m\_func}, \hyperpage{219}
+    \subitem {m\_level}, \hyperpage{219}
+    \subitem {m\_line}, \hyperpage{219}
+    \subitem {m\_logger}, \hyperpage{219}
+    \subitem {m\_loggerIds}, \hyperpage{219}
+    \subitem {m\_messageBuilder}, \hyperpage{219}
+    \subitem {m\_msg}, \hyperpage{219}
+    \subitem {m\_proceed}, \hyperpage{219}
+    \subitem {m\_verboseLevel}, \hyperpage{220}
+    \subitem {operator bool}, \hyperpage{217}
+    \subitem {operator$<$$<$}, \hyperpage{217, 218}
+    \subitem {processDispatch}, \hyperpage{218}
+    \subitem {triggerDispatch}, \hyperpage{218}
+    \subitem {Writer}, \hyperpage{216}
+  \item {el::Callback$<$ T $>$}, \hyperpage{51}
+    \subitem {Callback}, \hyperpage{52}
+    \subitem {enabled}, \hyperpage{52}
+    \subitem {handle}, \hyperpage{52}
+    \subitem {m\_enabled}, \hyperpage{52}
+    \subitem {setEnabled}, \hyperpage{52}
+  \item {el::Configuration}, \hyperpage{57}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Configuration}, 
+		\hyperpage{58}
+    \subitem {Configuration}, \hyperpage{58}
+    \subitem {configurationType}, \hyperpage{58}
+    \subitem {level}, \hyperpage{58}
+    \subitem {log}, \hyperpage{59}
+    \subitem {m\_configurationType}, \hyperpage{60}
+    \subitem {m\_level}, \hyperpage{60}
+    \subitem {m\_value}, \hyperpage{60}
+    \subitem {operator=}, \hyperpage{59}
+    \subitem {setValue}, \hyperpage{59}
+    \subitem {value}, \hyperpage{59}
+  \item {el::Configuration::Predicate}, \hyperpage{153}
+    \subitem {m\_configurationType}, \hyperpage{154}
+    \subitem {m\_level}, \hyperpage{154}
+    \subitem {operator()}, \hyperpage{154}
+    \subitem {Predicate}, \hyperpage{154}
+  \item {el::Configurations}, \hyperpage{60}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Configurations}, 
+		\hyperpage{64}
+    \subitem {clear}, \hyperpage{64}
+    \subitem {configurationFile}, \hyperpage{64}
+    \subitem {Configurations}, \hyperpage{64}
+    \subitem {el::Loggers}, \hyperpage{70}
+    \subitem {get}, \hyperpage{65}
+    \subitem {hasConfiguration}, \hyperpage{65}
+    \subitem {m\_configurationFile}, \hyperpage{70}
+    \subitem {m\_isFromFile}, \hyperpage{70}
+    \subitem {parseFromFile}, \hyperpage{66}
+    \subitem {parseFromText}, \hyperpage{66}
+    \subitem {set}, \hyperpage{67}
+    \subitem {setFromBase}, \hyperpage{67}
+    \subitem {setGlobally}, \hyperpage{68}
+    \subitem {setRemainingToDefault}, \hyperpage{68}
+    \subitem {setToDefault}, \hyperpage{69}
+    \subitem {unsafeSet}, \hyperpage{69}
+    \subitem {unsafeSetGlobally}, \hyperpage{69}
+    \subitem {unsafeSetIfNotExist}, \hyperpage{70}
+  \item {el::Configurations::Parser}, \hyperpage{146}
+    \subitem {el::Loggers}, \hyperpage{149}
+    \subitem {ignoreComments}, \hyperpage{147}
+    \subitem {isComment}, \hyperpage{147}
+    \subitem {isConfig}, \hyperpage{147}
+    \subitem {isLevel}, \hyperpage{147}
+    \subitem {parseFromFile}, \hyperpage{147}
+    \subitem {parseFromText}, \hyperpage{148}
+    \subitem {parseLine}, \hyperpage{148}
+  \item {el::ConfigurationStringToTypeItem}, \hyperpage{71}
+    \subitem {configString}, \hyperpage{71}
+    \subitem {configType}, \hyperpage{71}
+  \item {el::ConfigurationTypeHelper}, \hyperpage{72}
+    \subitem {castFromInt}, \hyperpage{72}
+    \subitem {castToInt}, \hyperpage{72}
+    \subitem {convertFromString}, \hyperpage{73}
+    \subitem {convertToString}, \hyperpage{73}
+    \subitem {forEachConfigType}, \hyperpage{73}
+    \subitem {kMaxValid}, \hyperpage{74}
+    \subitem {kMinValid}, \hyperpage{74}
+  \item {el::CustomFormatSpecifier}, \hyperpage{75}
+    \subitem {CustomFormatSpecifier}, \hyperpage{76}
+    \subitem {formatSpecifier}, \hyperpage{76}
+    \subitem {m\_formatSpecifier}, \hyperpage{76}
+    \subitem {m\_resolver}, \hyperpage{76}
+    \subitem {operator==}, \hyperpage{76}
+    \subitem {resolver}, \hyperpage{76}
+  \item {el::Helpers}, \hyperpage{86}
+    \subitem {commandLineArgs}, \hyperpage{87}
+    \subitem {convertTemplateToStdString}, \hyperpage{87}
+    \subitem {el::base::Storage}, \hyperpage{185}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{207}
+    \subitem {el::base::Writer}, \hyperpage{218}
+    \subitem {el::Logger}, \hyperpage{121}
+    \subitem {getThreadName}, \hyperpage{87}
+    \subitem {hasCustomFormatSpecifier}, \hyperpage{88}
+    \subitem {installCustomFormatSpecifier}, \hyperpage{88}
+    \subitem {installLogDispatchCallback}, \hyperpage{88}
+    \subitem {installPreRollOutCallback}, \hyperpage{88}
+    \subitem {logDispatchCallback}, \hyperpage{88}
+    \subitem {reserveCustomFormatSpecifiers}, \hyperpage{89}
+    \subitem {setArgs}, \hyperpage{89}
+    \subitem {setStorage}, \hyperpage{89}
+    \subitem {setThreadName}, \hyperpage{90}
+    \subitem {storage}, \hyperpage{90}
+    \subitem {uninstallCustomFormatSpecifier}, \hyperpage{90}
+    \subitem {uninstallLogDispatchCallback}, \hyperpage{90}
+    \subitem {uninstallPreRollOutCallback}, \hyperpage{91}
+    \subitem {validateFileRolling}, \hyperpage{91}
+  \item {el::LevelHelper}, \hyperpage{95}
+    \subitem {castFromInt}, \hyperpage{95}
+    \subitem {castToInt}, \hyperpage{95}
+    \subitem {convertFromString}, \hyperpage{96}
+    \subitem {convertToString}, \hyperpage{96}
+    \subitem {forEachLevel}, \hyperpage{96}
+    \subitem {kMaxValid}, \hyperpage{97}
+    \subitem {kMinValid}, \hyperpage{97}
+  \item {el::LogBuilder}, \hyperpage{97}
+    \subitem {\texorpdfstring{$\sim$}{\string~}LogBuilder}, 
+		\hyperpage{98}
+    \subitem {build}, \hyperpage{99}
+    \subitem {convertToColoredOutput}, \hyperpage{99}
+    \subitem {el::base::DefaultLogDispatchCallback}, \hyperpage{99}
+    \subitem {el::base::Storage}, \hyperpage{185}
+    \subitem {LogBuilder}, \hyperpage{98}
+    \subitem {m\_termSupportsColor}, \hyperpage{99}
+  \item {el::LogDispatchCallback}, \hyperpage{100}
+    \subitem {base::LogDispatcher}, \hyperpage{101}
+    \subitem {fileHandle}, \hyperpage{101}
+    \subitem {handle}, \hyperpage{101}
+    \subitem {m\_fileLocks}, \hyperpage{101}
+    \subitem {m\_fileLocksMapLock}, \hyperpage{101}
+  \item {el::LogDispatchData}, \hyperpage{102}
+    \subitem {base::LogDispatcher}, \hyperpage{103}
+    \subitem {dispatchAction}, \hyperpage{103}
+    \subitem {LogDispatchData}, \hyperpage{102}
+    \subitem {logMessage}, \hyperpage{103}
+    \subitem {m\_dispatchAction}, \hyperpage{103}
+    \subitem {m\_logMessage}, \hyperpage{103}
+    \subitem {setDispatchAction}, \hyperpage{103}
+    \subitem {setLogMessage}, \hyperpage{103}
+  \item {el::Loggable}, \hyperpage{112}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Loggable}, 
+		\hyperpage{112}
+    \subitem {log}, \hyperpage{113}
+    \subitem {operator$<$$<$}, \hyperpage{113}
+  \item {el::Logger}, \hyperpage{113}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Logger}, \hyperpage{116}
+    \subitem {configurations}, \hyperpage{116}
+    \subitem {configure}, \hyperpage{116}
+    \subitem {el::base::DefaultLogDispatchCallback}, \hyperpage{120}
+    \subitem {el::base::LogDispatcher}, \hyperpage{120}
+    \subitem {el::base::LogFormat}, \hyperpage{111}
+    \subitem {el::base::MessageBuilder}, \hyperpage{120}
+    \subitem {el::base::PerformanceTracker}, \hyperpage{120}
+    \subitem {el::base::PErrorWriter}, \hyperpage{120}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{120}
+    \subitem {el::base::Storage}, \hyperpage{120}
+    \subitem {el::base::Writer}, \hyperpage{120}
+    \subitem {el::Helpers}, \hyperpage{121}
+    \subitem {el::Loggers}, \hyperpage{121}
+    \subitem {el::LogMessage}, \hyperpage{121}
+    \subitem {enabled}, \hyperpage{116}
+    \subitem {flush}, \hyperpage{117}
+    \subitem {id}, \hyperpage{117}
+    \subitem {initUnflushedCount}, \hyperpage{117}
+    \subitem {isFlushNeeded}, \hyperpage{117}
+    \subitem {isValidId}, \hyperpage{118}
+    \subitem {log}, \hyperpage{118}
+    \subitem {logBuilder}, \hyperpage{118}
+    \subitem {Logger}, \hyperpage{115, 116}
+    \subitem {m\_configurations}, \hyperpage{121}
+    \subitem {m\_id}, \hyperpage{121}
+    \subitem {m\_isConfigured}, \hyperpage{121}
+    \subitem {m\_logBuilder}, \hyperpage{121}
+    \subitem {m\_logStreamsReference}, \hyperpage{122}
+    \subitem {m\_parentApplicationName}, \hyperpage{122}
+    \subitem {m\_stream}, \hyperpage{122}
+    \subitem {m\_typedConfigurations}, \hyperpage{122}
+    \subitem {m\_unflushedCount}, \hyperpage{122}
+    \subitem {operator=}, \hyperpage{118}
+    \subitem {parentApplicationName}, \hyperpage{118}
+    \subitem {reconfigure}, \hyperpage{118}
+    \subitem {resolveLoggerFormatSpec}, \hyperpage{119}
+    \subitem {setLogBuilder}, \hyperpage{119}
+    \subitem {setParentApplicationName}, \hyperpage{119}
+    \subitem {stream}, \hyperpage{119}
+    \subitem {typedConfigurations}, \hyperpage{119}
+  \item {el::LoggerRegistrationCallback}, \hyperpage{123}
+    \subitem {base::RegisteredLoggers}, \hyperpage{124}
+  \item {el::Loggers}, \hyperpage{124}
+    \subitem {addFlag}, \hyperpage{126}
+    \subitem {clearVModules}, \hyperpage{126}
+    \subitem {configureFromArg}, \hyperpage{126}
+    \subitem {configureFromGlobal}, \hyperpage{126}
+    \subitem {defaultConfigurations}, \hyperpage{127}
+    \subitem {defaultTypedConfigurations}, \hyperpage{127}
+    \subitem {el::Configurations}, \hyperpage{70}
+    \subitem {el::Configurations::Parser}, \hyperpage{149}
+    \subitem {el::Logger}, \hyperpage{121}
+    \subitem {flushAll}, \hyperpage{127}
+    \subitem {getLogger}, \hyperpage{127}
+    \subitem {hasFlag}, \hyperpage{128}
+    \subitem {hasLogger}, \hyperpage{128}
+    \subitem {installLoggerRegistrationCallback}, \hyperpage{128}
+    \subitem {loggerRegistrationCallback}, \hyperpage{128}
+    \subitem {logStreamsReference}, \hyperpage{128}
+    \subitem {populateAllLoggerIds}, \hyperpage{129}
+    \subitem {reconfigureAllLoggers}, \hyperpage{129}
+    \subitem {reconfigureLogger}, \hyperpage{130}
+    \subitem {removeFlag}, \hyperpage{130}
+    \subitem {setDefaultConfigurations}, \hyperpage{131}
+    \subitem {setDefaultLogBuilder}, \hyperpage{131}
+    \subitem {setLoggingLevel}, \hyperpage{131}
+    \subitem {setVerboseLevel}, \hyperpage{131}
+    \subitem {setVModules}, \hyperpage{131}
+    \subitem {uninstallLoggerRegistrationCallback}, \hyperpage{132}
+    \subitem {unregisterLogger}, \hyperpage{132}
+    \subitem {verboseLevel}, \hyperpage{132}
+  \item {el::Loggers::ScopedAddFlag}, \hyperpage{174}
+    \subitem {\texorpdfstring{$\sim$}{\string~}ScopedAddFlag}, 
+		\hyperpage{174}
+    \subitem {m\_flag}, \hyperpage{175}
+    \subitem {ScopedAddFlag}, \hyperpage{174}
+  \item {el::Loggers::ScopedRemoveFlag}, \hyperpage{175}
+    \subitem {\texorpdfstring{$\sim$}{\string~}ScopedRemoveFlag}, 
+		\hyperpage{175}
+    \subitem {m\_flag}, \hyperpage{176}
+    \subitem {ScopedRemoveFlag}, \hyperpage{175}
+  \item {el::LogMessage}, \hyperpage{133}
+    \subitem {el::Logger}, \hyperpage{121}
+    \subitem {file}, \hyperpage{134}
+    \subitem {func}, \hyperpage{134}
+    \subitem {level}, \hyperpage{134}
+    \subitem {line}, \hyperpage{134}
+    \subitem {logger}, \hyperpage{134}
+    \subitem {LogMessage}, \hyperpage{133}
+    \subitem {m\_file}, \hyperpage{135}
+    \subitem {m\_func}, \hyperpage{135}
+    \subitem {m\_level}, \hyperpage{135}
+    \subitem {m\_line}, \hyperpage{135}
+    \subitem {m\_logger}, \hyperpage{135}
+    \subitem {m\_message}, \hyperpage{135}
+    \subitem {m\_verboseLevel}, \hyperpage{135}
+    \subitem {message}, \hyperpage{134}
+    \subitem {verboseLevel}, \hyperpage{134}
+  \item {el::PerformanceTrackingCallback}, \hyperpage{149}
+    \subitem {base::PerformanceTracker}, \hyperpage{150}
+  \item {el::StringToLevelItem}, \hyperpage{193}
+    \subitem {level}, \hyperpage{193}
+    \subitem {levelString}, \hyperpage{193}
+  \item {el::SysLogInitializer}, \hyperpage{195}
+    \subitem {\texorpdfstring{$\sim$}{\string~}SysLogInitializer}, 
+		\hyperpage{196}
+    \subitem {SysLogInitializer}, \hyperpage{196}
+  \item {el::VersionInfo}, \hyperpage{210}
+    \subitem {releaseDate}, \hyperpage{211}
+    \subitem {version}, \hyperpage{211}
+  \item {el\_getVALength}
+    \subitem {easylogging++.h}, \hyperpage{297}
+  \item {el\_resolveVALength}
+    \subitem {easylogging++.h}, \hyperpage{297}
+  \item {elCrashHandler}
+    \subitem {el}, \hyperpage{19}
+  \item {ELPP}
+    \subitem {easylogging++.h}, \hyperpage{297}
+  \item {ELPP\_ASSERT}
+    \subitem {easylogging++.h}, \hyperpage{298}
+  \item {ELPP\_ASYNC\_LOGGING}
+    \subitem {easylogging++.h}, \hyperpage{298}
+  \item {ELPP\_COMPILER\_CLANG}
+    \subitem {easylogging++.h}, \hyperpage{298}
+  \item {ELPP\_COMPILER\_GCC}
+    \subitem {easylogging++.h}, \hyperpage{298}
+  \item {ELPP\_COMPILER\_INTEL}
+    \subitem {easylogging++.h}, \hyperpage{298}
+  \item {ELPP\_COMPILER\_MSVC}
+    \subitem {easylogging++.h}, \hyperpage{298}
+  \item {ELPP\_COUNTER}
+    \subitem {easylogging++.h}, \hyperpage{299}
+  \item {ELPP\_COUNTER\_POS}
+    \subitem {easylogging++.h}, \hyperpage{299}
+  \item {ELPP\_COUT}
+    \subitem {easylogging++.h}, \hyperpage{299}
+  \item {ELPP\_COUT\_LINE}
+    \subitem {easylogging++.h}, \hyperpage{299}
+  \item {ELPP\_CRASH\_HANDLER\_INIT}
+    \subitem {easylogging++.h}, \hyperpage{299}
+  \item {ELPP\_CRT\_DBG\_WARNINGS}
+    \subitem {easylogging++.h}, \hyperpage{299}
+  \item {ELPP\_CURR\_FILE\_LOGGER\_ID}
+    \subitem {easylogging++.h}, \hyperpage{299}
+  \item {ELPP\_CYGWIN}
+    \subitem {easylogging++.h}, \hyperpage{300}
+  \item {ELPP\_DEBUG\_LOG}
+    \subitem {easylogging++.h}, \hyperpage{300}
+  \item {ELPP\_DEFAULT\_LOGGING\_FLAGS}
+    \subitem {easylogging++.cc}, \hyperpage{223}
+  \item {ELPP\_ERROR\_LOG}
+    \subitem {easylogging++.h}, \hyperpage{300}
+  \item {ELPP\_EXPORT}
+    \subitem {easylogging++.h}, \hyperpage{300}
+  \item {ELPP\_FATAL\_LOG}
+    \subitem {easylogging++.h}, \hyperpage{300}
+  \item {ELPP\_FINAL}
+    \subitem {easylogging++.h}, \hyperpage{300}
+  \item {ELPP\_FUNC}
+    \subitem {easylogging++.h}, \hyperpage{300}
+  \item {ELPP\_INFO\_LOG}
+    \subitem {easylogging++.h}, \hyperpage{300}
+  \item {ELPP\_INIT\_EASYLOGGINGPP}
+    \subitem {easylogging++.h}, \hyperpage{301}
+  \item {ELPP\_INITIALIZE\_SYSLOG}
+    \subitem {easylogging++.h}, \hyperpage{301}
+  \item {ELPP\_INTERNAL\_DEBUGGING\_ENDL}
+    \subitem {easylogging++.h}, \hyperpage{301}
+  \item {ELPP\_INTERNAL\_DEBUGGING\_MSG}
+    \subitem {easylogging++.h}, \hyperpage{301}
+  \item {ELPP\_INTERNAL\_DEBUGGING\_OUT\_ERROR}
+    \subitem {easylogging++.h}, \hyperpage{301}
+  \item {ELPP\_INTERNAL\_DEBUGGING\_OUT\_INFO}
+    \subitem {easylogging++.h}, \hyperpage{301}
+  \item {ELPP\_INTERNAL\_DEBUGGING\_WRITE\_PERROR}
+    \subitem {easylogging++.h}, \hyperpage{302}
+  \item {ELPP\_INTERNAL\_ERROR}
+    \subitem {easylogging++.h}, \hyperpage{302}
+  \item {ELPP\_INTERNAL\_INFO}
+    \subitem {easylogging++.h}, \hyperpage{302}
+  \item {ELPP\_ITERATOR\_CONTAINER\_LOG\_FIVE\_ARG}
+    \subitem {easylogging++.h}, \hyperpage{302}
+  \item {ELPP\_ITERATOR\_CONTAINER\_LOG\_FOUR\_ARG}
+    \subitem {easylogging++.h}, \hyperpage{302}
+  \item {ELPP\_ITERATOR\_CONTAINER\_LOG\_ONE\_ARG}
+    \subitem {easylogging++.h}, \hyperpage{302}
+  \item {ELPP\_ITERATOR\_CONTAINER\_LOG\_THREE\_ARG}
+    \subitem {easylogging++.h}, \hyperpage{303}
+  \item {ELPP\_ITERATOR\_CONTAINER\_LOG\_TWO\_ARG}
+    \subitem {easylogging++.h}, \hyperpage{303}
+  \item {ELPP\_LITERAL}
+    \subitem {easylogging++.h}, \hyperpage{303}
+  \item {ELPP\_LOGGING\_ENABLED}
+    \subitem {easylogging++.h}, \hyperpage{303}
+  \item {ELPP\_MIN\_UNIT}
+    \subitem {easylogging++.h}, \hyperpage{303}
+  \item {ELPP\_MINGW}
+    \subitem {easylogging++.h}, \hyperpage{304}
+  \item {ELPP\_OS\_AIX}
+    \subitem {easylogging++.h}, \hyperpage{304}
+  \item {ELPP\_OS\_ANDROID}
+    \subitem {easylogging++.h}, \hyperpage{304}
+  \item {ELPP\_OS\_EMSCRIPTEN}
+    \subitem {easylogging++.h}, \hyperpage{304}
+  \item {ELPP\_OS\_FREEBSD}
+    \subitem {easylogging++.h}, \hyperpage{304}
+  \item {ELPP\_OS\_LINUX}
+    \subitem {easylogging++.h}, \hyperpage{304}
+  \item {ELPP\_OS\_MAC}
+    \subitem {easylogging++.h}, \hyperpage{304}
+  \item {ELPP\_OS\_NETBSD}
+    \subitem {easylogging++.h}, \hyperpage{304}
+  \item {ELPP\_OS\_QNX}
+    \subitem {easylogging++.h}, \hyperpage{305}
+  \item {ELPP\_OS\_SOLARIS}
+    \subitem {easylogging++.h}, \hyperpage{305}
+  \item {ELPP\_OS\_UNIX}
+    \subitem {easylogging++.h}, \hyperpage{305}
+  \item {ELPP\_OS\_WINDOWS}
+    \subitem {easylogging++.h}, \hyperpage{305}
+  \item {ELPP\_SIMPLE\_LOG}
+    \subitem {easylogging++.h}, \hyperpage{305}
+  \item {ELPP\_STACKTRACE}
+    \subitem {easylogging++.h}, \hyperpage{305}
+  \item {ELPP\_STRLEN}
+    \subitem {easylogging++.h}, \hyperpage{305}
+  \item {ELPP\_THREADING\_ENABLED}
+    \subitem {easylogging++.h}, \hyperpage{306}
+  \item {ELPP\_TRACE}
+    \subitem {easylogging++.h}, \hyperpage{306}
+  \item {ELPP\_TRACE\_LOG}
+    \subitem {easylogging++.h}, \hyperpage{306}
+  \item {ELPP\_UNUSED}
+    \subitem {easylogging++.h}, \hyperpage{306}
+  \item {ELPP\_USE\_DEF\_CRASH\_HANDLER}
+    \subitem {easylogging++.h}, \hyperpage{306}
+  \item {ELPP\_USE\_STD\_THREADING}
+    \subitem {easylogging++.h}, \hyperpage{306}
+  \item {ELPP\_VARIADIC\_TEMPLATES\_SUPPORTED}
+    \subitem {easylogging++.h}, \hyperpage{306}
+  \item {ELPP\_VERBOSE\_LOG}
+    \subitem {easylogging++.h}, \hyperpage{307}
+  \item {ELPP\_WARNING\_LOG}
+    \subitem {easylogging++.h}, \hyperpage{307}
+  \item {ELPP\_WRITE\_LOG}
+    \subitem {easylogging++.h}, \hyperpage{307}
+  \item {ELPP\_WRITE\_LOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{307}
+  \item {ELPP\_WRITE\_LOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{307}
+  \item {ELPP\_WRITE\_LOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{308}
+  \item {ELPP\_WRITE\_LOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{308}
+  \item {ELPP\_WX\_ENABLED}
+    \subitem {easylogging++.h}, \hyperpage{308}
+  \item {ELPP\_WX\_HASH\_MAP\_ENABLED}
+    \subitem {easylogging++.h}, \hyperpage{308}
+  \item {ELPP\_WX\_PTR\_ENABLED}
+    \subitem {easylogging++.h}, \hyperpage{309}
+  \item {elpptime}
+    \subitem {easylogging++.h}, \hyperpage{309}
+  \item {elpptime\_r}
+    \subitem {easylogging++.h}, \hyperpage{309}
+  \item {elpptime\_s}
+    \subitem {easylogging++.h}, \hyperpage{309}
+  \item {elStorage}
+    \subitem {el::base}, \hyperpage{23}
+  \item {empty}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{48}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{54}
+  \item {Enabled}
+    \subitem {el}, \hyperpage{17}
+  \item {enabled}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{202}
+    \subitem {el::Callback$<$ T $>$}, \hyperpage{52}
+    \subitem {el::Logger}, \hyperpage{116}
+  \item {end}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{48}
+  \item {endsWith}
+    \subitem {el::base::utils::Str}, \hyperpage{189}
+  \item {EnumType}
+    \subitem {el::base::type}, \hyperpage{37}
+  \item {Error}
+    \subitem {el}, \hyperpage{18}
+  \item {exampleEasyLogging}
+    \subitem {WIP}, \hyperpage{43}
+  \item {extractPathFromFilename}
+    \subitem {el::base::utils::File}, \hyperpage{84}
+
+  \indexspace
+
+  \item {Fatal}
+    \subitem {el}, \hyperpage{18}
+  \item {File}
+    \subitem {el::base}, \hyperpage{22}
+  \item {file}
+    \subitem {el::LogMessage}, \hyperpage{134}
+  \item {FileBase}
+    \subitem {el::base}, \hyperpage{23}
+  \item {fileHandle}
+    \subitem {el::LogDispatchCallback}, \hyperpage{101}
+  \item {Filename}
+    \subitem {el}, \hyperpage{17}
+  \item {filename}
+    \subitem {el::base::HitCounter}, \hyperpage{93}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{203}
+  \item {fileStream}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{203}
+  \item {FileStreamPtr}
+    \subitem {el::base}, \hyperpage{21}
+  \item {FixedTimeFormat}
+    \subitem {el}, \hyperpage{19}
+  \item {flags}
+    \subitem {el::base::LogFormat}, \hyperpage{108}
+    \subitem {el::base::Storage}, \hyperpage{180}
+  \item {flush}
+    \subitem {el::Logger}, \hyperpage{117}
+  \item {flushAll}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{161}
+    \subitem {el::Loggers}, \hyperpage{127}
+  \item {forEachConfigType}
+    \subitem {el::ConfigurationTypeHelper}, \hyperpage{73}
+  \item {forEachLevel}
+    \subitem {el::LevelHelper}, \hyperpage{96}
+  \item {Format}
+    \subitem {el}, \hyperpage{17}
+  \item {format}
+    \subitem {el::base::LogFormat}, \hyperpage{108}
+  \item {FormatFlags}
+    \subitem {el::base}, \hyperpage{22}
+  \item {formatSpecifier}
+    \subitem {el::CustomFormatSpecifier}, \hyperpage{76}
+  \item {FormatSpecifierValueResolver}
+    \subitem {el}, \hyperpage{17}
+  \item {formatTime}
+    \subitem {el::base::utils::DateTime}, \hyperpage{77}
+  \item {fstream\_t}
+    \subitem {el::base::type}, \hyperpage{37}
+  \item {func}
+    \subitem {el::LogMessage}, \hyperpage{134}
+  \item {Function}
+    \subitem {el::base}, \hyperpage{22}
+
+  \indexspace
+
+  \item {get}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{162}
+    \subitem {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{168}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{172}
+    \subitem {el::Configurations}, \hyperpage{65}
+  \item {getBashOutput}
+    \subitem {el::base::utils::OS}, \hyperpage{145}
+  \item {getConfigByRef}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{203}
+  \item {getConfigByVal}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{203}
+  \item {getCounter}
+    \subitem {el::base::RegisteredHitCounters}, \hyperpage{157}
+  \item {getCurrentThreadId}
+    \subitem {el::base::threading}, \hyperpage{36}
+  \item {getDateTime}
+    \subitem {el::base::utils::DateTime}, \hyperpage{78}
+  \item {getEnvironmentVariable}
+    \subitem {el::base::utils::OS}, \hyperpage{145}
+  \item {getLogger}
+    \subitem {el::Loggers}, \hyperpage{127}
+  \item {getParamValue}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{54}
+  \item {getSizeOfFile}
+    \subitem {el::base::utils::File}, \hyperpage{84}
+  \item {getThreadName}
+    \subitem {el::base::Storage}, \hyperpage{180}
+    \subitem {el::Helpers}, \hyperpage{87}
+  \item {getTimeDifference}
+    \subitem {el::base::utils::DateTime}, \hyperpage{78}
+  \item {gettimeofday}
+    \subitem {el::base::utils::DateTime}, \hyperpage{78}
+  \item {getULong}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{203}
+  \item {Global}
+    \subitem {el}, \hyperpage{18}
+
+  \indexspace
+
+  \item {handle}
+    \subitem {el::base::DefaultLogDispatchCallback}, \hyperpage{82}
+    \subitem {el::Callback$<$ T $>$}, \hyperpage{52}
+    \subitem {el::LogDispatchCallback}, \hyperpage{101}
+  \item {has}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{162}
+  \item {hasConfiguration}
+    \subitem {el::Configurations}, \hyperpage{65}
+  \item {hasCustomFormatSpecifier}
+    \subitem {el::base::Storage}, \hyperpage{181}
+    \subitem {el::Helpers}, \hyperpage{88}
+  \item {hasFlag}
+    \subitem {el::base::LogFormat}, \hyperpage{108}
+    \subitem {el::base::Storage}, \hyperpage{181}
+    \subitem {el::base::utils}, \hyperpage{40}
+    \subitem {el::Loggers}, \hyperpage{128}
+  \item {hasLogger}
+    \subitem {el::Loggers}, \hyperpage{128}
+  \item {hasParam}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{54}
+  \item {hasParamWithValue}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{55}
+  \item {HierarchicalLogging}
+    \subitem {el}, \hyperpage{19}
+  \item {HitCounter}
+    \subitem {el::base::HitCounter}, \hyperpage{92}
+  \item {hitCounters}
+    \subitem {el::base::Storage}, \hyperpage{181}
+  \item {hitCounts}
+    \subitem {el::base::HitCounter}, \hyperpage{93}
+  \item {Host}
+    \subitem {el::base}, \hyperpage{22}
+  \item {Hour}
+    \subitem {el::base}, \hyperpage{23}
+
+  \indexspace
+
+  \item {id}
+    \subitem {el::Logger}, \hyperpage{117}
+  \item {ignoreComments}
+    \subitem {el::Configurations::Parser}, \hyperpage{147}
+  \item {IgnoreSigInt}
+    \subitem {el}, \hyperpage{19}
+  \item {ImmediateFlush}
+    \subitem {el}, \hyperpage{18}
+  \item {increment}
+    \subitem {el::base::HitCounter}, \hyperpage{93}
+  \item {Info}
+    \subitem {el}, \hyperpage{18}
+  \item {init}
+    \subitem {el::base::SubsecondPrecision}, \hyperpage{195}
+  \item {initialize}
+    \subitem {el::base::MessageBuilder}, \hyperpage{137}
+  \item {INITIALIZE\_EASYLOGGINGPP}
+    \subitem {easylogging++.h}, \hyperpage{309}
+  \item {INITIALIZE\_NULL\_EASYLOGGINGPP}
+    \subitem {easylogging++.h}, \hyperpage{309}
+  \item {initializeLogger}
+    \subitem {el::base::Writer}, \hyperpage{217}
+  \item {initUnflushedCount}
+    \subitem {el::Logger}, \hyperpage{117}
+  \item {insertFile}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{204}
+  \item {installCallback}
+    \subitem {el::base::utils::Utils}, \hyperpage{210}
+  \item {installCustomFormatSpecifier}
+    \subitem {el::base::Storage}, \hyperpage{181}
+    \subitem {el::Helpers}, \hyperpage{88}
+  \item {installLogDispatchCallback}
+    \subitem {el::base::Storage}, \hyperpage{181}
+    \subitem {el::Helpers}, \hyperpage{88}
+  \item {installLoggerRegistrationCallback}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{162}
+    \subitem {el::Loggers}, \hyperpage{128}
+  \item {installPreRollOutCallback}
+    \subitem {el::Helpers}, \hyperpage{88}
+  \item {isComment}
+    \subitem {el::Configurations::Parser}, \hyperpage{147}
+  \item {isConfig}
+    \subitem {el::Configurations::Parser}, \hyperpage{147}
+  \item {isDigit}
+    \subitem {el::base::utils::Str}, \hyperpage{190}
+  \item {isFlushNeeded}
+    \subitem {el::Logger}, \hyperpage{117}
+  \item {isLevel}
+    \subitem {el::Configurations::Parser}, \hyperpage{147}
+  \item {isValidId}
+    \subitem {el::Logger}, \hyperpage{118}
+  \item {iterator}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{46}
+    \subitem {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{167}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{171}
+
+  \indexspace
+
+  \item {kAm}
+    \subitem {el::base::consts}, \hyperpage{25}
+  \item {kAppNameFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{25}
+  \item {kConfigurationComment}
+    \subitem {el::base::consts}, \hyperpage{26}
+  \item {kConfigurationLevel}
+    \subitem {el::base::consts}, \hyperpage{26}
+  \item {kConfigurationLoggerId}
+    \subitem {el::base::consts}, \hyperpage{26}
+  \item {kCrashSignals}
+    \subitem {el::base::consts}, \hyperpage{26}
+  \item {kCrashSignalsCount}
+    \subitem {el::base::consts}, \hyperpage{26}
+  \item {kCurrentHostFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{27}
+  \item {kCurrentUserFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{27}
+  \item {kDateTimeFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{27}
+  \item {kDateTimeFormatSpecifierForFilename}
+    \subitem {el::base::consts}, \hyperpage{27}
+  \item {kDays}
+    \subitem {el::base::consts}, \hyperpage{27}
+  \item {kDaysAbbrev}
+    \subitem {el::base::consts}, \hyperpage{27}
+  \item {kDebugLevelLogValue}
+    \subitem {el::base::consts}, \hyperpage{27}
+  \item {kDebugLevelShortLogValue}
+    \subitem {el::base::consts}, \hyperpage{28}
+  \item {kDefaultDateTimeFormat}
+    \subitem {el::base::consts}, \hyperpage{28}
+  \item {kDefaultDateTimeFormatInFilename}
+    \subitem {el::base::consts}, \hyperpage{28}
+  \item {kDefaultLogFile}
+    \subitem {el::base::consts}, \hyperpage{28}
+  \item {kDefaultLogFileParam}
+    \subitem {el::base::consts}, \hyperpage{28}
+  \item {kDefaultLoggerId}
+    \subitem {el::base::consts}, \hyperpage{28}
+  \item {kDefaultSubsecondPrecision}
+    \subitem {el::base::consts}, \hyperpage{28}
+  \item {kErrorLevelLogValue}
+    \subitem {el::base::consts}, \hyperpage{28}
+  \item {kErrorLevelShortLogValue}
+    \subitem {el::base::consts}, \hyperpage{29}
+  \item {kFatalLevelLogValue}
+    \subitem {el::base::consts}, \hyperpage{29}
+  \item {kFatalLevelShortLogValue}
+    \subitem {el::base::consts}, \hyperpage{29}
+  \item {kFilePathSeparator}
+    \subitem {el::base::consts}, \hyperpage{29}
+  \item {kFormatSpecifierChar}
+    \subitem {el::base::consts}, \hyperpage{29}
+  \item {kFormatSpecifierCharValue}
+    \subitem {el::base::consts}, \hyperpage{29}
+  \item {kInfoLevelLogValue}
+    \subitem {el::base::consts}, \hyperpage{29}
+  \item {kInfoLevelShortLogValue}
+    \subitem {el::base::consts}, \hyperpage{29}
+  \item {kLogFileBaseFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{30}
+  \item {kLogFileFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{30}
+  \item {kLogFunctionFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{30}
+  \item {kLoggerIdFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{30}
+  \item {kLogLineFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{30}
+  \item {kLogLocationFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{30}
+  \item {kMaxLogPerContainer}
+    \subitem {el::base::consts}, \hyperpage{30}
+  \item {kMaxLogPerCounter}
+    \subitem {el::base::consts}, \hyperpage{31}
+  \item {kMaxValid}
+    \subitem {el::ConfigurationTypeHelper}, \hyperpage{74}
+    \subitem {el::LevelHelper}, \hyperpage{97}
+  \item {kMaxVerboseLevel}
+    \subitem {el::base::consts}, \hyperpage{31}
+  \item {kMessageFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{31}
+  \item {kMinValid}
+    \subitem {el::ConfigurationTypeHelper}, \hyperpage{74}
+    \subitem {el::LevelHelper}, \hyperpage{97}
+  \item {kMonths}
+    \subitem {el::base::consts}, \hyperpage{31}
+  \item {kMonthsAbbrev}
+    \subitem {el::base::consts}, \hyperpage{31}
+  \item {kNullPointer}
+    \subitem {el::base::consts}, \hyperpage{31}
+  \item {kPerformanceTrackerDefaultLevel}
+    \subitem {el::base::consts}, \hyperpage{31}
+  \item {kPm}
+    \subitem {el::base::consts}, \hyperpage{32}
+  \item {kSeverityLevelFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{32}
+  \item {kSeverityLevelShortFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{32}
+  \item {kSourceFilenameMaxLength}
+    \subitem {el::base::consts}, \hyperpage{32}
+  \item {kSourceLineMaxLength}
+    \subitem {el::base::consts}, \hyperpage{32}
+  \item {kThreadIdFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{32}
+  \item {kTimeFormats}
+    \subitem {el::base::consts}, \hyperpage{32}
+  \item {kTimeFormatsCount}
+    \subitem {el::base::consts}, \hyperpage{33}
+  \item {kTraceLevelLogValue}
+    \subitem {el::base::consts}, \hyperpage{33}
+  \item {kTraceLevelShortLogValue}
+    \subitem {el::base::consts}, \hyperpage{33}
+  \item {kUnknownHost}
+    \subitem {el::base::consts}, \hyperpage{33}
+  \item {kUnknownUser}
+    \subitem {el::base::consts}, \hyperpage{33}
+  \item {kValidLoggerIdSymbols}
+    \subitem {el::base::consts}, \hyperpage{33}
+  \item {kVerboseLevelFormatSpecifier}
+    \subitem {el::base::consts}, \hyperpage{33}
+  \item {kVerboseLevelLogValue}
+    \subitem {el::base::consts}, \hyperpage{34}
+  \item {kVerboseLevelShortLogValue}
+    \subitem {el::base::consts}, \hyperpage{34}
+  \item {kWarningLevelLogValue}
+    \subitem {el::base::consts}, \hyperpage{34}
+  \item {kWarningLevelShortLogValue}
+    \subitem {el::base::consts}, \hyperpage{34}
+  \item {kYearBase}
+    \subitem {el::base::consts}, \hyperpage{34}
+
+  \indexspace
+
+  \item {Level}
+    \subitem {el}, \hyperpage{18}
+    \subitem {el::base}, \hyperpage{23}
+  \item {level}
+    \subitem {el::base::LogFormat}, \hyperpage{108}
+    \subitem {el::base::VRegistry}, \hyperpage{213}
+    \subitem {el::Configuration}, \hyperpage{58}
+    \subitem {el::LogMessage}, \hyperpage{134}
+    \subitem {el::StringToLevelItem}, \hyperpage{193}
+  \item {LevelShort}
+    \subitem {el::base}, \hyperpage{23}
+  \item {levelString}
+    \subitem {el::StringToLevelItem}, \hyperpage{193}
+  \item {lib/easylogging++.cc}, \hyperpage{221}, \hyperpage{223}
+  \item {lib/easylogging++.h}, \hyperpage{260}, \hyperpage{317}
+  \item {Line}
+    \subitem {el::base}, \hyperpage{22}
+  \item {line}
+    \subitem {el::LogMessage}, \hyperpage{134}
+  \item {LineNumber}
+    \subitem {el::base::type}, \hyperpage{37}
+  \item {lineNumber}
+    \subitem {el::base::HitCounter}, \hyperpage{93}
+  \item {list}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{49}
+  \item {Location}
+    \subitem {el::base}, \hyperpage{22}
+  \item {lock}
+    \subitem {el::base::threading::internal::NoMutex}, \hyperpage{140}
+    \subitem {el::base::threading::ThreadSafe}, \hyperpage{198}
+  \item {LOG}
+    \subitem {easylogging++.h}, \hyperpage{309}
+  \item {log}
+    \subitem {el::base::LogFormat}, \hyperpage{109}
+    \subitem {el::Configuration}, \hyperpage{59}
+    \subitem {el::Loggable}, \hyperpage{113}
+    \subitem {el::Logger}, \hyperpage{118}
+  \item {LOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{310}
+  \item {LOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{310}
+  \item {LOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{310}
+  \item {LOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{310}
+  \item {LogBuilder}
+    \subitem {el::LogBuilder}, \hyperpage{98}
+  \item {logBuilder}
+    \subitem {el::Logger}, \hyperpage{118}
+  \item {LogBuilderPtr}
+    \subitem {el}, \hyperpage{17}
+  \item {LogDetailedCrashReason}
+    \subitem {el}, \hyperpage{18}
+  \item {logDispatchCallback}
+    \subitem {el::base::Storage}, \hyperpage{181}
+    \subitem {el::Helpers}, \hyperpage{88}
+  \item {LogDispatchCallbackPtr}
+    \subitem {el::base::type}, \hyperpage{38}
+  \item {LogDispatchData}
+    \subitem {el::LogDispatchData}, \hyperpage{102}
+  \item {LogDispatcher}
+    \subitem {el::base::LogDispatcher}, \hyperpage{105}
+  \item {LogFlushThreshold}
+    \subitem {el}, \hyperpage{17}
+  \item {logFlushThreshold}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{204}
+  \item {LogFormat}
+    \subitem {el::base::LogFormat}, \hyperpage{107}
+  \item {logFormat}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{204}
+  \item {Logger}
+    \subitem {el::Logger}, \hyperpage{115, 116}
+  \item {logger}
+    \subitem {el::LogMessage}, \hyperpage{134}
+  \item {LoggerId}
+    \subitem {el::base}, \hyperpage{22}
+  \item {loggerRegistrationCallback}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{162}
+    \subitem {el::Loggers}, \hyperpage{128}
+  \item {LoggerRegistrationCallbackPtr}
+    \subitem {el::base::type}, \hyperpage{38}
+  \item {LoggingFlag}
+    \subitem {el}, \hyperpage{18}
+  \item {LogMessage}
+    \subitem {el::base}, \hyperpage{22}
+    \subitem {el::LogMessage}, \hyperpage{133}
+  \item {logMessage}
+    \subitem {el::LogDispatchData}, \hyperpage{103}
+  \item {logStreamsReference}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{162}
+    \subitem {el::Loggers}, \hyperpage{128}
+  \item {LogStreamsReferenceMap}
+    \subitem {el::base}, \hyperpage{21}
+  \item {LogStreamsReferenceMapPtr}
+    \subitem {el::base}, \hyperpage{21}
+  \item {ltrim}
+    \subitem {el::base::utils::Str}, \hyperpage{190}
+
+  \indexspace
+
+  \item {m\_argc}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{56}
+  \item {m\_argv}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{56}
+  \item {m\_commandLineArgs}
+    \subitem {el::base::Storage}, \hyperpage{185}
+  \item {m\_configurationFile}
+    \subitem {el::Configurations}, \hyperpage{70}
+  \item {m\_configurations}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{207}
+    \subitem {el::Logger}, \hyperpage{121}
+  \item {m\_configurationType}
+    \subitem {el::Configuration}, \hyperpage{60}
+    \subitem {el::Configuration::Predicate}, \hyperpage{154}
+  \item {m\_containerLogSeparator}
+    \subitem {el::base::MessageBuilder}, \hyperpage{138}
+  \item {m\_currentHost}
+    \subitem {el::base::LogFormat}, \hyperpage{111}
+  \item {m\_currentUser}
+    \subitem {el::base::LogFormat}, \hyperpage{111}
+  \item {m\_customFormatSpecifiers}
+    \subitem {el::base::Storage}, \hyperpage{185}
+  \item {m\_customFormatSpecifiersLock}
+    \subitem {el::base::Storage}, \hyperpage{186}
+  \item {m\_data}
+    \subitem {el::base::DefaultLogDispatchCallback}, \hyperpage{82}
+  \item {m\_dateTimeFormat}
+    \subitem {el::base::LogFormat}, \hyperpage{111}
+  \item {m\_defaultConfigurations}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{164}
+  \item {m\_defaultLogBuilder}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{164}
+  \item {m\_dispatchAction}
+    \subitem {el::base::LogDispatcher}, \hyperpage{105}
+    \subitem {el::base::Writer}, \hyperpage{218}
+    \subitem {el::LogDispatchData}, \hyperpage{103}
+  \item {m\_enabled}
+    \subitem {el::Callback$<$ T $>$}, \hyperpage{52}
+  \item {m\_enabledMap}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{207}
+  \item {m\_file}
+    \subitem {el::base::Writer}, \hyperpage{218}
+    \subitem {el::LogMessage}, \hyperpage{135}
+  \item {m\_fileLocks}
+    \subitem {el::LogDispatchCallback}, \hyperpage{101}
+  \item {m\_fileLocksMapLock}
+    \subitem {el::LogDispatchCallback}, \hyperpage{101}
+  \item {m\_filename}
+    \subitem {el::base::HitCounter}, \hyperpage{94}
+    \subitem {el::base::HitCounter::Predicate}, \hyperpage{153}
+  \item {m\_filenameMap}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{208}
+  \item {m\_fileStreamMap}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{208}
+  \item {m\_flag}
+    \subitem {el::Loggers::ScopedAddFlag}, \hyperpage{175}
+    \subitem {el::Loggers::ScopedRemoveFlag}, \hyperpage{176}
+  \item {m\_flags}
+    \subitem {el::base::LogFormat}, \hyperpage{111}
+    \subitem {el::base::Storage}, \hyperpage{186}
+  \item {m\_format}
+    \subitem {el::base::LogFormat}, \hyperpage{111}
+  \item {m\_formatSpecifier}
+    \subitem {el::CustomFormatSpecifier}, \hyperpage{76}
+  \item {m\_func}
+    \subitem {el::base::Writer}, \hyperpage{219}
+    \subitem {el::LogMessage}, \hyperpage{135}
+  \item {m\_hitCounts}
+    \subitem {el::base::HitCounter}, \hyperpage{94}
+  \item {m\_id}
+    \subitem {el::Logger}, \hyperpage{121}
+  \item {m\_isConfigured}
+    \subitem {el::Logger}, \hyperpage{121}
+  \item {m\_isFromFile}
+    \subitem {el::Configurations}, \hyperpage{70}
+  \item {m\_level}
+    \subitem {el::base::LogFormat}, \hyperpage{111}
+    \subitem {el::base::VRegistry}, \hyperpage{214}
+    \subitem {el::base::Writer}, \hyperpage{219}
+    \subitem {el::Configuration}, \hyperpage{60}
+    \subitem {el::Configuration::Predicate}, \hyperpage{154}
+    \subitem {el::LogMessage}, \hyperpage{135}
+  \item {m\_line}
+    \subitem {el::base::Writer}, \hyperpage{219}
+    \subitem {el::LogMessage}, \hyperpage{135}
+  \item {m\_lineNumber}
+    \subitem {el::base::HitCounter}, \hyperpage{94}
+    \subitem {el::base::HitCounter::Predicate}, \hyperpage{153}
+  \item {m\_list}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{50}
+  \item {m\_logBuilder}
+    \subitem {el::Logger}, \hyperpage{121}
+  \item {m\_logDispatchCallbacks}
+    \subitem {el::base::Storage}, \hyperpage{186}
+  \item {m\_logFlushThresholdMap}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{208}
+  \item {m\_logFormatMap}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{208}
+  \item {m\_logger}
+    \subitem {el::base::MessageBuilder}, \hyperpage{138}
+    \subitem {el::base::Writer}, \hyperpage{219}
+    \subitem {el::LogMessage}, \hyperpage{135}
+  \item {m\_loggerIds}
+    \subitem {el::base::Writer}, \hyperpage{219}
+  \item {m\_loggerRegistrationCallbacks}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{164}
+  \item {m\_loggingLevel}
+    \subitem {el::base::Storage}, \hyperpage{186}
+  \item {m\_logMessage}
+    \subitem {el::base::LogDispatcher}, \hyperpage{105}
+    \subitem {el::LogDispatchData}, \hyperpage{103}
+  \item {m\_logStreamsReference}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{164}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{208}
+    \subitem {el::Logger}, \hyperpage{122}
+  \item {m\_maxLogFileSizeMap}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{208}
+  \item {m\_message}
+    \subitem {el::LogMessage}, \hyperpage{135}
+  \item {m\_messageBuilder}
+    \subitem {el::base::Writer}, \hyperpage{219}
+  \item {m\_modules}
+    \subitem {el::base::VRegistry}, \hyperpage{214}
+  \item {m\_msg}
+    \subitem {el::base::Writer}, \hyperpage{219}
+  \item {m\_mutex}
+    \subitem {el::base::threading::ThreadSafe}, \hyperpage{198}
+  \item {m\_offset}
+    \subitem {el::base::SubsecondPrecision}, \hyperpage{195}
+  \item {m\_params}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{56}
+  \item {m\_paramsWithValue}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{56}
+  \item {m\_parentApplicationName}
+    \subitem {el::Logger}, \hyperpage{122}
+  \item {m\_performanceTrackingCallbacks}
+    \subitem {el::base::Storage}, \hyperpage{186}
+  \item {m\_performanceTrackingMap}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{208}
+  \item {m\_pFlags}
+    \subitem {el::base::VRegistry}, \hyperpage{215}
+  \item {m\_preRollOutCallback}
+    \subitem {el::base::Storage}, \hyperpage{186}
+  \item {m\_proceed}
+    \subitem {el::base::LogDispatcher}, \hyperpage{105}
+    \subitem {el::base::Writer}, \hyperpage{219}
+  \item {m\_registeredHitCounters}
+    \subitem {el::base::Storage}, \hyperpage{186}
+  \item {m\_registeredLoggers}
+    \subitem {el::base::Storage}, \hyperpage{187}
+  \item {m\_resolver}
+    \subitem {el::CustomFormatSpecifier}, \hyperpage{76}
+  \item {m\_stream}
+    \subitem {el::Logger}, \hyperpage{122}
+  \item {m\_subsecondPrecisionMap}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{209}
+  \item {m\_termSupportsColor}
+    \subitem {el::LogBuilder}, \hyperpage{99}
+  \item {m\_threadNames}
+    \subitem {el::base::Storage}, \hyperpage{187}
+  \item {m\_threadNamesLock}
+    \subitem {el::base::Storage}, \hyperpage{187}
+  \item {m\_toFileMap}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{209}
+  \item {m\_toStandardOutputMap}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{209}
+  \item {m\_typedConfigurations}
+    \subitem {el::Logger}, \hyperpage{122}
+  \item {m\_unflushedCount}
+    \subitem {el::Logger}, \hyperpage{122}
+  \item {m\_userFormat}
+    \subitem {el::base::LogFormat}, \hyperpage{111}
+  \item {m\_value}
+    \subitem {el::Configuration}, \hyperpage{60}
+  \item {m\_verboseLevel}
+    \subitem {el::base::Writer}, \hyperpage{220}
+    \subitem {el::LogMessage}, \hyperpage{135}
+  \item {m\_vRegistry}
+    \subitem {el::base::Storage}, \hyperpage{187}
+  \item {m\_width}
+    \subitem {el::base::SubsecondPrecision}, \hyperpage{195}
   \item {main}
-    \subitem {main.cpp}, \hyperpage{7}
+    \subitem {main.cpp}, \hyperpage{365}
   \item {main.cpp}
-    \subitem {main}, \hyperpage{7}
+    \subitem {main}, \hyperpage{365}
+  \item {MAKE\_CONTAINERELPP\_FRIENDLY}
+    \subitem {easylogging++.h}, \hyperpage{310}
+  \item {MAKE\_LOGGABLE}
+    \subitem {easylogging++.h}, \hyperpage{311}
+  \item {MaxLogFileSize}
+    \subitem {el}, \hyperpage{17}
+  \item {maxLogFileSize}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{204}
+  \item {message}
+    \subitem {el::LogMessage}, \hyperpage{134}
+  \item {MessageBuilder}
+    \subitem {el::base::MessageBuilder}, \hyperpage{136}
+  \item {Microsecond}
+    \subitem {el::base}, \hyperpage{23}
+  \item {Millisecond}
+    \subitem {el::base}, \hyperpage{23}
+  \item {MillisecondsWidth}
+    \subitem {el}, \hyperpage{17}
+    \subitem {el::base}, \hyperpage{22}
+  \item {millisecondsWidth}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{204}
+  \item {Minute}
+    \subitem {el::base}, \hyperpage{23}
+  \item {modules}
+    \subitem {el::base::VRegistry}, \hyperpage{213}
+  \item {MultiLoggerSupport}
+    \subitem {el}, \hyperpage{18}
+  \item {Mutex}
+    \subitem {el::base::threading}, \hyperpage{36}
+
+  \indexspace
+
+  \item {name}
+    \subitem {el::base::consts}, \hyperpage{34}
+  \item {newFileStream}
+    \subitem {el::base::utils::File}, \hyperpage{84}
+  \item {NewLineForContainer}
+    \subitem {el}, \hyperpage{18}
+  \item {NoCopy}
+    \subitem {el::base::NoCopy}, \hyperpage{139}
+  \item {NoMutex}
+    \subitem {el::base::threading::internal::NoMutex}, \hyperpage{140}
+  \item {None}
+    \subitem {el::base}, \hyperpage{22}
+  \item {NormalLog}
+    \subitem {el::base}, \hyperpage{22}
+  \item {NoScopedLock}
+    \subitem {el::base::threading::internal::NoScopedLock$<$ Mutex $>$}, 
+		\hyperpage{142}
+  \item {Not}
+    \subitem {el::base::utils::bitwise}, \hyperpage{42}
+  \item {NullWriter}
+    \subitem {el::base::NullWriter}, \hyperpage{143}
+  \item {numb}
+    \subitem {el::base::consts}, \hyperpage{34}
+
+  \indexspace
+
+  \item {operator bool}
+    \subitem {el::base::NullWriter}, \hyperpage{143}
+    \subitem {el::base::Writer}, \hyperpage{217}
+  \item {operator!=}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{49}
+  \item {operator$<$$<$}
+    \subitem {el::base::MessageBuilder}, \hyperpage{137}
+    \subitem {el::base::NullWriter}, \hyperpage{143}
+    \subitem {el::base::utils}, \hyperpage{40}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{56}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{174}
+    \subitem {el::base::Writer}, \hyperpage{217, 218}
+    \subitem {el::Loggable}, \hyperpage{113}
+  \item {operator()}
+    \subitem {el::base::HitCounter::Predicate}, \hyperpage{153}
+    \subitem {el::Configuration::Predicate}, \hyperpage{154}
+    \subitem {std::hash$<$ el::Level $>$}, \hyperpage{86}
+  \item {operator=}
+    \subitem {el::base::HitCounter}, \hyperpage{93}
+    \subitem {el::base::LogFormat}, \hyperpage{109}
+    \subitem {el::base::NoCopy}, \hyperpage{139}
+    \subitem {el::base::StaticClass}, \hyperpage{177}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{49}
+    \subitem {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{168}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{173}
+    \subitem {el::Configuration}, \hyperpage{59}
+    \subitem {el::Logger}, \hyperpage{118}
+  \item {operator==}
+    \subitem {el::base::LogFormat}, \hyperpage{109}
+    \subitem {el::base::SubsecondPrecision}, \hyperpage{195}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{49}
+    \subitem {el::CustomFormatSpecifier}, \hyperpage{76}
+  \item {Or}
+    \subitem {el::base::utils::bitwise}, \hyperpage{42}
+  \item {ostream\_t}
+    \subitem {el::base::type}, \hyperpage{38}
+
+  \indexspace
+
+  \item {parentApplicationName}
+    \subitem {el::Logger}, \hyperpage{118}
+  \item {parseFormat}
+    \subitem {el::base::utils::DateTime}, \hyperpage{79}
+  \item {parseFromFile}
+    \subitem {el::Configurations}, \hyperpage{66}
+    \subitem {el::Configurations::Parser}, \hyperpage{147}
+  \item {parseFromFormat}
+    \subitem {el::base::LogFormat}, \hyperpage{109}
+  \item {parseFromText}
+    \subitem {el::Configurations}, \hyperpage{66}
+    \subitem {el::Configurations::Parser}, \hyperpage{148}
+  \item {parseLine}
+    \subitem {el::Configurations::Parser}, \hyperpage{148}
+  \item {pathExists}
+    \subitem {el::base::utils::File}, \hyperpage{85}
+  \item {PCHECK}
+    \subitem {easylogging++.h}, \hyperpage{311}
+  \item {PERFORMANCE\_CHECKPOINT}
+    \subitem {easylogging++.h}, \hyperpage{311}
+  \item {PERFORMANCE\_CHECKPOINT\_WITH\_ID}
+    \subitem {easylogging++.h}, \hyperpage{312}
+  \item {PerformanceTrackerPtr}
+    \subitem {el::base::type}, \hyperpage{38}
+  \item {PerformanceTracking}
+    \subitem {el}, \hyperpage{17}
+  \item {performanceTracking}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{205}
+  \item {PerformanceTrackingCallbackPtr}
+    \subitem {el::base::type}, \hyperpage{38}
+  \item {PErrorWriter}
+    \subitem {el::base::PErrorWriter}, \hyperpage{152}
+  \item {PLOG}
+    \subitem {easylogging++.h}, \hyperpage{312}
+  \item {PLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{312}
+  \item {populateAllLoggerIds}
+    \subitem {el::Loggers}, \hyperpage{129}
+  \item {Predicate}
+    \subitem {el::base::HitCounter::Predicate}, \hyperpage{153}
+    \subitem {el::Configuration::Predicate}, \hyperpage{154}
+  \item {PreRollOutCallback}
+    \subitem {el}, \hyperpage{17}
+  \item {preRollOutCallback}
+    \subitem {el::base::Storage}, \hyperpage{182}
+  \item {processDispatch}
+    \subitem {el::base::Writer}, \hyperpage{218}
 
   \indexspace
 
   \item {README}, \hyperpage{1}
-  \item {README.md}, \hyperpage{7}
+  \item {README.md}, \hyperpage{365}
+  \item {reconfigure}
+    \subitem {el::Logger}, \hyperpage{118}
+  \item {reconfigureAllLoggers}
+    \subitem {el::Loggers}, \hyperpage{129}
+  \item {reconfigureLogger}
+    \subitem {el::Loggers}, \hyperpage{130}
+  \item {RegisteredLoggers}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{161}
+  \item {registeredLoggers}
+    \subitem {el::base::Storage}, \hyperpage{182}
+  \item {registerNew}
+    \subitem {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{168}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{173}
+  \item {Registry}
+    \subitem {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{167}
+  \item {RegistryWithPred}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{172}
+  \item {reinitDeepCopy}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{50}
+  \item {releaseDate}
+    \subitem {el::VersionInfo}, \hyperpage{211}
+  \item {releaseLock}
+    \subitem {el::base::threading::ThreadSafe}, \hyperpage{198}
+  \item {remove}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{162}
+  \item {removeFlag}
+    \subitem {el::base::Storage}, \hyperpage{182}
+    \subitem {el::base::utils}, \hyperpage{41}
+    \subitem {el::Loggers}, \hyperpage{130}
+  \item {replaceAll}
+    \subitem {el::base::utils::Str}, \hyperpage{190, 191}
+  \item {replaceFirstWithEscape}
+    \subitem {el::base::utils::Str}, \hyperpage{191}
+  \item {reserveCustomFormatSpecifiers}
+    \subitem {el::Helpers}, \hyperpage{89}
+  \item {resetLocation}
+    \subitem {el::base::HitCounter}, \hyperpage{94}
+  \item {resolveFilename}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{205}
+  \item {resolveLoggerFormatSpec}
+    \subitem {el::Logger}, \hyperpage{119}
+  \item {resolver}
+    \subitem {el::CustomFormatSpecifier}, \hyperpage{76}
+  \item {rtrim}
+    \subitem {el::base::utils::Str}, \hyperpage{191}
 
   \indexspace
 
-  \item {src/main.cpp}, \hyperpage{7, 8}
+  \item {safeDelete}
+    \subitem {el::base::utils}, \hyperpage{41}
+  \item {ScopedAddFlag}
+    \subitem {el::Loggers::ScopedAddFlag}, \hyperpage{174}
+  \item {ScopedLock}
+    \subitem {el::base::threading}, \hyperpage{36}
+  \item {ScopedRemoveFlag}
+    \subitem {el::Loggers::ScopedRemoveFlag}, \hyperpage{175}
+  \item {Second}
+    \subitem {el::base}, \hyperpage{23}
+  \item {set}
+    \subitem {el::Configurations}, \hyperpage{67}
+  \item {setApplicationArguments}
+    \subitem {el::base::Storage}, \hyperpage{182}
+  \item {setArgs}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{55}
+    \subitem {el::Helpers}, \hyperpage{89}
+  \item {setDefaultConfigurations}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{163}
+    \subitem {el::Loggers}, \hyperpage{131}
+  \item {setDefaultLogBuilder}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{163}
+    \subitem {el::Loggers}, \hyperpage{131}
+  \item {setDispatchAction}
+    \subitem {el::LogDispatchData}, \hyperpage{103}
+  \item {setEnabled}
+    \subitem {el::Callback$<$ T $>$}, \hyperpage{52}
+  \item {setFlags}
+    \subitem {el::base::Storage}, \hyperpage{182}
+  \item {setFromArgs}
+    \subitem {el::base::VRegistry}, \hyperpage{213}
+  \item {setFromBase}
+    \subitem {el::Configurations}, \hyperpage{67}
+  \item {setGlobally}
+    \subitem {el::Configurations}, \hyperpage{68}
+  \item {setLevel}
+    \subitem {el::base::VRegistry}, \hyperpage{214}
+  \item {setLogBuilder}
+    \subitem {el::Logger}, \hyperpage{119}
+  \item {setLoggingLevel}
+    \subitem {el::base::Storage}, \hyperpage{183}
+    \subitem {el::Loggers}, \hyperpage{131}
+  \item {setLogMessage}
+    \subitem {el::LogDispatchData}, \hyperpage{103}
+  \item {setModules}
+    \subitem {el::base::VRegistry}, \hyperpage{214}
+  \item {setParentApplicationName}
+    \subitem {el::Logger}, \hyperpage{119}
+  \item {setPreRollOutCallback}
+    \subitem {el::base::Storage}, \hyperpage{183}
+  \item {setRemainingToDefault}
+    \subitem {el::Configurations}, \hyperpage{68}
+  \item {setStorage}
+    \subitem {el::Helpers}, \hyperpage{89}
+  \item {setThreadName}
+    \subitem {el::base::Storage}, \hyperpage{183}
+    \subitem {el::Helpers}, \hyperpage{90}
+  \item {setToDefault}
+    \subitem {el::Configurations}, \hyperpage{69}
+  \item {setValue}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{205}
+    \subitem {el::Configuration}, \hyperpage{59}
+  \item {setVerboseLevel}
+    \subitem {el::Loggers}, \hyperpage{131}
+  \item {setVModules}
+    \subitem {el::Loggers}, \hyperpage{131}
+  \item {SHARE\_EASYLOGGINGPP}
+    \subitem {easylogging++.h}, \hyperpage{312}
+  \item {size}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{50}
+    \subitem {el::base::utils::CommandLineArgs}, \hyperpage{55}
+  \item {src/main.cpp}, \hyperpage{365, 366}
+  \item {START\_EASYLOGGINGPP}
+    \subitem {easylogging++.h}, \hyperpage{312}
+  \item {startsWith}
+    \subitem {el::base::utils::Str}, \hyperpage{191}
+  \item {StaticClass}
+    \subitem {el::base::StaticClass}, \hyperpage{177}
+  \item {std}, \hyperpage{42}
+  \item {std::hash$<$ el::Level $>$}, \hyperpage{85}
+    \subitem {operator()}, \hyperpage{86}
+  \item {Storage}
+    \subitem {el::base::Storage}, \hyperpage{179}
+  \item {storage}
+    \subitem {el::Helpers}, \hyperpage{90}
+  \item {StoragePointer}
+    \subitem {el::base::type}, \hyperpage{38}
+  \item {STRCAT}
+    \subitem {easylogging++.h}, \hyperpage{312}
+  \item {STRCPY}
+    \subitem {easylogging++.h}, \hyperpage{313}
+  \item {stream}
+    \subitem {el::Logger}, \hyperpage{119}
+  \item {STRERROR}
+    \subitem {easylogging++.h}, \hyperpage{313}
+  \item {StrictLogFileSizeCheck}
+    \subitem {el}, \hyperpage{18}
+  \item {string\_t}
+    \subitem {el::base::type}, \hyperpage{38}
+  \item {stringstream\_t}
+    \subitem {el::base::type}, \hyperpage{38}
+  \item {stringToLevelMap}
+    \subitem {el}, \hyperpage{19}
+  \item {STRTOK}
+    \subitem {easylogging++.h}, \hyperpage{313}
+  \item {SubsecondPrecision}
+    \subitem {el}, \hyperpage{17}
+    \subitem {el::base::SubsecondPrecision}, \hyperpage{194}
+  \item {subsecondPrecision}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{205}
+  \item {SYSLOG}
+    \subitem {easylogging++.h}, \hyperpage{313}
+  \item {SysLog}
+    \subitem {el::base}, \hyperpage{22}
+  \item {SYSLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{313}
+  \item {SYSLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{313}
+  \item {SYSLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{314}
+  \item {SYSLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{314}
+  \item {SysLogInitializer}
+    \subitem {el::SysLogInitializer}, \hyperpage{196}
 
   \indexspace
 
+  \item {termSupportsColor}
+    \subitem {el::base::utils::OS}, \hyperpage{146}
+  \item {ThreadId}
+    \subitem {el::base}, \hyperpage{23}
+  \item {ThreadSafe}
+    \subitem {el::base::threading::ThreadSafe}, \hyperpage{198}
+  \item {TIMED\_BLOCK}
+    \subitem {easylogging++.h}, \hyperpage{314}
+  \item {TIMED\_FUNC}
+    \subitem {easylogging++.h}, \hyperpage{314}
+  \item {TIMED\_FUNC\_IF}
+    \subitem {easylogging++.h}, \hyperpage{314}
+  \item {TIMED\_SCOPE}
+    \subitem {easylogging++.h}, \hyperpage{315}
+  \item {TIMED\_SCOPE\_IF}
+    \subitem {easylogging++.h}, \hyperpage{315}
+  \item {TimestampUnit}
+    \subitem {el::base}, \hyperpage{23}
+  \item {timevalToString}
+    \subitem {el::base::utils::DateTime}, \hyperpage{79}
   \item {Todo List}, \hyperpage{3}
+  \item {ToFile}
+    \subitem {el}, \hyperpage{17}
+  \item {toFile}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{205}
+  \item {ToStandardOutput}
+    \subitem {el}, \hyperpage{17}
+  \item {toStandardOutput}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{206}
+  \item {toUpper}
+    \subitem {el::base::utils::Str}, \hyperpage{192}
+  \item {Trace}
+    \subitem {el}, \hyperpage{18}
+  \item {triggerDispatch}
+    \subitem {el::base::Writer}, \hyperpage{218}
+  \item {trim}
+    \subitem {el::base::utils::Str}, \hyperpage{192}
+  \item {try\_lock}
+    \subitem {el::base::threading::internal::NoMutex}, \hyperpage{140}
+  \item {TypedConfigurations}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{201, 202}
+  \item {typedConfigurations}
+    \subitem {el::Logger}, \hyperpage{119}
+
+  \indexspace
+
+  \item {uninstallCallback}
+    \subitem {el::base::utils::Utils}, \hyperpage{210}
+  \item {uninstallCustomFormatSpecifier}
+    \subitem {el::base::Storage}, \hyperpage{183}
+    \subitem {el::Helpers}, \hyperpage{90}
+  \item {uninstallLogDispatchCallback}
+    \subitem {el::base::Storage}, \hyperpage{183}
+    \subitem {el::Helpers}, \hyperpage{90}
+  \item {uninstallLoggerRegistrationCallback}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{163}
+    \subitem {el::Loggers}, \hyperpage{132}
+  \item {uninstallPreRollOutCallback}
+    \subitem {el::Helpers}, \hyperpage{91}
+  \item {unit}
+    \subitem {el::base::consts}, \hyperpage{35}
+  \item {Unknown}
+    \subitem {el}, \hyperpage{17, 18}
+  \item {unlock}
+    \subitem {el::base::threading::internal::NoMutex}, \hyperpage{140}
+  \item {unregister}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{163}
+    \subitem {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{168}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{173}
+  \item {unregisterAll}
+    \subitem {el::base::utils::AbstractRegistry$<$ T\_Ptr, Container $>$}, 
+		\hyperpage{50}
+    \subitem {el::base::utils::Registry$<$ T\_Ptr, T\_Key $>$}, 
+		\hyperpage{169}
+    \subitem {el::base::utils::RegistryWithPred$<$ T\_Ptr, Pred $>$}, 
+		\hyperpage{173}
+  \item {unregisterLogger}
+    \subitem {el::Loggers}, \hyperpage{132}
+  \item {unsafeFlushAll}
+    \subitem {el::base::RegisteredLoggers}, \hyperpage{163}
+  \item {unsafeGetConfigByRef}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{206}
+  \item {unsafeGetConfigByVal}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{206}
+  \item {unsafeSet}
+    \subitem {el::Configurations}, \hyperpage{69}
+  \item {unsafeSetGlobally}
+    \subitem {el::Configurations}, \hyperpage{69}
+  \item {unsafeSetIfNotExist}
+    \subitem {el::Configurations}, \hyperpage{70}
+  \item {unsafeValidateFileRolling}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{206}
+  \item {unsetPreRollOutCallback}
+    \subitem {el::base::Storage}, \hyperpage{183}
+  \item {updateDateFormat}
+    \subitem {el::base::LogFormat}, \hyperpage{110}
+  \item {updateFormatSpec}
+    \subitem {el::base::LogFormat}, \hyperpage{110}
+  \item {User}
+    \subitem {el::base}, \hyperpage{22}
+  \item {userFormat}
+    \subitem {el::base::LogFormat}, \hyperpage{110}
+
+  \indexspace
+
+  \item {validateAfterN}
+    \subitem {el::base::RegisteredHitCounters}, \hyperpage{157}
+  \item {validateAfterNCounter}
+    \subitem {el::base::Storage}, \hyperpage{184}
+  \item {validateEveryN}
+    \subitem {el::base::RegisteredHitCounters}, \hyperpage{157}
+  \item {validateEveryNCounter}
+    \subitem {el::base::Storage}, \hyperpage{184}
+  \item {validateFileRolling}
+    \subitem {el::base::TypedConfigurations}, \hyperpage{206}
+    \subitem {el::Helpers}, \hyperpage{91}
+  \item {validateHitCounts}
+    \subitem {el::base::HitCounter}, \hyperpage{94}
+  \item {validateNTimes}
+    \subitem {el::base::RegisteredHitCounters}, \hyperpage{158}
+  \item {validateNTimesCounter}
+    \subitem {el::base::Storage}, \hyperpage{184}
+  \item {value}
+    \subitem {el::base::consts}, \hyperpage{35}
+    \subitem {el::Configuration}, \hyperpage{59}
+  \item {Verbose}
+    \subitem {el}, \hyperpage{18}
+  \item {VerboseLevel}
+    \subitem {el::base}, \hyperpage{23}
+    \subitem {el::base::type}, \hyperpage{39}
+  \item {verboseLevel}
+    \subitem {el::Loggers}, \hyperpage{132}
+    \subitem {el::LogMessage}, \hyperpage{134}
+  \item {version}
+    \subitem {el::VersionInfo}, \hyperpage{211}
+  \item {VLOG}
+    \subitem {easylogging++.h}, \hyperpage{315}
+  \item {VLOG\_AFTER\_N}
+    \subitem {easylogging++.h}, \hyperpage{315}
+  \item {VLOG\_EVERY\_N}
+    \subitem {easylogging++.h}, \hyperpage{316}
+  \item {VLOG\_IF}
+    \subitem {easylogging++.h}, \hyperpage{316}
+  \item {VLOG\_IS\_ON}
+    \subitem {easylogging++.h}, \hyperpage{316}
+  \item {VLOG\_N\_TIMES}
+    \subitem {easylogging++.h}, \hyperpage{316}
+  \item {vModulesEnabled}
+    \subitem {el::base::VRegistry}, \hyperpage{214}
+  \item {VRegistry}
+    \subitem {el::base::VRegistry}, \hyperpage{213}
+  \item {vRegistry}
+    \subitem {el::base::Storage}, \hyperpage{184}
+
+  \indexspace
+
+  \item {Warning}
+    \subitem {el}, \hyperpage{18}
+  \item {wcharPtrToCharPtr}
+    \subitem {el::base::utils::Str}, \hyperpage{192}
+  \item {wildCardMatch}
+    \subitem {el::base::utils::Str}, \hyperpage{192}
+  \item {WIP}, \hyperpage{42}
+    \subitem {exampleEasyLogging}, \hyperpage{43}
+  \item {writeIterator}
+    \subitem {el::base::MessageBuilder}, \hyperpage{137}
+  \item {Writer}
+    \subitem {el::base::Writer}, \hyperpage{216}
 
 \end{theindex}

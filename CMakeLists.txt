@@ -14,16 +14,11 @@ set(SOURCES
     lib/easylogging++.cc
 )
 
-find_package(Catch2 REQUIRED)
-find_package(jsoncpp REQUIRED)
-#include_directories(${PROJECT_SOURCE_DIR}/include)
-#link_directories(${PROJECT_SOURCE_DIR}/lib)
-add_executable(${PROJECT_NAME} ${SOURCES})
+include_directories(${PROJECT_SOURCE_DIR}/include)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE
-  Catch2::Catch2
-  jsoncpp
-)
+link_directories(${PROJECT_SOURCE_DIR}/lib)
+
+add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/include

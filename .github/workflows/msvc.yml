@@ -19,7 +19,7 @@ on:
 env:
   # Path to the CMake build directory.
   CONFIG: 'Debug'
-  BUILD: '${{ github.workspace }}/build'
+  BUILD: '${{ github.workspace }}/buildDO'
 
 permissions:
   contents: read

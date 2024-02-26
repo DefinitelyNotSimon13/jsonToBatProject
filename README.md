@@ -2,6 +2,8 @@
 
 [Doxygen Documentation](https://definitelynotsimon13.github.io/jsonToBatProject/)
 
+[Sonar Cloud](https://sonarcloud.io/dashboard?id=DefinitelyNotSimon13_jsonToBatProject&branch=main)
+
 # README
 
 Current workflows:

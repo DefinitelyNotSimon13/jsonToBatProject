@@ -4,6 +4,8 @@
  * - Github
  * - "Dev-Ops"
  * - Doxygen settings
+ * - Template-Comment
+ * - Template-Header-Comment
  * 
  **/
 

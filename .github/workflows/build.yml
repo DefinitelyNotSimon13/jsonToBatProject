@@ -76,7 +76,7 @@ jobs:
       run: ctest --build-config ${{ matrix.build_type }}
 
     - name: Doxygen Action 
-    - uses: mattnotmitt/doxygen-action@v1.9.5
+      uses: mattnotmitt/doxygen-action@v1.9.5
       with:
         enable-latex: true
 

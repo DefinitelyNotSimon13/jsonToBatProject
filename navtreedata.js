@@ -25,7 +25,9 @@
 var NAVTREE =
 [
   [ "jsonToBatProject", "index.html", [
-    [ "README", "md_README.html", null ],
+    [ "README", "md_README.html", [
+      [ "README", "md_README.html#autotoc_md0", null ]
+    ] ],
     [ "Todo List", "todo.html", null ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],

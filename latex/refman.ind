@@ -1,0 +1,21 @@
+\begin{theindex}
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{7}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{7}
+
+  \indexspace
+
+  \item {README}, \hyperpage{1}
+  \item {README.md}, \hyperpage{7}
+
+  \indexspace
+
+  \item {src/main.cpp}, \hyperpage{7, 8}
+
+  \indexspace
+
+  \item {Todo List}, \hyperpage{3}
+
+\end{theindex}

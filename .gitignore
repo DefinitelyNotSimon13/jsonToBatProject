@@ -4,4 +4,6 @@ runDebug
 logs
 build
 compile_commands.json
+docs/html
+docs/latex
 .vscode

@@ -3,3 +3,4 @@ scripts
 runDebug
 .cache
 logs
+compile-commands.json

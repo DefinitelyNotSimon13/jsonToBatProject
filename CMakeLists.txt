@@ -11,6 +11,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(SOURCES
     src/main.cpp
+    lib/easylogging++.cc
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
@@ -20,3 +21,5 @@ target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/src
     ${PROJECT_BINARY_DIR}
 )
+
+link_directories(${PROJECT_SOURCE_DIR}/lib)

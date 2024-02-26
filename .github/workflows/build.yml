@@ -59,7 +59,7 @@ jobs:
         echo "build-output-dir=${{ github.workspace }}/build" >> "$GITHUB_OUTPUT"
 
     - name: Set up MinGW
-      uses: egor-tensin/setup-mingw@v2.2
+      uses: egor-tensin/setup-mingw@v2.2.0
       with:
         platform: x64
 

@@ -2,4 +2,5 @@ scripts
 runDebug
 .cache
 logs
+build
 compile_commands.json

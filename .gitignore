@@ -4,5 +4,3 @@ runDebug
 logs
 build
 compile_commands.json
-html
-latex

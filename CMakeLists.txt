@@ -19,6 +19,7 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/src
-    ${PROJECT_SOURCE_DIR}/lib
     ${PROJECT_BINARY_DIR}
 )
+
+link_directories(${PROJECT_SOURCE_DIR}/lib)

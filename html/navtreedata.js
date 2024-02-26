@@ -32,40 +32,19 @@ var NAVTREE =
         [ "Git (?):", "md_README.html#autotoc_md3", null ]
       ] ]
     ] ],
-    [ "Deprecated List", "deprecated.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", null ]
-      ] ]
-    ] ],
-    [ "Data Structures", "annotated.html", [
-      [ "Data Structures", "annotated.html", "annotated_dup" ],
-      [ "Data Structure Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Data Fields", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Symbols", "functions_rela.html", null ]
+        [ "Functions", "namespacemembers_func.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ]
       ] ]
     ] ]
   ] ]
@@ -73,19 +52,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"allocator_8h.html",
-"classJson_1_1Reader.html#aa35e6ab574dc399a0a645ad98ed66bc9ae4fcf05c3b1ce462bacd34af0ccac32b",
-"classJson_1_1Value.html#a0cfec5b9bac611047dacc56d691a4435",
-"classJson_1_1Value.html#acec156770bf554bee85279825d046fad",
-"classJson_1_1Writer.html",
-"classel_1_1LogMessage.html#a0ac3d7462be1c375a39e2ecd0b7c6cea",
-"classel_1_1base_1_1HitCounter.html#aa79b74656876a481749993cf9154a42c",
-"classel_1_1base_1_1Storage.html#a81bbf6fe31fab133d182efa8367304f1",
-"classel_1_1base_1_1threading_1_1internal_1_1NoMutex.html#a5a248c97fee2ef0087526f2f8d3cd26e",
-"config_8h.html#adb415814c51222bba71d5e700a15f11d",
-"easylogging_09_09_8h.html#a6ffae63a3a6db3db9e59b175c8825fb1",
-"globals_defs_d.html",
-"namespaceel_1_1base_1_1type.html#a7be44abab4288b1ea29962a059737347"
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

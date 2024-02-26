@@ -2,10 +2,10 @@
 \hypertarget{main_8cpp_source}{}\label{main_8cpp_source}\index{src/main.cpp@{src/main.cpp}}
 \mbox{\hyperlink{main_8cpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ <\mbox{\hyperlink{easylogging_09_09_8h}{easylogging++.h}}>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ <easylogging++.h>}}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ <iostream>}}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00003}00003\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00013}00013\ \mbox{\hyperlink{easylogging_09_09_8h_a0680b16a06b8c74f1ce4165cb3c14c12}{INITIALIZE\_EASYLOGGINGPP}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00013}00013\ INITIALIZE\_EASYLOGGINGPP}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00014}00014\ }
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00015}\mbox{\hyperlink{namespaceWIP}{00015}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceWIP}{WIP}}\ \{}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00016}00016\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{exampleEasyLogging}}();}
@@ -19,11 +19,11 @@
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00031}00031\ }
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00039}00039\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceWIP}{WIP}}\ \{}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00053}\mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{00053}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{exampleEasyLogging}}()\ \{}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00054}00054\ \ \ \mbox{\hyperlink{classel_1_1Configurations}{el::Configurations}}\ conf(\textcolor{stringliteral}{"{}conf/easylogging.conf"{}});}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00055}00055\ \ \ \mbox{\hyperlink{classel_1_1Loggers_a02223004494a404a2c3e7cd0c4380d3b}{el::Loggers::reconfigureLogger}}(\textcolor{stringliteral}{"{}default"{}},\ conf);}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00056}00056\ \ \ \mbox{\hyperlink{classel_1_1Loggers_a42f99e79d72d391df563df8d09272194}{el::Loggers::reconfigureAllLoggers}}(conf);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00054}00054\ \ \ el::Configurations\ conf(\textcolor{stringliteral}{"{}conf/easylogging.conf"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00055}00055\ \ \ el::Loggers::reconfigureLogger(\textcolor{stringliteral}{"{}default"{}},\ conf);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00056}00056\ \ \ el::Loggers::reconfigureAllLoggers(conf);}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00057}00057\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00058}00058\ \ \ \mbox{\hyperlink{easylogging_09_09_8h_acecfb113caaa2f52fe8e764fe04476bc}{LOG}}(INFO)\ <<\ \textcolor{stringliteral}{"{}My\ first\ info\ log\ using\ default\ logger"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00058}00058\ \ \ LOG(INFO)\ <<\ \textcolor{stringliteral}{"{}My\ first\ info\ log\ using\ default\ logger"{}};}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00059}00059\ \}}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00060}00060\ \}\ \textcolor{comment}{//\ namespace\ WIP}}
 

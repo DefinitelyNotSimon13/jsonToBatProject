@@ -59,6 +59,7 @@ As is, this approach works on linux (gcc, clang) and Windows (Mingw). As steps f
 
 ## Precompiled
 By setting the flag ```-DPRECOMPILED=ON``` when initialising the cmake project, the precompiled versions of the libraries will be used.
+***This does currently not work under windows***
 
 </details>
 

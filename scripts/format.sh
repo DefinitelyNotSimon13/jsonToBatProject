@@ -4,7 +4,7 @@ if [ "$#" -eq 0 ]; then
 fi
 
 if [ "$1" = "-a" ]; then
-  astyle --project src/*
+  astyle --project src/*.cpp,*.hpp -r
   exit 0
 fi
 

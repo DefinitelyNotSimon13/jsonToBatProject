@@ -89,6 +89,8 @@ sleep 0.2
 printf "%s\n\n" "$VDIV"
 printf "\e[32m"
 
+echo "$ARGS"
+
 LOGDIR="logs/runDebug"
 mkdir -p "$LOGDIR" 2>$VERBOSEOUTPUT
 # Get current date and time for logName
@@ -97,7 +99,7 @@ if [ "$COLUMNS" -gt 102 ]; then
     # Start timer for runtime measurement
     startSecond=$(date +%s%N)
     # Run the programm with in-terminal timestamps and save the output to a log file
-    ./"$EXECUTABLE" "$ARGS" |& tee "$LOGDIR"/log"${currentDateTime}".txt |\
+    ./"$EXECUTABLE" ${ARGS} |& tee "$LOGDIR"/log"${currentDateTime}".txt |\
         ts '[%d.%m.%Y %H:%M:%S]'
     # Stop timer for runtime measurement
     endSecond=$(date +%s%N)

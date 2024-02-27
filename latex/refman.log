@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.27)  27 FEB 2024 12:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.27)  27 FEB 2024 12:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,20 +877,18 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 5.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 6.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
-.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
+1.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 9.
+(Font)              scaled to size 8.99994pt on input line 11.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 31.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 33.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 31.
+(Font)              scaled to size 8.99994pt on input line 33.
 ) (./todo.tex [1
 
 ] [2
@@ -924,8 +922,10 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 12.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 15.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 31.
+(Font)              scaled to size 7.19995pt on input line 27.
 ) [9] [10
 
 ]
@@ -947,16 +947,16 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 ]) (./refman.aux)
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 3B351D78D09A7006B647E6EC15759EA3;3511.
+(rerunfilecheck)             Checksum: 77C742A0F5465F74B976DCACE5679D44;2934.
  ) 
 Here is how much of TeX's memory you used:
- 18066 strings out of 476025
- 289600 string characters out of 5796497
- 1860388 words of memory out of 5000000
- 38095 multiletter control sequences out of 15000+600000
+ 18054 strings out of 476025
+ 289366 string characters out of 5796497
+ 1861388 words of memory out of 5000000
+ 38089 multiletter control sequences out of 15000+600000
  562880 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,117p,355b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,418b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/co
@@ -964,10 +964,10 @@ urier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></u
 sr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helv
 etic/uhvro8a.pfb>
-Output written on refman.pdf (17 pages, 97211 bytes).
+Output written on refman.pdf (17 pages, 96786 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 313 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

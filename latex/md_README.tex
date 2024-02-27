@@ -3,7 +3,9 @@
 \href{https://definitelynotsimon13.github.io/jsonToBatProject/}{\texttt{ Doxygen Documentation}}
 
 \href{https://sonarcloud.io/dashboard?id=DefinitelyNotSimon13_jsonToBatProject&branch=main}{\texttt{ Sonar Cloud}}\hypertarget{md_README_autotoc_md0}{}\doxysection{\texorpdfstring{README}{README}}\label{md_README_autotoc_md0}
-\hypertarget{md_README_autotoc_md1}{}\doxysubsection{\texorpdfstring{Current workflows\+:}{Current workflows:}}\label{md_README_autotoc_md1}
+
+
+{\bfseries{Current workflows\+:}}\begin{adjustwidth}{1em}{0em}
 
 \begin{DoxyItemize}
 \item build
@@ -28,17 +30,40 @@
 \item pages-\/build-\/deployment
 \item Sonar\+Cloud
 \begin{DoxyItemize}
-\item Static code analysis {\itshape For Scanning Alerts -\/\texorpdfstring{$>$}{>} Security}
+\item Static code analysis {\itshape For Scanning Alerts -\/\texorpdfstring{$>$}{>} Security} 
 \end{DoxyItemize}
-\end{DoxyItemize}\hypertarget{md_README_autotoc_md2}{}\doxysubsection{\texorpdfstring{Regarding coding style (?)\+:}{Regarding coding style (?):}}\label{md_README_autotoc_md2}
+\end{DoxyItemize}\end{adjustwidth}
+
+
+
+
+{\bfseries{Regarding coding style (?)\+:}}\begin{adjustwidth}{1em}{0em}
 
 \begin{DoxyItemize}
 \item no classes in global namespace
 \item no "{}using NAMESPACE"{}
 \item 4 space indenting
-\item ? {\itshape setup astyle options?}
-\end{DoxyItemize}\hypertarget{md_README_autotoc_md3}{}\doxysubsection{\texorpdfstring{Git (?)\+:}{Git (?):}}\label{md_README_autotoc_md3}
+\item ? {\itshape setup astyle options?} 
+\end{DoxyItemize}\end{adjustwidth}
+
+
+
+
+{\bfseries{Git (?)\+:}}\begin{adjustwidth}{1em}{0em}
 
 \begin{DoxyItemize}
 \item no direct commits onto main (only via pull-\/requests) 
+\end{DoxyItemize}\end{adjustwidth}
+
+
+
+
+{\bfseries{Libraries}}\begin{adjustwidth}{1em}{0em}
+
+\begin{DoxyItemize}
+\item jsoncpp
+\item Easyloggingpp
+\item Catch2
 \end{DoxyItemize}
+
+Libraries can be found in ./lib. They are subprojects and will be compiled when building the project for the first time. Alternately compiled versions can be found at ./lib/compiled. As is, this approach works on linux (gcc, clang) and Windows (Mingw). As steps found in the tutorial (checking for compiler in cmake) are not necessary. \end{adjustwidth}

@@ -99,8 +99,9 @@ $(document).ready(function(){initNavTree('md_README.html',''); initResizable(); 
 <p><a href="https://sonarcloud.io/dashboard?id=DefinitelyNotSimon13_jsonToBatProject&amp;branch=main">Sonar Cloud</a></p>
 <h1><a class="anchor" id="autotoc_md0"></a>
 README</h1>
-<h2><a class="anchor" id="autotoc_md1"></a>
-Current workflows:</h2>
+<details >
+<summary >
+Current workflows:</summary>
 <ul>
 <li>build<ul>
 <li>build and test the application on:<ul>
@@ -123,30 +124,45 @@ Current workflows:</h2>
 <li>Microsoft C++ Code Analysis</li>
 <li>pages-build-deployment</li>
 <li>SonarCloud<ul>
-<li>Static code analysis <em>For Scanning Alerts -&gt; Security</em></li>
+<li>Static code analysis <em>For Scanning Alerts -&gt; Security</em> </li>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md2"></a>
-Regarding coding style (?):</h2>
+</details>
+<details >
+<summary >
+Regarding coding style (?):</summary>
 <ul>
 <li>no classes in global namespace</li>
 <li>no "using NAMESPACE"</li>
 <li>4 space indenting</li>
-<li>? <em>setup astyle options?</em></li>
+<li>? <em>setup astyle options?</em> </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3"></a>
-Git (?):</h2>
+</details>
+<details >
+<summary >
+Git (?):</summary>
 <ul>
 <li>no direct commits onto main (only via pull-requests) </li>
 </ul>
+</details>
+<details >
+<summary >
+Libraries</summary>
+<ul>
+<li>jsoncpp</li>
+<li>Easyloggingpp</li>
+<li>Catch2</li>
+</ul>
+<p>Libraries can be found in ./lib. They are subprojects and will be compiled when building the project for the first time. Alternately compiled versions can be found at ./lib/compiled. As is, this approach works on linux (gcc, clang) and Windows (Mingw). As steps found in the tutorial (checking for compiler in cmake) are not necessary. </p>
+</details>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 27 2024 12:17:48 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Feb 27 2024 12:32:28 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

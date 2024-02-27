@@ -26,11 +26,7 @@ var NAVTREE =
 [
   [ "jsonToBatProject", "index.html", [
     [ "README", "md_README.html", [
-      [ "README", "md_README.html#autotoc_md0", [
-        [ "Current workflows:", "md_README.html#autotoc_md1", null ],
-        [ "Regarding coding style (?):", "md_README.html#autotoc_md2", null ],
-        [ "Git (?):", "md_README.html#autotoc_md3", null ]
-      ] ]
+      [ "README", "md_README.html#autotoc_md0", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [

@@ -46,7 +46,7 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 message(STATUS "Linking libraries")
 target_link_libraries(${PROJECT_NAME} 
   ${PROJECT_SOURCE_DIR}/oldLib/libCatch2.a 
-  ${PROJECT_BINARY_DIR}/lib/jsoncpp/src/lib_json/libjsoncpp.a)
+  ${PROJECT_SOURCE_DIR}/oldLib/libjsoncpp.a)
 
 message(STATUS "Adding include directories")
 target_include_directories(${PROJECT_NAME} PUBLIC

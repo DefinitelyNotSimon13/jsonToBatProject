@@ -29,6 +29,8 @@ IF (MINGW)
   message(STATUS "Using MinGW")
 ENDIF ()
 
+link_directories(${PROJECT_BINARY_DIR}/lib)
+link_directories(${PROJECT_SOURCE_DIR}/lib)
 message(STATUS "Checking for Catch2 library")
 find_library(CATCH2 Catch2)
 if(NOT CATCH2)

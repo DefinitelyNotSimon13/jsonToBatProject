@@ -20,9 +20,20 @@ IF (MINGW)
   message(STATUS "Using MinGW")
 ENDIF ()
 
-include_directories(${PROJECT_SOURCE_DIR}/include)
 
-link_directories(${PROJECT_SOURCE_DIR}/lib)
+find_library(CATCH2 Catch2)
+if(NOT CATCH2)
+  message(FATAL_ERROR "catch2 library not found")
+endif()
+
+find_library(JSONCPP jsoncpp)
+if(NOT JSONCPP)
+  message(FATAL_ERROR "jsoncpp library not found")
+endif()
+
+#include_directories(${PROJECT_SOURCE_DIR}/include)
+
+#link_directories(${PROJECT_SOURCE_DIR}/lib)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 

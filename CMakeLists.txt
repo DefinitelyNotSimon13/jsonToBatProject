@@ -9,6 +9,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+IF (CMAKE_BUILD_TYPE MATCHES Debug)
+  set(CMAKE_VERBOSE_MAKEFILE ON)
+ENDIF ()
+
 set(SOURCES
     src/main.cpp
     lib/easylogging++.cc
@@ -24,16 +28,17 @@ ENDIF ()
 find_library(CATCH2 Catch2)
 if(NOT CATCH2)
   message(FATAL_ERROR "catch2 library not found")
+  include_directories(${PROJECT_SOURCE_DIR}/include)
+  link_directories(${PROJECT_SOURCE_DIR}/lib)
 endif()
 
 find_library(JSONCPP jsoncpp)
 if(NOT JSONCPP)
   message(FATAL_ERROR "jsoncpp library not found")
+  include_directories(${PROJECT_SOURCE_DIR}/include)
+  link_directories(${PROJECT_SOURCE_DIR}/lib)
 endif()
 
-#include_directories(${PROJECT_SOURCE_DIR}/include)
-
-#link_directories(${PROJECT_SOURCE_DIR}/lib)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 

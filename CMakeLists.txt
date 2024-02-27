@@ -16,7 +16,9 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(SOURCES
-    src/main.cpp
+    ${PROJECT_SOURCE_DIR}/src/main.cpp
+    ${PROJECT_SOURCE_DIR}/src/sources/StartupHandler.cpp
+    ${PROJECT_SOURCE_DIR}/src/sources/globals.cpp
 )
 
 option(PRECOMPILED "Wether or not to use the precompiled versions of the libraries" OFF)
@@ -53,6 +55,8 @@ ENDIF()
 message(STATUS "Adding include directories")
 
 target_include_directories(${PROJECT_NAME} PUBLIC
+    ${PROJECT_SOURCE_DIR}/src/headers
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/src
+    ${PROJECT_SOURCE_DIR}/src/sources
 )

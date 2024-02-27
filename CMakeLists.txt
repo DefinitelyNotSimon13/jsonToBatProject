@@ -34,13 +34,13 @@ link_directories(${PROJECT_SOURCE_DIR}/lib)
 message(STATUS "Checking for Catch2 library")
 find_library(CATCH2 Catch2)
 if(NOT CATCH2)
-  message(FATAL_ERROR "catch2 library not found")
+  message(WARNING "catch2 library not found")
 endif()
 
 message(STATUS "Checking for jsoncpp library")
 find_library(JSONCPP jsoncpp)
 if(NOT JSONCPP)
-  message(FATAL_ERROR "jsoncpp library not found")
+  message(WARNING "jsoncpp library not found")
 endif()
 
 

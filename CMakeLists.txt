@@ -24,11 +24,10 @@ add_subdirectory(lib)
 
 message(STATUS "Adding executable ${PROJECT_NAME}")
 add_executable(${PROJECT_NAME} ${SOURCES})
-add_dependencies(${PROJECT_NAME} jsoncpp easyloggingpp Catch2::Catch2WithMain)
+add_dependencies(${PROJECT_NAME} easyloggingpp Catch2::Catch2WithMain)
 
 message(STATUS "Linking libraries")
 target_link_libraries(${PROJECT_NAME} PRIVATE
-  jsoncpp
   easyloggingpp
   Catch2::Catch2WithMain
 )

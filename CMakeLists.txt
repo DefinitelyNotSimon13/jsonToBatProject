@@ -14,9 +14,6 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_PREFIX_PATH ${PROJECT_SOURCE_DIR}/lib)
 
-add_subdirectory(lib/jsoncpp)
-add_subdirectory(lib/catch2)
-
 set(SOURCES
     src/main.cpp
     lib/easylogging++.cc
@@ -29,8 +26,6 @@ IF (MINGW)
   message(STATUS "Using MinGW")
 ENDIF ()
 
-link_directories(${PROJECT_BINARY_DIR}/lib)
-link_directories(${PROJECT_BINARY_DIR}/lib/jsoncpp/src/lib_json)
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 message(STATUS "Checking for Catch2 library")
 find_library(CATCH2 Catch2)
@@ -49,7 +44,9 @@ message(STATUS "Adding executable ${PROJECT_NAME}")
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 message(STATUS "Linking libraries")
-target_link_libraries(${PROJECT_NAME} Catch2 jsoncpp)
+target_link_libraries(${PROJECT_NAME} 
+  ${PROJECT_SOURCE_DIR}/oldLib/libCatch2.a 
+  ${PROJECT_BINARY_DIR}/lib/jsoncpp/src/lib_json/libjsoncpp.a)
 
 message(STATUS "Adding include directories")
 target_include_directories(${PROJECT_NAME} PUBLIC

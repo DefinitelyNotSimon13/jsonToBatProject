@@ -19,25 +19,9 @@ set(SOURCES
     lib/easylogging++.cc
 )
 
-message(STATUS "Checking for MinGW")
-IF (MINGW)
-  include_directories(${PROJECT_SOURCE_DIR}/include)
-  link_directories(${PROJECT_SOURCE_DIR}/lib)
-  message(STATUS "Using MinGW")
-ENDIF ()
-
-link_directories(${PROJECT_SOURCE_DIR}/lib)
-message(STATUS "Checking for Catch2 library")
-find_library(CATCH2 Catch2)
-if(NOT CATCH2)
-  message(WARNING "catch2 library not found")
-endif()
-
-message(STATUS "Checking for jsoncpp library")
-find_library(JSONCPP jsoncpp)
-if(NOT JSONCPP)
-  message(WARNING "jsoncpp library not found")
-endif()
+message(STATUS "Adding subdirectories")
+add_subdirectory(lib/catch2)
+add_subdirectory(lib/jsoncpp)
 
 
 message(STATUS "Adding executable ${PROJECT_NAME}")
@@ -45,8 +29,9 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 
 message(STATUS "Linking libraries")
 target_link_libraries(${PROJECT_NAME} 
-  ${PROJECT_SOURCE_DIR}/oldLib/libCatch2.a 
-  ${PROJECT_SOURCE_DIR}/oldLib/libjsoncpp.a)
+  Catch2::Catch2WithMain
+  ${PROJECT_BINARY_DIR}/lib/jsoncpp/src/lib_json/libjsoncpp.a
+)
 
 message(STATUS "Adding include directories")
 target_include_directories(${PROJECT_NAME} PUBLIC

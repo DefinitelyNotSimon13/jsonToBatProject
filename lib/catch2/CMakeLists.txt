@@ -8,9 +8,9 @@ else()
   set(NOT_SUBPROJECT OFF)
 endif()
 
-option(CATCH_INSTALL_DOCS "Install documentation alongside library" ON)
-option(CATCH_INSTALL_EXTRAS "Install extras (CMake scripts, debugger helpers) alongside library" ON)
-option(CATCH_DEVELOPMENT_BUILD "Build tests, enable warnings, enable Werror, etc" OFF)
+option(CATCH_INSTALL_DOCS "Install documentation alongside library" OFF)
+option(CATCH_INSTALL_EXTRAS "Install extras (CMake scripts, debugger helpers) alongside library" OFF)
+option(CATCH_DEVELOPMENT_BUILD "Build tests, enable warnings, enable Werror, etc" ON)
 option(CATCH_ENABLE_REPRODUCIBLE_BUILD "Add compiler flags for improving build reproducibility" ON)
 
 include(CMakeDependentOption)

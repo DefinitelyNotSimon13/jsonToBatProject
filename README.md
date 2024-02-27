@@ -52,8 +52,11 @@ _setup astyle options?_
 - Easyloggingpp
 - Catch2
 
-Libraries can be found in ./lib. They are subprojects and will be compiled when building the project for the first time. Alternately compiled versions can be found at ./lib/compiled.
+Libraries can be found in ./lib. They are subprojects and will be compiled when building the project for the first time. Alternatevly compiled versions can be found at ./lib/compiled.
 As is, this approach works on linux (gcc, clang) and Windows (Mingw). As steps found in the tutorial (checking for compiler in cmake) are not necessary.
+
+## Precompiled
+By setting the flag ```-DPRECOMPILED=ON``` when initialising the cmake project, the precompiled versions of the libraries will be used.
 
 </details>
 

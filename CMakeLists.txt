@@ -14,8 +14,8 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_PREFIX_PATH ${PROJECT_SOURCE_DIR}/lib)
 
-add_subdirectory(test/jsoncpp)
-add_subdirectory(test/catch2)
+add_subdirectory(lib/jsoncpp)
+add_subdirectory(lib/catch2)
 
 set(SOURCES
     src/main.cpp

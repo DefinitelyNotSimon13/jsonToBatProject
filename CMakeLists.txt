@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.22)
 
+message(STATUS "CMake version: ${CMAKE_VERSION}")
+message(STATUS "CMake source directory: ${CMAKE_SOURCE_DIR}")
+message(STATUS "CMake binary directory: ${CMAKE_BINARY_DIR}")
+
 set(PROJECT_NAME jsonToBatch)
 
 project(${PROJECT_NAME} VERSION 0.1.0)
@@ -10,36 +14,38 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_PREFIX_PATH ${PROJECT_SOURCE_DIR}/lib)
 
-IF (CMAKE_BUILD_TYPE MATCHES Debug)
-  set(CMAKE_VERBOSE_MAKEFILE ON)
-ENDIF ()
-
 set(SOURCES
     src/main.cpp
     lib/easylogging++.cc
 )
 
+message(STATUS "Checking for MinGW")
 IF (MINGW)
   include_directories(${PROJECT_SOURCE_DIR}/include)
   link_directories(${PROJECT_SOURCE_DIR}/lib)
   message(STATUS "Using MinGW")
 ENDIF ()
 
-
+message(STATUS "Checking for Catch2 library")
 find_library(CATCH2 Catch2)
 if(NOT CATCH2)
   message(FATAL_ERROR "catch2 library not found")
 endif()
 
+message(STATUS "Checking for jsoncpp library")
 find_library(JSONCPP jsoncpp)
 if(NOT JSONCPP)
   message(FATAL_ERROR "jsoncpp library not found")
 endif()
 
 
+message(STATUS "Adding executable ${PROJECT_NAME}")
 add_executable(${PROJECT_NAME} ${SOURCES})
 
+message(STATUS "Linking libraries")
 target_link_libraries(${PROJECT_NAME} Catch2 jsoncpp)
+
+message(STATUS "Adding include directories")
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/src

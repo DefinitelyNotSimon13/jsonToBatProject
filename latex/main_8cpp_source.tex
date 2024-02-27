@@ -2,30 +2,31 @@
 \hypertarget{main_8cpp_source}{}\label{main_8cpp_source}\index{src/main.cpp@{src/main.cpp}}
 \mbox{\hyperlink{main_8cpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ <easylogging++.h>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}easylogging++.h"{}}}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ <iostream>}}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00003}00003\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00004}00004\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00005}00005\ INITIALIZE\_EASYLOGGINGPP}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00006}00006\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00007}\mbox{\hyperlink{namespaceWIP}{00007}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceWIP}{WIP}}\ \{}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00008}00008\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{exampleEasyLogging}}();}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00009}00009\ \}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00010}00010\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00025}\mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{00025}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}}(\textcolor{keywordtype}{int}\ argc,\ \textcolor{keywordtype}{char}\ *argv[])\ \{}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00026}00026\ \ \ \mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{WIP::exampleEasyLogging}}();}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00027}00027\ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Hello,\ World!"{}}\ <<\ std::endl;}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00028}00028\ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00029}00029\ \}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00030}00030\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00038}00038\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceWIP}{WIP}}\ \{}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00052}\mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{00052}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{exampleEasyLogging}}()\ \{}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00053}00053\ \ \ el::Configurations\ conf(\textcolor{stringliteral}{"{}conf/easylogging.conf"{}});}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00054}00054\ \ \ el::Loggers::reconfigureLogger(\textcolor{stringliteral}{"{}default"{}},\ conf);}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00055}00055\ \ \ el::Loggers::reconfigureAllLoggers(conf);}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00056}00056\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00057}00057\ \ \ LOG(INFO)\ <<\ \textcolor{stringliteral}{"{}My\ first\ info\ log\ using\ default\ logger"{}};}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00058}00058\ \}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00059}00059\ \}\ \textcolor{comment}{//\ namespace\ WIP}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ "{}json/json.h"{}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ "{}catch2/catch\_all.hpp"{}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00008}\mbox{\hyperlink{namespaceWIP}{00008}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceWIP}{WIP}}\ \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00009}00009\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{exampleEasyLogging}}();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00010}00010\ \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00011}00011\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00026}\mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{00026}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}}(\textcolor{keywordtype}{int}\ argc,\ \textcolor{keywordtype}{char}\ *argv[])\ \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00027}00027\ \ \ \mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{WIP::exampleEasyLogging}}();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00028}00028\ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Hello,\ World!"{}}\ <<\ std::endl;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00029}00029\ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00030}00030\ \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00032}00032\ INITIALIZE\_EASYLOGGINGPP}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00040}00040\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceWIP}{WIP}}\ \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00054}\mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{00054}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{exampleEasyLogging}}()\ \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00055}00055\ \ \ el::Configurations\ conf(\textcolor{stringliteral}{"{}conf/easylogging.conf"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00056}00056\ \ \ el::Loggers::reconfigureLogger(\textcolor{stringliteral}{"{}default"{}},\ conf);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00057}00057\ \ \ el::Loggers::reconfigureAllLoggers(conf);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00058}00058\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00059}00059\ \ \ LOG(INFO)\ <<\ \textcolor{stringliteral}{"{}My\ first\ info\ log\ using\ default\ logger"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00060}00060\ \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00061}00061\ \}\ \textcolor{comment}{//\ namespace\ WIP}}
 
 \end{DoxyCode}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.26)  26 FEB 2024 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.27)  27 FEB 2024 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,18 +925,18 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 12.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 29.
+(Font)              scaled to size 7.19995pt on input line 31.
 ) [9] [10
 
 ]
 Chapter 6.
 (./README_8md.tex) (./main_8cpp.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 24.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 26.
 ) (./main_8cpp_source.tex [11]) [12] (./refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
@@ -950,8 +950,8 @@ Package rerunfilecheck Info: File `refman.out' has not changed.
 (rerunfilecheck)             Checksum: 3B351D78D09A7006B647E6EC15759EA3;3511.
  ) 
 Here is how much of TeX's memory you used:
- 18065 strings out of 476025
- 289577 string characters out of 5796497
+ 18066 strings out of 476025
+ 289600 string characters out of 5796497
  1860388 words of memory out of 5000000
  38095 multiletter control sequences out of 15000+600000
  562880 words of font info for 96 fonts, out of 8000000 for 9000
@@ -964,10 +964,10 @@ urier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></u
 sr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helv
 etic/uhvro8a.pfb>
-Output written on refman.pdf (17 pages, 96925 bytes).
+Output written on refman.pdf (17 pages, 97198 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 79 named destinations out of 1000 (max. 500000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

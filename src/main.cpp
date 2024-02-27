@@ -34,8 +34,8 @@ INITIALIZE_EASYLOGGINGPP
  * \brief Namespace for work in progress
  *
  * \details
- * - This namespace is for code that is not finished yet
- * - It is used to keep the main namespace clean
+ * Namespace I used for testing and trying out new things
+ * To be deleted
  **/
 namespace WIP {
 /**

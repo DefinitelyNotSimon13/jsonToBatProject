@@ -1,0 +1,3 @@
+2024-02-27 13:16:26,335 WARNING [default] This is a warning
+2024-02-27 13:16:26,335650 My first info log using default logger
+Hello, World!

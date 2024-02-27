@@ -1,3 +1,0 @@
-2024-02-27 13:08:56,466 WARNING [default] This is a warning
-2024-02-27 13:08:56,468131 My first info log using default logger
-Hello, World!

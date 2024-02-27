@@ -12,7 +12,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_PREFIX_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 set(SOURCES
     src/main.cpp
@@ -25,15 +24,17 @@ add_subdirectory(lib)
 
 message(STATUS "Adding executable ${PROJECT_NAME}")
 add_executable(${PROJECT_NAME} ${SOURCES})
+add_dependencies(${PROJECT_NAME} jsoncpp_static easyloggingpp Catch2::Catch2WithMain)
 
 message(STATUS "Linking libraries")
-target_link_libraries(${PROJECT_NAME} 
-  jsoncpp
+target_link_libraries(${PROJECT_NAME} PRIVATE
+  jsoncpp_static
   easyloggingpp
   Catch2::Catch2WithMain
 )
 
 message(STATUS "Adding include directories")
+
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/src

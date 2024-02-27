@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['list_0',['Todo List',['../todo.html',1,'']]]
+  ['exampleeasylogging_0',['exampleEasyLogging',['../namespaceWIP.html#a8abade321630427e408845cf8b194c56',1,'WIP']]]
 ];

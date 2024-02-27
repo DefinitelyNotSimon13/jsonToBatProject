@@ -5,8 +5,6 @@
 #include "json/json.h"
 #include "catch2/catch_all.hpp"
 
-INITIALIZE_EASYLOGGINGPP
-
 namespace WIP {
 void exampleEasyLogging();
 }
@@ -31,6 +29,7 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 
+INITIALIZE_EASYLOGGINGPP
 /**
  * \brief Namespace for work in progress
  *

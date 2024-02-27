@@ -20,9 +20,9 @@ set(SOURCES
 message(STATUS "Adding subdirectories")
 add_subdirectory(lib)
 
-
 message(STATUS "Adding executable ${PROJECT_NAME}")
 add_executable(${PROJECT_NAME} ${SOURCES})
+
 add_dependencies(${PROJECT_NAME} jsoncpp_static easyloggingpp Catch2::Catch2WithMain)
 
 message(STATUS "Linking libraries")
@@ -38,4 +38,3 @@ target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/src
 )
-

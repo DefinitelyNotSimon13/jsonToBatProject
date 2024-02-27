@@ -1,8 +1,9 @@
-#include <easylogging++.h>
+#include "easylogging++.h"
 #include <iostream>
 
-
-INITIALIZE_EASYLOGGINGPP
+//! Includes for test
+#include "json/json.h"
+#include "catch2/catch_all.hpp"
 
 namespace WIP {
 void exampleEasyLogging();
@@ -28,12 +29,13 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 
+INITIALIZE_EASYLOGGINGPP
 /**
  * \brief Namespace for work in progress
  *
  * \details
- * - This namespace is for code that is not finished yet
- * - It is used to keep the main namespace clean
+ * Namespace I used for testing and trying out new things
+ * To be deleted
  **/
 namespace WIP {
 /**

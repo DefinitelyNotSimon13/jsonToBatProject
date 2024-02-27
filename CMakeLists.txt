@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.22)
 
-set(PROJECT_NAME HelloWorld)
+message(STATUS "CMake version: ${CMAKE_VERSION}")
+message(STATUS "CMake source directory: ${CMAKE_SOURCE_DIR}")
+message(STATUS "CMake binary directory: ${CMAKE_BINARY_DIR}")
+
+set(PROJECT_NAME jsonToBatch)
 
 project(${PROJECT_NAME} VERSION 0.1.0)
 
@@ -11,15 +15,26 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(SOURCES
     src/main.cpp
-    lib/easylogging++.cc
 )
 
+message(STATUS "Adding subdirectories")
+add_subdirectory(lib)
+
+message(STATUS "Adding executable ${PROJECT_NAME}")
 add_executable(${PROJECT_NAME} ${SOURCES})
+
+add_dependencies(${PROJECT_NAME} jsoncpp_static easyloggingpp Catch2::Catch2WithMain)
+
+message(STATUS "Linking libraries")
+target_link_libraries(${PROJECT_NAME} PRIVATE
+  jsoncpp_static
+  easyloggingpp
+  Catch2::Catch2WithMain
+)
+
+message(STATUS "Adding include directories")
 
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/src
-    ${PROJECT_BINARY_DIR}
 )
-
-link_directories(${PROJECT_SOURCE_DIR}/lib)

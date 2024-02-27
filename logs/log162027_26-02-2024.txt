@@ -1,0 +1,3 @@
+ASSERTION FAILURE FROM EASYLOGGING++ (LINE: 294) [(assertionPassed = base::utils::File::pathExists(configurationFile.c_str(), true)) == true] WITH MESSAGE "Configuration file [../conf/easylogging.conf.conf] does not exist!"
+2024-02-26 16:20:27,621 INFO [default] My first info log using default logger
+Hello, World!

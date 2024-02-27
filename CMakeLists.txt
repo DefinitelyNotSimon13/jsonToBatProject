@@ -14,12 +14,18 @@ set(SOURCES
     lib/easylogging++.cc
 )
 
+IF (MINGW)
+  include_directories(${PROJECT_SOURCE_DIR}/include)
+  link_directories(${PROJECT_SOURCE_DIR}/lib)
+ENDIF ()
+
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
+target_link_libraries(${PROJECT_NAME} Catch2 jsoncpp)
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/src

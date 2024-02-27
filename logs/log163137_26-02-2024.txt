@@ -1,0 +1,4 @@
+ASSERTION FAILURE FROM EASYLOGGING++ (LINE: 294) [(assertionPassed = base::utils::File::pathExists(configurationFile.c_str(), true)) == true] WITH MESSAGE "Configuration file [home/simon/1_Coding/jsonToBatProject/conf/easylogging.conf] does not exist!"
+2024-02-26 16:31:37,425 INFO [default] My first info log using default logger
+2024-02-26 16:31:37,425 INFO [default] My first info log using default logger
+Hello, World!

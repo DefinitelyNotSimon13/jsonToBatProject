@@ -1,9 +1,9 @@
-#include <easylogging++.h>
+#include "easylogging++.h"
 #include <iostream>
 
 //! Includes for test
-#include <json/json.h>
-#include <catch2/catch_all.hpp>
+#include "json/json.h"
+#include "catch2/catch_all.hpp"
 
 INITIALIZE_EASYLOGGINGPP
 

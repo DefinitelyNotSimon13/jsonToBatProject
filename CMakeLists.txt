@@ -15,7 +15,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(SOURCES
     src/main.cpp
-    #lib/easylogging++.cc
 )
 
 message(STATUS "Adding subdirectories")

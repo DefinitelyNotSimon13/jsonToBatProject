@@ -19,7 +19,10 @@ set(SOURCES
 
 option(PRECOMPILED "Wether or not to use the precompiled versions of the libraries" OFF)
 
-
+IF (PRECOMPILED AND WIN32)
+  message(WARNING "Precompiled libraries are not available for Windows")
+  set(PRECOMPILED OFF)
+ENDIF ()
 
 message(STATUS "Adding executable ${PROJECT_NAME}")
 add_executable(${PROJECT_NAME} ${SOURCES})

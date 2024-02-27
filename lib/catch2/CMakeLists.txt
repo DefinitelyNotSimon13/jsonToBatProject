@@ -14,7 +14,7 @@ option(CATCH_DEVELOPMENT_BUILD "Build tests, enable warnings, enable Werror, etc
 option(CATCH_ENABLE_REPRODUCIBLE_BUILD "Add compiler flags for improving build reproducibility" ON)
 
 include(CMakeDependentOption)
-cmake_dependent_option(CATCH_BUILD_TESTING "Build the SelfTest project" ON "CATCH_DEVELOPMENT_BUILD" OFF)
+cmake_dependent_option(CATCH_BUILD_TESTING "Build the SelfTest project" OFF "CATCH_DEVELOPMENT_BUILD" OFF)
 cmake_dependent_option(CATCH_BUILD_EXAMPLES "Build code examples" OFF "CATCH_DEVELOPMENT_BUILD" OFF)
 cmake_dependent_option(CATCH_BUILD_EXTRA_TESTS "Build extra tests" OFF "CATCH_DEVELOPMENT_BUILD" OFF)
 cmake_dependent_option(CATCH_BUILD_FUZZERS "Build fuzzers" OFF "CATCH_DEVELOPMENT_BUILD" OFF)

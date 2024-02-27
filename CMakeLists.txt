@@ -16,12 +16,11 @@ set(CMAKE_PREFIX_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 set(SOURCES
     src/main.cpp
-    lib/easylogging++.cc
+    #lib/easylogging++.cc
 )
 
 message(STATUS "Adding subdirectories")
-add_subdirectory(lib/catch2)
-add_subdirectory(lib/jsoncpp)
+add_subdirectory(lib)
 
 
 message(STATUS "Adding executable ${PROJECT_NAME}")
@@ -29,14 +28,14 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 
 message(STATUS "Linking libraries")
 target_link_libraries(${PROJECT_NAME} 
+  jsoncpp
+  easyloggingpp
   Catch2::Catch2WithMain
-  ${PROJECT_BINARY_DIR}/lib/jsoncpp/src/lib_json/libjsoncpp.a
 )
 
 message(STATUS "Adding include directories")
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/src
-    ${PROJECT_BINARY_DIR}
 )
 

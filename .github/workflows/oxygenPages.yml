@@ -30,8 +30,8 @@ jobs:
       with:
         enable-latex: true
 
-    - name: Test
-      run: ls && echo next && ls docs && echo next && ls docs/latex
+    - name: Copy PDF
+      run: cp docs/latex/refman.pdf docs/Documentation.pdf
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3

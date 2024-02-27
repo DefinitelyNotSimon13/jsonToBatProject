@@ -6,7 +6,6 @@
 --attach-closing-while
 --indent-modifiers
 --indent-switches
---indent-namespaces
 --indent-continuation=3
 --indent-labels
 --indent-col1-comments

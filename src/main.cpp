@@ -2,11 +2,11 @@
 #include <iostream>
 
 //! Includes for test
-#include "json/json.h"
 #include "catch2/catch_all.hpp"
+#include "json/json.h"
 
 namespace WIP {
-void exampleEasyLogging();
+    void exampleEasyLogging();
 }
 
 /**
@@ -23,10 +23,11 @@ void exampleEasyLogging();
  * - Template-Comment
  * - Template-Header-Comment
  **/
-int main(int argc, char *argv[]) {
-  WIP::exampleEasyLogging();
-  std::cout << "Hello, World!" << std::endl;
-  return 0;
+int main(int argc, char* argv[])
+{
+    WIP::exampleEasyLogging();
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
 }
 
 INITIALIZE_EASYLOGGINGPP
@@ -38,24 +39,24 @@ INITIALIZE_EASYLOGGINGPP
  * To be deleted
  **/
 namespace WIP {
-/**
- * \brief Example of how to use easylogging with a configuration file
- *
- * \details
- * - This function is an example of how to use easylogging
- * - The configuration file is located in ../conf
- * - Before proper integration, config has to be done properly
- *
- * \todo 
- * - Configure easylogging properly
- * - outsource easylogging config
- *  - e.g. startup class?
- **/
-void exampleEasyLogging() {
-  el::Configurations conf("conf/easylogging.conf");
-  el::Loggers::reconfigureLogger("default", conf);
-  el::Loggers::reconfigureAllLoggers(conf);
-
-  LOG(INFO) << "My first info log using default logger";
-}
+    /**
+       * \brief Example of how to use easylogging with a configuration file
+       *
+       * \details
+       * - This function is an example of how to use easylogging
+       * - The configuration file is located in ../conf
+       * - Before proper integration, config has to be done properly
+       *
+       * \todo
+       * - Configure easylogging properly
+       * - outsource easylogging config
+       *  - e.g. startup class?
+       **/
+    void exampleEasyLogging()
+    {
+        el::Configurations conf("conf/easylogging.conf");
+        el::Loggers::reconfigureLogger("default", conf);
+        el::Loggers::reconfigureAllLoggers(conf);
+        LOG(INFO) << "My first info log using default logger";
+    }
 } // namespace WIP

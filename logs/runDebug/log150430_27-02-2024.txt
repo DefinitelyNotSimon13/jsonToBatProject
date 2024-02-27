@@ -1,0 +1,2 @@
+2024-02-27 15:04:30,599204 My first info log using default logger
+Hello, World!

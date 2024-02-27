@@ -17,20 +17,33 @@ set(SOURCES
     src/main.cpp
 )
 
-message(STATUS "Adding subdirectories")
-add_subdirectory(lib)
+option(PRECOMPILED "Wether or not to use the precompiled versions of the libraries" OFF)
+
+
 
 message(STATUS "Adding executable ${PROJECT_NAME}")
 add_executable(${PROJECT_NAME} ${SOURCES})
 
-add_dependencies(${PROJECT_NAME} jsoncpp_static easyloggingpp Catch2::Catch2WithMain)
+IF (PRECOMPILED)
+  message(STATUS "Using precompiled libraries")
+  target_link_libraries(${PROJECT_NAME} PRIVATE
+    ${PROJECT_SOURCE_DIR}/lib/compiled/libjsoncpp.a
+    ${PROJECT_SOURCE_DIR}/lib/compiled/libeasyloggingpp.a
+    ${PROJECT_SOURCE_DIR}/lib/compiled/libCatch2Maind.a
+  )
+ELSE ()
+  message(STATUS "Building libraries from source")
+  message(STATUS "Adding subdirectories")
+  add_subdirectory(lib)
+  add_dependencies(${PROJECT_NAME} jsoncpp_static easyloggingpp Catch2::Catch2WithMain)
+  message(STATUS "Linking libraries")
+  target_link_libraries(${PROJECT_NAME} PRIVATE
+    jsoncpp_static
+    easyloggingpp
+    Catch2::Catch2WithMain
+  )
+ENDIF()
 
-message(STATUS "Linking libraries")
-target_link_libraries(${PROJECT_NAME} PRIVATE
-  jsoncpp_static
-  easyloggingpp
-  Catch2::Catch2WithMain
-)
 
 message(STATUS "Adding include directories")
 

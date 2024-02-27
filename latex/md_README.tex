@@ -7,6 +7,8 @@
 
 {\bfseries{Current workflows\+:}}\begin{adjustwidth}{1em}{0em}
 
+
+
 \begin{DoxyItemize}
 \item build
 \begin{DoxyItemize}
@@ -30,29 +32,38 @@
 \item pages-\/build-\/deployment
 \item Sonar\+Cloud
 \begin{DoxyItemize}
-\item Static code analysis {\itshape For Scanning Alerts -\/\texorpdfstring{$>$}{>} Security} 
+\item Static code analysis {\itshape For Scanning Alerts -\/\texorpdfstring{$>$}{>} Security}
 \end{DoxyItemize}
-\end{DoxyItemize}\end{adjustwidth}
+\end{DoxyItemize}
+
+\end{adjustwidth}
 
 
 
 
 {\bfseries{Regarding coding style (?)\+:}}\begin{adjustwidth}{1em}{0em}
 
+
+
 \begin{DoxyItemize}
 \item no classes in global namespace
 \item no "{}using NAMESPACE"{}
 \item 4 space indenting
-\item ? {\itshape setup astyle options?} 
-\end{DoxyItemize}\end{adjustwidth}
+\item ? {\itshape setup astyle options?}
+\end{DoxyItemize}
+
+\end{adjustwidth}
 
 
 
 
 {\bfseries{Git (?)\+:}}\begin{adjustwidth}{1em}{0em}
 
+
+
 \begin{DoxyItemize}
-\item no direct commits onto main (only via pull-\/requests) 
+\item no direct commits onto main (only via pull-\/requests)
+\item 
 \end{DoxyItemize}\end{adjustwidth}
 
 
@@ -60,10 +71,14 @@
 
 {\bfseries{Libraries}}\begin{adjustwidth}{1em}{0em}
 
+
+
 \begin{DoxyItemize}
 \item jsoncpp
 \item Easyloggingpp
 \item Catch2
 \end{DoxyItemize}
 
-Libraries can be found in ./lib. They are subprojects and will be compiled when building the project for the first time. Alternately compiled versions can be found at ./lib/compiled. As is, this approach works on linux (gcc, clang) and Windows (Mingw). As steps found in the tutorial (checking for compiler in cmake) are not necessary. \end{adjustwidth}
+Libraries can be found in ./lib. They are subprojects and will be compiled when building the project for the first time. Alternately compiled versions can be found at ./lib/compiled. As is, this approach works on linux (gcc, clang) and Windows (Mingw). As steps found in the tutorial (checking for compiler in cmake) are not necessary.
+
+\end{adjustwidth}

@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.28)
 
+message(NOTICE "If you're getting errors, that don't make sense\
+, make sure to clear cmake cache")
 message(STATUS "CMake version: ${CMAKE_VERSION}")
 message(STATUS "CMake source directory: ${CMAKE_SOURCE_DIR}")
 message(STATUS "CMake binary directory: ${CMAKE_BINARY_DIR}")

@@ -14,6 +14,8 @@
         - windows with cl
         - ubunut with g++
         - ubuntu with clang++
+- buildWithPrecompiled
+    - Same as build but with the precompiled libraries
 - CodeQl
     - Code security
 - Doxygen Action

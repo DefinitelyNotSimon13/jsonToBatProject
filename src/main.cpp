@@ -1,12 +1,14 @@
+#include "StartupHandler.hpp"
 #include "easylogging++.h"
+#include "globals.cpp"
+#include <getopt.h>
 #include <iostream>
+#include <stdexcept>
 
-//! Includes for test
-#include "catch2/catch_all.hpp"
-#include "json/json.h"
+INITIALIZE_EASYLOGGINGPP
 
 namespace WIP {
-    void exampleEasyLogging();
+void exampleEasyLogging();
 }
 
 /**
@@ -25,38 +27,35 @@ namespace WIP {
  **/
 int main(int argc, char* argv[])
 {
-    WIP::exampleEasyLogging();
+    utils::StartupHandler::initEasyLogging();
+
+    if (argc <= 1) {
+        LOG(WARNING) << "No arguments provided, exiting!";
+        std::cout << "No arguments provided, exiting!\n";
+        return 1;
+    }
+
     std::cout << "Hello, World!" << std::endl;
+    std::optional<std::string> filename;
+
+    try {
+        filename = utils::StartupHandler::getOptions(argc, argv);
+    }
+    catch (const std::invalid_argument &e) {
+        LOG(WARNING) << "Caught invalid argument: " << e.what();
+        std::cout << "Invalid argument: " << e.what() << std::endl;
+    }
+
+    if (!filename.has_value()) {
+        LOG(ERROR) << "No filename given! Exiting...";
+        std::cerr << "No filename given!\nExiting...\n";
+        return 1;
+    }
+
+    LOG(INFO) << "Filename received: " << filename.value();
+    std::cout << "Filename: " << filename.value() << std::endl;
+    LOG(INFO) << "Further processing...";
+    std::cout << "Further processing..." << std::endl;
+    LOG(INFO) << "Application exiting!";
     return 0;
 }
-
-INITIALIZE_EASYLOGGINGPP
-/**
- * \brief Namespace for work in progress
- *
- * \details
- * Namespace I used for testing and trying out new things
- * To be deleted
- **/
-namespace WIP {
-    /**
-       * \brief Example of how to use easylogging with a configuration file
-       *
-       * \details
-       * - This function is an example of how to use easylogging
-       * - The configuration file is located in ../conf
-       * - Before proper integration, config has to be done properly
-       *
-       * \todo
-       * - Configure easylogging properly
-       * - outsource easylogging config
-       *  - e.g. startup class?
-       **/
-    void exampleEasyLogging()
-    {
-        el::Configurations conf("conf/easylogging.conf");
-        el::Loggers::reconfigureLogger("default", conf);
-        el::Loggers::reconfigureAllLoggers(conf);
-        LOG(INFO) << "My first info log using default logger";
-    }
-} // namespace WIP

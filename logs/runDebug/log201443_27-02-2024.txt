@@ -1,0 +1,18 @@
+./build/Debug/jsonToBatch: invalid option -- 'p'
+./build/Debug/jsonToBatch: invalid option -- ' '
+./build/Debug/jsonToBatch: invalid option -- 't'
+./build/Debug/jsonToBatch: invalid option -- 'e'
+./build/Debug/jsonToBatch: invalid option -- 's'
+./build/Debug/jsonToBatch: invalid option -- 't'
+
+
+0x7ffd634f14e8
+
+1
+Not know
+Not know
+Not know
+Not know
+Not know
+Not know
+Hello, World!

@@ -6,7 +6,7 @@
 namespace json {
 void JSONData::setOutputFile(std::string &newOutputfile)
 {
-    if (outputfile.empty()) {
+    if (newOutputfile.empty()) {
         LOG(ERROR) << "Tried to set empty outputfile!";
         throw std::invalid_argument("Outputfile cannot be empty");
     }
@@ -16,9 +16,9 @@ void JSONData::setOutputFile(std::string &newOutputfile)
         throw std::invalid_argument("Outputfile already set");
     }
 
-    if (outputfile.find(".bat") == std::string::npos ||
-        outputfile.find(".bat") != outputfile.size() - JSONData::suffixLength) {
-        outputfile += ".bat";
+    if (newOutputfile.find(".bat") == std::string::npos ||
+        newOutputfile.find(".bat") != newOutputfile.size() - JSONData::suffixLength) {
+        newOutputfile += ".bat";
         std::cerr << "Outputfile does not have .bat suffix, adding it now: "
                   << newOutputfile << std::endl;
         LOG(WARNING) << "Outputfile does not have .bat suffix, adding it now: "

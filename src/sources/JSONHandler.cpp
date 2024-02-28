@@ -11,14 +11,14 @@ JSONHandler::JSONHandler(const std::string &filename)
     this->root = parseFile(filename);
 }
 
-const std::shared_ptr<Json::Value> JSONHandler::parseFile(const std::string
-                                                          &filename)
+std::shared_ptr<Json::Value> JSONHandler::parseFile(const std::string
+                                                          &filename) const
 {
     std::ifstream file(filename);
-    Json::Value root;
+    Json::Value newRoot;
     Json::Reader reader;
-    reader.parse(file, root);
-    return std::make_shared<Json::Value>(root);
+    reader.parse(file, newRoot);
+    return std::make_shared<Json::Value>(newRoot);
 }
 
 std::shared_ptr<JSONData> JSONHandler::getJSONData()
@@ -56,9 +56,9 @@ void JSONHandler::assignApplication() const
     this->data->setApplication(application);
 }
 
-void JSONHandler::assignEntries()
+void JSONHandler::assignEntries() const
 {
-    for (const auto entry : this->root->get("entries", "")) {
+    for (const auto &entry : this->root->get("entries", "")) {
         std::string entryType = entry.get("type", "").asString();
 
         if (entryType == "EXE") {

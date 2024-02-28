@@ -18,7 +18,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(SOURCES
     ${PROJECT_SOURCE_DIR}/src/main.cpp
     ${PROJECT_SOURCE_DIR}/src/sources/StartupHandler.cpp
-    ${PROJECT_SOURCE_DIR}/src/sources/globals.cpp
 )
 
 option(PRECOMPILED "Wether or not to use the precompiled versions of the libraries" OFF)
@@ -28,11 +27,12 @@ option(PRECOMPILED "Wether or not to use the precompiled versions of the librari
 message(STATUS "Adding executable ${PROJECT_NAME}")
 add_executable(${PROJECT_NAME} ${SOURCES})
 
-IF (NOT WIN32)
+IF (WIN32)
   message(STATUS "Windows detected")
   set(PRECOMPILED OFF)
   add_library(xgetopt STATIC ${PROJECT_SOURCE_DIR}/lib/xgetopt.c)
   target_link_libraries(${PROJECT_NAME} PRIVATE xgetopt)
+  target_compile_definitions(${PROJECT_NAME} PUBLIC "IS_WINDOWS")
 ENDIF()
 
 IF (PRECOMPILED)

@@ -9,6 +9,13 @@ Handles startup task for the application.
 
 {\ttfamily \#include $<$Startup\+Handler.\+hpp$>$}
 
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classutils_1_1StartupHandler_a839d1f058ee5ec8d618aaaf91fe50a26}{Startup\+Handler}} (const \mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \&)=delete
+\begin{DoxyCompactList}\small\item\em Copy constructor (deleted) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \& \mbox{\hyperlink{classutils_1_1StartupHandler_a2dd3b477a62197fab9761f19b06908d3}{operator=}} (const \mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \&)=delete
+\begin{DoxyCompactList}\small\item\em Assignment operator (deleted) \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -20,11 +27,7 @@ static std\+::optional$<$ std\+::string $>$ \mbox{\hyperlink{classutils_1_1Start
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{classutils_1_1StartupHandler_afb1be30f328a938d47f8841c27b7d9fe}{Startup\+Handler}} ()=default
-\begin{DoxyCompactList}\small\item\em Constructor (private) \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classutils_1_1StartupHandler_a839d1f058ee5ec8d618aaaf91fe50a26}{Startup\+Handler}} (const \mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \&)=delete
-\begin{DoxyCompactList}\small\item\em Copy constructor (deleted) \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \& \mbox{\hyperlink{classutils_1_1StartupHandler_a2dd3b477a62197fab9761f19b06908d3}{operator=}} (const \mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \&)=delete
-\begin{DoxyCompactList}\small\item\em Assignment operator (deleted) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Constructor (private) \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
@@ -42,25 +45,25 @@ Definition at line \mbox{\hyperlink{StartupHandler_8hpp_source_l00026}{26}} of f
 
 
 \doxysubsection{Constructor \& Destructor Documentation}
-\Hypertarget{classutils_1_1StartupHandler_afb1be30f328a938d47f8841c27b7d9fe}\label{classutils_1_1StartupHandler_afb1be30f328a938d47f8841c27b7d9fe} 
+\Hypertarget{classutils_1_1StartupHandler_a839d1f058ee5ec8d618aaaf91fe50a26}\label{classutils_1_1StartupHandler_a839d1f058ee5ec8d618aaaf91fe50a26} 
 \index{utils::StartupHandler@{utils::StartupHandler}!StartupHandler@{StartupHandler}}
 \index{StartupHandler@{StartupHandler}!utils::StartupHandler@{utils::StartupHandler}}
 \doxysubsubsection{\texorpdfstring{StartupHandler()}{StartupHandler()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily utils\+::\+Startup\+Handler\+::\+Startup\+Handler (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+Copy constructor (deleted) 
+
+This class should not be instantiated. \Hypertarget{classutils_1_1StartupHandler_afb1be30f328a938d47f8841c27b7d9fe}\label{classutils_1_1StartupHandler_afb1be30f328a938d47f8841c27b7d9fe} 
+\index{utils::StartupHandler@{utils::StartupHandler}!StartupHandler@{StartupHandler}}
+\index{StartupHandler@{StartupHandler}!utils::StartupHandler@{utils::StartupHandler}}
+\doxysubsubsection{\texorpdfstring{StartupHandler()}{StartupHandler()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily utils\+::\+Startup\+Handler\+::\+Startup\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [default]}}
 
 
 
 Constructor (private) 
-
-This class should not be instantiated. \Hypertarget{classutils_1_1StartupHandler_a839d1f058ee5ec8d618aaaf91fe50a26}\label{classutils_1_1StartupHandler_a839d1f058ee5ec8d618aaaf91fe50a26} 
-\index{utils::StartupHandler@{utils::StartupHandler}!StartupHandler@{StartupHandler}}
-\index{StartupHandler@{StartupHandler}!utils::StartupHandler@{utils::StartupHandler}}
-\doxysubsubsection{\texorpdfstring{StartupHandler()}{StartupHandler()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily utils\+::\+Startup\+Handler\+::\+Startup\+Handler (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [delete]}}
-
-
-
-Copy constructor (deleted) 
 
 This class should not be instantiated. 
 
@@ -88,7 +91,7 @@ This function parses the command line options and returns the filename given as 
 
 
 \begin{DoxyRefDesc}{Bug}
-\item[\mbox{\hyperlink{bug__bug000003}{Bug}}]Global verbose flag is not working.\end{DoxyRefDesc}
+\item[\mbox{\hyperlink{bug__bug000004}{Bug}}]Global verbose flag is not working.\end{DoxyRefDesc}
 
 \end{DoxyItemize}
 
@@ -109,7 +112,7 @@ Returns either the filename or nothing.
 \end{DoxyExceptions}
 
 
-Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00021}{21}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
+Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00020}{20}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
 
 
 
@@ -143,7 +146,7 @@ This function initializes easylogging with the configuration file "{}\$\+SOURCE/
 
 
 \begin{DoxyRefDesc}{Bug}
-\item[\mbox{\hyperlink{bug__bug000002}{Bug}}]Easylogging conf only recognized when running application from source dir \end{DoxyRefDesc}
+\item[\mbox{\hyperlink{bug__bug000003}{Bug}}]Easylogging conf only recognized when running application from source dir \end{DoxyRefDesc}
 
 
 Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00013}{13}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
@@ -160,7 +163,7 @@ Here is the caller graph for this function\+:
 \index{utils::StartupHandler@{utils::StartupHandler}!operator=@{operator=}}
 \index{operator=@{operator=}!utils::StartupHandler@{utils::StartupHandler}}
 \doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \& utils\+::\+Startup\+Handler\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [delete]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \& utils\+::\+Startup\+Handler\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classutils_1_1StartupHandler}{Startup\+Handler}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
 
 
 

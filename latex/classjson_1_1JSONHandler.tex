@@ -19,21 +19,21 @@ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classjson_1_1JSONData}{JSONData}} $>$
 \doxysubsubsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-std\+::shared\+\_\+ptr$<$ Json\+::\+Value $>$ \mbox{\hyperlink{classjson_1_1JSONHandler_ac6de8085178cf8c8d5d6e66d9c4918e2}{parse\+File}} (const std\+::string \&filename)
+std\+::shared\+\_\+ptr$<$ Json\+::\+Value $>$ \mbox{\hyperlink{classjson_1_1JSONHandler_a9616285a6fe559ffb26a3a0b93912eed}{parse\+File}} (const std\+::string \&filename) const
 \begin{DoxyCompactList}\small\item\em Parse a file. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{classjson_1_1JSONHandler_ac5ed06f7db7c2c0f65b773b4cb80fcea}{assign\+Output\+File}} ()
+void \mbox{\hyperlink{classjson_1_1JSONHandler_aad7a31a7d68e89c2da51f4337a1370c9}{assign\+Output\+File}} () const
 \begin{DoxyCompactList}\small\item\em Assigns the output file to the \doxylink{classjson_1_1JSONData}{JSONData} object. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{classjson_1_1JSONHandler_a1ae1cbe7bc59d66590929c4ac5d1dfe3}{assign\+Hide\+Shell}} ()
+void \mbox{\hyperlink{classjson_1_1JSONHandler_a73c49efaca3076cc6c6778522783a841}{assign\+Hide\+Shell}} () const
 \begin{DoxyCompactList}\small\item\em Assigns the hide shell value to the \doxylink{classjson_1_1JSONData}{JSONData} object. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{classjson_1_1JSONHandler_ae378ee929f7f6662157812e197593b84}{assign\+Application}} ()
+void \mbox{\hyperlink{classjson_1_1JSONHandler_ab07f5a8033adce04838d46f8de0bfd8f}{assign\+Application}} () const
 \begin{DoxyCompactList}\small\item\em Assigns the application to the \doxylink{classjson_1_1JSONData}{JSONData} object. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{classjson_1_1JSONHandler_a3ab91c34ac903ecdd6c8bbe02c9f0bd8}{assign\+Entries}} ()
+void \mbox{\hyperlink{classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f}{assign\+Entries}} () const
 \begin{DoxyCompactList}\small\item\em Assigns the entries to the \doxylink{classjson_1_1JSONData}{JSONData} object. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{classjson_1_1JSONHandler_a400c659faceca796918cab48b445f513}{assign\+Command}} (const Json\+::\+Value \&entry)
+void \mbox{\hyperlink{classjson_1_1JSONHandler_a0874e5bcaac5fe6788233e5102b122f8}{assign\+Command}} (const Json\+::\+Value \&entry) const
 \begin{DoxyCompactList}\small\item\em Assigns a command to the \doxylink{classjson_1_1JSONData}{JSONData} object. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{classjson_1_1JSONHandler_a521983ef6372a6563e1a4146dc8923b3}{assign\+Environment\+Variable}} (const Json\+::\+Value \&entry)
+void \mbox{\hyperlink{classjson_1_1JSONHandler_a9bfd9f3a8aeea73dbeec1325352e5bd4}{assign\+Environment\+Variable}} (const Json\+::\+Value \&entry) const
 \begin{DoxyCompactList}\small\item\em Assigns an environment variable to the \doxylink{classjson_1_1JSONData}{JSONData} object. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{classjson_1_1JSONHandler_a641700b2c8344cdb8544e97e702c5326}{assign\+Path\+Value}} (const Json\+::\+Value \&entry)
+void \mbox{\hyperlink{classjson_1_1JSONHandler_ab54981db4558b93ddd3e001c46821c17}{assign\+Path\+Value}} (const Json\+::\+Value \&entry) const
 \begin{DoxyCompactList}\small\item\em Assigns a path value to the \doxylink{classjson_1_1JSONData}{JSONData} object. \end{DoxyCompactList}\item 
 std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classjson_1_1JSONData}{JSONData}} $>$ \mbox{\hyperlink{classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b}{create\+JSONData}} ()
 \begin{DoxyCompactList}\small\item\em Creates a \doxylink{classjson_1_1JSONData}{JSONData} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
@@ -60,7 +60,7 @@ Definition at line \mbox{\hyperlink{JSONHandler_8hpp_source_l00029}{29}} of file
 \index{json::JSONHandler@{json::JSONHandler}!JSONHandler@{JSONHandler}}
 \index{JSONHandler@{JSONHandler}!json::JSONHandler@{json::JSONHandler}}
 \doxysubsubsection{\texorpdfstring{JSONHandler()}{JSONHandler()}}
-{\footnotesize\ttfamily json\+::\+JSONHandler\+::\+JSONHandler (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily json\+::\+JSONHandler\+::\+JSONHandler (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
 
 
 
@@ -75,7 +75,7 @@ The constructor calls the parse\+File function to parse the file and adds it to 
 \end{DoxyParams}
 
 
-Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00008}{8}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
+Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00009}{9}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
 
 
@@ -92,11 +92,11 @@ Here is the call graph for this function\+:
 
 
 \doxysubsection{Member Function Documentation}
-\Hypertarget{classjson_1_1JSONHandler_ae378ee929f7f6662157812e197593b84}\label{classjson_1_1JSONHandler_ae378ee929f7f6662157812e197593b84} 
+\Hypertarget{classjson_1_1JSONHandler_ab07f5a8033adce04838d46f8de0bfd8f}\label{classjson_1_1JSONHandler_ab07f5a8033adce04838d46f8de0bfd8f} 
 \index{json::JSONHandler@{json::JSONHandler}!assignApplication@{assignApplication}}
 \index{assignApplication@{assignApplication}!json::JSONHandler@{json::JSONHandler}}
 \doxysubsubsection{\texorpdfstring{assignApplication()}{assignApplication()}}
-{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Application (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Application (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
@@ -107,7 +107,7 @@ How should error handling be done? Value can be empty, but what about null vs "{
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00052}{52}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
+Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00047}{47}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
 
 
@@ -118,14 +118,14 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classjson_1_1JSONHandler_ae378ee929f7f6662157812e197593b84_icgraph}
+\includegraphics[width=350pt]{classjson_1_1JSONHandler_ab07f5a8033adce04838d46f8de0bfd8f_icgraph}
 \end{center}
 \end{figure}
-\Hypertarget{classjson_1_1JSONHandler_a400c659faceca796918cab48b445f513}\label{classjson_1_1JSONHandler_a400c659faceca796918cab48b445f513} 
+\Hypertarget{classjson_1_1JSONHandler_a0874e5bcaac5fe6788233e5102b122f8}\label{classjson_1_1JSONHandler_a0874e5bcaac5fe6788233e5102b122f8} 
 \index{json::JSONHandler@{json::JSONHandler}!assignCommand@{assignCommand}}
 \index{assignCommand@{assignCommand}!json::JSONHandler@{json::JSONHandler}}
 \doxysubsubsection{\texorpdfstring{assignCommand()}{assignCommand()}}
-{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Command (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Command (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{entry }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
@@ -143,7 +143,7 @@ Error handling is done in the \doxylink{classjson_1_1JSONData}{JSONData} object
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00079}{79}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
+Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00069}{69}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
 
 
@@ -154,14 +154,14 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classjson_1_1JSONHandler_a400c659faceca796918cab48b445f513_icgraph}
+\includegraphics[width=350pt]{classjson_1_1JSONHandler_a0874e5bcaac5fe6788233e5102b122f8_icgraph}
 \end{center}
 \end{figure}
-\Hypertarget{classjson_1_1JSONHandler_a3ab91c34ac903ecdd6c8bbe02c9f0bd8}\label{classjson_1_1JSONHandler_a3ab91c34ac903ecdd6c8bbe02c9f0bd8} 
+\Hypertarget{classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f}\label{classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f} 
 \index{json::JSONHandler@{json::JSONHandler}!assignEntries@{assignEntries}}
 \index{assignEntries@{assignEntries}!json::JSONHandler@{json::JSONHandler}}
 \doxysubsubsection{\texorpdfstring{assignEntries()}{assignEntries()}}
-{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Entries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Entries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
@@ -179,18 +179,18 @@ Other error handling is done in the \doxylink{classjson_1_1JSONData}{JSONData} o
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00058}{58}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
+Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00052}{52}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
 
 
-References \mbox{\hyperlink{JSONHandler_8cpp_source_l00079}{assign\+Command()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00085}{assign\+Environment\+Variable()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00092}{assign\+Path\+Value()}}, and \mbox{\hyperlink{JSONHandler_8hpp_source_l00157}{root}}.
+References \mbox{\hyperlink{JSONHandler_8cpp_source_l00069}{assign\+Command()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00074}{assign\+Environment\+Variable()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00080}{assign\+Path\+Value()}}, and \mbox{\hyperlink{JSONHandler_8hpp_source_l00157}{root}}.
 
 Here is the call graph for this function\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classjson_1_1JSONHandler_a3ab91c34ac903ecdd6c8bbe02c9f0bd8_cgraph}
+\includegraphics[width=350pt]{classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_cgraph}
 \end{center}
 \end{figure}
 Here is the caller graph for this function\+:
@@ -198,14 +198,14 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classjson_1_1JSONHandler_a3ab91c34ac903ecdd6c8bbe02c9f0bd8_icgraph}
+\includegraphics[width=350pt]{classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_icgraph}
 \end{center}
 \end{figure}
-\Hypertarget{classjson_1_1JSONHandler_a521983ef6372a6563e1a4146dc8923b3}\label{classjson_1_1JSONHandler_a521983ef6372a6563e1a4146dc8923b3} 
+\Hypertarget{classjson_1_1JSONHandler_a9bfd9f3a8aeea73dbeec1325352e5bd4}\label{classjson_1_1JSONHandler_a9bfd9f3a8aeea73dbeec1325352e5bd4} 
 \index{json::JSONHandler@{json::JSONHandler}!assignEnvironmentVariable@{assignEnvironmentVariable}}
 \index{assignEnvironmentVariable@{assignEnvironmentVariable}!json::JSONHandler@{json::JSONHandler}}
 \doxysubsubsection{\texorpdfstring{assignEnvironmentVariable()}{assignEnvironmentVariable()}}
-{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Environment\+Variable (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Environment\+Variable (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{entry }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
@@ -223,7 +223,7 @@ Error handling is done in the \doxylink{classjson_1_1JSONData}{JSONData} object
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00085}{85}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
+Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00074}{74}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
 
 
@@ -234,14 +234,14 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classjson_1_1JSONHandler_a521983ef6372a6563e1a4146dc8923b3_icgraph}
+\includegraphics[width=350pt]{classjson_1_1JSONHandler_a9bfd9f3a8aeea73dbeec1325352e5bd4_icgraph}
 \end{center}
 \end{figure}
-\Hypertarget{classjson_1_1JSONHandler_a1ae1cbe7bc59d66590929c4ac5d1dfe3}\label{classjson_1_1JSONHandler_a1ae1cbe7bc59d66590929c4ac5d1dfe3} 
+\Hypertarget{classjson_1_1JSONHandler_a73c49efaca3076cc6c6778522783a841}\label{classjson_1_1JSONHandler_a73c49efaca3076cc6c6778522783a841} 
 \index{json::JSONHandler@{json::JSONHandler}!assignHideShell@{assignHideShell}}
 \index{assignHideShell@{assignHideShell}!json::JSONHandler@{json::JSONHandler}}
 \doxysubsubsection{\texorpdfstring{assignHideShell()}{assignHideShell()}}
-{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Hide\+Shell (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Hide\+Shell (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
@@ -257,7 +257,7 @@ There is no real error handling for this value, it defaults to false
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00044}{44}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
+Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00040}{40}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
 
 
@@ -268,14 +268,14 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classjson_1_1JSONHandler_a1ae1cbe7bc59d66590929c4ac5d1dfe3_icgraph}
+\includegraphics[width=350pt]{classjson_1_1JSONHandler_a73c49efaca3076cc6c6778522783a841_icgraph}
 \end{center}
 \end{figure}
-\Hypertarget{classjson_1_1JSONHandler_ac5ed06f7db7c2c0f65b773b4cb80fcea}\label{classjson_1_1JSONHandler_ac5ed06f7db7c2c0f65b773b4cb80fcea} 
+\Hypertarget{classjson_1_1JSONHandler_aad7a31a7d68e89c2da51f4337a1370c9}\label{classjson_1_1JSONHandler_aad7a31a7d68e89c2da51f4337a1370c9} 
 \index{json::JSONHandler@{json::JSONHandler}!assignOutputFile@{assignOutputFile}}
 \index{assignOutputFile@{assignOutputFile}!json::JSONHandler@{json::JSONHandler}}
 \doxysubsubsection{\texorpdfstring{assignOutputFile()}{assignOutputFile()}}
-{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Output\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Output\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
@@ -286,7 +286,7 @@ Error handling is done in the \doxylink{classjson_1_1JSONData}{JSONData} object
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00038}{38}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
+Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00035}{35}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
 
 
@@ -297,14 +297,14 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classjson_1_1JSONHandler_ac5ed06f7db7c2c0f65b773b4cb80fcea_icgraph}
+\includegraphics[width=350pt]{classjson_1_1JSONHandler_aad7a31a7d68e89c2da51f4337a1370c9_icgraph}
 \end{center}
 \end{figure}
-\Hypertarget{classjson_1_1JSONHandler_a641700b2c8344cdb8544e97e702c5326}\label{classjson_1_1JSONHandler_a641700b2c8344cdb8544e97e702c5326} 
+\Hypertarget{classjson_1_1JSONHandler_ab54981db4558b93ddd3e001c46821c17}\label{classjson_1_1JSONHandler_ab54981db4558b93ddd3e001c46821c17} 
 \index{json::JSONHandler@{json::JSONHandler}!assignPathValue@{assignPathValue}}
 \index{assignPathValue@{assignPathValue}!json::JSONHandler@{json::JSONHandler}}
 \doxysubsubsection{\texorpdfstring{assignPathValue()}{assignPathValue()}}
-{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Path\+Value (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily void json\+::\+JSONHandler\+::assign\+Path\+Value (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{entry }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
@@ -322,7 +322,7 @@ Error handling is done in the \doxylink{classjson_1_1JSONData}{JSONData} object
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00092}{92}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
+Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00080}{80}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
 
 
@@ -333,7 +333,7 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classjson_1_1JSONHandler_a641700b2c8344cdb8544e97e702c5326_icgraph}
+\includegraphics[width=350pt]{classjson_1_1JSONHandler_ab54981db4558b93ddd3e001c46821c17_icgraph}
 \end{center}
 \end{figure}
 \Hypertarget{classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b}\label{classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b} 
@@ -353,11 +353,11 @@ std\+::shared\+\_\+ptr$<$\+JSONData$>$ The \doxylink{classjson_1_1JSONData}{JSON
 \end{DoxyReturn}
 
 
-Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00028}{28}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
+Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00026}{26}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
 
 
-References \mbox{\hyperlink{JSONHandler_8cpp_source_l00052}{assign\+Application()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00058}{assign\+Entries()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00044}{assign\+Hide\+Shell()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00038}{assign\+Output\+File()}}, and \mbox{\hyperlink{JSONHandler_8hpp_source_l00158}{data}}.
+References \mbox{\hyperlink{JSONHandler_8cpp_source_l00047}{assign\+Application()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00052}{assign\+Entries()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00040}{assign\+Hide\+Shell()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00035}{assign\+Output\+File()}}, and \mbox{\hyperlink{JSONHandler_8hpp_source_l00158}{data}}.
 
 Here is the call graph for this function\+:
 \nopagebreak
@@ -392,11 +392,11 @@ std\+::shared\+\_\+ptr$<$\+JSONData$>$ The \doxylink{classjson_1_1JSONData}{JSON
 \end{DoxyReturn}
 
 
-Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00023}{23}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
+Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00022}{22}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
 
 
-References \mbox{\hyperlink{JSONHandler_8cpp_source_l00028}{create\+JSONData()}}.
+References \mbox{\hyperlink{JSONHandler_8cpp_source_l00026}{create\+JSONData()}}.
 
 Here is the call graph for this function\+:
 \nopagebreak
@@ -414,11 +414,11 @@ Here is the caller graph for this function\+:
 \includegraphics[width=257pt]{classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_icgraph}
 \end{center}
 \end{figure}
-\Hypertarget{classjson_1_1JSONHandler_ac6de8085178cf8c8d5d6e66d9c4918e2}\label{classjson_1_1JSONHandler_ac6de8085178cf8c8d5d6e66d9c4918e2} 
+\Hypertarget{classjson_1_1JSONHandler_a9616285a6fe559ffb26a3a0b93912eed}\label{classjson_1_1JSONHandler_a9616285a6fe559ffb26a3a0b93912eed} 
 \index{json::JSONHandler@{json::JSONHandler}!parseFile@{parseFile}}
 \index{parseFile@{parseFile}!json::JSONHandler@{json::JSONHandler}}
 \doxysubsubsection{\texorpdfstring{parseFile()}{parseFile()}}
-{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$ Json\+::\+Value $>$ json\+::\+JSONHandler\+::parse\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$ Json\+::\+Value $>$ json\+::\+JSONHandler\+::parse\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
@@ -438,16 +438,12 @@ std\+::shared\+\_\+ptr$<$\+Json\+::\+Value$>$ The parsed file
 
 Definition at line \mbox{\hyperlink{JSONHandler_8cpp_source_l00013}{13}} of file \mbox{\hyperlink{JSONHandler_8cpp_source}{JSONHandler.\+cpp}}.
 
-
-
-References \mbox{\hyperlink{JSONHandler_8hpp_source_l00157}{root}}.
-
 Here is the caller graph for this function\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=324pt]{classjson_1_1JSONHandler_ac6de8085178cf8c8d5d6e66d9c4918e2_icgraph}
+\includegraphics[width=324pt]{classjson_1_1JSONHandler_a9616285a6fe559ffb26a3a0b93912eed_icgraph}
 \end{center}
 \end{figure}
 

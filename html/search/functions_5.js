@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#a2b2d4ce8b34d14b9e775eaf6214b00e1',1,'main.cpp']]]
+  ['jsonhandler_0',['JSONHandler',['../classjson_1_1JSONHandler.html#a954ed03654cc173ee713a20ff3edc384',1,'json::JSONHandler']]]
 ];

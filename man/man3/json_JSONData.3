@@ -1,4 +1,4 @@
-.TH "json::JSONData" 3 "Wed Feb 28 2024 19:16:22" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.TH "json::JSONData" 3 "Wed Feb 28 2024 22:07:52" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -12,15 +12,15 @@ json::JSONData
 
 .in +1c
 .ti -1c
-.RI "void \fBsetOutputFile\fP (std::string &\fBoutputfile\fP)"
+.RI "void \fBsetOutputFile\fP (std::string &newOutputfile)"
 .br
 .RI "Set's the output file\&. "
 .ti -1c
-.RI "void \fBsetHideShell\fP (bool \fBhideShell\fP)"
+.RI "void \fBsetHideShell\fP (bool newHideShell)"
 .br
 .RI "Set's the hide shell flag\&. "
 .ti -1c
-.RI "void \fBsetApplication\fP (const std::string &\fBapplication\fP)"
+.RI "void \fBsetApplication\fP (const std::string &newApplication)"
 .br
 .RI "Set's the application\&. "
 .ti -1c
@@ -44,7 +44,7 @@ json::JSONData
 .br
 .RI "Get the hide shell flag\&. "
 .ti -1c
-.RI "const std::string & \fBgetApplication\fP () const"
+.RI "const std::optional< std::string > & \fBgetApplication\fP () const"
 .br
 .RI "Get the application\&. "
 .ti -1c
@@ -91,7 +91,7 @@ json::JSONData
 .in -1c
 .SH "Detailed Description"
 .PP 
-Definition at line \fB9\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB10\fP of file \fBJSONData\&.hpp\fP\&.
 .SH "Member Function Documentation"
 .PP 
 .SS "void json::JSONData::addCommand (const std::string & command)"
@@ -111,7 +111,7 @@ Add a command to the commands vector\&.
 .PP
 
 .PP
-Definition at line \fB36\fP of file \fBJSONData\&.cpp\fP\&.
+Definition at line \fB37\fP of file \fBJSONData\&.cpp\fP\&.
 .PP
 References \fBcommands\fP\&.
 .SS "void json::JSONData::addEnvironmentVariable (const std::string & name, const std::string & value)"
@@ -153,10 +153,10 @@ Add a path value to the pathValues vector\&.
 .PP
 
 .PP
-Definition at line \fB58\fP of file \fBJSONData\&.cpp\fP\&.
+Definition at line \fB57\fP of file \fBJSONData\&.cpp\fP\&.
 .PP
 References \fBpathValues\fP\&.
-.SS "const std::string & json::JSONData::getApplication () const\fC [inline]\fP"
+.SS "const std::optional< std::string > & json::JSONData::getApplication () const\fC [inline]\fP"
 
 .PP
 Get the application\&. 
@@ -168,7 +168,7 @@ The application
 .PP
 
 .PP
-Definition at line \fB89\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB90\fP of file \fBJSONData\&.hpp\fP\&.
 .PP
 References \fBapplication\fP\&.
 .SS "const std::vector< std::string > & json::JSONData::getCommands () const\fC [inline]\fP"
@@ -183,7 +183,7 @@ The commands
 .PP
 
 .PP
-Definition at line \fB97\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB98\fP of file \fBJSONData\&.hpp\fP\&.
 .PP
 References \fBcommands\fP\&.
 .SS "const std::vector< std::tuple< std::string, std::string > > & json::JSONData::getEnvironmentVariables () const\fC [inline]\fP"
@@ -198,7 +198,7 @@ The environment variables
 .PP
 
 .PP
-Definition at line \fB106\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB107\fP of file \fBJSONData\&.hpp\fP\&.
 .PP
 References \fBenvironmentVariables\fP\&.
 .SS "bool json::JSONData::getHideShell () const\fC [inline]\fP"
@@ -213,7 +213,7 @@ The hide shell flag
 .PP
 
 .PP
-Definition at line \fB81\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB82\fP of file \fBJSONData\&.hpp\fP\&.
 .PP
 References \fBhideShell\fP\&.
 .SS "const std::string & json::JSONData::getOutputFile () const\fC [inline]\fP"
@@ -228,7 +228,7 @@ The output file
 .PP
 
 .PP
-Definition at line \fB73\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB74\fP of file \fBJSONData\&.hpp\fP\&.
 .PP
 References \fBoutputfile\fP\&.
 .SS "const std::vector< std::string > & json::JSONData::getPathValues () const\fC [inline]\fP"
@@ -243,10 +243,10 @@ The path values
 .PP
 
 .PP
-Definition at line \fB114\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB115\fP of file \fBJSONData\&.hpp\fP\&.
 .PP
 References \fBpathValues\fP\&.
-.SS "void json::JSONData::setApplication (const std::string & application)"
+.SS "void json::JSONData::setApplication (const std::string & newApplication)"
 
 .PP
 Set's the application\&. 
@@ -258,10 +258,10 @@ Set's the application\&.
 .PP
 
 .PP
-Definition at line \fB31\fP of file \fBJSONData\&.cpp\fP\&.
+Definition at line \fB30\fP of file \fBJSONData\&.cpp\fP\&.
 .PP
 References \fBapplication\fP\&.
-.SS "void json::JSONData::setHideShell (bool hideShell)\fC [inline]\fP"
+.SS "void json::JSONData::setHideShell (bool newHideShell)\fC [inline]\fP"
 
 .PP
 Set's the hide shell flag\&. 
@@ -273,10 +273,10 @@ Set's the hide shell flag\&.
 .PP
 
 .PP
-Definition at line \fB28\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB29\fP of file \fBJSONData\&.hpp\fP\&.
 .PP
 References \fBhideShell\fP\&.
-.SS "void json::JSONData::setOutputFile (std::string & outputfile)"
+.SS "void json::JSONData::setOutputFile (std::string & newOutputfile)"
 
 .PP
 Set's the output file\&. 
@@ -302,37 +302,37 @@ If the output file does not end with \&.bat, the function will append \&.bat to 
 .PP
 Definition at line \fB7\fP of file \fBJSONData\&.cpp\fP\&.
 .PP
-References \fBoutputfile\fP\&.
+References \fBoutputfile\fP, and \fBsuffixLength\fP\&.
 .SH "Member Data Documentation"
 .PP 
 .SS "std::optional<std::string> json::JSONData::application\fC [private]\fP"
 
 .PP
-Definition at line \fB121\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB122\fP of file \fBJSONData\&.hpp\fP\&.
 .SS "std::vector<std::string> json::JSONData::commands\fC [private]\fP"
 
 .PP
-Definition at line \fB122\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB123\fP of file \fBJSONData\&.hpp\fP\&.
 .SS "std::vector<std::tuple<std::string, std::string> > json::JSONData::environmentVariables\fC [private]\fP"
 
 .PP
-Definition at line \fB123\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB124\fP of file \fBJSONData\&.hpp\fP\&.
 .SS "bool json::JSONData::hideShell\fC [private]\fP"
 
 .PP
-Definition at line \fB120\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB121\fP of file \fBJSONData\&.hpp\fP\&.
 .SS "std::string json::JSONData::outputfile\fC [private]\fP"
 
 .PP
-Definition at line \fB119\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB120\fP of file \fBJSONData\&.hpp\fP\&.
 .SS "std::vector<std::string> json::JSONData::pathValues\fC [private]\fP"
 
 .PP
-Definition at line \fB124\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB125\fP of file \fBJSONData\&.hpp\fP\&.
 .SS "const int8_t json::JSONData::suffixLength = 4\fC [static]\fP, \fC [private]\fP"
 
 .PP
-Definition at line \fB125\fP of file \fBJSONData\&.hpp\fP\&.
+Definition at line \fB126\fP of file \fBJSONData\&.hpp\fP\&.
 
 .SH "Author"
 .PP 

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['parsefile_0',['parseFile',['../classjson_1_1JSONHandler.html#ac6de8085178cf8c8d5d6e66d9c4918e2',1,'json::JSONHandler']]]
+  ['operator_3d_0',['operator=',['../classutils_1_1StartupHandler.html#a2dd3b477a62197fab9761f19b06908d3',1,'utils::StartupHandler']]]
 ];

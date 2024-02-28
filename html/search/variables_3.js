@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['environmentvariables_0',['environmentVariables',['../classjson_1_1JSONData.html#a555f9a29c44c170d5cae605de4f330e6',1,'json::JSONData']]]
+  ['data_0',['data',['../classjson_1_1JSONHandler.html#a937e7fb2cae3b9db557fdf304826439c',1,'json::JSONHandler']]]
 ];

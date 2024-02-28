@@ -55,7 +55,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"JSONData_8cpp.html"
+"BatchCreator_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

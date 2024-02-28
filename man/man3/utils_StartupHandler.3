@@ -1,4 +1,4 @@
-.TH "utils::StartupHandler" 3 "Wed Feb 28 2024 19:16:22" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.TH "utils::StartupHandler" 3 "Wed Feb 28 2024 22:07:52" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -9,6 +9,18 @@ utils::StartupHandler \- Handles startup task for the application\&.
 .PP
 .PP
 \fC#include <StartupHandler\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBStartupHandler\fP (const \fBStartupHandler\fP &)=delete"
+.br
+.RI "Copy constructor (deleted) "
+.ti -1c
+.RI "\fBStartupHandler\fP & \fBoperator=\fP (const \fBStartupHandler\fP &)=delete"
+.br
+.RI "Assignment operator (deleted) "
+.in -1c
 .SS "Static Public Member Functions"
 
 .in +1c
@@ -28,14 +40,6 @@ utils::StartupHandler \- Handles startup task for the application\&.
 .RI "\fBStartupHandler\fP ()=default"
 .br
 .RI "Constructor (private) "
-.ti -1c
-.RI "\fBStartupHandler\fP (const \fBStartupHandler\fP &)=delete"
-.br
-.RI "Copy constructor (deleted) "
-.ti -1c
-.RI "\fBStartupHandler\fP & \fBoperator=\fP (const \fBStartupHandler\fP &)=delete"
-.br
-.RI "Assignment operator (deleted) "
 .in -1c
 .SH "Detailed Description"
 .PP 
@@ -53,14 +57,14 @@ I think this class should stay static - Simon
 Definition at line \fB26\fP of file \fBStartupHandler\&.hpp\fP\&.
 .SH "Constructor & Destructor Documentation"
 .PP 
+.SS "utils::StartupHandler::StartupHandler (const \fBStartupHandler\fP &)\fC [delete]\fP"
+
+.PP
+Copy constructor (deleted) This class should not be instantiated\&. 
 .SS "utils::StartupHandler::StartupHandler ()\fC [private]\fP, \fC [default]\fP"
 
 .PP
 Constructor (private) This class should not be instantiated\&. 
-.SS "utils::StartupHandler::StartupHandler (const \fBStartupHandler\fP &)\fC [private]\fP, \fC [delete]\fP"
-
-.PP
-Copy constructor (deleted) This class should not be instantiated\&. 
 .SH "Member Function Documentation"
 .PP 
 .SS "std::optional< std::string > utils::StartupHandler::getOptions (int argc, char * argv[])\fC [static]\fP"
@@ -110,7 +114,7 @@ Returns either the filename or nothing\&.
 .PP
 
 .PP
-Definition at line \fB21\fP of file \fBStartupHandler\&.cpp\fP\&.
+Definition at line \fB20\fP of file \fBStartupHandler\&.cpp\fP\&.
 .PP
 References \fButils::verbose\fP\&.
 .SS "void utils::StartupHandler::initEasyLogging ()\fC [static]\fP"
@@ -134,7 +138,7 @@ Easylogging conf only recognized when running application from source dir
 
 .PP
 Definition at line \fB13\fP of file \fBStartupHandler\&.cpp\fP\&.
-.SS "\fBStartupHandler\fP & utils::StartupHandler::operator= (const \fBStartupHandler\fP &)\fC [private]\fP, \fC [delete]\fP"
+.SS "\fBStartupHandler\fP & utils::StartupHandler::operator= (const \fBStartupHandler\fP &)\fC [delete]\fP"
 
 .PP
 Assignment operator (deleted) This class should not be instantiated\&. 

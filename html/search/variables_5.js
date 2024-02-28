@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['outputfile_0',['outputfile',['../classjson_1_1JSONData.html#aba07cffaa41d23843149db6cc666da96',1,'json::JSONData']]]
+  ['hideshell_0',['hideShell',['../classjson_1_1JSONData.html#abe44a9718125692a51971b8a38733382',1,'json::JSONData']]]
 ];

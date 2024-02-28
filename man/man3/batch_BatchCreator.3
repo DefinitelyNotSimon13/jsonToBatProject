@@ -1,0 +1,103 @@
+.TH "batch::BatchCreator" 3 "Wed Feb 28 2024 22:07:52" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+batch::BatchCreator
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <BatchCreator\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBatchCreator\fP (std::shared_ptr< \fBjson::JSONData\fP > \fBjsonData\fP)"
+.br
+.ti -1c
+.RI "std::shared_ptr< std::ofstream > \fBcreateBatchFile\fP ()"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBwriteHideShellStart\fP ()"
+.br
+.ti -1c
+.RI "void \fBwriteHideShellEnd\fP ()"
+.br
+.ti -1c
+.RI "void \fBwriteShell\fP ()"
+.br
+.ti -1c
+.RI "void \fBwriteCommands\fP ()"
+.br
+.ti -1c
+.RI "void \fBwriteEnvironmentVariables\fP ()"
+.br
+.ti -1c
+.RI "void \fBwritePathValue\fP ()"
+.br
+.ti -1c
+.RI "void \fBwriteApplication\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::shared_ptr< \fBjson::JSONData\fP > \fBjsonData\fP"
+.br
+.ti -1c
+.RI "std::shared_ptr< std::ofstream > \fBbatchFile\fP = nullptr"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBBug\fP
+.RS 4
+HideShell is not implemented correctly 
+.RE
+.PP
+
+.PP
+Definition at line \fB10\fP of file \fBBatchCreator\&.hpp\fP\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "batch::BatchCreator::BatchCreator (std::shared_ptr< \fBjson::JSONData\fP > jsonData)\fC [explicit]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "std::shared_ptr< std::ofstream > batch::BatchCreator::createBatchFile ()"
+
+.SS "void batch::BatchCreator::writeApplication ()\fC [private]\fP"
+
+.SS "void batch::BatchCreator::writeCommands ()\fC [private]\fP"
+
+.SS "void batch::BatchCreator::writeEnvironmentVariables ()\fC [private]\fP"
+
+.SS "void batch::BatchCreator::writeHideShellEnd ()\fC [private]\fP"
+
+.SS "void batch::BatchCreator::writeHideShellStart ()\fC [private]\fP"
+
+.SS "void batch::BatchCreator::writePathValue ()\fC [private]\fP"
+
+.SS "void batch::BatchCreator::writeShell ()\fC [private]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "std::shared_ptr<std::ofstream> batch::BatchCreator::batchFile = nullptr\fC [private]\fP"
+
+.PP
+Definition at line \fB18\fP of file \fBBatchCreator\&.hpp\fP\&.
+.SS "std::shared_ptr<\fBjson::JSONData\fP> batch::BatchCreator::jsonData\fC [private]\fP"
+
+.PP
+Definition at line \fB17\fP of file \fBBatchCreator\&.hpp\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for jsonToBatProject from the source code\&.

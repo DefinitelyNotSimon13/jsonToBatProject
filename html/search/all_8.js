@@ -1,7 +1,7 @@
 var searchData=
 [
   ['json_0',['json',['../namespacejson.html',1,'']]],
-  ['jsondata_1',['JSONData',['../classjson_1_1JSONData.html',1,'json']]],
+  ['jsondata_1',['jsondata',['../classjson_1_1JSONData.html',1,'json::JSONData'],['../classbatch_1_1BatchCreator.html#abba7489b294e32264844bebad1844c39',1,'batch::BatchCreator::jsonData']]],
   ['jsondata_2ecpp_2',['JSONData.cpp',['../JSONData_8cpp.html',1,'']]],
   ['jsondata_2ehpp_3',['JSONData.hpp',['../JSONData_8hpp.html',1,'']]],
   ['jsonhandler_4',['jsonhandler',['../classjson_1_1JSONHandler.html',1,'json::JSONHandler'],['../classjson_1_1JSONHandler.html#a954ed03654cc173ee713a20ff3edc384',1,'json::JSONHandler::JSONHandler()']]],

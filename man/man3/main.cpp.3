@@ -1,4 +1,4 @@
-.TH "src/main.cpp" 3 "Wed Feb 28 2024 19:16:22" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.TH "src/main.cpp" 3 "Wed Feb 28 2024 22:07:52" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -11,6 +11,8 @@ src/main.cpp
 \fC#include 'StartupHandler\&.hpp'\fP
 .br
 \fC#include 'JSONHandler\&.hpp'\fP
+.br
+\fC#include 'BatchCreator\&.hpp'\fP
 .br
 \fC#include <easylogging++\&.h>\fP
 .br
@@ -59,14 +61,14 @@ Getopt is not working on Windows\&.
 .PP
 \fBNote\fP
 .RS 4
-json parsing seems simple edgecases? basically just treat as array/map
+maybe close in creator? But this leaves possibility to add more stuff - why?
 .RE
 .PP
 
 .PP
-Definition at line \fB28\fP of file \fBmain\&.cpp\fP\&.
+Definition at line \fB29\fP of file \fBmain\&.cpp\fP\&.
 .PP
-References \fBjson::JSONHandler::getJSONData()\fP, \fButils::StartupHandler::getOptions()\fP, and \fButils::StartupHandler::initEasyLogging()\fP\&.
+References \fBbatch::BatchCreator::createBatchFile()\fP, \fBjson::JSONHandler::getJSONData()\fP, \fButils::StartupHandler::getOptions()\fP, and \fButils::StartupHandler::initEasyLogging()\fP\&.
 .SH "Author"
 .PP 
 Generated automatically by Doxygen for jsonToBatProject from the source code\&.

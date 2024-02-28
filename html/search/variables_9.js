@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['verbose_0',['verbose',['../namespaceutils.html#af9ed45267aaf851a7be489bb88e5fbbd',1,'utils']]]
+  ['root_0',['root',['../classjson_1_1JSONHandler.html#ac29197ca980ba7c0c8b253591f5881d4',1,'json::JSONHandler']]]
 ];

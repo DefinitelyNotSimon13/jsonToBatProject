@@ -3,6 +3,7 @@
 {\ttfamily \#include "{}JSONData.\+hpp"{}}\newline
 {\ttfamily \#include "{}Startup\+Handler.\+hpp"{}}\newline
 {\ttfamily \#include "{}JSONHandler.\+hpp"{}}\newline
+{\ttfamily \#include "{}Batch\+Creator.\+hpp"{}}\newline
 {\ttfamily \#include $<$easylogging++.\+h$>$}\newline
 {\ttfamily \#include $<$getopt.\+h$>$}\newline
 {\ttfamily \#include $<$iostream$>$}\newline
@@ -37,23 +38,23 @@ INITIALIZE\+\_\+\+EASYLOGGINGPP int \mbox{\hyperlink{main_8cpp_a2b2d4ce8b34d14b9
 Main function. 
 
 \begin{DoxyRefDesc}{Bug}
-\item[\mbox{\hyperlink{bug__bug000004}{Bug}}]Initielizes to early for config file to be loaded \end{DoxyRefDesc}
+\item[\mbox{\hyperlink{bug__bug000005}{Bug}}]Initielizes to early for config file to be loaded \end{DoxyRefDesc}
 
 
 This is the main function for the application, The application is designed to parse a json file and create a batch file from it. Further more it provides a CLI to help the user to interact with the application.
 
 \begin{DoxyRefDesc}{Bug}
-\item[\mbox{\hyperlink{bug__bug000005}{Bug}}]Getopt is not working on Windows. \end{DoxyRefDesc}
+\item[\mbox{\hyperlink{bug__bug000006}{Bug}}]Getopt is not working on Windows. \end{DoxyRefDesc}
 \begin{DoxyNote}{Note}
-json parsing seems simple edgecases? basically just treat as array/map
+maybe close in creator? But this leaves possibility to add more stuff -\/ why?
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{main_8cpp_source_l00028}{28}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
+Definition at line \mbox{\hyperlink{main_8cpp_source_l00029}{29}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
 
 
 
-References \mbox{\hyperlink{JSONHandler_8cpp_source_l00023}{json\+::\+JSONHandler\+::get\+JSONData()}}, \mbox{\hyperlink{StartupHandler_8cpp_source_l00021}{utils\+::\+Startup\+Handler\+::get\+Options()}}, and \mbox{\hyperlink{StartupHandler_8cpp_source_l00013}{utils\+::\+Startup\+Handler\+::init\+Easy\+Logging()}}.
+References \mbox{\hyperlink{classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da}{batch\+::\+Batch\+Creator\+::create\+Batch\+File()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00022}{json\+::\+JSONHandler\+::get\+JSONData()}}, \mbox{\hyperlink{StartupHandler_8cpp_source_l00020}{utils\+::\+Startup\+Handler\+::get\+Options()}}, and \mbox{\hyperlink{StartupHandler_8cpp_source_l00013}{utils\+::\+Startup\+Handler\+::init\+Easy\+Logging()}}.
 
 Here is the call graph for this function\+:
 \nopagebreak

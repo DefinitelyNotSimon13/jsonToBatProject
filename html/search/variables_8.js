@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['suffixlength_0',['suffixLength',['../classjson_1_1JSONData.html#a8c2a37bdd3fd2a3efe7c5bd9d4bc9223',1,'json::JSONData']]]
+  ['pathvalues_0',['pathValues',['../classjson_1_1JSONData.html#a938e124b88788fe96c2dfa1765e6f51c',1,'json::JSONData']]]
 ];

@@ -1,0 +1,142 @@
+\doxysection{batch\+::Batch\+Creator Class Reference}
+\hypertarget{classbatch_1_1BatchCreator}{}\label{classbatch_1_1BatchCreator}\index{batch::BatchCreator@{batch::BatchCreator}}
+
+
+{\ttfamily \#include $<$Batch\+Creator.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbatch_1_1BatchCreator_a9ddaf7346c25d97ef5b8be8e3c5969c3}{Batch\+Creator}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classjson_1_1JSONData}{json\+::\+JSONData}} $>$ \mbox{\hyperlink{classbatch_1_1BatchCreator_abba7489b294e32264844bebad1844c39}{json\+Data}})
+\item 
+std\+::shared\+\_\+ptr$<$ std\+::ofstream $>$ \mbox{\hyperlink{classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da}{create\+Batch\+File}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classbatch_1_1BatchCreator_ae4a1eac5a16b73fc13c0dc788b435137}{write\+Hide\+Shell\+Start}} ()
+\item 
+void \mbox{\hyperlink{classbatch_1_1BatchCreator_a53ce9bdc248a8af76f07e9dc604338c3}{write\+Hide\+Shell\+End}} ()
+\item 
+void \mbox{\hyperlink{classbatch_1_1BatchCreator_a21eec4761c88a82b84a8e9ffd754cb2a}{write\+Shell}} ()
+\item 
+void \mbox{\hyperlink{classbatch_1_1BatchCreator_aea249cfd30b105dd295f2087dd8f72df}{write\+Commands}} ()
+\item 
+void \mbox{\hyperlink{classbatch_1_1BatchCreator_acf09f92fe301c95928fa46086e125828}{write\+Environment\+Variables}} ()
+\item 
+void \mbox{\hyperlink{classbatch_1_1BatchCreator_a17fb9be4c7011de8f94d3c5a850810a2}{write\+Path\+Value}} ()
+\item 
+void \mbox{\hyperlink{classbatch_1_1BatchCreator_a09d5ad9fb9c81369884464f8e8141b6b}{write\+Application}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classjson_1_1JSONData}{json\+::\+JSONData}} $>$ \mbox{\hyperlink{classbatch_1_1BatchCreator_abba7489b294e32264844bebad1844c39}{json\+Data}}
+\item 
+std\+::shared\+\_\+ptr$<$ std\+::ofstream $>$ \mbox{\hyperlink{classbatch_1_1BatchCreator_a2b9326bc75a318a5f0fdd88192ceec37}{batch\+File}} = nullptr
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]Hide\+Shell is not implemented correctly \end{DoxyRefDesc}
+
+
+Definition at line \mbox{\hyperlink{BatchCreator_8hpp_source_l00010}{10}} of file \mbox{\hyperlink{BatchCreator_8hpp_source}{Batch\+Creator.\+hpp}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classbatch_1_1BatchCreator_a9ddaf7346c25d97ef5b8be8e3c5969c3}\label{classbatch_1_1BatchCreator_a9ddaf7346c25d97ef5b8be8e3c5969c3} 
+\index{batch::BatchCreator@{batch::BatchCreator}!BatchCreator@{BatchCreator}}
+\index{BatchCreator@{BatchCreator}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{BatchCreator()}{BatchCreator()}}
+{\footnotesize\ttfamily batch\+::\+Batch\+Creator\+::\+Batch\+Creator (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classjson_1_1JSONData}{json\+::\+JSONData}} $>$}]{json\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da}\label{classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da} 
+\index{batch::BatchCreator@{batch::BatchCreator}!createBatchFile@{createBatchFile}}
+\index{createBatchFile@{createBatchFile}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{createBatchFile()}{createBatchFile()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$ std\+::ofstream $>$ batch\+::\+Batch\+Creator\+::create\+Batch\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classbatch_1_1BatchCreator_a09d5ad9fb9c81369884464f8e8141b6b}\label{classbatch_1_1BatchCreator_a09d5ad9fb9c81369884464f8e8141b6b} 
+\index{batch::BatchCreator@{batch::BatchCreator}!writeApplication@{writeApplication}}
+\index{writeApplication@{writeApplication}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{writeApplication()}{writeApplication()}}
+{\footnotesize\ttfamily void batch\+::\+Batch\+Creator\+::write\+Application (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classbatch_1_1BatchCreator_aea249cfd30b105dd295f2087dd8f72df}\label{classbatch_1_1BatchCreator_aea249cfd30b105dd295f2087dd8f72df} 
+\index{batch::BatchCreator@{batch::BatchCreator}!writeCommands@{writeCommands}}
+\index{writeCommands@{writeCommands}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{writeCommands()}{writeCommands()}}
+{\footnotesize\ttfamily void batch\+::\+Batch\+Creator\+::write\+Commands (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classbatch_1_1BatchCreator_acf09f92fe301c95928fa46086e125828}\label{classbatch_1_1BatchCreator_acf09f92fe301c95928fa46086e125828} 
+\index{batch::BatchCreator@{batch::BatchCreator}!writeEnvironmentVariables@{writeEnvironmentVariables}}
+\index{writeEnvironmentVariables@{writeEnvironmentVariables}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{writeEnvironmentVariables()}{writeEnvironmentVariables()}}
+{\footnotesize\ttfamily void batch\+::\+Batch\+Creator\+::write\+Environment\+Variables (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classbatch_1_1BatchCreator_a53ce9bdc248a8af76f07e9dc604338c3}\label{classbatch_1_1BatchCreator_a53ce9bdc248a8af76f07e9dc604338c3} 
+\index{batch::BatchCreator@{batch::BatchCreator}!writeHideShellEnd@{writeHideShellEnd}}
+\index{writeHideShellEnd@{writeHideShellEnd}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{writeHideShellEnd()}{writeHideShellEnd()}}
+{\footnotesize\ttfamily void batch\+::\+Batch\+Creator\+::write\+Hide\+Shell\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classbatch_1_1BatchCreator_ae4a1eac5a16b73fc13c0dc788b435137}\label{classbatch_1_1BatchCreator_ae4a1eac5a16b73fc13c0dc788b435137} 
+\index{batch::BatchCreator@{batch::BatchCreator}!writeHideShellStart@{writeHideShellStart}}
+\index{writeHideShellStart@{writeHideShellStart}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{writeHideShellStart()}{writeHideShellStart()}}
+{\footnotesize\ttfamily void batch\+::\+Batch\+Creator\+::write\+Hide\+Shell\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classbatch_1_1BatchCreator_a17fb9be4c7011de8f94d3c5a850810a2}\label{classbatch_1_1BatchCreator_a17fb9be4c7011de8f94d3c5a850810a2} 
+\index{batch::BatchCreator@{batch::BatchCreator}!writePathValue@{writePathValue}}
+\index{writePathValue@{writePathValue}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{writePathValue()}{writePathValue()}}
+{\footnotesize\ttfamily void batch\+::\+Batch\+Creator\+::write\+Path\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classbatch_1_1BatchCreator_a21eec4761c88a82b84a8e9ffd754cb2a}\label{classbatch_1_1BatchCreator_a21eec4761c88a82b84a8e9ffd754cb2a} 
+\index{batch::BatchCreator@{batch::BatchCreator}!writeShell@{writeShell}}
+\index{writeShell@{writeShell}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{writeShell()}{writeShell()}}
+{\footnotesize\ttfamily void batch\+::\+Batch\+Creator\+::write\+Shell (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classbatch_1_1BatchCreator_a2b9326bc75a318a5f0fdd88192ceec37}\label{classbatch_1_1BatchCreator_a2b9326bc75a318a5f0fdd88192ceec37} 
+\index{batch::BatchCreator@{batch::BatchCreator}!batchFile@{batchFile}}
+\index{batchFile@{batchFile}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{batchFile}{batchFile}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$std\+::ofstream$>$ batch\+::\+Batch\+Creator\+::batch\+File = nullptr\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{BatchCreator_8hpp_source_l00018}{18}} of file \mbox{\hyperlink{BatchCreator_8hpp_source}{Batch\+Creator.\+hpp}}.
+
+\Hypertarget{classbatch_1_1BatchCreator_abba7489b294e32264844bebad1844c39}\label{classbatch_1_1BatchCreator_abba7489b294e32264844bebad1844c39} 
+\index{batch::BatchCreator@{batch::BatchCreator}!jsonData@{jsonData}}
+\index{jsonData@{jsonData}!batch::BatchCreator@{batch::BatchCreator}}
+\doxysubsubsection{\texorpdfstring{jsonData}{jsonData}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classjson_1_1JSONData}{json\+::\+JSONData}}$>$ batch\+::\+Batch\+Creator\+::json\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{BatchCreator_8hpp_source_l00017}{17}} of file \mbox{\hyperlink{BatchCreator_8hpp_source}{Batch\+Creator.\+hpp}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/headers/\mbox{\hyperlink{BatchCreator_8hpp}{Batch\+Creator.\+hpp}}\end{DoxyCompactItemize}

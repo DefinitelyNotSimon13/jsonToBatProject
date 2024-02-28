@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jsonhandler_0',['JSONHandler',['../classjson_1_1JSONHandler.html#a954ed03654cc173ee713a20ff3edc384',1,'json::JSONHandler']]]
+  ['initeasylogging_0',['initEasyLogging',['../classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169',1,'utils::StartupHandler']]]
 ];

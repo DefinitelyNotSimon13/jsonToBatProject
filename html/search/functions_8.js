@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['setapplication_0',['setApplication',['../classjson_1_1JSONData.html#a0d420fc82cccc0e6b937a642a1e9c9e6',1,'json::JSONData']]],
-  ['sethideshell_1',['setHideShell',['../classjson_1_1JSONData.html#a77d3c390c5ce7c0b64e9a793918db426',1,'json::JSONData']]],
-  ['setoutputfile_2',['setOutputFile',['../classjson_1_1JSONData.html#a50d6a3dcec8bf8ecf566b366c8dc3a26',1,'json::JSONData']]],
-  ['startuphandler_3',['startuphandler',['../classutils_1_1StartupHandler.html#afb1be30f328a938d47f8841c27b7d9fe',1,'utils::StartupHandler::StartupHandler()=default'],['../classutils_1_1StartupHandler.html#a839d1f058ee5ec8d618aaaf91fe50a26',1,'utils::StartupHandler::StartupHandler(const StartupHandler &amp;)=delete']]]
+  ['parsefile_0',['parseFile',['../classjson_1_1JSONHandler.html#a9616285a6fe559ffb26a3a0b93912eed',1,'json::JSONHandler']]]
 ];

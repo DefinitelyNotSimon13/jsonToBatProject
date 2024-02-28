@@ -39,7 +39,6 @@ jobs:
             c_compiler: mingw
           - os: windows-latest
             c_compiler: mingw
-            cpp_compiler: mingw
 
     steps:
     - uses: actions/checkout@v3

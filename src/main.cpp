@@ -1,6 +1,7 @@
 #include "JSONData.hpp"
 #include "StartupHandler.hpp"
 #include "JSONHandler.hpp"
+#include "BatchCreator.hpp"
 
 #include <easylogging++.h>
 #include <getopt.h>
@@ -25,8 +26,7 @@ INITIALIZE_EASYLOGGINGPP
  *
  *  \bug Getopt is not working on Windows.
  **/
-int main(int argc, char* argv[])
-{
+int main(int argc, char *argv[]) {
     std::cout << "Starting Application..." << std::endl;
     utils::StartupHandler::initEasyLogging();
 
@@ -56,99 +56,20 @@ int main(int argc, char* argv[])
     std::cout << "Filename: " << filename.value() << std::endl;
     LOG(INFO) << "Further processing...";
     std::cout << "Further processing..." << std::endl;
-    /**
-     * \note json parsing seems simple
-     * edgecases?
-     * basically just treat as array/map
-     **/
+
     // Initialize the JSONHandler with the file(name)
     json::JSONHandler jsonHandler(filename.value());
     // Get a JSONData object from the JSONHandler
     std::shared_ptr<json::JSONData> jsonData = jsonHandler.getJSONData();
     // Print the outputfile as a test
     std::cout << "Outputfile: " << jsonData->getOutputFile() << std::endl;
-    // \note Code below only for me to see how I did it this morning
-    /*
-    for (auto name : memberNames) {
-      std::cout << "    \"" << name << "\" :"
-                << "\n";
 
-      switch (root[name].type()) {
-      case Json::ValueType::arrayValue:
-        std::cout << "          Type: array\n";
-        break;
+    batch::BatchCreator batchCreator(jsonData);
+    /// \note maybe close in creator? But this leaves possibility to add more
+    /// stuff - why?
+    std::shared_ptr<std::ofstream> batchFile = batchCreator.createBatchFile();
+    batchFile->close();
 
-      case Json::ValueType::booleanValue:
-        std::cout << "          Type: boolean\n";
-        break;
-
-      case Json::ValueType::intValue:
-        std::cout << "          Type: int\n";
-        break;
-
-      case Json::ValueType::realValue:
-        std::cout << "          Type: real\n";
-        break;
-
-      case Json::ValueType::stringValue:
-        std::cout << "          Type: string\n";
-        break;
-
-      case Json::ValueType::uintValue:
-        std::cout << "          Type: uint\n";
-        break;
-
-      case Json::ValueType::nullValue:
-        std::cout << "          Type: null\n";
-        break;
-
-      default:
-        std::cout << "          Type: unknown\n";
-        break;
-      }
-    }
-
-    // Not error proof
-    std::cout << "Outputfile: " << root["outputfile"].asString() << "\n";
-    std::string outputfile = "output/" + root["outputfile"].asString();
-    std::fstream batchFile;
-    batchFile.open(outputfile, std::ios::out);
-    batchFile << "#This is a test\n";
-    // Very not error proof
-    std::stringstream additionalPath;
-    int counter = 0;
-    std::cout << "Entries:\n";
-
-    batchFile << "@ECHO OFF\nC:\\Windows\\System32\\cmd.exe /k\n\"";
-
-    for (const auto entry : root["entries"]) {
-      std::cout << "Entry " << counter << ":\n";
-
-      for (const auto key : entry.getMemberNames()) {
-        std::cout << "    " << key << ": " << entry[key].asString() << "\n";
-      }
-
-      if (entry["type"].asString() == "EXE") {
-        batchFile << entry["command"].asString() << "&&\\\n";
-      } else if (entry["type"].asString() == "ENV") {
-        batchFile << "set " << entry["key"].asString() << "="
-                  << entry["value"].asString() << "&&\\\n";
-      } else if (entry["type"].asString() == "PATH") {
-        additionalPath << entry["path"].asString() << ";\\\n";
-      } else {
-        batchFile << "\nCommand doesnt exist yet\n";
-      }
-
-      ++counter;
-    }
-
-    if (additionalPath.str() != "") {
-      batchFile << "set path=%path%" << additionalPath.str();
-    }
-
-    batchFile << "\"\n@ECHO ON";
-    batchFile.close();
-    */
     LOG(INFO) << "Application exiting!";
     return 0;
 }

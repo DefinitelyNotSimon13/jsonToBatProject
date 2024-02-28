@@ -152,7 +152,7 @@ class JSONHandler {
      *
      * \return std::shared_ptr<JSONData> The JSONData object
      **/
-    std::shared_ptr<JSONData> createJSONData() const;
+    std::shared_ptr<JSONData> createJSONData();
 
     std::shared_ptr<Json::Value> root;
     std::shared_ptr<JSONData> data;

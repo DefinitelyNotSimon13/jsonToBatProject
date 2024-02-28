@@ -36,6 +36,10 @@ class StartupHandler {
      *
      * \todo
      * - Improve easylogging configuration
+     *
+     * \bug
+     * Easylogging conf only recognized when running application
+     *from source dir
      **/
     static void initEasyLogging();
 

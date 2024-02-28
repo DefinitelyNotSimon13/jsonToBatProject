@@ -1,3 +1,6 @@
+#ifndef STARTUPHANDLER_HPP
+#define STARTUPHANDLER_HPP
+
 #include <getopt.h>
 #include <optional>
 #include <string>
@@ -95,3 +98,4 @@ class StartupHandler {
 
 };
 } // namespace utils
+#endif // STARTUPHANDLER_HPP

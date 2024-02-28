@@ -22,6 +22,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(SOURCES
     ${PROJECT_SOURCE_DIR}/src/main.cpp
     ${PROJECT_SOURCE_DIR}/src/sources/StartupHandler.cpp
+    ${PROJECT_SOURCE_DIR}/src/sources/JSONHandler.cpp
+    ${PROJECT_SOURCE_DIR}/src/sources/JSONData.cpp
 )
 
 option(PRECOMPILED "Wether or not to use the precompiled versions of the libraries" OFF)

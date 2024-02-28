@@ -1,13 +1,16 @@
+#include "JSONData.hpp"
 #include "StartupHandler.hpp"
-#include "easylogging++.h"
+#include "JSONHandler.hpp"
 
+#include <easylogging++.h>
 #include <getopt.h>
 #include <iostream>
+#include <json/json.h>
+#include <sstream>
 #include <stdexcept>
 #include <string>
-#include <sstream>
-#include <json/json.h>
 
+/// \bug Initielizes to early for config file to be loaded
 INITIALIZE_EASYLOGGINGPP
 
 /**
@@ -58,49 +61,51 @@ int main(int argc, char* argv[])
      * edgecases?
      * basically just treat as array/map
      **/
-    Json::Value root;
-    std::ifstream file(filename.value());
-    Json::Reader reader;
-    reader.parse(file, root);
-    auto memberNames = root.getMemberNames();
-    std::cout << "Memebers: " << std::endl;
-
+    // Initialize the JSONHandler with the file(name)
+    json::JSONHandler jsonHandler(filename.value());
+    // Get a JSONData object from the JSONHandler
+    std::shared_ptr<json::JSONData> jsonData = jsonHandler.getJSONData();
+    // Print the outputfile as a test
+    std::cout << "Outputfile: " << jsonData->getOutputFile() << std::endl;
+    // \note Code below only for me to see how I did it this morning
+    /*
     for (auto name : memberNames) {
-        std::cout << "    \"" << name << "\" :" << "\n";
+      std::cout << "    \"" << name << "\" :"
+                << "\n";
 
-        switch (root[name].type()) {
-            case Json::ValueType::arrayValue:
-                std::cout << "          Type: array\n";
-                break;
+      switch (root[name].type()) {
+      case Json::ValueType::arrayValue:
+        std::cout << "          Type: array\n";
+        break;
 
-            case Json::ValueType::booleanValue:
-                std::cout << "          Type: boolean\n";
-                break;
+      case Json::ValueType::booleanValue:
+        std::cout << "          Type: boolean\n";
+        break;
 
-            case Json::ValueType::intValue:
-                std::cout << "          Type: int\n";
-                break;
+      case Json::ValueType::intValue:
+        std::cout << "          Type: int\n";
+        break;
 
-            case Json::ValueType::realValue:
-                std::cout << "          Type: real\n";
-                break;
+      case Json::ValueType::realValue:
+        std::cout << "          Type: real\n";
+        break;
 
-            case Json::ValueType::stringValue:
-                std::cout << "          Type: string\n";
-                break;
+      case Json::ValueType::stringValue:
+        std::cout << "          Type: string\n";
+        break;
 
-            case Json::ValueType::uintValue:
-                std::cout << "          Type: uint\n";
-                break;
+      case Json::ValueType::uintValue:
+        std::cout << "          Type: uint\n";
+        break;
 
-            case Json::ValueType::nullValue:
-                std::cout << "          Type: null\n";
-                break;
+      case Json::ValueType::nullValue:
+        std::cout << "          Type: null\n";
+        break;
 
-            default:
-                std::cout << "          Type: unknown\n";
-                break;
-        }
+      default:
+        std::cout << "          Type: unknown\n";
+        break;
+      }
     }
 
     // Not error proof
@@ -117,34 +122,33 @@ int main(int argc, char* argv[])
     batchFile << "@ECHO OFF\nC:\\Windows\\System32\\cmd.exe /k\n\"";
 
     for (const auto entry : root["entries"]) {
-        std::cout << "Entry " << counter << ":\n";
+      std::cout << "Entry " << counter << ":\n";
 
-        for (const auto key : entry.getMemberNames()) {
-            std::cout << "    " << key << ": " << entry[key].asString() << "\n";
-        }
+      for (const auto key : entry.getMemberNames()) {
+        std::cout << "    " << key << ": " << entry[key].asString() << "\n";
+      }
 
-        if (entry["type"].asString() == "EXE") {
-            batchFile << entry["command"].asString() << "&&\\\n";
-        }
-        else if (entry["type"].asString() == "ENV") {
-            batchFile << "set " << entry["key"].asString() << "=" << entry["value"].asString() << "&&\\\n";
-        }
-        else if (entry["type"].asString() == "PATH") {
-            additionalPath << entry["path"].asString() << ";\\\n";
-        }
-        else {
-            batchFile << "\nCommand doesnt exist yet\n";
-        }
+      if (entry["type"].asString() == "EXE") {
+        batchFile << entry["command"].asString() << "&&\\\n";
+      } else if (entry["type"].asString() == "ENV") {
+        batchFile << "set " << entry["key"].asString() << "="
+                  << entry["value"].asString() << "&&\\\n";
+      } else if (entry["type"].asString() == "PATH") {
+        additionalPath << entry["path"].asString() << ";\\\n";
+      } else {
+        batchFile << "\nCommand doesnt exist yet\n";
+      }
 
-        ++counter;
+      ++counter;
     }
 
     if (additionalPath.str() != "") {
-        batchFile << "set path=%path%" << additionalPath.str();
+      batchFile << "set path=%path%" << additionalPath.str();
     }
 
     batchFile << "\"\n@ECHO ON";
     batchFile.close();
+    */
     LOG(INFO) << "Application exiting!";
     return 0;
 }

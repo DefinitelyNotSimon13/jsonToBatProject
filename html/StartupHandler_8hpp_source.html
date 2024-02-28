@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">jsonToBatProject
+   <div id="projectname">jsonToBatProject<span id="projectnumber">&#160;0.2.0</span>
    </div>
    <div id="projectbrief">This project is for a task in university.</div>
   </td>
@@ -100,44 +100,49 @@ $(document).ready(function(){initNavTree('StartupHandler_8hpp_source.html',''); 
   <div class="headertitle"><div class="title">StartupHandler.hpp</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="StartupHandler_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &lt;getopt.h&gt;</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="}">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="namespaceutils.html">   12</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceutils.html">utils</a> {</div>
-<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classutils_1_1StartupHandler.html">   23</a></span><span class="keyword">class </span><a class="code hl_class" href="classutils_1_1StartupHandler.html">StartupHandler</a> {</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169">initEasyLogging</a>();</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keyword">static</span> std::optional&lt;std::string&gt; <a class="code hl_function" href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c">getOptions</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classutils_1_1StartupHandler.html#afb1be30f328a938d47f8841c27b7d9fe">   74</a></span>    <a class="code hl_function" href="classutils_1_1StartupHandler.html#afb1be30f328a938d47f8841c27b7d9fe">StartupHandler</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classutils_1_1StartupHandler.html#a839d1f058ee5ec8d618aaaf91fe50a26">   82</a></span>    <a class="code hl_function" href="classutils_1_1StartupHandler.html#a839d1f058ee5ec8d618aaaf91fe50a26">StartupHandler</a>(<span class="keyword">const</span> <a class="code hl_class" href="classutils_1_1StartupHandler.html">StartupHandler</a> &amp;) = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classutils_1_1StartupHandler.html#a2dd3b477a62197fab9761f19b06908d3">   90</a></span>    <a class="code hl_class" href="classutils_1_1StartupHandler.html">StartupHandler</a> &amp;<a class="code hl_function" href="classutils_1_1StartupHandler.html#a2dd3b477a62197fab9761f19b06908d3">operator=</a>(<span class="keyword">const</span> <a class="code hl_class" href="classutils_1_1StartupHandler.html">StartupHandler</a> &amp;) = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>};</div>
+<a href="StartupHandler_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifdef IS_WINDOWS</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;xgetopt.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;getopt.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="namespaceutils.html">   17</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceutils.html">utils</a> {</div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="classutils_1_1StartupHandler.html">   28</a></span><span class="keyword">class </span><a class="code hl_class" href="classutils_1_1StartupHandler.html">StartupHandler</a> {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169">initEasyLogging</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keyword">static</span> std::optional&lt;std::string&gt; <a class="code hl_function" href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c">getOptions</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="classutils_1_1StartupHandler.html#afb1be30f328a938d47f8841c27b7d9fe">   79</a></span>    <a class="code hl_function" href="classutils_1_1StartupHandler.html#afb1be30f328a938d47f8841c27b7d9fe">StartupHandler</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="classutils_1_1StartupHandler.html#a839d1f058ee5ec8d618aaaf91fe50a26">   87</a></span>    <a class="code hl_function" href="classutils_1_1StartupHandler.html#a839d1f058ee5ec8d618aaaf91fe50a26">StartupHandler</a>(<span class="keyword">const</span> <a class="code hl_class" href="classutils_1_1StartupHandler.html">StartupHandler</a> &amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="classutils_1_1StartupHandler.html#a2dd3b477a62197fab9761f19b06908d3">   95</a></span>    <a class="code hl_class" href="classutils_1_1StartupHandler.html">StartupHandler</a> &amp;<a class="code hl_function" href="classutils_1_1StartupHandler.html#a2dd3b477a62197fab9761f19b06908d3">operator=</a>(<span class="keyword">const</span> <a class="code hl_class" href="classutils_1_1StartupHandler.html">StartupHandler</a> &amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>};</div>
 </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>} <span class="comment">// namespace utils</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>} <span class="comment">// namespace utils</span></div>
 </div>
-<div class="ttc" id="aclassutils_1_1StartupHandler_html"><div class="ttname"><a href="classutils_1_1StartupHandler.html">utils::StartupHandler</a></div><div class="ttdoc">StartupHandler.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8hpp_source.html#l00023">StartupHandler.hpp:23</a></div></div>
+<div class="ttc" id="aclassutils_1_1StartupHandler_html"><div class="ttname"><a href="classutils_1_1StartupHandler.html">utils::StartupHandler</a></div><div class="ttdoc">Handles startup task for the application.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8hpp_source.html#l00028">StartupHandler.hpp:28</a></div></div>
 <div class="ttc" id="aclassutils_1_1StartupHandler_html_a2dd3b477a62197fab9761f19b06908d3"><div class="ttname"><a href="classutils_1_1StartupHandler.html#a2dd3b477a62197fab9761f19b06908d3">utils::StartupHandler::operator=</a></div><div class="ttdeci">StartupHandler &amp; operator=(const StartupHandler &amp;)=delete</div><div class="ttdoc">Assignment operator (deleted)</div></div>
 <div class="ttc" id="aclassutils_1_1StartupHandler_html_a839d1f058ee5ec8d618aaaf91fe50a26"><div class="ttname"><a href="classutils_1_1StartupHandler.html#a839d1f058ee5ec8d618aaaf91fe50a26">utils::StartupHandler::StartupHandler</a></div><div class="ttdeci">StartupHandler(const StartupHandler &amp;)=delete</div><div class="ttdoc">Copy constructor (deleted)</div></div>
-<div class="ttc" id="aclassutils_1_1StartupHandler_html_a9cdd57841cee245c1a1c94b0efe6549c"><div class="ttname"><a href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c">utils::StartupHandler::getOptions</a></div><div class="ttdeci">static std::optional&lt; std::string &gt; getOptions(int argc, char *argv[])</div><div class="ttdoc">Get options from command line.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8cpp_source.html#l00019">StartupHandler.cpp:19</a></div></div>
-<div class="ttc" id="aclassutils_1_1StartupHandler_html_ade70b280d4385f270829b177da44b169"><div class="ttname"><a href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169">utils::StartupHandler::initEasyLogging</a></div><div class="ttdeci">static void initEasyLogging()</div><div class="ttdoc">Initialize easylogging.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8cpp_source.html#l00010">StartupHandler.cpp:10</a></div></div>
+<div class="ttc" id="aclassutils_1_1StartupHandler_html_a9cdd57841cee245c1a1c94b0efe6549c"><div class="ttname"><a href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c">utils::StartupHandler::getOptions</a></div><div class="ttdeci">static std::optional&lt; std::string &gt; getOptions(int argc, char *argv[])</div><div class="ttdoc">Get options from command line.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8cpp_source.html#l00026">StartupHandler.cpp:26</a></div></div>
+<div class="ttc" id="aclassutils_1_1StartupHandler_html_ade70b280d4385f270829b177da44b169"><div class="ttname"><a href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169">utils::StartupHandler::initEasyLogging</a></div><div class="ttdeci">static void initEasyLogging()</div><div class="ttdoc">Initialize easylogging.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8cpp_source.html#l00018">StartupHandler.cpp:18</a></div></div>
 <div class="ttc" id="aclassutils_1_1StartupHandler_html_afb1be30f328a938d47f8841c27b7d9fe"><div class="ttname"><a href="classutils_1_1StartupHandler.html#afb1be30f328a938d47f8841c27b7d9fe">utils::StartupHandler::StartupHandler</a></div><div class="ttdeci">StartupHandler()=default</div><div class="ttdoc">Constructor (private)</div></div>
-<div class="ttc" id="anamespaceutils_html"><div class="ttname"><a href="namespaceutils.html">utils</a></div><div class="ttdoc">Namespace for utility functions.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8hpp_source.html#l00012">StartupHandler.hpp:12</a></div></div>
+<div class="ttc" id="anamespaceutils_html"><div class="ttname"><a href="namespaceutils.html">utils</a></div><div class="ttdoc">Namespace for utility functions.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8hpp_source.html#l00017">StartupHandler.hpp:17</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_d0381950fc41278198232cb047ffc1f9.html">headers</a></li><li class="navelem"><a class="el" href="StartupHandler_8hpp.html">StartupHandler.hpp</a></li>
-    <li class="footer">Generated on Tue Feb 27 2024 21:32:50 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Feb 28 2024 08:49:55 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

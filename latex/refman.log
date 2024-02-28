@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.27)  27 FEB 2024 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.28)  28 FEB 2024 08:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -841,9 +841,9 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 19
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 198.
+(Font)              scaled to size 10.79993pt on input line 197.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 200.
+(Font)              scaled to size 8.09995pt on input line 201.
  [1
 
 
@@ -855,20 +855,21 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 \openout6 = `refman.toc'.
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 206.
+(Font)              scaled to size 8.99994pt on input line 207.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 206.
+(Font)              scaled to size 7.19995pt on input line 207.
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 20
-6.
+7.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 206.
- [1] [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 209.
+(Font)              scaled to size 6.29996pt on input line 207.
+ [1] [2
 
-(./md_README.tex
+]
+Package hyperref Info: Option `pageanchor' set `true' on input line 210.
+ (./todo.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
@@ -876,70 +877,64 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 5.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-3.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
+.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 13.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 39.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 39.
- [1
-
-
-]
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 89.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 90.
-LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 8.99994pt on input line 90.
-) (./todo.tex [2]
-Chapter 2.
+(Font)              scaled to size 8.99994pt on input line 9.
 
 Overfull \hbox (27.0pt too wide) in paragraph at lines 9--10
 []
  []
 
-) (./bug.tex [3
 
-] [4
+Overfull \hbox (27.0pt too wide) in paragraph at lines 15--16
+[]
+ []
+
+
+Overfull \hbox (27.0pt too wide) in paragraph at lines 23--24
+[]
+ []
+
+) (./bug.tex [1
+
+] [2
+
+]
+Chapter 2.
+) [3] [4
 
 ]
 Chapter 3.
+(./namespaces.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 1.
 ) [5] [6
 
 ]
 Chapter 4.
-(./namespaces.tex) [7] [8
+(./annotated.tex) [7] [8
 
 ]
 Chapter 5.
-(./annotated.tex) [9] [10
+(./files.tex) [9] [10
 
 ]
 Chapter 6.
-(./files.tex) [11] [12
+(./namespaceutils.tex
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 12.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 20.
+) [11] [12
 
 ]
 Chapter 7.
-(./namespaceglobals.tex
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 7.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.29996pt on input line 7.
-) (./namespaceutils.tex) (./namespaceWIP.tex) [13]
-[14]
-Chapter 8.
 (./classutils_1_1StartupHandler.tex
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 8.99994pt on input line 35.
@@ -950,58 +945,94 @@ Underfull \hbox (badness 10000) detected at line 35
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 7.19995pt on input line 48.
-[15
-
-]
+[13]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 59.
- [16]
+ [14]
 Underfull \hbox (badness 10000) detected at line 102
 [][][]
  []
 
-) [17] [18
+ <./classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph.pdf>
+<classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph.pdf, id
+=323, 257.96375pt x 111.41624pt>
+File: classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph.pd
+f Graphic file (type pdf)
+<use classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph.pdf
+>
+Package pdftex.def Info: classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0
+efe6549c_icgraph.pdf  used on input line 123.
+(pdftex.def)             Requested size: 257.0pt x 111.00964pt.
+ <./classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pdf>
+<classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pdf, id
+=334, 257.96375pt x 111.41624pt>
+File: classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pd
+f Graphic file (type pdf)
+<use classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pdf
+>
+Package pdftex.def Info: classutils_1_1StartupHandler_ade70b280d4385f270829b177
+da44b169_icgraph.pdf  used on input line 152.
+(pdftex.def)             Requested size: 257.0pt x 111.00964pt.
+[15]) [16]
+Chapter 8.
+(./StartupHandler_8hpp.tex <./StartupHandler_8hpp__incl.pdf>
+<StartupHandler_8hpp__incl.pdf, id=361, 256.96pt x 155.58125pt>
+File: StartupHandler_8hpp__incl.pdf Graphic file (type pdf)
+<use StartupHandler_8hpp__incl.pdf>
+Package pdftex.def Info: StartupHandler_8hpp__incl.pdf  used on input line 11.
+(pdftex.def)             Requested size: 256.0pt x 155.0111pt.
+ <./StartupHandler_8hpp__dep__incl.pdf>
+<StartupHandler_8hpp__dep__incl.pdf, id=369, 323.2075pt x 155.58125pt>
+File: StartupHandler_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use StartupHandler_8hpp__dep__incl.pdf>
+Package pdftex.def Info: StartupHandler_8hpp__dep__incl.pdf  used on input line
+ 19.
+(pdftex.def)             Requested size: 322.0pt x 155.00873pt.
+ [17
 
-]
-Chapter 9.
-(./README_8md.tex) (./StartupHandler_8hpp.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--6
-
- []
-
-) (./StartupHandler_8hpp_source.tex) (./main_8cpp.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--9
-
- []
-
-[19]) (./main_8cpp_source.tex [20]) (./globals_8cpp.tex)
-(./globals_8cpp_source.tex) (./StartupHandler_8cpp.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--10
-
- []
-
-[21]) (./StartupHandler_8cpp_source.tex [22]) [23] [24
-
-] (./refman.ind
+]) (./StartupHandler_8hpp_source.tex) (./main_8cpp.tex <./main_8cpp__incl.pdf>
+<main_8cpp__incl.pdf, id=402, 481.8pt x 210.7875pt>
+File: main_8cpp__incl.pdf Graphic file (type pdf)
+<use main_8cpp__incl.pdf>
+Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 13.
+(pdftex.def)             Requested size: 350.0pt x 153.1274pt.
+ [18] <./main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf>
+<main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf, id=450, 257.96375pt x 
+160.6pt>
+File: main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf Graphic file (type
+ pdf)
+<use main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf>
+Package pdftex.def Info: main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf
+  used on input line 58.
+(pdftex.def)             Requested size: 257.0pt x 160.0139pt.
+) (./main_8cpp_source.tex [19]) (./StartupHandler_8cpp.tex <./StartupHandler_8c
+pp__incl.pdf>
+<StartupHandler_8cpp__incl.pdf, id=473, 513.92pt x 210.7875pt>
+File: StartupHandler_8cpp__incl.pdf Graphic file (type pdf)
+<use StartupHandler_8cpp__incl.pdf>
+Package pdftex.def Info: StartupHandler_8cpp__incl.pdf  used on input line 14.
+(pdftex.def)             Requested size: 350.0pt x 143.55553pt.
+ [20]) (./StartupHandler_8cpp_source.tex [21]) [22]
+(./refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
- [25
+ [23
 
 
 
-])
-(./refman.aux)
+
+]) (./refman.aux)
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 45DC70ED492FBAE97AA89054A723C175;7895.
+(rerunfilecheck)             Checksum: 20828D981F499169187766B5E0E7DB1B;5971.
  ) 
 Here is how much of TeX's memory you used:
- 18381 strings out of 476025
- 297264 string characters out of 5796497
- 1867388 words of memory out of 5000000
- 38191 multiletter control sequences out of 15000+600000
- 572520 words of font info for 104 fonts, out of 8000000 for 9000
+ 18390 strings out of 476025
+ 299630 string characters out of 5796497
+ 1866388 words of memory out of 5000000
+ 38212 multiletter control sequences out of 15000+600000
+ 569664 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,117p,512b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,16n,117p,512b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -1010,13 +1041,12 @@ sy8.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/t
 exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1
 /urw/courier/ucrro8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a
 .pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/te
-xmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texmf-dist/fonts/type
-1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro
-8a.pfb>
-Output written on refman.pdf (29 pages, 161675 bytes).
+xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1
+/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (27 pages, 193785 bytes).
 PDF statistics:
- 811 PDF objects out of 1000 (max. 8388607)
- 742 compressed objects within 8 object streams
- 268 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 798 PDF objects out of 1000 (max. 8388607)
+ 709 compressed objects within 8 object streams
+ 272 named destinations out of 1000 (max. 500000)
+ 300 words of extra memory for PDF output out of 10000 (max. 10000000)
 

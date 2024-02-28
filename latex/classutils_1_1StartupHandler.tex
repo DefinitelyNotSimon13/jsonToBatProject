@@ -2,7 +2,7 @@
 \hypertarget{classutils_1_1StartupHandler}{}\label{classutils_1_1StartupHandler}\index{utils::StartupHandler@{utils::StartupHandler}}
 
 
-\doxylink{classutils_1_1StartupHandler}{Startup\+Handler}.  
+Handles startup task for the application.  
 
 
 
@@ -28,16 +28,16 @@ static std\+::optional$<$ std\+::string $>$ \mbox{\hyperlink{classutils_1_1Start
 
 
 \doxysubsection{Detailed Description}
-\doxylink{classutils_1_1StartupHandler}{Startup\+Handler}. 
+Handles startup task for the application. 
 
 This class provides functionality for the startup of the application. Currently it initializes easylogging and parses given options.
 
 \begin{DoxyNote}{Note}
-Should stay static? 
+I think this class should stay static -\/ Simon 
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{StartupHandler_8hpp_source_l00023}{23}} of file \mbox{\hyperlink{StartupHandler_8hpp_source}{Startup\+Handler.\+hpp}}.
+Definition at line \mbox{\hyperlink{StartupHandler_8hpp_source_l00028}{28}} of file \mbox{\hyperlink{StartupHandler_8hpp_source}{Startup\+Handler.\+hpp}}.
 
 
 
@@ -84,11 +84,11 @@ This function parses the command line options and returns the filename given as 
 \item --test\+: Test
 
 \begin{DoxyRefDesc}{Todo}
-\item[\mbox{\hyperlink{todo__todo000002}{Todo}}]Implement functionality for the options. Implement/\+Add more options. Shorten function and outsource functionality to other functions.\end{DoxyRefDesc}
+\item[\mbox{\hyperlink{todo__todo000002}{Todo}}]\end{DoxyRefDesc}
 
 
 \begin{DoxyRefDesc}{Bug}
-\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]Global verbose flag is not working\end{DoxyRefDesc}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]Global verbose flag is not working.\end{DoxyRefDesc}
 
 \end{DoxyItemize}
 
@@ -109,12 +109,20 @@ Returns either the filename or nothing.
 \end{DoxyExceptions}
 
 
-Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00019}{19}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
+Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00026}{26}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
 
 
 
-References \mbox{\hyperlink{globals_8cpp_source_l00003}{globals\+::verbose}}.
+References \mbox{\hyperlink{StartupHandler_8cpp_source_l00016}{utils\+::verbose}}.
 
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169}\label{classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169} 
 \index{utils::StartupHandler@{utils::StartupHandler}!initEasyLogging@{initEasyLogging}}
 \index{initEasyLogging@{initEasyLogging}!utils::StartupHandler@{utils::StartupHandler}}
@@ -128,11 +136,22 @@ Initialize easylogging.
 This function initializes easylogging with the configuration file "{}\$\+SOURCE/conf/easylogging.\+conf"{}.
 
 \begin{DoxyRefDesc}{Todo}
-\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]Improve easylogging configuration \end{DoxyRefDesc}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]
+\begin{DoxyItemize}
+\item Improve easylogging configuration 
+\end{DoxyItemize}\end{DoxyRefDesc}
 
 
-Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00010}{10}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
+Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00018}{18}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
 
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{classutils_1_1StartupHandler_a2dd3b477a62197fab9761f19b06908d3}\label{classutils_1_1StartupHandler_a2dd3b477a62197fab9761f19b06908d3} 
 \index{utils::StartupHandler@{utils::StartupHandler}!operator=@{operator=}}
 \index{operator=@{operator=}!utils::StartupHandler@{utils::StartupHandler}}

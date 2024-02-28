@@ -1,71 +1,54 @@
 \begin{theindex}
 
-  \item {Bug List}, \hyperpage{5}
-
-  \indexspace
-
-  \item {exampleEasyLogging}
-    \subitem {WIP}, \hyperpage{14}
+  \item {Bug List}, \hyperpage{3}
 
   \indexspace
 
   \item {getOptions}
-    \subitem {utils::StartupHandler}, \hyperpage{16}
-  \item {globals}, \hyperpage{13}
-    \subitem {verbose}, \hyperpage{13}
+    \subitem {utils::StartupHandler}, \hyperpage{14}
 
   \indexspace
 
   \item {initEasyLogging}
-    \subitem {utils::StartupHandler}, \hyperpage{17}
+    \subitem {utils::StartupHandler}, \hyperpage{15}
 
   \indexspace
 
   \item {main}
-    \subitem {main.cpp}, \hyperpage{20}
+    \subitem {main.cpp}, \hyperpage{19}
   \item {main.cpp}
-    \subitem {main}, \hyperpage{20}
+    \subitem {main}, \hyperpage{19}
 
   \indexspace
 
   \item {operator=}
-    \subitem {utils::StartupHandler}, \hyperpage{17}
+    \subitem {utils::StartupHandler}, \hyperpage{15}
 
   \indexspace
 
-  \item {README}, \hyperpage{1}
-  \item {README.md}, \hyperpage{19}
-
-  \indexspace
-
-  \item {src/headers/StartupHandler.hpp}, \hyperpage{19}
-  \item {src/main.cpp}, \hyperpage{20, 21}
-  \item {src/sources/globals.cpp}, \hyperpage{21}
-  \item {src/sources/StartupHandler.cpp}, \hyperpage{22}
+  \item {src/headers/StartupHandler.hpp}, \hyperpage{17, 18}
+  \item {src/main.cpp}, \hyperpage{18}, \hyperpage{20}
+  \item {src/sources/StartupHandler.cpp}, \hyperpage{20, 21}
   \item {StartupHandler}
-    \subitem {utils::StartupHandler}, \hyperpage{16}
+    \subitem {utils::StartupHandler}, \hyperpage{14}
 
   \indexspace
 
-  \item {Todo List}, \hyperpage{3}
+  \item {Todo List}, \hyperpage{1}
 
   \indexspace
 
-  \item {utils}, \hyperpage{13}
-  \item {utils::StartupHandler}, \hyperpage{15}
-    \subitem {getOptions}, \hyperpage{16}
-    \subitem {initEasyLogging}, \hyperpage{17}
-    \subitem {operator=}, \hyperpage{17}
-    \subitem {StartupHandler}, \hyperpage{16}
+  \item {utils}, \hyperpage{11}
+    \subitem {verbose}, \hyperpage{11}
+  \item {utils::StartupHandler}, \hyperpage{13}
+    \subitem {getOptions}, \hyperpage{14}
+    \subitem {initEasyLogging}, \hyperpage{15}
+    \subitem {operator=}, \hyperpage{15}
+    \subitem {StartupHandler}, \hyperpage{14}
 
   \indexspace
 
   \item {verbose}
-    \subitem {globals}, \hyperpage{13}
-
-  \indexspace
-
-  \item {WIP}, \hyperpage{14}
-    \subitem {exampleEasyLogging}, \hyperpage{14}
+    \subitem {utils}, \hyperpage{11}
 
 \end{theindex}

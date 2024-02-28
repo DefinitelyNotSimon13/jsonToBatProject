@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['operator_3d_0',['operator=',['../classutils_1_1StartupHandler.html#a2dd3b477a62197fab9761f19b06908d3',1,'utils::StartupHandler']]]
+  ['startuphandler_0',['startuphandler',['../classutils_1_1StartupHandler.html#afb1be30f328a938d47f8841c27b7d9fe',1,'utils::StartupHandler::StartupHandler()=default'],['../classutils_1_1StartupHandler.html#a839d1f058ee5ec8d618aaaf91fe50a26',1,'utils::StartupHandler::StartupHandler(const StartupHandler &amp;)=delete']]]
 ];

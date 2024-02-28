@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]]
+  ['operator_3d_0',['operator=',['../classutils_1_1StartupHandler.html#a2dd3b477a62197fab9761f19b06908d3',1,'utils::StartupHandler']]]
 ];

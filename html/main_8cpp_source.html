@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">jsonToBatProject
+   <div id="projectname">jsonToBatProject<span id="projectnumber">&#160;0.2.0</span>
    </div>
    <div id="projectbrief">This project is for a task in university.</div>
   </td>
@@ -102,69 +102,71 @@ $(document).ready(function(){initNavTree('main_8cpp_source.html',''); initResiza
 <div class="contents">
 <a href="main_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &quot;<a class="code" href="StartupHandler_8hpp.html">StartupHandler.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;easylogging++.h&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="globals_8cpp.html">globals.cpp</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;getopt.h&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stdexcept&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>INITIALIZE_EASYLOGGINGPP</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00010" data-start="{" data-end="}">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="namespaceWIP.html">   10</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceWIP.html">WIP</a> {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="namespaceWIP.html#a8abade321630427e408845cf8b194c56">   11</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespaceWIP.html#a8abade321630427e408845cf8b194c56">exampleEasyLogging</a>();</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>}</div>
-</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="foldopen" id="foldopen00028" data-start="{" data-end="}">
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">   28</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[])</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_function" href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169">utils::StartupHandler::initEasyLogging</a>();</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordflow">if</span> (argc &lt;= 1) {</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        LOG(WARNING) &lt;&lt; <span class="stringliteral">&quot;No arguments provided, exiting!&quot;</span>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;No arguments provided, exiting!\n&quot;</span>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;Hello, World!&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    std::optional&lt;std::string&gt; filename;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">try</span> {</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        filename = <a class="code hl_function" href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c">utils::StartupHandler::getOptions</a>(argc, argv);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::invalid_argument &amp;e) {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        LOG(WARNING) &lt;&lt; <span class="stringliteral">&quot;Caught invalid argument: &quot;</span> &lt;&lt; e.what();</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Invalid argument: &quot;</span> &lt;&lt; e.what() &lt;&lt; std::endl;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">if</span> (!filename.has_value()) {</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        LOG(ERROR) &lt;&lt; <span class="stringliteral">&quot;No filename given! Exiting...&quot;</span>;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        std::cerr &lt;&lt; <span class="stringliteral">&quot;No filename given!\nExiting...\n&quot;</span>;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    }</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Filename received: &quot;</span> &lt;&lt; filename.value();</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;Filename: &quot;</span> &lt;&lt; filename.value() &lt;&lt; std::endl;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Further processing...&quot;</span>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;Further processing...&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Application exiting!&quot;</span>;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>}</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifdef IS_WINDOWS</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;xgetopt.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;getopt.h&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;stdexcept&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>INITIALIZE_EASYLOGGINGPP</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="main_8cpp.html#a2b2d4ce8b34d14b9e775eaf6214b00e1">   34</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="main_8cpp.html#a2b2d4ce8b34d14b9e775eaf6214b00e1">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[]) {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="comment">//Debug</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifdef IS_LINUX</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  std::cout &lt;&lt; <span class="stringliteral">&quot;Linux\n\n&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#elif IS_WINDOWS</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  std::cout &lt;&lt; <span class="stringliteral">&quot;Windows\n\n&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  std::cout &lt;&lt; <span class="stringliteral">&quot;Unknown OS\n\n&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <a class="code hl_function" href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169">utils::StartupHandler::initEasyLogging</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordflow">if</span> (argc &lt;= 1) {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    LOG(WARNING) &lt;&lt; <span class="stringliteral">&quot;No arguments provided, exiting!&quot;</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;No arguments provided, exiting!\n&quot;</span>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  std::cout &lt;&lt; <span class="stringliteral">&quot;Hello, World!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  std::optional&lt;std::string&gt; filename;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keywordflow">try</span> {</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    filename = <a class="code hl_function" href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c">utils::StartupHandler::getOptions</a>(argc, argv);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::invalid_argument &amp;e) {</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    LOG(WARNING) &lt;&lt; <span class="stringliteral">&quot;Caught invalid argument: &quot;</span> &lt;&lt; e.what();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;Invalid argument: &quot;</span> &lt;&lt; e.what() &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keywordflow">if</span> (!filename.has_value()) {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    LOG(ERROR) &lt;&lt; <span class="stringliteral">&quot;No filename given! Exiting...&quot;</span>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    std::cerr &lt;&lt; <span class="stringliteral">&quot;No filename given!\nExiting...\n&quot;</span>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Filename received: &quot;</span> &lt;&lt; filename.value();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  std::cout &lt;&lt; <span class="stringliteral">&quot;Filename: &quot;</span> &lt;&lt; filename.value() &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Further processing...&quot;</span>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  std::cout &lt;&lt; <span class="stringliteral">&quot;Further processing...&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Application exiting!&quot;</span>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>}</div>
 </div>
 <div class="ttc" id="aStartupHandler_8hpp_html"><div class="ttname"><a href="StartupHandler_8hpp.html">StartupHandler.hpp</a></div></div>
-<div class="ttc" id="aclassutils_1_1StartupHandler_html_a9cdd57841cee245c1a1c94b0efe6549c"><div class="ttname"><a href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c">utils::StartupHandler::getOptions</a></div><div class="ttdeci">static std::optional&lt; std::string &gt; getOptions(int argc, char *argv[])</div><div class="ttdoc">Get options from command line.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8cpp_source.html#l00019">StartupHandler.cpp:19</a></div></div>
-<div class="ttc" id="aclassutils_1_1StartupHandler_html_ade70b280d4385f270829b177da44b169"><div class="ttname"><a href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169">utils::StartupHandler::initEasyLogging</a></div><div class="ttdeci">static void initEasyLogging()</div><div class="ttdoc">Initialize easylogging.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8cpp_source.html#l00010">StartupHandler.cpp:10</a></div></div>
-<div class="ttc" id="aglobals_8cpp_html"><div class="ttname"><a href="globals_8cpp.html">globals.cpp</a></div></div>
-<div class="ttc" id="amain_8cpp_html_a0ddf1224851353fc92bfbff6f499fa97"><div class="ttname"><a href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a></div><div class="ttdeci">int main(int argc, char *argv[])</div><div class="ttdoc">Main function.</div><div class="ttdef"><b>Definition</b> <a href="main_8cpp_source.html#l00028">main.cpp:28</a></div></div>
-<div class="ttc" id="anamespaceWIP_html"><div class="ttname"><a href="namespaceWIP.html">WIP</a></div><div class="ttdef"><b>Definition</b> <a href="main_8cpp_source.html#l00010">main.cpp:10</a></div></div>
-<div class="ttc" id="anamespaceWIP_html_a8abade321630427e408845cf8b194c56"><div class="ttname"><a href="namespaceWIP.html#a8abade321630427e408845cf8b194c56">WIP::exampleEasyLogging</a></div><div class="ttdeci">void exampleEasyLogging()</div></div>
+<div class="ttc" id="aclassutils_1_1StartupHandler_html_a9cdd57841cee245c1a1c94b0efe6549c"><div class="ttname"><a href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c">utils::StartupHandler::getOptions</a></div><div class="ttdeci">static std::optional&lt; std::string &gt; getOptions(int argc, char *argv[])</div><div class="ttdoc">Get options from command line.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8cpp_source.html#l00026">StartupHandler.cpp:26</a></div></div>
+<div class="ttc" id="aclassutils_1_1StartupHandler_html_ade70b280d4385f270829b177da44b169"><div class="ttname"><a href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169">utils::StartupHandler::initEasyLogging</a></div><div class="ttdeci">static void initEasyLogging()</div><div class="ttdoc">Initialize easylogging.</div><div class="ttdef"><b>Definition</b> <a href="StartupHandler_8cpp_source.html#l00018">StartupHandler.cpp:18</a></div></div>
+<div class="ttc" id="amain_8cpp_html_a2b2d4ce8b34d14b9e775eaf6214b00e1"><div class="ttname"><a href="main_8cpp.html#a2b2d4ce8b34d14b9e775eaf6214b00e1">main</a></div><div class="ttdeci">INITIALIZE_EASYLOGGINGPP int main(int argc, char *argv[])</div><div class="ttdoc">Main function.</div><div class="ttdef"><b>Definition</b> <a href="main_8cpp_source.html#l00034">main.cpp:34</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
-    <li class="footer">Generated on Tue Feb 27 2024 21:32:50 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Feb 28 2024 08:49:55 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

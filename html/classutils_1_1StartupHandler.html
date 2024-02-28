@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">jsonToBatProject
+   <div id="projectname">jsonToBatProject<span id="projectnumber">&#160;0.2.0</span>
    </div>
    <div id="projectbrief">This project is for a task in university.</div>
   </td>
@@ -94,12 +94,13 @@ $(document).ready(function(){initNavTree('classutils_1_1StartupHandler.html','')
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a>  </div>
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="classutils_1_1StartupHandler-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">utils::StartupHandler Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classutils_1_1StartupHandler.html" title="StartupHandler.">StartupHandler</a>.  
+<p>Handles startup task for the application.  
  <a href="classutils_1_1StartupHandler.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="StartupHandler_8hpp_source.html">StartupHandler.hpp</a>&gt;</code></p>
@@ -126,11 +127,11 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a2dd3b477a62197fab9761f19b06908d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classutils_1_1StartupHandler.html" title="StartupHandler.">StartupHandler</a>. </p>
+<div class="textblock"><p>Handles startup task for the application. </p>
 <p>This class provides functionality for the startup of the application. Currently it initializes easylogging and parses given options.</p>
-<dl class="section note"><dt>Note</dt><dd>Should stay static? </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>I think this class should stay static - Simon </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="StartupHandler_8hpp_source.html#l00023">23</a> of file <a class="el" href="StartupHandler_8hpp_source.html">StartupHandler.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StartupHandler_8hpp_source.html#l00028">28</a> of file <a class="el" href="StartupHandler_8hpp_source.html">StartupHandler.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afb1be30f328a938d47f8841c27b7d9fe" name="afb1be30f328a938d47f8841c27b7d9fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb1be30f328a938d47f8841c27b7d9fe">&#9670;&#160;</a></span>StartupHandler() <span class="overload">[1/2]</span></h2>
@@ -231,8 +232,8 @@ Private Member Functions</h2></td></tr>
 <li>&ndash;verbose: Set verbose flag</li>
 <li>&ndash;brief: Unset verbose flag</li>
 <li><p class="startli">&ndash;test: Test</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Implement functionality for the options. Implement/Add more options. Shorten function and outsource functionality to other functions.</dd></dl>
-<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000001">Bug:</a></b></dt><dd>Global verbose flag is not working</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd></dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000001">Bug:</a></b></dt><dd>Global verbose flag is not working.</dd></dl>
 </li>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -250,9 +251,19 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="StartupHandler_8cpp_source.html#l00019">19</a> of file <a class="el" href="StartupHandler_8cpp_source.html">StartupHandler.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StartupHandler_8cpp_source.html#l00026">26</a> of file <a class="el" href="StartupHandler_8cpp_source.html">StartupHandler.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="globals_8cpp_source.html#l00003">globals::verbose</a>.</p>
+<p class="reference">References <a class="el" href="StartupHandler_8cpp_source.html#l00016">utils::verbose</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph.png" border="0" usemap="#aclassutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph" alt=""/></div>
+<map name="aclassutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph" id="aclassutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph">
+<area shape="rect" title="Get options from command line." alt="" coords="103,5,241,46"/>
+<area shape="rect" href="main_8cpp.html#a2b2d4ce8b34d14b9e775eaf6214b00e1" title="Main function." alt="" coords="5,13,55,39"/>
+<area shape="poly" title=" " alt="" coords="87,28,55,28,55,23,87,23"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -281,9 +292,22 @@ Private Member Functions</h2></td></tr>
 
 <p>Initialize easylogging. </p>
 <p>This function initializes easylogging with the configuration file "$SOURCE/conf/easylogging.conf".</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Improve easylogging configuration </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd><ul>
+<li>Improve easylogging configuration </li>
+</ul>
+</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="StartupHandler_8cpp_source.html#l00010">10</a> of file <a class="el" href="StartupHandler_8cpp_source.html">StartupHandler.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StartupHandler_8cpp_source.html#l00018">18</a> of file <a class="el" href="StartupHandler_8cpp_source.html">StartupHandler.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.png" border="0" usemap="#aclassutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph" alt=""/></div>
+<map name="aclassutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph" id="aclassutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph">
+<area shape="rect" title="Initialize easylogging." alt="" coords="103,5,241,46"/>
+<area shape="rect" href="main_8cpp.html#a2b2d4ce8b34d14b9e775eaf6214b00e1" title="Main function." alt="" coords="5,13,55,39"/>
+<area shape="poly" title=" " alt="" coords="87,28,55,28,55,23,87,23"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -326,7 +350,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceutils.html">utils</a></li><li class="navelem"><a class="el" href="classutils_1_1StartupHandler.html">StartupHandler</a></li>
-    <li class="footer">Generated on Tue Feb 27 2024 21:32:50 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Feb 28 2024 08:49:55 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

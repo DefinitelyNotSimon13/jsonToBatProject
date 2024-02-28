@@ -1,6 +1,5 @@
 #include "StartupHandler.hpp"
 #include "easylogging++.h"
-#include "json/json.h"
 
 #ifdef IS_WINDOWS
 /**
@@ -15,10 +14,10 @@
 
 #include <iostream>
 #include <stdexcept>
-#include <format>
 #include <string>
 #include <string_view>
 #include <sstream>
+#include <json/json.h>
 
 INITIALIZE_EASYLOGGINGPP
 
@@ -122,9 +121,6 @@ int main(int argc, char* argv[])
     batchFile.open(outputfile, std::ios::out);
     batchFile << "#This is a test\n";
     // Very not error proof
-    constexpr std::string_view exeCommand = "{}&&\\\n";
-    constexpr std::string_view envCommand = "set {}={} &&\\\n";
-    constexpr std::string_view pathCommand = "set path=%path%;{}";
     constexpr std::string_view additionalPathCommand = "{};\\\n";
     std::stringstream additionalPath;
     int counter = 0;
@@ -141,14 +137,13 @@ int main(int argc, char* argv[])
         }
 
         if (entry["type"].asString() == "EXE") {
-            batchFile << std::format(exeCommand, entry["command"].asString());
+            batchFile << entry["command"].asString() << "&&\\\n";
         }
         else if (entry["type"].asString() == "ENV") {
-            batchFile << std::format(envCommand, entry["key"].asString(),
-                                     entry["value"].asString());
+            batchFile << "set " << entry["key"].asString() << "=" << entry["value"].asString() << "&&\\\n";
         }
         else if (entry["type"].asString() == "PATH") {
-            additionalPath << std::format(additionalPathCommand, entry["path"].asString());
+            additionalPath << entry["path"].asString() << ";\\\n";
         }
         else {
             batchFile << "\nCommand doesnt exist yet\n";
@@ -158,7 +153,7 @@ int main(int argc, char* argv[])
     }
 
     if (additionalPath.str() != "") {
-        batchFile << std::format(pathCommand, additionalPath.str());
+        batchFile << "set path=%path%" << additionalPath.str();
     }
 
     batchFile << "\"\n@ECHO ON";

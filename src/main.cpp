@@ -17,12 +17,6 @@
 
 INITIALIZE_EASYLOGGINGPP
 
-namespace WIP {
-void exampleEasyLogging();
-}
-
-#define OS @OS @
-
 /**
  * \brief Main function
  *

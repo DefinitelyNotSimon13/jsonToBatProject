@@ -4,7 +4,7 @@
 #include <stdexcept>
 
 namespace json {
-void JSONData::setOutputFile(std::string &outputfile)
+void JSONData::setOutputFile(std::string &newOutputfile)
 {
     if (outputfile.empty()) {
         LOG(ERROR) << "Tried to set empty outputfile!";
@@ -17,20 +17,20 @@ void JSONData::setOutputFile(std::string &outputfile)
     }
 
     if (outputfile.find(".bat") == std::string::npos ||
-        outputfile.find(".bat") != outputfile.size() - this->suffixLength) {
+        outputfile.find(".bat") != outputfile.size() - JSONData::suffixLength) {
         outputfile += ".bat";
-        std::cout << "Outputfile does not have .bat suffix, adding it now: "
-                  << outputfile << std::endl;
+        std::cerr << "Outputfile does not have .bat suffix, adding it now: "
+                  << newOutputfile << std::endl;
         LOG(WARNING) << "Outputfile does not have .bat suffix, adding it now: "
-                     << outputfile;
+                     << newOutputfile;
     }
 
-    this->outputfile = outputfile;
+    this->outputfile = newOutputfile;
 }
 
-void JSONData::setApplication(const std::string &application)
+void JSONData::setApplication(const std::string &newApplication)
 {
-    this->application.emplace(application);
+    this->application.emplace(newApplication);
 }
 
 void JSONData::addCommand(const std::string &command)
@@ -52,7 +52,7 @@ void JSONData::addEnvironmentVariable(const std::string &name,
         throw std::invalid_argument("Name and value cannot be empty");
     }
 
-    this->environmentVariables.push_back(std::make_tuple(name, value));
+    this->environmentVariables.emplace_back(std::make_tuple(name, value));
 }
 
 void JSONData::addPathValue(const std::string &pathValue)

@@ -37,7 +37,7 @@ class JSONHandler {
      *
      * \param filename The filename to parse
      **/
-    JSONHandler(const std::string &filename);
+    explicit JSONHandler(const std::string &filename);
 
     /**
      * \brief Retrieve the JSONData object
@@ -61,7 +61,7 @@ class JSONHandler {
      * \param filename The filename to parse
      * \return std::shared_ptr<Json::Value> The parsed file
      **/
-    std::shared_ptr<Json::Value> parseFile(const std::string &filename);
+    const std::shared_ptr<Json::Value> parseFile(const std::string &filename);
 
     /**
      * \brief Assigns the output file to the JSONData object
@@ -69,7 +69,7 @@ class JSONHandler {
      * \note
      * Error handling is done in the JSONData object
      **/
-    void assignOutputFile();
+    void assignOutputFile() const;
 
     /**
      * \brief Assigns the hide shell value to the JSONData object
@@ -77,7 +77,7 @@ class JSONHandler {
      * \note
      * There is no real error handling for this value, it defaults to false
      **/
-    void assignHideShell();
+    void assignHideShell() const;
 
     /**
      * \brief Assigns the application to the JSONData object
@@ -86,7 +86,7 @@ class JSONHandler {
      * How should error handling be done? Value can be empty, but what about
      * null vs ""?
      **/
-    void assignApplication();
+    void assignApplication() const;
 
     /**
      * \brief Assigns the entries to the JSONData object
@@ -113,7 +113,7 @@ class JSONHandler {
      * \note
      * Error handling is done in the JSONData object
      **/
-    void assignCommand(const Json::Value &entry);
+    void assignCommand(const Json::Value &entry) const;
 
     /**
      * \brief Assigns an environment variable to the JSONData object
@@ -127,7 +127,7 @@ class JSONHandler {
      * \note
      * Error handling is done in the JSONData object
      **/
-    void assignEnvironmentVariable(const Json::Value &entry);
+    void assignEnvironmentVariable(const Json::Value &entry) const;
 
     /**
      * \brief Assigns a path value to the JSONData object
@@ -141,7 +141,7 @@ class JSONHandler {
      * \note
      * Error handling is done in the JSONData object
      **/
-    void assignPathValue(const Json::Value &entry);
+    void assignPathValue(const Json::Value &entry) const;
 
     /**
      * \brief Creates a JSONData object
@@ -152,7 +152,7 @@ class JSONHandler {
      *
      * \return std::shared_ptr<JSONData> The JSONData object
      **/
-    std::shared_ptr<JSONData> createJSONData();
+    std::shared_ptr<JSONData> createJSONData() const;
 
     std::shared_ptr<Json::Value> root;
     std::shared_ptr<JSONData> data;

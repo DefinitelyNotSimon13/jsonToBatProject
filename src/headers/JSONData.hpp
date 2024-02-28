@@ -19,21 +19,21 @@ class JSONData {
      * \throws std::invalid_argument if the outputfile is empty
      * \throws std::invalid_argument if the outputfile is already set
      **/
-    void setOutputFile(std::string &outputfile);
+    void setOutputFile(std::string &newOutputfile);
 
     /**
      * \brief Set's the hide shell flag
      * \param hideShell The hide shell flag
      **/
-    void setHideShell(bool hideShell) {
-        this->hideShell = hideShell;
+    void setHideShell(bool newHideShell) {
+        this->hideShell = newHideShell;
     }
 
     /**
      * \brief Set's the application
      * \param application The application
      **/
-    void setApplication(const std::string &application);
+    void setApplication(const std::string &newApplication);
 
     /**
      * \brief Add a command to the commands vector

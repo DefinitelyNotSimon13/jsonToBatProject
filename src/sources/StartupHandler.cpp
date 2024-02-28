@@ -1,12 +1,7 @@
 #include "StartupHandler.hpp"
 #include "easylogging++.h"
 
-#ifdef IS_WINDOWS
-#include <xgetopt.h>
-#else
 #include <getopt.h>
-#endif
-
 #include <memory>
 #include <optional>
 #include <stdexcept>

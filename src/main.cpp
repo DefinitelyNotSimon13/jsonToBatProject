@@ -1,21 +1,10 @@
 #include "StartupHandler.hpp"
 #include "easylogging++.h"
 
-#ifdef IS_WINDOWS
-/**
- *  \note
- *  Windows port for getopt from:
- *  https://github.com/Chunde/getopt-for-windows
- **/
-#include <xgetopt.h>
-#else
 #include <getopt.h>
-#endif
-
 #include <iostream>
 #include <stdexcept>
 #include <string>
-#include <string_view>
 #include <sstream>
 #include <json/json.h>
 

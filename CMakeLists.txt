@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.28)
 
+if(WIN32)
+  message(FATAL_ERROR "Windows is not supported")
+endif()
+
 message(NOTICE "If you're getting errors, that don't make sense\
 , make sure to clear cmake cache")
 message(STATUS "CMake version: ${CMAKE_VERSION}")
@@ -27,14 +31,14 @@ option(PRECOMPILED "Wether or not to use the precompiled versions of the librari
 message(STATUS "Adding executable ${PROJECT_NAME}")
 add_executable(${PROJECT_NAME} ${SOURCES})
 
-IF (WIN32)
-  message(STATUS "Windows detected")
-  set(PRECOMPILED OFF)
-  add_library(xgetopt STATIC ${PROJECT_SOURCE_DIR}/include/xgetopt.c)
-  target_include_directories(xgetopt PUBLIC ${PROJECT_SOURCE_DIR}/lib)
-  target_link_libraries(${PROJECT_NAME} PRIVATE xgetopt)
-  target_compile_definitions(${PROJECT_NAME} PUBLIC "IS_WINDOWS")
-ENDIF()
+#IF (WIN32)
+#  message(STATUS "Windows detected")
+#  set(PRECOMPILED OFF)
+#  add_library(xgetopt STATIC ${PROJECT_SOURCE_DIR}/include/xgetopt.c)
+#  target_include_directories(xgetopt PUBLIC ${PROJECT_SOURCE_DIR}/lib)
+#  target_link_libraries(${PROJECT_NAME} PRIVATE xgetopt)
+#  target_compile_definitions(${PROJECT_NAME} PUBLIC "IS_WINDOWS")
+#ENDIF()
 
 IF(UNIX)
   message(STATUS "Unix detected")

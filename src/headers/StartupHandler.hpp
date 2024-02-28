@@ -1,9 +1,4 @@
-#ifdef IS_WINDOWS
-#include <xgetopt.h>
-#else
 #include <getopt.h>
-#endif
-
 #include <optional>
 #include <string>
 

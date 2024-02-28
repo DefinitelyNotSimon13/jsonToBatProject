@@ -29,6 +29,6 @@
 \contentsline {subsection}{\numberline {8.3.1}Function Documentation}{19}{subsection.8.3.1}%
 \contentsline {subsubsection}{\numberline {8.3.1.1}main()}{19}{subsubsection.8.3.1.1}%
 \contentsline {section}{\numberline {8.4}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{20}{section.8.4}%
-\contentsline {section}{\numberline {8.5}src/sources/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Startup\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler.cpp File Reference}{20}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Startup\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{21}{section.8.6}%
-\contentsline {chapter}{Index}{23}{section*.17}%
+\contentsline {section}{\numberline {8.5}src/sources/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Startup\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler.cpp File Reference}{21}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Startup\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{22}{section.8.6}%
+\contentsline {chapter}{Index}{25}{section*.17}%

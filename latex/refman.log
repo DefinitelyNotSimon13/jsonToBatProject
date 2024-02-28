@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.28)  28 FEB 2024 08:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.28)  28 FEB 2024 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,12 +890,7 @@ Overfull \hbox (27.0pt too wide) in paragraph at lines 9--10
  []
 
 
-Overfull \hbox (27.0pt too wide) in paragraph at lines 15--16
-[]
- []
-
-
-Overfull \hbox (27.0pt too wide) in paragraph at lines 23--24
+Overfull \hbox (27.0pt too wide) in paragraph at lines 17--18
 []
  []
 
@@ -965,24 +960,24 @@ efe6549c_icgraph.pdf  used on input line 123.
 (pdftex.def)             Requested size: 257.0pt x 111.00964pt.
  <./classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pdf>
 <classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pdf, id
-=334, 257.96375pt x 111.41624pt>
+=335, 257.96375pt x 111.41624pt>
 File: classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pd
 f Graphic file (type pdf)
 <use classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pdf
 >
 Package pdftex.def Info: classutils_1_1StartupHandler_ade70b280d4385f270829b177
-da44b169_icgraph.pdf  used on input line 152.
+da44b169_icgraph.pdf  used on input line 156.
 (pdftex.def)             Requested size: 257.0pt x 111.00964pt.
 [15]) [16]
 Chapter 8.
 (./StartupHandler_8hpp.tex <./StartupHandler_8hpp__incl.pdf>
-<StartupHandler_8hpp__incl.pdf, id=361, 256.96pt x 155.58125pt>
+<StartupHandler_8hpp__incl.pdf, id=362, 256.96pt x 155.58125pt>
 File: StartupHandler_8hpp__incl.pdf Graphic file (type pdf)
 <use StartupHandler_8hpp__incl.pdf>
 Package pdftex.def Info: StartupHandler_8hpp__incl.pdf  used on input line 11.
 (pdftex.def)             Requested size: 256.0pt x 155.0111pt.
  <./StartupHandler_8hpp__dep__incl.pdf>
-<StartupHandler_8hpp__dep__incl.pdf, id=369, 323.2075pt x 155.58125pt>
+<StartupHandler_8hpp__dep__incl.pdf, id=370, 323.2075pt x 155.58125pt>
 File: StartupHandler_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use StartupHandler_8hpp__dep__incl.pdf>
 Package pdftex.def Info: StartupHandler_8hpp__dep__incl.pdf  used on input line
@@ -991,33 +986,40 @@ Package pdftex.def Info: StartupHandler_8hpp__dep__incl.pdf  used on input line
  [17
 
 ]) (./StartupHandler_8hpp_source.tex) (./main_8cpp.tex <./main_8cpp__incl.pdf>
-<main_8cpp__incl.pdf, id=402, 481.8pt x 210.7875pt>
+<main_8cpp__incl.pdf, id=403, 671.50874pt x 210.7875pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
 <use main_8cpp__incl.pdf>
-Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 13.
-(pdftex.def)             Requested size: 350.0pt x 153.1274pt.
- [18] <./main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf>
-<main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf, id=450, 257.96375pt x 
+Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 16.
+(pdftex.def)             Requested size: 350.0pt x 109.86421pt.
+ [18]
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+ []
+
+ <./main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf>
+<main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf, id=445, 257.96375pt x 
 160.6pt>
 File: main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf Graphic file (type
  pdf)
 <use main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf>
 Package pdftex.def Info: main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf
-  used on input line 58.
+  used on input line 57.
 (pdftex.def)             Requested size: 257.0pt x 160.0139pt.
-) (./main_8cpp_source.tex [19]) (./StartupHandler_8cpp.tex <./StartupHandler_8c
-pp__incl.pdf>
-<StartupHandler_8cpp__incl.pdf, id=473, 513.92pt x 210.7875pt>
+)
+(./main_8cpp_source.tex [19] [20]) (./StartupHandler_8cpp.tex <./StartupHandler
+_8cpp__incl.pdf>
+<StartupHandler_8cpp__incl.pdf, id=555, 513.92pt x 210.7875pt>
 File: StartupHandler_8cpp__incl.pdf Graphic file (type pdf)
 <use StartupHandler_8cpp__incl.pdf>
 Package pdftex.def Info: StartupHandler_8cpp__incl.pdf  used on input line 14.
 (pdftex.def)             Requested size: 350.0pt x 143.55553pt.
- [20]) (./StartupHandler_8cpp_source.tex [21]) [22]
+ [21]) (./StartupHandler_8cpp_source.tex [22]) [23] [24
+
+]
 (./refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
- [23
-
+ [25
 
 
 
@@ -1026,13 +1028,13 @@ Package rerunfilecheck Info: File `refman.out' has not changed.
 (rerunfilecheck)             Checksum: 20828D981F499169187766B5E0E7DB1B;5971.
  ) 
 Here is how much of TeX's memory you used:
- 18390 strings out of 476025
- 299630 string characters out of 5796497
- 1866388 words of memory out of 5000000
+ 18461 strings out of 476025
+ 301127 string characters out of 5796497
+ 1872388 words of memory out of 5000000
  38212 multiletter control sequences out of 15000+600000
  569664 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,16n,117p,512b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,512b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -1043,10 +1045,10 @@ exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1
 .pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/te
 xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1
 /urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (27 pages, 193785 bytes).
+Output written on refman.pdf (29 pages, 199069 bytes).
 PDF statistics:
- 798 PDF objects out of 1000 (max. 8388607)
- 709 compressed objects within 8 object streams
- 272 named destinations out of 1000 (max. 500000)
+ 889 PDF objects out of 1000 (max. 8388607)
+ 797 compressed objects within 8 object streams
+ 343 named destinations out of 1000 (max. 500000)
  300 words of extra memory for PDF output out of 10000 (max. 10000000)
 

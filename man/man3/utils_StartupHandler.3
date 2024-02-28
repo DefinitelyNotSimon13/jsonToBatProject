@@ -1,4 +1,4 @@
-.TH "utils::StartupHandler" 3 "Wed Feb 28 2024 08:49:55" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.TH "utils::StartupHandler" 3 "Wed Feb 28 2024 14:34:01" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -50,7 +50,7 @@ I think this class should stay static - Simon
 .PP
 
 .PP
-Definition at line \fB28\fP of file \fBStartupHandler\&.hpp\fP\&.
+Definition at line \fB23\fP of file \fBStartupHandler\&.hpp\fP\&.
 .SH "Constructor & Destructor Documentation"
 .PP 
 .SS "utils::StartupHandler::StartupHandler ()\fC [private]\fP, \fC [default]\fP"
@@ -110,7 +110,7 @@ Returns either the filename or nothing\&.
 .PP
 
 .PP
-Definition at line \fB26\fP of file \fBStartupHandler\&.cpp\fP\&.
+Definition at line \fB21\fP of file \fBStartupHandler\&.cpp\fP\&.
 .PP
 References \fButils::verbose\fP\&.
 .SS "void utils::StartupHandler::initEasyLogging ()\fC [static]\fP"
@@ -121,13 +121,19 @@ Initialize easylogging\&. This function initializes easylogging with the configu
 \fBTodo\fP
 .RS 4
 .IP "\(bu" 2
-Improve easylogging configuration 
+Improve easylogging configuration
 .PP
+.RE
+.PP
+.PP
+\fBBug\fP
+.RS 4
+Easylogging conf only recognized when running application from source dir 
 .RE
 .PP
 
 .PP
-Definition at line \fB18\fP of file \fBStartupHandler\&.cpp\fP\&.
+Definition at line \fB13\fP of file \fBStartupHandler\&.cpp\fP\&.
 .SS "\fBStartupHandler\fP & utils::StartupHandler::operator= (const \fBStartupHandler\fP &)\fC [private]\fP, \fC [delete]\fP"
 
 .PP

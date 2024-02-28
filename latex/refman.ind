@@ -28,7 +28,7 @@
 
   \item {src/headers/StartupHandler.hpp}, \hyperpage{17, 18}
   \item {src/main.cpp}, \hyperpage{18}, \hyperpage{20}
-  \item {src/sources/StartupHandler.cpp}, \hyperpage{20, 21}
+  \item {src/sources/StartupHandler.cpp}, \hyperpage{21, 22}
   \item {StartupHandler}
     \subitem {utils::StartupHandler}, \hyperpage{14}
 

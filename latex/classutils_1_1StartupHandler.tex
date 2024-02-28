@@ -37,7 +37,7 @@ I think this class should stay static -\/ Simon
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{StartupHandler_8hpp_source_l00028}{28}} of file \mbox{\hyperlink{StartupHandler_8hpp_source}{Startup\+Handler.\+hpp}}.
+Definition at line \mbox{\hyperlink{StartupHandler_8hpp_source_l00023}{23}} of file \mbox{\hyperlink{StartupHandler_8hpp_source}{Startup\+Handler.\+hpp}}.
 
 
 
@@ -88,7 +88,7 @@ This function parses the command line options and returns the filename given as 
 
 
 \begin{DoxyRefDesc}{Bug}
-\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]Global verbose flag is not working.\end{DoxyRefDesc}
+\item[\mbox{\hyperlink{bug__bug000002}{Bug}}]Global verbose flag is not working.\end{DoxyRefDesc}
 
 \end{DoxyItemize}
 
@@ -109,11 +109,11 @@ Returns either the filename or nothing.
 \end{DoxyExceptions}
 
 
-Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00026}{26}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
+Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00021}{21}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
 
 
 
-References \mbox{\hyperlink{StartupHandler_8cpp_source_l00016}{utils\+::verbose}}.
+References \mbox{\hyperlink{StartupHandler_8cpp_source_l00011}{utils\+::verbose}}.
 
 Here is the caller graph for this function\+:
 \nopagebreak
@@ -138,11 +138,15 @@ This function initializes easylogging with the configuration file "{}\$\+SOURCE/
 \begin{DoxyRefDesc}{Todo}
 \item[\mbox{\hyperlink{todo__todo000001}{Todo}}]
 \begin{DoxyItemize}
-\item Improve easylogging configuration 
+\item Improve easylogging configuration
 \end{DoxyItemize}\end{DoxyRefDesc}
 
 
-Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00018}{18}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]Easylogging conf only recognized when running application from source dir \end{DoxyRefDesc}
+
+
+Definition at line \mbox{\hyperlink{StartupHandler_8cpp_source_l00013}{13}} of file \mbox{\hyperlink{StartupHandler_8cpp_source}{Startup\+Handler.\+cpp}}.
 
 Here is the caller graph for this function\+:
 \nopagebreak

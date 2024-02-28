@@ -8,7 +8,7 @@ message(STATUS "CMake binary directory: ${CMAKE_BINARY_DIR}")
 
 set(PROJECT_NAME jsonToBatch)
 
-project(${PROJECT_NAME} VERSION 0.1.0)
+project(${PROJECT_NAME} VERSION 0.2.0)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)

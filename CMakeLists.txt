@@ -35,6 +35,11 @@ IF (WIN32)
   target_compile_definitions(${PROJECT_NAME} PUBLIC "IS_WINDOWS")
 ENDIF()
 
+IF(UNIX)
+  message(STATUS "Unix detected")
+  target_compile_definitions(${PROJECT_NAME} PUBLIC "IS_LINUX")
+ENDIF()
+
 IF (PRECOMPILED)
   message(STATUS "Using precompiled libraries")
   target_link_libraries(${PROJECT_NAME} PRIVATE

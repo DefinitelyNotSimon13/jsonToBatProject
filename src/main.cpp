@@ -2,7 +2,7 @@
 #include "easylogging++.h"
 
 //https://github.com/Chunde/getopt-for-windows
-#ifdef IS_WINDOWS
+#ifdef _WIN32
 #include <xgetopt.h>
 #else
 #include <getopt.h>
@@ -16,6 +16,8 @@ INITIALIZE_EASYLOGGINGPP
 namespace WIP {
 void exampleEasyLogging();
 }
+
+#define OS @OS@
 
 /**
  * \brief Main function
@@ -32,6 +34,15 @@ void exampleEasyLogging();
  * - Template-Header-Comment
  **/
 int main(int argc, char *argv[]) {
+/// \note Debug
+#ifdef IS_LINUX
+  std::cout << "Linux\n\n" << std::endl;
+#elif IS_WINDOWS
+  std::cout << "Windows\n\n" << std::endl;
+#else
+  std::cout << "Unknown OS\n\n" << std::endl;
+#endif
+
   utils::StartupHandler::initEasyLogging();
 
   if (argc <= 1) {

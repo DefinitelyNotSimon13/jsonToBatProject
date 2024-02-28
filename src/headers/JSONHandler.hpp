@@ -61,7 +61,7 @@ class JSONHandler {
      * \param filename The filename to parse
      * \return std::shared_ptr<Json::Value> The parsed file
      **/
-    const std::shared_ptr<Json::Value> parseFile(const std::string &filename);
+    std::shared_ptr<Json::Value> parseFile(const std::string &filename) const;
 
     /**
      * \brief Assigns the output file to the JSONData object
@@ -99,7 +99,7 @@ class JSONHandler {
      * \note
      * Other error handling is done in the JSONData object
      **/
-    void assignEntries();
+    void assignEntries() const;
 
     /**
      * \brief Assigns a command to the JSONData object

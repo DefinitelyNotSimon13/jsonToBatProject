@@ -1,0 +1,72 @@
+.TH "src/main.cpp" 3 "Wed Feb 28 2024 19:16:22" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/main.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'JSONData\&.hpp'\fP
+.br
+\fC#include 'StartupHandler\&.hpp'\fP
+.br
+\fC#include 'JSONHandler\&.hpp'\fP
+.br
+\fC#include <easylogging++\&.h>\fP
+.br
+\fC#include <getopt\&.h>\fP
+.br
+\fC#include <iostream>\fP
+.br
+\fC#include <json/json\&.h>\fP
+.br
+\fC#include <sstream>\fP
+.br
+\fC#include <stdexcept>\fP
+.br
+\fC#include <string>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "INITIALIZE_EASYLOGGINGPP int \fBmain\fP (int argc, char *argv[])"
+.br
+.RI "Main function\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "INITIALIZE_EASYLOGGINGPP int main (int argc, char * argv[])"
+
+.PP
+Main function\&. 
+.PP
+\fBBug\fP
+.RS 4
+Initielizes to early for config file to be loaded 
+.RE
+.PP
+.PP
+This is the main function for the application, The application is designed to parse a json file and create a batch file from it\&. Further more it provides a CLI to help the user to interact with the application\&.
+.PP
+\fBBug\fP
+.RS 4
+Getopt is not working on Windows\&. 
+.RE
+.PP
+
+.PP
+\fBNote\fP
+.RS 4
+json parsing seems simple edgecases? basically just treat as array/map
+.RE
+.PP
+
+.PP
+Definition at line \fB28\fP of file \fBmain\&.cpp\fP\&.
+.PP
+References \fBjson::JSONHandler::getJSONData()\fP, \fButils::StartupHandler::getOptions()\fP, and \fButils::StartupHandler::initEasyLogging()\fP\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for jsonToBatProject from the source code\&.

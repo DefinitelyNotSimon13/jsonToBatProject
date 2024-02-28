@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">jsonToBatProject
+   <div id="projectname">jsonToBatProject<span id="projectnumber">&#160;0.2.0</span>
    </div>
    <div id="projectbrief">This project is for a task in university.</div>
   </td>
@@ -93,42 +93,81 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">main.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;easylogging++.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="JSONData_8hpp_source.html">JSONData.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="StartupHandler_8hpp_source.html">StartupHandler.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="JSONHandler_8hpp_source.html">JSONHandler.hpp</a>&quot;</code><br />
+<code>#include &lt;easylogging++.h&gt;</code><br />
+<code>#include &lt;getopt.h&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
-<code>#include &quot;catch2/catch_all.hpp&quot;</code><br />
-<code>#include &quot;json/json.h&quot;</code><br />
+<code>#include &lt;json/json.h&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for main.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#asrc_2main_8cpp" alt=""/></div>
+<map name="asrc_2main_8cpp" id="asrc_2main_8cpp">
+<area shape="rect" title=" " alt="" coords="380,5,475,31"/>
+<area shape="rect" href="JSONData_8hpp.html" title=" " alt="" coords="226,153,335,178"/>
+<area shape="poly" title=" " alt="" coords="380,28,353,34,327,45,302,60,283,80,277,94,274,108,276,138,271,138,269,108,272,92,278,78,299,56,324,40,352,29,379,22"/>
+<area shape="rect" title=" " alt="" coords="21,226,74,252"/>
+<area shape="poly" title=" " alt="" coords="379,22,289,24,181,32,130,39,84,50,48,64,24,81,15,95,10,111,11,146,21,181,35,211,30,213,16,183,5,147,5,110,10,93,20,77,45,59,83,45,129,34,181,27,289,18,379,16"/>
+<area shape="rect" href="StartupHandler_8hpp.html" title=" " alt="" coords="34,79,167,105"/>
+<area shape="poly" title=" " alt="" coords="380,33,172,78,170,73,378,27"/>
+<area shape="rect" title=" " alt="" coords="135,153,202,178"/>
+<area shape="poly" title=" " alt="" coords="383,34,327,53,269,81,226,112,192,144,188,140,223,108,266,77,325,49,381,29"/>
+<area shape="rect" href="JSONHandler_8hpp.html" title=" " alt="" coords="292,79,418,105"/>
+<area shape="poly" title=" " alt="" coords="417,33,380,70,376,66,413,29"/>
+<area shape="rect" title=" " alt="" coords="443,79,558,105"/>
+<area shape="poly" title=" " alt="" coords="441,29,479,66,476,70,437,33"/>
+<area shape="rect" title=" " alt="" coords="582,79,654,105"/>
+<area shape="poly" title=" " alt="" coords="460,29,572,71,570,76,459,34"/>
+<area shape="rect" title=" " alt="" coords="678,79,761,105"/>
+<area shape="poly" title=" " alt="" coords="476,29,663,74,662,79,475,34"/>
+<area shape="rect" title=" " alt="" coords="785,79,853,105"/>
+<area shape="poly" title=" " alt="" coords="476,24,605,45,770,76,769,81,604,50,475,29"/>
+<area shape="rect" title=" " alt="" coords="878,79,955,105"/>
+<area shape="poly" title=" " alt="" coords="476,22,643,42,863,76,862,81,642,48,475,27"/>
+<area shape="rect" title=" " alt="" coords="234,226,295,252"/>
+<area shape="poly" title=" " alt="" coords="280,179,273,211,268,210,275,178"/>
+<area shape="rect" title=" " alt="" coords="129,226,195,252"/>
+<area shape="poly" title=" " alt="" coords="262,181,196,220,194,216,259,177"/>
+<area shape="poly" title=" " alt="" coords="242,181,89,228,88,223,240,176"/>
+<area shape="rect" title=" " alt="" coords="319,226,376,252"/>
+<area shape="poly" title=" " alt="" coords="293,177,327,213,324,217,290,180"/>
+<area shape="poly" title=" " alt="" coords="105,105,112,138,126,177,146,212,141,215,121,179,107,139,100,106"/>
+<area shape="poly" title=" " alt="" coords="99,106,59,213,54,211,94,104"/>
+<area shape="poly" title=" " alt="" coords="114,103,149,140,145,143,110,107"/>
+<area shape="poly" title=" " alt="" coords="344,107,306,144,302,140,341,103"/>
+<area shape="rect" title=" " alt="" coords="450,153,540,178"/>
+<area shape="poly" title=" " alt="" coords="380,103,459,143,457,148,378,108"/>
+<area shape="rect" title=" " alt="" coords="359,153,426,178"/>
+<area shape="poly" title=" " alt="" coords="364,104,382,138,377,140,359,106"/>
+</map>
+</div>
 </div>
 <p><a href="main_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespaceWIP" id="r_namespaceWIP"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceWIP.html">WIP</a></td></tr>
-<tr class="memdesc:namespaceWIP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Includes for test. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8abade321630427e408845cf8b194c56" id="r_a8abade321630427e408845cf8b194c56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceWIP.html#a8abade321630427e408845cf8b194c56">WIP::exampleEasyLogging</a> ()</td></tr>
-<tr class="memdesc:a8abade321630427e408845cf8b194c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Example of how to use easylogging with a configuration file.  <br /></td></tr>
-<tr class="separator:a8abade321630427e408845cf8b194c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97" id="r_a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
-<tr class="memdesc:a0ddf1224851353fc92bfbff6f499fa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function.  <br /></td></tr>
-<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b2d4ce8b34d14b9e775eaf6214b00e1" id="r_a2b2d4ce8b34d14b9e775eaf6214b00e1"><td class="memItemLeft" align="right" valign="top">INITIALIZE_EASYLOGGINGPP int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a2b2d4ce8b34d14b9e775eaf6214b00e1">main</a> (int argc, char *argv[])</td></tr>
+<tr class="memdesc:a2b2d4ce8b34d14b9e775eaf6214b00e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function.  <br /></td></tr>
+<tr class="separator:a2b2d4ce8b34d14b9e775eaf6214b00e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a0ddf1224851353fc92bfbff6f499fa97" name="a0ddf1224851353fc92bfbff6f499fa97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&#160;</a></span>main()</h2>
+<a id="a2b2d4ce8b34d14b9e775eaf6214b00e1" name="a2b2d4ce8b34d14b9e775eaf6214b00e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b2d4ce8b34d14b9e775eaf6214b00e1">&#9670;&#160;</a></span>main()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int main </td>
+          <td class="memname">INITIALIZE_EASYLOGGINGPP int main </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>argc</em>, </td>
@@ -148,15 +187,44 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Main function. </p>
-<p>Codeconvention:</p><ul>
-<li><p class="startli">Formatter: astyle</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd></dd></dl>
-</li>
-</ul>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000004">Bug:</a></b></dt><dd>Initielizes to early for config file to be loaded </dd></dl>
+<p>This is the main function for the application, The application is designed to parse a json file and create a batch file from it. Further more it provides a CLI to help the user to interact with the application.</p>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000005">Bug:</a></b></dt><dd>Getopt is not working on Windows. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>json parsing seems simple edgecases? basically just treat as array/map</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00026">26</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00028">28</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="main_8cpp_source.html#l00055">WIP::exampleEasyLogging()</a>.</p>
+<p class="reference">References <a class="el" href="JSONHandler_8cpp_source.html#l00023">json::JSONHandler::getJSONData()</a>, <a class="el" href="StartupHandler_8cpp_source.html#l00021">utils::StartupHandler::getOptions()</a>, and <a class="el" href="StartupHandler_8cpp_source.html#l00013">utils::StartupHandler::initEasyLogging()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.png" border="0" usemap="#amain_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph" alt=""/></div>
+<map name="amain_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph" id="amain_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph">
+<area shape="rect" title="Main function." alt="" coords="5,177,55,203"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a90f7bd04911d0e6dfe91ded17ba4edcf" title="Retrieve the JSONData object." alt="" coords="103,104,241,145"/>
+<area shape="poly" title=" " alt="" coords="54,176,111,149,113,154,56,181"/>
+<area shape="rect" href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c" title="Get options from command line." alt="" coords="103,169,241,210"/>
+<area shape="poly" title=" " alt="" coords="55,187,87,187,87,192,55,192"/>
+<area shape="rect" href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169" title="Initialize easylogging." alt="" coords="103,235,241,275"/>
+<area shape="poly" title=" " alt="" coords="56,198,113,225,111,230,54,203"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a06851f419487aefd2bba756a380fa17b" title="Creates a JSONData object." alt="" coords="289,104,427,145"/>
+<area shape="poly" title=" " alt="" coords="242,122,273,122,273,127,242,127"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#ae378ee929f7f6662157812e197593b84" title="Assigns the application to the JSONData object." alt="" coords="475,5,614,46"/>
+<area shape="poly" title=" " alt="" coords="394,101,474,57,485,51,487,56,477,61,397,106"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a3ab91c34ac903ecdd6c8bbe02c9f0bd8" title="Assigns the entries to the JSONData object." alt="" coords="475,71,614,111"/>
+<area shape="poly" title=" " alt="" coords="427,109,459,104,460,109,428,115"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a1ae1cbe7bc59d66590929c4ac5d1dfe3" title="Assigns the hide shell value to the JSONData object." alt="" coords="475,136,614,177"/>
+<area shape="poly" title=" " alt="" coords="428,134,460,139,459,144,427,139"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#ac5ed06f7db7c2c0f65b773b4cb80fcea" title="Assigns the output file to the JSONData object." alt="" coords="475,201,614,242"/>
+<area shape="poly" title=" " alt="" coords="398,143,477,186,488,192,485,196,474,191,395,148"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a400c659faceca796918cab48b445f513" title="Assigns a command to the JSONData object." alt="" coords="682,5,820,46"/>
+<area shape="poly" title=" " alt="" coords="610,68,669,49,670,54,612,73"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a521983ef6372a6563e1a4146dc8923b3" title="Assigns an environment variable to the JSONData object." alt="" coords="662,71,840,111"/>
+<area shape="poly" title=" " alt="" coords="614,88,646,88,646,94,614,94"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a641700b2c8344cdb8544e97e702c5326" title="Assigns a path value to the JSONData object." alt="" coords="682,136,820,177"/>
+<area shape="poly" title=" " alt="" coords="612,109,670,128,669,133,610,114"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -166,7 +234,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
-    <li class="footer">Generated on Wed Feb 28 2024 14:54:36 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Feb 28 2024 19:16:22 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

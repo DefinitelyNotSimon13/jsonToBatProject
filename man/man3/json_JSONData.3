@@ -1,0 +1,339 @@
+.TH "json::JSONData" 3 "Wed Feb 28 2024 19:16:22" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+json::JSONData
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <JSONData\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsetOutputFile\fP (std::string &\fBoutputfile\fP)"
+.br
+.RI "Set's the output file\&. "
+.ti -1c
+.RI "void \fBsetHideShell\fP (bool \fBhideShell\fP)"
+.br
+.RI "Set's the hide shell flag\&. "
+.ti -1c
+.RI "void \fBsetApplication\fP (const std::string &\fBapplication\fP)"
+.br
+.RI "Set's the application\&. "
+.ti -1c
+.RI "void \fBaddCommand\fP (const std::string &command)"
+.br
+.RI "Add a command to the commands vector\&. "
+.ti -1c
+.RI "void \fBaddEnvironmentVariable\fP (const std::string &name, const std::string &value)"
+.br
+.RI "Add an environment variable to the environmentVariables vector\&. "
+.ti -1c
+.RI "void \fBaddPathValue\fP (const std::string &pathValue)"
+.br
+.RI "Add a path value to the pathValues vector\&. "
+.ti -1c
+.RI "const std::string & \fBgetOutputFile\fP () const"
+.br
+.RI "Get the output file\&. "
+.ti -1c
+.RI "bool \fBgetHideShell\fP () const"
+.br
+.RI "Get the hide shell flag\&. "
+.ti -1c
+.RI "const std::string & \fBgetApplication\fP () const"
+.br
+.RI "Get the application\&. "
+.ti -1c
+.RI "const std::vector< std::string > & \fBgetCommands\fP () const"
+.br
+.RI "Get the commands\&. "
+.ti -1c
+.RI "const std::vector< std::tuple< std::string, std::string > > & \fBgetEnvironmentVariables\fP () const"
+.br
+.RI "Get the environment variables\&. "
+.ti -1c
+.RI "const std::vector< std::string > & \fBgetPathValues\fP () const"
+.br
+.RI "Get the path values\&. "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBoutputfile\fP"
+.br
+.ti -1c
+.RI "bool \fBhideShell\fP"
+.br
+.ti -1c
+.RI "std::optional< std::string > \fBapplication\fP"
+.br
+.ti -1c
+.RI "std::vector< std::string > \fBcommands\fP"
+.br
+.ti -1c
+.RI "std::vector< std::tuple< std::string, std::string > > \fBenvironmentVariables\fP"
+.br
+.ti -1c
+.RI "std::vector< std::string > \fBpathValues\fP"
+.br
+.in -1c
+.SS "Static Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "static const int8_t \fBsuffixLength\fP = 4"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line \fB9\fP of file \fBJSONData\&.hpp\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void json::JSONData::addCommand (const std::string & command)"
+
+.PP
+Add a command to the commands vector\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcommand\fP The command
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP if the command is empty 
+.RE
+.PP
+
+.PP
+Definition at line \fB36\fP of file \fBJSONData\&.cpp\fP\&.
+.PP
+References \fBcommands\fP\&.
+.SS "void json::JSONData::addEnvironmentVariable (const std::string & name, const std::string & value)"
+
+.PP
+Add an environment variable to the environmentVariables vector\&. The environment variable is added as a tuple with the name and value as it's elements\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP The name of the environment variable 
+.br
+\fIvalue\fP The value of the environment variable
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP if the name or the value is empty 
+.RE
+.PP
+
+.PP
+Definition at line \fB46\fP of file \fBJSONData\&.cpp\fP\&.
+.PP
+References \fBenvironmentVariables\fP\&.
+.SS "void json::JSONData::addPathValue (const std::string & pathValue)"
+
+.PP
+Add a path value to the pathValues vector\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIpathValue\fP The path value
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP if the pathValue is empty 
+.RE
+.PP
+
+.PP
+Definition at line \fB58\fP of file \fBJSONData\&.cpp\fP\&.
+.PP
+References \fBpathValues\fP\&.
+.SS "const std::string & json::JSONData::getApplication () const\fC [inline]\fP"
+
+.PP
+Get the application\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The application 
+.RE
+.PP
+
+.PP
+Definition at line \fB89\fP of file \fBJSONData\&.hpp\fP\&.
+.PP
+References \fBapplication\fP\&.
+.SS "const std::vector< std::string > & json::JSONData::getCommands () const\fC [inline]\fP"
+
+.PP
+Get the commands\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The commands 
+.RE
+.PP
+
+.PP
+Definition at line \fB97\fP of file \fBJSONData\&.hpp\fP\&.
+.PP
+References \fBcommands\fP\&.
+.SS "const std::vector< std::tuple< std::string, std::string > > & json::JSONData::getEnvironmentVariables () const\fC [inline]\fP"
+
+.PP
+Get the environment variables\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The environment variables 
+.RE
+.PP
+
+.PP
+Definition at line \fB106\fP of file \fBJSONData\&.hpp\fP\&.
+.PP
+References \fBenvironmentVariables\fP\&.
+.SS "bool json::JSONData::getHideShell () const\fC [inline]\fP"
+
+.PP
+Get the hide shell flag\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The hide shell flag 
+.RE
+.PP
+
+.PP
+Definition at line \fB81\fP of file \fBJSONData\&.hpp\fP\&.
+.PP
+References \fBhideShell\fP\&.
+.SS "const std::string & json::JSONData::getOutputFile () const\fC [inline]\fP"
+
+.PP
+Get the output file\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The output file 
+.RE
+.PP
+
+.PP
+Definition at line \fB73\fP of file \fBJSONData\&.hpp\fP\&.
+.PP
+References \fBoutputfile\fP\&.
+.SS "const std::vector< std::string > & json::JSONData::getPathValues () const\fC [inline]\fP"
+
+.PP
+Get the path values\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The path values 
+.RE
+.PP
+
+.PP
+Definition at line \fB114\fP of file \fBJSONData\&.hpp\fP\&.
+.PP
+References \fBpathValues\fP\&.
+.SS "void json::JSONData::setApplication (const std::string & application)"
+
+.PP
+Set's the application\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIapplication\fP The application 
+.RE
+.PP
+
+.PP
+Definition at line \fB31\fP of file \fBJSONData\&.cpp\fP\&.
+.PP
+References \fBapplication\fP\&.
+.SS "void json::JSONData::setHideShell (bool hideShell)\fC [inline]\fP"
+
+.PP
+Set's the hide shell flag\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIhideShell\fP The hide shell flag 
+.RE
+.PP
+
+.PP
+Definition at line \fB28\fP of file \fBJSONData\&.hpp\fP\&.
+.PP
+References \fBhideShell\fP\&.
+.SS "void json::JSONData::setOutputFile (std::string & outputfile)"
+
+.PP
+Set's the output file\&. 
+.PP
+\fBNote\fP
+.RS 4
+If the output file does not end with \&.bat, the function will append \&.bat to the output file\&.
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fIoutputfile\fP The output file
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP if the outputfile is empty 
+.br
+\fIstd::invalid_argument\fP if the outputfile is already set 
+.RE
+.PP
+
+.PP
+Definition at line \fB7\fP of file \fBJSONData\&.cpp\fP\&.
+.PP
+References \fBoutputfile\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "std::optional<std::string> json::JSONData::application\fC [private]\fP"
+
+.PP
+Definition at line \fB121\fP of file \fBJSONData\&.hpp\fP\&.
+.SS "std::vector<std::string> json::JSONData::commands\fC [private]\fP"
+
+.PP
+Definition at line \fB122\fP of file \fBJSONData\&.hpp\fP\&.
+.SS "std::vector<std::tuple<std::string, std::string> > json::JSONData::environmentVariables\fC [private]\fP"
+
+.PP
+Definition at line \fB123\fP of file \fBJSONData\&.hpp\fP\&.
+.SS "bool json::JSONData::hideShell\fC [private]\fP"
+
+.PP
+Definition at line \fB120\fP of file \fBJSONData\&.hpp\fP\&.
+.SS "std::string json::JSONData::outputfile\fC [private]\fP"
+
+.PP
+Definition at line \fB119\fP of file \fBJSONData\&.hpp\fP\&.
+.SS "std::vector<std::string> json::JSONData::pathValues\fC [private]\fP"
+
+.PP
+Definition at line \fB124\fP of file \fBJSONData\&.hpp\fP\&.
+.SS "const int8_t json::JSONData::suffixLength = 4\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line \fB125\fP of file \fBJSONData\&.hpp\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for jsonToBatProject from the source code\&.

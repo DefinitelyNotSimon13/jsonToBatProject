@@ -1,0 +1,9 @@
+<map id="json::JSONHandler::assignEntries" name="json::JSONHandler::assignEntries">
+<area shape="rect" id="Node000001" title="Assigns the entries to the JSONData object." alt="" coords="5,71,144,111"/>
+<area shape="rect" id="Node000002" href="$classjson_1_1JSONHandler.html#a400c659faceca796918cab48b445f513" title="Assigns a command to the JSONData object." alt="" coords="212,5,350,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,68,199,49,200,54,142,73"/>
+<area shape="rect" id="Node000003" href="$classjson_1_1JSONHandler.html#a521983ef6372a6563e1a4146dc8923b3" title="Assigns an environment variable to the JSONData object." alt="" coords="192,71,370,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,88,176,88,176,94,144,94"/>
+<area shape="rect" id="Node000004" href="$classjson_1_1JSONHandler.html#a641700b2c8344cdb8544e97e702c5326" title="Assigns a path value to the JSONData object." alt="" coords="212,136,350,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="142,109,200,128,199,133,140,114"/>
+</map>

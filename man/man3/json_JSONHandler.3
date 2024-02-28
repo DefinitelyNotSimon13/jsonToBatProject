@@ -1,0 +1,300 @@
+.TH "json::JSONHandler" 3 "Wed Feb 28 2024 19:16:22" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+json::JSONHandler \- \fBJSONHandler\fP class\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <JSONHandler\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBJSONHandler\fP (const std::string &filename)"
+.br
+.RI "Constructor\&. "
+.ti -1c
+.RI "std::shared_ptr< \fBJSONData\fP > \fBgetJSONData\fP ()"
+.br
+.RI "Retrieve the \fBJSONData\fP object\&. "
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "std::shared_ptr< Json::Value > \fBparseFile\fP (const std::string &filename)"
+.br
+.RI "Parse a file\&. "
+.ti -1c
+.RI "void \fBassignOutputFile\fP ()"
+.br
+.RI "Assigns the output file to the \fBJSONData\fP object\&. "
+.ti -1c
+.RI "void \fBassignHideShell\fP ()"
+.br
+.RI "Assigns the hide shell value to the \fBJSONData\fP object\&. "
+.ti -1c
+.RI "void \fBassignApplication\fP ()"
+.br
+.RI "Assigns the application to the \fBJSONData\fP object\&. "
+.ti -1c
+.RI "void \fBassignEntries\fP ()"
+.br
+.RI "Assigns the entries to the \fBJSONData\fP object\&. "
+.ti -1c
+.RI "void \fBassignCommand\fP (const Json::Value &entry)"
+.br
+.RI "Assigns a command to the \fBJSONData\fP object\&. "
+.ti -1c
+.RI "void \fBassignEnvironmentVariable\fP (const Json::Value &entry)"
+.br
+.RI "Assigns an environment variable to the \fBJSONData\fP object\&. "
+.ti -1c
+.RI "void \fBassignPathValue\fP (const Json::Value &entry)"
+.br
+.RI "Assigns a path value to the \fBJSONData\fP object\&. "
+.ti -1c
+.RI "std::shared_ptr< \fBJSONData\fP > \fBcreateJSONData\fP ()"
+.br
+.RI "Creates a \fBJSONData\fP object\&. "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::shared_ptr< Json::Value > \fBroot\fP"
+.br
+.ti -1c
+.RI "std::shared_ptr< \fBJSONData\fP > \fBdata\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBJSONHandler\fP class\&. 
+
+The \fBJSONHandler\fP class is responsible for parsing a json file and creating a \fBJSONData\fP object from it when requested\&. It assigns all necessary values to the \fBJSONData\fP object\&. Most of the error handling is done in the \fBJSONData\fP object\&. 
+.PP
+Definition at line \fB29\fP of file \fBJSONHandler\&.hpp\fP\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "json::JSONHandler::JSONHandler (const std::string & filename)"
+
+.PP
+Constructor\&. The constructor calls the parseFile function to parse the file and adds it to the corresponding member variable\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIfilename\fP The filename to parse 
+.RE
+.PP
+
+.PP
+Definition at line \fB8\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBparseFile()\fP, and \fBroot\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void json::JSONHandler::assignApplication ()\fC [private]\fP"
+
+.PP
+Assigns the application to the \fBJSONData\fP object\&. 
+.PP
+\fBNote\fP
+.RS 4
+How should error handling be done? Value can be empty, but what about null vs ''? 
+.RE
+.PP
+
+.PP
+Definition at line \fB52\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBdata\fP, and \fBroot\fP\&.
+.SS "void json::JSONHandler::assignCommand (const Json::Value & entry)\fC [private]\fP"
+
+.PP
+Assigns a command to the \fBJSONData\fP object\&. The function takes a Json::Value object and assigns the command to the \fBJSONData\fP object
+.PP
+\fBParameters\fP
+.RS 4
+\fIentry\fP The entry to assign
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Error handling is done in the \fBJSONData\fP object 
+.RE
+.PP
+
+.PP
+Definition at line \fB79\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBdata\fP\&.
+.SS "void json::JSONHandler::assignEntries ()\fC [private]\fP"
+
+.PP
+Assigns the entries to the \fBJSONData\fP object\&. The function loops through the entries and calls the corresponding function to assign the entry to the \fBJSONData\fP object
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::runtime_error\fP If the entry type is unknown 
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Other error handling is done in the \fBJSONData\fP object 
+.RE
+.PP
+
+.PP
+Definition at line \fB58\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBassignCommand()\fP, \fBassignEnvironmentVariable()\fP, \fBassignPathValue()\fP, and \fBroot\fP\&.
+.SS "void json::JSONHandler::assignEnvironmentVariable (const Json::Value & entry)\fC [private]\fP"
+
+.PP
+Assigns an environment variable to the \fBJSONData\fP object\&. The function takes a Json::Value object and assigns a tuple of the environment variable to the \fBJSONData\fP object
+.PP
+\fBParameters\fP
+.RS 4
+\fIentry\fP The entry to assign
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Error handling is done in the \fBJSONData\fP object 
+.RE
+.PP
+
+.PP
+Definition at line \fB85\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBdata\fP\&.
+.SS "void json::JSONHandler::assignHideShell ()\fC [private]\fP"
+
+.PP
+Assigns the hide shell value to the \fBJSONData\fP object\&. 
+.PP
+\fBNote\fP
+.RS 4
+There is no real error handling for this value, it defaults to false 
+.RE
+.PP
+
+.PP
+\fBTodo\fP
+.RS 4
+: Error handling if not found 
+.RE
+.PP
+\fBNote\fP
+.RS 4
+: default to false
+.RE
+.PP
+
+.PP
+Definition at line \fB44\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBdata\fP, and \fBroot\fP\&.
+.SS "void json::JSONHandler::assignOutputFile ()\fC [private]\fP"
+
+.PP
+Assigns the output file to the \fBJSONData\fP object\&. 
+.PP
+\fBNote\fP
+.RS 4
+Error handling is done in the \fBJSONData\fP object 
+.RE
+.PP
+
+.PP
+Definition at line \fB38\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBdata\fP, and \fBroot\fP\&.
+.SS "void json::JSONHandler::assignPathValue (const Json::Value & entry)\fC [private]\fP"
+
+.PP
+Assigns a path value to the \fBJSONData\fP object\&. The function takes a Json::Value object and assigns the path value to the \fBJSONData\fP object
+.PP
+\fBParameters\fP
+.RS 4
+\fIentry\fP The entry to assign
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Error handling is done in the \fBJSONData\fP object 
+.RE
+.PP
+
+.PP
+Definition at line \fB92\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBdata\fP\&.
+.SS "std::shared_ptr< \fBJSONData\fP > json::JSONHandler::createJSONData ()\fC [private]\fP"
+
+.PP
+Creates a \fBJSONData\fP object\&. The function creates the \fBJSONData\fP object and calls all the necessary methods to assign the values to the object\&.
+.PP
+\fBReturns\fP
+.RS 4
+std::shared_ptr<JSONData> The \fBJSONData\fP object 
+.RE
+.PP
+
+.PP
+Definition at line \fB28\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBassignApplication()\fP, \fBassignEntries()\fP, \fBassignHideShell()\fP, \fBassignOutputFile()\fP, and \fBdata\fP\&.
+.SS "std::shared_ptr< \fBJSONData\fP > json::JSONHandler::getJSONData ()"
+
+.PP
+Retrieve the \fBJSONData\fP object\&. The function takes the necesarry steps to create a \fBJSONData\fP object and then returns it
+.PP
+\fBReturns\fP
+.RS 4
+std::shared_ptr<JSONData> The \fBJSONData\fP object 
+.RE
+.PP
+
+.PP
+Definition at line \fB23\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBcreateJSONData()\fP\&.
+.SS "std::shared_ptr< Json::Value > json::JSONHandler::parseFile (const std::string & filename)\fC [private]\fP"
+
+.PP
+Parse a file\&. The function takes a filename and parses the file into a Json::Value object\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIfilename\fP The filename to parse 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+std::shared_ptr<Json::Value> The parsed file 
+.RE
+.PP
+
+.PP
+Definition at line \fB13\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBroot\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "std::shared_ptr<\fBJSONData\fP> json::JSONHandler::data\fC [private]\fP"
+
+.PP
+Definition at line \fB158\fP of file \fBJSONHandler\&.hpp\fP\&.
+.SS "std::shared_ptr<Json::Value> json::JSONHandler::root\fC [private]\fP"
+
+.PP
+Definition at line \fB157\fP of file \fBJSONHandler\&.hpp\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for jsonToBatProject from the source code\&.

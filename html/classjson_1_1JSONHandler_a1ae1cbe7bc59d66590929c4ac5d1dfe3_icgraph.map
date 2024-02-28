@@ -1,0 +1,9 @@
+<map id="json::JSONHandler::assignHideShell" name="json::JSONHandler::assignHideShell">
+<area shape="rect" id="Node000001" title="Assigns the hide shell value to the JSONData object." alt="" coords="475,5,614,46"/>
+<area shape="rect" id="Node000002" href="$classjson_1_1JSONHandler.html#a06851f419487aefd2bba756a380fa17b" title="Creates a JSONData object." alt="" coords="289,5,427,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="459,28,428,28,428,23,459,23"/>
+<area shape="rect" id="Node000003" href="$classjson_1_1JSONHandler.html#a90f7bd04911d0e6dfe91ded17ba4edcf" title="Retrieve the JSONData object." alt="" coords="103,5,241,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="273,28,242,28,242,23,273,23"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a2b2d4ce8b34d14b9e775eaf6214b00e1" title="Main function." alt="" coords="5,13,55,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,28,55,28,55,23,87,23"/>
+</map>

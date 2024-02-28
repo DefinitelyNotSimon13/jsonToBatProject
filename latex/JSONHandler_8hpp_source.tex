@@ -1,0 +1,46 @@
+\doxysection{JSONHandler.\+hpp}
+\hypertarget{JSONHandler_8hpp_source}{}\label{JSONHandler_8hpp_source}\index{src/headers/JSONHandler.hpp@{src/headers/JSONHandler.hpp}}
+\mbox{\hyperlink{JSONHandler_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#ifndef\ JSONHANDLER\_HPP}}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00002}00002\ \textcolor{preprocessor}{\#define\ JSONHANDLER\_HPP}}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{JSONData_8hpp}{JSONData.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ "{}json/value.h"{}}}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00017}00017\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacejson}{json}}\ \{}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00029}\mbox{\hyperlink{classjson_1_1JSONHandler}{00029}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classjson_1_1JSONHandler}{JSONHandler}}\ \{}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00030}00030\ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00040}00040\ \ \ \ \ \mbox{\hyperlink{classjson_1_1JSONHandler}{JSONHandler}}(\textcolor{keyword}{const}\ std::string\ \&filename);}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00041}00041\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00051}00051\ \ \ \ \ std::shared\_ptr<JSONData>\ \mbox{\hyperlink{classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf}{getJSONData}}();}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00052}00052\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00053}00053\ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00064}00064\ \ \ \ \ std::shared\_ptr<Json::Value>\ \mbox{\hyperlink{classjson_1_1JSONHandler_ac6de8085178cf8c8d5d6e66d9c4918e2}{parseFile}}(\textcolor{keyword}{const}\ std::string\ \&filename);}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00065}00065\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00072}00072\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classjson_1_1JSONHandler_ac5ed06f7db7c2c0f65b773b4cb80fcea}{assignOutputFile}}();}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00073}00073\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00080}00080\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classjson_1_1JSONHandler_a1ae1cbe7bc59d66590929c4ac5d1dfe3}{assignHideShell}}();}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00081}00081\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00089}00089\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classjson_1_1JSONHandler_ae378ee929f7f6662157812e197593b84}{assignApplication}}();}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00090}00090\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00102}00102\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classjson_1_1JSONHandler_a3ab91c34ac903ecdd6c8bbe02c9f0bd8}{assignEntries}}();}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00103}00103\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00116}00116\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classjson_1_1JSONHandler_a400c659faceca796918cab48b445f513}{assignCommand}}(\textcolor{keyword}{const}\ Json::Value\ \&entry);}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00117}00117\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00130}00130\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classjson_1_1JSONHandler_a521983ef6372a6563e1a4146dc8923b3}{assignEnvironmentVariable}}(\textcolor{keyword}{const}\ Json::Value\ \&entry);}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00131}00131\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00144}00144\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classjson_1_1JSONHandler_a641700b2c8344cdb8544e97e702c5326}{assignPathValue}}(\textcolor{keyword}{const}\ Json::Value\ \&entry);}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00145}00145\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00155}00155\ \ \ \ \ std::shared\_ptr<JSONData>\ \mbox{\hyperlink{classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b}{createJSONData}}();}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00156}00156\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00157}\mbox{\hyperlink{classjson_1_1JSONHandler_ac29197ca980ba7c0c8b253591f5881d4}{00157}}\ \ \ \ \ std::shared\_ptr<Json::Value>\ \mbox{\hyperlink{classjson_1_1JSONHandler_ac29197ca980ba7c0c8b253591f5881d4}{root}};}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00158}\mbox{\hyperlink{classjson_1_1JSONHandler_a937e7fb2cae3b9db557fdf304826439c}{00158}}\ \ \ \ \ std::shared\_ptr<JSONData>\ \mbox{\hyperlink{classjson_1_1JSONHandler_a937e7fb2cae3b9db557fdf304826439c}{data}};}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00159}00159\ \};}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00160}00160\ \}\ \textcolor{comment}{//\ namespace\ json}}
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00161}00161\ }
+\DoxyCodeLine{\Hypertarget{JSONHandler_8hpp_source_l00162}00162\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ JSONHANDLER\_HPP}}
+
+\end{DoxyCode}

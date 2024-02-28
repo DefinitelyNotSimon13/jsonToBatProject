@@ -1,0 +1,19 @@
+<map id="json::JSONHandler::getJSONData" name="json::JSONHandler::getJSONData">
+<area shape="rect" id="Node000001" title="Retrieve the JSONData object." alt="" coords="5,104,144,145"/>
+<area shape="rect" id="Node000002" href="$classjson_1_1JSONHandler.html#a06851f419487aefd2bba756a380fa17b" title="Creates a JSONData object." alt="" coords="192,104,330,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,122,176,122,176,127,144,127"/>
+<area shape="rect" id="Node000003" href="$classjson_1_1JSONHandler.html#ae378ee929f7f6662157812e197593b84" title="Assigns the application to the JSONData object." alt="" coords="378,5,516,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="297,101,377,57,388,51,390,56,379,61,299,106"/>
+<area shape="rect" id="Node000004" href="$classjson_1_1JSONHandler.html#a3ab91c34ac903ecdd6c8bbe02c9f0bd8" title="Assigns the entries to the JSONData object." alt="" coords="378,71,516,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="330,109,362,104,363,109,331,115"/>
+<area shape="rect" id="Node000008" href="$classjson_1_1JSONHandler.html#a1ae1cbe7bc59d66590929c4ac5d1dfe3" title="Assigns the hide shell value to the JSONData object." alt="" coords="378,136,516,177"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="331,134,363,139,362,144,330,139"/>
+<area shape="rect" id="Node000009" href="$classjson_1_1JSONHandler.html#ac5ed06f7db7c2c0f65b773b4cb80fcea" title="Assigns the output file to the JSONData object." alt="" coords="378,201,516,242"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="300,143,379,186,390,192,388,196,377,191,298,148"/>
+<area shape="rect" id="Node000005" href="$classjson_1_1JSONHandler.html#a400c659faceca796918cab48b445f513" title="Assigns a command to the JSONData object." alt="" coords="584,5,723,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="513,68,571,49,573,54,514,73"/>
+<area shape="rect" id="Node000006" href="$classjson_1_1JSONHandler.html#a521983ef6372a6563e1a4146dc8923b3" title="Assigns an environment variable to the JSONData object." alt="" coords="564,71,743,111"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="517,88,549,88,549,94,517,94"/>
+<area shape="rect" id="Node000007" href="$classjson_1_1JSONHandler.html#a641700b2c8344cdb8544e97e702c5326" title="Assigns a path value to the JSONData object." alt="" coords="584,136,723,177"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="514,109,573,128,571,133,513,114"/>
+</map>

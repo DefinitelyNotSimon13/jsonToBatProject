@@ -121,18 +121,16 @@ int main(int argc, char* argv[])
     batchFile.open(outputfile, std::ios::out);
     batchFile << "#This is a test\n";
     // Very not error proof
-    constexpr std::string_view additionalPathCommand = "{};\\\n";
     std::stringstream additionalPath;
     int counter = 0;
     std::cout << "Entries:\n";
 
     batchFile << "@ECHO OFF\nC:\\Windows\\System32\\cmd.exe /k\n\"";
 
-    for (auto entry : root["entries"]) {
+    for (const auto entry : root["entries"]) {
         std::cout << "Entry " << counter << ":\n";
-        auto keys = entry.getMemberNames();
 
-        for (auto key : keys) {
+        for (const auto key : entry.getMemberNames()) {
             std::cout << "    " << key << ": " << entry[key].asString() << "\n";
         }
 

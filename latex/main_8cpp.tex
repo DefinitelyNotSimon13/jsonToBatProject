@@ -1,59 +1,46 @@
 \doxysection{src/main.cpp File Reference}
 \hypertarget{main_8cpp}{}\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
-{\ttfamily \#include "{}Startup\+Handler.\+hpp"{}}\newline
 {\ttfamily \#include "{}easylogging++.\+h"{}}\newline
-{\ttfamily \#include $<$getopt.\+h$>$}\newline
 {\ttfamily \#include $<$iostream$>$}\newline
-{\ttfamily \#include $<$stdexcept$>$}\newline
-{\ttfamily \#include $<$string$>$}\newline
-{\ttfamily \#include $<$sstream$>$}\newline
-{\ttfamily \#include $<$json/json.\+h$>$}\newline
-Include dependency graph for main.\+cpp\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{main_8cpp__incl}
-\end{center}
-\end{figure}
+{\ttfamily \#include "{}catch2/catch\+\_\+all.\+hpp"{}}\newline
+{\ttfamily \#include "{}json/json.\+h"{}}\newline
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespaceWIP}{WIP}}
+\begin{DoxyCompactList}\small\item\em Includes for test. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-INITIALIZE\+\_\+\+EASYLOGGINGPP int \mbox{\hyperlink{main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+void \mbox{\hyperlink{namespaceWIP_a8abade321630427e408845cf8b194c56}{WIP\+::example\+Easy\+Logging}} ()
+\begin{DoxyCompactList}\small\item\em Example of how to use easylogging with a configuration file. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
 \begin{DoxyCompactList}\small\item\em Main function. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Function Documentation}
-\Hypertarget{main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1}\label{main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1} 
+\Hypertarget{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\label{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97} 
 \index{main.cpp@{main.cpp}!main@{main}}
 \index{main@{main}!main.cpp@{main.cpp}}
 \doxysubsubsection{\texorpdfstring{main()}{main()}}
-{\footnotesize\ttfamily INITIALIZE\+\_\+\+EASYLOGGINGPP int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
 
 
 
 Main function. 
 
-This is the main function for the application, The application is designed to parse a json file and create a batch file from it. Further more it provides a CLI to help the user to interact with the application.
+Codeconvention\+:
+\begin{DoxyItemize}
+\item Formatter\+: astyle
 
-\begin{DoxyRefDesc}{Bug}
-\item[\mbox{\hyperlink{bug__bug000003}{Bug}}]Getopt is not working on Windows. \end{DoxyRefDesc}
-\begin{DoxyNote}{Note}
-json parsing seems simple edgecases? basically just treat as array/map
-\end{DoxyNote}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]\end{DoxyRefDesc}
 
+\end{DoxyItemize}
 
-Definition at line \mbox{\hyperlink{main_8cpp_source_l00025}{25}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
+Definition at line \mbox{\hyperlink{main_8cpp_source_l00026}{26}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
 
 
 
-References \mbox{\hyperlink{StartupHandler_8cpp_source_l00021}{utils\+::\+Startup\+Handler\+::get\+Options()}}, and \mbox{\hyperlink{StartupHandler_8cpp_source_l00013}{utils\+::\+Startup\+Handler\+::init\+Easy\+Logging()}}.
+References \mbox{\hyperlink{main_8cpp_source_l00055}{WIP\+::example\+Easy\+Logging()}}.
 
-Here is the call graph for this function\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=257pt]{main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph}
-\end{center}
-\end{figure}

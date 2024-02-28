@@ -1,4 +1,6 @@
 var namespaces_dup =
 [
-    [ "utils", "namespaceutils.html", "namespaceutils" ]
+    [ "WIP", "namespaceWIP.html", [
+      [ "exampleEasyLogging", "namespaceWIP.html#a8abade321630427e408845cf8b194c56", null ]
+    ] ]
 ];

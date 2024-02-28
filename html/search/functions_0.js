@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getoptions_0',['getOptions',['../classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c',1,'utils::StartupHandler']]]
+  ['exampleeasylogging_0',['exampleEasyLogging',['../namespaceWIP.html#a8abade321630427e408845cf8b194c56',1,'WIP']]]
 ];

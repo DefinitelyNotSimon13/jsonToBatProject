@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bug_20list_0',['Bug List',['../bug.html',1,'']]]
+  ['exampleeasylogging_0',['exampleEasyLogging',['../namespaceWIP.html#a8abade321630427e408845cf8b194c56',1,'WIP']]]
 ];

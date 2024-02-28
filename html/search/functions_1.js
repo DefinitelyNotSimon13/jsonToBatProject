@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initeasylogging_0',['initEasyLogging',['../classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169',1,'utils::StartupHandler']]]
+  ['main_0',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]]
 ];

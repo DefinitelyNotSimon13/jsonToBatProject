@@ -11,13 +11,13 @@
  **/
 namespace utils {
 /**
- * \brief StartupHandler
+ * \brief Handles startup task for the application.
  *
  * \details
  * This class provides functionality for the startup of the application.
  * Currently it initializes easylogging and parses given options.
  *
- * \note Should stay static?
+ * \note I think this class should stay static - Simon
  *
  **/
 class StartupHandler {
@@ -30,7 +30,7 @@ class StartupHandler {
      * "$SOURCE/conf/easylogging.conf".
      *
      * \todo
-     * Improve easylogging configuration
+     * - Improve easylogging configuration
      **/
     static void initEasyLogging();
 
@@ -48,12 +48,12 @@ class StartupHandler {
     * - --test: Test
     *
     * \todo
-    * Implement functionality for the options.
-    * Implement/Add more options.
-    * Shorten function and outsource functionality to other functions.
+    * - Implement functionality for the options.
+    * - Implement/Add more options.
+    * - Shorten function and outsource functionality to other functions.
     *
     * \bug
-    * Global verbose flag is not working
+    * Global verbose flag is not working.
     *
     * \param argc Number of arguments
     * \param argv Arguments

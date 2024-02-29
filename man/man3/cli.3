@@ -1,0 +1,185 @@
+.TH "cli" 3 "Thu Feb 29 2024 12:13:30" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+cli
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBCliHandler\fP"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "static const std::string \fBCLEAR_TERMINAL\fP = '\\x1b[2J'"
+.br
+.ti -1c
+.RI "static const std::string \fBRESET\fP = '\\x1b[0m'"
+.br
+.ti -1c
+.RI "static const std::string \fBBOLD\fP = '\\x1b[1m'"
+.br
+.ti -1c
+.RI "static const std::string \fBDIM\fP = '\\x1b[2m'"
+.br
+.ti -1c
+.RI "static const std::string \fBITALIC\fP = '\\x1b[3m'"
+.br
+.ti -1c
+.RI "static const std::string \fBUNDERLINE\fP = '\\x1b[4m'"
+.br
+.ti -1c
+.RI "static const std::string \fBBLINKING\fP = '\\x1b[5m'"
+.br
+.ti -1c
+.RI "static const std::string \fBBLACK_FG\fP = '\\x1b[30m'"
+.br
+.ti -1c
+.RI "static const std::string \fBRED_FG\fP = '\\x1b[31m'"
+.br
+.ti -1c
+.RI "static const std::string \fBGREEN_FG\fP = '\\x1b[32m'"
+.br
+.ti -1c
+.RI "static const std::string \fBYELLOW_FG\fP = '\\x1b[33m'"
+.br
+.ti -1c
+.RI "static const std::string \fBBLUE_FG\fP = '\\x1b[34m'"
+.br
+.ti -1c
+.RI "static const std::string \fBMAGENTA_FG\fP = '\\x1b[35m'"
+.br
+.ti -1c
+.RI "static const std::string \fBCYAN_FG\fP = '\\x1b[36m'"
+.br
+.ti -1c
+.RI "static const std::string \fBWHITE_FG\fP = '\\x1b[37m'"
+.br
+.ti -1c
+.RI "static const std::string \fBRED_BG\fP = '\\x1b[41m'"
+.br
+.ti -1c
+.RI "static const std::string \fBGREEN_BG\fP = '\\x1b[42m'"
+.br
+.ti -1c
+.RI "static const std::string \fBYELLOW_BG\fP = '\\x1b[43m'"
+.br
+.ti -1c
+.RI "static const std::string \fBBLUE_BG\fP = '\\x1b[44m'"
+.br
+.ti -1c
+.RI "static const std::string \fBMAGENTA_BG\fP = '\\x1b[45m'"
+.br
+.ti -1c
+.RI "static const std::string \fBCYAN_BG\fP = '\\x1b[46m'"
+.br
+.ti -1c
+.RI "static const std::string \fBWHITE_BG\fP = '\\x1b[47m'"
+.br
+.ti -1c
+.RI "static const std::string \fBERROR\fP = '\\x1b[31m\\x1b[1m'"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "const std::string cli::BLACK_FG = '\\x1b[30m'\fC [static]\fP"
+
+.PP
+Definition at line \fB20\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::BLINKING = '\\x1b[5m'\fC [static]\fP"
+
+.PP
+Definition at line \fB19\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::BLUE_BG = '\\x1b[44m'\fC [static]\fP"
+
+.PP
+Definition at line \fB31\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::BLUE_FG = '\\x1b[34m'\fC [static]\fP"
+
+.PP
+Definition at line \fB24\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::BOLD = '\\x1b[1m'\fC [static]\fP"
+
+.PP
+Definition at line \fB15\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::CLEAR_TERMINAL = '\\x1b[2J'\fC [static]\fP"
+
+.PP
+Definition at line \fB13\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::CYAN_BG = '\\x1b[46m'\fC [static]\fP"
+
+.PP
+Definition at line \fB33\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::CYAN_FG = '\\x1b[36m'\fC [static]\fP"
+
+.PP
+Definition at line \fB26\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::DIM = '\\x1b[2m'\fC [static]\fP"
+
+.PP
+Definition at line \fB16\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::ERROR = '\\x1b[31m\\x1b[1m'\fC [static]\fP"
+
+.PP
+Definition at line \fB35\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::GREEN_BG = '\\x1b[42m'\fC [static]\fP"
+
+.PP
+Definition at line \fB29\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::GREEN_FG = '\\x1b[32m'\fC [static]\fP"
+
+.PP
+Definition at line \fB22\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::ITALIC = '\\x1b[3m'\fC [static]\fP"
+
+.PP
+Definition at line \fB17\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::MAGENTA_BG = '\\x1b[45m'\fC [static]\fP"
+
+.PP
+Definition at line \fB32\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::MAGENTA_FG = '\\x1b[35m'\fC [static]\fP"
+
+.PP
+Definition at line \fB25\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::RED_BG = '\\x1b[41m'\fC [static]\fP"
+
+.PP
+Definition at line \fB28\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::RED_FG = '\\x1b[31m'\fC [static]\fP"
+
+.PP
+Definition at line \fB21\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::RESET = '\\x1b[0m'\fC [static]\fP"
+
+.PP
+Definition at line \fB14\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::UNDERLINE = '\\x1b[4m'\fC [static]\fP"
+
+.PP
+Definition at line \fB18\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::WHITE_BG = '\\x1b[47m'\fC [static]\fP"
+
+.PP
+Definition at line \fB34\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::WHITE_FG = '\\x1b[37m'\fC [static]\fP"
+
+.PP
+Definition at line \fB27\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::YELLOW_BG = '\\x1b[43m'\fC [static]\fP"
+
+.PP
+Definition at line \fB30\fP of file \fBCliHandler\&.hpp\fP\&.
+.SS "const std::string cli::YELLOW_FG = '\\x1b[33m'\fC [static]\fP"
+
+.PP
+Definition at line \fB23\fP of file \fBCliHandler\&.hpp\fP\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for jsonToBatProject from the source code\&.

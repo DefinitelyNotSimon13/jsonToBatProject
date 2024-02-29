@@ -1,0 +1,176 @@
+\doxysection{utils\+::Log\+And\+Out Class Reference}
+\hypertarget{classutils_1_1LogAndOut}{}\label{classutils_1_1LogAndOut}\index{utils::LogAndOut@{utils::LogAndOut}}
+
+
+{\ttfamily \#include $<$Log\+And\+Out.\+hpp$>$}
+
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\+::ostream \&(\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classutils_1_1LogAndOut_a184f1de4c36cfe06c77fd35200dff2ae}{Manipulator}}) (std\+::ostream \&)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classutils_1_1LogAndOut_a2b387f86818fc921925d1ff544674721}{Log\+And\+Out}} (\mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{Log\+Level}} new\+Level)
+\item 
+\mbox{\hyperlink{classutils_1_1LogAndOut_a91d3f1f782ae053c29b6a0f5f1d6ced0}{Log\+And\+Out}} (const std\+::string \&new\+Prefix, \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{Log\+Level}} new\+Level)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classutils_1_1LogAndOut}{Log\+And\+Out}} \& \mbox{\hyperlink{classutils_1_1LogAndOut_a8cd94b522ac27fffc5529f30fafae3b9}{operator$<$$<$}} (const T \&val)
+\item 
+\mbox{\hyperlink{classutils_1_1LogAndOut}{Log\+And\+Out}} \& \mbox{\hyperlink{classutils_1_1LogAndOut_a4fa66373c17d449a44edf52825e286b3}{operator$<$$<$}} (\mbox{\hyperlink{classutils_1_1LogAndOut_a184f1de4c36cfe06c77fd35200dff2ae}{Manipulator}} manipulator)
+\item 
+\mbox{\hyperlink{classutils_1_1LogAndOut_a9d254c9845529d649454f048bcbce982}{\texorpdfstring{$\sim$}{\string~}\+Log\+And\+Out}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classutils_1_1LogAndOut_a1fba78f675b229a0df55c2f79d1b582d}{prefix}}
+\item 
+\mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{Log\+Level}} \mbox{\hyperlink{classutils_1_1LogAndOut_a35180695c3e8bbb40e3ce91ce883db3b}{level}}
+\item 
+std\+::ostringstream \mbox{\hyperlink{classutils_1_1LogAndOut_a5d8d3d5d5affc9c85f924c9564a94f69}{buffer}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyNote}{Note}
+
+\end{DoxyNote}
+\hypertarget{classutils_1_1LogAndOut_autotoc_md0}{}\doxysubsection{\texorpdfstring{Bugs and Quirks}{Bugs and Quirks}}\label{classutils_1_1LogAndOut_autotoc_md0}
+
+\begin{DoxyItemize}
+\item Automatically makes new line for cout -- Nevermind?! 
+\end{DoxyItemize}
+
+Definition at line \mbox{\hyperlink{LogAndOut_8hpp_source_l00024}{24}} of file \mbox{\hyperlink{LogAndOut_8hpp_source}{Log\+And\+Out.\+hpp}}.
+
+
+
+\doxysubsection{Member Typedef Documentation}
+\Hypertarget{classutils_1_1LogAndOut_a184f1de4c36cfe06c77fd35200dff2ae}\label{classutils_1_1LogAndOut_a184f1de4c36cfe06c77fd35200dff2ae} 
+\index{utils::LogAndOut@{utils::LogAndOut}!Manipulator@{Manipulator}}
+\index{Manipulator@{Manipulator}!utils::LogAndOut@{utils::LogAndOut}}
+\doxysubsubsection{\texorpdfstring{Manipulator}{Manipulator}}
+{\footnotesize\ttfamily typedef std\+::ostream \&(\texorpdfstring{$\ast$}{*} utils\+::\+Log\+And\+Out\+::\+Manipulator) (std\+::ostream \&)}
+
+
+
+Definition at line \mbox{\hyperlink{LogAndOut_8hpp_source_l00036}{36}} of file \mbox{\hyperlink{LogAndOut_8hpp_source}{Log\+And\+Out.\+hpp}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classutils_1_1LogAndOut_a2b387f86818fc921925d1ff544674721}\label{classutils_1_1LogAndOut_a2b387f86818fc921925d1ff544674721} 
+\index{utils::LogAndOut@{utils::LogAndOut}!LogAndOut@{LogAndOut}}
+\index{LogAndOut@{LogAndOut}!utils::LogAndOut@{utils::LogAndOut}}
+\doxysubsubsection{\texorpdfstring{LogAndOut()}{LogAndOut()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily utils\+::\+Log\+And\+Out\+::\+Log\+And\+Out (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{Log\+Level}}}]{new\+Level }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \mbox{\hyperlink{LogAndOut_8hpp_source_l00026}{26}} of file \mbox{\hyperlink{LogAndOut_8hpp_source}{Log\+And\+Out.\+hpp}}.
+
+\Hypertarget{classutils_1_1LogAndOut_a91d3f1f782ae053c29b6a0f5f1d6ced0}\label{classutils_1_1LogAndOut_a91d3f1f782ae053c29b6a0f5f1d6ced0} 
+\index{utils::LogAndOut@{utils::LogAndOut}!LogAndOut@{LogAndOut}}
+\index{LogAndOut@{LogAndOut}!utils::LogAndOut@{utils::LogAndOut}}
+\doxysubsubsection{\texorpdfstring{LogAndOut()}{LogAndOut()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily utils\+::\+Log\+And\+Out\+::\+Log\+And\+Out (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{new\+Prefix,  }\item[{\mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{Log\+Level}}}]{new\+Level }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \mbox{\hyperlink{LogAndOut_8hpp_source_l00027}{27}} of file \mbox{\hyperlink{LogAndOut_8hpp_source}{Log\+And\+Out.\+hpp}}.
+
+\Hypertarget{classutils_1_1LogAndOut_a9d254c9845529d649454f048bcbce982}\label{classutils_1_1LogAndOut_a9d254c9845529d649454f048bcbce982} 
+\index{utils::LogAndOut@{utils::LogAndOut}!````~LogAndOut@{\texorpdfstring{$\sim$}{\string~}LogAndOut}}
+\index{````~LogAndOut@{\texorpdfstring{$\sim$}{\string~}LogAndOut}!utils::LogAndOut@{utils::LogAndOut}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}LogAndOut()}{\string~LogAndOut()}}
+{\footnotesize\ttfamily utils\+::\+Log\+And\+Out\+::\texorpdfstring{$\sim$}{\string~}\+Log\+And\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{LogAndOut_8cpp_source_l00006}{6}} of file \mbox{\hyperlink{LogAndOut_8cpp_source}{Log\+And\+Out.\+cpp}}.
+
+
+
+References \mbox{\hyperlink{CliHandler_8hpp_source_l00020}{cli\+::\+BLACK\+\_\+\+FG}}, \mbox{\hyperlink{LogAndOut_8hpp_source_l00044}{buffer}}, \mbox{\hyperlink{CliHandler_8hpp_source_l00026}{cli\+::\+CYAN\+\_\+\+FG}}, \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017ddadc30ec20708ef7b0f641ef78b7880a15}{utils\+::\+DEBUG}}, \mbox{\hyperlink{CliHandler_8hpp_source_l00035}{cli\+::\+ERROR}}, \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017ddabb1ca97ec761fc37101737ba0aa2e7c5}{utils\+::\+ERROR}}, \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dda19da7170bea36556dde582519795f3fc}{utils\+::\+FATAL}}, \mbox{\hyperlink{Verbose_8hpp_source_l00008}{utils\+::\+Verbose\+Handler\+::get\+Instance()}}, \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dda551b723eafd6a31d444fcb2f5920fbd3}{utils\+::\+INFO}}, \mbox{\hyperlink{CliHandler_8hpp_source_l00017}{cli\+::\+ITALIC}}, \mbox{\hyperlink{LogAndOut_8hpp_source_l00043}{level}}, \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017ddaef373774188a51f80463f37b6bd9e83a}{utils\+::\+OUT}}, \mbox{\hyperlink{LogAndOut_8hpp_source_l00042}{prefix}}, \mbox{\hyperlink{CliHandler_8hpp_source_l00028}{cli\+::\+RED\+\_\+\+BG}}, \mbox{\hyperlink{CliHandler_8hpp_source_l00014}{cli\+::\+RESET}}, \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dda059e9861e0400dfbe05c98a841f3f96b}{utils\+::\+WARNING}}, and \mbox{\hyperlink{CliHandler_8hpp_source_l00023}{cli\+::\+YELLOW\+\_\+\+FG}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{classutils_1_1LogAndOut_a9d254c9845529d649454f048bcbce982_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classutils_1_1LogAndOut_a8cd94b522ac27fffc5529f30fafae3b9}\label{classutils_1_1LogAndOut_a8cd94b522ac27fffc5529f30fafae3b9} 
+\index{utils::LogAndOut@{utils::LogAndOut}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!utils::LogAndOut@{utils::LogAndOut}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classutils_1_1LogAndOut}{Log\+And\+Out}} \& utils\+::\+Log\+And\+Out\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{const T \&}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line \mbox{\hyperlink{LogAndOut_8hpp_source_l00031}{31}} of file \mbox{\hyperlink{LogAndOut_8hpp_source}{Log\+And\+Out.\+hpp}}.
+
+
+
+References \mbox{\hyperlink{LogAndOut_8hpp_source_l00044}{buffer}}.
+
+\Hypertarget{classutils_1_1LogAndOut_a4fa66373c17d449a44edf52825e286b3}\label{classutils_1_1LogAndOut_a4fa66373c17d449a44edf52825e286b3} 
+\index{utils::LogAndOut@{utils::LogAndOut}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!utils::LogAndOut@{utils::LogAndOut}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classutils_1_1LogAndOut}{Log\+And\+Out}} \& utils\+::\+Log\+And\+Out\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classutils_1_1LogAndOut_a184f1de4c36cfe06c77fd35200dff2ae}{Manipulator}}}]{manipulator }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{LogAndOut_8cpp_source_l00038}{38}} of file \mbox{\hyperlink{LogAndOut_8cpp_source}{Log\+And\+Out.\+cpp}}.
+
+
+
+References \mbox{\hyperlink{LogAndOut_8hpp_source_l00044}{buffer}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classutils_1_1LogAndOut_a5d8d3d5d5affc9c85f924c9564a94f69}\label{classutils_1_1LogAndOut_a5d8d3d5d5affc9c85f924c9564a94f69} 
+\index{utils::LogAndOut@{utils::LogAndOut}!buffer@{buffer}}
+\index{buffer@{buffer}!utils::LogAndOut@{utils::LogAndOut}}
+\doxysubsubsection{\texorpdfstring{buffer}{buffer}}
+{\footnotesize\ttfamily std\+::ostringstream utils\+::\+Log\+And\+Out\+::buffer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{LogAndOut_8hpp_source_l00044}{44}} of file \mbox{\hyperlink{LogAndOut_8hpp_source}{Log\+And\+Out.\+hpp}}.
+
+\Hypertarget{classutils_1_1LogAndOut_a35180695c3e8bbb40e3ce91ce883db3b}\label{classutils_1_1LogAndOut_a35180695c3e8bbb40e3ce91ce883db3b} 
+\index{utils::LogAndOut@{utils::LogAndOut}!level@{level}}
+\index{level@{level}!utils::LogAndOut@{utils::LogAndOut}}
+\doxysubsubsection{\texorpdfstring{level}{level}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{Log\+Level}} utils\+::\+Log\+And\+Out\+::level\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{LogAndOut_8hpp_source_l00043}{43}} of file \mbox{\hyperlink{LogAndOut_8hpp_source}{Log\+And\+Out.\+hpp}}.
+
+\Hypertarget{classutils_1_1LogAndOut_a1fba78f675b229a0df55c2f79d1b582d}\label{classutils_1_1LogAndOut_a1fba78f675b229a0df55c2f79d1b582d} 
+\index{utils::LogAndOut@{utils::LogAndOut}!prefix@{prefix}}
+\index{prefix@{prefix}!utils::LogAndOut@{utils::LogAndOut}}
+\doxysubsubsection{\texorpdfstring{prefix}{prefix}}
+{\footnotesize\ttfamily std\+::string utils\+::\+Log\+And\+Out\+::prefix\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{LogAndOut_8hpp_source_l00042}{42}} of file \mbox{\hyperlink{LogAndOut_8hpp_source}{Log\+And\+Out.\+hpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/headers/\mbox{\hyperlink{LogAndOut_8hpp}{Log\+And\+Out.\+hpp}}\item 
+src/sources/\mbox{\hyperlink{LogAndOut_8cpp}{Log\+And\+Out.\+cpp}}\end{DoxyCompactItemize}

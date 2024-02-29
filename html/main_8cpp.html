@@ -93,19 +93,22 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">main.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="JSONData_8hpp_source.html">JSONData.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="StartupHandler_8hpp_source.html">StartupHandler.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="BatchCreator_8hpp_source.html">BatchCreator.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="CliHandler_8hpp_source.html">CliHandler.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="JSONData_8hpp_source.html">JSONData.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="JSONHandler_8hpp_source.html">JSONHandler.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="BatchCreator_8hpp_source.html">BatchCreator.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="LogAndOut_8hpp_source.html">LogAndOut.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="StartupHandler_8hpp_source.html">StartupHandler.hpp</a>&quot;</code><br />
 <code>#include &lt;easylogging++.h&gt;</code><br />
+<code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;getopt.h&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;json/json.h&gt;</code><br />
-<code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -113,59 +116,92 @@ Include dependency graph for main.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#asrc_2main_8cpp" alt=""/></div>
 <map name="asrc_2main_8cpp" id="asrc_2main_8cpp">
-<area shape="rect" title=" " alt="" coords="456,5,551,31"/>
-<area shape="rect" href="JSONData_8hpp.html" title=" " alt="" coords="433,153,541,178"/>
-<area shape="poly" title=" " alt="" coords="481,34,455,53,434,80,431,96,436,112,460,141,456,145,431,115,426,97,429,78,451,49,478,29"/>
-<area shape="rect" title=" " alt="" coords="22,226,75,252"/>
-<area shape="poly" title=" " alt="" coords="456,25,206,43,86,60,45,70,24,81,15,95,10,111,11,146,22,182,36,212,31,214,17,183,6,147,5,110,10,93,20,77,43,65,85,55,205,38,455,19"/>
-<area shape="rect" href="StartupHandler_8hpp.html" title=" " alt="" coords="34,79,167,105"/>
-<area shape="poly" title=" " alt="" coords="456,31,183,79,182,74,455,25"/>
-<area shape="rect" title=" " alt="" coords="136,153,204,178"/>
-<area shape="poly" title=" " alt="" coords="456,22,406,26,347,36,287,53,232,81,203,109,184,140,179,137,199,105,228,77,285,48,346,30,405,21,455,17"/>
-<area shape="rect" href="JSONHandler_8hpp.html" title=" " alt="" coords="241,79,368,105"/>
-<area shape="poly" title=" " alt="" coords="471,34,354,76,352,71,469,29"/>
-<area shape="rect" href="BatchCreator_8hpp.html" title=" " alt="" coords="443,79,564,105"/>
-<area shape="poly" title=" " alt="" coords="506,31,506,63,501,63,501,31"/>
-<area shape="rect" title=" " alt="" coords="588,79,704,105"/>
-<area shape="poly" title=" " alt="" coords="529,29,609,69,607,74,526,34"/>
-<area shape="rect" title=" " alt="" coords="728,79,799,105"/>
-<area shape="poly" title=" " alt="" coords="548,29,713,74,712,79,547,34"/>
-<area shape="rect" title=" " alt="" coords="823,79,906,105"/>
-<area shape="poly" title=" " alt="" coords="552,26,809,76,808,81,551,31"/>
-<area shape="rect" title=" " alt="" coords="930,79,999,105"/>
-<area shape="poly" title=" " alt="" coords="552,22,709,42,916,76,915,81,709,48,551,27"/>
-<area shape="rect" title=" " alt="" coords="1023,79,1101,105"/>
-<area shape="poly" title=" " alt="" coords="552,21,747,40,1008,76,1008,81,747,45,551,26"/>
-<area shape="rect" title=" " alt="" coords="416,226,476,252"/>
-<area shape="poly" title=" " alt="" coords="483,180,463,214,458,211,478,177"/>
-<area shape="rect" title=" " alt="" coords="233,226,299,252"/>
-<area shape="poly" title=" " alt="" coords="451,181,315,225,313,220,449,176"/>
-<area shape="poly" title=" " alt="" coords="433,179,421,181,91,234,90,229,420,176,432,174"/>
-<area shape="rect" title=" " alt="" coords="500,226,557,252"/>
-<area shape="poly" title=" " alt="" coords="496,177,516,211,512,214,492,180"/>
-<area shape="poly" title=" " alt="" coords="104,105,109,140,116,159,127,177,147,194,170,208,219,226,217,231,168,213,143,199,123,180,111,162,104,141,98,106"/>
-<area shape="poly" title=" " alt="" coords="99,106,61,213,56,211,94,104"/>
-<area shape="poly" title=" " alt="" coords="114,103,150,140,146,143,110,107"/>
-<area shape="poly" title=" " alt="" coords="337,103,443,144,441,149,335,108"/>
-<area shape="rect" title=" " alt="" coords="227,153,318,178"/>
-<area shape="poly" title=" " alt="" coords="302,106,287,139,282,137,297,104"/>
-<area shape="rect" title=" " alt="" coords="342,153,409,178"/>
-<area shape="poly" title=" " alt="" coords="318,103,355,140,351,143,314,107"/>
-<area shape="poly" title=" " alt="" coords="503,105,496,138,491,137,498,104"/>
-<area shape="poly" title=" " alt="" coords="483,108,412,147,409,142,480,103"/>
-<area shape="rect" title=" " alt="" coords="565,153,631,178"/>
-<area shape="poly" title=" " alt="" coords="521,103,572,141,568,145,518,107"/>
+<area shape="rect" title=" " alt="" coords="649,5,744,31"/>
+<area shape="rect" href="BatchCreator_8hpp.html" title=" " alt="" coords="884,79,1005,105"/>
+<area shape="poly" title=" " alt="" coords="739,29,888,72,887,77,738,34"/>
+<area shape="rect" href="JSONData_8hpp.html" title=" " alt="" coords="1052,153,1160,178"/>
+<area shape="poly" title=" " alt="" coords="745,17,803,21,873,30,948,48,1019,77,1059,106,1090,139,1086,142,1056,110,1017,81,946,53,872,36,802,26,744,23"/>
+<area shape="rect" title=" " alt="" coords="263,226,317,252"/>
+<area shape="poly" title=" " alt="" coords="649,24,550,29,428,39,313,56,267,68,234,81,203,101,179,123,171,135,168,148,170,162,176,177,191,194,209,208,249,226,247,231,206,212,187,198,172,180,164,163,163,148,167,133,174,120,199,97,231,77,266,63,312,51,428,34,549,24,648,18"/>
+<area shape="rect" href="CliHandler_8hpp.html" title=" " alt="" coords="5,79,111,105"/>
+<area shape="poly" title=" " alt="" coords="649,26,425,48,130,82,126,82,126,77,130,76,424,42,648,21"/>
+<area shape="rect" href="JSONHandler_8hpp.html" title=" " alt="" coords="734,79,860,105"/>
+<area shape="poly" title=" " alt="" coords="715,29,769,67,766,72,712,34"/>
+<area shape="rect" href="LogAndOut_8hpp.html" title=" " alt="" coords="497,79,608,105"/>
+<area shape="poly" title=" " alt="" coords="673,34,592,74,589,69,671,29"/>
+<area shape="rect" title=" " alt="" coords="522,153,637,178"/>
+<area shape="poly" title=" " alt="" coords="689,33,601,142,597,139,685,30"/>
+<area shape="rect" title=" " alt="" coords="661,153,732,178"/>
+<area shape="poly" title=" " alt="" coords="699,31,699,137,694,137,694,31"/>
+<area shape="rect" href="StartupHandler_8hpp.html" title=" " alt="" coords="271,79,403,105"/>
+<area shape="poly" title=" " alt="" coords="649,32,413,78,412,73,648,26"/>
+<area shape="rect" title=" " alt="" coords="186,153,253,178"/>
+<area shape="poly" title=" " alt="" coords="648,23,554,27,439,36,331,54,289,66,260,81,248,93,238,108,227,139,222,137,233,105,243,90,256,77,287,61,330,48,438,31,553,22,648,18"/>
+<area shape="rect" title=" " alt="" coords="1081,79,1160,105"/>
+<area shape="poly" title=" " alt="" coords="745,24,1062,76,1067,77,1066,82,1062,82,744,29"/>
+<area shape="rect" title=" " alt="" coords="1184,79,1268,105"/>
+<area shape="poly" title=" " alt="" coords="745,21,928,42,1170,76,1169,81,927,47,745,27"/>
+<area shape="rect" title=" " alt="" coords="1291,79,1369,105"/>
+<area shape="poly" title=" " alt="" coords="745,20,971,38,1121,54,1276,76,1276,81,1120,60,970,43,745,25"/>
+<area shape="poly" title=" " alt="" coords="973,103,1066,144,1064,148,971,108"/>
+<area shape="rect" title=" " alt="" coords="871,153,938,178"/>
+<area shape="poly" title=" " alt="" coords="940,106,921,140,916,138,936,104"/>
+<area shape="rect" title=" " alt="" coords="963,153,1028,178"/>
+<area shape="poly" title=" " alt="" coords="955,103,980,138,976,141,951,106"/>
+<area shape="rect" title=" " alt="" coords="1035,226,1095,252"/>
+<area shape="poly" title=" " alt="" coords="1101,180,1082,214,1077,211,1097,177"/>
+<area shape="rect" title=" " alt="" coords="664,226,730,252"/>
+<area shape="poly" title=" " alt="" coords="1052,179,1041,181,746,232,745,227,1040,176,1051,174"/>
+<area shape="poly" title=" " alt="" coords="1052,179,1041,181,833,204,629,221,332,239,332,233,628,215,832,198,1040,176,1051,174"/>
+<area shape="rect" title=" " alt="" coords="1119,226,1176,252"/>
+<area shape="poly" title=" " alt="" coords="1115,177,1135,211,1130,214,1111,180"/>
+<area shape="poly" title=" " alt="" coords="68,104,93,139,111,159,132,176,160,193,191,207,249,226,248,231,189,212,158,198,128,181,108,163,89,143,63,107"/>
+<area shape="poly" title=" " alt="" coords="850,103,1039,146,1038,151,849,108"/>
+<area shape="poly" title=" " alt="" coords="816,103,875,141,872,146,814,107"/>
+<area shape="rect" title=" " alt="" coords="757,153,847,178"/>
+<area shape="poly" title=" " alt="" coords="800,105,803,137,797,137,795,105"/>
+<area shape="poly" title=" " alt="" coords="544,107,509,143,461,181,395,211,333,231,331,226,393,206,458,176,506,139,540,103"/>
+<area shape="poly" title=" " alt="" coords="560,104,572,137,567,139,555,106"/>
+<area shape="poly" title=" " alt="" coords="578,103,660,143,657,148,576,108"/>
+<area shape="rect" title=" " alt="" coords="379,153,447,178"/>
+<area shape="poly" title=" " alt="" coords="530,108,451,148,449,143,528,103"/>
+<area shape="poly" title=" " alt="" coords="340,105,346,141,355,160,368,176,388,188,417,199,492,215,576,226,648,232,648,238,575,231,492,221,415,204,386,193,364,180,350,163,341,142,335,106"/>
+<area shape="poly" title=" " alt="" coords="335,106,301,212,296,211,330,104"/>
+<area shape="poly" title=" " alt="" coords="318,107,253,147,251,142,315,103"/>
 </map>
 </div>
 </div>
 <p><a href="main_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a2bebd3800fadbad87d4ae76050dc7191" id="r_a2bebd3800fadbad87d4ae76050dc7191"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a2bebd3800fadbad87d4ae76050dc7191">FL</a>&#160;&#160;&#160;std::flush</td></tr>
+<tr class="separator:a2bebd3800fadbad87d4ae76050dc7191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a2b2d4ce8b34d14b9e775eaf6214b00e1" id="r_a2b2d4ce8b34d14b9e775eaf6214b00e1"><td class="memItemLeft" align="right" valign="top">INITIALIZE_EASYLOGGINGPP int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a2b2d4ce8b34d14b9e775eaf6214b00e1">main</a> (int argc, char *argv[])</td></tr>
 <tr class="memdesc:a2b2d4ce8b34d14b9e775eaf6214b00e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function.  <br /></td></tr>
 <tr class="separator:a2b2d4ce8b34d14b9e775eaf6214b00e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a2bebd3800fadbad87d4ae76050dc7191" name="a2bebd3800fadbad87d4ae76050dc7191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bebd3800fadbad87d4ae76050dc7191">&#9670;&#160;</a></span>FL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FL&#160;&#160;&#160;std::flush</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd>Temporary till logger is fixed </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00017">17</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a2b2d4ce8b34d14b9e775eaf6214b00e1" name="a2b2d4ce8b34d14b9e775eaf6214b00e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b2d4ce8b34d14b9e775eaf6214b00e1">&#9670;&#160;</a></span>main()</h2>
@@ -199,39 +235,45 @@ Functions</h2></td></tr>
 <dl class="bug"><dt><b><a class="el" href="bug.html#_bug000006">Bug:</a></b></dt><dd>Getopt is not working on Windows. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>maybe close in creator? But this leaves possibility to add more stuff - why?</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00029">29</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00034">34</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classbatch_1_1BatchCreator.html#a5cc3b560ff2d71cf65afb15cd23677da">batch::BatchCreator::createBatchFile()</a>, <a class="el" href="JSONHandler_8cpp_source.html#l00022">json::JSONHandler::getJSONData()</a>, <a class="el" href="StartupHandler_8cpp_source.html#l00020">utils::StartupHandler::getOptions()</a>, and <a class="el" href="StartupHandler_8cpp_source.html#l00013">utils::StartupHandler::initEasyLogging()</a>.</p>
+<p class="reference">References <a class="el" href="CliHandler_8hpp_source.html#l00013">cli::CLEAR_TERMINAL</a>, <a class="el" href="classbatch_1_1BatchCreator.html#a5cc3b560ff2d71cf65afb15cd23677da">batch::BatchCreator::createBatchFile()</a>, <a class="el" href="JSONHandler_8cpp_source.html#l00025">json::JSONHandler::getJSONData()</a>, <a class="el" href="StartupHandler_8cpp_source.html#l00019">utils::StartupHandler::getOptions()</a>, <a class="el" href="CliHandler_8hpp_source.html#l00022">cli::GREEN_FG</a>, <a class="el" href="StartupHandler_8cpp_source.html#l00012">utils::StartupHandler::initEasyLogging()</a>, <a class="el" href="CliHandler_8hpp_source.html#l00017">cli::ITALIC</a>, <a class="el" href="LogAndOut_8hpp_source.html#l00011">LOG_ERROR</a>, <a class="el" href="LogAndOut_8hpp_source.html#l00010">LOG_INFO</a>, <a class="el" href="LogAndOut_8hpp_source.html#l00012">LOG_WARNING</a>, <a class="el" href="LogAndOut_8hpp_source.html#l00014">OUTPUT</a>, <a class="el" href="CliHandler_8hpp_source.html#l00014">cli::RESET</a>, and <a class="el" href="CliHandler_8hpp_source.html#l00018">cli::UNDERLINE</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.png" border="0" usemap="#amain_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph" alt=""/></div>
 <map name="amain_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph" id="amain_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph">
-<area shape="rect" title="Main function." alt="" coords="5,145,55,171"/>
-<area shape="rect" href="classbatch_1_1BatchCreator.html#a5cc3b560ff2d71cf65afb15cd23677da" title=" " alt="" coords="104,39,240,79"/>
-<area shape="poly" title=" " alt="" coords="42,143,68,117,101,90,109,85,112,90,104,94,71,121,45,146"/>
-<area shape="rect" href="classjson_1_1JSONHandler.html#a90f7bd04911d0e6dfe91ded17ba4edcf" title="Retrieve the JSONData object." alt="" coords="103,104,241,145"/>
-<area shape="poly" title=" " alt="" coords="54,149,87,142,88,147,56,155"/>
-<area shape="rect" href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c" title="Get options from command line." alt="" coords="103,169,241,210"/>
-<area shape="poly" title=" " alt="" coords="56,160,88,168,87,173,54,166"/>
-<area shape="rect" href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169" title="Initialize easylogging." alt="" coords="103,235,241,275"/>
-<area shape="poly" title=" " alt="" coords="46,169,72,194,104,219,112,224,109,229,101,224,68,198,42,173"/>
-<area shape="rect" href="classjson_1_1JSONHandler.html#a06851f419487aefd2bba756a380fa17b" title="Creates a JSONData object." alt="" coords="289,104,427,145"/>
-<area shape="poly" title=" " alt="" coords="242,122,273,122,273,127,242,127"/>
-<area shape="rect" href="classjson_1_1JSONHandler.html#ab07f5a8033adce04838d46f8de0bfd8f" title="Assigns the application to the JSONData object." alt="" coords="475,5,614,46"/>
-<area shape="poly" title=" " alt="" coords="394,101,474,57,485,51,487,56,477,61,397,106"/>
-<area shape="rect" href="classjson_1_1JSONHandler.html#ab47cc695be5896e9fb8b468322500d5f" title="Assigns the entries to the JSONData object." alt="" coords="475,71,614,111"/>
-<area shape="poly" title=" " alt="" coords="427,109,459,104,460,109,428,115"/>
-<area shape="rect" href="classjson_1_1JSONHandler.html#a73c49efaca3076cc6c6778522783a841" title="Assigns the hide shell value to the JSONData object." alt="" coords="475,136,614,177"/>
-<area shape="poly" title=" " alt="" coords="428,134,460,139,459,144,427,139"/>
-<area shape="rect" href="classjson_1_1JSONHandler.html#aad7a31a7d68e89c2da51f4337a1370c9" title="Assigns the output file to the JSONData object." alt="" coords="475,201,614,242"/>
-<area shape="poly" title=" " alt="" coords="398,143,477,186,488,192,485,196,474,191,395,148"/>
-<area shape="rect" href="classjson_1_1JSONHandler.html#a0874e5bcaac5fe6788233e5102b122f8" title="Assigns a command to the JSONData object." alt="" coords="682,5,820,46"/>
-<area shape="poly" title=" " alt="" coords="610,68,669,49,670,54,612,73"/>
-<area shape="rect" href="classjson_1_1JSONHandler.html#a9bfd9f3a8aeea73dbeec1325352e5bd4" title="Assigns an environment variable to the JSONData object." alt="" coords="662,71,840,111"/>
-<area shape="poly" title=" " alt="" coords="614,88,646,88,646,94,614,94"/>
-<area shape="rect" href="classjson_1_1JSONHandler.html#ab54981db4558b93ddd3e001c46821c17" title="Assigns a path value to the JSONData object." alt="" coords="682,136,820,177"/>
-<area shape="poly" title=" " alt="" coords="612,109,670,128,669,133,610,114"/>
+<area shape="rect" title="Main function." alt="" coords="5,173,55,199"/>
+<area shape="rect" href="classbatch_1_1BatchCreator.html#a5cc3b560ff2d71cf65afb15cd23677da" title=" " alt="" coords="104,67,240,107"/>
+<area shape="poly" title=" " alt="" coords="42,171,68,145,101,118,109,113,112,118,104,122,71,149,45,174"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a90f7bd04911d0e6dfe91ded17ba4edcf" title="Retrieve the JSONData object." alt="" coords="103,132,241,173"/>
+<area shape="poly" title=" " alt="" coords="54,177,87,170,88,175,56,183"/>
+<area shape="rect" href="classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c" title="Get options from command line." alt="" coords="103,197,241,238"/>
+<area shape="poly" title=" " alt="" coords="56,188,88,196,87,201,54,194"/>
+<area shape="rect" href="classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169" title="Initialize easylogging." alt="" coords="103,263,241,303"/>
+<area shape="poly" title=" " alt="" coords="46,197,72,222,104,247,112,252,109,257,101,252,68,226,42,201"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a06851f419487aefd2bba756a380fa17b" title="Creates a JSONData object." alt="" coords="292,103,430,143"/>
+<area shape="poly" title=" " alt="" coords="241,139,276,133,277,139,242,144"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#ab07f5a8033adce04838d46f8de0bfd8f" title="Assigns the application to the JSONData object." alt="" coords="481,5,620,46"/>
+<area shape="poly" title=" " alt="" coords="399,100,480,57,491,51,494,56,483,61,402,105"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#ab47cc695be5896e9fb8b468322500d5f" title="Assigns the entries to the JSONData object." alt="" coords="481,71,620,111"/>
+<area shape="poly" title=" " alt="" coords="430,109,465,103,466,108,431,114"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a73c49efaca3076cc6c6778522783a841" title="Assigns the hide shell value to the JSONData object." alt="" coords="481,136,620,177"/>
+<area shape="poly" title=" " alt="" coords="431,133,466,139,465,144,430,138"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#aad7a31a7d68e89c2da51f4337a1370c9" title="Assigns the output file to the JSONData object." alt="" coords="481,201,620,242"/>
+<area shape="poly" title=" " alt="" coords="411,142,435,154,483,186,493,192,490,196,480,191,432,159,408,146"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a0874e5bcaac5fe6788233e5102b122f8" title="Assigns a command to the JSONData object." alt="" coords="688,5,826,46"/>
+<area shape="poly" title=" " alt="" coords="616,68,675,49,676,54,618,73"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#a9bfd9f3a8aeea73dbeec1325352e5bd4" title="Assigns an environment variable to the JSONData object." alt="" coords="668,71,846,111"/>
+<area shape="poly" title=" " alt="" coords="620,88,652,88,652,94,620,94"/>
+<area shape="rect" href="classjson_1_1JSONHandler.html#ab54981db4558b93ddd3e001c46821c17" title="Assigns a path value to the JSONData object." alt="" coords="688,136,826,177"/>
+<area shape="poly" title=" " alt="" coords="618,109,676,128,675,133,616,114"/>
+<area shape="rect" href="classutils_1_1VerboseHandler.html#a8ab3a8ea9ab5e99e22e6895e4f90e140" title=" " alt="" coords="289,168,433,209"/>
+<area shape="poly" title=" " alt="" coords="241,204,273,199,274,204,242,210"/>
+<area shape="rect" href="namespaceutils.html#a9d7d725816e0a1390d7246dc9aeef37d" title=" " alt="" coords="327,233,395,259"/>
+<area shape="poly" title=" " alt="" coords="242,225,312,236,311,241,241,231"/>
+<area shape="rect" href="classutils_1_1VerboseHandler.html#ad5ee342e6f1aba7bdd50e0a86952b16e" title=" " alt="" coords="289,283,433,323"/>
+<area shape="poly" title=" " alt="" coords="219,236,290,269,301,273,298,278,288,273,217,241"/>
 </map>
 </div>
 
@@ -243,7 +285,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
-    <li class="footer">Generated on Wed Feb 28 2024 22:07:52 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Feb 29 2024 12:13:30 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

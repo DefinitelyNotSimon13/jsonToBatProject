@@ -2,21 +2,44 @@
 \hypertarget{CliHandler_8hpp_source}{}\label{CliHandler_8hpp_source}\index{src/headers/CliHandler.hpp@{src/headers/CliHandler.hpp}}
 \mbox{\hyperlink{CliHandler_8hpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00001}00001\ \textcolor{comment}{//}}
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00002}00002\ \textcolor{comment}{//\ Created\ by\ simon\ on\ 28.02.24.}}
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00003}00003\ \textcolor{comment}{//}}
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00004}00004\ }
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00005}00005\ \textcolor{preprocessor}{\#ifndef\ JSONTOBATCH\_CLIHANDLER\_HPP}}
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00006}00006\ \textcolor{preprocessor}{\#define\ JSONTOBATCH\_CLIHANDLER\_HPP}}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#ifndef\ CLIHANDLER\_HPP}}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00002}00002\ \textcolor{preprocessor}{\#define\ CLIHANDLER\_HPP}}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00005}\mbox{\hyperlink{namespacecli}{00005}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacecli}{cli}}\ \{}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00006}00006\ }
 \DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00007}00007\ }
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00008}\mbox{\hyperlink{namespaceclInterface}{00008}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceclInterface}{clInterface}}\ \{}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00008}\mbox{\hyperlink{classcli_1_1CliHandler}{00008}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classcli_1_1CliHandler}{CliHandler}}\ \{\};}
 \DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00009}00009\ }
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00010}\mbox{\hyperlink{classclInterface_1_1CliHandler}{00010}}\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classclInterface_1_1CliHandler}{CliHandler}}\ \{}
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00011}00011\ }
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00012}00012\ \ \ \ \ \};}
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00013}00013\ }
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00014}00014\ \}\ \textcolor{comment}{//\ clInterface}}
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00015}00015\ }
-\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00016}00016\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//JSONTOBATCH\_CLIHANDLER\_HPP}}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00010}00010\ \textcolor{preprocessor}{\#if\ IS\_WIN32}}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00011}00011\ \textcolor{comment}{//\ Not\ supported\ rn}}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00012}00012\ \textcolor{preprocessor}{\#else\ }}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00013}\mbox{\hyperlink{namespacecli_a6086903cd7c6f240358097688b28eefb}{00013}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a6086903cd7c6f240358097688b28eefb}{CLEAR\_TERMINAL}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[2J"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00014}\mbox{\hyperlink{namespacecli_a8822abc9e48f38023d8b34e4ee53ec73}{00014}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a8822abc9e48f38023d8b34e4ee53ec73}{RESET}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[0m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00015}\mbox{\hyperlink{namespacecli_aa40707db5c7ac4a8dd132b62ecba595b}{00015}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_aa40707db5c7ac4a8dd132b62ecba595b}{BOLD}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[1m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00016}\mbox{\hyperlink{namespacecli_a0789441168b6379e519ed025954d7cc8}{00016}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a0789441168b6379e519ed025954d7cc8}{DIM}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[2m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00017}\mbox{\hyperlink{namespacecli_ac0148043f91c84b2130d58fff328240a}{00017}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_ac0148043f91c84b2130d58fff328240a}{ITALIC}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[3m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00018}\mbox{\hyperlink{namespacecli_a7119a2e8d5ffc6397fa2c5b412070d9d}{00018}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a7119a2e8d5ffc6397fa2c5b412070d9d}{UNDERLINE}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[4m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00019}\mbox{\hyperlink{namespacecli_a6154934fcd9f35cfad154d3e2402f07c}{00019}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a6154934fcd9f35cfad154d3e2402f07c}{BLINKING}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[5m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00020}\mbox{\hyperlink{namespacecli_ac37c6442217da52c209559f38567d8fc}{00020}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_ac37c6442217da52c209559f38567d8fc}{BLACK\_FG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[30m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00021}\mbox{\hyperlink{namespacecli_a2b7a0c3c56d8299bce1af598912dd750}{00021}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a2b7a0c3c56d8299bce1af598912dd750}{RED\_FG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[31m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00022}\mbox{\hyperlink{namespacecli_a6b3bc8c75458e39aa255e04cd46c6846}{00022}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a6b3bc8c75458e39aa255e04cd46c6846}{GREEN\_FG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[32m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00023}\mbox{\hyperlink{namespacecli_a32bf08cb9b1ef8600954638b33a45335}{00023}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a32bf08cb9b1ef8600954638b33a45335}{YELLOW\_FG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[33m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00024}\mbox{\hyperlink{namespacecli_a628d5b7f5558d35d19d7cd808a0375ae}{00024}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a628d5b7f5558d35d19d7cd808a0375ae}{BLUE\_FG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[34m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00025}\mbox{\hyperlink{namespacecli_ab737b0a4c6627d9ed73c2bae786cd176}{00025}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_ab737b0a4c6627d9ed73c2bae786cd176}{MAGENTA\_FG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[35m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00026}\mbox{\hyperlink{namespacecli_a2ba92854a2bc8548ee38a320ee25712d}{00026}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a2ba92854a2bc8548ee38a320ee25712d}{CYAN\_FG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[36m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00027}\mbox{\hyperlink{namespacecli_acc14b530d2330f089e344efe16dcd3fc}{00027}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_acc14b530d2330f089e344efe16dcd3fc}{WHITE\_FG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[37m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00028}\mbox{\hyperlink{namespacecli_a40e5d968740dc19f33c3e1c8e5a700d1}{00028}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a40e5d968740dc19f33c3e1c8e5a700d1}{RED\_BG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[41m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00029}\mbox{\hyperlink{namespacecli_a69bd96f91de12ff309a3960cab98537e}{00029}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a69bd96f91de12ff309a3960cab98537e}{GREEN\_BG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[42m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00030}\mbox{\hyperlink{namespacecli_abba8a8e6c2f076ba9ec9ea599a056ea2}{00030}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_abba8a8e6c2f076ba9ec9ea599a056ea2}{YELLOW\_BG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[43m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00031}\mbox{\hyperlink{namespacecli_a0ba8873cf0db351da46d887b562aa4e8}{00031}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a0ba8873cf0db351da46d887b562aa4e8}{BLUE\_BG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[44m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00032}\mbox{\hyperlink{namespacecli_a2c0a005e7512e936a4aab37656d17288}{00032}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a2c0a005e7512e936a4aab37656d17288}{MAGENTA\_BG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[45m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00033}\mbox{\hyperlink{namespacecli_a329eefa8fb969db719a3dfd0652396bd}{00033}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a329eefa8fb969db719a3dfd0652396bd}{CYAN\_BG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[46m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00034}\mbox{\hyperlink{namespacecli_a19ee9cd8da584c7230a8b5d121a73b8c}{00034}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a19ee9cd8da584c7230a8b5d121a73b8c}{WHITE\_BG}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[47m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00035}\mbox{\hyperlink{namespacecli_a07d5923890ff8406a29f68dba0c9dc2c}{00035}}\ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ std::string\ \mbox{\hyperlink{namespacecli_a07d5923890ff8406a29f68dba0c9dc2c}{ERROR}}\ =\ \textcolor{stringliteral}{"{}\(\backslash\)x1b[31m\(\backslash\)x1b[1m"{}};}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00036}00036\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00037}00037\ \}\ \textcolor{comment}{//\ namespace\ cli}}
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{CliHandler_8hpp_source_l00039}00039\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ CLIHANDLER\_HPP}}
 
 \end{DoxyCode}

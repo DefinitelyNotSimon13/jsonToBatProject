@@ -3,75 +3,95 @@
 \mbox{\hyperlink{BatchCreator_8cpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
 \DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{BatchCreator_8hpp}{BatchCreator.hpp}}"{}}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ <fstream>}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ <memory>}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <sstream>}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ <utility>}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00006}00006\ }
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00007}00007\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacebatch}{batch}}\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00008}00008\ }
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00009}00009\ \ \ \ \ \mbox{\hyperlink{classbatch_1_1BatchCreator_a9ddaf7346c25d97ef5b8be8e3c5969c3}{BatchCreator::BatchCreator}}(std::shared\_ptr<json::JSONData>\ jsonData)}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00010}00010\ \ \ \ \ \ \ \ \ \ \ \ \ :\ jsonData(std::move(jsonData))\ \{\}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00011}00011\ }
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00012}00012\ \ \ \ \ std::shared\_ptr<std::ofstream>\ BatchCreator::createBatchFile()\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00013}00013\ \ \ \ \ \ \ \ \ this-\/>batchFile\ =\ std::make\_shared<std::ofstream>();}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00014}00014\ \ \ \ \ \ \ \ \ this-\/>batchFile-\/>open(this-\/>jsonData-\/>getOutputFile());}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00015}00015\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (this-\/>jsonData-\/>getHideShell())\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00016}00016\ \ \ \ \ \ \ \ \ \ \ \ \ this-\/>writeHideShellStart();}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00017}00017\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00018}00018\ \ \ \ \ \ \ \ \ this-\/>writeShell();}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00019}00019\ \ \ \ \ \ \ \ \ this-\/>writeCommands();}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00020}00020\ \ \ \ \ \ \ \ \ this-\/>writeEnvironmentVariables();}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00021}00021\ \ \ \ \ \ \ \ \ this-\/>writePathValue();}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00022}00022\ \ \ \ \ \ \ \ \ this-\/>writeApplication();}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00023}00023\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (this-\/>jsonData-\/>getHideShell())\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00024}00024\ \ \ \ \ \ \ \ \ \ \ \ \ this-\/>writeHideShellEnd();}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00025}00025\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00026}00026\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ this-\/>batchFile;}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00027}00027\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00028}00028\ }
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00029}00029\ \ \ \ \ \textcolor{keywordtype}{void}\ BatchCreator::writeHideShellStart()\ \{\ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}@ECHO\ OFF\(\backslash\)n"{}};\ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00030}00030\ }
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00031}00031\ \ \ \ \ \textcolor{keywordtype}{void}\ BatchCreator::writeHideShellEnd()\ \{\ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}@ECHO\ ON\(\backslash\)n"{}};\ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00032}00032\ }
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00034}00034\ \ \ \ \ \textcolor{keywordtype}{void}\ BatchCreator::writeShell()\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00035}00035\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (this-\/>jsonData-\/>getHideShell())\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00036}00036\ \ \ \ \ \ \ \ \ \ \ \ \ *this-\/>batchFile\ <<\ R\textcolor{stringliteral}{"{}(START\ C:\(\backslash\)Windows\(\backslash\)System32\(\backslash\)cmd.exe\ /C\ "{})"{};}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00037}00037\ \textcolor{stringliteral}{\ \ \ \ \ \ \ \ \ \ \ \ }\textcolor{keywordflow}{return};}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00038}00038\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00039}00039\ \ \ \ \ \ \ \ \ *this-\/>batchFile\ <<\ R\textcolor{stringliteral}{"{}(START\ C:\(\backslash\)Windows\(\backslash\)System32\(\backslash\)cmd.exe\ /K\ "{})"{};}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00040}00040\ \textcolor{stringliteral}{\ \ \ \ \}}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00041}00041\ \textcolor{stringliteral}{}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00042}00042\ \textcolor{stringliteral}{\ \ \ \ }\textcolor{keywordtype}{void}\ BatchCreator::writeCommands()\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00043}00043\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \textcolor{keyword}{auto}\ \&command:\ this-\/>jsonData-\/>getCommands())\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}CALL\ "{}}\ <<\ command\ <<\ \textcolor{stringliteral}{"{}\ \&\&\ \string^\(\backslash\)n"{}};}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00045}00045\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00046}00046\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00047}00047\ }
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00048}00048\ \ \ \ \ \textcolor{keywordtype}{void}\ BatchCreator::writeEnvironmentVariables()\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00049}00049\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \textcolor{keyword}{auto}\ \&envVar:\ this-\/>jsonData-\/>getEnvironmentVariables())\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00050}00050\ \ \ \ \ \ \ \ \ \ \ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}SET\ "{}}\ <<\ std::get<0>(envVar)\ <<\ \textcolor{stringliteral}{"{}="{}}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00051}00051\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::get<1>(envVar)\ <<\ \textcolor{stringliteral}{"{}\ \&\&\ \string^\(\backslash\)n"{}};}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00052}00052\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00053}00053\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00054}00054\ }
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00055}00055\ \ \ \ \ \textcolor{keywordtype}{void}\ BatchCreator::writePathValue()\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00056}00056\ \ \ \ \ \ \ \ \ std::stringstream\ additionalPaths;}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00057}00057\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \textcolor{keyword}{auto}\ \&pathValue:\ this-\/>jsonData-\/>getPathValues())\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00058}00058\ \ \ \ \ \ \ \ \ \ \ \ \ additionalPaths\ <<\ pathValue\ <<\ \textcolor{stringliteral}{"{};"{}};}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00059}00059\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00060}00060\ \ \ \ \ \ \ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}SET\ PATH=\%PATH\%;"{}}\ <<\ additionalPaths.str();}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00061}00061\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00062}00062\ }
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00063}00063\ \ \ \ \ \textcolor{keywordtype}{void}\ BatchCreator::writeApplication()\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00064}00064\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!this-\/>jsonData-\/>getApplication().has\_value())\ \{}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00065}00065\ \ \ \ \ \ \ \ \ \ \ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)"{}\(\backslash\)n"{}};}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00066}00066\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return};}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00067}00067\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00068}00068\ \ \ \ \ \ \ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}\ \&\&\ \string^\(\backslash\)n"{}}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00069}00069\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ this-\/>jsonData-\/>getApplication().value()}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00070}00070\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ \textcolor{stringliteral}{"{}\(\backslash\)"{}\(\backslash\)n"{}};}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00071}00071\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00072}00072\ \}\ \textcolor{comment}{//\ namespace\ batch}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{LogAndOut_8hpp}{LogAndOut.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ <fstream>}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ <utility>}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00008}00008\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacebatch}{batch}}\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00010}00010\ \mbox{\hyperlink{classbatch_1_1BatchCreator_a9ddaf7346c25d97ef5b8be8e3c5969c3}{BatchCreator::BatchCreator}}(std::shared\_ptr<json::JSONData>\ jsonData)}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00011}00011\ \ \ \ \ :\ jsonData(std::move(jsonData))\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00012}00012\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Initializing\ BatchCreator...\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00013}00013\ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00015}00015\ std::shared\_ptr<std::ofstream>\ BatchCreator::createBatchFile()\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00016}00016\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Creating\ batch\ file...\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00017}00017\ \ \ this-\/>batchFile\ =\ std::make\_shared<std::ofstream>();}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00018}00018\ \ \ this-\/>batchFile-\/>open(this-\/>jsonData-\/>getOutputFile());}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00019}00019\ \ \ \textcolor{keywordflow}{if}\ (this-\/>jsonData-\/>getHideShell())\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00020}00020\ \ \ \ \ this-\/>writeHideShellStart();}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00021}00021\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00022}00022\ \ \ this-\/>writeShell();}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00023}00023\ \ \ this-\/>writeCommands();}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00024}00024\ \ \ this-\/>writeEnvironmentVariables();}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00025}00025\ \ \ this-\/>writePathValue();}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00026}00026\ \ \ this-\/>writeApplication();}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00027}00027\ \ \ \textcolor{keywordflow}{if}\ (this-\/>jsonData-\/>getHideShell())\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00028}00028\ \ \ \ \ this-\/>writeHideShellEnd();}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00029}00029\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00030}00030\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Batch\ file\ created!\ Returning\ it...\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00031}00031\ \ \ \textcolor{keywordflow}{return}\ this-\/>batchFile;}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00032}00032\ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00033}00033\ }
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00034}00034\ \textcolor{keywordtype}{void}\ BatchCreator::writeHideShellStart()\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00035}00035\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Writing\ hide\ shell\ start...\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00036}00036\ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}@ECHO\ OFF\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00037}00037\ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00039}00039\ \textcolor{keywordtype}{void}\ BatchCreator::writeHideShellEnd()\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00040}00040\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Writing\ hide\ shell\ end...\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00041}00041\ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}@ECHO\ ON\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00042}00042\ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00043}00043\ }
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00045}00045\ \textcolor{keywordtype}{void}\ BatchCreator::writeShell()\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00046}00046\ \ \ \textcolor{keywordflow}{if}\ (this-\/>jsonData-\/>getHideShell())\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00047}00047\ \ \ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Writing\ closing\ shell\ after\ finish...\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00048}00048\ \ \ \ \ *this-\/>batchFile\ <<\ R\textcolor{stringliteral}{"{}(START\ C:\(\backslash\)Windows\(\backslash\)System32\(\backslash\)cmd.exe\ /C\ "{})"{};}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00049}00049\ \textcolor{stringliteral}{\ \ \ \ }\textcolor{keywordflow}{return};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00050}00050\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00051}00051\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Writing\ keeping\ shell\ open\ after\ finish...\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00052}00052\ \ \ *this-\/>batchFile\ <<\ R\textcolor{stringliteral}{"{}(START\ C:\(\backslash\)Windows\(\backslash\)System32\(\backslash\)cmd.exe\ /K\ "{})"{};}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00053}00053\ \textcolor{stringliteral}{\}}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00054}00054\ \textcolor{stringliteral}{}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00055}00055\ \textcolor{stringliteral}{}\textcolor{keywordtype}{void}\ BatchCreator::writeCommands()\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00056}00056\ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \textcolor{keyword}{auto}\ \&command\ :\ this-\/>jsonData-\/>getCommands())\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00057}00057\ \ \ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Writing\ command:\ "{}}\ <<\ command\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00058}00058\ \ \ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}CALL\ "{}}\ <<\ command\ <<\ \textcolor{stringliteral}{"{}\ \&\&\ \string^\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00059}00059\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00060}00060\ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00061}00061\ }
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00062}00062\ \textcolor{keywordtype}{void}\ BatchCreator::writeEnvironmentVariables()\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00063}00063\ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \textcolor{keyword}{auto}\ \&envVar\ :\ this-\/>jsonData-\/>getEnvironmentVariables())\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00064}00064\ \ \ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Writing\ environment\ variable:\ "{}}\ <<\ std::get<0>(envVar)\ <<\ \textcolor{stringliteral}{"{}="{}}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00065}00065\ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::get<1>(envVar)\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00066}00066\ \ \ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}SET\ "{}}\ <<\ std::get<0>(envVar)\ <<\ \textcolor{stringliteral}{"{}="{}}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00067}00067\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::get<1>(envVar)\ <<\ \textcolor{stringliteral}{"{}\ \&\&\ \string^\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00068}00068\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00069}00069\ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00070}00070\ }
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00071}00071\ \textcolor{keywordtype}{void}\ BatchCreator::writePathValue()\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00072}00072\ \ \ std::stringstream\ additionalPaths;}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00073}00073\ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \textcolor{keyword}{auto}\ \&pathValue\ :\ this-\/>jsonData-\/>getPathValues())\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00074}00074\ \ \ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Writing\ additional\ path\ value:\ "{}}\ <<\ pathValue\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00075}00075\ \ \ \ \ additionalPaths\ <<\ pathValue\ <<\ \textcolor{stringliteral}{"{};"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00076}00076\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00077}00077\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Adding\ additional\ paths:\ "{}}\ <<\ additionalPaths.str()\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00078}00078\ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}SET\ PATH="{}}\ <<\ additionalPaths.str()\ <<\ \textcolor{stringliteral}{"{}\%PATH\%"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00079}00079\ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00080}00080\ }
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00081}00081\ \textcolor{keywordtype}{void}\ BatchCreator::writeApplication()\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00082}00082\ \ \ \textcolor{keywordflow}{if}\ (!this-\/>jsonData-\/>getApplication().has\_value())\ \{}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00083}00083\ \ \ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}No\ application\ provided,\ writing\ to\ close\ shell...\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00084}00084\ \ \ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)"{}\(\backslash\)r\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00085}00085\ \ \ \ \ \textcolor{keywordflow}{return};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00086}00086\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00087}00087\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Writing\ application:\ "{}}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00088}00088\ \ \ \ \ \ \ \ \ \ \ \ <<\ this-\/>jsonData-\/>getApplication().value()\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00089}00089\ \ \ *this-\/>batchFile\ <<\ \textcolor{stringliteral}{"{}\ \&\&\ \string^\(\backslash\)n"{}}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00090}00090\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ this-\/>jsonData-\/>getApplication().value()\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)"{}\(\backslash\)r\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00091}00091\ \}}
+\DoxyCodeLine{\Hypertarget{BatchCreator_8cpp_source_l00092}00092\ \}\ \textcolor{comment}{//\ namespace\ batch}}
 
 \end{DoxyCode}

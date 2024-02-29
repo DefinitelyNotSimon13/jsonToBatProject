@@ -1,4 +1,4 @@
-.TH "src/main.cpp" 3 "Wed Feb 28 2024 22:07:52" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.TH "src/main.cpp" 3 "Thu Feb 29 2024 12:13:30" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -6,15 +6,21 @@ src/main.cpp
 .SH SYNOPSIS
 .br
 .PP
-\fC#include 'JSONData\&.hpp'\fP
+\fC#include 'BatchCreator\&.hpp'\fP
 .br
-\fC#include 'StartupHandler\&.hpp'\fP
+\fC#include 'CliHandler\&.hpp'\fP
+.br
+\fC#include 'JSONData\&.hpp'\fP
 .br
 \fC#include 'JSONHandler\&.hpp'\fP
 .br
-\fC#include 'BatchCreator\&.hpp'\fP
+\fC#include 'LogAndOut\&.hpp'\fP
+.br
+\fC#include 'StartupHandler\&.hpp'\fP
 .br
 \fC#include <easylogging++\&.h>\fP
+.br
+\fC#include <filesystem>\fP
 .br
 \fC#include <getopt\&.h>\fP
 .br
@@ -22,13 +28,18 @@ src/main.cpp
 .br
 \fC#include <json/json\&.h>\fP
 .br
-\fC#include <sstream>\fP
-.br
 \fC#include <stdexcept>\fP
 .br
 \fC#include <string>\fP
 .br
 
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBFL\fP   std::flush"
+.br
+.in -1c
 .SS "Functions"
 
 .in +1c
@@ -37,6 +48,19 @@ src/main.cpp
 .br
 .RI "Main function\&. "
 .in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define FL   std::flush"
+
+.PP
+\fBNote\fP
+.RS 4
+Temporary till logger is fixed 
+.RE
+.PP
+
+.PP
+Definition at line \fB17\fP of file \fBmain\&.cpp\fP\&.
 .SH "Function Documentation"
 .PP 
 .SS "INITIALIZE_EASYLOGGINGPP int main (int argc, char * argv[])"
@@ -66,9 +90,9 @@ maybe close in creator? But this leaves possibility to add more stuff - why?
 .PP
 
 .PP
-Definition at line \fB29\fP of file \fBmain\&.cpp\fP\&.
+Definition at line \fB34\fP of file \fBmain\&.cpp\fP\&.
 .PP
-References \fBbatch::BatchCreator::createBatchFile()\fP, \fBjson::JSONHandler::getJSONData()\fP, \fButils::StartupHandler::getOptions()\fP, and \fButils::StartupHandler::initEasyLogging()\fP\&.
+References \fBcli::CLEAR_TERMINAL\fP, \fBbatch::BatchCreator::createBatchFile()\fP, \fBjson::JSONHandler::getJSONData()\fP, \fButils::StartupHandler::getOptions()\fP, \fBcli::GREEN_FG\fP, \fButils::StartupHandler::initEasyLogging()\fP, \fBcli::ITALIC\fP, \fBLOG_ERROR\fP, \fBLOG_INFO\fP, \fBLOG_WARNING\fP, \fBOUTPUT\fP, \fBcli::RESET\fP, and \fBcli::UNDERLINE\fP\&.
 .SH "Author"
 .PP 
 Generated automatically by Doxygen for jsonToBatProject from the source code\&.

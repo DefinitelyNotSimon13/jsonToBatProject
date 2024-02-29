@@ -93,13 +93,13 @@ $(document).ready(function(){initNavTree('StartupHandler_8cpp.html',''); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">StartupHandler.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="StartupHandler_8hpp_source.html">StartupHandler.hpp</a>&quot;</code><br />
-<code>#include &quot;easylogging++.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="LogAndOut_8hpp_source.html">LogAndOut.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Verbose_8hpp_source.html">Verbose.hpp</a>&quot;</code><br />
 <code>#include &lt;getopt.h&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
@@ -109,23 +109,33 @@ Include dependency graph for StartupHandler.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="StartupHandler_8cpp__incl.png" border="0" usemap="#asrc_2sources_2StartupHandler_8cpp" alt=""/></div>
 <map name="asrc_2sources_2StartupHandler_8cpp" id="asrc_2sources_2StartupHandler_8cpp">
-<area shape="rect" title=" " alt="" coords="181,5,385,31"/>
-<area shape="rect" href="StartupHandler_8hpp.html" title=" " alt="" coords="66,79,199,105"/>
-<area shape="poly" title=" " alt="" coords="259,34,173,74,171,70,256,29"/>
-<area shape="rect" title=" " alt="" coords="5,153,73,178"/>
-<area shape="poly" title=" " alt="" coords="199,34,113,54,78,66,56,81,47,93,42,108,39,138,34,137,37,106,43,91,52,77,75,62,112,48,198,29"/>
-<area shape="rect" title=" " alt="" coords="193,153,259,178"/>
-<area shape="poly" title=" " alt="" coords="281,32,238,139,234,137,276,30"/>
-<area shape="rect" title=" " alt="" coords="273,79,389,105"/>
-<area shape="poly" title=" " alt="" coords="293,30,317,64,312,67,289,33"/>
-<area shape="rect" title=" " alt="" coords="413,79,481,105"/>
-<area shape="poly" title=" " alt="" coords="312,29,406,70,404,75,310,34"/>
-<area shape="rect" title=" " alt="" coords="504,79,582,105"/>
-<area shape="poly" title=" " alt="" coords="328,29,490,73,488,78,326,34"/>
-<area shape="poly" title=" " alt="" coords="118,107,68,145,65,141,115,103"/>
-<area shape="poly" title=" " alt="" coords="150,103,200,141,196,145,147,107"/>
-<area shape="rect" title=" " alt="" coords="106,153,159,178"/>
-<area shape="poly" title=" " alt="" coords="135,105,135,137,130,137,130,105"/>
+<area shape="rect" title=" " alt="" coords="177,5,381,31"/>
+<area shape="rect" href="StartupHandler_8hpp.html" title=" " alt="" coords="25,79,157,105"/>
+<area shape="poly" title=" " alt="" coords="248,34,138,75,136,70,246,29"/>
+<area shape="rect" title=" " alt="" coords="9,153,77,178"/>
+<area shape="poly" title=" " alt="" coords="177,32,78,50,39,64,14,81,9,94,10,109,25,139,21,142,5,110,3,93,10,77,36,59,77,45,176,27"/>
+<area shape="rect" title=" " alt="" coords="110,153,176,178"/>
+<area shape="poly" title=" " alt="" coords="269,34,222,81,165,143,161,139,218,77,265,30"/>
+<area shape="rect" href="LogAndOut_8hpp.html" title=" " alt="" coords="350,79,461,105"/>
+<area shape="poly" title=" " alt="" coords="302,29,372,69,370,73,299,34"/>
+<area shape="rect" href="Verbose_8hpp.html" title=" " alt="" coords="232,79,326,105"/>
+<area shape="poly" title=" " alt="" coords="282,31,282,63,276,63,276,31"/>
+<area shape="rect" title=" " alt="" coords="485,79,553,105"/>
+<area shape="poly" title=" " alt="" coords="320,29,471,74,470,79,319,34"/>
+<area shape="rect" title=" " alt="" coords="576,79,654,105"/>
+<area shape="poly" title=" " alt="" coords="339,29,562,76,560,81,338,34"/>
+<area shape="poly" title=" " alt="" coords="85,106,62,141,57,138,81,103"/>
+<area shape="poly" title=" " alt="" coords="102,103,127,138,123,142,97,106"/>
+<area shape="rect" title=" " alt="" coords="200,153,254,178"/>
+<area shape="poly" title=" " alt="" coords="115,103,192,143,189,147,113,108"/>
+<area shape="poly" title=" " alt="" coords="376,108,269,150,267,145,374,103"/>
+<area shape="rect" title=" " alt="" coords="277,153,393,178"/>
+<area shape="poly" title=" " alt="" coords="396,107,359,143,356,140,392,103"/>
+<area shape="rect" title=" " alt="" coords="417,153,488,178"/>
+<area shape="poly" title=" " alt="" coords="416,103,438,138,434,141,411,106"/>
+<area shape="rect" title=" " alt="" coords="511,153,580,178"/>
+<area shape="poly" title=" " alt="" coords="431,103,509,143,507,148,428,108"/>
+<area shape="poly" title=" " alt="" coords="257,108,181,147,178,143,255,103"/>
 </map>
 </div>
 </div>
@@ -136,11 +146,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceutils" id="r_namespaceutils"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceutils.html">utils</a></td></tr>
 <tr class="memdesc:namespaceutils"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace for utility functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:af9ed45267aaf851a7be489bb88e5fbbd" id="r_af9ed45267aaf851a7be489bb88e5fbbd"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceutils.html#af9ed45267aaf851a7be489bb88e5fbbd">utils::verbose</a> = 0</td></tr>
-<tr class="separator:af9ed45267aaf851a7be489bb88e5fbbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -148,7 +153,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_1615da3a94339053b2ab44db3685f5d0.html">sources</a></li><li class="navelem"><a class="el" href="StartupHandler_8cpp.html">StartupHandler.cpp</a></li>
-    <li class="footer">Generated on Wed Feb 28 2024 22:07:52 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Feb 29 2024 12:13:30 for jsonToBatProject by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

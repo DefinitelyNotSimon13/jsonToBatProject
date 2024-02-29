@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['writeapplication_0',['writeApplication',['../classbatch_1_1BatchCreator.html#a09d5ad9fb9c81369884464f8e8141b6b',1,'batch::BatchCreator']]],
-  ['writecommands_1',['writeCommands',['../classbatch_1_1BatchCreator.html#aea249cfd30b105dd295f2087dd8f72df',1,'batch::BatchCreator']]],
-  ['writeenvironmentvariables_2',['writeEnvironmentVariables',['../classbatch_1_1BatchCreator.html#acf09f92fe301c95928fa46086e125828',1,'batch::BatchCreator']]],
-  ['writehideshellend_3',['writeHideShellEnd',['../classbatch_1_1BatchCreator.html#a53ce9bdc248a8af76f07e9dc604338c3',1,'batch::BatchCreator']]],
-  ['writehideshellstart_4',['writeHideShellStart',['../classbatch_1_1BatchCreator.html#ae4a1eac5a16b73fc13c0dc788b435137',1,'batch::BatchCreator']]],
-  ['writepathvalue_5',['writePathValue',['../classbatch_1_1BatchCreator.html#a17fb9be4c7011de8f94d3c5a850810a2',1,'batch::BatchCreator']]],
-  ['writeshell_6',['writeShell',['../classbatch_1_1BatchCreator.html#a21eec4761c88a82b84a8e9ffd754cb2a',1,'batch::BatchCreator']]]
+  ['setapplication_0',['setApplication',['../classjson_1_1JSONData.html#a515c8242d96ffa1930908a1573b72a83',1,'json::JSONData']]],
+  ['sethideshell_1',['setHideShell',['../classjson_1_1JSONData.html#a0c53da87e84bbbe92732cf9361d689f8',1,'json::JSONData']]],
+  ['setoutputfile_2',['setOutputFile',['../classjson_1_1JSONData.html#aa5c936b9f4653feed6cfb30683155ef7',1,'json::JSONData']]],
+  ['setverbose_3',['setVerbose',['../classutils_1_1VerboseHandler.html#ad5ee342e6f1aba7bdd50e0a86952b16e',1,'utils::VerboseHandler']]],
+  ['startuphandler_4',['startuphandler',['../classutils_1_1StartupHandler.html#a839d1f058ee5ec8d618aaaf91fe50a26',1,'utils::StartupHandler::StartupHandler(const StartupHandler &amp;)=delete'],['../classutils_1_1StartupHandler.html#afb1be30f328a938d47f8841c27b7d9fe',1,'utils::StartupHandler::StartupHandler()=default']]]
 ];

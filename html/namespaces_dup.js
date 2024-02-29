@@ -1,7 +1,8 @@
 var namespaces_dup =
 [
     [ "batch", "namespacebatch.html", "namespacebatch" ],
-    [ "clInterface", "namespaceclInterface.html", "namespaceclInterface" ],
+    [ "cli", "namespacecli.html", "namespacecli" ],
+    [ "clInterface", "namespaceclInterface.html", null ],
     [ "json", "namespacejson.html", "namespacejson" ],
     [ "utils", "namespaceutils.html", "namespaceutils" ]
 ];

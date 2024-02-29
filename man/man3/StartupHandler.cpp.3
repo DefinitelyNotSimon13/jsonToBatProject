@@ -1,4 +1,4 @@
-.TH "src/sources/StartupHandler.cpp" 3 "Wed Feb 28 2024 22:07:52" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.TH "src/sources/StartupHandler.cpp" 3 "Thu Feb 29 2024 12:13:30" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -8,7 +8,9 @@ src/sources/StartupHandler.cpp
 .PP
 \fC#include 'StartupHandler\&.hpp'\fP
 .br
-\fC#include 'easylogging++\&.h'\fP
+\fC#include 'LogAndOut\&.hpp'\fP
+.br
+\fC#include 'Verbose\&.hpp'\fP
 .br
 \fC#include <getopt\&.h>\fP
 .br
@@ -26,13 +28,6 @@ src/sources/StartupHandler.cpp
 .RI "namespace \fButils\fP"
 .br
 .RI "Namespace for utility functions\&. "
-.in -1c
-.SS "Variables"
-
-.in +1c
-.ti -1c
-.RI "static int \fButils::verbose\fP = 0"
-.br
 .in -1c
 .SH "Author"
 .PP 

@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['json_0',['json',['../namespacejson.html',1,'']]],
-  ['jsondata_1',['jsondata',['../classjson_1_1JSONData.html',1,'json::JSONData'],['../classbatch_1_1BatchCreator.html#abba7489b294e32264844bebad1844c39',1,'batch::BatchCreator::jsonData']]],
-  ['jsondata_2ecpp_2',['JSONData.cpp',['../JSONData_8cpp.html',1,'']]],
-  ['jsondata_2ehpp_3',['JSONData.hpp',['../JSONData_8hpp.html',1,'']]],
-  ['jsonhandler_4',['jsonhandler',['../classjson_1_1JSONHandler.html',1,'json::JSONHandler'],['../classjson_1_1JSONHandler.html#a954ed03654cc173ee713a20ff3edc384',1,'json::JSONHandler::JSONHandler()']]],
-  ['jsonhandler_2ecpp_5',['JSONHandler.cpp',['../JSONHandler_8cpp.html',1,'']]],
-  ['jsonhandler_2ehpp_6',['JSONHandler.hpp',['../JSONHandler_8hpp.html',1,'']]]
+  ['info_0',['INFO',['../namespaceutils.html#a6b50893705cf2a59daf6b680304017dda551b723eafd6a31d444fcb2f5920fbd3',1,'utils']]],
+  ['initeasylogging_1',['initEasyLogging',['../classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169',1,'utils::StartupHandler']]],
+  ['isverbose_2',['isVerbose',['../classutils_1_1VerboseHandler.html#ab7df3ef966b4e8f1f74716be2d24839f',1,'utils::VerboseHandler']]],
+  ['italic_3',['ITALIC',['../namespacecli.html#ac0148043f91c84b2130d58fff328240a',1,'cli']]]
 ];

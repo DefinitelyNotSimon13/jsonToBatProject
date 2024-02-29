@@ -1,0 +1,27 @@
+var namespacecli =
+[
+    [ "CliHandler", "classcli_1_1CliHandler.html", null ],
+    [ "BLACK_FG", "namespacecli.html#ac37c6442217da52c209559f38567d8fc", null ],
+    [ "BLINKING", "namespacecli.html#a6154934fcd9f35cfad154d3e2402f07c", null ],
+    [ "BLUE_BG", "namespacecli.html#a0ba8873cf0db351da46d887b562aa4e8", null ],
+    [ "BLUE_FG", "namespacecli.html#a628d5b7f5558d35d19d7cd808a0375ae", null ],
+    [ "BOLD", "namespacecli.html#aa40707db5c7ac4a8dd132b62ecba595b", null ],
+    [ "CLEAR_TERMINAL", "namespacecli.html#a6086903cd7c6f240358097688b28eefb", null ],
+    [ "CYAN_BG", "namespacecli.html#a329eefa8fb969db719a3dfd0652396bd", null ],
+    [ "CYAN_FG", "namespacecli.html#a2ba92854a2bc8548ee38a320ee25712d", null ],
+    [ "DIM", "namespacecli.html#a0789441168b6379e519ed025954d7cc8", null ],
+    [ "ERROR", "namespacecli.html#a07d5923890ff8406a29f68dba0c9dc2c", null ],
+    [ "GREEN_BG", "namespacecli.html#a69bd96f91de12ff309a3960cab98537e", null ],
+    [ "GREEN_FG", "namespacecli.html#a6b3bc8c75458e39aa255e04cd46c6846", null ],
+    [ "ITALIC", "namespacecli.html#ac0148043f91c84b2130d58fff328240a", null ],
+    [ "MAGENTA_BG", "namespacecli.html#a2c0a005e7512e936a4aab37656d17288", null ],
+    [ "MAGENTA_FG", "namespacecli.html#ab737b0a4c6627d9ed73c2bae786cd176", null ],
+    [ "RED_BG", "namespacecli.html#a40e5d968740dc19f33c3e1c8e5a700d1", null ],
+    [ "RED_FG", "namespacecli.html#a2b7a0c3c56d8299bce1af598912dd750", null ],
+    [ "RESET", "namespacecli.html#a8822abc9e48f38023d8b34e4ee53ec73", null ],
+    [ "UNDERLINE", "namespacecli.html#a7119a2e8d5ffc6397fa2c5b412070d9d", null ],
+    [ "WHITE_BG", "namespacecli.html#a19ee9cd8da584c7230a8b5d121a73b8c", null ],
+    [ "WHITE_FG", "namespacecli.html#acc14b530d2330f089e344efe16dcd3fc", null ],
+    [ "YELLOW_BG", "namespacecli.html#abba8a8e6c2f076ba9ec9ea599a056ea2", null ],
+    [ "YELLOW_FG", "namespacecli.html#a32bf08cb9b1ef8600954638b33a45335", null ]
+];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['clinterface_0',['clInterface',['../namespaceclInterface.html',1,'']]]
+  ['cli_0',['cli',['../namespacecli.html',1,'']]],
+  ['clinterface_1',['clInterface',['../namespaceclInterface.html',1,'']]]
 ];

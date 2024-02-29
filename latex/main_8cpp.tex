@@ -1,14 +1,16 @@
 \doxysection{src/main.cpp File Reference}
 \hypertarget{main_8cpp}{}\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
-{\ttfamily \#include "{}JSONData.\+hpp"{}}\newline
-{\ttfamily \#include "{}Startup\+Handler.\+hpp"{}}\newline
-{\ttfamily \#include "{}JSONHandler.\+hpp"{}}\newline
 {\ttfamily \#include "{}Batch\+Creator.\+hpp"{}}\newline
+{\ttfamily \#include "{}Cli\+Handler.\+hpp"{}}\newline
+{\ttfamily \#include "{}JSONData.\+hpp"{}}\newline
+{\ttfamily \#include "{}JSONHandler.\+hpp"{}}\newline
+{\ttfamily \#include "{}Log\+And\+Out.\+hpp"{}}\newline
+{\ttfamily \#include "{}Startup\+Handler.\+hpp"{}}\newline
 {\ttfamily \#include $<$easylogging++.\+h$>$}\newline
+{\ttfamily \#include $<$filesystem$>$}\newline
 {\ttfamily \#include $<$getopt.\+h$>$}\newline
 {\ttfamily \#include $<$iostream$>$}\newline
 {\ttfamily \#include $<$json/json.\+h$>$}\newline
-{\ttfamily \#include $<$sstream$>$}\newline
 {\ttfamily \#include $<$stdexcept$>$}\newline
 {\ttfamily \#include $<$string$>$}\newline
 Include dependency graph for main.\+cpp\+:
@@ -19,11 +21,32 @@ Include dependency graph for main.\+cpp\+:
 \includegraphics[width=350pt]{main_8cpp__incl}
 \end{center}
 \end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main_8cpp_a2bebd3800fadbad87d4ae76050dc7191}{FL}}~std\+::flush
+\end{DoxyCompactItemize}
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
 INITIALIZE\+\_\+\+EASYLOGGINGPP int \mbox{\hyperlink{main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
 \begin{DoxyCompactList}\small\item\em Main function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{main_8cpp_a2bebd3800fadbad87d4ae76050dc7191}\label{main_8cpp_a2bebd3800fadbad87d4ae76050dc7191} 
+\index{main.cpp@{main.cpp}!FL@{FL}}
+\index{FL@{FL}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{FL}{FL}}
+{\footnotesize\ttfamily \#define FL~std\+::flush}
+
+\begin{DoxyNote}{Note}
+Temporary till logger is fixed 
+\end{DoxyNote}
+
+
+Definition at line \mbox{\hyperlink{main_8cpp_source_l00017}{17}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
+
 
 
 \doxysubsection{Function Documentation}
@@ -50,11 +73,11 @@ maybe close in creator? But this leaves possibility to add more stuff -\/ why?
 \end{DoxyNote}
 
 
-Definition at line \mbox{\hyperlink{main_8cpp_source_l00029}{29}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
+Definition at line \mbox{\hyperlink{main_8cpp_source_l00034}{34}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
 
 
 
-References \mbox{\hyperlink{classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da}{batch\+::\+Batch\+Creator\+::create\+Batch\+File()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00022}{json\+::\+JSONHandler\+::get\+JSONData()}}, \mbox{\hyperlink{StartupHandler_8cpp_source_l00020}{utils\+::\+Startup\+Handler\+::get\+Options()}}, and \mbox{\hyperlink{StartupHandler_8cpp_source_l00013}{utils\+::\+Startup\+Handler\+::init\+Easy\+Logging()}}.
+References \mbox{\hyperlink{CliHandler_8hpp_source_l00013}{cli\+::\+CLEAR\+\_\+\+TERMINAL}}, \mbox{\hyperlink{classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da}{batch\+::\+Batch\+Creator\+::create\+Batch\+File()}}, \mbox{\hyperlink{JSONHandler_8cpp_source_l00025}{json\+::\+JSONHandler\+::get\+JSONData()}}, \mbox{\hyperlink{StartupHandler_8cpp_source_l00019}{utils\+::\+Startup\+Handler\+::get\+Options()}}, \mbox{\hyperlink{CliHandler_8hpp_source_l00022}{cli\+::\+GREEN\+\_\+\+FG}}, \mbox{\hyperlink{StartupHandler_8cpp_source_l00012}{utils\+::\+Startup\+Handler\+::init\+Easy\+Logging()}}, \mbox{\hyperlink{CliHandler_8hpp_source_l00017}{cli\+::\+ITALIC}}, \mbox{\hyperlink{LogAndOut_8hpp_source_l00011}{LOG\+\_\+\+ERROR}}, \mbox{\hyperlink{LogAndOut_8hpp_source_l00010}{LOG\+\_\+\+INFO}}, \mbox{\hyperlink{LogAndOut_8hpp_source_l00012}{LOG\+\_\+\+WARNING}}, \mbox{\hyperlink{LogAndOut_8hpp_source_l00014}{OUTPUT}}, \mbox{\hyperlink{CliHandler_8hpp_source_l00014}{cli\+::\+RESET}}, and \mbox{\hyperlink{CliHandler_8hpp_source_l00018}{cli\+::\+UNDERLINE}}.
 
 Here is the call graph for this function\+:
 \nopagebreak

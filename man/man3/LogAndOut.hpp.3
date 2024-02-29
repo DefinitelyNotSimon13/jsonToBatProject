@@ -1,0 +1,99 @@
+.TH "src/headers/LogAndOut.hpp" 3 "Thu Feb 29 2024 12:13:30" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/headers/LogAndOut.hpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <easylogging++\&.h>\fP
+.br
+\fC#include <iostream>\fP
+.br
+\fC#include <sstream>\fP
+.br
+\fC#include <string>\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fButils::LogAndOut\fP"
+.br
+.in -1c
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI "namespace \fButils\fP"
+.br
+.RI "Namespace for utility functions\&. "
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBLOG_INFO\fP   \fButils::log\fP(\fButils::LogLevel::INFO\fP, '\-\- ')"
+.br
+.ti -1c
+.RI "#define \fBLOG_ERROR\fP   \fButils::log\fP(\fButils::LogLevel::ERROR\fP)"
+.br
+.ti -1c
+.RI "#define \fBLOG_WARNING\fP   \fButils::log\fP(\fButils::LogLevel::WARNING\fP)"
+.br
+.ti -1c
+.RI "#define \fBLOG_DEBUG\fP   \fButils::log\fP(\fButils::LogLevel::DEBUG\fP)"
+.br
+.ti -1c
+.RI "#define \fBOUTPUT\fP   \fButils::log\fP(\fButils::LogLevel::OUT\fP, 'Output: ')"
+.br
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum class \fButils::LogLevel\fP { \fButils::INFO\fP, \fButils::WARNING\fP, \fButils::ERROR\fP, \fButils::FATAL\fP, \fButils::DEBUG\fP, \fButils::OUT\fP }"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLogAndOut\fP \fButils::log\fP ()"
+.br
+.ti -1c
+.RI "\fBLogAndOut\fP \fButils::log\fP (const std::string &prefix)"
+.br
+.ti -1c
+.RI "\fBLogAndOut\fP \fButils::log\fP (\fBLogLevel\fP level)"
+.br
+.ti -1c
+.RI "\fBLogAndOut\fP \fButils::log\fP (\fBLogLevel\fP level, const std::string &prefix)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define LOG_DEBUG   \fButils::log\fP(\fButils::LogLevel::DEBUG\fP)"
+
+.PP
+Definition at line \fB13\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SS "#define LOG_ERROR   \fButils::log\fP(\fButils::LogLevel::ERROR\fP)"
+
+.PP
+Definition at line \fB11\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SS "#define LOG_INFO   \fButils::log\fP(\fButils::LogLevel::INFO\fP, '\-\- ')"
+
+.PP
+Definition at line \fB10\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SS "#define LOG_WARNING   \fButils::log\fP(\fButils::LogLevel::WARNING\fP)"
+
+.PP
+Definition at line \fB12\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SS "#define OUTPUT   \fButils::log\fP(\fButils::LogLevel::OUT\fP, 'Output: ')"
+
+.PP
+Definition at line \fB14\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for jsonToBatProject from the source code\&.

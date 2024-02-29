@@ -1,0 +1,17 @@
+\doxysection{Verbose.\+cpp}
+\hypertarget{Verbose_8cpp_source}{}\label{Verbose_8cpp_source}\index{src/sources/Verbose.cpp@{src/sources/Verbose.cpp}}
+\mbox{\hyperlink{Verbose_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{Verbose_8hpp}{Verbose.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{LogAndOut_8hpp}{LogAndOut.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00004}00004\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceutils}{utils}}\ \{}
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00005}\mbox{\hyperlink{classutils_1_1VerboseHandler_ab7df3ef966b4e8f1f74716be2d24839f}{00005}}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classutils_1_1VerboseHandler_ab7df3ef966b4e8f1f74716be2d24839f}{VerboseHandler::isVerbose}}()\textcolor{keyword}{\ const\ }\{\ \textcolor{keywordflow}{return}\ this-\/>\mbox{\hyperlink{classutils_1_1VerboseHandler_ac72eccec246c2c5be9495e1433c76c4a}{verboseFlag}};\ \}}
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00007}\mbox{\hyperlink{classutils_1_1VerboseHandler_ad5ee342e6f1aba7bdd50e0a86952b16e}{00007}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classutils_1_1VerboseHandler_ad5ee342e6f1aba7bdd50e0a86952b16e}{VerboseHandler::setVerbose}}(\textcolor{keywordtype}{bool}\ verbose)\ \{}
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00008}00008\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \textcolor{stringliteral}{"{}Setting\ verbose\ flag\ to:\ "{}}\ <<\ verbose;}
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00009}00009\ \ \ this-\/>\mbox{\hyperlink{classutils_1_1VerboseHandler_ac72eccec246c2c5be9495e1433c76c4a}{verboseFlag}}\ =\ verbose;}
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00010}00010\ \}}
+\DoxyCodeLine{\Hypertarget{Verbose_8cpp_source_l00011}00011\ \}\ \textcolor{comment}{//\ namespace\ utils}}
+
+\end{DoxyCode}

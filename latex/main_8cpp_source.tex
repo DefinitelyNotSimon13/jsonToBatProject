@@ -2,65 +2,71 @@
 \hypertarget{main_8cpp_source}{}\label{main_8cpp_source}\index{src/main.cpp@{src/main.cpp}}
 \mbox{\hyperlink{main_8cpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{JSONData_8hpp}{JSONData.hpp}}"{}}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{StartupHandler_8hpp}{StartupHandler.hpp}}"{}}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{JSONHandler_8hpp}{JSONHandler.hpp}}"{}}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{BatchCreator_8hpp}{BatchCreator.hpp}}"{}}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00005}00005\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ <easylogging++.h>}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00007}00007\ \textcolor{preprocessor}{\#include\ <getopt.h>}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00008}00008\ \textcolor{preprocessor}{\#include\ <iostream>}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00009}00009\ \textcolor{preprocessor}{\#include\ <json/json.h>}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00010}00010\ \textcolor{preprocessor}{\#include\ <sstream>}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00011}00011\ \textcolor{preprocessor}{\#include\ <stdexcept>}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00012}00012\ \textcolor{preprocessor}{\#include\ <string>}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00013}00013\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00015}00015\ INITIALIZE\_EASYLOGGINGPP}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00016}00016\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00029}\mbox{\hyperlink{main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1}{00029}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1}{main}}(\textcolor{keywordtype}{int}\ argc,\ \textcolor{keywordtype}{char}\ *argv[])\ \{}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00030}00030\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Starting\ Application..."{}}\ <<\ std::endl;}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00031}00031\ \ \ \ \ \mbox{\hyperlink{classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169}{utils::StartupHandler::initEasyLogging}}();}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00032}00032\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00033}00033\ \ \ \ \ \textcolor{keywordflow}{if}\ (argc\ <=\ 1)\ \{}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00034}00034\ \ \ \ \ \ \ \ \ LOG(WARNING)\ <<\ \textcolor{stringliteral}{"{}No\ arguments\ provided,\ exiting!"{}};}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00035}00035\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}No\ arguments\ provided,\ exiting!\(\backslash\)n"{}};}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00036}00036\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ 1;}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00037}00037\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00038}00038\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00039}00039\ \ \ \ \ std::optional<std::string>\ filename;}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00040}00040\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00041}00041\ \ \ \ \ \textcolor{keywordflow}{try}\ \{}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00042}00042\ \ \ \ \ \ \ \ \ filename\ =\ \mbox{\hyperlink{classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c}{utils::StartupHandler::getOptions}}(argc,\ argv);}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00043}00043\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00044}00044\ \ \ \ \ \textcolor{keywordflow}{catch}\ (\textcolor{keyword}{const}\ std::invalid\_argument\ \&e)\ \{}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00045}00045\ \ \ \ \ \ \ \ \ LOG(WARNING)\ <<\ \textcolor{stringliteral}{"{}Caught\ invalid\ argument:\ "{}}\ <<\ e.what();}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00046}00046\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Invalid\ argument:\ "{}}\ <<\ e.what()\ <<\ std::endl;}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00047}00047\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00048}00048\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00049}00049\ \ \ \ \ \textcolor{keywordflow}{if}\ (!filename.has\_value())\ \{}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00050}00050\ \ \ \ \ \ \ \ \ LOG(ERROR)\ <<\ \textcolor{stringliteral}{"{}No\ filename\ given!\ Exiting..."{}};}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00051}00051\ \ \ \ \ \ \ \ \ std::cerr\ <<\ \textcolor{stringliteral}{"{}No\ filename\ given!\(\backslash\)nExiting...\(\backslash\)n"{}};}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00052}00052\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ 1;}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00053}00053\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00054}00054\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00055}00055\ \ \ \ \ LOG(INFO)\ <<\ \textcolor{stringliteral}{"{}Filename\ received:\ "{}}\ <<\ filename.value();}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00056}00056\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Filename:\ "{}}\ <<\ filename.value()\ <<\ std::endl;}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00057}00057\ \ \ \ \ LOG(INFO)\ <<\ \textcolor{stringliteral}{"{}Further\ processing..."{}};}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00058}00058\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Further\ processing..."{}}\ <<\ std::endl;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{BatchCreator_8hpp}{BatchCreator.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{CliHandler_8hpp}{CliHandler.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{JSONData_8hpp}{JSONData.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{JSONHandler_8hpp}{JSONHandler.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{LogAndOut_8hpp}{LogAndOut.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{StartupHandler_8hpp}{StartupHandler.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00008}00008\ \textcolor{preprocessor}{\#include\ <easylogging++.h>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00009}00009\ \textcolor{preprocessor}{\#include\ <filesystem>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00010}00010\ \textcolor{preprocessor}{\#include\ <getopt.h>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00011}00011\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00012}00012\ \textcolor{preprocessor}{\#include\ <json/json.h>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00013}00013\ \textcolor{preprocessor}{\#include\ <stdexcept>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00014}00014\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00015}00015\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00017}\mbox{\hyperlink{main_8cpp_a2bebd3800fadbad87d4ae76050dc7191}{00017}}\ \textcolor{preprocessor}{\#define\ FL\ std::flush}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00020}00020\ INITIALIZE\_EASYLOGGINGPP}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00021}00021\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00034}\mbox{\hyperlink{main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1}{00034}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1}{main}}(\textcolor{keywordtype}{int}\ argc,\ \textcolor{keywordtype}{char}\ *argv[])\ \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00035}00035\ \ \ std::cout\ <<\ \mbox{\hyperlink{namespacecli_a6086903cd7c6f240358097688b28eefb}{cli::CLEAR\_TERMINAL}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00036}00036\ \ \ \mbox{\hyperlink{classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169}{utils::StartupHandler::initEasyLogging}}();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00037}00037\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{LOG\_INFO}}\ <<\ \mbox{\hyperlink{namespacecli_ac0148043f91c84b2130d58fff328240a}{cli::ITALIC}}\ <<\ \textcolor{stringliteral}{"{}Starting\ Application..."{}}\ <<\ \mbox{\hyperlink{namespacecli_a8822abc9e48f38023d8b34e4ee53ec73}{cli::RESET}}\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00038}00038\ \ \ \textcolor{keywordflow}{if}\ (argc\ <=\ 1)\ \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00039}00039\ \ \ \ \ \mbox{\hyperlink{LogAndOut_8hpp_adf4476a6a4ea6c74231c826e899d7189}{LOG\_WARNING}}\ <<\ \textcolor{stringliteral}{"{}No\ arguments\ provided,\ exiting!\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00040}00040\ \ \ \ \ \textcolor{keywordflow}{return}\ 1;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00041}00041\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00042}00042\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00043}00043\ \ \ std::optional<std::string>\ filename;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00044}00044\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00045}00045\ \ \ \textcolor{keywordflow}{try}\ \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00046}00046\ \ \ \ \ filename\ =\ \mbox{\hyperlink{classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c}{utils::StartupHandler::getOptions}}(argc,\ argv);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00047}00047\ \ \ \}\ \textcolor{keywordflow}{catch}\ (\textcolor{keyword}{const}\ std::invalid\_argument\ \&e)\ \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00048}00048\ \ \ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aced66975c154ea0e2a8ec3bc818b4e08}{LOG\_ERROR}}\ <<\ \textcolor{stringliteral}{"{}Caught\ invalid\ argument:\ "{}}\ <<\ e.what()\ <<\ std::endl;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00049}00049\ \ \ \ \ \textcolor{keywordflow}{return}\ 1;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00050}00050\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00051}00051\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00052}00052\ \ \ \textcolor{keywordflow}{if}\ (!filename.has\_value())\ \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00053}00053\ \ \ \ \ \mbox{\hyperlink{LogAndOut_8hpp_aced66975c154ea0e2a8ec3bc818b4e08}{LOG\_ERROR}}\ <<\ \textcolor{stringliteral}{"{}No\ filename\ provided,\ exiting!\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00054}00054\ \ \ \ \ \textcolor{keywordflow}{return}\ 1;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00055}00055\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00056}00056\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00057}00057\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_a61a3c9a18380aafb6e430e79bf596557}{OUTPUT}}\ <<\ \mbox{\hyperlink{namespacecli_a7119a2e8d5ffc6397fa2c5b412070d9d}{cli::UNDERLINE}}\ <<\ \textcolor{stringliteral}{"{}Processing\ file:\ "{}}\ <<\ \mbox{\hyperlink{namespacecli_ac0148043f91c84b2130d58fff328240a}{cli::ITALIC}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00058}00058\ \ \ \ \ \ \ \ \ \ <<\ filename.value()\ <<\ \mbox{\hyperlink{namespacecli_a8822abc9e48f38023d8b34e4ee53ec73}{cli::RESET}}\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
 \DoxyCodeLine{\Hypertarget{main_8cpp_source_l00059}00059\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00060}00060\ \ \ \ \ \textcolor{comment}{//\ Initialize\ the\ JSONHandler\ with\ the\ file(name)}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00061}00061\ \ \ \ \ \mbox{\hyperlink{classjson_1_1JSONHandler}{json::JSONHandler}}\ jsonHandler(filename.value());}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00062}00062\ \ \ \ \ \textcolor{comment}{//\ Get\ a\ JSONData\ object\ from\ the\ JSONHandler}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00063}00063\ \ \ \ \ std::shared\_ptr<json::JSONData>\ jsonData\ =\ jsonHandler.\mbox{\hyperlink{classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf}{getJSONData}}();}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00064}00064\ \ \ \ \ \textcolor{comment}{//\ Print\ the\ outputfile\ as\ a\ test}}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00065}00065\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Outputfile:\ "{}}\ <<\ jsonData-\/>getOutputFile()\ <<\ std::endl;}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00066}00066\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00067}00067\ \ \ \ \ \mbox{\hyperlink{classbatch_1_1BatchCreator}{batch::BatchCreator}}\ batchCreator(jsonData);}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00070}00070\ \ \ \ \ std::shared\_ptr<std::ofstream>\ batchFile\ =\ batchCreator.\mbox{\hyperlink{classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da}{createBatchFile}}();}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00071}00071\ \ \ \ \ batchFile-\/>close();}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00072}00072\ }
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00073}00073\ \ \ \ \ LOG(INFO)\ <<\ \textcolor{stringliteral}{"{}Application\ exiting!"{}};}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00074}00074\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00075}00075\ \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00060}00060\ \ \ \textcolor{comment}{//\ Initialize\ the\ JSONHandler\ with\ the\ file(name)}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00061}00061\ \ \ \mbox{\hyperlink{classjson_1_1JSONHandler}{json::JSONHandler}}\ jsonHandler(filename.value());}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00062}00062\ \ \ \textcolor{comment}{//\ Get\ a\ JSONData\ object\ from\ the\ JSONHandler}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00063}00063\ \ \ std::shared\_ptr<json::JSONData>\ jsonData\ =\ jsonHandler.\mbox{\hyperlink{classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf}{getJSONData}}();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00064}00064\ \ \ \textcolor{comment}{//\ Print\ the\ outputfile\ as\ a\ test}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00065}00065\ \ \ \textcolor{keyword}{const}\ std::string\ outputfile\ =\ jsonData-\/>getOutputFile();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00066}00066\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_a61a3c9a18380aafb6e430e79bf596557}{OUTPUT}}\ <<\ \textcolor{stringliteral}{"{}-\/\ Creating\ Outputfile:\ "{}}\ <<\ \mbox{\hyperlink{namespacecli_ac0148043f91c84b2130d58fff328240a}{cli::ITALIC}}\ <<\ outputfile\ <<\ \mbox{\hyperlink{namespacecli_a8822abc9e48f38023d8b34e4ee53ec73}{cli::RESET}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00067}00067\ \ \ \ \ \ \ \ \ \ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00068}00068\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00069}00069\ \ \ \mbox{\hyperlink{classbatch_1_1BatchCreator}{batch::BatchCreator}}\ batchCreator(jsonData);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00072}00072\ \ \ std::shared\_ptr<std::ofstream>\ batchFile\ =\ batchCreator.\mbox{\hyperlink{classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da}{createBatchFile}}();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00073}00073\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00074}00074\ \ \ std::filesystem::path\ path\ =\ std::filesystem::current\_path();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00075}00075\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_a61a3c9a18380aafb6e430e79bf596557}{OUTPUT}}\ <<\ \textcolor{stringliteral}{"{}-\/\ Batch\ file\ created\ at:\ "{}}\ <<\ \mbox{\hyperlink{namespacecli_ac0148043f91c84b2130d58fff328240a}{cli::ITALIC}}\ <<\ path.string()\ <<\ \textcolor{stringliteral}{"{}/"{}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00076}00076\ \ \ \ \ \ \ \ \ \ <<\ outputfile\ <<\ \mbox{\hyperlink{namespacecli_a8822abc9e48f38023d8b34e4ee53ec73}{cli::RESET}}\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00077}00077\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00078}00078\ \ \ batchFile-\/>close();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00079}00079\ }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00080}00080\ \ \ \mbox{\hyperlink{LogAndOut_8hpp_a61a3c9a18380aafb6e430e79bf596557}{OUTPUT}}\ <<\ \mbox{\hyperlink{namespacecli_a6b3bc8c75458e39aa255e04cd46c6846}{cli::GREEN\_FG}}\ <<\ \textcolor{stringliteral}{"{}Done!\ Exiting\ application...\(\backslash\)n"{}}\ <<\ \mbox{\hyperlink{namespacecli_a8822abc9e48f38023d8b34e4ee53ec73}{cli::RESET}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00081}00081\ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00082}00082\ \}}
 
 \end{DoxyCode}

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['root_0',['root',['../classjson_1_1JSONHandler.html#ac29197ca980ba7c0c8b253591f5881d4',1,'json::JSONHandler']]]
+  ['level_0',['level',['../classutils_1_1LogAndOut.html#a35180695c3e8bbb40e3ce91ce883db3b',1,'utils::LogAndOut']]]
 ];

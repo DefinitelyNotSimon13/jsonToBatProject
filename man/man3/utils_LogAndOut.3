@@ -1,0 +1,120 @@
+.TH "utils::LogAndOut" 3 "Thu Feb 29 2024 12:13:30" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+utils::LogAndOut
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <LogAndOut\&.hpp>\fP
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "typedef std::ostream &(* \fBManipulator\fP) (std::ostream &)"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLogAndOut\fP (\fBLogLevel\fP newLevel)"
+.br
+.ti -1c
+.RI "\fBLogAndOut\fP (const std::string &newPrefix, \fBLogLevel\fP newLevel)"
+.br
+.ti -1c
+.RI "template<typename T > \fBLogAndOut\fP & \fBoperator<<\fP (const T &val)"
+.br
+.ti -1c
+.RI "\fBLogAndOut\fP & \fBoperator<<\fP (\fBManipulator\fP manipulator)"
+.br
+.ti -1c
+.RI "\fB~LogAndOut\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBprefix\fP"
+.br
+.ti -1c
+.RI "\fBLogLevel\fP \fBlevel\fP"
+.br
+.ti -1c
+.RI "std::ostringstream \fBbuffer\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBNote\fP
+.RS 4
+
+.RE
+.PP
+.SH "Bugs and Quirks"
+.PP
+.IP "\(bu" 2
+Automatically makes new line for cout -- Nevermind?! 
+.PP
+
+.PP
+Definition at line \fB24\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SH "Member Typedef Documentation"
+.PP 
+.SS "typedef std::ostream &(* utils::LogAndOut::Manipulator) (std::ostream &)"
+
+.PP
+Definition at line \fB36\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "utils::LogAndOut::LogAndOut (\fBLogLevel\fP newLevel)\fC [inline]\fP"
+
+.PP
+Definition at line \fB26\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SS "utils::LogAndOut::LogAndOut (const std::string & newPrefix, \fBLogLevel\fP newLevel)\fC [inline]\fP"
+
+.PP
+Definition at line \fB27\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SS "utils::LogAndOut::~LogAndOut ()"
+
+.PP
+Definition at line \fB6\fP of file \fBLogAndOut\&.cpp\fP\&.
+.PP
+References \fBcli::BLACK_FG\fP, \fBbuffer\fP, \fBcli::CYAN_FG\fP, \fButils::DEBUG\fP, \fBcli::ERROR\fP, \fButils::ERROR\fP, \fButils::FATAL\fP, \fButils::VerboseHandler::getInstance()\fP, \fButils::INFO\fP, \fBcli::ITALIC\fP, \fBlevel\fP, \fButils::OUT\fP, \fBprefix\fP, \fBcli::RED_BG\fP, \fBcli::RESET\fP, \fButils::WARNING\fP, and \fBcli::YELLOW_FG\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "template<typename T > \fBLogAndOut\fP & utils::LogAndOut::operator<< (const T & val)\fC [inline]\fP"
+
+.PP
+Definition at line \fB31\fP of file \fBLogAndOut\&.hpp\fP\&.
+.PP
+References \fBbuffer\fP\&.
+.SS "\fBLogAndOut\fP & utils::LogAndOut::operator<< (\fBManipulator\fP manipulator)"
+
+.PP
+Definition at line \fB38\fP of file \fBLogAndOut\&.cpp\fP\&.
+.PP
+References \fBbuffer\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "std::ostringstream utils::LogAndOut::buffer\fC [private]\fP"
+
+.PP
+Definition at line \fB44\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SS "\fBLogLevel\fP utils::LogAndOut::level\fC [private]\fP"
+
+.PP
+Definition at line \fB43\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SS "std::string utils::LogAndOut::prefix\fC [private]\fP"
+
+.PP
+Definition at line \fB42\fP of file \fBLogAndOut\&.hpp\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for jsonToBatProject from the source code\&.

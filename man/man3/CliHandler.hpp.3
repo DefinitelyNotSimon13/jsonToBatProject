@@ -1,4 +1,4 @@
-.TH "src/headers/CliHandler.hpp" 3 "Wed Feb 28 2024 22:07:52" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.TH "src/headers/CliHandler.hpp" 3 "Thu Feb 29 2024 12:13:30" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -6,18 +6,94 @@ src/headers/CliHandler.hpp
 .SH SYNOPSIS
 .br
 .PP
+\fC#include <string>\fP
+.br
+
 .SS "Classes"
 
 .in +1c
 .ti -1c
-.RI "class \fBclInterface::CliHandler\fP"
+.RI "class \fBcli::CliHandler\fP"
 .br
 .in -1c
 .SS "Namespaces"
 
 .in +1c
 .ti -1c
-.RI "namespace \fBclInterface\fP"
+.RI "namespace \fBcli\fP"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "static const std::string \fBcli::CLEAR_TERMINAL\fP = '\\x1b[2J'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::RESET\fP = '\\x1b[0m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::BOLD\fP = '\\x1b[1m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::DIM\fP = '\\x1b[2m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::ITALIC\fP = '\\x1b[3m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::UNDERLINE\fP = '\\x1b[4m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::BLINKING\fP = '\\x1b[5m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::BLACK_FG\fP = '\\x1b[30m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::RED_FG\fP = '\\x1b[31m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::GREEN_FG\fP = '\\x1b[32m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::YELLOW_FG\fP = '\\x1b[33m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::BLUE_FG\fP = '\\x1b[34m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::MAGENTA_FG\fP = '\\x1b[35m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::CYAN_FG\fP = '\\x1b[36m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::WHITE_FG\fP = '\\x1b[37m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::RED_BG\fP = '\\x1b[41m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::GREEN_BG\fP = '\\x1b[42m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::YELLOW_BG\fP = '\\x1b[43m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::BLUE_BG\fP = '\\x1b[44m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::MAGENTA_BG\fP = '\\x1b[45m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::CYAN_BG\fP = '\\x1b[46m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::WHITE_BG\fP = '\\x1b[47m'"
+.br
+.ti -1c
+.RI "static const std::string \fBcli::ERROR\fP = '\\x1b[31m\\x1b[1m'"
 .br
 .in -1c
 .SH "Author"

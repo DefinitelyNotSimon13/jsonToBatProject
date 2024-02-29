@@ -1,20 +1,78 @@
 \doxysection{src/headers/\+Cli\+Handler.hpp File Reference}
 \hypertarget{CliHandler_8hpp}{}\label{CliHandler_8hpp}\index{src/headers/CliHandler.hpp@{src/headers/CliHandler.hpp}}
+{\ttfamily \#include $<$string$>$}\newline
+Include dependency graph for Cli\+Handler.\+hpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{CliHandler_8hpp__incl}
+\end{center}
+\end{figure}
 This graph shows which files directly or indirectly include this file\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=213pt]{CliHandler_8hpp__dep__incl}
+\includegraphics[width=350pt]{CliHandler_8hpp__dep__incl}
 \end{center}
 \end{figure}
 \doxysubsubsection*{Classes}
 \begin{DoxyCompactItemize}
 \item 
-class \mbox{\hyperlink{classclInterface_1_1CliHandler}{cl\+Interface\+::\+Cli\+Handler}}
+class \mbox{\hyperlink{classcli_1_1CliHandler}{cli\+::\+Cli\+Handler}}
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Namespaces}
 \begin{DoxyCompactItemize}
 \item 
-namespace \mbox{\hyperlink{namespaceclInterface}{cl\+Interface}}
+namespace \mbox{\hyperlink{namespacecli}{cli}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a6086903cd7c6f240358097688b28eefb}{cli\+::\+CLEAR\+\_\+\+TERMINAL}} = "{}\textbackslash{}x1b\mbox{[}2J"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a8822abc9e48f38023d8b34e4ee53ec73}{cli\+::\+RESET}} = "{}\textbackslash{}x1b\mbox{[}0m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_aa40707db5c7ac4a8dd132b62ecba595b}{cli\+::\+BOLD}} = "{}\textbackslash{}x1b\mbox{[}1m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a0789441168b6379e519ed025954d7cc8}{cli\+::\+DIM}} = "{}\textbackslash{}x1b\mbox{[}2m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_ac0148043f91c84b2130d58fff328240a}{cli\+::\+ITALIC}} = "{}\textbackslash{}x1b\mbox{[}3m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a7119a2e8d5ffc6397fa2c5b412070d9d}{cli\+::\+UNDERLINE}} = "{}\textbackslash{}x1b\mbox{[}4m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a6154934fcd9f35cfad154d3e2402f07c}{cli\+::\+BLINKING}} = "{}\textbackslash{}x1b\mbox{[}5m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_ac37c6442217da52c209559f38567d8fc}{cli\+::\+BLACK\+\_\+\+FG}} = "{}\textbackslash{}x1b\mbox{[}30m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a2b7a0c3c56d8299bce1af598912dd750}{cli\+::\+RED\+\_\+\+FG}} = "{}\textbackslash{}x1b\mbox{[}31m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a6b3bc8c75458e39aa255e04cd46c6846}{cli\+::\+GREEN\+\_\+\+FG}} = "{}\textbackslash{}x1b\mbox{[}32m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a32bf08cb9b1ef8600954638b33a45335}{cli\+::\+YELLOW\+\_\+\+FG}} = "{}\textbackslash{}x1b\mbox{[}33m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a628d5b7f5558d35d19d7cd808a0375ae}{cli\+::\+BLUE\+\_\+\+FG}} = "{}\textbackslash{}x1b\mbox{[}34m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_ab737b0a4c6627d9ed73c2bae786cd176}{cli\+::\+MAGENTA\+\_\+\+FG}} = "{}\textbackslash{}x1b\mbox{[}35m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a2ba92854a2bc8548ee38a320ee25712d}{cli\+::\+CYAN\+\_\+\+FG}} = "{}\textbackslash{}x1b\mbox{[}36m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_acc14b530d2330f089e344efe16dcd3fc}{cli\+::\+WHITE\+\_\+\+FG}} = "{}\textbackslash{}x1b\mbox{[}37m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a40e5d968740dc19f33c3e1c8e5a700d1}{cli\+::\+RED\+\_\+\+BG}} = "{}\textbackslash{}x1b\mbox{[}41m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a69bd96f91de12ff309a3960cab98537e}{cli\+::\+GREEN\+\_\+\+BG}} = "{}\textbackslash{}x1b\mbox{[}42m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_abba8a8e6c2f076ba9ec9ea599a056ea2}{cli\+::\+YELLOW\+\_\+\+BG}} = "{}\textbackslash{}x1b\mbox{[}43m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a0ba8873cf0db351da46d887b562aa4e8}{cli\+::\+BLUE\+\_\+\+BG}} = "{}\textbackslash{}x1b\mbox{[}44m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a2c0a005e7512e936a4aab37656d17288}{cli\+::\+MAGENTA\+\_\+\+BG}} = "{}\textbackslash{}x1b\mbox{[}45m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a329eefa8fb969db719a3dfd0652396bd}{cli\+::\+CYAN\+\_\+\+BG}} = "{}\textbackslash{}x1b\mbox{[}46m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a19ee9cd8da584c7230a8b5d121a73b8c}{cli\+::\+WHITE\+\_\+\+BG}} = "{}\textbackslash{}x1b\mbox{[}47m"{}
+\item 
+static const std\+::string \mbox{\hyperlink{namespacecli_a07d5923890ff8406a29f68dba0c9dc2c}{cli\+::\+ERROR}} = "{}\textbackslash{}x1b\mbox{[}31m\textbackslash{}x1b\mbox{[}1m"{}
 \end{DoxyCompactItemize}

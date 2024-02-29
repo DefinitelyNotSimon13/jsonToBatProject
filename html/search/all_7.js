@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initeasylogging_0',['initEasyLogging',['../classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169',1,'utils::StartupHandler']]]
+  ['hideshell_0',['hideShell',['../classjson_1_1JSONData.html#abe44a9718125692a51971b8a38733382',1,'json::JSONData']]]
 ];

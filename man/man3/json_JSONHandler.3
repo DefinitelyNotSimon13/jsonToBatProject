@@ -1,4 +1,4 @@
-.TH "json::JSONHandler" 3 "Wed Feb 28 2024 22:07:52" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.TH "json::JSONHandler" 3 "Thu Feb 29 2024 12:13:30" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -94,7 +94,7 @@ Constructor\&. The constructor calls the parseFile function to parse the file an
 .PP
 Definition at line \fB9\fP of file \fBJSONHandler\&.cpp\fP\&.
 .PP
-References \fBparseFile()\fP, and \fBroot\fP\&.
+References \fBLOG_INFO\fP, \fBparseFile()\fP, and \fBroot\fP\&.
 .SH "Member Function Documentation"
 .PP 
 .SS "void json::JSONHandler::assignApplication () const\fC [private]\fP"
@@ -109,9 +109,9 @@ How should error handling be done? Value can be empty, but what about null vs ''
 .PP
 
 .PP
-Definition at line \fB47\fP of file \fBJSONHandler\&.cpp\fP\&.
+Definition at line \fB52\fP of file \fBJSONHandler\&.cpp\fP\&.
 .PP
-References \fBdata\fP, and \fBroot\fP\&.
+References \fBdata\fP, \fBLOG_INFO\fP, and \fBroot\fP\&.
 .SS "void json::JSONHandler::assignCommand (const Json::Value & entry) const\fC [private]\fP"
 
 .PP
@@ -129,9 +129,9 @@ Error handling is done in the \fBJSONData\fP object
 .PP
 
 .PP
-Definition at line \fB69\fP of file \fBJSONHandler\&.cpp\fP\&.
+Definition at line \fB79\fP of file \fBJSONHandler\&.cpp\fP\&.
 .PP
-References \fBdata\fP\&.
+References \fBdata\fP, and \fBLOG_INFO\fP\&.
 .SS "void json::JSONHandler::assignEntries () const\fC [private]\fP"
 
 .PP
@@ -149,9 +149,9 @@ Other error handling is done in the \fBJSONData\fP object
 .PP
 
 .PP
-Definition at line \fB52\fP of file \fBJSONHandler\&.cpp\fP\&.
+Definition at line \fB58\fP of file \fBJSONHandler\&.cpp\fP\&.
 .PP
-References \fBassignCommand()\fP, \fBassignEnvironmentVariable()\fP, \fBassignPathValue()\fP, and \fBroot\fP\&.
+References \fBassignCommand()\fP, \fBassignEnvironmentVariable()\fP, \fBassignPathValue()\fP, \fBLOG_ERROR\fP, \fBLOG_INFO\fP, and \fBroot\fP\&.
 .SS "void json::JSONHandler::assignEnvironmentVariable (const Json::Value & entry) const\fC [private]\fP"
 
 .PP
@@ -169,9 +169,9 @@ Error handling is done in the \fBJSONData\fP object
 .PP
 
 .PP
-Definition at line \fB74\fP of file \fBJSONHandler\&.cpp\fP\&.
+Definition at line \fB85\fP of file \fBJSONHandler\&.cpp\fP\&.
 .PP
-References \fBdata\fP\&.
+References \fBdata\fP, and \fBLOG_INFO\fP\&.
 .SS "void json::JSONHandler::assignHideShell () const\fC [private]\fP"
 
 .PP
@@ -184,21 +184,9 @@ There is no real error handling for this value, it defaults to false
 .PP
 
 .PP
-\fBTodo\fP
-.RS 4
-: Error handling if not found 
-.RE
+Definition at line \fB46\fP of file \fBJSONHandler\&.cpp\fP\&.
 .PP
-\fBNote\fP
-.RS 4
-: default to false
-.RE
-.PP
-
-.PP
-Definition at line \fB40\fP of file \fBJSONHandler\&.cpp\fP\&.
-.PP
-References \fBdata\fP, and \fBroot\fP\&.
+References \fBdata\fP, \fBLOG_INFO\fP, and \fBroot\fP\&.
 .SS "void json::JSONHandler::assignOutputFile () const\fC [private]\fP"
 
 .PP
@@ -211,9 +199,9 @@ Error handling is done in the \fBJSONData\fP object
 .PP
 
 .PP
-Definition at line \fB35\fP of file \fBJSONHandler\&.cpp\fP\&.
+Definition at line \fB40\fP of file \fBJSONHandler\&.cpp\fP\&.
 .PP
-References \fBdata\fP, and \fBroot\fP\&.
+References \fBdata\fP, \fBLOG_INFO\fP, and \fBroot\fP\&.
 .SS "void json::JSONHandler::assignPathValue (const Json::Value & entry) const\fC [private]\fP"
 
 .PP
@@ -231,9 +219,9 @@ Error handling is done in the \fBJSONData\fP object
 .PP
 
 .PP
-Definition at line \fB80\fP of file \fBJSONHandler\&.cpp\fP\&.
+Definition at line \fB92\fP of file \fBJSONHandler\&.cpp\fP\&.
 .PP
-References \fBdata\fP\&.
+References \fBdata\fP, and \fBLOG_INFO\fP\&.
 .SS "std::shared_ptr< \fBJSONData\fP > json::JSONHandler::createJSONData ()\fC [private]\fP"
 
 .PP
@@ -246,9 +234,9 @@ std::shared_ptr<JSONData> The \fBJSONData\fP object
 .PP
 
 .PP
-Definition at line \fB26\fP of file \fBJSONHandler\&.cpp\fP\&.
+Definition at line \fB30\fP of file \fBJSONHandler\&.cpp\fP\&.
 .PP
-References \fBassignApplication()\fP, \fBassignEntries()\fP, \fBassignHideShell()\fP, \fBassignOutputFile()\fP, and \fBdata\fP\&.
+References \fBassignApplication()\fP, \fBassignEntries()\fP, \fBassignHideShell()\fP, \fBassignOutputFile()\fP, \fBdata\fP, and \fBLOG_INFO\fP\&.
 .SS "std::shared_ptr< \fBJSONData\fP > json::JSONHandler::getJSONData ()"
 
 .PP
@@ -261,9 +249,9 @@ std::shared_ptr<JSONData> The \fBJSONData\fP object
 .PP
 
 .PP
-Definition at line \fB22\fP of file \fBJSONHandler\&.cpp\fP\&.
+Definition at line \fB25\fP of file \fBJSONHandler\&.cpp\fP\&.
 .PP
-References \fBcreateJSONData()\fP\&.
+References \fBcreateJSONData()\fP, and \fBLOG_INFO\fP\&.
 .SS "std::shared_ptr< Json::Value > json::JSONHandler::parseFile (const std::string & filename) const\fC [private]\fP"
 
 .PP
@@ -281,7 +269,9 @@ std::shared_ptr<Json::Value> The parsed file
 .PP
 
 .PP
-Definition at line \fB13\fP of file \fBJSONHandler\&.cpp\fP\&.
+Definition at line \fB15\fP of file \fBJSONHandler\&.cpp\fP\&.
+.PP
+References \fBLOG_INFO\fP\&.
 .SH "Member Data Documentation"
 .PP 
 .SS "std::shared_ptr<\fBJSONData\fP> json::JSONHandler::data\fC [private]\fP"

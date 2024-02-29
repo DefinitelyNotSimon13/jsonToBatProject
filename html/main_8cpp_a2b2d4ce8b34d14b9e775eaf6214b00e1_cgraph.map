@@ -1,27 +1,33 @@
 <map id="main" name="main">
-<area shape="rect" id="Node000001" title="Main function." alt="" coords="5,145,55,171"/>
-<area shape="rect" id="Node000002" href="$classbatch_1_1BatchCreator.html#a5cc3b560ff2d71cf65afb15cd23677da" title=" " alt="" coords="104,39,240,79"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="42,143,68,117,101,90,109,85,112,90,104,94,71,121,45,146"/>
-<area shape="rect" id="Node000003" href="$classjson_1_1JSONHandler.html#a90f7bd04911d0e6dfe91ded17ba4edcf" title="Retrieve the JSONData object." alt="" coords="103,104,241,145"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="54,149,87,142,88,147,56,155"/>
-<area shape="rect" id="Node000012" href="$classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c" title="Get options from command line." alt="" coords="103,169,241,210"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="56,160,88,168,87,173,54,166"/>
-<area shape="rect" id="Node000013" href="$classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169" title="Initialize easylogging." alt="" coords="103,235,241,275"/>
-<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="46,169,72,194,104,219,112,224,109,229,101,224,68,198,42,173"/>
-<area shape="rect" id="Node000004" href="$classjson_1_1JSONHandler.html#a06851f419487aefd2bba756a380fa17b" title="Creates a JSONData object." alt="" coords="289,104,427,145"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="242,122,273,122,273,127,242,127"/>
-<area shape="rect" id="Node000005" href="$classjson_1_1JSONHandler.html#ab07f5a8033adce04838d46f8de0bfd8f" title="Assigns the application to the JSONData object." alt="" coords="475,5,614,46"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="394,101,474,57,485,51,487,56,477,61,397,106"/>
-<area shape="rect" id="Node000006" href="$classjson_1_1JSONHandler.html#ab47cc695be5896e9fb8b468322500d5f" title="Assigns the entries to the JSONData object." alt="" coords="475,71,614,111"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="427,109,459,104,460,109,428,115"/>
-<area shape="rect" id="Node000010" href="$classjson_1_1JSONHandler.html#a73c49efaca3076cc6c6778522783a841" title="Assigns the hide shell value to the JSONData object." alt="" coords="475,136,614,177"/>
-<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="428,134,460,139,459,144,427,139"/>
-<area shape="rect" id="Node000011" href="$classjson_1_1JSONHandler.html#aad7a31a7d68e89c2da51f4337a1370c9" title="Assigns the output file to the JSONData object." alt="" coords="475,201,614,242"/>
-<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="398,143,477,186,488,192,485,196,474,191,395,148"/>
-<area shape="rect" id="Node000007" href="$classjson_1_1JSONHandler.html#a0874e5bcaac5fe6788233e5102b122f8" title="Assigns a command to the JSONData object." alt="" coords="682,5,820,46"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="610,68,669,49,670,54,612,73"/>
-<area shape="rect" id="Node000008" href="$classjson_1_1JSONHandler.html#a9bfd9f3a8aeea73dbeec1325352e5bd4" title="Assigns an environment variable to the JSONData object." alt="" coords="662,71,840,111"/>
-<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="614,88,646,88,646,94,614,94"/>
-<area shape="rect" id="Node000009" href="$classjson_1_1JSONHandler.html#ab54981db4558b93ddd3e001c46821c17" title="Assigns a path value to the JSONData object." alt="" coords="682,136,820,177"/>
-<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="612,109,670,128,669,133,610,114"/>
+<area shape="rect" id="Node000001" title="Main function." alt="" coords="5,173,55,199"/>
+<area shape="rect" id="Node000002" href="$classbatch_1_1BatchCreator.html#a5cc3b560ff2d71cf65afb15cd23677da" title=" " alt="" coords="104,67,240,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="42,171,68,145,101,118,109,113,112,118,104,122,71,149,45,174"/>
+<area shape="rect" id="Node000003" href="$classjson_1_1JSONHandler.html#a90f7bd04911d0e6dfe91ded17ba4edcf" title="Retrieve the JSONData object." alt="" coords="103,132,241,173"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="54,177,87,170,88,175,56,183"/>
+<area shape="rect" id="Node000012" href="$classutils_1_1StartupHandler.html#a9cdd57841cee245c1a1c94b0efe6549c" title="Get options from command line." alt="" coords="103,197,241,238"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="56,188,88,196,87,201,54,194"/>
+<area shape="rect" id="Node000016" href="$classutils_1_1StartupHandler.html#ade70b280d4385f270829b177da44b169" title="Initialize easylogging." alt="" coords="103,263,241,303"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="46,197,72,222,104,247,112,252,109,257,101,252,68,226,42,201"/>
+<area shape="rect" id="Node000004" href="$classjson_1_1JSONHandler.html#a06851f419487aefd2bba756a380fa17b" title="Creates a JSONData object." alt="" coords="292,103,430,143"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="241,139,276,133,277,139,242,144"/>
+<area shape="rect" id="Node000005" href="$classjson_1_1JSONHandler.html#ab07f5a8033adce04838d46f8de0bfd8f" title="Assigns the application to the JSONData object." alt="" coords="481,5,620,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="399,100,480,57,491,51,494,56,483,61,402,105"/>
+<area shape="rect" id="Node000006" href="$classjson_1_1JSONHandler.html#ab47cc695be5896e9fb8b468322500d5f" title="Assigns the entries to the JSONData object." alt="" coords="481,71,620,111"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="430,109,465,103,466,108,431,114"/>
+<area shape="rect" id="Node000010" href="$classjson_1_1JSONHandler.html#a73c49efaca3076cc6c6778522783a841" title="Assigns the hide shell value to the JSONData object." alt="" coords="481,136,620,177"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="431,133,466,139,465,144,430,138"/>
+<area shape="rect" id="Node000011" href="$classjson_1_1JSONHandler.html#aad7a31a7d68e89c2da51f4337a1370c9" title="Assigns the output file to the JSONData object." alt="" coords="481,201,620,242"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="411,142,435,154,483,186,493,192,490,196,480,191,432,159,408,146"/>
+<area shape="rect" id="Node000007" href="$classjson_1_1JSONHandler.html#a0874e5bcaac5fe6788233e5102b122f8" title="Assigns a command to the JSONData object." alt="" coords="688,5,826,46"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="616,68,675,49,676,54,618,73"/>
+<area shape="rect" id="Node000008" href="$classjson_1_1JSONHandler.html#a9bfd9f3a8aeea73dbeec1325352e5bd4" title="Assigns an environment variable to the JSONData object." alt="" coords="668,71,846,111"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="620,88,652,88,652,94,620,94"/>
+<area shape="rect" id="Node000009" href="$classjson_1_1JSONHandler.html#ab54981db4558b93ddd3e001c46821c17" title="Assigns a path value to the JSONData object." alt="" coords="688,136,826,177"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="618,109,676,128,675,133,616,114"/>
+<area shape="rect" id="Node000013" href="$classutils_1_1VerboseHandler.html#a8ab3a8ea9ab5e99e22e6895e4f90e140" title=" " alt="" coords="289,168,433,209"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="241,204,273,199,274,204,242,210"/>
+<area shape="rect" id="Node000014" href="$namespaceutils.html#a9d7d725816e0a1390d7246dc9aeef37d" title=" " alt="" coords="327,233,395,259"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="242,225,312,236,311,241,241,231"/>
+<area shape="rect" id="Node000015" href="$classutils_1_1VerboseHandler.html#ad5ee342e6f1aba7bdd50e0a86952b16e" title=" " alt="" coords="289,283,433,323"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="219,236,290,269,301,273,298,278,288,273,217,241"/>
 </map>

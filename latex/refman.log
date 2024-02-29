@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.28)  28 FEB 2024 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.2.29)  29 FEB 2024 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,12 +865,12 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 20
 7.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [2] [3] [4
+) [2] [3] [4]
+[5] [6
 
 ]
 Package hyperref Info: Option `pageanchor' set `true' on input line 210.
-
-(./bug.tex
+ (./bug.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
@@ -884,20 +884,20 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 ]
 Chapter 2.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-2.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
+.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 12.
+(Font)              scaled to size 8.99994pt on input line 9.
 
-Overfull \hbox (27.0pt too wide) in paragraph at lines 12--13
+Overfull \hbox (27.0pt too wide) in paragraph at lines 9--10
 []
  []
 
 
-Overfull \hbox (27.0pt too wide) in paragraph at lines 20--21
+Overfull \hbox (27.0pt too wide) in paragraph at lines 17--18
 []
  []
 
@@ -920,34 +920,48 @@ Chapter 5.
 
 ]
 Chapter 6.
-(./namespacebatch.tex) (./namespaceclInterface.tex) (./namespacejson.tex
+(./namespacebatch.tex) (./namespacecli.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 59.
+ [11] [12] [13])
+(./namespaceclInterface.tex) (./namespacejson.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 14.
+ [14]) (./namespaceutils.tex
+[15]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 17.
-)
-(./namespaceutils.tex [11]) [12]
+(Font)              scaled to size 7.19995pt on input line 91.
+ <./namespaceutils_a9d7d725816e0a1390d7246dc9aeef37d_icgraph.pdf>
+<namespaceutils_a9d7d725816e0a1390d7246dc9aeef37d_icgraph.pdf, id=1314, 345.29p
+t x 111.41624pt>
+File: namespaceutils_a9d7d725816e0a1390d7246dc9aeef37d_icgraph.pdf Graphic file
+ (type pdf)
+<use namespaceutils_a9d7d725816e0a1390d7246dc9aeef37d_icgraph.pdf>
+Package pdftex.def Info: namespaceutils_a9d7d725816e0a1390d7246dc9aeef37d_icgra
+ph.pdf  used on input line 107.
+(pdftex.def)             Requested size: 344.0pt x 111.00114pt.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 114.
+) [16]
 Chapter 7.
 (./classbatch_1_1BatchCreator.tex
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 54.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 54.
- [13
+ [17
 
 ] <./classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da_icgraph.pdf>
-<classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da_icgraph.pdf, id=7
-95, 255.95625pt x 111.41624pt>
+<classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da_icgraph.pdf, id=1
+390, 255.95625pt x 111.41624pt>
 File: classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da_icgraph.pdf 
 Graphic file (type pdf)
 <use classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd23677da_icgraph.pdf>
 Package pdftex.def Info: classbatch_1_1BatchCreator_a5cc3b560ff2d71cf65afb15cd2
 3677da_icgraph.pdf  used on input line 70.
 (pdftex.def)             Requested size: 255.0pt x 110.99945pt.
- [14])
-(./classclInterface_1_1CliHandler.tex) (./classjson_1_1JSONData.tex
+ [18]) (./classcli_1_1CliHandler.tex)
+(./classjson_1_1JSONData.tex
 LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <9> not available
 (Font)              Font shape `TS1/phv/m/sl' tried instead on input line 11.
 LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
@@ -956,8 +970,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 6.29996pt on input line 19.
- [15]
-[16] [17]
+ [19] [20] [21]
 Underfull \hbox (badness 10000) detected at line 162
 [][][]
  []
@@ -977,7 +990,7 @@ Underfull \hbox (badness 10000) detected at line 225
 [][][]
  []
 
-[18]
+[22]
 Underfull \hbox (badness 10000) detected at line 246
 [][][]
  []
@@ -987,21 +1000,21 @@ Underfull \hbox (badness 10000) detected at line 267
 [][][]
  []
 
-[19]
+[23]
 Underfull \hbox (badness 10000) detected at line 334
 [][][]
  []
 
-[20]
+[24]
 Overfull \hbox (21.3369pt too wide) in paragraph at lines 384--385
 \T1/pcr/m/n/8 std[]::vector$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 std[]::tuple$\OML/c
 mm/m/it/8 <$\T1/pcr/m/n/8 std[]::string, std[]::string$\OML/cmm/m/it/8 >$ $>$ \
 T1/pcr/m/n/8 json[]::[]JSONData[]::environment[]Variables [private] 
  []
 
-) (./classjson_1_1JSONHandler.tex [21] [22] <./classjson_1_1JSONHandler_a954ed0
+) (./classjson_1_1JSONHandler.tex [25] [26] <./classjson_1_1JSONHandler_a954ed0
 3654cc173ee713a20ff3edc384_cgraph.pdf>
-<classjson_1_1JSONHandler_a954ed03654cc173ee713a20ff3edc384_cgraph.pdf, id=1044
+<classjson_1_1JSONHandler_a954ed03654cc173ee713a20ff3edc384_cgraph.pdf, id=1651
 , 325.215pt x 111.41624pt>
 File: classjson_1_1JSONHandler_a954ed03654cc173ee713a20ff3edc384_cgraph.pdf Gra
 phic file (type pdf)
@@ -1015,8 +1028,8 @@ Underfull \hbox (badness 10000) detected at line 105
  []
 
  <./classjson_1_1JSONHandler_ab07f5a8033adce04838d46f8de0bfd8f_icgraph.pdf>
-<classjson_1_1JSONHandler_ab07f5a8033adce04838d46f8de0bfd8f_icgraph.pdf, id=105
-7, 538.01pt x 111.41624pt>
+<classjson_1_1JSONHandler_ab07f5a8033adce04838d46f8de0bfd8f_icgraph.pdf, id=166
+5, 538.01pt x 111.41624pt>
 File: classjson_1_1JSONHandler_ab07f5a8033adce04838d46f8de0bfd8f_icgraph.pdf Gr
 aphic file (type pdf)
 <use classjson_1_1JSONHandler_ab07f5a8033adce04838d46f8de0bfd8f_icgraph.pdf>
@@ -1024,13 +1037,13 @@ Package pdftex.def Info: classjson_1_1JSONHandler_ab07f5a8033adce04838d46f8de0b
 fd8f_icgraph.pdf  used on input line 121.
 (pdftex.def)             Requested size: 350.0pt x 72.4809pt.
 
-[23]
+[27]
 Underfull \hbox (badness 10000) detected at line 141
 [][][]
  []
 
  <./classjson_1_1JSONHandler_a0874e5bcaac5fe6788233e5102b122f8_icgraph.pdf>
-<classjson_1_1JSONHandler_a0874e5bcaac5fe6788233e5102b122f8_icgraph.pdf, id=108
+<classjson_1_1JSONHandler_a0874e5bcaac5fe6788233e5102b122f8_icgraph.pdf, id=169
 5, 678.535pt x 111.41624pt>
 File: classjson_1_1JSONHandler_a0874e5bcaac5fe6788233e5102b122f8_icgraph.pdf Gr
 aphic file (type pdf)
@@ -1044,7 +1057,7 @@ Underfull \hbox (badness 10000) detected at line 177
  []
 
  <./classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_cgraph.pdf>
-<classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_cgraph.pdf, id=1102
+<classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_cgraph.pdf, id=1714
 , 355.3275pt x 209.78375pt>
 File: classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_cgraph.pdf Gra
 phic file (type pdf)
@@ -1053,9 +1066,9 @@ Package pdftex.def Info: classjson_1_1JSONHandler_ab47cc695be5896e9fb8b46832250
 0d5f_cgraph.pdf  used on input line 193.
 (pdftex.def)             Requested size: 350.0pt x 206.6462pt.
 
-[24] <./classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_icgraph.pdf>
-<classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_icgraph.pdf, id=112
-3, 538.01pt x 111.41624pt>
+[28] <./classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_icgraph.pdf>
+<classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_icgraph.pdf, id=173
+4, 538.01pt x 111.41624pt>
 File: classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_icgraph.pdf Gr
 aphic file (type pdf)
 <use classjson_1_1JSONHandler_ab47cc695be5896e9fb8b468322500d5f_icgraph.pdf>
@@ -1068,8 +1081,8 @@ Underfull \hbox (badness 10000) detected at line 221
  []
 
  <./classjson_1_1JSONHandler_a9bfd9f3a8aeea73dbeec1325352e5bd4_icgraph.pdf>
-<classjson_1_1JSONHandler_a9bfd9f3a8aeea73dbeec1325352e5bd4_icgraph.pdf, id=113
-7, 708.6475pt x 111.41624pt>
+<classjson_1_1JSONHandler_a9bfd9f3a8aeea73dbeec1325352e5bd4_icgraph.pdf, id=174
+9, 708.6475pt x 111.41624pt>
 File: classjson_1_1JSONHandler_a9bfd9f3a8aeea73dbeec1325352e5bd4_icgraph.pdf Gr
 aphic file (type pdf)
 <use classjson_1_1JSONHandler_a9bfd9f3a8aeea73dbeec1325352e5bd4_icgraph.pdf>
@@ -1077,301 +1090,406 @@ Package pdftex.def Info: classjson_1_1JSONHandler_a9bfd9f3a8aeea73dbeec1325352e
 5bd4_icgraph.pdf  used on input line 237.
 (pdftex.def)             Requested size: 350.0pt x 55.02965pt.
 
-[25]
+[29]
 Underfull \hbox (badness 10000) detected at line 250
 [][][]
  []
 
-
-Underfull \hbox (badness 10000) detected at line 255
-[][][]
- []
-
  <./classjson_1_1JSONHandler_a73c49efaca3076cc6c6778522783a841_icgraph.pdf>
-<classjson_1_1JSONHandler_a73c49efaca3076cc6c6778522783a841_icgraph.pdf, id=116
-0, 538.01pt x 111.41624pt>
+<classjson_1_1JSONHandler_a73c49efaca3076cc6c6778522783a841_icgraph.pdf, id=177
+2, 538.01pt x 111.41624pt>
 File: classjson_1_1JSONHandler_a73c49efaca3076cc6c6778522783a841_icgraph.pdf Gr
 aphic file (type pdf)
 <use classjson_1_1JSONHandler_a73c49efaca3076cc6c6778522783a841_icgraph.pdf>
 Package pdftex.def Info: classjson_1_1JSONHandler_a73c49efaca3076cc6c6778522783
-a841_icgraph.pdf  used on input line 271.
+a841_icgraph.pdf  used on input line 266.
 (pdftex.def)             Requested size: 350.0pt x 72.4809pt.
 
-Underfull \hbox (badness 10000) detected at line 284
+Underfull \hbox (badness 10000) detected at line 279
 [][][]
  []
 
  <./classjson_1_1JSONHandler_aad7a31a7d68e89c2da51f4337a1370c9_icgraph.pdf>
-<classjson_1_1JSONHandler_aad7a31a7d68e89c2da51f4337a1370c9_icgraph.pdf, id=117
-4, 538.01pt x 111.41624pt>
+<classjson_1_1JSONHandler_aad7a31a7d68e89c2da51f4337a1370c9_icgraph.pdf, id=178
+7, 538.01pt x 111.41624pt>
 File: classjson_1_1JSONHandler_aad7a31a7d68e89c2da51f4337a1370c9_icgraph.pdf Gr
 aphic file (type pdf)
 <use classjson_1_1JSONHandler_aad7a31a7d68e89c2da51f4337a1370c9_icgraph.pdf>
 Package pdftex.def Info: classjson_1_1JSONHandler_aad7a31a7d68e89c2da51f4337a13
-70c9_icgraph.pdf  used on input line 300.
+70c9_icgraph.pdf  used on input line 295.
 (pdftex.def)             Requested size: 350.0pt x 72.4809pt.
 
-[26]
-Underfull \hbox (badness 10000) detected at line 320
+[30]
+Underfull \hbox (badness 10000) detected at line 315
 [][][]
  []
 
  <./classjson_1_1JSONHandler_ab54981db4558b93ddd3e001c46821c17_icgraph.pdf>
-<classjson_1_1JSONHandler_ab54981db4558b93ddd3e001c46821c17_icgraph.pdf, id=119
-8, 678.535pt x 111.41624pt>
+<classjson_1_1JSONHandler_ab54981db4558b93ddd3e001c46821c17_icgraph.pdf, id=181
+3, 678.535pt x 111.41624pt>
 File: classjson_1_1JSONHandler_ab54981db4558b93ddd3e001c46821c17_icgraph.pdf Gr
 aphic file (type pdf)
 <use classjson_1_1JSONHandler_ab54981db4558b93ddd3e001c46821c17_icgraph.pdf>
 Package pdftex.def Info: classjson_1_1JSONHandler_ab54981db4558b93ddd3e001c4682
-1c17_icgraph.pdf  used on input line 336.
+1c17_icgraph.pdf  used on input line 331.
 (pdftex.def)             Requested size: 350.0pt x 57.46925pt.
 
-Underfull \hbox (badness 10000) detected at line 351
+Underfull \hbox (badness 10000) detected at line 346
 [][][]
  []
 
  <./classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_cgraph.pdf>
-<classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_cgraph.pdf, id=1217
+<classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_cgraph.pdf, id=1833
 , 494.84875pt x 258.9675pt>
 File: classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_cgraph.pdf Gra
 phic file (type pdf)
 <use classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_cgraph.pdf>
 Package pdftex.def Info: classjson_1_1JSONHandler_a06851f419487aefd2bba756a380f
-a17b_cgraph.pdf  used on input line 367.
+a17b_cgraph.pdf  used on input line 362.
 (pdftex.def)             Requested size: 350.0pt x 183.16483pt.
 
-[27] <./classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_icgraph.pdf>
-<classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_icgraph.pdf, id=123
-4, 398.48875pt x 111.41624pt>
+[31] <./classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_icgraph.pdf>
+<classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_icgraph.pdf, id=184
+9, 398.48875pt x 111.41624pt>
 File: classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_icgraph.pdf Gr
 aphic file (type pdf)
 <use classjson_1_1JSONHandler_a06851f419487aefd2bba756a380fa17b_icgraph.pdf>
 Package pdftex.def Info: classjson_1_1JSONHandler_a06851f419487aefd2bba756a380f
-a17b_icgraph.pdf  used on input line 375.
+a17b_icgraph.pdf  used on input line 370.
 (pdftex.def)             Requested size: 350.0pt x 97.86298pt.
 
-Underfull \hbox (badness 10000) detected at line 390
+Underfull \hbox (badness 10000) detected at line 385
 [][][]
  []
 
  <./classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_cgraph.pdf>
-<classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_cgraph.pdf, id=1249
+<classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_cgraph.pdf, id=1865
 , 635.37375pt x 258.9675pt>
 File: classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_cgraph.pdf Gra
 phic file (type pdf)
 <use classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_cgraph.pdf>
 Package pdftex.def Info: classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4
-edcf_cgraph.pdf  used on input line 406.
+edcf_cgraph.pdf  used on input line 401.
 (pdftex.def)             Requested size: 350.0pt x 142.65778pt.
 
-[28] <./classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_icgraph.pdf>
-<classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_icgraph.pdf, id=126
-5, 257.96375pt x 111.41624pt>
+[32] <./classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_icgraph.pdf>
+<classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_icgraph.pdf, id=188
+1, 257.96375pt x 111.41624pt>
 File: classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_icgraph.pdf Gr
 aphic file (type pdf)
 <use classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4edcf_icgraph.pdf>
 Package pdftex.def Info: classjson_1_1JSONHandler_a90f7bd04911d0e6dfe91ded17ba4
-edcf_icgraph.pdf  used on input line 414.
+edcf_icgraph.pdf  used on input line 409.
 (pdftex.def)             Requested size: 257.0pt x 111.00964pt.
 
-Underfull \hbox (badness 10000) detected at line 434
+Underfull \hbox (badness 10000) detected at line 429
 [][][]
  []
 
  <./classjson_1_1JSONHandler_a9616285a6fe559ffb26a3a0b93912eed_icgraph.pdf>
-<classjson_1_1JSONHandler_a9616285a6fe559ffb26a3a0b93912eed_icgraph.pdf, id=127
-5, 325.215pt x 111.41624pt>
+<classjson_1_1JSONHandler_a9616285a6fe559ffb26a3a0b93912eed_icgraph.pdf, id=189
+2, 325.215pt x 111.41624pt>
 File: classjson_1_1JSONHandler_a9616285a6fe559ffb26a3a0b93912eed_icgraph.pdf Gr
 aphic file (type pdf)
 <use classjson_1_1JSONHandler_a9616285a6fe559ffb26a3a0b93912eed_icgraph.pdf>
 Package pdftex.def Info: classjson_1_1JSONHandler_a9616285a6fe559ffb26a3a0b9391
-2eed_icgraph.pdf  used on input line 446.
+2eed_icgraph.pdf  used on input line 445.
 (pdftex.def)             Requested size: 324.0pt x 111.00795pt.
 
-[29]) (./classutils_1_1StartupHandler.tex [30]
+[33]) (./classutils_1_1LogAndOut.tex [34]
+Underfull \hbox (badness 10000) detected at line 37
+[][][]
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 96--97
+[]\T1/phv/m/n/10 References [], [], [], [], [], [], [],
+ []
+
+ <./classutils_1_1LogAndOut_a9d254c9845529d649454f048bcbce982_cgraph.pdf>
+<classutils_1_1LogAndOut_a9d254c9845529d649454f048bcbce982_cgraph.pdf, id=1974,
+ 318.18875pt x 111.41624pt>
+File: classutils_1_1LogAndOut_a9d254c9845529d649454f048bcbce982_cgraph.pdf Grap
+hic file (type pdf)
+<use classutils_1_1LogAndOut_a9d254c9845529d649454f048bcbce982_cgraph.pdf>
+Package pdftex.def Info: classutils_1_1LogAndOut_a9d254c9845529d649454f048bcbce
+982_cgraph.pdf  used on input line 103.
+(pdftex.def)             Requested size: 317.0pt x 110.99945pt.
+
+[35] [36]) (./classutils_1_1StartupHandler.tex
 Underfull \hbox (badness 10000) detected at line 38
 [][][]
  []
 
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 51.
-[31]
+[37] [38]
 Underfull \hbox (badness 10000) detected at line 105
 [][][]
  []
 
+
+Underfull \hbox (badness 4024) in paragraph at lines 119--120
+[]\T1/phv/m/n/10 References [], [], [], [], [], and
+ []
+
+ <./classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_cgraph.pdf>
+<classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_cgraph.pdf, id=
+2067, 329.23pt x 197.73875pt>
+File: classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_cgraph.pdf
+ Graphic file (type pdf)
+<use classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_cgraph.pdf>
+
+Package pdftex.def Info: classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0
+efe6549c_cgraph.pdf  used on input line 126.
+(pdftex.def)             Requested size: 328.0pt x 197.00507pt.
  <./classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph.pdf>
 <classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph.pdf, id
-=1335, 257.96375pt x 111.41624pt>
+=2075, 257.96375pt x 111.41624pt>
 File: classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph.pd
 f Graphic file (type pdf)
 <use classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0efe6549c_icgraph.pdf
 >
 Package pdftex.def Info: classutils_1_1StartupHandler_a9cdd57841cee245c1a1c94b0
-efe6549c_icgraph.pdf  used on input line 126.
+efe6549c_icgraph.pdf  used on input line 134.
 (pdftex.def)             Requested size: 257.0pt x 111.00964pt.
-[32] <./classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.
+
+[39] <./classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.
 pdf>
 <classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pdf, id
-=1355, 257.96375pt x 111.41624pt>
+=2100, 257.96375pt x 111.41624pt>
 File: classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pd
 f Graphic file (type pdf)
 <use classutils_1_1StartupHandler_ade70b280d4385f270829b177da44b169_icgraph.pdf
 >
 Package pdftex.def Info: classutils_1_1StartupHandler_ade70b280d4385f270829b177
-da44b169_icgraph.pdf  used on input line 159.
+da44b169_icgraph.pdf  used on input line 171.
 (pdftex.def)             Requested size: 257.0pt x 111.00964pt.
-) [33] [34
-
-]
+) (./classutils_1_1VerboseHandler.tex [40] <./classutils_1_1VerboseHandler_a8ab
+3a8ea9ab5e99e22e6895e4f90e140_icgraph.pdf>
+<classutils_1_1VerboseHandler_a8ab3a8ea9ab5e99e22e6895e4f90e140_icgraph.pdf, id
+=2137, 402.50375pt x 160.6pt>
+File: classutils_1_1VerboseHandler_a8ab3a8ea9ab5e99e22e6895e4f90e140_icgraph.pd
+f Graphic file (type pdf)
+<use classutils_1_1VerboseHandler_a8ab3a8ea9ab5e99e22e6895e4f90e140_icgraph.pdf
+>
+Package pdftex.def Info: classutils_1_1VerboseHandler_a8ab3a8ea9ab5e99e22e6895e
+4f90e140_icgraph.pdf  used on input line 73.
+(pdftex.def)             Requested size: 350.0pt x 139.6498pt.
+ [41] <./classutils_1_1VerboseHandler_ad5ee342e6f1aba7bdd50e0a86952b16e_icgraph
+.pdf>
+<classutils_1_1VerboseHandler_ad5ee342e6f1aba7bdd50e0a86952b16e_icgraph.pdf, id
+=2174, 402.50375pt x 111.41624pt>
+File: classutils_1_1VerboseHandler_ad5ee342e6f1aba7bdd50e0a86952b16e_icgraph.pd
+f Graphic file (type pdf)
+<use classutils_1_1VerboseHandler_ad5ee342e6f1aba7bdd50e0a86952b16e_icgraph.pdf
+>
+Package pdftex.def Info: classutils_1_1VerboseHandler_ad5ee342e6f1aba7bdd50e0a8
+6952b16e_icgraph.pdf  used on input line 115.
+(pdftex.def)             Requested size: 350.0pt x 96.88203pt.
+) [42]
 Chapter 8.
 (./BatchCreator_8hpp.tex <./BatchCreator_8hpp__incl.pdf>
-<BatchCreator_8hpp__incl.pdf, id=1379, 377.41pt x 210.7875pt>
+<BatchCreator_8hpp__incl.pdf, id=2195, 377.41pt x 210.7875pt>
 File: BatchCreator_8hpp__incl.pdf Graphic file (type pdf)
 <use BatchCreator_8hpp__incl.pdf>
 Package pdftex.def Info: BatchCreator_8hpp__incl.pdf  used on input line 11.
 (pdftex.def)             Requested size: 350.0pt x 195.47713pt.
  <./BatchCreator_8hpp__dep__incl.pdf>
-<BatchCreator_8hpp__dep__incl.pdf, id=1387, 315.1775pt x 155.58125pt>
+<BatchCreator_8hpp__dep__incl.pdf, id=2203, 315.1775pt x 155.58125pt>
 File: BatchCreator_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use BatchCreator_8hpp__dep__incl.pdf>
 Package pdftex.def Info: BatchCreator_8hpp__dep__incl.pdf  used on input line 1
 9.
 (pdftex.def)             Requested size: 314.0pt x 155.00873pt.
- [35]) (./BatchCreator_8hpp_source.tex) (./CliHandler_8hpp.tex <./CliHandler_8h
-pp__dep__incl.pdf>
-<CliHandler_8hpp__dep__incl.pdf, id=1433, 213.79875pt x 155.58125pt>
+ [43
+
+]) (./BatchCreator_8hpp_source.tex) (./CliHandler_8hpp.tex <./CliHandler_8hpp__
+incl.pdf>
+<CliHandler_8hpp__incl.pdf, id=2250, 213.79875pt x 155.58125pt>
+File: CliHandler_8hpp__incl.pdf Graphic file (type pdf)
+<use CliHandler_8hpp__incl.pdf>
+Package pdftex.def Info: CliHandler_8hpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 213.0pt x 154.99922pt.
+ <./CliHandler_8hpp__dep__incl.pdf>
+<CliHandler_8hpp__dep__incl.pdf, id=2258, 459.7175pt x 155.58125pt>
 File: CliHandler_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use CliHandler_8hpp__dep__incl.pdf>
-Package pdftex.def Info: CliHandler_8hpp__dep__incl.pdf  used on input line 8.
-(pdftex.def)             Requested size: 213.0pt x 154.99922pt.
- [36]) (./CliHandler_8hpp_source.tex)
-(./JSONData_8hpp.tex <./JSONData_8hpp__incl.pdf>
-<JSONData_8hpp__incl.pdf, id=1492, 314.17375pt x 155.58125pt>
+Package pdftex.def Info: CliHandler_8hpp__dep__incl.pdf  used on input line 17.
+
+(pdftex.def)             Requested size: 350.0pt x 118.45662pt.
+ [44])
+(./CliHandler_8hpp_source.tex [45]) (./JSONData_8hpp.tex <./JSONData_8hpp__incl
+.pdf>
+<JSONData_8hpp__incl.pdf, id=2395, 314.17375pt x 155.58125pt>
 File: JSONData_8hpp__incl.pdf Graphic file (type pdf)
 <use JSONData_8hpp__incl.pdf>
 Package pdftex.def Info: JSONData_8hpp__incl.pdf  used on input line 12.
 (pdftex.def)             Requested size: 313.0pt x 155.00635pt.
  <./JSONData_8hpp__dep__incl.pdf>
-<JSONData_8hpp__dep__incl.pdf, id=1500, 635.37375pt x 210.7875pt>
+<JSONData_8hpp__dep__incl.pdf, id=2403, 635.37375pt x 210.7875pt>
 File: JSONData_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use JSONData_8hpp__dep__incl.pdf>
 Package pdftex.def Info: JSONData_8hpp__dep__incl.pdf  used on input line 20.
 (pdftex.def)             Requested size: 350.0pt x 116.1168pt.
- [37]) (./JSONData_8hpp_source.tex [38]) (./JSONHandler_8hpp.tex <./JSONHandler
-_8hpp__incl.pdf>
-<JSONHandler_8hpp__incl.pdf, id=1623, 396.48125pt x 210.7875pt>
+ [46]) (./JSONData_8hpp_source.tex
+[47]) (./JSONHandler_8hpp.tex <./JSONHandler_8hpp__incl.pdf>
+<JSONHandler_8hpp__incl.pdf, id=2525, 396.48125pt x 210.7875pt>
 File: JSONHandler_8hpp__incl.pdf Graphic file (type pdf)
 <use JSONHandler_8hpp__incl.pdf>
 Package pdftex.def Info: JSONHandler_8hpp__incl.pdf  used on input line 11.
 (pdftex.def)             Requested size: 350.0pt x 186.07895pt.
  <./JSONHandler_8hpp__dep__incl.pdf>
-<JSONHandler_8hpp__dep__incl.pdf, id=1631, 319.1925pt x 155.58125pt>
+<JSONHandler_8hpp__dep__incl.pdf, id=2533, 319.1925pt x 155.58125pt>
 File: JSONHandler_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use JSONHandler_8hpp__dep__incl.pdf>
 Package pdftex.def Info: JSONHandler_8hpp__dep__incl.pdf  used on input line 19
 .
 (pdftex.def)             Requested size: 318.0pt x 155.0016pt.
- [39])
-(./JSONHandler_8hpp_source.tex) (./StartupHandler_8hpp.tex <./StartupHandler_8h
-pp__incl.pdf>
-<StartupHandler_8hpp__incl.pdf, id=1683, 256.96pt x 155.58125pt>
+ [48]) (./JSONHandler_8hpp_source.tex) (./LogAndOut_8hpp.tex <./LogAndOut_8hpp_
+_incl.pdf>
+<LogAndOut_8hpp__incl.pdf, id=2584, 366.36874pt x 155.58125pt>
+File: LogAndOut_8hpp__incl.pdf Graphic file (type pdf)
+<use LogAndOut_8hpp__incl.pdf>
+Package pdftex.def Info: LogAndOut_8hpp__incl.pdf  used on input line 12.
+(pdftex.def)             Requested size: 350.0pt x 148.63934pt.
+ [49] <./LogAndOut_8hpp__dep__incl.pdf>
+<LogAndOut_8hpp__dep__incl.pdf, id=2636, 1107.13625pt x 155.58125pt>
+File: LogAndOut_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use LogAndOut_8hpp__dep__incl.pdf>
+Package pdftex.def Info: LogAndOut_8hpp__dep__incl.pdf  used on input line 20.
+(pdftex.def)             Requested size: 350.0pt x 49.18402pt.
+ [50])
+(./LogAndOut_8hpp_source.tex [51]) (./StartupHandler_8hpp.tex <./StartupHandler
+_8hpp__incl.pdf>
+<StartupHandler_8hpp__incl.pdf, id=2785, 256.96pt x 155.58125pt>
 File: StartupHandler_8hpp__incl.pdf Graphic file (type pdf)
 <use StartupHandler_8hpp__incl.pdf>
 Package pdftex.def Info: StartupHandler_8hpp__incl.pdf  used on input line 11.
 (pdftex.def)             Requested size: 256.0pt x 155.0111pt.
- [40] <./StartupHandler_8hpp__dep__incl.pdf>
-<StartupHandler_8hpp__dep__incl.pdf, id=1735, 323.2075pt x 155.58125pt>
+ [52] <./StartupHandler_8hpp__dep__incl.pdf>
+<StartupHandler_8hpp__dep__incl.pdf, id=2831, 323.2075pt x 155.58125pt>
 File: StartupHandler_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use StartupHandler_8hpp__dep__incl.pdf>
 Package pdftex.def Info: StartupHandler_8hpp__dep__incl.pdf  used on input line
  19.
 (pdftex.def)             Requested size: 322.0pt x 155.00873pt.
 )
-(./StartupHandler_8hpp_source.tex [41]) (./main_8cpp.tex <./main_8cpp__incl.pdf
->
-<main_8cpp__incl.pdf, id=1776, 904.37875pt x 265.99374pt>
+(./StartupHandler_8hpp_source.tex [53]) (./Verbose_8hpp.tex <./Verbose_8hpp__in
+cl.pdf>
+<Verbose_8hpp__incl.pdf, id=2874, 204.765pt x 155.58125pt>
+File: Verbose_8hpp__incl.pdf Graphic file (type pdf)
+<use Verbose_8hpp__incl.pdf>
+Package pdftex.def Info: Verbose_8hpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 204.0pt x 155.00873pt.
+ <./Verbose_8hpp__dep__incl.pdf>
+<Verbose_8hpp__dep__incl.pdf, id=2882, 532.99126pt x 155.58125pt>
+File: Verbose_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use Verbose_8hpp__dep__incl.pdf>
+Package pdftex.def Info: Verbose_8hpp__dep__incl.pdf  used on input line 17.
+(pdftex.def)             Requested size: 350.0pt x 102.16878pt.
+) (./Verbose_8hpp_source.tex [54])
+(./main_8cpp.tex <./main_8cpp__incl.pdf>
+<main_8cpp__incl.pdf, id=2939, 1107.13625pt x 265.99374pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
 <use main_8cpp__incl.pdf>
-Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 19.
-(pdftex.def)             Requested size: 350.0pt x 102.93756pt.
- [42]
-Underfull \hbox (badness 10000) detected at line 48
+Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 21.
+(pdftex.def)             Requested size: 350.0pt x 84.0888pt.
+ [55]
+Underfull \hbox (badness 10000) detected at line 43
 [][][]
  []
 
 
-Overfull \hbox (37.47226pt too wide) in paragraph at lines 57--58
-[]\T1/phv/m/n/10 References [], [], [],
+Underfull \hbox (badness 10000) detected at line 71
+[][][]
+ []
+
+
+Overfull \hbox (17.964pt too wide) in paragraph at lines 80--81
+[]\T1/phv/m/n/10 , [], [], [], [],
  []
 
  <./main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf>
-<main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf, id=1818, 708.6475pt x 
-284.06125pt>
+<main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf, id=3007, 713.66624pt x
+ 320.19624pt>
 File: main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf Graphic file (type
  pdf)
 <use main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf>
 Package pdftex.def Info: main_8cpp_a2b2d4ce8b34d14b9e775eaf6214b00e1_cgraph.pdf
-  used on input line 64.
-(pdftex.def)             Requested size: 350.0pt x 140.30083pt.
+  used on input line 87.
+(pdftex.def)             Requested size: 350.0pt x 157.02943pt.
 )
-(./main_8cpp_source.tex [43]) (./BatchCreator_8cpp.tex <./BatchCreator_8cpp__in
+(./main_8cpp_source.tex [56]) (./BatchCreator_8cpp.tex <./BatchCreator_8cpp__in
 cl.pdf>
-<BatchCreator_8cpp__incl.pdf, id=1875, 411.5375pt x 265.99374pt>
+<BatchCreator_8cpp__incl.pdf, id=3061, 583.17876pt x 265.99374pt>
 File: BatchCreator_8cpp__incl.pdf Graphic file (type pdf)
 <use BatchCreator_8cpp__incl.pdf>
-Package pdftex.def Info: BatchCreator_8cpp__incl.pdf  used on input line 13.
-(pdftex.def)             Requested size: 350.0pt x 226.22156pt.
-) (./BatchCreator_8cpp_source.tex [44]) (./CliHandler_8cpp.tex <./CliHandler_8c
-pp__incl.pdf>
-<CliHandler_8cpp__incl.pdf, id=1926, 213.79875pt x 155.58125pt>
+Package pdftex.def Info: BatchCreator_8cpp__incl.pdf  used on input line 14.
+(pdftex.def)             Requested size: 350.0pt x 159.64212pt.
+) (./BatchCreator_8cpp_source.tex [57] [58]) (./CliHandler_8cpp.tex <./CliHandl
+er_8cpp__incl.pdf>
+<CliHandler_8cpp__incl.pdf, id=3216, 213.79875pt x 210.7875pt>
 File: CliHandler_8cpp__incl.pdf Graphic file (type pdf)
 <use CliHandler_8cpp__incl.pdf>
 Package pdftex.def Info: CliHandler_8cpp__incl.pdf  used on input line 9.
-(pdftex.def)             Requested size: 213.0pt x 154.99922pt.
- [45]) (./CliHandler_8cpp_source.tex) (./JSONData_8cpp.tex <./JSONData_8cpp__in
-cl.pdf>
-<JSONData_8cpp__incl.pdf, id=2015, 492.84125pt x 210.7875pt>
+(pdftex.def)             Requested size: 213.0pt x 209.99898pt.
+) (./CliHandler_8cpp_source.tex [59])
+(./JSONData_8cpp.tex <./JSONData_8cpp__incl.pdf>
+<JSONData_8cpp__incl.pdf, id=3276, 598.235pt x 210.7875pt>
 File: JSONData_8cpp__incl.pdf Graphic file (type pdf)
 <use JSONData_8cpp__incl.pdf>
-Package pdftex.def Info: JSONData_8cpp__incl.pdf  used on input line 12.
-(pdftex.def)             Requested size: 350.0pt x 149.70198pt.
- [46]) (./JSONData_8cpp_source.tex)
-(./JSONHandler_8cpp.tex <./JSONHandler_8cpp__incl.pdf>
-<JSONHandler_8cpp__incl.pdf, id=2061, 666.49pt x 265.99374pt>
+Package pdftex.def Info: JSONData_8cpp__incl.pdf  used on input line 13.
+(pdftex.def)             Requested size: 350.0pt x 123.32466pt.
+) (./JSONData_8cpp_source.tex
+[60]) (./JSONHandler_8cpp.tex <./JSONHandler_8cpp__incl.pdf>
+<JSONHandler_8cpp__incl.pdf, id=3354, 694.595pt x 265.99374pt>
 File: JSONHandler_8cpp__incl.pdf Graphic file (type pdf)
 <use JSONHandler_8cpp__incl.pdf>
 Package pdftex.def Info: JSONHandler_8cpp__incl.pdf  used on input line 14.
-(pdftex.def)             Requested size: 350.0pt x 139.68533pt.
- [47])
-(./JSONHandler_8cpp_source.tex [48]) (./StartupHandler_8cpp.tex <./StartupHandl
+(pdftex.def)             Requested size: 350.0pt x 134.03557pt.
+ [61])
+(./JSONHandler_8cpp_source.tex [62]) (./LogAndOut_8cpp.tex <./LogAndOut_8cpp__i
+ncl.pdf>
+<LogAndOut_8cpp__incl.pdf, id=3550, 474.77374pt x 210.7875pt>
+File: LogAndOut_8cpp__incl.pdf Graphic file (type pdf)
+<use LogAndOut_8cpp__incl.pdf>
+Package pdftex.def Info: LogAndOut_8cpp__incl.pdf  used on input line 11.
+(pdftex.def)             Requested size: 350.0pt x 155.39815pt.
+) (./LogAndOut_8cpp_source.tex [63]) (./StartupHandler_8cpp.tex <./StartupHandl
 er_8cpp__incl.pdf>
-<StartupHandler_8cpp__incl.pdf, id=2221, 513.92pt x 210.7875pt>
+<StartupHandler_8cpp__incl.pdf, id=3651, 568.1225pt x 210.7875pt>
 File: StartupHandler_8cpp__incl.pdf Graphic file (type pdf)
 <use StartupHandler_8cpp__incl.pdf>
-Package pdftex.def Info: StartupHandler_8cpp__incl.pdf  used on input line 14.
-(pdftex.def)             Requested size: 350.0pt x 143.55553pt.
- [49]) (./StartupHandler_8cpp_source.tex [50]) [51] [52
-
-]
-(./refman.ind
+Package pdftex.def Info: StartupHandler_8cpp__incl.pdf  used on input line 15.
+(pdftex.def)             Requested size: 350.0pt x 129.86351pt.
+) (./StartupHandler_8cpp_source.tex [64] [65])
+(./Verbose_8cpp.tex <./Verbose_8cpp__incl.pdf>
+<Verbose_8cpp__incl.pdf, id=3817, 434.62375pt x 210.7875pt>
+File: Verbose_8cpp__incl.pdf Graphic file (type pdf)
+<use Verbose_8cpp__incl.pdf>
+Package pdftex.def Info: Verbose_8cpp__incl.pdf  used on input line 10.
+(pdftex.def)             Requested size: 350.0pt x 169.75595pt.
+) (./Verbose_8cpp_source.tex)
+[66] (./refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
- [53
+ [67
 
 
-] [54]) (./refman.aux)
+
+] [68] [69] [70
+
+]) (./refman.aux)
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 72A9A59453A01E5282BBA4D7D897D97F;22616.
+(rerunfilecheck)             Checksum: 9664659012A84F8721113540ACDCD8EF;36673.
  ) 
 Here is how much of TeX's memory you used:
- 19512 strings out of 476025
- 336557 string characters out of 5796497
- 1872388 words of memory out of 5000000
- 38659 multiletter control sequences out of 15000+600000
- 570390 words of font info for 104 fonts, out of 8000000 for 9000
+ 20199 strings out of 476025
+ 358474 string characters out of 5796497
+ 1873388 words of memory out of 5000000
+ 38937 multiletter control sequences out of 15000+600000
+ 571544 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,16n,117p,520b,740s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,16n,117p,1559b,740s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/
@@ -1383,10 +1501,10 @@ rro8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texmf-dist/fonts/
 type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/u
 hvro8a.pfb>
-Output written on refman.pdf (60 pages, 479276 bytes).
+Output written on refman.pdf (78 pages, 646227 bytes).
 PDF statistics:
- 2773 PDF objects out of 2984 (max. 8388607)
- 2546 compressed objects within 26 object streams
- 898 named destinations out of 1000 (max. 500000)
- 1062 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4436 PDF objects out of 5155 (max. 8388607)
+ 4134 compressed objects within 42 object streams
+ 1284 named destinations out of 1440 (max. 500000)
+ 1714 words of extra memory for PDF output out of 10000 (max. 10000000)
 

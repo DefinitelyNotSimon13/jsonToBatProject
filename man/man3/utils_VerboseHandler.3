@@ -1,0 +1,86 @@
+.TH "utils::VerboseHandler" 3 "Thu Feb 29 2024 12:13:30" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+utils::VerboseHandler
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Verbose\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBisVerbose\fP () const"
+.br
+.ti -1c
+.RI "void \fBsetVerbose\fP (bool verbose)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBVerboseHandler\fP & \fBgetInstance\fP ()"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBVerboseHandler\fP ()=default"
+.br
+.ti -1c
+.RI "\fBVerboseHandler\fP (const \fBVerboseHandler\fP &)=delete"
+.br
+.ti -1c
+.RI "\fBVerboseHandler\fP & \fBoperator=\fP (const \fBVerboseHandler\fP &)=delete"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fBverboseFlag\fP = false"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line \fB6\fP of file \fBVerbose\&.hpp\fP\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "utils::VerboseHandler::VerboseHandler ()\fC [private]\fP, \fC [default]\fP"
+
+.SS "utils::VerboseHandler::VerboseHandler (const \fBVerboseHandler\fP &)\fC [private]\fP, \fC [delete]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static \fBVerboseHandler\fP & utils::VerboseHandler::getInstance ()\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Definition at line \fB8\fP of file \fBVerbose\&.hpp\fP\&.
+.SS "bool utils::VerboseHandler::isVerbose () const"
+
+.PP
+Definition at line \fB5\fP of file \fBVerbose\&.cpp\fP\&.
+.PP
+References \fBverboseFlag\fP\&.
+.SS "\fBVerboseHandler\fP & utils::VerboseHandler::operator= (const \fBVerboseHandler\fP &)\fC [private]\fP, \fC [delete]\fP"
+
+.SS "void utils::VerboseHandler::setVerbose (bool verbose)"
+
+.PP
+Definition at line \fB7\fP of file \fBVerbose\&.cpp\fP\&.
+.PP
+References \fBLOG_INFO\fP, and \fBverboseFlag\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "bool utils::VerboseHandler::verboseFlag = false\fC [private]\fP"
+
+.PP
+Definition at line \fB22\fP of file \fBVerbose\&.hpp\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for jsonToBatProject from the source code\&.

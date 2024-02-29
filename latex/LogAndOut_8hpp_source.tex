@@ -1,0 +1,57 @@
+\doxysection{Log\+And\+Out.\+hpp}
+\hypertarget{LogAndOut_8hpp_source}{}\label{LogAndOut_8hpp_source}\index{src/headers/LogAndOut.hpp@{src/headers/LogAndOut.hpp}}
+\mbox{\hyperlink{LogAndOut_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#ifndef\ LOGANDOUT\_HPP}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00002}00002\ \textcolor{preprocessor}{\#define\ LOGANDOUT\_HPP}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <easylogging++.h>}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00007}00007\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00008}\mbox{\hyperlink{namespaceutils}{00008}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespaceutils}{utils}}\ \{}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00010}\mbox{\hyperlink{LogAndOut_8hpp_aeb4f36db01bd128c7afeac5889dac311}{00010}}\ \textcolor{preprocessor}{\#define\ LOG\_INFO\ utils::log(utils::LogLevel::INFO,\ "{}-\/-\/\ "{})}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00011}\mbox{\hyperlink{LogAndOut_8hpp_aced66975c154ea0e2a8ec3bc818b4e08}{00011}}\ \textcolor{preprocessor}{\#define\ LOG\_ERROR\ utils::log(utils::LogLevel::ERROR)}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00012}\mbox{\hyperlink{LogAndOut_8hpp_adf4476a6a4ea6c74231c826e899d7189}{00012}}\ \textcolor{preprocessor}{\#define\ LOG\_WARNING\ utils::log(utils::LogLevel::WARNING)}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00013}\mbox{\hyperlink{LogAndOut_8hpp_a6ff63e8955665c4a58b1598f2b07c51a}{00013}}\ \textcolor{preprocessor}{\#define\ LOG\_DEBUG\ utils::log(utils::LogLevel::DEBUG)}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00014}\mbox{\hyperlink{LogAndOut_8hpp_a61a3c9a18380aafb6e430e79bf596557}{00014}}\ \textcolor{preprocessor}{\#define\ OUTPUT\ utils::log(utils::LogLevel::OUT,\ "{}Output:\ "{})}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00015}00015\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00016}\mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{00016}}\ \textcolor{keyword}{enum\ class}\ \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{LogLevel}}\ \{\ \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dda551b723eafd6a31d444fcb2f5920fbd3}{INFO}},\ \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dda059e9861e0400dfbe05c98a841f3f96b}{WARNING}},\ \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017ddabb1ca97ec761fc37101737ba0aa2e7c5}{ERROR}},\ \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dda19da7170bea36556dde582519795f3fc}{FATAL}},\ \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017ddadc30ec20708ef7b0f641ef78b7880a15}{DEBUG}},\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00017}00017\ \ \ \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017ddaef373774188a51f80463f37b6bd9e83a}{OUT}},\ \};}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00024}\mbox{\hyperlink{classutils_1_1LogAndOut}{00024}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}\ \{}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00025}00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00026}\mbox{\hyperlink{classutils_1_1LogAndOut_a2b387f86818fc921925d1ff544674721}{00026}}\ \ \ \mbox{\hyperlink{classutils_1_1LogAndOut_a2b387f86818fc921925d1ff544674721}{LogAndOut}}(\mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{LogLevel}}\ newLevel)\ :\ \mbox{\hyperlink{classutils_1_1LogAndOut_a35180695c3e8bbb40e3ce91ce883db3b}{level}}(newLevel)\ \{\}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00027}\mbox{\hyperlink{classutils_1_1LogAndOut_a91d3f1f782ae053c29b6a0f5f1d6ced0}{00027}}\ \ \ \mbox{\hyperlink{classutils_1_1LogAndOut_a91d3f1f782ae053c29b6a0f5f1d6ced0}{LogAndOut}}(\textcolor{keyword}{const}\ std::string\ \&newPrefix,\ \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{LogLevel}}\ newLevel)}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00029}00029\ \ \ \ \ \ \ :\ \mbox{\hyperlink{classutils_1_1LogAndOut_a1fba78f675b229a0df55c2f79d1b582d}{prefix}}(newPrefix),\ \mbox{\hyperlink{classutils_1_1LogAndOut_a35180695c3e8bbb40e3ce91ce883db3b}{level}}(newLevel)\ \{\}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00030}00030\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00031}\mbox{\hyperlink{classutils_1_1LogAndOut_a8cd94b522ac27fffc5529f30fafae3b9}{00031}}\ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>\ \mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}\ \&\mbox{\hyperlink{classutils_1_1LogAndOut_a8cd94b522ac27fffc5529f30fafae3b9}{operator<<}}(\textcolor{keyword}{const}\ T\ \&val)\ \{}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00032}00032\ \ \ \ \ \mbox{\hyperlink{classutils_1_1LogAndOut_a5d8d3d5d5affc9c85f924c9564a94f69}{buffer}}\ <<\ val;}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00033}00033\ \ \ \ \ \textcolor{keywordflow}{return}\ *\textcolor{keyword}{this};}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00034}00034\ \ \ \}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00035}00035\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00036}\mbox{\hyperlink{classutils_1_1LogAndOut_a184f1de4c36cfe06c77fd35200dff2ae}{00036}}\ \ \ \textcolor{keyword}{typedef}\ std::ostream\ \&(*Manipulator)(std::ostream\ \&);}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00037}00037\ \ \ \mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}\ \&\mbox{\hyperlink{classutils_1_1LogAndOut_a8cd94b522ac27fffc5529f30fafae3b9}{operator<<}}(\mbox{\hyperlink{classutils_1_1LogAndOut_a184f1de4c36cfe06c77fd35200dff2ae}{Manipulator}}\ manipulator);}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00039}00039\ \ \ \mbox{\hyperlink{classutils_1_1LogAndOut_a9d254c9845529d649454f048bcbce982}{\string~LogAndOut}}();}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00040}00040\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00041}00041\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00042}\mbox{\hyperlink{classutils_1_1LogAndOut_a1fba78f675b229a0df55c2f79d1b582d}{00042}}\ \ \ std::string\ \mbox{\hyperlink{classutils_1_1LogAndOut_a1fba78f675b229a0df55c2f79d1b582d}{prefix}};}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00043}\mbox{\hyperlink{classutils_1_1LogAndOut_a35180695c3e8bbb40e3ce91ce883db3b}{00043}}\ \ \ \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{LogLevel}}\ \mbox{\hyperlink{classutils_1_1LogAndOut_a35180695c3e8bbb40e3ce91ce883db3b}{level}};}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00044}\mbox{\hyperlink{classutils_1_1LogAndOut_a5d8d3d5d5affc9c85f924c9564a94f69}{00044}}\ \ \ std::ostringstream\ \mbox{\hyperlink{classutils_1_1LogAndOut_a5d8d3d5d5affc9c85f924c9564a94f69}{buffer}};}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00045}00045\ \};}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00046}\mbox{\hyperlink{namespaceutils_a9d7d725816e0a1390d7246dc9aeef37d}{00046}}\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}\ \mbox{\hyperlink{namespaceutils_a9d7d725816e0a1390d7246dc9aeef37d}{log}}()\ \{\ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}(\mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dda551b723eafd6a31d444fcb2f5920fbd3}{LogLevel::INFO}});\ \}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00047}\mbox{\hyperlink{namespaceutils_a03f502e2529ac30da9dad994be0823f0}{00047}}\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}\ \mbox{\hyperlink{namespaceutils_a9d7d725816e0a1390d7246dc9aeef37d}{log}}(\textcolor{keyword}{const}\ std::string\ \&prefix)\ \{}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00048}00048\ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}(prefix,\ \mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dda551b723eafd6a31d444fcb2f5920fbd3}{LogLevel::INFO}});}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00049}00049\ \}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00050}\mbox{\hyperlink{namespaceutils_aae5205b125fc925a7b11a97953fcd774}{00050}}\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}\ \mbox{\hyperlink{namespaceutils_a9d7d725816e0a1390d7246dc9aeef37d}{log}}(\mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{LogLevel}}\ level)\ \{\ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}(level);\ \}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00051}\mbox{\hyperlink{namespaceutils_a628d73f59415273f07d2220e1285149d}{00051}}\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}\ \mbox{\hyperlink{namespaceutils_a9d7d725816e0a1390d7246dc9aeef37d}{log}}(\mbox{\hyperlink{namespaceutils_a6b50893705cf2a59daf6b680304017dd}{LogLevel}}\ level,\ \textcolor{keyword}{const}\ std::string\ \&prefix)\ \{}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00052}00052\ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{classutils_1_1LogAndOut}{LogAndOut}}(prefix,\ level);}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00053}00053\ \}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00054}00054\ \}\ \textcolor{comment}{//\ namespace\ utils}}
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00055}00055\ }
+\DoxyCodeLine{\Hypertarget{LogAndOut_8hpp_source_l00056}00056\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ LOGANDOUT\_HPP}}
+
+\end{DoxyCode}

@@ -1,4 +1,4 @@
-.TH "utils" 3 "Wed Feb 28 2024 22:07:52" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.TH "utils" 3 "Thu Feb 29 2024 12:13:30" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -11,15 +11,37 @@ utils \- Namespace for utility functions\&.
 
 .in +1c
 .ti -1c
+.RI "class \fBLogAndOut\fP"
+.br
+.ti -1c
 .RI "class \fBStartupHandler\fP"
 .br
 .RI "Handles startup task for the application\&. "
+.ti -1c
+.RI "class \fBVerboseHandler\fP"
+.br
 .in -1c
-.SS "Variables"
+.SS "Enumerations"
 
 .in +1c
 .ti -1c
-.RI "static int \fBverbose\fP = 0"
+.RI "enum class \fBLogLevel\fP { \fBINFO\fP, \fBWARNING\fP, \fBERROR\fP, \fBFATAL\fP, \fBDEBUG\fP, \fBOUT\fP }"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLogAndOut\fP \fBlog\fP ()"
+.br
+.ti -1c
+.RI "\fBLogAndOut\fP \fBlog\fP (const std::string &prefix)"
+.br
+.ti -1c
+.RI "\fBLogAndOut\fP \fBlog\fP (\fBLogLevel\fP level)"
+.br
+.ti -1c
+.RI "\fBLogAndOut\fP \fBlog\fP (\fBLogLevel\fP level, const std::string &prefix)"
 .br
 .in -1c
 .SH "Detailed Description"
@@ -27,12 +49,49 @@ utils \- Namespace for utility functions\&.
 Namespace for utility functions\&. 
 
 This namespace contains utility functions for the application\&. Currently, it contains the \fBStartupHandler\fP class\&. 
-.SH "Variable Documentation"
+.SH "Enumeration Type Documentation"
 .PP 
-.SS "int utils::verbose = 0\fC [static]\fP"
+.SS "enum class \fButils::LogLevel\fP\fC [strong]\fP"
 
 .PP
-Definition at line \fB11\fP of file \fBStartupHandler\&.cpp\fP\&.
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIINFO \fP\fP
+.TP
+\fB\fIWARNING \fP\fP
+.TP
+\fB\fIERROR \fP\fP
+.TP
+\fB\fIFATAL \fP\fP
+.TP
+\fB\fIDEBUG \fP\fP
+.TP
+\fB\fIOUT \fP\fP
+.PP
+Definition at line \fB16\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SH "Function Documentation"
+.PP 
+.SS "\fBLogAndOut\fP utils::log ()\fC [inline]\fP"
+
+.PP
+Definition at line \fB46\fP of file \fBLogAndOut\&.hpp\fP\&.
+.PP
+References \fBINFO\fP\&.
+.SS "\fBLogAndOut\fP utils::log (const std::string & prefix)\fC [inline]\fP"
+
+.PP
+Definition at line \fB47\fP of file \fBLogAndOut\&.hpp\fP\&.
+.PP
+References \fBINFO\fP\&.
+.SS "\fBLogAndOut\fP utils::log (\fBLogLevel\fP level)\fC [inline]\fP"
+
+.PP
+Definition at line \fB50\fP of file \fBLogAndOut\&.hpp\fP\&.
+.SS "\fBLogAndOut\fP utils::log (\fBLogLevel\fP level, const std::string & prefix)\fC [inline]\fP"
+
+.PP
+Definition at line \fB51\fP of file \fBLogAndOut\&.hpp\fP\&.
 .SH "Author"
 .PP 
 Generated automatically by Doxygen for jsonToBatProject from the source code\&.

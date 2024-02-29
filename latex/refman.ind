@@ -1,190 +1,316 @@
 \begin{theindex}
 
+  \item {\texorpdfstring{$\sim$}{\string~}LogAndOut}
+    \subitem {utils::LogAndOut}, \hyperpage{35}
+
+  \indexspace
+
   \item {addCommand}
-    \subitem {json::JSONData}, \hyperpage{16}
+    \subitem {json::JSONData}, \hyperpage{20}
   \item {addEnvironmentVariable}
-    \subitem {json::JSONData}, \hyperpage{17}
-  \item {addPathValue}
-    \subitem {json::JSONData}, \hyperpage{17}
-  \item {application}
     \subitem {json::JSONData}, \hyperpage{21}
+  \item {addPathValue}
+    \subitem {json::JSONData}, \hyperpage{21}
+  \item {application}
+    \subitem {json::JSONData}, \hyperpage{25}
   \item {assignApplication}
-    \subitem {json::JSONHandler}, \hyperpage{23}
+    \subitem {json::JSONHandler}, \hyperpage{27}
   \item {assignCommand}
-    \subitem {json::JSONHandler}, \hyperpage{23}
+    \subitem {json::JSONHandler}, \hyperpage{27}
   \item {assignEntries}
-    \subitem {json::JSONHandler}, \hyperpage{24}
+    \subitem {json::JSONHandler}, \hyperpage{28}
   \item {assignEnvironmentVariable}
-    \subitem {json::JSONHandler}, \hyperpage{25}
+    \subitem {json::JSONHandler}, \hyperpage{29}
   \item {assignHideShell}
-    \subitem {json::JSONHandler}, \hyperpage{26}
+    \subitem {json::JSONHandler}, \hyperpage{30}
   \item {assignOutputFile}
-    \subitem {json::JSONHandler}, \hyperpage{26}
+    \subitem {json::JSONHandler}, \hyperpage{30}
   \item {assignPathValue}
-    \subitem {json::JSONHandler}, \hyperpage{26}
+    \subitem {json::JSONHandler}, \hyperpage{30}
 
   \indexspace
 
   \item {batch}, \hyperpage{11}
-  \item {batch::BatchCreator}, \hyperpage{13}
-    \subitem {BatchCreator}, \hyperpage{14}
-    \subitem {batchFile}, \hyperpage{15}
-    \subitem {createBatchFile}, \hyperpage{14}
-    \subitem {jsonData}, \hyperpage{15}
-    \subitem {writeApplication}, \hyperpage{14}
-    \subitem {writeCommands}, \hyperpage{14}
-    \subitem {writeEnvironmentVariables}, \hyperpage{14}
-    \subitem {writeHideShellEnd}, \hyperpage{14}
-    \subitem {writeHideShellStart}, \hyperpage{14}
-    \subitem {writePathValue}, \hyperpage{14}
-    \subitem {writeShell}, \hyperpage{15}
+  \item {batch::BatchCreator}, \hyperpage{17}
+    \subitem {BatchCreator}, \hyperpage{18}
+    \subitem {batchFile}, \hyperpage{19}
+    \subitem {createBatchFile}, \hyperpage{18}
+    \subitem {jsonData}, \hyperpage{19}
+    \subitem {writeApplication}, \hyperpage{18}
+    \subitem {writeCommands}, \hyperpage{18}
+    \subitem {writeEnvironmentVariables}, \hyperpage{18}
+    \subitem {writeHideShellEnd}, \hyperpage{18}
+    \subitem {writeHideShellStart}, \hyperpage{18}
+    \subitem {writePathValue}, \hyperpage{18}
+    \subitem {writeShell}, \hyperpage{19}
   \item {BatchCreator}
-    \subitem {batch::BatchCreator}, \hyperpage{14}
+    \subitem {batch::BatchCreator}, \hyperpage{18}
   \item {batchFile}
-    \subitem {batch::BatchCreator}, \hyperpage{15}
+    \subitem {batch::BatchCreator}, \hyperpage{19}
+  \item {BLACK\_FG}
+    \subitem {cli}, \hyperpage{12}
+  \item {BLINKING}
+    \subitem {cli}, \hyperpage{12}
+  \item {BLUE\_BG}
+    \subitem {cli}, \hyperpage{12}
+  \item {BLUE\_FG}
+    \subitem {cli}, \hyperpage{12}
+  \item {BOLD}
+    \subitem {cli}, \hyperpage{12}
+  \item {buffer}
+    \subitem {utils::LogAndOut}, \hyperpage{36}
   \item {Bug List}, \hyperpage{1}
 
   \indexspace
 
-  \item {clInterface}, \hyperpage{11}
-  \item {clInterface::CliHandler}, \hyperpage{15}
+  \item {CLEAR\_TERMINAL}
+    \subitem {cli}, \hyperpage{12}
+  \item {cli}, \hyperpage{11}
+    \subitem {BLACK\_FG}, \hyperpage{12}
+    \subitem {BLINKING}, \hyperpage{12}
+    \subitem {BLUE\_BG}, \hyperpage{12}
+    \subitem {BLUE\_FG}, \hyperpage{12}
+    \subitem {BOLD}, \hyperpage{12}
+    \subitem {CLEAR\_TERMINAL}, \hyperpage{12}
+    \subitem {CYAN\_BG}, \hyperpage{12}
+    \subitem {CYAN\_FG}, \hyperpage{12}
+    \subitem {DIM}, \hyperpage{13}
+    \subitem {ERROR}, \hyperpage{13}
+    \subitem {GREEN\_BG}, \hyperpage{13}
+    \subitem {GREEN\_FG}, \hyperpage{13}
+    \subitem {ITALIC}, \hyperpage{13}
+    \subitem {MAGENTA\_BG}, \hyperpage{13}
+    \subitem {MAGENTA\_FG}, \hyperpage{13}
+    \subitem {RED\_BG}, \hyperpage{13}
+    \subitem {RED\_FG}, \hyperpage{14}
+    \subitem {RESET}, \hyperpage{14}
+    \subitem {UNDERLINE}, \hyperpage{14}
+    \subitem {WHITE\_BG}, \hyperpage{14}
+    \subitem {WHITE\_FG}, \hyperpage{14}
+    \subitem {YELLOW\_BG}, \hyperpage{14}
+    \subitem {YELLOW\_FG}, \hyperpage{14}
+  \item {cli::CliHandler}, \hyperpage{19}
+  \item {clInterface}, \hyperpage{15}
   \item {commands}
-    \subitem {json::JSONData}, \hyperpage{21}
+    \subitem {json::JSONData}, \hyperpage{25}
   \item {createBatchFile}
-    \subitem {batch::BatchCreator}, \hyperpage{14}
+    \subitem {batch::BatchCreator}, \hyperpage{18}
   \item {createJSONData}
-    \subitem {json::JSONHandler}, \hyperpage{27}
+    \subitem {json::JSONHandler}, \hyperpage{31}
+  \item {CYAN\_BG}
+    \subitem {cli}, \hyperpage{12}
+  \item {CYAN\_FG}
+    \subitem {cli}, \hyperpage{12}
 
   \indexspace
 
   \item {data}
-    \subitem {json::JSONHandler}, \hyperpage{30}
+    \subitem {json::JSONHandler}, \hyperpage{34}
+  \item {DEBUG}
+    \subitem {utils}, \hyperpage{16}
+  \item {DIM}
+    \subitem {cli}, \hyperpage{13}
 
   \indexspace
 
   \item {environmentVariables}
-    \subitem {json::JSONData}, \hyperpage{21}
+    \subitem {json::JSONData}, \hyperpage{25}
+  \item {ERROR}
+    \subitem {cli}, \hyperpage{13}
+    \subitem {utils}, \hyperpage{16}
+
+  \indexspace
+
+  \item {FATAL}
+    \subitem {utils}, \hyperpage{16}
+  \item {FL}
+    \subitem {main.cpp}, \hyperpage{56}
 
   \indexspace
 
   \item {getApplication}
-    \subitem {json::JSONData}, \hyperpage{18}
+    \subitem {json::JSONData}, \hyperpage{22}
   \item {getCommands}
-    \subitem {json::JSONData}, \hyperpage{18}
+    \subitem {json::JSONData}, \hyperpage{22}
   \item {getEnvironmentVariables}
-    \subitem {json::JSONData}, \hyperpage{18}
+    \subitem {json::JSONData}, \hyperpage{22}
   \item {getHideShell}
-    \subitem {json::JSONData}, \hyperpage{18}
+    \subitem {json::JSONData}, \hyperpage{22}
+  \item {getInstance}
+    \subitem {utils::VerboseHandler}, \hyperpage{41}
   \item {getJSONData}
-    \subitem {json::JSONHandler}, \hyperpage{28}
+    \subitem {json::JSONHandler}, \hyperpage{32}
   \item {getOptions}
-    \subitem {utils::StartupHandler}, \hyperpage{32}
+    \subitem {utils::StartupHandler}, \hyperpage{38}
   \item {getOutputFile}
-    \subitem {json::JSONData}, \hyperpage{19}
+    \subitem {json::JSONData}, \hyperpage{23}
   \item {getPathValues}
-    \subitem {json::JSONData}, \hyperpage{19}
+    \subitem {json::JSONData}, \hyperpage{23}
+  \item {GREEN\_BG}
+    \subitem {cli}, \hyperpage{13}
+  \item {GREEN\_FG}
+    \subitem {cli}, \hyperpage{13}
 
   \indexspace
 
   \item {hideShell}
-    \subitem {json::JSONData}, \hyperpage{21}
+    \subitem {json::JSONData}, \hyperpage{25}
 
   \indexspace
 
+  \item {INFO}
+    \subitem {utils}, \hyperpage{16}
   \item {initEasyLogging}
-    \subitem {utils::StartupHandler}, \hyperpage{33}
+    \subitem {utils::StartupHandler}, \hyperpage{39}
+  \item {isVerbose}
+    \subitem {utils::VerboseHandler}, \hyperpage{41}
+  \item {ITALIC}
+    \subitem {cli}, \hyperpage{13}
 
   \indexspace
 
-  \item {json}, \hyperpage{11}
-  \item {json::JSONData}, \hyperpage{15}
-    \subitem {addCommand}, \hyperpage{16}
-    \subitem {addEnvironmentVariable}, \hyperpage{17}
-    \subitem {addPathValue}, \hyperpage{17}
-    \subitem {application}, \hyperpage{21}
-    \subitem {commands}, \hyperpage{21}
-    \subitem {environmentVariables}, \hyperpage{21}
-    \subitem {getApplication}, \hyperpage{18}
-    \subitem {getCommands}, \hyperpage{18}
-    \subitem {getEnvironmentVariables}, \hyperpage{18}
-    \subitem {getHideShell}, \hyperpage{18}
-    \subitem {getOutputFile}, \hyperpage{19}
-    \subitem {getPathValues}, \hyperpage{19}
-    \subitem {hideShell}, \hyperpage{21}
-    \subitem {outputfile}, \hyperpage{21}
-    \subitem {pathValues}, \hyperpage{21}
-    \subitem {setApplication}, \hyperpage{19}
-    \subitem {setHideShell}, \hyperpage{20}
-    \subitem {setOutputFile}, \hyperpage{20}
-    \subitem {suffixLength}, \hyperpage{21}
-  \item {json::JSONHandler}, \hyperpage{22}
-    \subitem {assignApplication}, \hyperpage{23}
-    \subitem {assignCommand}, \hyperpage{23}
-    \subitem {assignEntries}, \hyperpage{24}
-    \subitem {assignEnvironmentVariable}, \hyperpage{25}
-    \subitem {assignHideShell}, \hyperpage{26}
-    \subitem {assignOutputFile}, \hyperpage{26}
-    \subitem {assignPathValue}, \hyperpage{26}
-    \subitem {createJSONData}, \hyperpage{27}
-    \subitem {data}, \hyperpage{30}
-    \subitem {getJSONData}, \hyperpage{28}
-    \subitem {JSONHandler}, \hyperpage{23}
-    \subitem {parseFile}, \hyperpage{29}
-    \subitem {root}, \hyperpage{30}
+  \item {json}, \hyperpage{15}
+  \item {json::JSONData}, \hyperpage{19}
+    \subitem {addCommand}, \hyperpage{20}
+    \subitem {addEnvironmentVariable}, \hyperpage{21}
+    \subitem {addPathValue}, \hyperpage{21}
+    \subitem {application}, \hyperpage{25}
+    \subitem {commands}, \hyperpage{25}
+    \subitem {environmentVariables}, \hyperpage{25}
+    \subitem {getApplication}, \hyperpage{22}
+    \subitem {getCommands}, \hyperpage{22}
+    \subitem {getEnvironmentVariables}, \hyperpage{22}
+    \subitem {getHideShell}, \hyperpage{22}
+    \subitem {getOutputFile}, \hyperpage{23}
+    \subitem {getPathValues}, \hyperpage{23}
+    \subitem {hideShell}, \hyperpage{25}
+    \subitem {outputfile}, \hyperpage{25}
+    \subitem {pathValues}, \hyperpage{25}
+    \subitem {setApplication}, \hyperpage{23}
+    \subitem {setHideShell}, \hyperpage{24}
+    \subitem {setOutputFile}, \hyperpage{24}
+    \subitem {suffixLength}, \hyperpage{25}
+  \item {json::JSONHandler}, \hyperpage{26}
+    \subitem {assignApplication}, \hyperpage{27}
+    \subitem {assignCommand}, \hyperpage{27}
+    \subitem {assignEntries}, \hyperpage{28}
+    \subitem {assignEnvironmentVariable}, \hyperpage{29}
+    \subitem {assignHideShell}, \hyperpage{30}
+    \subitem {assignOutputFile}, \hyperpage{30}
+    \subitem {assignPathValue}, \hyperpage{30}
+    \subitem {createJSONData}, \hyperpage{31}
+    \subitem {data}, \hyperpage{34}
+    \subitem {getJSONData}, \hyperpage{32}
+    \subitem {JSONHandler}, \hyperpage{27}
+    \subitem {parseFile}, \hyperpage{33}
+    \subitem {root}, \hyperpage{34}
   \item {jsonData}
-    \subitem {batch::BatchCreator}, \hyperpage{15}
+    \subitem {batch::BatchCreator}, \hyperpage{19}
   \item {JSONHandler}
-    \subitem {json::JSONHandler}, \hyperpage{23}
+    \subitem {json::JSONHandler}, \hyperpage{27}
 
   \indexspace
 
+  \item {level}
+    \subitem {utils::LogAndOut}, \hyperpage{36}
+  \item {log}
+    \subitem {utils}, \hyperpage{16}
+  \item {LOG\_DEBUG}
+    \subitem {LogAndOut.hpp}, \hyperpage{51}
+  \item {LOG\_ERROR}
+    \subitem {LogAndOut.hpp}, \hyperpage{51}
+  \item {LOG\_INFO}
+    \subitem {LogAndOut.hpp}, \hyperpage{51}
+  \item {LOG\_WARNING}
+    \subitem {LogAndOut.hpp}, \hyperpage{51}
+  \item {LogAndOut}
+    \subitem {utils::LogAndOut}, \hyperpage{35}
+  \item {LogAndOut.hpp}
+    \subitem {LOG\_DEBUG}, \hyperpage{51}
+    \subitem {LOG\_ERROR}, \hyperpage{51}
+    \subitem {LOG\_INFO}, \hyperpage{51}
+    \subitem {LOG\_WARNING}, \hyperpage{51}
+    \subitem {OUTPUT}, \hyperpage{51}
+  \item {LogLevel}
+    \subitem {utils}, \hyperpage{15}
+
+  \indexspace
+
+  \item {MAGENTA\_BG}
+    \subitem {cli}, \hyperpage{13}
+  \item {MAGENTA\_FG}
+    \subitem {cli}, \hyperpage{13}
   \item {main}
-    \subitem {main.cpp}, \hyperpage{42}
+    \subitem {main.cpp}, \hyperpage{56}
   \item {main.cpp}
-    \subitem {main}, \hyperpage{42}
+    \subitem {FL}, \hyperpage{56}
+    \subitem {main}, \hyperpage{56}
+  \item {Manipulator}
+    \subitem {utils::LogAndOut}, \hyperpage{35}
 
   \indexspace
 
+  \item {operator$<$$<$}
+    \subitem {utils::LogAndOut}, \hyperpage{36}
   \item {operator=}
-    \subitem {utils::StartupHandler}, \hyperpage{33}
+    \subitem {utils::StartupHandler}, \hyperpage{40}
+    \subitem {utils::VerboseHandler}, \hyperpage{42}
+  \item {OUT}
+    \subitem {utils}, \hyperpage{16}
+  \item {OUTPUT}
+    \subitem {LogAndOut.hpp}, \hyperpage{51}
   \item {outputfile}
-    \subitem {json::JSONData}, \hyperpage{21}
+    \subitem {json::JSONData}, \hyperpage{25}
 
   \indexspace
 
   \item {parseFile}
-    \subitem {json::JSONHandler}, \hyperpage{29}
+    \subitem {json::JSONHandler}, \hyperpage{33}
   \item {pathValues}
-    \subitem {json::JSONData}, \hyperpage{21}
+    \subitem {json::JSONData}, \hyperpage{25}
+  \item {prefix}
+    \subitem {utils::LogAndOut}, \hyperpage{37}
 
   \indexspace
 
+  \item {RED\_BG}
+    \subitem {cli}, \hyperpage{13}
+  \item {RED\_FG}
+    \subitem {cli}, \hyperpage{14}
+  \item {RESET}
+    \subitem {cli}, \hyperpage{14}
   \item {root}
-    \subitem {json::JSONHandler}, \hyperpage{30}
+    \subitem {json::JSONHandler}, \hyperpage{34}
 
   \indexspace
 
   \item {setApplication}
-    \subitem {json::JSONData}, \hyperpage{19}
+    \subitem {json::JSONData}, \hyperpage{23}
   \item {setHideShell}
-    \subitem {json::JSONData}, \hyperpage{20}
+    \subitem {json::JSONData}, \hyperpage{24}
   \item {setOutputFile}
-    \subitem {json::JSONData}, \hyperpage{20}
-  \item {src/headers/BatchCreator.hpp}, \hyperpage{35, 36}
-  \item {src/headers/CliHandler.hpp}, \hyperpage{36, 37}
-  \item {src/headers/JSONData.hpp}, \hyperpage{37, 38}
-  \item {src/headers/JSONHandler.hpp}, \hyperpage{39, 40}
-  \item {src/headers/StartupHandler.hpp}, \hyperpage{40, 41}
-  \item {src/main.cpp}, \hyperpage{42, 43}
-  \item {src/sources/BatchCreator.cpp}, \hyperpage{44, 45}
-  \item {src/sources/CliHandler.cpp}, \hyperpage{46}
-  \item {src/sources/JSONData.cpp}, \hyperpage{46, 47}
-  \item {src/sources/JSONHandler.cpp}, \hyperpage{48}
-  \item {src/sources/StartupHandler.cpp}, \hyperpage{49, 50}
+    \subitem {json::JSONData}, \hyperpage{24}
+  \item {setVerbose}
+    \subitem {utils::VerboseHandler}, \hyperpage{42}
+  \item {src/headers/BatchCreator.hpp}, \hyperpage{43, 44}
+  \item {src/headers/CliHandler.hpp}, \hyperpage{44}, \hyperpage{46}
+  \item {src/headers/JSONData.hpp}, \hyperpage{46, 47}
+  \item {src/headers/JSONHandler.hpp}, \hyperpage{48, 49}
+  \item {src/headers/LogAndOut.hpp}, \hyperpage{49}, \hyperpage{52}
+  \item {src/headers/StartupHandler.hpp}, \hyperpage{52, 53}
+  \item {src/headers/Verbose.hpp}, \hyperpage{54, 55}
+  \item {src/main.cpp}, \hyperpage{55}, \hyperpage{57}
+  \item {src/sources/BatchCreator.cpp}, \hyperpage{57, 58}
+  \item {src/sources/CliHandler.cpp}, \hyperpage{59, 60}
+  \item {src/sources/JSONData.cpp}, \hyperpage{60}
+  \item {src/sources/JSONHandler.cpp}, \hyperpage{61, 62}
+  \item {src/sources/LogAndOut.cpp}, \hyperpage{63}
+  \item {src/sources/StartupHandler.cpp}, \hyperpage{64, 65}
+  \item {src/sources/Verbose.cpp}, \hyperpage{66}
   \item {StartupHandler}
-    \subitem {utils::StartupHandler}, \hyperpage{31}
+    \subitem {utils::StartupHandler}, \hyperpage{38}
   \item {suffixLength}
-    \subitem {json::JSONData}, \hyperpage{21}
+    \subitem {json::JSONData}, \hyperpage{25}
 
   \indexspace
 
@@ -192,34 +318,74 @@
 
   \indexspace
 
-  \item {utils}, \hyperpage{12}
-    \subitem {verbose}, \hyperpage{12}
-  \item {utils::StartupHandler}, \hyperpage{30}
-    \subitem {getOptions}, \hyperpage{32}
-    \subitem {initEasyLogging}, \hyperpage{33}
-    \subitem {operator=}, \hyperpage{33}
-    \subitem {StartupHandler}, \hyperpage{31}
+  \item {UNDERLINE}
+    \subitem {cli}, \hyperpage{14}
+  \item {utils}, \hyperpage{15}
+    \subitem {DEBUG}, \hyperpage{16}
+    \subitem {ERROR}, \hyperpage{16}
+    \subitem {FATAL}, \hyperpage{16}
+    \subitem {INFO}, \hyperpage{16}
+    \subitem {log}, \hyperpage{16}
+    \subitem {LogLevel}, \hyperpage{15}
+    \subitem {OUT}, \hyperpage{16}
+    \subitem {WARNING}, \hyperpage{16}
+  \item {utils::LogAndOut}, \hyperpage{34}
+    \subitem {\texorpdfstring{$\sim$}{\string~}LogAndOut}, 
+		\hyperpage{35}
+    \subitem {buffer}, \hyperpage{36}
+    \subitem {level}, \hyperpage{36}
+    \subitem {LogAndOut}, \hyperpage{35}
+    \subitem {Manipulator}, \hyperpage{35}
+    \subitem {operator$<$$<$}, \hyperpage{36}
+    \subitem {prefix}, \hyperpage{37}
+  \item {utils::StartupHandler}, \hyperpage{37}
+    \subitem {getOptions}, \hyperpage{38}
+    \subitem {initEasyLogging}, \hyperpage{39}
+    \subitem {operator=}, \hyperpage{40}
+    \subitem {StartupHandler}, \hyperpage{38}
+  \item {utils::VerboseHandler}, \hyperpage{40}
+    \subitem {getInstance}, \hyperpage{41}
+    \subitem {isVerbose}, \hyperpage{41}
+    \subitem {operator=}, \hyperpage{42}
+    \subitem {setVerbose}, \hyperpage{42}
+    \subitem {verboseFlag}, \hyperpage{42}
+    \subitem {VerboseHandler}, \hyperpage{41}
 
   \indexspace
 
-  \item {verbose}
-    \subitem {utils}, \hyperpage{12}
+  \item {verboseFlag}
+    \subitem {utils::VerboseHandler}, \hyperpage{42}
+  \item {VerboseHandler}
+    \subitem {utils::VerboseHandler}, \hyperpage{41}
 
   \indexspace
 
+  \item {WARNING}
+    \subitem {utils}, \hyperpage{16}
+  \item {WHITE\_BG}
+    \subitem {cli}, \hyperpage{14}
+  \item {WHITE\_FG}
+    \subitem {cli}, \hyperpage{14}
   \item {writeApplication}
-    \subitem {batch::BatchCreator}, \hyperpage{14}
+    \subitem {batch::BatchCreator}, \hyperpage{18}
   \item {writeCommands}
-    \subitem {batch::BatchCreator}, \hyperpage{14}
+    \subitem {batch::BatchCreator}, \hyperpage{18}
   \item {writeEnvironmentVariables}
-    \subitem {batch::BatchCreator}, \hyperpage{14}
+    \subitem {batch::BatchCreator}, \hyperpage{18}
   \item {writeHideShellEnd}
-    \subitem {batch::BatchCreator}, \hyperpage{14}
+    \subitem {batch::BatchCreator}, \hyperpage{18}
   \item {writeHideShellStart}
-    \subitem {batch::BatchCreator}, \hyperpage{14}
+    \subitem {batch::BatchCreator}, \hyperpage{18}
   \item {writePathValue}
-    \subitem {batch::BatchCreator}, \hyperpage{14}
+    \subitem {batch::BatchCreator}, \hyperpage{18}
   \item {writeShell}
-    \subitem {batch::BatchCreator}, \hyperpage{15}
+    \subitem {batch::BatchCreator}, \hyperpage{19}
+
+  \indexspace
+
+  \item {YELLOW\_BG}
+    \subitem {cli}, \hyperpage{14}
+  \item {YELLOW\_FG}
+    \subitem {cli}, \hyperpage{14}
 
 \end{theindex}

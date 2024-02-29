@@ -1,4 +1,4 @@
-.TH "json::JSONData" 3 "Wed Feb 28 2024 22:07:52" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
+.TH "json::JSONData" 3 "Thu Feb 29 2024 12:13:30" "Version 0.2.0" "jsonToBatProject" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -111,9 +111,9 @@ Add a command to the commands vector\&.
 .PP
 
 .PP
-Definition at line \fB37\fP of file \fBJSONData\&.cpp\fP\&.
+Definition at line \fB40\fP of file \fBJSONData\&.cpp\fP\&.
 .PP
-References \fBcommands\fP\&.
+References \fBcommands\fP, \fBLOG_ERROR\fP, and \fBLOG_INFO\fP\&.
 .SS "void json::JSONData::addEnvironmentVariable (const std::string & name, const std::string & value)"
 
 .PP
@@ -133,9 +133,9 @@ Add an environment variable to the environmentVariables vector\&. The environmen
 .PP
 
 .PP
-Definition at line \fB46\fP of file \fBJSONData\&.cpp\fP\&.
+Definition at line \fB49\fP of file \fBJSONData\&.cpp\fP\&.
 .PP
-References \fBenvironmentVariables\fP\&.
+References \fBenvironmentVariables\fP, \fBLOG_ERROR\fP, and \fBLOG_INFO\fP\&.
 .SS "void json::JSONData::addPathValue (const std::string & pathValue)"
 
 .PP
@@ -153,9 +153,9 @@ Add a path value to the pathValues vector\&.
 .PP
 
 .PP
-Definition at line \fB57\fP of file \fBJSONData\&.cpp\fP\&.
+Definition at line \fB60\fP of file \fBJSONData\&.cpp\fP\&.
 .PP
-References \fBpathValues\fP\&.
+References \fBLOG_ERROR\fP, \fBLOG_INFO\fP, and \fBpathValues\fP\&.
 .SS "const std::optional< std::string > & json::JSONData::getApplication () const\fC [inline]\fP"
 
 .PP
@@ -258,9 +258,9 @@ Set's the application\&.
 .PP
 
 .PP
-Definition at line \fB30\fP of file \fBJSONData\&.cpp\fP\&.
+Definition at line \fB32\fP of file \fBJSONData\&.cpp\fP\&.
 .PP
-References \fBapplication\fP\&.
+References \fBapplication\fP, and \fBLOG_INFO\fP\&.
 .SS "void json::JSONData::setHideShell (bool newHideShell)\fC [inline]\fP"
 
 .PP
@@ -300,9 +300,9 @@ If the output file does not end with \&.bat, the function will append \&.bat to 
 .PP
 
 .PP
-Definition at line \fB7\fP of file \fBJSONData\&.cpp\fP\&.
+Definition at line \fB8\fP of file \fBJSONData\&.cpp\fP\&.
 .PP
-References \fBoutputfile\fP, and \fBsuffixLength\fP\&.
+References \fBLOG_ERROR\fP, \fBLOG_INFO\fP, \fBLOG_WARNING\fP, \fBoutputfile\fP, and \fBsuffixLength\fP\&.
 .SH "Member Data Documentation"
 .PP 
 .SS "std::optional<std::string> json::JSONData::application\fC [private]\fP"

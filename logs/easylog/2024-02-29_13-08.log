@@ -1,0 +1,360 @@
+2024-02-29 13:08:00,461363 -- Easylogging++ initialized
+
+2024-02-29 13:08:00,461392 -- [3mStarting Application...[0m
+
+
+2024-02-29 13:08:00,461403 -- Parsing options...
+
+2024-02-29 13:08:00,461424 -- Parsing options done
+
+2024-02-29 13:08:00,461434 -- Setting verbose flag...
+
+2024-02-29 13:08:00,461447 -- Setting verbose flag to: 0
+2024-02-29 13:08:00,461456 -- Parsing other arguments ...
+
+2024-02-29 13:08:00,461466 -- Filename set to: samples/MinGW.json
+
+2024-02-29 13:08:00,461493 Output: [4mProcessing file: [3msamples/MinGW.json[0m
+
+2024-02-29 13:08:00,461505 -- Initializing JSONHandler with filename: samples/MinGW.json
+
+2024-02-29 13:08:00,461514 -- Parsing file: samples/MinGW.json
+
+2024-02-29 13:08:00,461862 -- File parsed
+
+2024-02-29 13:08:00,461932 -- Creating JSONData object for return...
+
+2024-02-29 13:08:00,461943 -- Creating JSONData object...
+
+2024-02-29 13:08:00,461955 -- Assigning outputfile...
+
+2024-02-29 13:08:00,461971 -- Setting outputfile to...
+2024-02-29 13:08:00,461981 -- Outputfile set to: MinGW.bat
+
+2024-02-29 13:08:00,461990 -- Assigning hide shell...
+
+2024-02-29 13:08:00,462001 -- Assigning application...
+
+2024-02-29 13:08:00,462013 -- Assigning entries...
+
+2024-02-29 13:08:00,462051 -- Calling function to assign command...
+
+2024-02-29 13:08:00,462061 -- Assigning command...
+
+2024-02-29 13:08:00,462074 -- Adding command: C:\sicherung\tools\MinGW\set_distro_paths.bat
+
+2024-02-29 13:08:00,462091 -- Calling function to assign environment variable...
+
+2024-02-29 13:08:00,462101 -- Assigning environment variable...
+
+2024-02-29 13:08:00,462115 -- Adding environment variable: BOOST_INCLUDEDIR=C:\sicherung\tools\MinGW\include
+
+2024-02-29 13:08:00,462130 -- Calling function to assign environment variable...
+
+2024-02-29 13:08:00,462139 -- Assigning environment variable...
+
+2024-02-29 13:08:00,462153 -- Adding environment variable: BOOST_LIBRARYDIR=C:\sicherung\tools\MinGW\lib
+
+2024-02-29 13:08:00,462167 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462177 -- Assigning path value...
+
+2024-02-29 13:08:00,462189 -- Adding path value: C:\sicherung\tools\MinGW\bin
+
+2024-02-29 13:08:00,462202 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462211 -- Assigning path value...
+
+2024-02-29 13:08:00,462223 -- Adding path value: C:\sicherung\tools\MinGW\x86_64-w64-mingw32\bin
+
+2024-02-29 13:08:00,462236 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462246 -- Assigning path value...
+
+2024-02-29 13:08:00,462258 -- Adding path value: C:\sicherung\tools\MinGW\libexec\gcc\x86_64-w64-mingw32\13.2.0
+
+2024-02-29 13:08:00,462271 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462281 -- Assigning path value...
+
+2024-02-29 13:08:00,462292 -- Adding path value: C:\sicherung\tools\MinGW\include
+
+2024-02-29 13:08:00,462305 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462314 -- Assigning path value...
+
+2024-02-29 13:08:00,462326 -- Adding path value: C:\sicherung\tools\MinGW\lib
+
+2024-02-29 13:08:00,462339 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462348 -- Assigning path value...
+
+2024-02-29 13:08:00,462360 -- Adding path value: C:\sicherung\tools\xerces-c\bin
+
+2024-02-29 13:08:00,462379 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462389 -- Assigning path value...
+
+2024-02-29 13:08:00,462401 -- Adding path value: C:\sicherung\tools\AStyle\bin
+
+2024-02-29 13:08:00,462413 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462422 -- Assigning path value...
+
+2024-02-29 13:08:00,462434 -- Adding path value: C:\sicherung\tools\cmake\bin
+
+2024-02-29 13:08:00,462446 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462455 -- Assigning path value...
+
+2024-02-29 13:08:00,462467 -- Adding path value: C:\sicherung\tools\int_tools
+
+2024-02-29 13:08:00,462480 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462489 -- Assigning path value...
+
+2024-02-29 13:08:00,462501 -- Adding path value: C:\sicherung\tools\ninja
+
+2024-02-29 13:08:00,462513 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462522 -- Assigning path value...
+
+2024-02-29 13:08:00,462534 -- Adding path value: C:\sicherung\tools\doxygen
+
+2024-02-29 13:08:00,462546 -- Calling function to assign path value...
+
+2024-02-29 13:08:00,462555 -- Assigning path value...
+
+2024-02-29 13:08:00,462567 -- Adding path value: C:\sicherung\tools\VSCode
+
+2024-02-29 13:08:00,462594 Output: - Creating Outputfile: [3mMinGW.bat[0m
+
+2024-02-29 13:08:00,462605 -- Initializing BatchCreator...
+
+2024-02-29 13:08:00,462614 -- Creating batch file...
+
+2024-02-29 13:08:00,462729 -- Writing keeping shell open after finish...
+
+2024-02-29 13:08:00,462744 -- Writing command: C:\sicherung\tools\MinGW\set_distro_paths.bat
+
+2024-02-29 13:08:00,462755 -- Writing environment variable: BOOST_INCLUDEDIR=C:\sicherung\tools\MinGW\include
+
+2024-02-29 13:08:00,462765 -- Writing environment variable: BOOST_LIBRARYDIR=C:\sicherung\tools\MinGW\lib
+
+2024-02-29 13:08:00,462775 -- Writing additional path value: C:\sicherung\tools\MinGW\bin
+
+2024-02-29 13:08:00,462785 -- Writing additional path value: C:\sicherung\tools\MinGW\x86_64-w64-mingw32\bin
+
+2024-02-29 13:08:00,462794 -- Writing additional path value: C:\sicherung\tools\MinGW\libexec\gcc\x86_64-w64-mingw32\13.2.0
+
+2024-02-29 13:08:00,462803 -- Writing additional path value: C:\sicherung\tools\MinGW\include
+
+2024-02-29 13:08:00,462811 -- Writing additional path value: C:\sicherung\tools\MinGW\lib
+
+2024-02-29 13:08:00,462820 -- Writing additional path value: C:\sicherung\tools\xerces-c\bin
+
+2024-02-29 13:08:00,462829 -- Writing additional path value: C:\sicherung\tools\AStyle\bin
+
+2024-02-29 13:08:00,462837 -- Writing additional path value: C:\sicherung\tools\cmake\bin
+
+2024-02-29 13:08:00,462845 -- Writing additional path value: C:\sicherung\tools\int_tools
+
+2024-02-29 13:08:00,462854 -- Writing additional path value: C:\sicherung\tools\ninja
+
+2024-02-29 13:08:00,462862 -- Writing additional path value: C:\sicherung\tools\doxygen
+
+2024-02-29 13:08:00,462871 -- Writing additional path value: C:\sicherung\tools\VSCode
+
+2024-02-29 13:08:00,462881 -- Adding additional paths: C:\sicherung\tools\MinGW\bin;C:\sicherung\tools\MinGW\x86_64-w64-mingw32\bin;C:\sicherung\tools\MinGW\libexec\gcc\x86_64-w64-mingw32\13.2.0;C:\sicherung\tools\MinGW\include;C:\sicherung\tools\MinGW\lib;C:\sicherung\tools\xerces-c\bin;C:\sicherung\tools\AStyle\bin;C:\sicherung\tools\cmake\bin;C:\sicherung\tools\int_tools;C:\sicherung\tools\ninja;C:\sicherung\tools\doxygen;C:\sicherung\tools\VSCode;
+
+2024-02-29 13:08:00,462897 -- No application provided, writing to close shell...
+
+2024-02-29 13:08:00,462907 -- Batch file created! Returning it...
+
+2024-02-29 13:08:00,462941 Output: - Batch file created at: [3m/home/simon/1_Coding/jsonToBatProject/MinGW.bat[0m
+
+
+2024-02-29 13:08:00,463105 Output: [32mDone! Exiting application...
+[0m
+2024-02-29 13:08:05,874587 -- Easylogging++ initialized
+
+2024-02-29 13:08:05,874613 -- [3mStarting Application...[0m
+
+
+2024-02-29 13:08:05,874624 -- Parsing options...
+
+2024-02-29 13:08:05,874642 -- Option without short version given...
+
+2024-02-29 13:08:05,874654 -- Option verbose given
+
+2024-02-29 13:08:05,874663 -- Parsing options done
+
+2024-02-29 13:08:05,874672 -- Setting verbose flag...
+
+2024-02-29 13:08:05,874683 -- Setting verbose flag to: 1
+2024-02-29 13:08:05,874707 -- Parsing other arguments ...
+
+2024-02-29 13:08:05,874719 -- Filename set to: samples/MinGW.json
+
+2024-02-29 13:08:05,874733 Output: [4mProcessing file: [3msamples/MinGW.json[0m
+
+2024-02-29 13:08:05,874747 -- Initializing JSONHandler with filename: samples/MinGW.json
+
+2024-02-29 13:08:05,874760 -- Parsing file: samples/MinGW.json
+
+2024-02-29 13:08:05,875102 -- File parsed
+
+2024-02-29 13:08:05,875166 -- Creating JSONData object for return...
+
+2024-02-29 13:08:05,875180 -- Creating JSONData object...
+
+2024-02-29 13:08:05,875194 -- Assigning outputfile...
+
+2024-02-29 13:08:05,875209 -- Setting outputfile to...
+2024-02-29 13:08:05,875223 -- Outputfile set to: MinGW.bat
+
+2024-02-29 13:08:05,875234 -- Assigning hide shell...
+
+2024-02-29 13:08:05,875250 -- Assigning application...
+
+2024-02-29 13:08:05,875265 -- Assigning entries...
+
+2024-02-29 13:08:05,875303 -- Calling function to assign command...
+
+2024-02-29 13:08:05,875316 -- Assigning command...
+
+2024-02-29 13:08:05,875331 -- Adding command: C:\sicherung\tools\MinGW\set_distro_paths.bat
+
+2024-02-29 13:08:05,875350 -- Calling function to assign environment variable...
+
+2024-02-29 13:08:05,875364 -- Assigning environment variable...
+
+2024-02-29 13:08:05,875381 -- Adding environment variable: BOOST_INCLUDEDIR=C:\sicherung\tools\MinGW\include
+
+2024-02-29 13:08:05,875399 -- Calling function to assign environment variable...
+
+2024-02-29 13:08:05,875412 -- Assigning environment variable...
+
+2024-02-29 13:08:05,875429 -- Adding environment variable: BOOST_LIBRARYDIR=C:\sicherung\tools\MinGW\lib
+
+2024-02-29 13:08:05,875447 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875459 -- Assigning path value...
+
+2024-02-29 13:08:05,875473 -- Adding path value: C:\sicherung\tools\MinGW\bin
+
+2024-02-29 13:08:05,875489 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875501 -- Assigning path value...
+
+2024-02-29 13:08:05,875517 -- Adding path value: C:\sicherung\tools\MinGW\x86_64-w64-mingw32\bin
+
+2024-02-29 13:08:05,875534 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875551 -- Assigning path value...
+
+2024-02-29 13:08:05,875567 -- Adding path value: C:\sicherung\tools\MinGW\libexec\gcc\x86_64-w64-mingw32\13.2.0
+
+2024-02-29 13:08:05,875584 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875598 -- Assigning path value...
+
+2024-02-29 13:08:05,875614 -- Adding path value: C:\sicherung\tools\MinGW\include
+
+2024-02-29 13:08:05,875630 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875642 -- Assigning path value...
+
+2024-02-29 13:08:05,875657 -- Adding path value: C:\sicherung\tools\MinGW\lib
+
+2024-02-29 13:08:05,875675 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875690 -- Assigning path value...
+
+2024-02-29 13:08:05,875713 -- Adding path value: C:\sicherung\tools\xerces-c\bin
+
+2024-02-29 13:08:05,875728 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875741 -- Assigning path value...
+
+2024-02-29 13:08:05,875757 -- Adding path value: C:\sicherung\tools\AStyle\bin
+
+2024-02-29 13:08:05,875773 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875786 -- Assigning path value...
+
+2024-02-29 13:08:05,875808 -- Adding path value: C:\sicherung\tools\cmake\bin
+
+2024-02-29 13:08:05,875823 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875834 -- Assigning path value...
+
+2024-02-29 13:08:05,875848 -- Adding path value: C:\sicherung\tools\int_tools
+
+2024-02-29 13:08:05,875864 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875875 -- Assigning path value...
+
+2024-02-29 13:08:05,875889 -- Adding path value: C:\sicherung\tools\ninja
+
+2024-02-29 13:08:05,875903 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875914 -- Assigning path value...
+
+2024-02-29 13:08:05,875928 -- Adding path value: C:\sicherung\tools\doxygen
+
+2024-02-29 13:08:05,875942 -- Calling function to assign path value...
+
+2024-02-29 13:08:05,875956 -- Assigning path value...
+
+2024-02-29 13:08:05,875972 -- Adding path value: C:\sicherung\tools\VSCode
+
+2024-02-29 13:08:05,875995 Output: - Creating Outputfile: [3mMinGW.bat[0m
+
+2024-02-29 13:08:05,876007 -- Initializing BatchCreator...
+
+2024-02-29 13:08:05,876018 -- Creating batch file...
+
+2024-02-29 13:08:05,876123 -- Writing keeping shell open after finish...
+
+2024-02-29 13:08:05,876139 -- Writing command: C:\sicherung\tools\MinGW\set_distro_paths.bat
+
+2024-02-29 13:08:05,876152 -- Writing environment variable: BOOST_INCLUDEDIR=C:\sicherung\tools\MinGW\include
+
+2024-02-29 13:08:05,876164 -- Writing environment variable: BOOST_LIBRARYDIR=C:\sicherung\tools\MinGW\lib
+
+2024-02-29 13:08:05,876178 -- Writing additional path value: C:\sicherung\tools\MinGW\bin
+
+2024-02-29 13:08:05,876193 -- Writing additional path value: C:\sicherung\tools\MinGW\x86_64-w64-mingw32\bin
+
+2024-02-29 13:08:05,876206 -- Writing additional path value: C:\sicherung\tools\MinGW\libexec\gcc\x86_64-w64-mingw32\13.2.0
+
+2024-02-29 13:08:05,876220 -- Writing additional path value: C:\sicherung\tools\MinGW\include
+
+2024-02-29 13:08:05,876233 -- Writing additional path value: C:\sicherung\tools\MinGW\lib
+
+2024-02-29 13:08:05,876246 -- Writing additional path value: C:\sicherung\tools\xerces-c\bin
+
+2024-02-29 13:08:05,876259 -- Writing additional path value: C:\sicherung\tools\AStyle\bin
+
+2024-02-29 13:08:05,876271 -- Writing additional path value: C:\sicherung\tools\cmake\bin
+
+2024-02-29 13:08:05,876284 -- Writing additional path value: C:\sicherung\tools\int_tools
+
+2024-02-29 13:08:05,876297 -- Writing additional path value: C:\sicherung\tools\ninja
+
+2024-02-29 13:08:05,876310 -- Writing additional path value: C:\sicherung\tools\doxygen
+
+2024-02-29 13:08:05,876323 -- Writing additional path value: C:\sicherung\tools\VSCode
+
+2024-02-29 13:08:05,876340 -- Adding additional paths: C:\sicherung\tools\MinGW\bin;C:\sicherung\tools\MinGW\x86_64-w64-mingw32\bin;C:\sicherung\tools\MinGW\libexec\gcc\x86_64-w64-mingw32\13.2.0;C:\sicherung\tools\MinGW\include;C:\sicherung\tools\MinGW\lib;C:\sicherung\tools\xerces-c\bin;C:\sicherung\tools\AStyle\bin;C:\sicherung\tools\cmake\bin;C:\sicherung\tools\int_tools;C:\sicherung\tools\ninja;C:\sicherung\tools\doxygen;C:\sicherung\tools\VSCode;
+
+2024-02-29 13:08:05,876360 -- No application provided, writing to close shell...
+
+2024-02-29 13:08:05,876374 -- Batch file created! Returning it...
+
+2024-02-29 13:08:05,876405 Output: - Batch file created at: [3m/home/simon/1_Coding/jsonToBatProject/MinGW.bat[0m
+
+
+2024-02-29 13:08:05,876491 Output: [32mDone! Exiting application...
+[0m

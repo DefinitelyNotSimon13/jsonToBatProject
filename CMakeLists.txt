@@ -26,6 +26,8 @@ set(SOURCES
         ${PROJECT_SOURCE_DIR}/src/sources/JSONData.cpp
         ${PROJECT_SOURCE_DIR}/src/sources/BatchCreator.cpp
         ${PROJECT_SOURCE_DIR}/src/sources/CliHandler.cpp
+        ${PROJECT_SOURCE_DIR}/src/sources/LogAndOut.cpp
+        ${PROJECT_SOURCE_DIR}/src/sources/Verbose.cpp
 )
 
 option(PRECOMPILED "Wether or not to use the precompiled versions of the libraries" OFF)

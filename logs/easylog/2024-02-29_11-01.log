@@ -1,0 +1,17 @@
+2024-02-29 11:01:28,337381 Easylogging initialized!
+2024-02-29 11:01:28,337410 [2J
+2024-02-29 11:01:28,337419 [3m
+2024-02-29 11:01:28,337427 Starting Application...
+2024-02-29 11:01:28,337435 [0m
+2024-02-29 11:01:28,337455 
+
+
+2024-02-29 11:01:28,337464 Application started!
+2024-02-29 11:01:28,337476 (Manipulator) 
+
+2024-02-29 11:01:28,337484 Parsing options...
+2024-02-29 11:01:28,337501 Parsing options done
+2024-02-29 11:01:28,337509 Parsing other arguments...
+2024-02-29 11:01:28,337516 Filename set to: samples/MinGW.json
+2024-02-29 11:01:28,337524 Filename received: samples/MinGW.json
+2024-02-29 11:01:28,338180 Application exiting!

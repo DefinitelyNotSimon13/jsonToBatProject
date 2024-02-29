@@ -1,0 +1,20 @@
+2024-02-29 13:07:45,142611 -- Easylogging++ initialized
+
+2024-02-29 13:07:45,142649 -- [3mStarting Application...[0m
+
+
+2024-02-29 13:07:45,142664 -- Parsing options...
+
+2024-02-29 13:07:45,142718 -- Option without short version given...
+
+2024-02-29 13:07:45,142734 -- Option brief given
+
+2024-02-29 13:07:45,142748 -- Parsing options done
+
+2024-02-29 13:07:45,142760 -- Setting verbose flag...
+
+2024-02-29 13:07:45,142776 -- Setting verbose flag to: 0
+2024-02-29 13:07:45,142788 -- Parsing other arguments ...
+
+2024-02-29 13:07:45,142819 No filename provided, exiting!
+

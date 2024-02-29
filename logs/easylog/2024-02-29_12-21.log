@@ -1,0 +1,16 @@
+2024-02-29 12:21:26,421890 Easylogging initialized!
+2024-02-29 12:21:26,421938 Output: [3mStarting Application...
+[0m
+2024-02-29 12:21:26,421951 Parsing options...
+2024-02-29 12:21:26,421971 Parsing options done
+2024-02-29 12:21:26,421979 Parsing other arguments...
+2024-02-29 12:21:26,421987 Filename set to: samples/MinGW.json
+2024-02-29 12:21:26,422003 Output: [4mProcessing file: [3msamples/MinGW.json[0m
+
+2024-02-29 12:21:26,422502 Output: - Creating Outputfile: [3mMinGW.bat[0m
+
+2024-02-29 12:21:26,422647 Output: - Batch file created at: [3m/home/simon/1_Coding/jsonToBatProject/MinGW.bat[0m
+
+
+2024-02-29 12:21:26,422820 [32mDone! Exiting application...
+[0m

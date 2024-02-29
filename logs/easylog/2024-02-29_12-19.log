@@ -1,0 +1,17 @@
+2024-02-29 12:19:18,404075 Easylogging initialized!
+2024-02-29 12:19:18,404103 Output: [3mStarting Application...[0m
+2024-02-29 12:19:18,404114 Parsing options...
+2024-02-29 12:19:18,404150 Unknown option given
+2024-02-29 12:19:18,404162 Parsing options done
+2024-02-29 12:19:18,404169 Parsing other arguments...
+2024-02-29 12:19:18,404184 No filename provided, exiting!
+
+2024-02-29 12:19:20,494117 Easylogging initialized!
+2024-02-29 12:19:20,494148 Output: [3mStarting Application...[0m
+2024-02-29 12:19:20,494178 No arguments provided, exiting!
+
+2024-02-29 12:19:53,064476 Easylogging initialized!
+2024-02-29 12:19:53,064519 Output: [3mStarting Application...
+[0m
+2024-02-29 12:19:53,064537 No arguments provided, exiting!
+

@@ -1,5 +1,5 @@
 #include "BatchCreator.hpp"
-#include "LogAndOut.hpp"
+#include "LoggingWrapper.hpp"
 #include <fstream>
 #include <memory>
 #include <sstream>

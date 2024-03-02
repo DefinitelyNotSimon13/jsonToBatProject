@@ -1,9 +1,9 @@
-#include "LogAndOut.hpp"
+#include "LoggingWrapper.hpp"
 #include "CliHandler.hpp"
 #include "Verbose.hpp"
 
 namespace utils {
-LogAndOut::~LogAndOut() {
+LoggingWrapper::~LoggingWrapper() {
   switch (this->level) {
   case LogLevel::OUT:
     std::cout << this->buffer.str();
@@ -35,7 +35,7 @@ LogAndOut::~LogAndOut() {
     break;
   }
 }
-LogAndOut &LogAndOut::operator<<(Manipulator manipulator) {
+LoggingWrapper &LoggingWrapper::operator<<(Manipulator manipulator) {
   manipulator(std::cout);
   this->buffer << manipulator;
   return *this;

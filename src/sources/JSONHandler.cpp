@@ -1,6 +1,6 @@
 #include "JSONHandler.hpp"
 #include "JSONData.hpp"
-#include "LogAndOut.hpp"
+#include "LoggingWrapper.hpp"
 #include <fstream>
 #include <json/json.h>
 #include <stdexcept>

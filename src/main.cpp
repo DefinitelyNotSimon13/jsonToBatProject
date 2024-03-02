@@ -2,7 +2,7 @@
 #include "CliHandler.hpp"
 #include "JSONData.hpp"
 #include "JSONHandler.hpp"
-#include "LogAndOut.hpp"
+#include "LoggingWrapper.hpp"
 #include "StartupHandler.hpp"
 
 #include <easylogging++.h>

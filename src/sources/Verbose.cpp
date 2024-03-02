@@ -1,5 +1,5 @@
 #include "Verbose.hpp"
-#include "LogAndOut.hpp"
+#include "LoggingWrapper.hpp"
 
 namespace utils {
 bool VerboseHandler::isVerbose() const { return this->verboseFlag; }

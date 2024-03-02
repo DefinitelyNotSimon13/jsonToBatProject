@@ -26,7 +26,7 @@ set(SOURCES
         ${PROJECT_SOURCE_DIR}/src/sources/JSONData.cpp
         ${PROJECT_SOURCE_DIR}/src/sources/BatchCreator.cpp
         ${PROJECT_SOURCE_DIR}/src/sources/CliHandler.cpp
-        ${PROJECT_SOURCE_DIR}/src/sources/LogAndOut.cpp
+        ${PROJECT_SOURCE_DIR}/src/sources/LoggingWrapper.cpp
         ${PROJECT_SOURCE_DIR}/src/sources/Verbose.cpp
 )
 

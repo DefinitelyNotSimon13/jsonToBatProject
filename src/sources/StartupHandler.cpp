@@ -1,5 +1,5 @@
 #include "StartupHandler.hpp"
-#include "LogAndOut.hpp"
+#include "LoggingWrapper.hpp"
 #include "Verbose.hpp"
 
 #include <getopt.h>

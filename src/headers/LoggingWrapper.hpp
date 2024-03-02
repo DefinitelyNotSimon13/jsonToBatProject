@@ -21,35 +21,35 @@ enum class LogLevel { INFO, WARNING, ERROR, FATAL, DEBUG,
  * # Bugs and Quirks
  * - Automatically makes new line for cout -- Nevermind?!
  **/
-class LogAndOut {
+class LoggingWrapper {
 public:
-  LogAndOut(LogLevel newLevel) : level(newLevel) {}
-  LogAndOut(const std::string &newPrefix, LogLevel newLevel)
+  LoggingWrapper(LogLevel newLevel) : level(newLevel) {}
+  LoggingWrapper(const std::string &newPrefix, LogLevel newLevel)
 
       : prefix(newPrefix), level(newLevel) {}
 
-  template <typename T> LogAndOut &operator<<(const T &val) {
+  template <typename T> LoggingWrapper &operator<<(const T &val) {
     buffer << val;
     return *this;
   }
 
   typedef std::ostream &(*Manipulator)(std::ostream &);
-  LogAndOut &operator<<(Manipulator manipulator);
+  LoggingWrapper &operator<<(Manipulator manipulator);
 
-  ~LogAndOut();
+  ~LoggingWrapper();
 
 private:
   std::string prefix;
   LogLevel level;
   std::ostringstream buffer;
 };
-inline LogAndOut log() { return LogAndOut(LogLevel::INFO); }
-inline LogAndOut log(const std::string &prefix) {
-  return LogAndOut(prefix, LogLevel::INFO);
+inline LoggingWrapper log() { return LoggingWrapper(LogLevel::INFO); }
+inline LoggingWrapper log(const std::string &prefix) {
+  return LoggingWrapper(prefix, LogLevel::INFO);
 }
-inline LogAndOut log(LogLevel level) { return LogAndOut(level); }
-inline LogAndOut log(LogLevel level, const std::string &prefix) {
-  return LogAndOut(prefix, level);
+inline LoggingWrapper log(LogLevel level) { return LoggingWrapper(level); }
+inline LoggingWrapper log(LogLevel level, const std::string &prefix) {
+  return LoggingWrapper(prefix, level);
 }
 } // namespace utils
 

@@ -1,5 +1,5 @@
 #include "JSONData.hpp"
-#include "LogAndOut.hpp"
+#include "LoggingWrapper.hpp"
 #include <easylogging++.h>
 #include <ostream>
 #include <stdexcept>
